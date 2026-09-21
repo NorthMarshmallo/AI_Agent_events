@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-75",
+  "source": "fresh",
+  "question": "Where were two senior doctors arrested over suspicious deaths of newborn infants on January 14, 2026?",
+  "answer": "Novokuznetsk",
+  "evidence": "14 January – Two senior doctors are arrested over the suspicious deaths of nine newborn infants at a maternity hospital in Novokuznetsk from 4 to 12 January.",
+  "page": "2026 in Russia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+  "sonnet_answer": "Rajasthan, India",
+  "agent_ok": false
+ },
+ "answer": "Я не смог найти информацию о том, где были арестованы два старших врача по подозрению в смертях новорожденных 14 января 2026 года. Возможно, эта информация еще не опубликована. \n\nFINAL: Неизвестно.",
+ "cost": 0.0006235499999999727,
+ "seconds": 13.3,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "Where were two senior doctors arrested over suspicious deaths of newborn infants on January 14, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_pKxLZBQ9s79zh7pevRs1DiXm",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"two senior doctors arrested over suspicious deaths of newborn infants January 14, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_pKxLZBQ9s79zh7pevRs1DiXm",
+   "content": "[Lucy Letby] Lucy Letby (born 4 January 1990) is a British former NHS neonatal nurse convicted of murdering seven babies and attempting to murder seven others at the Countess of Chester Hospital in Chester between June 2015 and June 2016. She was investigated after an unusual cluster of deaths in the hospital's neonatal unit. Charged in November 2020 with seven counts of murder and fifteen counts of attempted murder relating to seventeen babies, Letby was prosecuted on the basis of her presence at many of the incidents, two abnormal blood test results and skin discolouration interpreted as signs of insulin poisoning and air embolism, inconsistencies in medical records, her removal of nursing handover sheets from the hospital, and handwritten notes interpreted by the prosecution as a confession. In August 2023, she was found guilty on seven counts each of murder and attempted murder, and acquitted on two counts of attempted murder. The jury was unable to reach verdicts on six further counts. She received fourteen whole life orders, meaning life imprisonment without the possibility of parole. One of the unresolved attempted murder charges was retried in July 2024, resulting in a fifteenth whole life order. The senior management of the Countess of Chester Hospital was criticised for failing to act on clinicians' concerns, prompting the British government to commission an independent inquiry. Cheshire Police examined extra cases, resulting in three arrests related to corporate manslaughter. Two applications for permission to appeal have been refused by the Court of Appeal. Multiple experts have since challenged the prosecution's interpretation of the medical evidence, arguing that the infants' deaths were explainable by natural causes. The Criminal Cases Review Commission is considering referring the case back to the Court of Appeal."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Bh27K3eLAhInKZbfeZZDutNi",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Lucy Letby\",\"keywords\":[\"January 14, 2026\",\"two senior doctors arrested\",\"suspicious deaths of newborn infants\"],\"site\":\"en_wiki\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Bh27K3eLAhInKZbfeZZDutNi",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_mbZIjFzkZNxLdo3QM3oz8c3H",
+     "function": {
+      "name": "ru_wiki_search",
+      "arguments": "{\"query\":\"арест двух старших врачей подозрительные смерти новорожденных 14 января 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_mbZIjFzkZNxLdo3QM3oz8c3H",
+   "content": "[Список эпизодов телесериала «Новичок»] Не следует путать с Новобранец (телесериал, 1988) . « Новичо́к » [ 1 ] ( англ. The Rookie ) — американский детективный телесериал, созданный Алекси Хоули для телеканала ABC . Фильм основан на реальных событиях. Изначально планировалось 13 серий, но в начале ноября 2018 года ABC заказал семь дополнительных эпизодов [ 2 ] . В мае 2019 года сериал был продлен на второй сезон [ 3 ] , который стартовал 29 сентября и также состоял из 20 серий [ 4 ] . 21 мая 2020 года телеканал ABC продлил телесериал на третий сезон [ 5 ] . 14 мая 2021 года стало известно о продлении сериала на четвёртый сезон [ 6 ] . Премьера четвёртого сезона состоялась 26 сентября 2021 года [ 7 ] . Премьера пятого сезона состоялась 26 сентября 2022 года. Премьера шестого сезона состоялась 20 февраля 2024 года. Премьера седьмого сезона состоялась 7 января 2025 года. Обзор сезонов  Сезон Эпизоды Оригинальная дата показа Премьера сезона Финал сезона 1 20 16 октября 2018 16 апреля 2019 2 20 29 сентября 2019 10 мая 2020 3 14 3 января 2021 16 мая 2021 4 22 26 сентября 2021 15 мая 2022 5 22 [ 8 ] 26 сентября 2022 2 мая 2023 [ 8 ] 6 10 20 февраля 2024 22 мая 2024 7 18 7 января 2025 13 мая 2025 8 18 6 января 2026 4 мая 2026 Список эпизодов  Сезон 1 (2018—2019)  Основная статья: Новобранец (сезон 1) № об­щий № в се­зо­не Наз­ва­ние Ре­жис­сёр Ав­тор сце­на­рия Да­та пре­мье­ры Про­изв. код Зрители в США (млн) 1 1 « Пилотная серия » « Pilot » Лиз Фридлендер Алекси Хоули 16 октября 2018 101 5.43 [ 9 ] Джон Нолан – 45-летний разведённый строитель. Став свидетелем ограбления банка в своем маленьком городе, он решает изменить жизнь и переезжает в Лос-Анджелес, чтобы стать полицейским. Коллеги-офицеры настороженно относятся к поступку Нолана, в частности, сержант Уэйд Грей считает это проявлением кризиса среднего возраста. Наставником Нолана становится Талия Бишоп. Первые дела Нолана — бытовой спор, неуравновешенный отец, который оставляет своего ребёнка в запертой машине в жарки"
+  },
+  {
+   "role": "assistant",
+   "content": "Я не смог найти информацию о том, где были арестованы два старших врача по подозрению в смертях новорожденных 14 января 2026 года. Возможно, эта информация еще не опубликована. \n\nFINAL: Неизвестно.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

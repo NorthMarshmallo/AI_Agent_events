@@ -1,0 +1,74 @@
+{
+ "task": {
+  "id": "fresh-133",
+  "source": "fresh",
+  "question": "On what date did DeepSeek release its open-weight reasoning model DeepSeek-R1?",
+  "answer": "20 January 2025",
+  "evidence": "Released on 20 January 2025, DeepSeek-R1 surpassed ChatGPT as the most downloaded freeware app",
+  "page": "DeepSeek (chatbot)",
+  "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)"
+ },
+ "answer": "DeepSeek released its open-weight reasoning model DeepSeek-R1 on January 20, 2025. \n\nFINAL: January 20, 2025",
+ "cost": 0.0003737999999999797,
+ "seconds": 8.3,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "On what date did DeepSeek release its open-weight reasoning model DeepSeek-R1?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_M7lpWARyLSxctPbQSrpOpMeu",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"DeepSeek-R1 release date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_M7lpWARyLSxctPbQSrpOpMeu",
+   "content": "[DeepSeek] Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd., doing business as DeepSeek, is a Chinese artificial intelligence (AI) company that develops open weights large language models (LLMs). Based in Hangzhou, Zhejiang, DeepSeek is owned and funded by High-Flyer, a Chinese hedge fund."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_SNFGFG8ED2Kg4QUGAcrbvIo7",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"DeepSeek\",\"keywords\":[\"DeepSeek-R1\",\"release date\"],\"site\":\"en_wiki\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_SNFGFG8ED2Kg4QUGAcrbvIo7",
+   "content": "The company launched an eponymous chatbot alongside its DeepSeek-R1 model in January 2025.\nOn 20 January 2025, DeepSeek launched the DeepSeek-R1 model, which was free for iOS and Android.\nOn 28 May 2025, DeepSeek released DeepSeek-R1-0528 under the MIT License, which was a minor update upon R1."
+  },
+  {
+   "role": "assistant",
+   "content": "DeepSeek released its open-weight reasoning model DeepSeek-R1 on January 20, 2025. \n\nFINAL: January 20, 2025",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

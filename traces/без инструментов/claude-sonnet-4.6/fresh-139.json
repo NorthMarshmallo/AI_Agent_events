@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "fresh-139",
+  "source": "fresh",
+  "question": "What is the name of DeepSeek's math-focused AI model, released on 30 April 2025?",
+  "answer": "DeepSeek-Prover-V2-671B",
+  "evidence": "On 30 April 2025, Deepseek released its math-focused Artificial Intelligence Model named \"DeepSeek-Prover-V2-671B\".",
+  "page": "DeepSeek (chatbot)",
+  "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)"
+ },
+ "answer": "DeepSeek released a math-focused AI model called **DeepSeek-Prover-V2** on 30 April 2025.\n\nFINAL: DeepSeek-Prover-V2",
+ "cost": 0.0012480000000000269,
+ "seconds": 2.2,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of DeepSeek's math-focused AI model, released on 30 April 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": "DeepSeek released a math-focused AI model called **DeepSeek-Prover-V2** on 30 April 2025.\n\nFINAL: DeepSeek-Prover-V2",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

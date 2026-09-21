@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-20",
+  "source": "fresh",
+  "question": "In the 2026 FIFA World Cup, what format was used for the knockout stage starting June 28?",
+  "answer": "single-elimination",
+  "evidence": "The knockout stage used a single-elimination format, starting with the newly introduced round of 32 on June 28 and culminating with the final on July 19, with a match for third place the day before. If the score was even after regulation time in a match, 30 minutes of extra time were added. If still tied after this, a penalty shootout determined the winner.",
+  "page": "2026 FIFA World Cup",
+  "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+  "sonnet_answer": "The Round of 32 knockout stage began on June 28, 2026, as the expanded 48-team tournament introduced a Round of 32 for the first time in World Cup history.",
+  "agent_ok": true
+ },
+ "answer": "Let me think about this. The 2026 FIFA World Cup is scheduled to take place in the United States, Canada, and Mexico. The tournament expanded to 48 teams.\n\nFor the 2026 FIFA World Cup, the knockout stage begins with a Round of 32. Starting from June 28, 2026, the Round of 32 matches would be played, which is the first knockout round given the expanded 48-team format.\n\nFINAL: Round of 32",
+ "cost": 0.0020640000000000033,
+ "seconds": 5.2,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "In the 2026 FIFA World Cup, what format was used for the knockout stage starting June 28?"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me think about this. The 2026 FIFA World Cup is scheduled to take place in the United States, Canada, and Mexico. The tournament expanded to 48 teams.\n\nFor the 2026 FIFA World Cup, the knockout stage begins with a Round of 32. Starting from June 28, 2026, the Round of 32 matches would be played, which is the first knockout round given the expanded 48-team format.\n\nFINAL: Round of 32",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-11",
+  "source": "fresh",
+  "question": "What was the title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026?",
+  "answer": "Helter Skelter",
+  "evidence": "May 9 until May 23 – Helter Skelter: Arthur Jafa and Richard Prince at Fondazione Prada in Venice.",
+  "page": "2026 in art",
+  "url": "https://en.wikipedia.org/wiki/2026_in_art",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026, was \"Helter Skelter: Arthur Jafa and Richard Prince\". \n\nFINAL: Helter Skelter: Arthur Jafa and Richard Prince",
+ "cost": 0.0004042499999999949,
+ "seconds": 8.8,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What was the title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_IdqY10Va6o75smbfv59osino",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Fondazione Prada Venice exhibition May 9 to May 23 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_IdqY10Va6o75smbfv59osino",
+   "content": "[2026 in art] Significant events relating to the year 2026 in art are listed below."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_wFpd2TTzfyxAOsf7u7twV6lg",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in art\",\"keywords\":[\"Fondazione Prada\",\"Venice\",\"May 9 to May 23\"],\"site\":\"en_wiki\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_wFpd2TTzfyxAOsf7u7twV6lg",
+   "content": "April 30 – The entire Venice Biennale jury resigns, 9 days before the scheduled start of this year's show, over the inclusion of Russia.\nMay 9 until May 23 – Helter Skelter: Arthur Jafa and Richard Prince at Fondazione Prada in Venice.\nMay 9 until November 29 – Wilderness (Tamiko Thiel, Nataša Prosenc Stearns, John Sanborn, Kames Bloom, Will Pappenheimer, Fernanda D'Agostino, Nina Sobell, Terry Flaxton) at the Palazzo Mora in Venice.\nFlorentina Holzinger – Seaworld Venice at the Austrian pavilion in the Giardini della Biennale at the 2026 Venice Biennale in Venice, Italy."
+  },
+  {
+   "role": "assistant",
+   "content": "The title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026, was \"Helter Skelter: Arthur Jafa and Richard Prince\". \n\nFINAL: Helter Skelter: Arthur Jafa and Richard Prince",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

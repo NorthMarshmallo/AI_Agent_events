@@ -1,0 +1,186 @@
+{
+ "task": {
+  "id": "fresh-129",
+  "source": "fresh",
+  "question": "Which two investors co-led Chai Discovery's $130 million Series B round in December 2025, per GEN?",
+  "answer": "Oak HC/FT and General Catalyst",
+  "evidence": "Oak HC/FT and General Catalyst co-led the Series B.",
+  "page": "Chai's the Limit for AI Antibody Designer After $130M Series B Funding",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/chais-the-limit-for-ai-antibody-designer-after-130m-series-b-funding/",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "Perfect! I found the answer.\n\nFINAL: Oak HC/FT and General Catalyst",
+ "cost": 0.055369,
+ "seconds": 45.6,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "Which two investors co-led Chai Discovery's $130 million Series B round in December 2025, per GEN?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Chai Discovery's Series B funding round on GEN.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_0115BEvaM9Ry7sHNY96EXaJV",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\": \"Chai Discovery $130 million Series B December 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_0115BEvaM9Ry7sHNY96EXaJV",
+   "content": "[Top 10 U.S. Biopharma Clusters 2026] Some of the forces that shape biopharma cluster development are constants year after year, such as the emergence of startups from university and research institute labs to develop new treatments, thanks to ideas backed by the brains of researchers and executives, and the bucks of serial entrepreneurs and other investors. But in recent years, several additional unique circumstances have come to reshape how much and especially where biopharmas choose to grow, Matthew Gardner, CBRE Americas Life Sciences Leader, shared with GEN recently. One is increased acquisition of lab and manufacturing properties by “mid-cap” biopharmas ranging between $2 billion and $10 billion in market capitalization (share price times the number of outstanding shares), as they seek to better control their supply chains by maintaining their own infrastructure in evolving from research- to commercialization-focused drug developers. “They might have been more likely to lease in a different circumstance. They’ve definitely caught an opportunity to jump in and take ownership. That has been an ongoing trend, and that has been true coast-to-coast in most of the major centers,” Gardner said. Among investor-owners, Gardner said, another transition has begun from pure-play biopharma real estate landlords to investors with broader portfolios encompassing healthcare—a reflection of how the two fields are increasingly converging. During December 2025 and January 2026, for example, the public real estate investment trust (REIT) Healthpeak shelled out $600 million to close on the acquisition of a 1.4-million square foot, 29-acre campus on Gateway Boulevard in South San Francisco, CA, from the nation’s largest biopharma REIT, Alexandria Real Estate Equities and BXP (formerly Boston Properties). Those and other investors aim to cash in on the improving climate for biopharmas seeking to raise capital, from a recovering venture capital market to increased merger-and-acquisit"
+  },
+  {
+   "role": "assistant",
+   "content": "The search result didn't show information about Chai Discovery's Series B. Let me search more specifically.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01EDwPNVSDyDNZd48d2ax7gg",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\": \"Chai Discovery Series B funding investors\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01EDwPNVSDyDNZd48d2ax7gg",
+   "content": "[Pharma Races to Scale AI as Billions Flow into Drug Discovery] The infrastructure moment for AI-driven drug discovery continues to accelerate, with billion-dollar investments flowing into end-to-end platforms driven by models and compute, rather than single drug assets. Underpinning this trend is the proliferation of AI reasoning workflows that accelerate biomedical research and large integrated datasets spanning genomics, transcriptomics, proteomics, metabolomics, and more. Together, these capabilities are enabling more powerful models of biological complexity for a new era of programmable therapeutics guided by prediction and rational design. “This isn’t about developing therapeutics for a particular indication or target,” explained Max Jaderberg, PhD, president of Isomorphic Labs, on the Training Data podcast. Instead, the Google DeepMind spinout is building a general design engine applicable to any disease area. Investors and pharma giants have rallied behind that vision. In May, Isomorphic announced a whopping $2.1 billion raise led by Thrive Capital. The AI drug developer has also secured major partnerships with Novartis, Eli Lilly, and Johnson & Johnson to embed AI-driven discovery workflows into pharma’s R&D pipeline. While traditional drug discovery programs can be limited to known binding pockets revealed by structural biology, Isomorphic’s platform, known as IsoDD (Isomorphic Labs Drug Design Engine), expands the druggable landscape by probing previously inaccessible biology. The Isomorphic Labs Drug Design Engine is able to predict the location of cryptic pockets at protein interfaces. A cryptic pocket is a ‘hidden’ binding site on a protein that is invisible under normal conditions but opens up when a specific molecule interacts with it. [Isomorphic Labs] The platform’s capabilities include predicting induced-fit interactions, in which proteins change shape upon ligand binding, and identifying cryptic binding pockets that remain hidden in the absence o"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a more direct search for Chai Discovery.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_011fGfLzcCnUDs4hmRFquWLj",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\": \"Chai Discovery\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_011fGfLzcCnUDs4hmRFquWLj",
+   "content": "[From Models to Agents: The Next Phase of AI Adoption in Molecular Discovery] In recent years, the artificial intelligence (AI) conversation has been dominated by increasingly capable large language models. Every few months, models improve on mathematical reasoning and coding benchmarks, while inference costs drop. Since 2025, programmers have become more familiar with Claude Code and OpenAI Codex, autonomous software engineering agents running locally in a developer’s terminal, navigating code repositories and editing files across codebases. For the biotech and pharmaceutical industry, AI’s impact has also been profound. Researchers can now identify potential drug targets faster, predict protein structures with remarkable accuracy (thanks to advances like AlphaFold and RoseTTAFold), analyze vast scientific literature in seconds, and generate molecular insights that would previously have taken months to uncover. Yet despite these advances, AI applications in scientific research have not experienced their “Claude Code” moment. A scientist investigating a drug target for a specific disease may consult multiple databases, retrieve scientific papers, run molecular analyses, compare outputs from different AI models, and move a protein structure prediction from one platform into a docking tool on another, and then wonder whether a different model would have given a better answer. The compute power exists. The models exist. What’s missing is a system that coordinates them. Why Agentic AI Matters For all the excitement surrounding AI, much of the infrastructure required to apply it effectively in scientific research remains out of reach for many organizations. Access to frontier AI models, large-scale computing resources, molecular simulation platforms, scientific retrieval systems, and workflow orchestration tools often requires substantial investment and technical expertise. This creates a growing divide between organizations that can afford to assemble sophisticated AI-d"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search with different keywords.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01Aq9iHnnimUKM88mPVjSQQf",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\": \"Chai Discovery 130 million\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01Aq9iHnnimUKM88mPVjSQQf",
+   "content": "[Chai’s the Limit for AI Antibody Designer After $130M Series B Funding] Chai Discovery has completed a $130 million Series B financing that the artificial intelligence (AI)-based de novo antibody designer says will help it accelerate its research and product development, as well as grow its commercialization efforts toward creating the equivalent of a computer-aided design suite for molecules. Chai—a portmanteau for “chemistry” and “AI”—creates de novo antibodies through its Chai-2 platform. The company says Chai-2 is the first zero-shot generative platform to achieve double-digit success rates in experiments focused on de novo antibody design. Chai unveiled Chai-2 in June with a preprint posted in bioRxiv that reported a 16% success rate in fully de novo antibody design of ≤20 antibodies or nanobodies to 52 diverse targets—a more than 100-fold improvement over previous computational methods. Chai researchers completed the workflow from AI design to wet-lab validation in under two weeks. “We actually tested as few as 20 molecules for each one of those targets. Most papers in this space were putting out data on 2 or 3 molecules,” Josh Meier, Chai’s co-founder and CEO, as well as the preprint’s corresponding author, told GEN . “Given the really high success rates of the models, we’ve actually now been able to test this at a really large scale. We published a benchmark on over 50 targets, and since then, we’ve done way more than 100.” Earlier this month, Chai posted an updated preprint highlighting the company’s expansion of de novo antibody design by applying Chai-2 to design therapeutic full-length monoclonal antibodies across conventional and challenging target classes. “We find that >86% of these full-length mAbs have strong developability profiles on par with therapeutic antibodies. We further show that resolved structures of designs match in silico predictions, demonstrating that Chai-2 provides atomistically-accurate models of designed antibodies,” Chai researc"
+  },
+  {
+   "role": "assistant",
+   "content": "Good! I found the article about Chai Discovery's $130M Series B. Now let me search for the specific investors who co-led the round.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_0134o8kr5dB71ZHbjGRyBR3H",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Chai's the Limit for AI Antibody Designer After $130M Series B Funding\", \"keywords\": [\"co-led\",\"led\",\"investors\",\"Series B\"], \"site\": \"gen\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_0134o8kr5dB71ZHbjGRyBR3H",
+   "content": "Chai Discovery has completed a $130 million Series B financing that the artificial intelligence (AI)-based de novo antibody designer says will help it accelerate its research and product development, as well as grow its commercialization efforts toward creating the equivalent of a computer-aided design suite for molecules.\nChai unveiled Chai-2 in June with a preprint posted in bioRxiv that reported a 16% success rate in fully de novo antibody design of ≤20 antibodies or nanobodies to 52 diverse targets—a more than 100-fold improvement over previous computational methods.\nRiding the wave Just as Chai-2 represented a major upgrade to the company’s Chai-1 open-source foundation model for molecular structure prediction unveiled last year, the company aims to further double down on research breakthroughs with its latest financing, Meier told GEN .\n“We just want to continue riding that wave, and that, I’d say, is the critical thing that we’re focused on with this round of financing.” Chai has raised more than $225 million in total financing, some $30 million in seed financing, a $70 million Series A round announced in August, and now the Series B, which values the company at $1.3 billion.\nVC funding for AI drug development totaled $2.7 billion through the first three quarters of 2025, and AI-native biotechs enjoy a nearly 100% valuation premium over conventional biotechs, with a median valuation of $78 million, according to a PitchBook report released last month.\nAmong Chai’s investors since its seed round days is OpenAI, the developer of the AI assistant ChatGPT.\n“We really had a front-row seat to language modeling and everything that was happening there,” Meier recalled, adding that the work persuaded him to direct his career back toward biotech, having studied both chemistry and computer science at Harvard.\n“It’s really that research question, I think, that’s been carrying us forward since then, this question of, can AI models understand the molecules of life?” After O"
+  },
+  {
+   "role": "assistant",
+   "content": "The result shows some information but doesn't specifically mention the co-leads. Let me search for more specific details about the Series B lead investors.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_018725Box7hMXHEVnfW2Nz7b",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Chai's the Limit for AI Antibody Designer After $130M Series B Funding\", \"keywords\": [\"Thrive Capital\",\"Lowerbound\",\"NEA\",\"Index\",\"Series B led\"], \"site\": \"gen\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_018725Box7hMXHEVnfW2Nz7b",
+   "content": "VC funding for AI drug development totaled $2.7 billion through the first three quarters of 2025, and AI-native biotechs enjoy a nearly 100% valuation premium over conventional biotechs, with a median valuation of $78 million, according to a PitchBook report released last month.\nJoining them and OpenAI as participants in the round were Thrive Capital, OpenAI, Dimension, Menlo Ventures, Lachy Groom, Yosemite, Neo, and SV Angel."
+  },
+  {
+   "role": "assistant",
+   "content": "I can see that Thrive Capital and OpenAI are mentioned as participants. Let me search more specifically for who led the round.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_018btAykv3qTprjUT4orn8uA",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Chai's the Limit for AI Antibody Designer After $130M Series B Funding\", \"keywords\": [\"led the Series B\",\"co-led the round\",\"leading the round\"], \"site\": \"gen\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_018btAykv3qTprjUT4orn8uA",
+   "content": "Oak HC/FT and General Catalyst co-led the Series B."
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the answer.\n\nFINAL: Oak HC/FT and General Catalyst",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

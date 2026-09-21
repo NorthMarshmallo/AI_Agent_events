@@ -1,0 +1,188 @@
+{
+ "task": {
+  "id": "fresh-127",
+  "source": "fresh",
+  "question": "How many of the 96 experimentally screened RFdiffusion2-designed metallohydrolases showed proficient hydrolysis activity, per a December 2025 GEN article on a companion Baker lab Nature paper?",
+  "answer": "five",
+  "evidence": "Notably, five out of 96 designs showed proficient hydrolysis activity.",
+  "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/"
+ },
+ "answer": "К сожалению, я не смог найти конкретную статью GEN от декабря 2025 года о RFdiffusion2-разработанных металлогидролазах с информацией о том, сколько из 96 экспериментально протестированных вариантов показали профессиональную активность гидролиза.\n\nМои поиски привели к статьям о RFdiffusion3 и других инструментах дизайна белков от лаборатории Бейкера, но не к конкретной статье с запрошенными числами о металлогидролазах.\n\nFINAL: <Я не могу найти эту информацию>",
+ "cost": 0.05439100000000008,
+ "seconds": 52.2,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "How many of the 96 experimentally screened RFdiffusion2-designed metallohydrolases showed proficient hydrolysis activity, per a December 2025 GEN article on a companion Baker lab Nature paper?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about this RFdiffusion2-designed metallohydrolases article from GEN in December 2025.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01V8UjC6PDZ212wYxk4HicTC",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\": \"RFdiffusion2 metallohydrolases Baker Nature December 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01V8UjC6PDZ212wYxk4HicTC",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a different search approach:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01E5VdcFUioCScQSFNK8wBd8",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\": \"RFdiffusion2 metallohydrolases hydrolysis activity\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01E5VdcFUioCScQSFNK8wBd8",
+   "content": "[RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes] Researchers from the lab of Nobel laureate, David Baker, PhD, have now released RFdiffusion3 open source. The latest version of the de novo protein design model generates proteins that interact with any type of molecule, including DNA and small molecules with broad applications across sustainability and therapeutics. “We built this as a general model and are sharing it freely so the scientific community can create things we haven’t even imagined yet,” said Rohith Krishna, PhD, postdoctoral researcher in the Baker lab and co-lead author of the RFdiffusion3 bioRxiv preprint that has not been peer reviewed. The work shows experimental proof of concept for the design of proteins that recognize specific sequences of DNA, which serves as a foundation for synthetic transcription factors for gene therapy, and complex enzyme catalysis, which offers industry applications. Baker, who is the director of the Institute for Protein Design at the University of Washington (UW) and a Howard Hughes Medical Institute (HHMI) investigator, won the 2024 Nobel Prize in Chemistry for the design of novel proteins. RFdiffusion3 is one step closer to designing and understanding biological complexity, a challenge Baker recently described to GEN as one of the main obstacles to overcome for de novo design to transform medicine. RFdiffusion3 enters a growing ecosystem of protein design models that cover multiple modalities, such as BoltzGen , which was released in October. BoltzGen demonstrated generalizable therapeutic design in any format, including nanobodies, mini-binders, and disulfide-bonded peptides, and against any target across nucleic acids, small molecules, and both ordered and disordered proteins. Notably, BoltzGen designs binders only and does not generate catalytic enzymes as demonstrated by RFdiffusion 3. To achieve intricate chemical interactions with new precision, RFdiffusion3 treats individual atoms as the "
+  },
+  {
+   "role": "assistant",
+   "content": "This article is about RFdiffusion3. Let me search more specifically for the metallohydrolases study:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01QZa9pv1c6R4ekZAbkq9N8E",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\": \"96 metallohydrolases proficient hydrolysis\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01QZa9pv1c6R4ekZAbkq9N8E",
+   "content": "[RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes] Researchers from the lab of Nobel laureate, David Baker, PhD, have now released RFdiffusion3 open source. The latest version of the de novo protein design model generates proteins that interact with any type of molecule, including DNA and small molecules with broad applications across sustainability and therapeutics. “We built this as a general model and are sharing it freely so the scientific community can create things we haven’t even imagined yet,” said Rohith Krishna, PhD, postdoctoral researcher in the Baker lab and co-lead author of the RFdiffusion3 bioRxiv preprint that has not been peer reviewed. The work shows experimental proof of concept for the design of proteins that recognize specific sequences of DNA, which serves as a foundation for synthetic transcription factors for gene therapy, and complex enzyme catalysis, which offers industry applications. Baker, who is the director of the Institute for Protein Design at the University of Washington (UW) and a Howard Hughes Medical Institute (HHMI) investigator, won the 2024 Nobel Prize in Chemistry for the design of novel proteins. RFdiffusion3 is one step closer to designing and understanding biological complexity, a challenge Baker recently described to GEN as one of the main obstacles to overcome for de novo design to transform medicine. RFdiffusion3 enters a growing ecosystem of protein design models that cover multiple modalities, such as BoltzGen , which was released in October. BoltzGen demonstrated generalizable therapeutic design in any format, including nanobodies, mini-binders, and disulfide-bonded peptides, and against any target across nucleic acids, small molecules, and both ordered and disordered proteins. Notably, BoltzGen designs binders only and does not generate catalytic enzymes as demonstrated by RFdiffusion 3. To achieve intricate chemical interactions with new precision, RFdiffusion3 treats individual atoms as the "
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try searching with different keywords related to Baker lab and enzyme design:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01A8xtiZ1ZLAzMryXXTAkry8",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\": \"Baker lab enzyme design screened candidates proficient\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01A8xtiZ1ZLAzMryXXTAkry8",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for a Nature paper by Baker about metalloenzymes or hydrolyases:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01BBGDLFfEbRVbxUjQyjp6TC",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\": \"Baker Nature paper enzyme hydrolysis 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01BBGDLFfEbRVbxUjQyjp6TC",
+   "content": "[RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes] Researchers from the lab of Nobel laureate, David Baker, PhD, have now released RFdiffusion3 open source. The latest version of the de novo protein design model generates proteins that interact with any type of molecule, including DNA and small molecules with broad applications across sustainability and therapeutics. “We built this as a general model and are sharing it freely so the scientific community can create things we haven’t even imagined yet,” said Rohith Krishna, PhD, postdoctoral researcher in the Baker lab and co-lead author of the RFdiffusion3 bioRxiv preprint that has not been peer reviewed. The work shows experimental proof of concept for the design of proteins that recognize specific sequences of DNA, which serves as a foundation for synthetic transcription factors for gene therapy, and complex enzyme catalysis, which offers industry applications. Baker, who is the director of the Institute for Protein Design at the University of Washington (UW) and a Howard Hughes Medical Institute (HHMI) investigator, won the 2024 Nobel Prize in Chemistry for the design of novel proteins. RFdiffusion3 is one step closer to designing and understanding biological complexity, a challenge Baker recently described to GEN as one of the main obstacles to overcome for de novo design to transform medicine. RFdiffusion3 enters a growing ecosystem of protein design models that cover multiple modalities, such as BoltzGen , which was released in October. BoltzGen demonstrated generalizable therapeutic design in any format, including nanobodies, mini-binders, and disulfide-bonded peptides, and against any target across nucleic acids, small molecules, and both ordered and disordered proteins. Notably, BoltzGen designs binders only and does not generate catalytic enzymes as demonstrated by RFdiffusion 3. To achieve intricate chemical interactions with new precision, RFdiffusion3 treats individual atoms as the "
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a more specific search about metalloenzymes:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01F3qxLbbpBXBk5tfgqUj9NZ",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\": \"metalloenzymes de novo design screened\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01F3qxLbbpBXBk5tfgqUj9NZ",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try searching for information about experimentally screened proteins:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01HLwSgikze2TQk1NNguxyE4",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\": \"de novo designed enzymes experimental screening activity\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01HLwSgikze2TQk1NNguxyE4",
+   "content": "[AI Models Enhance the Drug Discovery Portfolio] Drug discovery has not yet had its “ChatGPT moment,” according to Arman Zaribafiyan, PhD, head of product, AI simulation and platforms, at SandboxAQ, in an interview with GEN . “We can’t rely only on machine learning models trained on text-based data to solve the world’s most challenging problems. The cure for cancer is not written in Wikipedia,” he said. SandboxAQ is a spinout from the multinational technology conglomerate, Alphabet, seeking to advance large quantitative models (LQMs) for positive impact on society, including drug discovery applications. In contrast to large language models (LLMs), which train on text-based data, LQMs are grounded in physics to simulate real-world systems. The 2024 publications of Google DeepMind’s AlphaFold3 1 and RoseTTAFold All-Atom, 2 developed by the lab of Nobel Laureate David Baker, PhD, was a technological inflection point that expanded protein structure prediction capabilities from peptide chains to interactions with small molecules, nucleic acids, metal ions, and more. These structural co-folding models predicted the “pose,” or how ligands bind to their target protein, but had not yet made the advance of predicting binding affinity, or the strength of the interaction. Achieving accurate binding affinity predictions would provide a powerful alternative to resource-intensive experimental screens to cut discovery timelines and save costs. Small molecules that bind In June, researchers from the Massachusetts Institute of Technology (MIT), in collaboration with Recursion, the Salt Lake City-based AI drug discovery company that combined with Exscientia in 2024, announced the open-source release of Boltz-2. It demonstrated binding affinity predictions at newfound speed and accuracy to democratize AI-based small molecule drug discovery across the commercial landscape. Boltz-2 was the top predictor of binding affinity at the December 2024 Critical Assessment of Protein Structure Pre"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "К сожалению, я не смог найти конкретную статью GEN от декабря 2025 года о RFdiffusion2-разработанных металлогидролазах с информацией о том, сколько из 96 экспериментально протестированных вариантов показали профессиональную активность гидролиза.\n\nМои поиски привели к статьям о RFdiffusion3 и других инструментах дизайна белков от лаборатории Бейкера, но не к конкретной статье с запрошенными числами о металлогидролазах.\n\nFINAL: <Я не могу найти эту информацию>",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-83",
+  "source": "fresh",
+  "question": "What type of device was attempted to be ignited near a Bank of America building in France in March 2026?",
+  "answer": "improvised explosive device",
+  "evidence": "28 March – A man is detained and another is at large after trying to ignite an improvised explosive device near a Bank of America building in Paris.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "An improvised explosive device was attempted to be ignited near a Bank of America building in Paris in March 2026. \n\nFINAL: improvised explosive device",
+ "cost": 0.000364949999999975,
+ "seconds": 126.7,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What type of device was attempted to be ignited near a Bank of America building in France in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_DGgXF43BZLtE865C4rBIeAxy",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Bank of America building France March 2026 device attempted to be ignited\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_DGgXF43BZLtE865C4rBIeAxy",
+   "content": "[2026 in France] Events in the year 2026 in France."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_wwpbYelpUZAzhIkQPFrLYlJA",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in France\",\"keywords\":[\"Bank of America\",\"device\",\"ignited\"],\"site\":\"en_wiki\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_wwpbYelpUZAzhIkQPFrLYlJA",
+   "content": "28 March – A man is detained and another is at large after trying to ignite an improvised explosive device near a Bank of America building in Paris."
+  },
+  {
+   "role": "assistant",
+   "content": "An improvised explosive device was attempted to be ignited near a Bank of America building in Paris in March 2026. \n\nFINAL: improvised explosive device",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

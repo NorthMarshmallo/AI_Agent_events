@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-147",
+  "source": "fresh",
+  "question": "Which animation studio was granted the 2026 Princess of Asturias Award for Communication and Humanities?",
+  "answer": "Studio Ghibli",
+  "evidence": "In 2026 the Studio Ghibli was awarded the Princess of Asturias Award in the category of 'Communication and Humanities'.",
+  "page": "Studio Ghibli",
+  "url": "https://en.wikipedia.org/wiki/Studio_Ghibli",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "The animation studio awarded the 2026 Princess of Asturias Award for Communication and Humanities is Studio Ghibli. \n\nFINAL: Studio Ghibli",
+ "cost": 0.0001435500000000478,
+ "seconds": 20.5,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "Which animation studio was granted the 2026 Princess of Asturias Award for Communication and Humanities?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_kAtTLhmG4KqMlF5F1eAMsFio",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Princess of Asturias Award for Communication and Humanities animation studio\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_kAtTLhmG4KqMlF5F1eAMsFio",
+   "content": "[Studio Ghibli] Studio Ghibli Inc. (Japanese: 株式会社スタジオジブリ, Hepburn: Kabushiki-gaisha Sutajio Jiburi) is a Japanese animation studio based in Koganei, Tokyo. It was founded on June 15, 1985, by directors Hayao Miyazaki and Isao Takahata and producer Toshio Suzuki, after acquiring Topcraft's assets. It has a strong presence in the animation industry and has expanded its portfolio to include various media such as short subjects, television commercials and two television films. The studio's work is highly acclaimed by both critics and audiences and has been recognized with numerous awards. Their mascot and most recognizable character is Totoro from the 1988 film My Neighbor Totoro, a giant spirit inspired by raccoon dogs (tanuki) and cats (neko). Among the studio's highest-grossing films are Princess Mononoke (1997), Spirited Away (2001), Howl's Moving Castle (2004), Ponyo (2008), and The Boy and the Heron (2023). Studio Ghibli's major awards across organizations include two Academy Awards for Best Animated Feature, one Golden Globe Award for Best Animated Feature Film, one BAFTA Award for Best Animated Film, one Golden Bear, three Animage Grand Prix awards and six Japan Academy Prizes. Four of the studio's films are among the ten highest-grossing Japanese feature films; Spirited Away is fourth, grossing ¥31.68 billion in Japan and over US$380 million worldwide. In 2026 the Studio Ghibli was awarded the Princess of Asturias Award in the category of \"Communication and Humanities\"."
+  },
+  {
+   "role": "assistant",
+   "content": "The animation studio awarded the 2026 Princess of Asturias Award for Communication and Humanities is Studio Ghibli. \n\nFINAL: Studio Ghibli",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

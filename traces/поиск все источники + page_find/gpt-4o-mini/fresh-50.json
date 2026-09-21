@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-50",
+  "source": "fresh",
+  "question": "What fine was issued to Amed S.F.K. by the Turkish Football Federation on January 29, 2026?",
+  "answer": "802,500 lira",
+  "evidence": "29 January – The Turkish Football Federation issues a fine of 802,500 lira ($18,500) on Diyarbakır-based club Amed S.F.K. and suspends its president, Nahit Eren, on charges of \"making ideological propaganda\" after the club uploads a video of a woman having her hair braided amid similar acts by Kurds in protests against the 2026 northeastern Syria offensive.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "На 29 января 2026 года Турецкая футбольная федерация наложила штраф в размере 802,500 турецких лир (около 18,500 долларов) на клуб Amed S.F.K. и приостановила его президента Нахита Эрен за \"ущемление репутации футбола\" и \"идейную пропаганду\". Это последовало за публикацией клубом видео женщины, которая заплетает волосы, что было воспринято как жест солидарности с курдами в Сирии. \n\nFINAL: 802500 лир",
+ "cost": 0.0009313499999999975,
+ "seconds": 36.0,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What fine was issued to Amed S.F.K. by the Turkish Football Federation on January 29, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_jXNcfnofX4fGj64DlGUbjbp2",
+     "function": {
+      "name": "espn_search",
+      "arguments": "{\"query\":\"Amed S.F.K. Turkish Football Federation fine January 29 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_jXNcfnofX4fGj64DlGUbjbp2",
+   "content": "[José Mourinho files European court complaint over sanctions at Fenerbahce] play José Mourinho admits 'there is something' with Real Madrid links (0:40) José Mourinho filed a complaint with the European Courts of Human Rights (ECHR) against Türkiye regarding how the disciplinary sanctions were handed down by the country's football federation while he was in charge of Fenerbahce. The complaint, lodged in March 2025 while he was still coach of Fenerbahce and published earlier this week, claimed Mourinho's right to freedom of expression was infringed when in November 2024 when he was given a one-match ban and fined 900,000 Turkish lira ($26,200) by the Turkish Football Federation (TFF) for questioning the impartiality of referees and other match officials. Mourinho was additionally fined 58,500 lira for unsportsmanlike conduct toward opposing fans. In his application to the European court , Mourinho, 63, claims those sanctions given by the Disciplinary Committee and the Arbitration Committee of the TFF were not determined by an independent and impartial tribunal. Mourinho also alleged the Arbitration Committee's failure to issue the reasoned decision to him \"violated his right of access to a court.\" José Mourinho will now await the court's decision amid talk of a move to Real Madrid. Carlos Rodrigues/Getty Images Mourinho spent just over 450 days as coach of Fenerbahce, taking charge ahead of the 2024-25 campaign. His time in Türkiye was a turbulent one, with the former Chelsea , Manchester United and Real Madrid coach often finding himself in hot water with the Turkish footballing authorities. - Marco Silva to replace José Mourinho as Benfica coach - Benfica: Real Madrid must pay $17M to sign José Mourinho - Why Mourinho's Real Madrid return is affected by club elections The outspoken coach claimed he was fighting \"the system,\" insinuating that both the Turkish football authorities and Süper Lig match officials were conspiring against him. He was dismissed by Fenerbah"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1ogcZxmm9b0kQK367UTkea9r",
+     "function": {
+      "name": "espn_search",
+      "arguments": "{\"query\":\"Amed S.F.K. fine January 29 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1ogcZxmm9b0kQK367UTkea9r",
+   "content": "[NBA Rank 2026, players Nos. 50-11: Where LeBron, Steph, KD check in] play Shams: Wizards, Anthony Davis have unanswered questions before agreeing to extension (1:16) NBA Rank is back! With less than one month until opening night, let's continue counting down the league's best players for 2026-27. After unveiling players Nos. 100-51 on Tuesday, our rankings now enter the top 50. It's a group headlined by former MVPs, future first-ballot Hall of Famers and young stars expected to take major leaps this season. It's also where LeBron James checks in, his first time outside the top 10 in NBA Rank's 15-year history. (You can jump to LeBron's NBA Rank here .) • Nos. 50-11: Ranking LeBron, Curry, Durant, Kawhi • Nos. 100-51: Four rookies make the countdown • NBA Rank debate: Snubs, surprises, top 10 picks • 10 players to watch in NBA Rank ... 2027 • NBA team rankings: Three-year outlooks for all 30 The rankings rollout concludes Thursday with our expert panel's top 10 players. And that panel has been overhauled for the 2026 edition. In previous seasons , more than 100 ESPN NBA insiders, reporters, editors and producers voted on thousands of possible player vs. player matchups to arrive at the final top-100 list. That \"wisdom of the crowd\" approach has given way to the wisdom of seven: ESPN's Ben Golliver, Vincent Goodwill, Zach Kram, Bobby Marks, Dave McMenamin, André Snellings and Matt \"Stats\" Williams. (The panelists' individual top-100 lists were combined to create our final rankings.) Voting guidelines, however, remained unchanged. The panel was asked to rank players based on predicted contributions -- quality and quantity -- for the 2026-27 regular season only. Let's get to the list, which features plenty of superstars who just missed our top 10. Note: Signature stats provided by ESPN Research. G | San Antonio Spurs Age: 20 2025 NBA Rank: NR The youngest member of the Spurs was the one who seemed to rise highest in the altitude of the Finals and stands to make a big j"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_aLTm6FYC6cUHh7JzDBh2JFss",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Amed S.F.K. fine Turkish Football Federation January 29 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_aLTm6FYC6cUHh7JzDBh2JFss",
+   "content": "[Amed S.F.K.] Amed Sportif Faaliyetler Kulübü (Kurmanji Kurdish: Klûba Çalakiyên Sporê ya Amedê, 'Amed Sports Activities Club'), commonly known as Amedspor, is a sports club based in Diyarbakır, Turkey. The club is widely supported by Kurds in Turkey and abroad for its embrace of Kurdish identity. Its football section plays in the Süper Lig in the 2026–27 season after having been promoted from the TFF 1. Lig in 2025–26. The club also has a women's team and a women's volleyball team."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_7M52pjko3vZqg0sDDrkiUcP8",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Amed S.F.K.\",\"keywords\":[\"fine\",\"Turkish Football Federation\",\"January 29\",\"2026\"],\"site\":\"en_wiki\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_7M52pjko3vZqg0sDDrkiUcP8",
+   "content": "Its football section plays in the Süper Lig in the 2026–27 season after having been promoted from the TFF 1.\nIn October 2014, shortly after the club officially changed its name to Amedspor, the Turkish Football Federation (TFF) imposed a fine on the club, citing that the name change had been made \"without official approval.\" The objection of the TFF was because of the existence of another club named Amedspor, which later on changed its name into Amidaspor.\nIn January 2026, the Turkish Football Federation issued a fine of 802,500 lira ($18,500) on Amedspor and suspended its president, Nahit Eren, from football-related activities for 15 days for \"damaging the reputation of football\" by \"making ideological propaganda\", after the club uploaded a video of a woman having her hair braided amid similar acts by Kurds in solidarity with their compatriots in Syria during the 2026 northeastern Syria offensive.\nIn connection with this, on 1 February, during a match against Adana Demirspor, player Cekdar Orhan celebrated a goal by braiding his hair in a similar gesture, which resulted in a fine of 600,000 lira.\nAdditionally, shortly after proceeding to the quarterfinals, Amedspor midfielder Deniz Naki (with Bundesliga and Süper Lig experience, who was among the best players of the division) was fined 273,000 Turkish Liras (65,000 USD) and suspended for 12 games by the TFF after dedicating the club’s victory against Ankaragücü to civilians killed in the Kurdish–Turkish conflict in a Twitter post, which the federation described as \"ideologically supporting the PKK (Kurdistan Workers' Party)\" and engaging in unsportsmanlike conduct.\nAlthough the Disciplinary Committee of the TFF punished Çalar for his \"extremely gross unsportsmanlike conduct\" with a four-year ban, the Arbitration Board of the TFF reduced his suspension to 20 games and fined him with 25.000 TL.\nOther players from both teams received suspensions and fines and Amedspor was also ordered to play one match behind closed d"
+  },
+  {
+   "role": "assistant",
+   "content": "На 29 января 2026 года Турецкая футбольная федерация наложила штраф в размере 802,500 турецких лир (около 18,500 долларов) на клуб Amed S.F.K. и приостановила его президента Нахита Эрен за \"ущемление репутации футбола\" и \"идейную пропаганду\". Это последовало за публикацией клубом видео женщины, которая заплетает волосы, что было воспринято как жест солидарности с курдами в Сирии. \n\nFINAL: 802500 лир",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

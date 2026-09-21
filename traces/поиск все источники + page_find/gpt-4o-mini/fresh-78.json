@@ -1,0 +1,164 @@
+{
+ "task": {
+  "id": "fresh-78",
+  "source": "fresh",
+  "question": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?",
+  "answer": "13.2 months",
+  "evidence": "31 May – A Phase 3 trial published in the New England Journal of Medicine reports that daraxonrasib, an investigational oral RAS(ON) inhibitor, nearly doubles median overall survival in patients with previously treated metastatic pancreatic cancer, from 6.6 months with standard chemotherapy to 13.2 months.",
+  "page": "2026 in science",
+  "url": "https://en.wikipedia.org/wiki/2026_in_science",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The median overall survival time reported for patients with metastatic pancreatic cancer in 2026 is 13.2 months. This is based on the results from a Phase III trial evaluating the drug daraxonrasib. \n\nFINAL: 13.2 months",
+ "cost": 0.0013778999999999875,
+ "seconds": 22.4,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_MBKSWQQdmbilOCfrAQQc8IZN",
+     "function": {
+      "name": "espn_search",
+      "arguments": "{\"query\":\"median overall survival time metastatic pancreatic cancer May 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_MBKSWQQdmbilOCfrAQQc8IZN",
+   "content": "[Knockout league pickups: Nacua and Bowers among big names available in Week 3] After being rostered on 15.4% of knocked out teams, managers should do everything they can to pick up Rams WR Puka Nacua in their Knockout leagues. Kirby Lee-Imagn Images Tristan H. Cockcroft Sep 22, 2026, 02:30 PM ET Close Tristan H. Cockcroft is senior writer for fantasy baseball and football at ESPN. Tristan is a member of the FSWA Hall of Fame. He is also two-time LABR and four-time Tout Wars champion. Follow on X Multiple Authors Email Print Open Extended Reactions Injuries are the great equalizer in sports. They can prove especially devastating in fantasy football knockout leagues. On Monday night, New York Giants QB Jaxson Dart became the second quarterback in as many weeks to suffer a game-ending injury within the first 11 snaps while scoring fewer than one fantasy point (0.80), joining Kyler Murray (Week 1). Unsurprisingly -- though it's worth pointing out that he was facing a difficult matchup against the Los Angeles Rams -- Dart resided on the largest percentage of teams knocked out for Week 2, with an even higher rate than anyone had the week before (19.6%). Dart wasn't alone. Philadelphia Eagles RB Saquon Barkley , who played only 10 snaps (14% of the Eagles' total on offense) and 3.0 fantasy points, was the most commonly knocked out running back for the second consecutive week. Along with those two, the top 10 names on this week's list also included Caleb Williams and DJ Moore , who left their respective contests early due to injuries, as well as Nico Collins (hamstring), Puka Nacua (hip), Brock Bowers (knee) and A.J. Brown (ankle), all of whom were ruled out in advance of their respective games. Draft before TNF kicks off and your season starts this week. Create a league with friends and family, or join a public league today. Sign Up Now! Sign Up Now >> --> We're back with another year of ESPN Fantasy Football, and it's not too early to get started. The game is open! Creat"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_eP4LojVeiQqlaYmh8Yd0y8z9",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"median overall survival time metastatic pancreatic cancer May 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_eP4LojVeiQqlaYmh8Yd0y8z9",
+   "content": "[Pancreatic cancer] Pancreatic cancer is any cancer with a primary location in the pancreas, a glandular organ lying behind the stomach. It arises when cells in the pancreas start to multiply out of control and form a mass. These cancerous cells have the ability to invade or spread to other parts of the body. A number of types of pancreatic cancer are known. The most common type of pancreatic cancer, pancreatic adenocarcinoma, accounts for about 90% of cases, and the term \"pancreatic cancer\" is sometimes used to refer only to that type. These adenocarcinomas start within the ductal part of the pancreas that makes digestive enzymes. Several other types of cancer, which collectively represent the majority of the non-adenocarcinomas, can also arise from these cells. About 1–2% of cases of pancreatic cancer are neuroendocrine tumors, which arise from the hormone-producing cells of the pancreas. These are generally less aggressive than pancreatic adenocarcinoma. Signs and symptoms of the most-common form of pancreatic cancer may include yellow skin, abdominal or back pain, unexplained weight loss, light-colored stools, dark urine, and loss of appetite. Usually, no symptoms are seen in the disease's early stages, and symptoms that are specific enough to suggest pancreatic cancer typically do not develop until the disease has reached an advanced stage. By the time of diagnosis, pancreatic cancer has often spread to other parts of the body. Pancreatic cancer rarely occurs before the age of 40, and more than half of cases of pancreatic adenocarcinoma occur in those over 70. However, early-onset pancreatic cancer (defined as pancreatic cancer diagnosed in someone <50 years of age) is becoming more prevalent, disproportionally so in younger women. Risk factors for pancreatic cancer include tobacco smoking, obesity, diabetes, and certain rare genetic conditions. About 25% of cases are linked to smoking, and 5–10% are linked to inherited genes. Pancreatic cancer is usually diagn"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_0Vi0vkuBN4GG50UdZun1ksPF",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Pancreatic cancer\",\"keywords\":[\"median overall survival time\",\"metastatic pancreatic cancer\",\"2026\"],\"site\":\"en_wiki\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_0Vi0vkuBN4GG50UdZun1ksPF",
+   "content": "In 2026, Adjuvant systemic chemotherapy after surgery is recommended for eligible patients after their recovery from resection."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_wirRizQ0s4chBqAuOZv01qJH",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"survival statistics metastatic pancreatic cancer May 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_wirRizQ0s4chBqAuOZv01qJH",
+   "content": "[Pancreatic cancer] Pancreatic cancer is any cancer with a primary location in the pancreas, a glandular organ lying behind the stomach. It arises when cells in the pancreas start to multiply out of control and form a mass. These cancerous cells have the ability to invade or spread to other parts of the body. A number of types of pancreatic cancer are known. The most common type of pancreatic cancer, pancreatic adenocarcinoma, accounts for about 90% of cases, and the term \"pancreatic cancer\" is sometimes used to refer only to that type. These adenocarcinomas start within the ductal part of the pancreas that makes digestive enzymes. Several other types of cancer, which collectively represent the majority of the non-adenocarcinomas, can also arise from these cells. About 1–2% of cases of pancreatic cancer are neuroendocrine tumors, which arise from the hormone-producing cells of the pancreas. These are generally less aggressive than pancreatic adenocarcinoma. Signs and symptoms of the most-common form of pancreatic cancer may include yellow skin, abdominal or back pain, unexplained weight loss, light-colored stools, dark urine, and loss of appetite. Usually, no symptoms are seen in the disease's early stages, and symptoms that are specific enough to suggest pancreatic cancer typically do not develop until the disease has reached an advanced stage. By the time of diagnosis, pancreatic cancer has often spread to other parts of the body. Pancreatic cancer rarely occurs before the age of 40, and more than half of cases of pancreatic adenocarcinoma occur in those over 70. However, early-onset pancreatic cancer (defined as pancreatic cancer diagnosed in someone <50 years of age) is becoming more prevalent, disproportionally so in younger women. Risk factors for pancreatic cancer include tobacco smoking, obesity, diabetes, and certain rare genetic conditions. About 25% of cases are linked to smoking, and 5–10% are linked to inherited genes. Pancreatic cancer is usually diagn"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_LkPvhxqiNXta0yPWvUqwJIGk",
+     "function": {
+      "name": "espn_search",
+      "arguments": "{\"query\":\"2026 pancreatic cancer survival rates\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_LkPvhxqiNXta0yPWvUqwJIGk",
+   "content": "[Asian Games 2026: Elavenil Valarivan's big-stage redemption comes with silver lining] Elavenil Valarivan (R) with Sonam Maskar (C) and Vidarsa Vinod (L) won the women's team 10m air rifle silver. Elavenil also won individual silver. Kasumi Fukudome/Kyodo News via AP Zenia D'Cunha Multiple Authors Sep 20, 2026, 10:57 AM ET Email Print Open Extended Reactions Elavenil Valarivan has won a lot of medals in her almost decade-long career -- at World Cups and World Championships, at Asian Shooting Championships across junior and seniors. She has been the world No 1 and still holds the Asian record in the women's 10m air rifle final. The one achievement the now 27-year-old didn't have, though, was a major multi-sport medal. Across two Olympics -- Tokyo 2021 and Paris 2024 -- and one Asian Games in 2018 as one of India's most promising teenage shooters in the then toughest discipline, she was yet to win that one solo medal. That is, until the 2026 Asian Games. On Sunday, the first day of the Aichi-Nagoya Games, along came two silver medals in the span of a few hours. She got silver in women's 10m air rifle team event and followed with that elusive, talent-fulfilling individual medal - a silver in a final she refused to finish off the podium. SEPTEMBER 20 FULL SCHEDULE | ASIAN GAMES MEDAL TALLY | INDIA AT ASIAN GAMES 2026 | KEY DATES AT ASIAN GAMES 2026 | INDIA'S LIVE MEDAL TRACKER Very few things can capture the Indian sporting spotlight like a multi-sport medal, and now Ela, as she is fondly called, can finally tick this box. The teen prodigy is now an Asian Games medallist, in what is a remarkable redemption arc given her career trajectory over the last 8 years. ELAVENIL VALARIVAN TAKES HER SECOND MEDAL OF THESE ASIAN GAMES. After the team silver, she takes home the individual silver as well, behind Japan's. Hinata Taichi. pic.twitter.com/vNPuGNrvy1 - ESPN India (@ESPNIndia) September 20, 2026 Just to give you an indication of how highly rated she was -- there was a time "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_DWGEFnXjTJcEgKUVzRmmu4sn",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\":\"metastatic pancreatic cancer survival statistics 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_DWGEFnXjTJcEgKUVzRmmu4sn",
+   "content": "[StockWatch: Revolution’s Phase III Pancreatic Cancer Data Dazzles Investors, Analysts] Pancreatic cancer is one of the most difficult cancers to treat, with an overall five-year survival rate of 13%, according to the American Cancer Society, stretching from 3% for metastatic (Stage 4) to 44% for localized (Stages 1 and 2). Dismal odds such as these explain the enthusiastic response of investors when Revolution Medicines (NASDAQ: RVMD), a developer of RAS-addicted cancer therapies, announced dazzling data from its Phase III RASolute 302 trial ( NCT06625320 ) evaluating its once-daily oral daraxonrasib in patients with metastatic pancreatic ductal adenocarcinoma (PDAC) who had been previously treated. In the trial’s overall (intent-to-treat) study population, daraxonrasib showed a median overall survival (OS) of 13.2 months, nearly double the 6.7 months demonstrated for standard-of-care chemotherapy, with a hazard ratio (HR) of 0.40 (p < 0.0001). Daraxonrasib also presented what Revolution called a manageable safety profile and no new safety signals. “These results represent a potentially transformative advance for patients and underscore daraxonrasib’s potential to redefine the treatment landscape. We are moving with urgency toward global regulatory submissions and remain committed to rapidly advancing this therapy for patients with a broad range of RAS-addicted cancers,” Revolution’s CEO and chairman Mark A. Goldsmith, MD, PhD, said in a statement. Investors and analysts largely agreed with Goldsmith. Revolution’s stock reacted to the data release by soaring 54% this past week, starting with a 41% surge that sent the share price soaring from $96.43 on April 10 to $136.30 on April 13. Since then, the stock has jumped another 12% , reaching $152.54 at Wednesday’s closing bell. Profit-taking by investors led to a 2% slide on Thursday (to $149.27) and a 0.43% dip on Friday (to $148.63). “Our base case from stats sim [statistics simulation] was 11 vs. 7 mos, and based o"
+  },
+  {
+   "role": "assistant",
+   "content": "The median overall survival time reported for patients with metastatic pancreatic cancer in 2026 is 13.2 months. This is based on the results from a Phase III trial evaluating the drug daraxonrasib. \n\nFINAL: 13.2 months",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,678 @@
+config,model,id,source,correct,steps,tool_calls,tools,cost,seconds,answer,gold
+без инструментов,claude-sonnet-4.6,fresh-0,fresh,False,1,0,,0.0025920000000000006,10.3,I don't have information about this event.,15 March
+без инструментов,claude-sonnet-4.6,fresh-1,fresh,False,1,0,,0.0012119999999999995,2.5,"April 24, 2025",22 March
+без инструментов,claude-sonnet-4.6,fresh-2,fresh,False,1,0,,0.001968000000000001,8.5,"Мои данные не охватывают события марта 2026 года, поэтому от",Miguel Díaz-Canel
+без инструментов,claude-sonnet-4.6,fresh-3,fresh,False,1,0,,0.0013139999999999992,4.2,Информация об этом событии недоступна в моих данных,a strategic partnership agreement
+без инструментов,claude-sonnet-4.6,fresh-4,fresh,False,1,0,,0.00558000000000014,9.5,I don't have sufficient certainty about the specific measure,A total fire ban
+без инструментов,claude-sonnet-4.6,fresh-5,fresh,False,1,0,,0.001886999999999972,2.9,"У меня нет данных об этом событии, так как оно произошло пос",two people
+без инструментов,claude-sonnet-4.6,fresh-6,fresh,False,1,0,,0.0013260000000000008,3.8,Данные об этом событии недоступны,"4,500"
+без инструментов,claude-sonnet-4.6,fresh-7,fresh,False,1,0,,0.0019050000000000004,3.0,Данные о событиях июля 2026 года недоступны в моей базе знан,Deniz Göktaş
+без инструментов,claude-sonnet-4.6,fresh-8,fresh,False,1,0,,0.0015989999999999997,2.8,"Информация о событиях 29 июля 2026 года недоступна, так как ",Pavel Durov
+без инструментов,claude-sonnet-4.6,fresh-9,fresh,False,1,0,,0.0014459999999999994,3.8,Guangzhou,New Delhi
+без инструментов,claude-sonnet-4.6,fresh-10,fresh,False,1,0,,0.0029549999999999993,4.9,13,Twelve
+без инструментов,claude-sonnet-4.6,fresh-11,fresh,False,1,0,,0.0019529999999999999,3.5,I don't have reliable information about this future event.,Helter Skelter
+без инструментов,claude-sonnet-4.6,fresh-12,fresh,False,1,0,,0.004827000000000001,6.7,"I don't have verified data for January 2026, as this date is","700,000"
+без инструментов,claude-sonnet-4.6,fresh-13,fresh,False,1,0,,0.0013950000000000004,2.5,У меня нет данных о событиях 2026 года.,41.5 °C
+без инструментов,claude-sonnet-4.6,fresh-14,fresh,False,1,0,,0.0026549999999999976,4.8,Madrid,Ciudad Rodrigo
+без инструментов,claude-sonnet-4.6,fresh-15,fresh,False,1,0,,0.0015719999999999068,2.8,Информация о событиях 21 июля 2026 года недоступна в моих да,Oleksandr Syrskyi
+без инструментов,claude-sonnet-4.6,fresh-16,fresh,False,1,0,,0.0023099999999999996,4.6,Информация о событиях мая 2026 года недоступна,Montreal Victoire
+без инструментов,claude-sonnet-4.6,fresh-17,fresh,False,1,0,,0.0021629999999999983,4.7,"Данная дата выходит за пределы моих знаний, информацией об э",EOS-05
+без инструментов,claude-sonnet-4.6,fresh-18,fresh,False,1,0,,0.0034080000000002997,5.8,"November 25, 2021",13 July
+без инструментов,claude-sonnet-4.6,fresh-19,fresh,False,1,0,,0.001236000000000001,3.5,I don't know,Disney Kids & Family
+без инструментов,claude-sonnet-4.6,fresh-20,fresh,False,1,0,,0.0020640000000000033,5.2,Round of 32,single-elimination
+без инструментов,claude-sonnet-4.6,fresh-21,fresh,False,1,0,,0.002373,3.7,"I don't have information about events from June 2026, as thi",Gavin Snider
+без инструментов,claude-sonnet-4.6,fresh-22,fresh,False,1,0,,0.0029729999999999965,12.4,"I don't have information about this series, as it was funded",Clara and the Below
+без инструментов,claude-sonnet-4.6,fresh-23,fresh,False,1,0,,0.0017310000000000034,10.1,Мои данные не охватывают события февраля 2026 года,German Galushchenko
+без инструментов,claude-sonnet-4.6,fresh-24,fresh,True,1,0,,0.006432,10.9,drought,a drought
+без инструментов,claude-sonnet-4.6,fresh-25,fresh,False,1,0,,0.0018839999999999968,3.9,"У меня нет информации о событиях февраля 2026 года, так как ","""open war"""
+без инструментов,claude-sonnet-4.6,fresh-26,fresh,False,1,0,,0.0024959999999999982,4.4,"Информация об этом событии недоступна, так как указанная дат",nine
+без инструментов,claude-sonnet-4.6,fresh-27,fresh,True,1,0,,0.0019890000000000047,6.5,Markus Hinterhäuser,Markus Hinterhäuser
+без инструментов,claude-sonnet-4.6,fresh-28,fresh,False,1,0,,0.0021000000000000046,3.9,I cannot verify this event occurred,nine
+без инструментов,claude-sonnet-4.6,fresh-29,fresh,False,1,0,,0.0018869999999999998,4.6,Unable to determine,43
+без инструментов,claude-sonnet-4.6,fresh-30,fresh,False,1,0,,0.0021779999999999994,13.2,İzmir,Ankara
+без инструментов,claude-sonnet-4.6,fresh-31,fresh,False,1,0,,0.0016949999999999882,6.4,"Данные об этом событии недоступны, так как оно выходит за пр",Aibek Dädebai
+без инструментов,claude-sonnet-4.6,fresh-32,fresh,False,1,0,,0.0014460000000000028,2.6,Неизвестно (событие после даты отсечения знаний),Richard Lewer
+без инструментов,claude-sonnet-4.6,fresh-33,fresh,False,1,0,,0.001358999999999999,2.6,Мои данные не содержат информации о событиях апреля 2026 год,Marilyn Gladu
+без инструментов,claude-sonnet-4.6,fresh-34,fresh,False,1,0,,0.0017700000000000077,3.0,I don't have information about this event beyond my knowledg,6.3
+без инструментов,claude-sonnet-4.6,fresh-35,fresh,False,1,0,,0.0017640000000000017,5.5,"Не знаю, это событие произошло после даты окончания моих зна",Dina Levačić
+без инструментов,claude-sonnet-4.6,fresh-36,fresh,False,1,0,,0.0010259999999999991,1.8,Нет данных,129
+без инструментов,claude-sonnet-4.6,fresh-37,fresh,False,1,0,,0.0017549999999999927,6.6,Мои данные не содержат информации о событиях 2026 года.,15 June
+без инструментов,claude-sonnet-4.6,fresh-38,fresh,False,1,0,,0.0012660000000000032,11.9,Нет данных о событиях мая 2026 года,Chief Minister
+без инструментов,claude-sonnet-4.6,fresh-39,fresh,False,1,0,,0.002127000000000004,4.7,Не могу подтвердить эту информацию,Gelida
+без инструментов,claude-sonnet-4.6,fresh-40,fresh,False,1,0,,0.001895999999999995,11.4,"Мои данные ограничены июлем 2025 года, и у меня нет информац",Vladimir Alekseyev
+без инструментов,claude-sonnet-4.6,fresh-41,fresh,False,1,0,,0.001454999999999998,2.5,Информация об этом событии недоступна в моей базе знаний.,Thirty thousand people
+без инструментов,claude-sonnet-4.6,fresh-42,fresh,False,1,0,,0.002135999999999999,4.4,"Данное событие произошло после даты окончания моих знаний, п",Prime Minister Narendra Modi
+без инструментов,claude-sonnet-4.6,fresh-43,fresh,False,1,0,,0.0018299999999999983,123.2,Информация об этом событии выходит за пределы моих знаний (п,Zohran Mamdani
+без инструментов,claude-sonnet-4.6,fresh-44,fresh,False,1,0,,0.003744000000000011,10.1,55 Cancri e,LHS 1140 b
+без инструментов,claude-sonnet-4.6,fresh-45,fresh,False,1,0,,0.001910999999999996,4.7,Bilgim yok / No information available,F-16 Fighting Falcon
+без инструментов,claude-sonnet-4.6,fresh-46,fresh,False,1,0,,0.001355999999999996,3.2,Информация об этом событии недоступна,five
+без инструментов,claude-sonnet-4.6,fresh-47,fresh,False,1,0,,0.001680000000000001,7.9,"У меня нет информации о событиях июля 2026 года, так как моя",Education Minister
+без инструментов,claude-sonnet-4.6,fresh-48,fresh,False,1,0,,0.0019559999999999994,8.5,Информация об этом событии недоступна в моей базе знаний,Mykhailo Fedorov
+без инструментов,claude-sonnet-4.6,fresh-49,fresh,False,1,0,,0.0021839999999997417,2.9,"У меня нет информации о событиях после июля 2025 года, поэто",life imprisonment
+без инструментов,claude-sonnet-4.6,fresh-50,fresh,False,1,0,,0.0016440000000000066,6.3,"I don't have information about this event from January 29, 2","802,500 lira"
+без инструментов,claude-sonnet-4.6,fresh-51,fresh,False,1,0,,0.001781999999999992,123.0,"Мне неизвестно об этом событии, так как оно выходит за рамки",Bruno Foucher
+без инструментов,claude-sonnet-4.6,fresh-52,fresh,False,1,0,,0.0018180000000000002,3.1,Информация об этом землетрясении недоступна в моих данных,5.2
+без инструментов,claude-sonnet-4.6,fresh-53,fresh,False,1,0,,0.002271000000000009,10.4,I don't have information about this specific appointment in ,Tonya McBride Robles
+без инструментов,claude-sonnet-4.6,fresh-54,fresh,False,1,0,,0.0018149999999999972,2.7,"Точных данных об этом событии у меня нет, так как оно выходи",80
+без инструментов,claude-sonnet-4.6,fresh-55,fresh,True,1,0,,0.002250000000000002,3.5,"Мои данные ограничены июлем 2025 года, и у меня нет информац",two
+без инструментов,claude-sonnet-4.6,fresh-56,fresh,False,1,0,,0.0013259999999999939,2.6,Данные недоступны (за пределами моих знаний),3%
+без инструментов,claude-sonnet-4.6,fresh-57,fresh,False,1,0,,0.0016920000000002489,2.6,"I don't have information about events in July 2026, as my kn",Yoon Suk Yeol
+без инструментов,claude-sonnet-4.6,fresh-58,fresh,False,1,0,,0.0023519999999996877,3.9,BYD,BYD Auto
+без инструментов,claude-sonnet-4.6,fresh-59,fresh,False,1,0,,0.0024269999999999986,17.5,I don't have verified information about this event.,Carson Ting
+без инструментов,claude-sonnet-4.6,fresh-60,fresh,False,1,0,,0.0015480000000000077,5.3,I don't have data about events in June 2026.,209
+без инструментов,claude-sonnet-4.6,fresh-61,fresh,False,1,0,,0.0018719999999999987,3.1,Информация об этом событии недоступна,Fourteen
+без инструментов,claude-sonnet-4.6,fresh-62,fresh,False,1,0,,0.0013829999999999953,2.8,I don't have information about events in March 2026.,13 years
+без инструментов,claude-sonnet-4.6,fresh-63,fresh,False,1,0,,0.001574999999999993,2.5,я не знаю,Two
+без инструментов,claude-sonnet-4.6,fresh-64,fresh,False,1,0,,0.001362000000000002,9.8,Информация о событиях марта 2026 года недоступна,mayor of Lutsk
+без инструментов,claude-sonnet-4.6,fresh-65,fresh,False,1,0,,0.002049000000000009,8.5,Não tenho informações sobre esse evento (fora do período de ,16
+без инструментов,claude-sonnet-4.6,fresh-66,fresh,False,1,0,,0.002447999999999992,139.0,I don't have information about this event as it falls outsid,at least six
+без инструментов,claude-sonnet-4.6,fresh-67,fresh,False,1,0,,0.0021150000000000058,3.2,I don't have verified information about this January 2026 an,Liam Nassereddine
+без инструментов,claude-sonnet-4.6,fresh-68,fresh,False,1,0,,0.0013980000000000103,2.8,Информация о событиях марта 2026 года недоступна,Mark Carney
+без инструментов,claude-sonnet-4.6,fresh-69,fresh,False,1,0,,0.0009029999999999871,6.3,Wrocław,Leipzig
+без инструментов,claude-sonnet-4.6,fresh-70,fresh,False,1,0,,0.005757000000000012,9.4,Eurostar direct service between London and Amsterdam (withou,night train service
+без инструментов,claude-sonnet-4.6,fresh-71,fresh,False,1,0,,0.002132999999999996,3.8,Информация об этом событии недоступна в моих данных,Nikita Solovyov
+без инструментов,claude-sonnet-4.6,fresh-72,fresh,False,1,0,,0.003047999999999995,4.3,I don't have information about this - it either falls outsid,Dharmendra Pradhan
+без инструментов,claude-sonnet-4.6,fresh-73,fresh,False,1,0,,0.0021720000000000073,4.8,"Данное событие произошло после даты окончания моих знаний, п",Han Hak-ja
+без инструментов,claude-sonnet-4.6,fresh-74,fresh,False,1,0,,0.0022049999999999847,131.3,Не могу ответить — дата выходит за рамки моих знаний (после ,Daniel Ortega
+без инструментов,claude-sonnet-4.6,fresh-75,fresh,False,1,0,,0.0035189999999999944,5.9,"Telangana, India",Novokuznetsk
+без инструментов,claude-sonnet-4.6,fresh-76,fresh,False,1,0,,0.0021180000000000088,3.2,Информация о приговоре Юн Сок Ёлю в феврале 2026 года недост,life imprisonment
+без инструментов,claude-sonnet-4.6,fresh-77,fresh,False,1,0,,0.002595000000000014,4.0,I don't have information about a 2026 São Toméan presidentia,Carlos Vila Nova
+без инструментов,claude-sonnet-4.6,fresh-78,fresh,False,1,0,,0.0049919999999999964,7.1,"I don't have data from May 2026; as of early 2025, median ov",13.2 months
+без инструментов,claude-sonnet-4.6,fresh-79,fresh,False,1,0,,0.0021509999999999863,3.8,"I don't have information about this event, as it occurred af",three
+без инструментов,claude-sonnet-4.6,fresh-80,fresh,False,1,0,,0.0017790000000000028,2.8,Информация о событиях 29 января 2026 года недоступна в моих ,"UGC Equity Regulations, 2026"
+без инструментов,claude-sonnet-4.6,fresh-81,fresh,False,1,0,,0.0011250000000000149,2.0,No data available for July 2026,8.15m
+без инструментов,claude-sonnet-4.6,fresh-82,fresh,False,1,0,,0.0011249999999999871,7.1,Нет данных,28 people
+без инструментов,claude-sonnet-4.6,fresh-83,fresh,False,1,0,,0.002456999999999987,4.2,"I don't have information about events in March 2026, as this",improvised explosive device
+без инструментов,claude-sonnet-4.6,fresh-84,fresh,False,1,0,,0.0014130000000000253,7.8,I don't know,eight games
+без инструментов,claude-sonnet-4.6,fresh-85,fresh,False,1,0,,0.001676999999999984,3.9,Данные о событиях 2026 года недоступны,38 °C
+без инструментов,claude-sonnet-4.6,fresh-86,fresh,False,1,0,,0.0039899999999999936,7.4,£15.4 billion,£30.4bn
+без инструментов,claude-sonnet-4.6,fresh-87,fresh,False,1,0,,0.0023970000000000102,12.6,"Не могу ответить на этот вопрос, так как дата 9 января 2026 ",José Jerí
+без инструментов,claude-sonnet-4.6,fresh-88,fresh,False,1,0,,0.0018509999999999915,4.5,"Информация об этом событии недоступна, так как оно произошло","Henoko, Okinawa Prefecture"
+без инструментов,claude-sonnet-4.6,fresh-89,fresh,False,1,0,,0.0015060000000000073,6.0,Информация о событиях марта 2026 года недоступна в моих данн,Doug Armstrong
+без инструментов,claude-sonnet-4.6,fresh-90,fresh,False,1,0,,0.0047609999999999875,7.1,UK Health Security Agency (UKHSA),Imperial College London
+без инструментов,claude-sonnet-4.6,fresh-91,fresh,False,1,0,,0.0021300000000000208,3.3,I don't have information about this event as it is beyond my,"₹25,863 crore"
+без инструментов,claude-sonnet-4.6,fresh-92,fresh,True,1,0,,0.005765999999999993,9.0,Rubén Rocha Moya,Rubén Rocha Moya
+без инструментов,claude-sonnet-4.6,fresh-93,fresh,False,1,0,,0.0015149999999999886,2.5,Unknown — the 2026 FIFA World Cup has not yet occurred.,Spain
+без инструментов,claude-sonnet-4.6,fresh-94,fresh,False,1,0,,0.0010380000000000111,5.3,I don't have information about Eurovision 2026.,11th
+без инструментов,claude-sonnet-4.6,fresh-95,fresh,False,1,0,,0.001463999999999993,5.0,The 2026 Men's T20 World Cup had not yet occurred as of my k,India
+без инструментов,claude-sonnet-4.6,fresh-96,fresh,False,1,0,,0.005079,7.5,Не могу дать точный ответ без проверки данных о 2026 году.,Istanbul
+без инструментов,claude-sonnet-4.6,fresh-97,fresh,False,1,0,,0.0011130000000000029,3.4,"Truist Park, Atlanta, Georgia",Citizens Bank Park
+без инструментов,claude-sonnet-4.6,fresh-98,fresh,False,1,0,,0.0022860000000000102,128.6,"Мои данные не охватывают события июня 2026 года, поэтому я н",Islamabad Memorandum
+без инструментов,claude-sonnet-4.6,fresh-99,fresh,False,1,0,,0.0015899999999999803,2.4,"У меня нет данных о событиях июня 2026 года, так как моя дат",Elon Musk
+без инструментов,claude-sonnet-4.6,fresh-100,fresh,False,1,0,,0.00261900000000001,4.2,"I don't have information about events on April 6, 2026, as t","252,756 miles"
+без инструментов,claude-sonnet-4.6,fresh-101,fresh,False,1,0,,0.0027840000000000087,4.9,I don't have verified information about a 2026 Lebanon war c,10-day
+без инструментов,claude-sonnet-4.6,fresh-102,fresh,False,1,0,,0.0032009999999999816,5.3,Oleksandr Usyk,Oleksandr Dovhach
+без инструментов,claude-sonnet-4.6,fresh-103,fresh,False,1,0,,0.001802999999999999,2.9,Información no disponible (evento posterior a mi fecha de co,José María Balcázar
+без инструментов,claude-sonnet-4.6,fresh-104,fresh,False,1,0,,0.0018630000000000035,7.9,32,21
+без инструментов,claude-sonnet-4.6,fresh-105,fresh,False,1,0,,0.003066000000000013,9.7,I don't have specific data on fuel surcharge increases by Ai,¥60–120
+без инструментов,claude-sonnet-4.6,fresh-106,fresh,False,1,0,,0.0017490000000000006,3.6,Terminal 4,GRU Airport People Mover
+без инструментов,claude-sonnet-4.6,fresh-107,fresh,False,1,0,,0.0012629999999999864,3.8,Presidential election in Benin,2026 Beninese parliamentary election
+без инструментов,claude-sonnet-4.6,fresh-108,fresh,False,1,0,,0.001473000000000002,3.9,I don't have information about events in June 2026,Michaelmas Island
+без инструментов,claude-sonnet-4.6,fresh-109,fresh,False,1,0,,0.001212000000000213,2.2,Недостаточно данных для ответа,conspiracy to commit arson
+без инструментов,claude-sonnet-4.6,fresh-110,fresh,False,1,0,,0.0018660000000000065,7.2,Неизвестно — выборы ещё не состоялись,Clay Fuller
+без инструментов,claude-sonnet-4.6,fresh-111,fresh,False,1,0,,0.002024999999999999,3.3,"I don't have information about events on June 22, 2026, as t",prime minister
+без инструментов,claude-sonnet-4.6,fresh-112,fresh,False,1,0,,0.00157199999999999,2.8,"Информация о миссии, запущенной ЕКА и КАС 19 мая 2026 года, ",SMILE
+без инструментов,claude-sonnet-4.6,fresh-113,fresh,False,1,0,,0.0012660000000000171,2.5,I don't have information about this event.,850
+без инструментов,claude-sonnet-4.6,fresh-114,fresh,False,1,0,,0.0020639999999999825,2.7,I don't have information about events after my knowledge cut,Urgent Care Centre
+без инструментов,claude-sonnet-4.6,fresh-115,fresh,False,1,0,,0.0013200000000000156,2.4,Информация недоступна,66
+без инструментов,claude-sonnet-4.6,fresh-116,fresh,False,1,0,,0.0046650000000000025,7.0,Tiger Woods,Nelly Korda
+без инструментов,claude-sonnet-4.6,fresh-117,fresh,False,1,0,,0.0024180000000000035,4.0,Line 7,Line S2
+без инструментов,claude-sonnet-4.6,fresh-118,fresh,False,1,0,,0.001469999999999999,2.6,"Не знаю, эта информация выходит за рамки моих данных",Antonello da Messina
+без инструментов,claude-sonnet-4.6,fresh-119,fresh,False,1,0,,0.002361000000000002,3.9,I don't have specific information about passenger service re,Baku and Tbilisi
+без инструментов,claude-sonnet-4.6,fresh-120,fresh,False,1,0,,0.0021089999999999998,3.2,"Мои данные не охватывают январь 2026 года, поэтому я не могу",Operation Southern Spear
+без инструментов,claude-sonnet-4.6,fresh-121,fresh,False,1,0,,0.0016200000000000103,4.5,"I don't have information about events in June 2026, as my kn",5.6
+без инструментов,claude-sonnet-4.6,fresh-122,fresh,False,1,0,,0.0022919999999999607,4.2,"Данное событие произошло после даты окончания моих знаний, и",Angus Taylor
+без инструментов,claude-sonnet-4.6,fresh-123,fresh,False,1,0,,0.0021720000000000073,14.6,Не знаю — это событие выходит за пределы моих данных (июнь 2,Burkina Faso
+без инструментов,claude-sonnet-4.6,fresh-124,fresh,False,1,0,,0.0016799999999999038,2.6,У меня нет данных о событиях марта 2026 года.,Kehl
+без инструментов,claude-sonnet-4.6,fresh-125,fresh,False,1,0,,0.0030180000000000207,5.6,I cannot answer this question as it refers to a December 202,ten-fold
+без инструментов,claude-sonnet-4.6,fresh-126,fresh,False,1,0,,0.0029489999999999794,5.1,I cannot determine this from available information (post-kno,Rohith Krishna
+без инструментов,claude-sonnet-4.6,fresh-127,fresh,False,1,0,,0.003344999999999987,10.2,44,five
+без инструментов,claude-sonnet-4.6,fresh-128,fresh,False,1,0,,0.007347000000000048,10.3,I don't have sufficient reliable information to state the sp,ZETA_1
+без инструментов,claude-sonnet-4.6,fresh-129,fresh,False,1,0,,0.004010999999999987,6.0,I don't have sufficiently reliable information about which t,Oak HC/FT and General Catalyst
+без инструментов,claude-sonnet-4.6,fresh-130,fresh,False,1,0,,0.0027149999999999674,4.2,I don't have information about Nvidia's GTC 2026 announcemen,Proteina-Complexa
+без инструментов,claude-sonnet-4.6,fresh-131,fresh,False,1,0,,0.0024630000000000485,4.0,"I don't have information about GTC 2026 announcements, as th",1.7 million
+без инструментов,claude-sonnet-4.6,fresh-132,fresh,False,1,0,,0.0020609999999999795,3.9,80%,16%
+без инструментов,claude-sonnet-4.6,fresh-133,fresh,True,1,0,,0.0006539999999999879,1.6,"January 20, 2025",20 January 2025
+без инструментов,claude-sonnet-4.6,fresh-134,fresh,False,1,0,,0.002385000000000026,11.3,135,139
+без инструментов,claude-sonnet-4.6,fresh-135,fresh,False,1,0,,0.0019710000000000005,20.4,Информация недоступна,Петросян
+без инструментов,claude-sonnet-4.6,fresh-136,fresh,False,1,0,,0.003390000000000004,124.9,Massachusetts Institute of Technology (MIT),Saint Petersburg State University
+без инструментов,claude-sonnet-4.6,fresh-137,fresh,False,1,0,,0.0019349999999999645,2.7,"May 20, 2025","August 7, 2025"
+без инструментов,claude-sonnet-4.6,fresh-138,fresh,False,1,0,,0.0030000000000000027,4.5,I don't have information about this award announcement from ,"Charles H. Bennett, Gilles Brassard"
+без инструментов,claude-sonnet-4.6,fresh-139,fresh,False,1,0,,0.0012480000000000269,2.2,DeepSeek-Prover-V2,DeepSeek-Prover-V2-671B
+без инструментов,claude-sonnet-4.6,fresh-140,fresh,False,1,0,,0.0024869999999999615,3.8,Ne Zha 2,"Crouching Tiger, Hidden Dragon"
+без инструментов,claude-sonnet-4.6,fresh-141,fresh,False,1,0,,0.0020760000000000223,5.0,$52 million,$70 million
+без инструментов,claude-sonnet-4.6,fresh-142,fresh,False,1,0,,0.0025020000000000042,4.8,I don't have reliable information about the 2026 Crunchyroll,My Hero Academia
+без инструментов,claude-sonnet-4.6,fresh-143,fresh,False,1,0,,0.00215700000000002,13.1,"I don't have data on this, as it falls after my knowledge cu",$18 million
+без инструментов,claude-sonnet-4.6,fresh-144,fresh,False,1,0,,0.0021539999999999893,4.1,75,72
+без инструментов,claude-sonnet-4.6,fresh-145,fresh,False,1,0,,0.0017759999999999998,7.2,"January 19, 2024","August 20, 2025"
+без инструментов,claude-sonnet-4.6,fresh-146,fresh,False,1,0,,0.001587000000000005,12.8,"As of my knowledge cutoff, no official premiere date for liv","March 10, 2026"
+без инструментов,claude-sonnet-4.6,fresh-147,fresh,False,1,0,,0.0009989999999999721,5.0,Pixar Animation Studios,Studio Ghibli
+без инструментов,claude-sonnet-4.6,fresh-148,fresh,False,1,0,,0.0010290000000000021,2.2,Mediolanum Forum,Milano Ice Skating Arena
+без инструментов,claude-sonnet-4.6,fresh-149,fresh,True,1,0,,0.0015780000000000238,2.5,2,two
+без инструментов,claude-sonnet-4.6,fresh-150,fresh,False,1,0,,0.0020369999999999555,7.1,Tokyo,Nagoya
+без инструментов,claude-sonnet-4.6,fresh-151,fresh,False,1,0,,0.0015480000000000493,3.2,I don't have information about the 2026 World Figure Skating,238.28
+без инструментов,claude-sonnet-4.6,fresh-152,fresh,False,1,0,,0.0024929999999999675,3.8,I don't have information about the 2026 World Figure Skating,Mone Chiba
+без инструментов,claude-sonnet-4.6,fresh-153,fresh,False,1,0,,0.0022110000000000185,3.5,"Зимние Олимпийские игры 2026 года ещё не прошли, данных нет.",тулуп
+без инструментов,claude-sonnet-4.6,fresh-154,fresh,False,1,0,,0.0015029999999999766,2.6,No data available,146.70
+без инструментов,gpt-4o-mini,fresh-0,fresh,False,1,0,,3.810000000000011e-05,1.8,"March 9, 2026",15 March
+без инструментов,gpt-4o-mini,fresh-1,fresh,False,1,0,,3.225000000000016e-05,10.0,"February 24, 2021",22 March
+без инструментов,gpt-4o-mini,fresh-2,fresh,False,1,0,,3.885000000003469e-05,2.1,Н/A,Miguel Díaz-Canel
+без инструментов,gpt-4o-mini,fresh-3,fresh,False,1,0,,4.0199999999990244e-05,1.9,"I'm sorry, but I cannot provide information about events or ",a strategic partnership agreement
+без инструментов,gpt-4o-mini,fresh-4,fresh,False,1,0,,4.5299999999970364e-05,3.3,Zero Emissions Vehicle mandate,A total fire ban
+без инструментов,gpt-4o-mini,fresh-5,fresh,False,1,0,,3.990000000003713e-05,2.9,I cannot provide information about events that occurred afte,two people
+без инструментов,gpt-4o-mini,fresh-6,fresh,False,1,0,,4.6799999999957986e-05,3.9,"I'm sorry, but I cannot provide information about events tha","4,500"
+без инструментов,gpt-4o-mini,fresh-7,fresh,False,1,0,,4.290000000001237e-05,7.8,Information not available.,Deniz Göktaş
+без инструментов,gpt-4o-mini,fresh-8,fresh,False,1,0,,3.0599999999991745e-05,3.9,"I'm sorry, but I can't provide information about events or d",Pavel Durov
+без инструментов,gpt-4o-mini,fresh-9,fresh,False,1,0,,2.925000000003619e-05,3.3,"Copenhagen, Denmark",New Delhi
+без инструментов,gpt-4o-mini,fresh-10,fresh,False,1,0,,3.374999999999906e-05,122.6,11,Twelve
+без инструментов,gpt-4o-mini,fresh-11,fresh,False,1,0,,4.1699999999977866e-05,3.2,Unknown,Helter Skelter
+без инструментов,gpt-4o-mini,fresh-12,fresh,False,1,0,,5.084999999999118e-05,1.7,Unable to provide future data.,"700,000"
+без инструментов,gpt-4o-mini,fresh-13,fresh,False,1,0,,5.340000000003675e-05,6.4,Data not available.,41.5 °C
+без инструментов,gpt-4o-mini,fresh-14,fresh,False,1,0,,3.209999999997937e-05,2.6,Madrid,Ciudad Rodrigo
+без инструментов,gpt-4o-mini,fresh-15,fresh,False,1,0,,4.799999999999249e-05,2.3,Unknown,Oleksandr Syrskyi
+без инструментов,gpt-4o-mini,fresh-16,fresh,False,1,0,,4.545000000000243e-05,1.9,Unknown,Montreal Victoire
+без инструментов,gpt-4o-mini,fresh-17,fresh,False,1,0,,5.5499999999986116e-05,125.0,Неполные данные.,EOS-05
+без инструментов,gpt-4o-mini,fresh-18,fresh,False,1,0,,3.8399999999993994e-05,4.7,"November 30, 2022",13 July
+без инструментов,gpt-4o-mini,fresh-19,fresh,False,1,0,,4.755000000000731e-05,3.9,Unable to provide information.,Disney Kids & Family
+без инструментов,gpt-4o-mini,fresh-20,fresh,True,1,0,,7.03499999999968e-05,4.7,Single elimination format,single-elimination
+без инструментов,gpt-4o-mini,fresh-21,fresh,False,1,0,,3.4200000000039754e-05,3.0,I cannot provide information about events or accusations tha,Gavin Snider
+без инструментов,gpt-4o-mini,fresh-22,fresh,False,1,0,,5.59499999999713e-05,3.9,No information available.,Clara and the Below
+без инструментов,gpt-4o-mini,fresh-23,fresh,False,1,0,,3.615000000001256e-05,2.3,I cannot provide information on events that occur after my l,German Galushchenko
+без инструментов,gpt-4o-mini,fresh-24,fresh,False,1,0,,3.090000000000037e-05,1.9,National Park,a drought
+без инструментов,gpt-4o-mini,fresh-25,fresh,False,1,0,,4.650000000000487e-05,11.8,Information not available.,"""open war"""
+без инструментов,gpt-4o-mini,fresh-26,fresh,False,1,0,,3.195000000000281e-05,3.0,I cannot provide information on events occurring after Octob,nine
+без инструментов,gpt-4o-mini,fresh-27,fresh,False,1,0,,3.870000000000262e-05,5.7,Gustavo Dudamel,Markus Hinterhäuser
+без инструментов,gpt-4o-mini,fresh-28,fresh,False,1,0,,4.155000000000131e-05,2.3,N/A,nine
+без инструментов,gpt-4o-mini,fresh-29,fresh,False,1,0,,5.8950000000002056e-05,2.7,No information available.,43
+без инструментов,gpt-4o-mini,fresh-30,fresh,False,1,0,,4.1699999999977866e-05,2.4,I can’t provide information on events that occurred after my,Ankara
+без инструментов,gpt-4o-mini,fresh-31,fresh,False,1,0,,3.825000000001744e-05,2.1,"Извините, но у меня нет данных о событиях, произошедших посл",Aibek Dädebai
+без инструментов,gpt-4o-mini,fresh-32,fresh,False,1,0,,4.1850000000009935e-05,4.7,Неизвестно.,Richard Lewer
+без инструментов,gpt-4o-mini,fresh-33,fresh,False,1,0,,3.554999999999531e-05,2.9,I'm unable to provide information about events or facts occu,Marilyn Gladu
+без инструментов,gpt-4o-mini,fresh-34,fresh,False,1,0,,4.8749999999986304e-05,3.5,I'm unable to provide information on events that occurred af,6.3
+без инструментов,gpt-4o-mini,fresh-35,fresh,False,1,0,,3.554999999999531e-05,10.4,Unknown,Dina Levačić
+без инструментов,gpt-4o-mini,fresh-36,fresh,False,1,0,,5.83499999999848e-05,9.2,Неполучено.,129
+без инструментов,gpt-4o-mini,fresh-37,fresh,False,1,0,,3.390000000003113e-05,3.4,"June 14, 2026",15 June
+без инструментов,gpt-4o-mini,fresh-38,fresh,False,1,0,,4.844999999997768e-05,3.3,Unknown,Chief Minister
+без инструментов,gpt-4o-mini,fresh-39,fresh,False,1,0,,4.1100000000016124e-05,3.8,"I'm sorry, but I cannot provide information about events tha",Gelida
+без инструментов,gpt-4o-mini,fresh-40,fresh,False,1,0,,4.799999999999249e-05,8.5,Unknown event.,Vladimir Alekseyev
+без инструментов,gpt-4o-mini,fresh-41,fresh,False,1,0,,4.3499999999974115e-05,2.9,Data unavailable.,Thirty thousand people
+без инструментов,gpt-4o-mini,fresh-42,fresh,False,1,0,,4.049999999999887e-05,3.8,"I'm sorry, but I cannot provide information from the future ",Prime Minister Narendra Modi
+без инструментов,gpt-4o-mini,fresh-43,fresh,False,1,0,,3.825000000001744e-05,124.8,"I'm sorry, but I cannot provide information on events or ind",Zohran Mamdani
+без инструментов,gpt-4o-mini,fresh-44,fresh,False,1,0,,5.250000000001087e-05,3.7,Data not available.,LHS 1140 b
+без инструментов,gpt-4o-mini,fresh-45,fresh,False,1,0,,4.8600000000009747e-05,4.0,Unknown,F-16 Fighting Falcon
+без инструментов,gpt-4o-mini,fresh-46,fresh,False,1,0,,3.6599999999997745e-05,2.6,I'm unable to provide information on events that occurred af,five
+без инструментов,gpt-4o-mini,fresh-47,fresh,False,1,0,,5.355000000001331e-05,3.4,Неизвестно.,Education Minister
+без инструментов,gpt-4o-mini,fresh-48,fresh,False,1,0,,3.599999999998049e-05,6.7,"I'm sorry, but I don't have information on events that occur",Mykhailo Fedorov
+без инструментов,gpt-4o-mini,fresh-49,fresh,False,1,0,,3.779999999997674e-05,4.2,Information unavailable.,life imprisonment
+без инструментов,gpt-4o-mini,fresh-50,fresh,False,1,0,,6.060000000002175e-05,3.4,Нет информации.,"802,500 lira"
+без инструментов,gpt-4o-mini,fresh-51,fresh,False,1,0,,3.989999999998162e-05,5.4,Unknown,Bruno Foucher
+без инструментов,gpt-4o-mini,fresh-52,fresh,False,1,0,,3.105000000003244e-05,3.8,N/A,5.2
+без инструментов,gpt-4o-mini,fresh-53,fresh,False,1,0,,5.099999999996774e-05,4.4,No current information available.,Tonya McBride Robles
+без инструментов,gpt-4o-mini,fresh-54,fresh,False,1,0,,4.170000000003338e-05,4.9,"I'm sorry, but I do not have access to real-time data or inf",80
+без инструментов,gpt-4o-mini,fresh-55,fresh,False,1,0,,5.114999999999981e-05,6.5,Unable to provide information.,two
+без инструментов,gpt-4o-mini,fresh-56,fresh,False,1,0,,5.325000000000468e-05,2.8,Data not available.,3%
+без инструментов,gpt-4o-mini,fresh-57,fresh,False,1,0,,3.9149999999987806e-05,2.3,Information not available.,Yoon Suk Yeol
+без инструментов,gpt-4o-mini,fresh-58,fresh,False,1,0,,3.3899999999975616e-05,3.8,BYD,BYD Auto
+без инструментов,gpt-4o-mini,fresh-59,fresh,False,1,0,,4.049999999999887e-05,2.9,J. M. D. A. Calzada,Carson Ting
+без инструментов,gpt-4o-mini,fresh-60,fresh,False,1,0,,4.1100000000016124e-05,2.6,Unknown.,209
+без инструментов,gpt-4o-mini,fresh-61,fresh,False,1,0,,3.690000000000637e-05,1.8,I don't have information on events that occurred after Octob,Fourteen
+без инструментов,gpt-4o-mini,fresh-62,fresh,False,1,0,,3.6449999999965677e-05,4.7,Unknown.,13 years
+без инструментов,gpt-4o-mini,fresh-63,fresh,False,1,0,,3.975000000000506e-05,2.7,Unknown,Two
+без инструментов,gpt-4o-mini,fresh-64,fresh,False,1,0,,4.305000000004444e-05,4.3,Недоступно.,mayor of Lutsk
+без инструментов,gpt-4o-mini,fresh-65,fresh,False,1,0,,3.854999999997055e-05,3.8,I'm unable to provide information about events or facts that,16
+без инструментов,gpt-4o-mini,fresh-66,fresh,False,1,0,,3.465000000002494e-05,3.3,I'm unable to provide information on events that occurred af,at least six
+без инструментов,gpt-4o-mini,fresh-67,fresh,False,1,0,,5.849999999996136e-05,123.0,Неизвестно,Liam Nassereddine
+без инструментов,gpt-4o-mini,fresh-68,fresh,False,1,0,,3.900000000001125e-05,2.8,I cannot provide information on events or announcements that,Mark Carney
+без инструментов,gpt-4o-mini,fresh-69,fresh,False,1,0,,2.669999999999062e-05,1.4,London,Leipzig
+без инструментов,gpt-4o-mini,fresh-70,fresh,False,1,0,,3.690000000000637e-05,2.4,Airrail service,night train service
+без инструментов,gpt-4o-mini,fresh-71,fresh,False,1,0,,4.995000000002081e-05,1.5,Unknown,Nikita Solovyov
+без инструментов,gpt-4o-mini,fresh-72,fresh,False,1,0,,4.290000000001237e-05,2.1,Unknown,Dharmendra Pradhan
+без инструментов,gpt-4o-mini,fresh-73,fresh,False,1,0,,5.069999999995911e-05,2.8,Unknown.,Han Hak-ja
+без инструментов,gpt-4o-mini,fresh-74,fresh,False,1,0,,4.470000000000862e-05,9.2,N/A,Daniel Ortega
+без инструментов,gpt-4o-mini,fresh-75,fresh,False,1,0,,5.159999999998499e-05,2.7,Н/A,Novokuznetsk
+без инструментов,gpt-4o-mini,fresh-76,fresh,False,1,0,,3.795000000000881e-05,2.2,N/A,life imprisonment
+без инструментов,gpt-4o-mini,fresh-77,fresh,False,1,0,,4.8600000000009747e-05,10.7,N/A,Carlos Vila Nova
+без инструментов,gpt-4o-mini,fresh-78,fresh,False,1,0,,5.624999999997993e-05,3.4,Unable to provide information.,13.2 months
+без инструментов,gpt-4o-mini,fresh-79,fresh,False,1,0,,5.7450000000014434e-05,1.6,Data not available.,three
+без инструментов,gpt-4o-mini,fresh-80,fresh,False,1,0,,4.935000000000356e-05,2.2,I'm unable to provide information on events occurring after ,"UGC Equity Regulations, 2026"
+без инструментов,gpt-4o-mini,fresh-81,fresh,False,1,0,,4.7100000000022124e-05,2.0,Future data unavailable.,8.15m
+без инструментов,gpt-4o-mini,fresh-82,fresh,False,1,0,,5.084999999999118e-05,1.3,Information not available.,28 people
+без инструментов,gpt-4o-mini,fresh-83,fresh,False,1,0,,4.064999999997543e-05,1.5,информация недоступна.,improvised explosive device
+без инструментов,gpt-4o-mini,fresh-84,fresh,False,1,0,,5.009999999999737e-05,1.6,Unknown,eight games
+без инструментов,gpt-4o-mini,fresh-85,fresh,False,1,0,,4.470000000000862e-05,1.6,I'm unable to provide information on events or records that ,38 °C
+без инструментов,gpt-4o-mini,fresh-86,fresh,False,1,0,,5.610000000000337e-05,1.6,N/A,£30.4bn
+без инструментов,gpt-4o-mini,fresh-87,fresh,False,1,0,,3.449999999999287e-05,2.3,Dina Boluarte,José Jerí
+без инструментов,gpt-4o-mini,fresh-88,fresh,False,1,0,,4.4399999999999995e-05,5.3,"I'm unable to provide information from the future, including","Henoko, Okinawa Prefecture"
+без инструментов,gpt-4o-mini,fresh-89,fresh,False,1,0,,3.6000000000036e-05,1.4,Scott Smith,Doug Armstrong
+без инструментов,gpt-4o-mini,fresh-90,fresh,False,1,0,,4.244999999997168e-05,1.5,Office for National Statistics,Imperial College London
+без инструментов,gpt-4o-mini,fresh-91,fresh,False,1,0,,5.759999999999099e-05,3.0,Information not available.,"₹25,863 crore"
+без инструментов,gpt-4o-mini,fresh-92,fresh,True,1,0,,2.085000000001669e-05,2.4,Rubén Rocha Moya,Rubén Rocha Moya
+без инструментов,gpt-4o-mini,fresh-93,fresh,False,1,0,,2.6100000000028878e-05,1.1,Unknown,Spain
+без инструментов,gpt-4o-mini,fresh-94,fresh,False,1,0,,3.209999999997937e-05,6.3,N/A,11th
+без инструментов,gpt-4o-mini,fresh-95,fresh,False,1,0,,4.049999999999887e-05,1.4,Not yet held,India
+без инструментов,gpt-4o-mini,fresh-96,fresh,True,1,0,,3.195000000000281e-05,1.1,"Istanbul, Turkey",Istanbul
+без инструментов,gpt-4o-mini,fresh-97,fresh,True,1,0,,3.615000000001256e-05,5.6,"Citizens Bank Park, Philadelphia, Pennsylvania",Citizens Bank Park
+без инструментов,gpt-4o-mini,fresh-98,fresh,False,1,0,,5.699999999997374e-05,2.9,No such document exists.,Islamabad Memorandum
+без инструментов,gpt-4o-mini,fresh-99,fresh,False,1,0,,4.935000000000356e-05,2.0,Unknown,Elon Musk
+без инструментов,gpt-4o-mini,fresh-100,fresh,False,1,0,,6.299999999997974e-05,1.7,Неизвестно,"252,756 miles"
+без инструментов,gpt-4o-mini,fresh-101,fresh,False,1,0,,4.9650000000012184e-05,1.9,Not applicable.,10-day
+без инструментов,gpt-4o-mini,fresh-102,fresh,False,1,0,,4.1850000000009935e-05,4.5,Unknown.,Oleksandr Dovhach
+без инструментов,gpt-4o-mini,fresh-103,fresh,False,1,0,,3.090000000000037e-05,1.1,No one replaced José Jerí as president of Peru in February 2,José María Balcázar
+без инструментов,gpt-4o-mini,fresh-104,fresh,False,1,0,,3.629999999998912e-05,3.2,15,21
+без инструментов,gpt-4o-mini,fresh-105,fresh,False,1,0,,6.060000000002175e-05,9.0,Unable to provide future data.,¥60–120
+без инструментов,gpt-4o-mini,fresh-106,fresh,False,1,0,,3.539999999996324e-05,2.0,Terminal 3,GRU Airport People Mover
+без инструментов,gpt-4o-mini,fresh-107,fresh,False,1,0,,3.090000000000037e-05,1.1,presidential election,2026 Beninese parliamentary election
+без инструментов,gpt-4o-mini,fresh-108,fresh,False,1,0,,4.6050000000019686e-05,1.9,"I'm unable to provide information about future events, inclu",Michaelmas Island
+без инструментов,gpt-4o-mini,fresh-109,fresh,False,1,0,,4.935000000000356e-05,6.1,Невозможно предоставить информацию.,conspiracy to commit arson
+без инструментов,gpt-4o-mini,fresh-110,fresh,False,1,0,,3.944999999999643e-05,1.5,информация недоступна.,Clay Fuller
+без инструментов,gpt-4o-mini,fresh-111,fresh,False,1,0,,3.615000000001256e-05,122.6,leader of the Labour Party,prime minister
+без инструментов,gpt-4o-mini,fresh-112,fresh,False,1,0,,4.500000000001725e-05,2.3,Mars Sample Return mission,SMILE
+без инструментов,gpt-4o-mini,fresh-113,fresh,False,1,0,,3.2999999999949736e-05,1.7,I cannot provide information about events or announcements t,850
+без инструментов,gpt-4o-mini,fresh-114,fresh,False,1,0,,5.355000000001331e-05,10.2,I don't have access to any events or developments that occur,Urgent Care Centre
+без инструментов,gpt-4o-mini,fresh-115,fresh,False,1,0,,4.904999999999493e-05,2.3,Неподходящие данные.,66
+без инструментов,gpt-4o-mini,fresh-116,fresh,False,1,0,,4.9200000000027e-05,3.0,Pebble Beach Golf Links,Nelly Korda
+без инструментов,gpt-4o-mini,fresh-117,fresh,False,1,0,,3.269999999999662e-05,2.2,Nanjing Metro Line 10,Line S2
+без инструментов,gpt-4o-mini,fresh-118,fresh,False,1,0,,5.535000000000956e-05,1.9,Н/A,Antonello da Messina
+без инструментов,gpt-4o-mini,fresh-119,fresh,False,1,0,,5.264999999998743e-05,2.7,Невозможно ответить.,Baku and Tbilisi
+без инструментов,gpt-4o-mini,fresh-120,fresh,False,1,0,,4.155000000000131e-05,2.0,enforcement of sanctions against illegal oil trade.,Operation Southern Spear
+без инструментов,gpt-4o-mini,fresh-121,fresh,False,1,0,,3.870000000000262e-05,1.7,"Извините, но я не могу предоставить информацию о событиях, п",5.6
+без инструментов,gpt-4o-mini,fresh-122,fresh,False,1,0,,3.464999999996943e-05,5.1,Andrew Constance,Angus Taylor
+без инструментов,gpt-4o-mini,fresh-123,fresh,False,1,0,,3.555000000005082e-05,1.8,Невозможно ответить.,Burkina Faso
+без инструментов,gpt-4o-mini,fresh-124,fresh,False,1,0,,3.43499999999608e-05,2.7,I'm unable to provide information about events that occurred,Kehl
+без инструментов,gpt-4o-mini,fresh-125,fresh,False,1,0,,4.9650000000012184e-05,1.6,N/A,ten-fold
+без инструментов,gpt-4o-mini,fresh-126,fresh,False,1,0,,4.290000000001237e-05,2.3,Unknown,Rohith Krishna
+без инструментов,gpt-4o-mini,fresh-127,fresh,False,1,0,,3.5850000000003934e-05,1.8,I can't access articles published after my last update in Oc,five
+без инструментов,gpt-4o-mini,fresh-128,fresh,False,1,0,,5.1299999999976365e-05,2.7,Mg2+-dependent phosphotriesterase,ZETA_1
+без инструментов,gpt-4o-mini,fresh-129,fresh,False,1,0,,4.245000000002719e-05,3.2,"I'm sorry, but I cannot provide information from after Octob",Oak HC/FT and General Catalyst
+без инструментов,gpt-4o-mini,fresh-130,fresh,False,1,0,,3.5699999999971865e-05,2.8,FoldingAmerica,Proteina-Complexa
+без инструментов,gpt-4o-mini,fresh-131,fresh,False,1,0,,6.060000000002175e-05,1.9,N/A,1.7 million
+без инструментов,gpt-4o-mini,fresh-132,fresh,False,1,0,,5.684999999999718e-05,2.8,77,16%
+без инструментов,gpt-4o-mini,fresh-133,fresh,False,1,0,,3.4800000000001496e-05,1.3,"June 15, 2023",20 January 2025
+без инструментов,gpt-4o-mini,fresh-134,fresh,False,1,0,,3.6599999999997745e-05,2.3,Unknown,139
+без инструментов,gpt-4o-mini,fresh-135,fresh,False,1,0,,4.2600000000003746e-05,2.9,Нет данных.,Петросян
+без инструментов,gpt-4o-mini,fresh-136,fresh,False,1,0,,3.539999999996324e-05,1.6,"I'm sorry, but I cannot provide information about events tha",Saint Petersburg State University
+без инструментов,gpt-4o-mini,fresh-137,fresh,False,1,0,,3.705000000003844e-05,2.9,Not launched.,"August 7, 2025"
+без инструментов,gpt-4o-mini,fresh-138,fresh,False,1,0,,4.5299999999970364e-05,1.9,N/A,"Charles H. Bennett, Gilles Brassard"
+без инструментов,gpt-4o-mini,fresh-139,fresh,False,1,0,,3.3150000000037316e-05,2.1,Unknown,DeepSeek-Prover-V2-671B
+без инструментов,gpt-4o-mini,fresh-140,fresh,False,1,0,,4.0649999999864406e-05,1.6,Spider-Man: No Way Home,"Crouching Tiger, Hidden Dragon"
+без инструментов,gpt-4o-mini,fresh-141,fresh,False,1,0,,4.799999999999249e-05,1.7,23.2 million,$70 million
+без инструментов,gpt-4o-mini,fresh-142,fresh,False,1,0,,4.1699999999977866e-05,2.9,Not available.,My Hero Academia
+без инструментов,gpt-4o-mini,fresh-143,fresh,False,1,0,,4.9499999999980115e-05,1.3,N/A,$18 million
+без инструментов,gpt-4o-mini,fresh-144,fresh,False,1,0,,4.6200000000051755e-05,3.8,78,72
+без инструментов,gpt-4o-mini,fresh-145,fresh,False,1,0,,5.2049999999970176e-05,123.9,Tatsuya Nagamine is alive.,"August 20, 2025"
+без инструментов,gpt-4o-mini,fresh-146,fresh,False,1,0,,3.704999999998293e-05,1.6,No official date announced.,"March 10, 2026"
+без инструментов,gpt-4o-mini,fresh-147,fresh,True,1,0,,3.374999999999906e-05,1.2,Studio Ghibli,Studio Ghibli
+без инструментов,gpt-4o-mini,fresh-148,fresh,False,1,0,,3.540000000001875e-05,1.4,Mediolanum Forum,Milano Ice Skating Arena
+без инструментов,gpt-4o-mini,fresh-149,fresh,False,1,0,,3.809999999998537e-05,1.3,1,two
+без инструментов,gpt-4o-mini,fresh-150,fresh,False,1,0,,3.255000000002006e-05,2.4,Osaka,Nagoya
+без инструментов,gpt-4o-mini,fresh-151,fresh,False,1,0,,5.8200000000008245e-05,1.6,Неизвестно.,238.28
+без инструментов,gpt-4o-mini,fresh-152,fresh,False,1,0,,4.0050000000013686e-05,1.3,Not available yet,Mone Chiba
+без инструментов,gpt-4o-mini,fresh-153,fresh,False,1,0,,4.559999999997899e-05,2.6,Вопрос не имеет ответа.,тулуп
+без инструментов,gpt-4o-mini,fresh-154,fresh,False,1,0,,4.8749999999986304e-05,2.9,I'm unable to provide details about events or scores that ha,146.70
+поиск,gpt-4o-mini,fresh-0,fresh,False,8,7,web_search,0.0014537999999999999,29.3,Unknown,15 March
+поиск,gpt-4o-mini,fresh-1,fresh,True,5,4,web_search,0.00041069999999999995,145.6,22 March 2026,22 March
+поиск,gpt-4o-mini,fresh-2,fresh,False,2,1,web_search,0.00017820000000012826,4.9,Иран и Соединенные Штаты,Miguel Díaz-Canel
+поиск,gpt-4o-mini,fresh-3,fresh,False,8,7,web_search,0.001118700000000028,22.8,Информация недоступна.,a strategic partnership agreement
+поиск,gpt-4o-mini,fresh-4,fresh,False,8,7,web_search,0.0010332000000000119,42.7,Неизвестно,A total fire ban
+поиск,gpt-4o-mini,fresh-5,fresh,True,2,1,web_search,8.444999999995817e-05,3.6,2,two people
+поиск,gpt-4o-mini,fresh-6,fresh,False,2,1,web_search,0.00012149999999999661,4.3,519,"4,500"
+поиск,gpt-4o-mini,fresh-7,fresh,False,8,7,web_search,0.0016915500000000416,34.1,неизвестно.,Deniz Göktaş
+поиск,gpt-4o-mini,fresh-8,fresh,True,8,7,web_search,0.0009151499999999757,45.7,Pavel Durov,Pavel Durov
+поиск,gpt-4o-mini,fresh-9,fresh,True,2,1,web_search,9.330000000001837e-05,4.0,"New Delhi, India",New Delhi
+поиск,gpt-4o-mini,fresh-10,fresh,False,8,7,web_search,0.0008218500000000128,39.4,Неизвестно.,Twelve
+поиск,gpt-4o-mini,fresh-11,fresh,False,6,5,web_search,0.0004397999999999902,138.6,Not available,Helter Skelter
+поиск,gpt-4o-mini,fresh-12,fresh,False,5,4,web_search,0.0006118499999999694,39.0,Data not found,"700,000"
+поиск,gpt-4o-mini,fresh-13,fresh,False,2,1,web_search,0.00015750000000003261,4.0,Not specified,41.5 °C
+поиск,gpt-4o-mini,fresh-14,fresh,False,7,6,web_search,0.0007997999999999617,18.7,No information found.,Ciudad Rodrigo
+поиск,gpt-4o-mini,fresh-15,fresh,True,5,4,web_search,0.0005998500000000129,46.3,Oleksandr Syrskyi,Oleksandr Syrskyi
+поиск,gpt-4o-mini,fresh-16,fresh,True,2,1,web_search,0.00011205000000003018,11.8,Montreal Victoire,Montreal Victoire
+поиск,gpt-4o-mini,fresh-17,fresh,False,5,4,web_search,0.0004126499999999589,15.8,No information available.,EOS-05
+поиск,gpt-4o-mini,fresh-18,fresh,False,8,7,web_search,0.00200805000000015,25.4,6 ноября 2020 года,13 July
+поиск,gpt-4o-mini,fresh-19,fresh,False,8,7,web_search,0.0017941499999999944,182.7,Disney Entertainment Television,Disney Kids & Family
+поиск,gpt-4o-mini,fresh-20,fresh,True,2,1,web_search,0.00012165000000002868,4.8,Single-elimination tournament format.,single-elimination
+поиск,gpt-4o-mini,fresh-21,fresh,False,8,7,web_search,0.0016821000000000197,41.1,информация недоступна.,Gavin Snider
+поиск,gpt-4o-mini,fresh-22,fresh,False,5,4,web_search,0.0003722999999999921,20.0,Unknown,Clara and the Below
+поиск,gpt-4o-mini,fresh-23,fresh,False,4,3,web_search,0.00024209999999996734,27.9,Information not found.,German Galushchenko
+поиск,gpt-4o-mini,fresh-24,fresh,True,3,2,web_search,0.0003478500000000384,6.5,drought,a drought
+поиск,gpt-4o-mini,fresh-25,fresh,True,2,1,web_search,0.00015329999999996735,13.0,Open war against Afghanistan,"""open war"""
+поиск,gpt-4o-mini,fresh-26,fresh,False,4,3,web_search,0.0002431500000000253,143.1,No information found.,nine
+поиск,gpt-4o-mini,fresh-27,fresh,True,7,6,web_search,0.0007771500000000042,277.5,Markus Hinterhäuser,Markus Hinterhäuser
+поиск,gpt-4o-mini,fresh-28,fresh,False,2,1,web_search,9.899999999996023e-05,4.8,6,nine
+поиск,gpt-4o-mini,fresh-29,fresh,False,3,2,web_search,0.00028290000000003035,14.4,46,43
+поиск,gpt-4o-mini,fresh-30,fresh,False,3,2,web_search,0.00017580000000000373,7.1,информация о городе отсутствует,Ankara
+поиск,gpt-4o-mini,fresh-31,fresh,False,4,3,web_search,0.0005140499999999881,26.9,Ädilet party,Aibek Dädebai
+поиск,gpt-4o-mini,fresh-32,fresh,False,2,1,web_search,0.00012465000000000392,4.9,информация недоступна.,Richard Lewer
+поиск,gpt-4o-mini,fresh-33,fresh,False,8,7,web_search,0.0014107500000000162,43.0,No relevant information found.,Marilyn Gladu
+поиск,gpt-4o-mini,fresh-34,fresh,False,5,4,web_search,0.0005906999999999996,14.4,Unknown,6.3
+поиск,gpt-4o-mini,fresh-35,fresh,False,4,3,web_search,0.0004946999999999591,15.0,Невозможно найти информацию,Dina Levačić
+поиск,gpt-4o-mini,fresh-36,fresh,False,2,1,web_search,0.0001015500000000058,9.0,136,129
+поиск,gpt-4o-mini,fresh-37,fresh,False,8,7,web_search,0.0012966000000000366,177.0,Неизвестно.,15 June
+поиск,gpt-4o-mini,fresh-38,fresh,True,2,1,web_search,0.0001142999999999561,39.3,13th Chief Minister,Chief Minister
+поиск,gpt-4o-mini,fresh-39,fresh,False,2,1,web_search,0.00012045000000004968,4.9,"Adamuz, Córdoba, Spain",Gelida
+поиск,gpt-4o-mini,fresh-40,fresh,False,5,4,web_search,0.00040964999999998364,32.8,No information found.,Vladimir Alekseyev
+поиск,gpt-4o-mini,fresh-41,fresh,False,7,6,web_search,0.0010719000000000145,23.2,Not found.,Thirty thousand people
+поиск,gpt-4o-mini,fresh-42,fresh,False,8,7,web_search,0.001541249999999994,40.3,Неизвестно.,Prime Minister Narendra Modi
+поиск,gpt-4o-mini,fresh-43,fresh,True,2,1,web_search,0.0001238999999999546,20.7,Zohran Mamdani,Zohran Mamdani
+поиск,gpt-4o-mini,fresh-44,fresh,False,4,3,web_search,0.0002307000000000281,131.5,Unknown,LHS 1140 b
+поиск,gpt-4o-mini,fresh-45,fresh,False,7,6,web_search,0.0006052500000000016,19.0,Информация отсутствует.,F-16 Fighting Falcon
+поиск,gpt-4o-mini,fresh-46,fresh,True,3,2,web_search,0.00019259999999998723,10.2,5,five
+поиск,gpt-4o-mini,fresh-47,fresh,False,2,1,web_search,0.00012780000000001124,30.2,Minister of Education,Education Minister
+поиск,gpt-4o-mini,fresh-48,fresh,False,7,6,web_search,0.0008198999999999845,41.4,Information not found.,Mykhailo Fedorov
+поиск,gpt-4o-mini,fresh-49,fresh,False,5,4,web_search,0.0004958999999999936,254.2,Information not found.,life imprisonment
+поиск,gpt-4o-mini,fresh-50,fresh,False,7,6,web_search,0.0007765500000000425,30.9,"Мне не удалось найти информацию о штрафе, который был наложе","802,500 lira"
+поиск,gpt-4o-mini,fresh-51,fresh,False,8,7,web_search,0.0013735500000000012,277.5,Бруно Фуше.,Bruno Foucher
+поиск,gpt-4o-mini,fresh-52,fresh,False,4,3,web_search,0.00027959999999999097,20.7,Not found,5.2
+поиск,gpt-4o-mini,fresh-53,fresh,False,6,5,web_search,0.00043124999999999414,179.9,Information not found.,Tonya McBride Robles
+поиск,gpt-4o-mini,fresh-54,fresh,True,2,1,web_search,0.00010529999999997486,21.8,80,80
+поиск,gpt-4o-mini,fresh-55,fresh,True,2,1,web_search,0.00010019999999999474,5.6,2,two
+поиск,gpt-4o-mini,fresh-56,fresh,False,2,1,web_search,0.00016650000000001386,8.0,No data available on UK inflation rate in January 2026.,3%
+поиск,gpt-4o-mini,fresh-57,fresh,False,8,7,web_search,0.0011491499999999877,294.5,Нет информации.,Yoon Suk Yeol
+поиск,gpt-4o-mini,fresh-58,fresh,False,8,7,web_search,0.0016377000000000197,33.9,BYD,BYD Auto
+поиск,gpt-4o-mini,fresh-59,fresh,False,8,7,web_search,0.002070599999999978,26.7,неизвестно,Carson Ting
+поиск,gpt-4o-mini,fresh-60,fresh,False,2,1,web_search,0.0001075500000000118,6.0,No information available.,209
+поиск,gpt-4o-mini,fresh-61,fresh,True,2,1,web_search,8.459999999999024e-05,7.3,14,Fourteen
+поиск,gpt-4o-mini,fresh-62,fresh,False,3,2,web_search,0.0001476000000000255,8.5,Not available,13 years
+поиск,gpt-4o-mini,fresh-63,fresh,False,4,3,web_search,0.00021765000000001367,30.3,Not available.,Two
+поиск,gpt-4o-mini,fresh-64,fresh,False,8,7,web_search,0.0012505499999999614,42.2,информация недоступна,mayor of Lutsk
+поиск,gpt-4o-mini,fresh-65,fresh,False,2,1,web_search,0.00012135000000002005,27.2,Not found.,16
+поиск,gpt-4o-mini,fresh-66,fresh,False,7,6,web_search,0.0008848499999999926,28.4,No information available.,at least six
+поиск,gpt-4o-mini,fresh-67,fresh,False,5,4,web_search,0.0003043500000000088,24.9,Н/A,Liam Nassereddine
+поиск,gpt-4o-mini,fresh-68,fresh,True,6,5,web_search,0.0005155499999999757,34.8,Mark Carney,Mark Carney
+поиск,gpt-4o-mini,fresh-69,fresh,True,2,1,web_search,0.00010229999999999961,4.8,"Leipzig, Germany",Leipzig
+поиск,gpt-4o-mini,fresh-70,fresh,False,4,3,web_search,0.0002579999999996474,136.3,Нет информации о новом сервисе.,night train service
+поиск,gpt-4o-mini,fresh-71,fresh,True,2,1,web_search,0.00012224999999999042,125.4,Nikita Solovyovat,Nikita Solovyov
+поиск,gpt-4o-mini,fresh-72,fresh,True,2,1,web_search,0.00015330000000002286,4.8,Dharmendra Pradhan,Dharmendra Pradhan
+поиск,gpt-4o-mini,fresh-73,fresh,False,4,3,web_search,0.00022649999999996284,149.6,Нет информации.,Han Hak-ja
+поиск,gpt-4o-mini,fresh-74,fresh,True,2,1,web_search,9.975000000000955e-05,5.6,Daniel Ortega,Daniel Ortega
+поиск,gpt-4o-mini,fresh-75,fresh,False,4,3,web_search,0.0005416500000000046,164.5,Информация не найдена.,Novokuznetsk
+поиск,gpt-4o-mini,fresh-76,fresh,False,2,1,web_search,0.0001766999999999741,6.2,Life sentence for insurrection and other crimes.,life imprisonment
+поиск,gpt-4o-mini,fresh-77,fresh,False,8,7,web_search,0.0010982999999999965,152.5,Результаты выборов неизвестны.,Carlos Vila Nova
+поиск,gpt-4o-mini,fresh-78,fresh,False,4,3,web_search,0.0004996500000000181,140.4,Data not found.,13.2 months
+поиск,gpt-4o-mini,fresh-79,fresh,False,8,7,web_search,0.0009167999999999954,52.1,неизвестно.,three
+поиск,gpt-4o-mini,fresh-80,fresh,True,4,4,web_search,0.0005466000000000082,40.7,"UGC Equity Regulations, 2026","UGC Equity Regulations, 2026"
+поиск,gpt-4o-mini,fresh-81,fresh,False,2,1,web_search,0.00012180000000000524,9.6,No data found.,8.15m
+поиск,gpt-4o-mini,fresh-82,fresh,True,3,2,web_search,0.0001834499999999739,31.4,28,28 people
+поиск,gpt-4o-mini,fresh-83,fresh,False,8,7,web_search,0.001417650000000048,38.7,IED (самодельное взрывное устройство).,improvised explosive device
+поиск,gpt-4o-mini,fresh-84,fresh,False,6,5,web_search,0.00054974999999996,45.0,Not available,eight games
+поиск,gpt-4o-mini,fresh-85,fresh,True,2,1,web_search,0.00015105000000004143,5.1,38.0 °C,38 °C
+поиск,gpt-4o-mini,fresh-86,fresh,False,7,6,web_search,0.0007772999999999808,44.5,No data available,£30.4bn
+поиск,gpt-4o-mini,fresh-87,fresh,False,4,3,web_search,0.0003434999999999966,33.1,Keiko Fujimori,José Jerí
+поиск,gpt-4o-mini,fresh-88,fresh,False,6,5,web_search,0.0005329499999999765,145.7,No information available.,"Henoko, Okinawa Prefecture"
+поиск,gpt-4o-mini,fresh-89,fresh,False,7,6,web_search,0.0009865500000000305,24.5,Неизвестно,Doug Armstrong
+поиск,gpt-4o-mini,fresh-90,fresh,False,7,6,web_search,0.0009299999999999864,31.9,World Weather Attribution,Imperial College London
+поиск,gpt-4o-mini,fresh-91,fresh,False,5,4,web_search,0.0003118500000000024,15.4,No data available.,"₹25,863 crore"
+поиск,gpt-4o-mini,fresh-92,fresh,False,5,4,web_search,0.00028844999999999565,49.0,Неизвестно,Rubén Rocha Moya
+поиск,gpt-4o-mini,fresh-93,fresh,True,2,1,web_search,0.0001416000000000195,7.5,Spain,Spain
+поиск,gpt-4o-mini,fresh-94,fresh,False,2,1,web_search,0.00014639999999999098,132.3,Not mentioned,11th
+поиск,gpt-4o-mini,fresh-95,fresh,True,2,1,web_search,0.00011729999999998686,5.0,India,India
+поиск,gpt-4o-mini,fresh-96,fresh,True,2,3,web_search,0.00015809999999999436,9.3,"Istanbul, Turkey",Istanbul
+поиск,gpt-4o-mini,fresh-97,fresh,True,2,1,web_search,0.00010589999999999211,5.7,"Citizens Bank Park in Philadelphia, Pennsylvania",Citizens Bank Park
+поиск,gpt-4o-mini,fresh-98,fresh,False,3,2,web_search,0.0003519000000000161,26.7,No document signed.,Islamabad Memorandum
+поиск,gpt-4o-mini,fresh-99,fresh,True,2,1,web_search,9.870000000000712e-05,16.5,Elon Musk,Elon Musk
+поиск,gpt-4o-mini,fresh-100,fresh,True,2,1,web_search,0.00016094999999999304,124.5,252756,"252,756 miles"
+поиск,gpt-4o-mini,fresh-101,fresh,True,8,7,web_search,0.0014758500000000008,46.2,10 days (initial ceasefire duration),10-day
+поиск,gpt-4o-mini,fresh-102,fresh,False,4,3,web_search,0.0003766499999999784,137.5,Unknown,Oleksandr Dovhach
+поиск,gpt-4o-mini,fresh-103,fresh,True,2,1,web_search,0.00015285000000003768,4.6,José María Balcázar,José María Balcázar
+поиск,gpt-4o-mini,fresh-104,fresh,False,6,5,web_search,0.0005594999999999906,30.9,Information not found.,21
+поиск,gpt-4o-mini,fresh-105,fresh,False,2,2,web_search,0.0002515499999999893,15.4,No specific information found.,¥60–120
+поиск,gpt-4o-mini,fresh-106,fresh,False,6,5,web_search,0.0010091999999999879,37.4,Информация отсутствует.,GRU Airport People Mover
+поиск,gpt-4o-mini,fresh-107,fresh,False,8,7,web_search,0.0006040500000000226,52.6,выборы президента,2026 Beninese parliamentary election
+поиск,gpt-4o-mini,fresh-108,fresh,False,4,3,web_search,0.0003591000000000011,20.1,Информация отсутствует.,Michaelmas Island
+поиск,gpt-4o-mini,fresh-109,fresh,False,2,1,web_search,0.00013724999999997767,6.2,Antisemitic attacks in London,conspiracy to commit arson
+поиск,gpt-4o-mini,fresh-110,fresh,True,2,1,web_search,9.390000000003562e-05,4.2,Clay Fuller,Clay Fuller
+поиск,gpt-4o-mini,fresh-111,fresh,True,2,1,web_search,0.00013979999999996773,5.7,Prime Minister,prime minister
+поиск,gpt-4o-mini,fresh-112,fresh,False,6,5,web_search,0.0007617000000000318,146.6,Информация отсутствует.,SMILE
+поиск,gpt-4o-mini,fresh-113,fresh,False,3,2,web_search,0.0002683499999999728,8.3,I could not find any information regarding job cuts announce,850
+поиск,gpt-4o-mini,fresh-114,fresh,False,6,5,web_search,0.0008982000000000157,37.2,Информация не найдена.,Urgent Care Centre
+поиск,gpt-4o-mini,fresh-115,fresh,True,2,1,web_search,9.930000000002437e-05,12.0,66,66
+поиск,gpt-4o-mini,fresh-116,fresh,True,2,1,web_search,0.0001286999999999816,5.5,"Nelly Korda, Charley Hull, Gaby López",Nelly Korda
+поиск,gpt-4o-mini,fresh-117,fresh,False,5,4,web_search,0.0005092500000000166,26.8,Неизвестно,Line S2
+поиск,gpt-4o-mini,fresh-118,fresh,False,8,7,web_search,0.001428600000000002,32.7,информация отсутствует.,Antonello da Messina
+поиск,gpt-4o-mini,fresh-119,fresh,False,3,2,web_search,0.0002230499999999469,13.9,No information found.,Baku and Tbilisi
+поиск,gpt-4o-mini,fresh-120,fresh,False,2,1,web_search,0.00014985000000011794,6.6,Military raid in Venezuela,Operation Southern Spear
+поиск,gpt-4o-mini,fresh-121,fresh,False,6,5,web_search,0.0006082500000000324,153.0,Нет информации.,5.6
+поиск,gpt-4o-mini,fresh-122,fresh,True,4,3,web_search,0.0004489500000000035,23.8,Angus Taylor,Angus Taylor
+поиск,gpt-4o-mini,fresh-123,fresh,False,8,7,web_search,0.0013378499999999738,27.3,Нет данных о разрыве отношений.,Burkina Faso
+поиск,gpt-4o-mini,fresh-124,fresh,False,7,6,web_search,0.0010158000000000111,42.0,Нет информации,Kehl
+поиск,gpt-4o-mini,fresh-125,fresh,False,4,3,web_search,0.00022244999999998516,7.9,No information found.,ten-fold
+поиск,gpt-4o-mini,fresh-126,fresh,False,4,3,web_search,0.00024615000000000054,10.5,Information not found.,Rohith Krishna
+поиск,gpt-4o-mini,fresh-127,fresh,False,4,3,web_search,0.00024285000000001666,8.4,Not found,five
+поиск,gpt-4o-mini,fresh-128,fresh,False,6,5,web_search,0.0003508500000002357,18.4,No data found.,ZETA_1
+поиск,gpt-4o-mini,fresh-129,fresh,False,8,7,web_search,0.001409400000000005,160.2,Unknown,Oak HC/FT and General Catalyst
+поиск,gpt-4o-mini,fresh-130,fresh,False,6,5,web_search,0.000409349999999975,41.7,No data available.,Proteina-Complexa
+поиск,gpt-4o-mini,fresh-131,fresh,False,4,3,web_search,0.00036120000000000596,130.2,No data found.,1.7 million
+поиск,gpt-4o-mini,fresh-132,fresh,False,8,7,web_search,0.0018207000000000084,37.0,Информация недоступна.,16%
+поиск,gpt-4o-mini,fresh-133,fresh,False,5,4,web_search,0.00033885000000000165,134.7,Not found,20 January 2025
+поиск,gpt-4o-mini,fresh-134,fresh,False,4,3,web_search,0.00031170000000002585,14.3,Unknown,139
+поиск,gpt-4o-mini,fresh-135,fresh,False,2,1,web_search,0.00010064999999997992,7.0,Нет данных.,Петросян
+поиск,gpt-4o-mini,fresh-136,fresh,False,6,5,web_search,0.0006799499999999847,40.1,информация о победителе отсутствует,Saint Petersburg State University
+поиск,gpt-4o-mini,fresh-137,fresh,False,4,3,web_search,0.00031124999999998515,18.0,No information available,"August 7, 2025"
+поиск,gpt-4o-mini,fresh-138,fresh,False,2,1,web_search,0.0001515000000000266,5.0,Charles H. Bennett and Gilles Brassard,"Charles H. Bennett, Gilles Brassard"
+поиск,gpt-4o-mini,fresh-139,fresh,False,8,7,web_search,0.0010441500000000214,31.0,Неизвестно.,DeepSeek-Prover-V2-671B
+поиск,gpt-4o-mini,fresh-140,fresh,False,8,7,web_search,0.0018908999999999732,158.3,Mugen Train,"Crouching Tiger, Hidden Dragon"
+поиск,gpt-4o-mini,fresh-141,fresh,False,4,3,web_search,0.0005225999999999842,11.2,Not found,$70 million
+поиск,gpt-4o-mini,fresh-142,fresh,False,2,1,web_search,0.00013740000000000974,128.9,Неизвестно.,My Hero Academia
+поиск,gpt-4o-mini,fresh-143,fresh,False,8,8,web_search,0.001621499999999998,252.9,Неподтвержденные данные о сборах.,$18 million
+поиск,gpt-4o-mini,fresh-144,fresh,True,4,4,web_search,0.0002751000000000281,43.8,72,72
+поиск,gpt-4o-mini,fresh-145,fresh,False,3,2,web_search,0.00020039999999998948,20.8,Нет информации о смерти Татсухая Нагамине.,"August 20, 2025"
+поиск,gpt-4o-mini,fresh-146,fresh,True,2,1,web_search,0.00010139999999997373,23.0,"March 10, 2026","March 10, 2026"
+поиск,gpt-4o-mini,fresh-147,fresh,True,2,1,web_search,0.0001435500000000478,20.5,Studio Ghibli,Studio Ghibli
+поиск,gpt-4o-mini,fresh-148,fresh,True,2,1,web_search,0.00013694999999996904,22.4,Milano Ice Skating Arena,Milano Ice Skating Arena
+поиск,gpt-4o-mini,fresh-149,fresh,False,8,8,web_search,0.0012048000000000059,135.6,Unable to determine the exact number of years.,two
+поиск,gpt-4o-mini,fresh-150,fresh,True,3,2,web_search,0.00031290000000000484,47.6,Nagoya,Nagoya
+поиск,gpt-4o-mini,fresh-151,fresh,False,8,7,web_search,0.0010296000000000194,184.7,Неведомо.,238.28
+поиск,gpt-4o-mini,fresh-152,fresh,False,2,1,web_search,0.00011954999999996829,5.5,No information on a second Japanese teammate.,Mone Chiba
+поиск,gpt-4o-mini,fresh-153,fresh,False,3,2,web_search,0.00016919999999998048,18.0,Нет данных.,тулуп
+поиск,gpt-4o-mini,fresh-154,fresh,False,6,5,web_search,0.001306050000000003,25.7,Неподтверждено.,146.70
+поиск все источники + page_find,gpt-4o-mini,fresh-0,fresh,True,4,3,"gen_search,page_find,web_search",0.0005749499999999994,46.4,15 March 2026,15 March
+поиск все источники + page_find,gpt-4o-mini,fresh-1,fresh,True,2,1,ru_wiki_search,0.0003232500000000006,127.2,22 марта 2026 года,22 March
+поиск все источники + page_find,gpt-4o-mini,fresh-2,fresh,False,8,7,"page_find,web_search",0.001428150000000017,149.7,Iran,Miguel Díaz-Canel
+поиск все источники + page_find,gpt-4o-mini,fresh-3,fresh,True,3,2,"page_find,web_search",0.00040650000000003184,23.6,Strategic partnership agreement in defense and energy sector,a strategic partnership agreement
+поиск все источники + page_find,gpt-4o-mini,fresh-4,fresh,True,5,4,"page_find,web_search",0.0006991499999999817,15.8,Total fire ban,A total fire ban
+поиск все источники + page_find,gpt-4o-mini,fresh-5,fresh,True,2,1,web_search,0.00022935000000001704,128.4,2,two people
+поиск все источники + page_find,gpt-4o-mini,fresh-6,fresh,False,2,1,web_search,0.0002522999999999831,4.3,519,"4,500"
+поиск все источники + page_find,gpt-4o-mini,fresh-7,fresh,False,5,4,"page_find,web_search",0.0009394500000000083,15.1,Ekrem İmamoğlu,Deniz Göktaş
+поиск все источники + page_find,gpt-4o-mini,fresh-8,fresh,True,3,2,"page_find,web_search",0.00039239999999995945,5.9,Pavel Durov,Pavel Durov
+поиск все источники + page_find,gpt-4o-mini,fresh-9,fresh,True,2,1,web_search,0.00021495000000004705,10.2,"New Delhi, India",New Delhi
+поиск все источники + page_find,gpt-4o-mini,fresh-10,fresh,False,6,5,"espn_search,gen_search,page_find,ru_wiki_search,web_search",0.0010077000000000003,25.3,Неполные данные,Twelve
+поиск все источники + page_find,gpt-4o-mini,fresh-11,fresh,True,3,2,"page_find,web_search",0.0004042499999999949,8.8,Helter Skelter: Arthur Jafa and Richard Prince,Helter Skelter
+поиск все источники + page_find,gpt-4o-mini,fresh-12,fresh,False,8,7,web_search,0.001771649999999958,51.1,Данных нет.,"700,000"
+поиск все источники + page_find,gpt-4o-mini,fresh-13,fresh,False,3,2,"page_find,web_search",0.0004410000000000247,11.3,34,41.5 °C
+поиск все источники + page_find,gpt-4o-mini,fresh-14,fresh,True,3,2,"page_find,web_search",0.00036795000000000577,17.5,Ciudad Rodrigo,Ciudad Rodrigo
+поиск все источники + page_find,gpt-4o-mini,fresh-15,fresh,True,7,6,"page_find,ru_wiki_search,web_search",0.0015177000000000107,25.9,Oleksandr Syrskyi,Oleksandr Syrskyi
+поиск все источники + page_find,gpt-4o-mini,fresh-16,fresh,True,2,1,web_search,0.00024599999999996847,4.1,Montreal Victoire,Montreal Victoire
+поиск все источники + page_find,gpt-4o-mini,fresh-17,fresh,True,5,4,"page_find,web_search",0.0006814500000000279,68.8,EOS-05,EOS-05
+поиск все источники + page_find,gpt-4o-mini,fresh-18,fresh,False,8,7,web_search,0.002296049999999994,26.1,2021 год.,13 July
+поиск все источники + page_find,gpt-4o-mini,fresh-19,fresh,True,6,5,"page_find,ru_wiki_search,web_search",0.0012322499999999903,35.1,Disney Kids & Family,Disney Kids & Family
+поиск все источники + page_find,gpt-4o-mini,fresh-20,fresh,True,2,1,web_search,0.0002479499999999968,15.1,single-elimination format,single-elimination
+поиск все источники + page_find,gpt-4o-mini,fresh-21,fresh,False,4,3,"page_find,web_search",0.0008164500000000241,10.9,Невозможно найти информацию.,Gavin Snider
+поиск все источники + page_find,gpt-4o-mini,fresh-22,fresh,False,8,7,"espn_search,gen_search,ru_wiki_search,web_search",0.0014704499999999565,52.5,Нет информации о сериале.,Clara and the Below
+поиск все источники + page_find,gpt-4o-mini,fresh-23,fresh,False,8,7,web_search,0.0020196000000000103,40.4,Нет информации.,German Galushchenko
+поиск все источники + page_find,gpt-4o-mini,fresh-24,fresh,True,3,2,"page_find,web_search",0.0004923000000000011,9.8,drought across more than half of England and all of Wales,a drought
+поиск все источники + page_find,gpt-4o-mini,fresh-25,fresh,False,4,3,"page_find,web_search",0.000652950000000041,13.5,Operation Ghazab lil Haq,"""open war"""
+поиск все источники + page_find,gpt-4o-mini,fresh-26,fresh,True,6,5,"espn_search,page_find,ru_wiki_search,web_search",0.0008684999999997167,24.1,9,nine
+поиск все источники + page_find,gpt-4o-mini,fresh-27,fresh,False,8,7,"ru_wiki_search,web_search",0.001996500000000012,60.1,информация отсутствует.,Markus Hinterhäuser
+поиск все источники + page_find,gpt-4o-mini,fresh-28,fresh,False,3,2,"page_find,web_search",0.0003926999999999681,7.1,6,nine
+поиск все источники + page_find,gpt-4o-mini,fresh-29,fresh,False,2,1,web_search,0.00024000000000001798,4.1,46,43
+поиск все источники + page_find,gpt-4o-mini,fresh-30,fresh,True,3,2,"page_find,web_search",0.00040319999999999245,135.9,Ankara,Ankara
+поиск все источники + page_find,gpt-4o-mini,fresh-31,fresh,False,3,2,"page_find,web_search",0.0004983000000000071,13.9,"Ädilet party, Ольжас Бектенов",Aibek Dädebai
+поиск все источники + page_find,gpt-4o-mini,fresh-32,fresh,False,8,7,"gen_search,page_find,ru_wiki_search,web_search",0.001192050000000222,46.9,Нет данных.,Richard Lewer
+поиск все источники + page_find,gpt-4o-mini,fresh-33,fresh,False,7,6,"page_find,web_search",0.0015089999999999826,27.2,No information found.,Marilyn Gladu
+поиск все источники + page_find,gpt-4o-mini,fresh-34,fresh,True,3,2,"page_find,web_search",0.000380550000000035,19.7,6.3,6.3
+поиск все источники + page_find,gpt-4o-mini,fresh-35,fresh,False,8,7,"ru_wiki_search,web_search",0.002742449999999952,46.4,неизвестно.,Dina Levačić
+поиск все источники + page_find,gpt-4o-mini,fresh-36,fresh,False,2,1,web_search,0.00025050000000004236,4.8,136,129
+поиск все источники + page_find,gpt-4o-mini,fresh-37,fresh,True,4,3,"espn_search,page_find,web_search",0.0005762999999999741,12.5,15 June 2026,15 June
+поиск все источники + page_find,gpt-4o-mini,fresh-38,fresh,True,3,2,"page_find,web_search",0.00046725000000003014,7.7,13th Chief Minister of Kerala,Chief Minister
+поиск все источники + page_find,gpt-4o-mini,fresh-39,fresh,False,2,1,web_search,0.00025694999999997803,11.7,"Adamuz, Córdoba",Gelida
+поиск все источники + page_find,gpt-4o-mini,fresh-40,fresh,False,8,7,"page_find,ru_wiki_search,web_search",0.002528699999999995,51.1,Нету информации.,Vladimir Alekseyev
+поиск все источники + page_find,gpt-4o-mini,fresh-41,fresh,False,4,3,"page_find,web_search",0.0006400500000000031,12.6,24000,Thirty thousand people
+поиск все источники + page_find,gpt-4o-mini,fresh-42,fresh,False,5,4,"page_find,web_search",0.0007494000000000112,23.4,Unknown,Prime Minister Narendra Modi
+поиск все источники + page_find,gpt-4o-mini,fresh-43,fresh,True,2,1,web_search,0.0002554500000000459,6.0,Zohran Mamdani,Zohran Mamdani
+поиск все источники + page_find,gpt-4o-mini,fresh-44,fresh,True,3,2,"page_find,web_search",0.000388949999999999,127.7,LHS 1140 b,LHS 1140 b
+поиск все источники + page_find,gpt-4o-mini,fresh-45,fresh,True,3,2,"page_find,web_search",0.0003667500000000268,135.1,F-16 Fighting Falcon,F-16 Fighting Falcon
+поиск все источники + page_find,gpt-4o-mini,fresh-46,fresh,True,3,2,"page_find,web_search",0.00040964999999998364,20.3,5,five
+поиск все источники + page_find,gpt-4o-mini,fresh-47,fresh,False,2,1,web_search,0.00026130000000001985,8.8,Minister of Education,Education Minister
+поиск все источники + page_find,gpt-4o-mini,fresh-48,fresh,True,3,2,"page_find,web_search",0.00040034999999999377,7.8,Mykhailo Fedorov,Mykhailo Fedorov
+поиск все источники + page_find,gpt-4o-mini,fresh-49,fresh,False,5,4,"gen_search,page_find,ru_wiki_search,web_search",0.000769350000000002,14.7,No information found.,life imprisonment
+поиск все источники + page_find,gpt-4o-mini,fresh-50,fresh,True,5,4,"espn_search,page_find,web_search",0.0009313499999999975,36.0,802500 лир,"802,500 lira"
+поиск все источники + page_find,gpt-4o-mini,fresh-51,fresh,True,4,3,"espn_search,page_find,web_search",0.0005197499999999855,38.6,Bruno Foucher,Bruno Foucher
+поиск все источники + page_find,gpt-4o-mini,fresh-52,fresh,False,4,3,"page_find,web_search",0.0006191999999999864,45.9,нет данных.,5.2
+поиск все источники + page_find,gpt-4o-mini,fresh-53,fresh,False,8,8,"espn_search,gen_search,page_find,ru_wiki_search,web_search",0.0015230999999999995,41.0,Неизвестно,Tonya McBride Robles
+поиск все источники + page_find,gpt-4o-mini,fresh-54,fresh,True,2,1,web_search,0.00023760000000000447,4.3,80,80
+поиск все источники + page_find,gpt-4o-mini,fresh-55,fresh,True,2,1,web_search,0.00022050000000001235,7.9,2,two
+поиск все источники + page_find,gpt-4o-mini,fresh-56,fresh,False,8,7,web_search,0.002152949999999987,46.8,Неизвестно.,3%
+поиск все источники + page_find,gpt-4o-mini,fresh-57,fresh,False,8,7,"page_find,web_search",0.0015145500000000034,30.7,Имран Хан,Yoon Suk Yeol
+поиск все источники + page_find,gpt-4o-mini,fresh-58,fresh,False,7,6,"page_find,web_search",0.0014529000000000347,40.1,BYD,BYD Auto
+поиск все источники + page_find,gpt-4o-mini,fresh-59,fresh,False,8,7,"espn_search,page_find,ru_wiki_search,web_search",0.001926749999999977,68.3,неизвестно,Carson Ting
+поиск все источники + page_find,gpt-4o-mini,fresh-60,fresh,False,8,7,"espn_search,page_find,ru_wiki_search,web_search",0.0016369500000000259,54.5,Unknown,209
+поиск все источники + page_find,gpt-4o-mini,fresh-61,fresh,True,3,2,"page_find,web_search",0.00035009999999996433,7.1,14,Fourteen
+поиск все источники + page_find,gpt-4o-mini,fresh-62,fresh,False,8,7,"page_find,web_search",0.0012583500000000192,53.1,60 лет,13 years
+поиск все источники + page_find,gpt-4o-mini,fresh-63,fresh,False,5,4,"espn_search,gen_search,ru_wiki_search,web_search",0.0006377999999999662,46.3,No data,Two
+поиск все источники + page_find,gpt-4o-mini,fresh-64,fresh,False,5,4,"espn_search,gen_search,ru_wiki_search,web_search",0.0007672499999999971,22.0,No information found.,mayor of Lutsk
+поиск все источники + page_find,gpt-4o-mini,fresh-65,fresh,False,8,7,"espn_search,web_search",0.0016438500000000023,43.5,Нет данных.,16
+поиск все источники + page_find,gpt-4o-mini,fresh-66,fresh,False,8,7,"ru_wiki_search,web_search",0.0014323500000000267,37.3,нет данных.,at least six
+поиск все источники + page_find,gpt-4o-mini,fresh-67,fresh,True,3,2,"page_find,web_search",0.0004297500000000065,53.0,Liam Nassereddine,Liam Nassereddine
+поиск все источники + page_find,gpt-4o-mini,fresh-68,fresh,True,3,2,"page_find,web_search",0.0004181999999999797,8.7,Mark Carney,Mark Carney
+поиск все источники + page_find,gpt-4o-mini,fresh-69,fresh,True,2,1,web_search,0.00023460000000002923,125.2,"Leipzig, Germany",Leipzig
+поиск все источники + page_find,gpt-4o-mini,fresh-70,fresh,False,8,7,"espn_search,gen_search,page_find,ru_wiki_search,web_search",0.00160604999999997,67.1,No information found.,night train service
+поиск все источники + page_find,gpt-4o-mini,fresh-71,fresh,True,2,1,web_search,0.00025455000000002004,4.3,Nikita Solovyovat,Nikita Solovyov
+поиск все источники + page_find,gpt-4o-mini,fresh-72,fresh,True,3,2,"page_find,web_search",0.0004126500000000144,25.6,Dharmendra Pradhan,Dharmendra Pradhan
+поиск все источники + page_find,gpt-4o-mini,fresh-73,fresh,True,3,2,"page_find,web_search",0.0003634499999999874,12.5,Han Hak-ja,Han Hak-ja
+поиск все источники + page_find,gpt-4o-mini,fresh-74,fresh,False,7,6,"espn_search,gen_search,page_find,ru_wiki_search,web_search",0.0012119999999999909,180.6,Неизвестно,Daniel Ortega
+поиск все источники + page_find,gpt-4o-mini,fresh-75,fresh,False,4,3,"page_find,ru_wiki_search,web_search",0.0006235499999999727,13.3,Неизвестно.,Novokuznetsk
+поиск все источники + page_find,gpt-4o-mini,fresh-76,fresh,True,3,2,"page_find,web_search",0.0004537500000000305,6.2,life imprisonment,life imprisonment
+поиск все источники + page_find,gpt-4o-mini,fresh-77,fresh,False,8,7,"espn_search,gen_search,page_find,ru_wiki_search,web_search",0.0019453500000000123,28.2,Выборы еще не состоялись.,Carlos Vila Nova
+поиск все источники + page_find,gpt-4o-mini,fresh-78,fresh,True,7,6,"espn_search,gen_search,page_find,web_search",0.0013778999999999875,22.4,13.2 months,13.2 months
+поиск все источники + page_find,gpt-4o-mini,fresh-79,fresh,False,8,7,"espn_search,gen_search,ru_wiki_search,web_search",0.0019418999999999964,82.3,нет данных.,three
+поиск все источники + page_find,gpt-4o-mini,fresh-80,fresh,True,2,1,web_search,0.00026894999999999003,4.3,"UGC Equity Regulations, 2026","UGC Equity Regulations, 2026"
+поиск все источники + page_find,gpt-4o-mini,fresh-81,fresh,False,6,6,"page_find,web_search",0.0009748500000000271,34.3,No data available,8.15m
+поиск все источники + page_find,gpt-4o-mini,fresh-82,fresh,True,3,2,"page_find,web_search",0.0004013999999999962,8.9,28,28 people
+поиск все источники + page_find,gpt-4o-mini,fresh-83,fresh,True,3,2,"page_find,web_search",0.000364949999999975,126.7,improvised explosive device,improvised explosive device
+поиск все источники + page_find,gpt-4o-mini,fresh-84,fresh,False,8,7,"espn_search,page_find",0.002259449999999996,49.1,Неизвестно,eight games
+поиск все источники + page_find,gpt-4o-mini,fresh-85,fresh,True,2,1,web_search,0.0003079500000000013,4.2,38.0 °C,38 °C
+поиск все источники + page_find,gpt-4o-mini,fresh-86,fresh,False,8,7,"espn_search,page_find,web_search",0.0012480000000000269,30.8,No data available,£30.4bn
+поиск все источники + page_find,gpt-4o-mini,fresh-87,fresh,True,3,2,"page_find,web_search",0.00036284999999997014,7.1,José Jerí,José Jerí
+поиск все источники + page_find,gpt-4o-mini,fresh-88,fresh,True,5,4,"page_find,ru_wiki_search,web_search",0.0008191499999999907,11.9,"Henoko, Okinawa Prefecture","Henoko, Okinawa Prefecture"
+поиск все источники + page_find,gpt-4o-mini,fresh-89,fresh,False,8,7,web_search,0.001980750000000031,156.0,неизвестно.,Doug Armstrong
+поиск все источники + page_find,gpt-4o-mini,fresh-90,fresh,False,4,3,"page_find,web_search",0.0007165499999999825,19.1,Indiana University,Imperial College London
+поиск все источники + page_find,gpt-4o-mini,fresh-91,fresh,False,5,4,"espn_search,gen_search,ru_wiki_search,web_search",0.0006373500000000365,135.9,No data available.,"₹25,863 crore"
+поиск все источники + page_find,gpt-4o-mini,fresh-92,fresh,False,7,6,"page_find,ru_wiki_search,web_search",0.0011924999999999852,237.6,Рубен Роша Мойя,Rubén Rocha Moya
+поиск все источники + page_find,gpt-4o-mini,fresh-93,fresh,True,2,1,web_search,0.0002763000000000071,26.4,Spain,Spain
+поиск все источники + page_find,gpt-4o-mini,fresh-94,fresh,False,5,4,"gen_search,page_find,web_search",0.0006702000000000652,135.4,Unknown,11th
+поиск все источники + page_find,gpt-4o-mini,fresh-95,fresh,True,2,1,web_search,0.00024119999999999697,15.6,India,India
+поиск все источники + page_find,gpt-4o-mini,fresh-96,fresh,True,2,2,"ru_wiki_search,web_search",0.0003630000000000022,40.6,"Istanbul, Turkey",Istanbul
+поиск все источники + page_find,gpt-4o-mini,fresh-97,fresh,True,2,1,web_search,0.00023819999999996622,46.7,"Citizens Bank Park, Philadelphia, Pennsylvania",Citizens Bank Park
+поиск все источники + page_find,gpt-4o-mini,fresh-98,fresh,True,8,7,web_search,0.0018874499999999017,26.8,Islamabad Memorandum,Islamabad Memorandum
+поиск все источники + page_find,gpt-4o-mini,fresh-99,fresh,False,2,1,web_search,0.00024479999999998947,28.5,Илон Маск,Elon Musk
+поиск все источники + page_find,gpt-4o-mini,fresh-100,fresh,True,4,4,"espn_search,page_find,ru_wiki_search,web_search",0.000797099999999995,44.8,252756,"252,756 miles"
+поиск все источники + page_find,gpt-4o-mini,fresh-101,fresh,True,4,3,"page_find,web_search",0.0006558000000000397,20.9,10 days (extended multiple times),10-day
+поиск все источники + page_find,gpt-4o-mini,fresh-102,fresh,False,4,3,"page_find,ru_wiki_search,web_search",0.0006484499999999671,12.5,Роберт Бровди,Oleksandr Dovhach
+поиск все источники + page_find,gpt-4o-mini,fresh-103,fresh,True,4,3,"page_find,web_search",0.000674549999999996,12.7,José María Balcázar,José María Balcázar
+поиск все источники + page_find,gpt-4o-mini,fresh-104,fresh,False,8,7,"espn_search,web_search",0.0018125999999999975,52.0,9,21
+поиск все источники + page_find,gpt-4o-mini,fresh-105,fresh,False,7,10,"espn_search,web_search",0.002358150000000059,85.2,Not available.,¥60–120
+поиск все источники + page_find,gpt-4o-mini,fresh-106,fresh,False,3,2,"page_find,web_search",0.00041039999999992194,25.0,Нет данных,GRU Airport People Mover
+поиск все источники + page_find,gpt-4o-mini,fresh-107,fresh,True,3,2,"page_find,ru_wiki_search",0.0005887500000000268,17.7,Нет данных о событии в Бенине 11 января 2026 года.,2026 Beninese parliamentary election
+поиск все источники + page_find,gpt-4o-mini,fresh-108,fresh,False,8,7,"page_find,web_search",0.0012617999999999796,20.5,Нет данных.,Michaelmas Island
+поиск все источники + page_find,gpt-4o-mini,fresh-109,fresh,False,2,1,web_search,0.00028125000000001066,7.1,волна антисемитских атак.,conspiracy to commit arson
+поиск все источники + page_find,gpt-4o-mini,fresh-110,fresh,False,4,3,"espn_search,page_find,web_search",0.0005938500000000069,18.9,Непобежденный.,Clay Fuller
+поиск все источники + page_find,gpt-4o-mini,fresh-111,fresh,True,2,1,web_search,0.00027209999999999734,20.4,Prime Minister,prime minister
+поиск все источники + page_find,gpt-4o-mini,fresh-112,fresh,True,8,7,"ru_wiki_search,web_search",0.001412850000000021,145.7,SMILE (Solar Wind Magnetosphere Ionosphere Link Explorer),SMILE
+поиск все источники + page_find,gpt-4o-mini,fresh-113,fresh,False,8,7,web_search,0.0018457499999999794,148.8,информация недоступна.,850
+поиск все источники + page_find,gpt-4o-mini,fresh-114,fresh,False,8,7,"espn_search,gen_search,page_find,ru_wiki_search,web_search",0.0016623000000000054,46.6,Информация недоступна.,Urgent Care Centre
+поиск все источники + page_find,gpt-4o-mini,fresh-115,fresh,False,3,2,"page_find,web_search",0.00035609999999997033,9.8,108,66
+поиск все источники + page_find,gpt-4o-mini,fresh-116,fresh,True,3,2,"page_find,web_search",0.000392549999999936,6.5,"Nelly Korda, Charley Hull, Gaby López",Nelly Korda
+поиск все источники + page_find,gpt-4o-mini,fresh-117,fresh,False,5,4,"page_find,ru_wiki_search,web_search",0.0009046500000000623,54.7,12-я линия Нанкинского метрополитена,Line S2
+поиск все источники + page_find,gpt-4o-mini,fresh-118,fresh,False,8,7,"page_find,web_search",0.0012417000000000122,44.3,Нет информации.,Antonello da Messina
+поиск все источники + page_find,gpt-4o-mini,fresh-119,fresh,False,8,7,"page_find,web_search",0.001431749999999954,20.3,Информация отсутствует.,Baku and Tbilisi
+поиск все источники + page_find,gpt-4o-mini,fresh-120,fresh,False,3,2,"page_find,web_search",0.0004553999999999947,8.0,Absolute Resolve,Operation Southern Spear
+поиск все источники + page_find,gpt-4o-mini,fresh-121,fresh,False,8,7,"page_find,ru_wiki_search,web_search",0.0016458000000000306,169.5,Нет данных.,5.6
+поиск все источники + page_find,gpt-4o-mini,fresh-122,fresh,True,3,2,"page_find,web_search",0.000406950000000017,20.7,Angus Taylor,Angus Taylor
+поиск все источники + page_find,gpt-4o-mini,fresh-123,fresh,False,8,7,"gen_search,page_find,ru_wiki_search,web_search",0.001373399999999969,29.9,Неизвестно,Burkina Faso
+поиск все источники + page_find,gpt-4o-mini,fresh-124,fresh,False,8,7,web_search,0.0020452499999999985,51.5,Нет информации о пожаре в клубе в Германии в марте 2026 года,Kehl
+поиск все источники + page_find,gpt-4o-mini,fresh-125,fresh,False,8,7,"espn_search,gen_search,web_search",0.0010959000000000385,157.0,No data available.,ten-fold
+поиск все источники + page_find,gpt-4o-mini,fresh-126,fresh,False,8,7,"espn_search,gen_search,page_find,ru_wiki_search,web_search",0.0011875499999999262,76.0,No data found.,Rohith Krishna
+поиск все источники + page_find,gpt-4o-mini,fresh-127,fresh,False,7,6,"espn_search,gen_search,ru_wiki_search,web_search",0.0010051500000000102,34.7,No data.,five
+поиск все источники + page_find,gpt-4o-mini,fresh-128,fresh,True,3,2,"gen_search,page_find",0.00044399999999999995,15.5,ZETA_1,ZETA_1
+поиск все источники + page_find,gpt-4o-mini,fresh-129,fresh,False,8,7,"gen_search,page_find",0.001441350000000008,41.1,Невозможно получить информацию о соинвесторах.,Oak HC/FT and General Catalyst
+поиск все источники + page_find,gpt-4o-mini,fresh-130,fresh,False,8,7,web_search,0.0012190499999999993,38.0,нет данных,Proteina-Complexa
+поиск все источники + page_find,gpt-4o-mini,fresh-131,fresh,False,8,7,"espn_search,gen_search,ru_wiki_search,web_search",0.0013859999999999983,25.5,Неизвестно.,1.7 million
+поиск все источники + page_find,gpt-4o-mini,fresh-132,fresh,False,5,4,"gen_search,page_find",0.0007720500000000241,31.0,double-digit hit rates,16%
+поиск все источники + page_find,gpt-4o-mini,fresh-133,fresh,True,3,2,"page_find,web_search",0.0003737999999999797,8.3,"January 20, 2025",20 January 2025
+поиск все источники + page_find,gpt-4o-mini,fresh-134,fresh,False,8,7,"page_find,ru_wiki_search,web_search",0.0020421000000000467,28.3,140 teams,139
+поиск все источники + page_find,gpt-4o-mini,fresh-135,fresh,True,3,2,"ru_wiki_search,web_search",0.0004888499999999851,6.4,Аделия Петросян,Петросян
+поиск все источники + page_find,gpt-4o-mini,fresh-136,fresh,False,8,7,"page_find,web_search",0.0017689499999999914,22.9,информация отсутствует.,Saint Petersburg State University
+поиск все источники + page_find,gpt-4o-mini,fresh-137,fresh,True,5,4,web_search,0.0007057500000000605,132.3,"August 7, 2025","August 7, 2025"
+поиск все источники + page_find,gpt-4o-mini,fresh-138,fresh,False,2,1,web_search,0.0002833499999999045,4.3,Charles H. Bennett and Gilles Brassard,"Charles H. Bennett, Gilles Brassard"
+поиск все источники + page_find,gpt-4o-mini,fresh-139,fresh,False,8,7,web_search,0.0011806500000000053,24.2,нет информации.,DeepSeek-Prover-V2-671B
+поиск все источники + page_find,gpt-4o-mini,fresh-140,fresh,False,4,3,"page_find,web_search",0.0008242500000000819,14.7,"""Demon Slayer: Kimetsu no Yaiba – The Movie: Mugen Train""","Crouching Tiger, Hidden Dragon"
+поиск все источники + page_find,gpt-4o-mini,fresh-141,fresh,True,4,3,"espn_search,page_find,web_search",0.0006704999999999073,18.6,70 million,$70 million
+поиск все источники + page_find,gpt-4o-mini,fresh-142,fresh,False,3,2,"page_find,web_search",0.00040170000000006034,22.3,Jujutsu Kaisen,My Hero Academia
+поиск все источники + page_find,gpt-4o-mini,fresh-143,fresh,False,5,4,"espn_search,gen_search,ru_wiki_search,web_search",0.0008470499999999603,14.8,No data available.,$18 million
+поиск все источники + page_find,gpt-4o-mini,fresh-144,fresh,True,2,1,web_search,0.0002813999999999872,8.0,72,72
+поиск все источники + page_find,gpt-4o-mini,fresh-145,fresh,False,5,4,"gen_search,page_find,ru_wiki_search,web_search",0.0007359000000000115,13.3,Unknown,"August 20, 2025"
+поиск все источники + page_find,gpt-4o-mini,fresh-146,fresh,True,3,2,"espn_search,web_search",0.00041400000000002546,27.7,"March 10, 2026","March 10, 2026"
+поиск все источники + page_find,gpt-4o-mini,fresh-147,fresh,True,2,1,web_search,0.0002758499999999664,6.8,Studio Ghibli,Studio Ghibli
+поиск все источники + page_find,gpt-4o-mini,fresh-148,fresh,True,2,1,web_search,0.00025740000000007424,12.0,Milano Ice Skating Arena,Milano Ice Skating Arena
+поиск все источники + page_find,gpt-4o-mini,fresh-149,fresh,False,8,7,"espn_search,page_find,ru_wiki_search",0.001762199999999936,149.8,3,two
+поиск все источники + page_find,gpt-4o-mini,fresh-150,fresh,True,5,4,"page_find,ru_wiki_search,web_search",0.0008195999999999204,14.3,"Nagoya, Japan",Nagoya
+поиск все источники + page_find,gpt-4o-mini,fresh-151,fresh,True,2,1,espn_search,0.0003036000000000705,5.8,238.28,238.28
+поиск все источники + page_find,gpt-4o-mini,fresh-152,fresh,False,8,7,"espn_search,page_find,ru_wiki_search,web_search",0.0014170499999999198,140.6,Second-place finisher not identified.,Mone Chiba
+поиск все источники + page_find,gpt-4o-mini,fresh-153,fresh,False,5,4,"espn_search,page_find,ru_wiki_search,web_search",0.0008760000000000989,142.3,два чистых четверных риттбергера.,тулуп
+поиск все источники + page_find,gpt-4o-mini,fresh-154,fresh,False,8,7,"espn_search,page_find,web_search",0.0019633499999999193,28.0,Информация отсутствует.,146.70
+поиск все источники + page_find,claude-haiku-4.5,fresh-0,fresh,True,3,2,"page_find,web_search",0.017060999999999993,11.1,"March 15, 2026",15 March
+поиск все источники + page_find,claude-haiku-4.5,fresh-1,fresh,True,2,1,web_search,0.010480000000000045,128.4,22 March 2026,22 March
+поиск все источники + page_find,claude-haiku-4.5,fresh-2,fresh,False,8,7,"page_find,web_search",0.05896199999999996,39.6,"<Информация о том, кто вступил в переговоры с администрацией",Miguel Díaz-Canel
+поиск все источники + page_find,claude-haiku-4.5,fresh-3,fresh,True,3,2,"page_find,web_search",0.015791,11.6,"On 12 March 2026, Ukraine and Romania signed a strategic par",a strategic partnership agreement
+поиск все источники + page_find,claude-haiku-4.5,fresh-4,fresh,False,8,7,web_search,0.056838000000000055,45.2,"<ответ>Не удалось найти информацию о конкретной мере, вступи",A total fire ban
+поиск все источники + page_find,claude-haiku-4.5,fresh-5,fresh,True,2,1,web_search,0.009993999999999947,4.6,2,two people
+поиск все источники + page_find,claude-haiku-4.5,fresh-6,fresh,False,2,1,web_search,0.010419000000000067,4.6,519 people were reported missing in the Tibet Autonomous Reg,"4,500"
+поиск все источники + page_find,claude-haiku-4.5,fresh-7,fresh,True,4,3,"page_find,web_search",0.02315199999999995,15.6,Deniz Göktaş,Deniz Göktaş
+поиск все источники + page_find,claude-haiku-4.5,fresh-8,fresh,True,4,3,"page_find,ru_wiki_search,web_search",0.02434599999999998,137.0,"Pavel Durov, the founder of Telegram, was charged by the FSB",Pavel Durov
+поиск все источники + page_find,claude-haiku-4.5,fresh-9,fresh,True,3,2,"page_find,web_search",0.015940000000000065,10.0,New Delhi,New Delhi
+поиск все источники + page_find,claude-haiku-4.5,fresh-10,fresh,False,8,7,"page_find,web_search",0.047049999999999925,32.8,<Информация недоступна>,Twelve
+поиск все источники + page_find,claude-haiku-4.5,fresh-11,fresh,True,3,2,"page_find,web_search",0.01599000000000006,7.6,Helter Skelter: Arthur Jafa and Richard Prince,Helter Skelter
+поиск все источники + page_find,claude-haiku-4.5,fresh-12,fresh,False,6,5,"page_find,web_search",0.037053,38.6,I cannot find the specific number of children receiving SEND,"700,000"
+поиск все источники + page_find,claude-haiku-4.5,fresh-13,fresh,False,8,7,"page_find,web_search",0.06108000000000002,32.5,The Wikipedia article on the 2026 European heatwaves does no,41.5 °C
+поиск все источники + page_find,claude-haiku-4.5,fresh-14,fresh,True,6,5,"page_find,web_search",0.03520699999999999,26.5,Ciudad Rodrigo,Ciudad Rodrigo
+поиск все источники + page_find,claude-haiku-4.5,fresh-15,fresh,True,6,5,"page_find,web_search",0.03558199999999989,154.1,Oleksandr Syrskyi,Oleksandr Syrskyi
+поиск все источники + page_find,claude-haiku-4.5,fresh-16,fresh,True,4,3,"page_find,web_search",0.022681000000000173,13.8,Montreal Victoire,Montreal Victoire
+поиск все источники + page_find,claude-haiku-4.5,fresh-17,fresh,False,8,7,"page_find,web_search",0.051688999999999874,42.3,"<Я не могу найти надежную информацию о том, что ISRO запусти",EOS-05
+поиск все источники + page_find,claude-haiku-4.5,fresh-18,fresh,False,8,7,"page_find,web_search",0.05883600000000011,54.3,<Unable to determine - specific Munich court case date not f,13 July
+поиск все источники + page_find,claude-haiku-4.5,fresh-19,fresh,True,4,3,"page_find,web_search",0.02249699999999999,16.6,Disney Kids & Family,Disney Kids & Family
+поиск все источники + page_find,claude-haiku-4.5,fresh-20,fresh,True,2,1,web_search,0.01047599999999993,5.8,single-elimination tournament,single-elimination
+поиск все источники + page_find,claude-haiku-4.5,fresh-21,fresh,True,5,4,"page_find,web_search",0.029522000000000048,13.1,Gavin Snider,Gavin Snider
+поиск все источники + page_find,claude-haiku-4.5,fresh-22,fresh,False,7,6,web_search,0.041304999999999925,185.7,I'm unable to find specific information about an indie anima,Clara and the Below
+поиск все источники + page_find,claude-haiku-4.5,fresh-23,fresh,False,3,4,"ru_wiki_search,web_search",0.019997000000000043,31.8,I cannot find information about this arrest. The date Februa,German Galushchenko
+поиск все источники + page_find,claude-haiku-4.5,fresh-24,fresh,True,3,2,"page_find,web_search",0.01781300000000008,11.9,A drought is declared across the whole of Wales in July 2026,a drought
+поиск все источники + page_find,claude-haiku-4.5,fresh-25,fresh,True,3,2,web_search,0.016767999999999894,10.1,"Pakistan declared an ""open war"" against Afghanistan","""open war"""
+поиск все источники + page_find,claude-haiku-4.5,fresh-26,fresh,True,4,3,"page_find,web_search",0.022758000000000056,14.2,Nine people were injured in the leisure boat collision near ,nine
+поиск все источники + page_find,claude-haiku-4.5,fresh-125,fresh,True,3,2,"gen_search,page_find",0.01725399999999988,26.1,10-fold (or ten-fold),ten-fold
+поиск все источники + page_find,claude-haiku-4.5,fresh-126,fresh,True,4,3,gen_search,0.0227529999999998,27.8,Rohith Krishna,Rohith Krishna
+поиск все источники + page_find,claude-haiku-4.5,fresh-127,fresh,False,8,7,gen_search,0.05439100000000008,52.2,<Я не могу найти эту информацию>,five
+поиск все источники + page_find,claude-haiku-4.5,fresh-128,fresh,False,8,9,"gen_search,web_search",0.05669600000000008,57.5,<ответ>Я не смог найти конкретное название этой металлогидро,ZETA_1
+поиск все источники + page_find,claude-haiku-4.5,fresh-129,fresh,True,8,7,"gen_search,page_find",0.055369,45.6,Oak HC/FT and General Catalyst,Oak HC/FT and General Catalyst
+поиск все источники + page_find,claude-haiku-4.5,fresh-130,fresh,True,4,3,"gen_search,page_find",0.023425999999999947,20.4,Proteina-Complexa,Proteina-Complexa
+поиск все источники + page_find,claude-haiku-4.5,fresh-131,fresh,True,3,3,"gen_search,page_find,web_search",0.01738100000000009,28.1,1.7 million,1.7 million
+поиск все источники + page_find,claude-haiku-4.5,fresh-132,fresh,False,8,7,"gen_search,web_search",0.060309999999999864,47.3,<Я не смог найти эту информацию в доступных источниках>,16%
+поиск все источники + page_find,claude-haiku-4.5,fresh-133,fresh,False,8,7,"gen_search,page_find,web_search",0.05513100000000004,171.1,"Based on available search results, DeepSeek released DeepSee",20 January 2025
+поиск все источники + page_find,claude-haiku-4.5,fresh-134,fresh,False,5,6,"gen_search,web_search",0.02949500000000005,18.1,"I apologize, but I'm unable to find information about the 20",139
+поиск все источники + page_find,claude-haiku-4.5,fresh-135,fresh,True,2,1,ru_wiki_search,0.0115289999999999,5.5,Аделия Петросян,Петросян
+поиск все источники + page_find,claude-haiku-4.5,fresh-136,fresh,False,4,3,web_search,0.0226090000000001,13.0,"I apologize, but I'm unable to find specific information abo",Saint Petersburg State University
+поиск все источники + page_find,claude-haiku-4.5,fresh-137,fresh,False,2,1,web_search,0.010777000000000037,8.5,GPT-5 has not been launched by OpenAI yet.,"August 7, 2025"
+поиск все источники + page_find,claude-haiku-4.5,fresh-138,fresh,False,2,1,web_search,0.010774999999999979,127.5,Charles H. Bennett and Gilles Brassard,"Charles H. Bennett, Gilles Brassard"
+поиск все источники + page_find,claude-haiku-4.5,fresh-139,fresh,False,4,3,web_search,0.02190000000000003,12.7,I'm unable to find specific information about a DeepSeek mat,DeepSeek-Prover-V2-671B
+поиск все источники + page_find,claude-haiku-4.5,fresh-140,fresh,False,8,7,web_search,0.06315599999999999,32.8,<ответ>Demon Slayer: Kimetsu no Yaiba – The Movie: Mugen Tra,"Crouching Tiger, Hidden Dragon"
+поиск все источники + page_find,claude-haiku-4.5,fresh-141,fresh,False,4,3,web_search,0.02472799999999986,13.7,"Based on my search results, I cannot find the specific U.S. ",$70 million
+поиск все источники + page_find,claude-haiku-4.5,fresh-142,fresh,True,4,3,"page_find,web_search",0.023321000000000147,11.6,My Hero Academia (Season 8),My Hero Academia
+поиск все источники + page_find,claude-haiku-4.5,fresh-143,fresh,True,3,2,"page_find,web_search",0.01675699999999991,7.6,Chainsaw Man – The Movie: Reze Arc earned US$18 million in i,$18 million
+поиск все источники + page_find,claude-haiku-4.5,fresh-144,fresh,True,2,1,web_search,0.010537999999999936,5.2,72,72
+поиск все источники + page_find,claude-haiku-4.5,fresh-145,fresh,True,3,2,"page_find,web_search",0.016164000000000067,145.5,"August 20, 2025","August 20, 2025"
+поиск все источники + page_find,claude-haiku-4.5,fresh-146,fresh,True,2,1,web_search,0.010639000000000065,6.5,"March 10, 2026","March 10, 2026"
+поиск все источники + page_find,claude-haiku-4.5,fresh-147,fresh,True,3,2,web_search,0.01645999999999992,128.7,Studio Ghibli,Studio Ghibli
+поиск все источники + page_find,claude-haiku-4.5,fresh-148,fresh,True,2,1,web_search,0.010197000000000012,5.4,Milano Ice Skating Arena,Milano Ice Skating Arena
+поиск все источники + page_find,claude-haiku-4.5,fresh-149,fresh,False,8,7,espn_search,0.0613309999999998,30.9,"Я не смог найти информацию на ESPN о том, что Alyса Liu вышл",two
+поиск все источники + page_find,claude-haiku-4.5,fresh-150,fresh,True,7,6,web_search,0.044188000000000116,27.2,Nagoya,Nagoya
+поиск все источники + page_find,claude-haiku-4.5,fresh-151,fresh,False,8,7,"page_find,web_search",0.053586000000000134,59.4,Точный общий балл Каори Сакамото на чемпионате мира 2026 в П,238.28
+поиск все источники + page_find,claude-haiku-4.5,fresh-152,fresh,False,8,7,"page_find,web_search",0.05605800000000016,39.2,I cannot determine which Japanese teammate finished second b,Mone Chiba
+поиск все источники + page_find,claude-haiku-4.5,fresh-153,fresh,True,3,4,"page_find,ru_wiki_search,web_search",0.02194099999999999,74.8,четверной тулуп,тулуп
+поиск все источники + page_find,claude-haiku-4.5,fresh-154,fresh,False,8,7,"page_find,web_search",0.061045000000000016,275.5,<Unable to determine - the specific free skate score for Aly,146.70

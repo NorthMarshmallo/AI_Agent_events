@@ -1,0 +1,68 @@
+{
+ "task": {
+  "id": "fresh-96",
+  "source": "fresh",
+  "question": "In which city were the 2026 European Men's and Women's Team Badminton Championships held?",
+  "answer": "Istanbul",
+  "evidence": "February 11 – 15 : 2026 European Men's and Women's Team Badminton Championships in Istanbul, Turkey",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Katowice",
+  "agent_ok": true
+ },
+ "answer": "The 2026 European Men's and Women's Team Badminton Championships are being held in Istanbul, Turkey, from 11 to 15 February 2026.\n\nFINAL: Istanbul, Turkey",
+ "cost": 0.0003630000000000022,
+ "seconds": 40.6,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "In which city were the 2026 European Men's and Women's Team Badminton Championships held?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_grEkGtaCFK2scA2zTS962uKa",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"2026 European Men's and Women's Team Badminton Championships location\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_LZkPZNcoEd7gbgHuquWGt1Yf",
+     "function": {
+      "name": "ru_wiki_search",
+      "arguments": "{\"query\": \"2026 Европейские командные чемпионаты по бадминтону у мужчин и женщин\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_grEkGtaCFK2scA2zTS962uKa",
+   "content": "[2026 European Men's and Women's Team Badminton Championships] The 2026 edition of the European Men's and Women's Team Badminton Championships is being held in Istanbul, Turkey, from 11 to 15 February 2026."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_LZkPZNcoEd7gbgHuquWGt1Yf",
+   "content": "[Бадминтон] Финал Олимпийского турнира 2012 года в смешанном парном разряде Девочка с ракеткой и воланом, 1740 год Бадминто́н ( англ. badminton , от собств. Badminton ) — вид спорта, в котором игроки располагаются на противоположных сторонах разделённой сеткой площадки и перекидывают волан через сетку ударами ракеток , стремясь «приземлить» волан на стороне противника, и наоборот, чтобы он не упал на собственное поле. Соперничают два игрока или две пары игроков (пары могут быть не только одного пола, но и смешанные — мужчина и женщина). Входит в программу летних Олимпийских игр с 1992 года . Игра в воланчик, предшественник бадминтона, среди женщин восходит, по меньшей мере, к XVIII веку, когда художники, такие как Фрагонар и Шарден, задокументировали эту деятельность среди молодых девушек из богатых семей. В XIX веке английские офицеры, служившие в Индии, увлеклись старинной индийской игрой пуна , которую можно считать прототипом современного бадминтона. Англичане привезли с собой увлечение игрой на родину. Современная традиция игры берёт начало в Англии, в старинной усадьбе Бадминтон-хаус , владелец которой, известный спортивный энтузиаст и издатель серии книг о видах спорта, Чарльз Сомерсет, 8-й герцог Бофорт , соорудил в 1873 году первую площадку для игры в бадминтон. В 1893 году ассоциация бадминтона Англии опубликовала первый регламент официальных правил игры [ 1 ] . Всемирная федерация бадминтона (BWF) была создана в 1934 году . С 1947 года проводится крупнейшее командное соревнование среди мужчин — Кубок Томаса [ 2 ] , трофей для которого был пожертвован ещё в 1939 году. Главный командный трофей женского бадминтона — Кубок Убер — учреждён в 1956 году [ 3 ] . Инвентарь  Ракетка  Ракетки для бадминтона Рамка ракетки не должна превышать 680 мм в длину и 230 мм в ширину [ 4 ] . Первоначально ракетки изготавливались из дерева, их рукоятку часто оборачивали тканью. Позже в качестве основных материалов стали использовать алюминий и сталь , а с 1950-х годов — углепла"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 European Men's and Women's Team Badminton Championships are being held in Istanbul, Turkey, from 11 to 15 February 2026.\n\nFINAL: Istanbul, Turkey",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

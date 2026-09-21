@@ -1,0 +1,164 @@
+{
+ "task": {
+  "id": "fresh-45",
+  "source": "fresh",
+  "question": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?",
+  "answer": "F-16 Fighting Falcon",
+  "evidence": "13 August – An F-16 Fighting Falcon of the Turkish Air Force crashes in Yalova Province. The pilot ejects safely.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Не удалось найти информацию о типе самолета, который потерпел крушение в провинции Ялова, Турция, 13 августа 2026 года. Возможно, инцидент ещё не задокументирован или недостаточно освещён в доступных источниках. \n\nFINAL: Информация отсутствует.",
+ "cost": 0.0006052500000000016,
+ "seconds": 19.0,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_KwuaHpnAK4awfPTIYjWnHrcR",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"aircraft crash Yalova Province Turkey August 13 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_KwuaHpnAK4awfPTIYjWnHrcR",
+   "content": "[2026 in Turkey] Individuals and events related to 2026 in Turkey."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_2rvQVJLCQHyqFIG0JCM7q7rm",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yalova Province Turkey August 13 2026 aircraft crash news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_2rvQVJLCQHyqFIG0JCM7q7rm",
+   "content": "[2026 in Turkey] Individuals and events related to 2026 in Turkey."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_aTVmYp1ZwwyhqgiS0D0Okisl",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yalova Turkey plane crash August 13 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_aTVmYp1ZwwyhqgiS0D0Okisl",
+   "content": "[Beechcraft Bonanza] The Beechcraft Bonanza is an American general aviation aircraft introduced in 1947 by Beech Aircraft Corporation of Wichita, Kansas. The four-to-six seat, single-engined aircraft has been in continuous production longer than any other aircraft in history. More than 18,000 Bonanzas of all variants, and over 6,000 twin-engined derivatives, have been built. produced in both distinctive V-tail and conventional-tail configurations; early conventional-tail versions were marketed as the Debonair. In November 2025, Textron Aviation (the later corporate owner of Beechcraft) announced that the Bonanza and the Beechcraft Baron were ceasing production once the final backlog of orders was filled. Textron assured existing owners that parts, maintenance, and support for the Bonanza will continue to be provided."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_IXHz55bUPYIDRZF7p6mghMu3",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"aviation incident Yalova Turkey August 13 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_IXHz55bUPYIDRZF7p6mghMu3",
+   "content": "[List of accidents and incidents involving military aircraft (2020–present)] This is a list of accidents and incidents involving military aircraft grouped by the year in which the accident or incident occurred. Not all of the aircraft were in operation at the time. Combat losses are not included except for a few cases denoted by singular circumstances."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_oWNZIqU3XlKa7mASBgKg6G4S",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yalova Turkey August 13 2026 aircraft incident\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_oWNZIqU3XlKa7mASBgKg6G4S",
+   "content": "[2026 in Turkey] Individuals and events related to 2026 in Turkey."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_FYdWDwbyIcBquQL2ta5kDbmn",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yalova accident August 13 2026 aircraft type\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_FYdWDwbyIcBquQL2ta5kDbmn",
+   "content": "[List of accidents and incidents involving military aircraft (2020–present)] This is a list of accidents and incidents involving military aircraft grouped by the year in which the accident or incident occurred. Not all of the aircraft were in operation at the time. Combat losses are not included except for a few cases denoted by singular circumstances."
+  },
+  {
+   "role": "assistant",
+   "content": "Не удалось найти информацию о типе самолета, который потерпел крушение в провинции Ялова, Турция, 13 августа 2026 года. Возможно, инцидент ещё не задокументирован или недостаточно освещён в доступных источниках. \n\nFINAL: Информация отсутствует.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

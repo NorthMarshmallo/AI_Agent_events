@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-132",
+  "source": "fresh",
+  "question": "What hit rate did Chai Discovery's Chai-2 model achieve across 52 novel targets using at most 20 antibody candidates per target, per GEN?",
+  "answer": "16%",
+  "evidence": "a 16% success rate in fully de novo antibody design of ≤20 antibodies or nanobodies to 52 diverse targets",
+  "page": "Chai's the Limit for AI Antibody Designer After $130M Series B Funding",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/chais-the-limit-for-ai-antibody-designer-after-130m-series-b-funding/",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "The Chai-2 model achieved double-digit hit rates for designing de novo antibodies across 52 novel targets. \n\nFINAL: double-digit hit rates",
+ "cost": 0.0007720500000000241,
+ "seconds": 31.0,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What hit rate did Chai Discovery's Chai-2 model achieve across 52 novel targets using at most 20 antibody candidates per target, per GEN?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_DS5Y5JrcPE0NhvSfAsaRtpD6",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\":\"Chai Discovery Chai-2 model hit rate 52 novel targets\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_DS5Y5JrcPE0NhvSfAsaRtpD6",
+   "content": "[StockWatch: AI Drug Developer Generates $400M IPO] Generate:Biomedicines (NASDAQ: GENB) , the drug developer focused on creating immunology and inflammation (I&I) and oncology treatments through its own artificial intelligence (AI)-based platform, has launched the year’s largest biotech initial public offering (IPO) to date, raising $400 million in gross proceeds toward clinical trials, as well as platform and pipeline R&D efforts. Generate finished its first day of trading at $12.65, slumping 21% from its IPO price of $16 a share, the midpoint of its $15 to $17 share price range disclosed by the company in its S-1/A amended registration statement . At the $16 per share midpoint, Generate projected its oversubscribed IPO offering of 25 million shares would garner approximately $368.8 million in net proceeds—a figure that would rise to $424.9 million if the IPO underwriters exercise in full their 30-day option to purchase up to 3.75 million additional shares of common stock at the public offering price, less underwriting discounts and commissions, boosting gross proceeds by $60 million. The IPO was designed to raise between $375 million and $425 million in gross proceeds. Generate’s gross proceeds so far match the $400 million estimate offered earlier this month by Renaissance Capital, which tracks the IPO market. The closing price was down 17% from Generate’s high price for the day of $15.32 a share, reached at 12:51 p.m. ET. The company’s market capitalization— t he product of the share price and the number of outstanding shares —finished the first day of trading at $1.612 billion. Generate trades its shares on the Nasdaq Global Market under the symbol GENB. Generate’s performance came on a day in which the broader financial markets plummeted on news of a higher-than-expected increase during January in the “core” producer price index (PPI) which excludes food and energy prices—a seasonally adjusted jump of 0.8%, compared with an 0.6% increase in December and the 0"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_mLjlRquFhFIEBT9r3s8jYcKU",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"StockWatch: AI Drug Developer Generates $400M IPO\",\"keywords\":[\"Chai-2\",\"hit rate\",\"52 novel targets\"],\"site\":\"gen\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_mLjlRquFhFIEBT9r3s8jYcKU",
+   "content": "In 2025, two privately held AI drug developers , Nabla Bio and Chai Discovery , made waves with the announcement of AI models, JAM-2 and Chai-2, respectively, that design de novo antibodies with double-digit hit rates and drug-like properties."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_G0zqscNhrJp2PT9GsT3JDLWQ",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\":\"Chai Discovery Chai-2 model 20 antibody candidates hit rate\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_G0zqscNhrJp2PT9GsT3JDLWQ",
+   "content": "[StockWatch: AI Drug Developer Generates $400M IPO] Generate:Biomedicines (NASDAQ: GENB) , the drug developer focused on creating immunology and inflammation (I&I) and oncology treatments through its own artificial intelligence (AI)-based platform, has launched the year’s largest biotech initial public offering (IPO) to date, raising $400 million in gross proceeds toward clinical trials, as well as platform and pipeline R&D efforts. Generate finished its first day of trading at $12.65, slumping 21% from its IPO price of $16 a share, the midpoint of its $15 to $17 share price range disclosed by the company in its S-1/A amended registration statement . At the $16 per share midpoint, Generate projected its oversubscribed IPO offering of 25 million shares would garner approximately $368.8 million in net proceeds—a figure that would rise to $424.9 million if the IPO underwriters exercise in full their 30-day option to purchase up to 3.75 million additional shares of common stock at the public offering price, less underwriting discounts and commissions, boosting gross proceeds by $60 million. The IPO was designed to raise between $375 million and $425 million in gross proceeds. Generate’s gross proceeds so far match the $400 million estimate offered earlier this month by Renaissance Capital, which tracks the IPO market. The closing price was down 17% from Generate’s high price for the day of $15.32 a share, reached at 12:51 p.m. ET. The company’s market capitalization— t he product of the share price and the number of outstanding shares —finished the first day of trading at $1.612 billion. Generate trades its shares on the Nasdaq Global Market under the symbol GENB. Generate’s performance came on a day in which the broader financial markets plummeted on news of a higher-than-expected increase during January in the “core” producer price index (PPI) which excludes food and energy prices—a seasonally adjusted jump of 0.8%, compared with an 0.6% increase in December and the 0"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Yex5IC31vA9ENcyA6j9llZBD",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"StockWatch: AI Drug Developer Generates $400M IPO\",\"keywords\":[\"Chai Discovery\",\"Chai-2 hit rate\"],\"site\":\"gen\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Yex5IC31vA9ENcyA6j9llZBD",
+   "content": "In 2025, two privately held AI drug developers , Nabla Bio and Chai Discovery , made waves with the announcement of AI models, JAM-2 and Chai-2, respectively, that design de novo antibodies with double-digit hit rates and drug-like properties."
+  },
+  {
+   "role": "assistant",
+   "content": "The Chai-2 model achieved double-digit hit rates for designing de novo antibodies across 52 novel targets. \n\nFINAL: double-digit hit rates",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

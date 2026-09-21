@@ -1,0 +1,188 @@
+{
+ "task": {
+  "id": "fresh-133",
+  "source": "fresh",
+  "question": "On what date did DeepSeek release its open-weight reasoning model DeepSeek-R1?",
+  "answer": "20 January 2025",
+  "evidence": "Released on 20 January 2025, DeepSeek-R1 surpassed ChatGPT as the most downloaded freeware app",
+  "page": "DeepSeek (chatbot)",
+  "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)"
+ },
+ "answer": "Based on the search results I found earlier, DeepSeek announced it went live with its open-weight reasoning model DeepSeek-R1 in late January 2025. The search results mentioned that Nvidia made DeepSeek R1 available as an NVIDIA NIM on Thursday (with context suggesting this was around January 27, 2025), and multiple references indicated the R1 announcement shook investors \"late last month\" when discussed in late January articles.\n\nHowever, I was unable to find the exact specific date of the DeepSeek-R1 release from my searches.\n\nFINAL: Based on available search results, DeepSeek released DeepSeek-R1 in late January 2025, likely around January 20-21, 2025, though the exact date could not be definitively confirmed.",
+ "cost": 0.05513100000000004,
+ "seconds": 171.1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "On what date did DeepSeek release its open-weight reasoning model DeepSeek-R1?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about DeepSeek-R1's release date.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01NLF9SRXjDSKhMstLvdbo3Y",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"DeepSeek-R1 release date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01NLF9SRXjDSKhMstLvdbo3Y",
+   "content": "[DeepSeek] Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd., doing business as DeepSeek, is a Chinese artificial intelligence (AI) company that develops open weights large language models (LLMs). Based in Hangzhou, Zhejiang, DeepSeek is owned and funded by High-Flyer, a Chinese hedge fund."
+  },
+  {
+   "role": "assistant",
+   "content": "The search returned general information about DeepSeek. Let me search more specifically for the R1 model release.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01Cv4b8UrZLrusaxVcDcAwRb",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"DeepSeek-R1 open-weight reasoning model announcement\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01Cv4b8UrZLrusaxVcDcAwRb",
+   "content": "[Open-source artificial intelligence] Open-source artificial intelligence, as defined by the Open Source Initiative, is an AI system that is freely available to use, study, modify, and share. This includes datasets used to train the model, its code, and its model parameters, promoting a collaborative and transparent approach to AI development so someone could create a substantially similar result. The debate over what should count as 'open-source' given a range of openness among AI projects has been significant. Some large language models touted as open-sourced that are merely open weights and do not release training data and code have been criticized as \"openwashing\" systems that are mostly closed. For example, Artificial Analysis gives an \"Openness Index\" of 83% to Nvidia's Nemotron family, for its greater transparency in methodology, pre-training data, and post-training data, while China's frontier open weights models broadly score under 50%. Open-source AI is a major issue in geopolitics and artificial intelligence controversies, sometimes characterized as an AI arms race or AI Cold War between the US and China. Broadly, models released by Chinese companies, such as DeepSeek, Alibaba Cloud, Moonshot AI and Z.ai, use an open weights framework, under more permissive software licenses like Apache or MIT. United States AI companies, including OpenAI, Anthropic, SpaceXAI, Google DeepMind largely favor a proprietary software framework, especially for larger models. These are in part national government policy decisions, because public access to AI technology has many consequences. Some US politicians have called to restrict US public access to Chinese AI tools. Popular open-source artificial intelligence project categories include large language models (LLM), machine translation tools, and chatbots. Debate over the benefits and risks of open-sourced AI involve a range of factors like security, privacy and technological advancement. As of July 2026, the largest open we"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a different search approach to find the specific release date.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01UP8ybi1sfBwaRiQxMt8Y5Z",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"DeepSeek R1 December 2024\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01UP8ybi1sfBwaRiQxMt8Y5Z",
+   "content": "[DeepSeek] Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd., doing business as DeepSeek, is a Chinese artificial intelligence (AI) company that develops open weights large language models (LLMs). Based in Hangzhou, Zhejiang, DeepSeek is owned and funded by High-Flyer, a Chinese hedge fund."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for more recent information about DeepSeek's R1 release.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_014X8siDrLXhVhLPBG55aafx",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\": \"DeepSeek-R1 release\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_014X8siDrLXhVhLPBG55aafx",
+   "content": "[StockWatch: Whirlwind Week for Nvidia as Investors Weigh DeepSeek’s Impact] Nvidia (NASDAQ: NVDA) CEO Jensen Huang’s meeting with President Donald Trump on Friday capped a whirlwind week for the increasingly life sciences-focused Silicon Valley microprocessing giant, in which its stock slid 16% as investors assessed how much of a competitive threat the company faces from the Chinese-owned artificial intelligence (AI) startup DeepSeek. “We appreciated the opportunity to meet with President Trump and discuss semiconductors and AI policy,” an Nvidia spokesperson said in a statement to Japan’s NHK and other news outlets. “Jensen and the President discussed the importance of strengthening U.S. technology and AI leadership.” Trump offered few specifics about his meeting with Huang, but said Friday : “He’s the biggest in the world in terms of chips. I can’t say what’s going to happen [except] we had a meeting. It was a good meeting.” “Eventually, we’re going to put tariffs on chips” as well as oil and gas, he continued: “That’ll happen fairly soon, I think around the 18th of February.” DeepSeek rattled Wall Street late last month by announcing it had gone live with its open source R1 model, one that it said rivaled the Model o1 of privately held OpenAI, the developer of ChatGPT. What especially shook investors was the prospect that China may have closed the tech gap with the United States in AI and especially DeepSeek’s claim that it developed an earlier model it launched in December, V3, for just $5.58 million—a far cry from the tens of billions and hundreds of billions of dollars that U.S. AI tech giants have committed toward expanding the technology. However, Palmer Luckey, co-founder of defense tech company Anduril Industries and co-founder of virtual reality company Oculus (acquired by Meta predecessor Facebook in 2017), dismissed that cost estimate as CCP [Chinese Communist Party] propaganda , telling Fox Business that much of DeepSeek’s infrastructure costs remain "
+  },
+  {
+   "role": "assistant",
+   "content": "The search mentions DeepSeek went live with R1 \"late last month\" but I need the exact date. Let me search for the specific announcement date.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01NKX9JqZJCVpT9hR2iLL9hV",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"StockWatch: Whirlwind Week for Nvidia as Investors Weigh DeepSeek's Impact\", \"keywords\": [\"DeepSeek R1\",\"January\",\"December\"], \"site\": \"gen\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01NKX9JqZJCVpT9hR2iLL9hV",
+   "content": "What especially shook investors was the prospect that China may have closed the tech gap with the United States in AI and especially DeepSeek’s claim that it developed an earlier model it launched in December, V3, for just $5.58 million—a far cry from the tens of billions and hundreds of billions of dollars that U.S.\n“DeepSeek R1 is designed for speed and efficiency, making it ideal for tasks that require quick responses like content creation and coding, while DeepSeek V3 excels in complex reasoning, handling multi-domain tasks, and offering a deeper understanding of language and context.” Trump and several U.S.\nThat fear sent Nvidia’s shares tumbling 17% on January 27, from $142.62 to $118.42.\nThe Chinese leadership told me that,” Trump said on January 27, addressing the House Republican Issues Conference in Miami.\n“We are going to unleash our tech companies and dominate the future like never before.” DeepSeek’s impact on AI technology “all depends on the veracity of DeepSeek’s claims,” William Stein, managing director/senior analyst-technology with Truist Securities, wrote in a research note on January 27, as reported by Investors Business Daily .\nOn Thursday, Nvidia said it was making DeepSeek R1 available as an NVIDIA NIM or “ NVIDIA Inference Microservice .” NIMs are optimized cloud-native “microservices” designed to let developers accelerate deployment of generative AI models anywhere—whether through local workstations, on-premises data centers, cloud services, or GPU-accelerated workstations.\nLessons from DeepSeek Pat Gelsinger, who in December announced his retirement as Intel’s CEO— reportedly under pressure from board members dissatisfied with the company’s inability to compete with Nvidia—commented on LinkedIn that DeepSeek succeeded by following three lessons of computing industry success: Making compute resources broadly available at radically lower price points will drive an explosive expansion, not contraction, of the market.\nIt took a highly constrai"
+  },
+  {
+   "role": "assistant",
+   "content": "The text mentions January 27 for various events, but I need to find the exact release date of DeepSeek-R1. Let me search more specifically.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01B5MCLPCYvjWPmE9nZZuGMo",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"\\\"DeepSeek-R1\\\" \\\"January 20\\\" OR \\\"January 21\\\" 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01B5MCLPCYvjWPmE9nZZuGMo",
+   "content": "[DeepSeek] Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd., doing business as DeepSeek, is a Chinese artificial intelligence (AI) company that develops open weights large language models (LLMs). Based in Hangzhou, Zhejiang, DeepSeek is owned and funded by High-Flyer, a Chinese hedge fund."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try another search with different keywords.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01LxYWGJpStCm29jy5TkqcRb",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"DeepSeek R1 launch date announcement 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01LxYWGJpStCm29jy5TkqcRb",
+   "content": "[Qwen] Qwen (also known as Tongyi Qianwen, Chinese: 通义千问; pinyin: Tōngyì Qiānwèn) is a family of predominantly open weights large and small language models (LLM and SLM) developed by Alibaba Cloud. Its latest version, Qwen3.8; the 2.4 trillion parameter model was the second largest and second most powerful open weights LLM and Chinese LLM released by 12 August 2026, after Kimi K3. Larger models require a revenue sharing agreement from providers generating more than US$50 million annually. The distilled Qwen3.8 27B was released under a more permissive Apache License. The first iteration of Qwen, based on Meta AI's Llama 1, launched a beta in April 2023, releasing the weights of its 72B model that December. A local version of Qwen is used by Apple Intelligence in China, integrated with the operating system. Permissive licenses and smaller releases make them a common starting point for further fine-tuned and abliterated models in the open-source community."
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results I found earlier, DeepSeek announced it went live with its open-weight reasoning model DeepSeek-R1 in late January 2025. The search results mentioned that Nvidia made DeepSeek R1 available as an NVIDIA NIM on Thursday (with context suggesting this was around January 27, 2025), and multiple references indicated the R1 announcement shook investors \"late last month\" when discussed in late January articles.\n\nHowever, I was unable to find the exact specific date of the DeepSeek-R1 release from my searches.\n\nFINAL: Based on available search results, DeepSeek released DeepSeek-R1 in late January 2025, likely around January 20-21, 2025, though the exact date could not be definitively confirmed.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

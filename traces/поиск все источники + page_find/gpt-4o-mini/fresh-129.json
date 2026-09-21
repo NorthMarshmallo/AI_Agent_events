@@ -1,0 +1,186 @@
+{
+ "task": {
+  "id": "fresh-129",
+  "source": "fresh",
+  "question": "Which two investors co-led Chai Discovery's $130 million Series B round in December 2025, per GEN?",
+  "answer": "Oak HC/FT and General Catalyst",
+  "evidence": "Oak HC/FT and General Catalyst co-led the Series B.",
+  "page": "Chai's the Limit for AI Antibody Designer After $130M Series B Funding",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/chais-the-limit-for-ai-antibody-designer-after-130m-series-b-funding/",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "I could not find the specific investors who co-led Chai Discovery's $130 million Series B round in December 2025. It seems the articles do not contain this information. \n\nFINAL: Невозможно получить информацию о соинвесторах.",
+ "cost": 0.001441350000000008,
+ "seconds": 41.1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "Which two investors co-led Chai Discovery's $130 million Series B round in December 2025, per GEN?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_gnql6nyHnRWU4KfwJ2359SO3",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\":\"Chai Discovery $130 million Series B round December 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_gnql6nyHnRWU4KfwJ2359SO3",
+   "content": "[Top 10 U.S. Biopharma Clusters 2026] Some of the forces that shape biopharma cluster development are constants year after year, such as the emergence of startups from university and research institute labs to develop new treatments, thanks to ideas backed by the brains of researchers and executives, and the bucks of serial entrepreneurs and other investors. But in recent years, several additional unique circumstances have come to reshape how much and especially where biopharmas choose to grow, Matthew Gardner, CBRE Americas Life Sciences Leader, shared with GEN recently. One is increased acquisition of lab and manufacturing properties by “mid-cap” biopharmas ranging between $2 billion and $10 billion in market capitalization (share price times the number of outstanding shares), as they seek to better control their supply chains by maintaining their own infrastructure in evolving from research- to commercialization-focused drug developers. “They might have been more likely to lease in a different circumstance. They’ve definitely caught an opportunity to jump in and take ownership. That has been an ongoing trend, and that has been true coast-to-coast in most of the major centers,” Gardner said. Among investor-owners, Gardner said, another transition has begun from pure-play biopharma real estate landlords to investors with broader portfolios encompassing healthcare—a reflection of how the two fields are increasingly converging. During December 2025 and January 2026, for example, the public real estate investment trust (REIT) Healthpeak shelled out $600 million to close on the acquisition of a 1.4-million square foot, 29-acre campus on Gateway Boulevard in South San Francisco, CA, from the nation’s largest biopharma REIT, Alexandria Real Estate Equities and BXP (formerly Boston Properties). Those and other investors aim to cash in on the improving climate for biopharmas seeking to raise capital, from a recovering venture capital market to increased merger-and-acquisit"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ZPHBZqbctBfAaWOKkaTCHp0P",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Top 10 U.S. Biopharma Clusters 2026\",\"keywords\":[\"Chai Discovery\",\"$130 million\",\"Series B\",\"December 2025\"],\"site\":\"gen\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ZPHBZqbctBfAaWOKkaTCHp0P",
+   "content": "During December 2025 and January 2026, for example, the public real estate investment trust (REIT) Healthpeak shelled out $600 million to close on the acquisition of a 1.4-million square foot, 29-acre campus on Gateway Boulevard in South San Francisco, CA, from the nation’s largest biopharma REIT, Alexandria Real Estate Equities and BXP (formerly Boston Properties).\nAs for startups, Raleigh-based Slate Medicines launched in February with $130 million in Series A financing to fund development of therapies led by its migraine candidate, the anti-PACAP monoclonal antibody SLTE-1009 licensed from Zhongshan, China-based DartsBio Pharmaceuticals, and set to start Phase I trials in mid-2026.\nA UW spinout, Seattle-based 3D tissue model developer Curi Bio, closed in December on a $10-million Series B financing led by South Korean contract research organization DreamCIS."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_aoEDSBnRdHRqMfRzPQb9eqtz",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\":\"Chai Discovery\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_aoEDSBnRdHRqMfRzPQb9eqtz",
+   "content": "[From Models to Agents: The Next Phase of AI Adoption in Molecular Discovery] In recent years, the artificial intelligence (AI) conversation has been dominated by increasingly capable large language models. Every few months, models improve on mathematical reasoning and coding benchmarks, while inference costs drop. Since 2025, programmers have become more familiar with Claude Code and OpenAI Codex, autonomous software engineering agents running locally in a developer’s terminal, navigating code repositories and editing files across codebases. For the biotech and pharmaceutical industry, AI’s impact has also been profound. Researchers can now identify potential drug targets faster, predict protein structures with remarkable accuracy (thanks to advances like AlphaFold and RoseTTAFold), analyze vast scientific literature in seconds, and generate molecular insights that would previously have taken months to uncover. Yet despite these advances, AI applications in scientific research have not experienced their “Claude Code” moment. A scientist investigating a drug target for a specific disease may consult multiple databases, retrieve scientific papers, run molecular analyses, compare outputs from different AI models, and move a protein structure prediction from one platform into a docking tool on another, and then wonder whether a different model would have given a better answer. The compute power exists. The models exist. What’s missing is a system that coordinates them. Why Agentic AI Matters For all the excitement surrounding AI, much of the infrastructure required to apply it effectively in scientific research remains out of reach for many organizations. Access to frontier AI models, large-scale computing resources, molecular simulation platforms, scientific retrieval systems, and workflow orchestration tools often requires substantial investment and technical expertise. This creates a growing divide between organizations that can afford to assemble sophisticated AI-d"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ZkPbAtnZ8jCB78v9zTix5pIT",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"From Models to Agents: The Next Phase of AI Adoption in Molecular Discovery\",\"keywords\":[\"Chai Discovery\",\"investors\",\"Series B\",\"December 2025\"],\"site\":\"gen\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ZkPbAtnZ8jCB78v9zTix5pIT",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_t15B5T3lrbJSLXJ8fzvOu4lv",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\":\"Chai Discovery funding news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_t15B5T3lrbJSLXJ8fzvOu4lv",
+   "content": "[Pharma Races to Scale AI as Billions Flow into Drug Discovery] The infrastructure moment for AI-driven drug discovery continues to accelerate, with billion-dollar investments flowing into end-to-end platforms driven by models and compute, rather than single drug assets. Underpinning this trend is the proliferation of AI reasoning workflows that accelerate biomedical research and large integrated datasets spanning genomics, transcriptomics, proteomics, metabolomics, and more. Together, these capabilities are enabling more powerful models of biological complexity for a new era of programmable therapeutics guided by prediction and rational design. “This isn’t about developing therapeutics for a particular indication or target,” explained Max Jaderberg, PhD, president of Isomorphic Labs, on the Training Data podcast. Instead, the Google DeepMind spinout is building a general design engine applicable to any disease area. Investors and pharma giants have rallied behind that vision. In May, Isomorphic announced a whopping $2.1 billion raise led by Thrive Capital. The AI drug developer has also secured major partnerships with Novartis, Eli Lilly, and Johnson & Johnson to embed AI-driven discovery workflows into pharma’s R&D pipeline. While traditional drug discovery programs can be limited to known binding pockets revealed by structural biology, Isomorphic’s platform, known as IsoDD (Isomorphic Labs Drug Design Engine), expands the druggable landscape by probing previously inaccessible biology. The Isomorphic Labs Drug Design Engine is able to predict the location of cryptic pockets at protein interfaces. A cryptic pocket is a ‘hidden’ binding site on a protein that is invisible under normal conditions but opens up when a specific molecule interacts with it. [Isomorphic Labs] The platform’s capabilities include predicting induced-fit interactions, in which proteins change shape upon ligand binding, and identifying cryptic binding pockets that remain hidden in the absence o"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_p9jFHLoKem2P0ypELsFdClty",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Pharma Races to Scale AI as Billions Flow into Drug Discovery\",\"keywords\":[\"Chai Discovery\",\"Series B\",\"December 2025\",\"investors\"],\"site\":\"gen\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_p9jFHLoKem2P0ypELsFdClty",
+   "content": "Investors and pharma giants have rallied behind that vision.\nJust two weeks later, AI biologics company Chai Discovery unveiled a licensing agreement with Pfizer that provides the pharmaceutical giant with early access to Chai-3, the company’s AI model for de novo antibody design, as well as a custom model trained on Pfizer’s proprietary data.\nThe alternative scenario, writes Buvailo on LinkedIn, is that the AI drug discovery valuation cycle has fully decoupled from clinical proof, and “we are watching capital chase computational promise on its own terms.” Previously unsolvable As the AI biology ecosystem grows increasingly crowded, some investors are explaining how they make their bets.\nForesite was among the early investors in data generation for causal analysis and went on to back some of the leading players in the genomics space, including 10x Genomics and Element Biosciences.\nForesite is also among the investors of closely watched AI unicorn, Xaira Therapeutics, which launched in 2024 with more than $1 billion in funding."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_2NWdba8eQL8J3vjUoJbOONZp",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Pharma Races to Scale AI as Billions Flow into Drug Discovery\",\"keywords\":[\"Chai Discovery\",\"funding\",\"Series B\",\"December 2025\"],\"site\":\"gen\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_2NWdba8eQL8J3vjUoJbOONZp",
+   "content": "Just two weeks later, AI biologics company Chai Discovery unveiled a licensing agreement with Pfizer that provides the pharmaceutical giant with early access to Chai-3, the company’s AI model for de novo antibody design, as well as a custom model trained on Pfizer’s proprietary data.\nForesite is also among the investors of closely watched AI unicorn, Xaira Therapeutics, which launched in 2024 with more than $1 billion in funding."
+  },
+  {
+   "role": "assistant",
+   "content": "I could not find the specific investors who co-led Chai Discovery's $130 million Series B round in December 2025. It seems the articles do not contain this information. \n\nFINAL: Невозможно получить информацию о соинвесторах.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

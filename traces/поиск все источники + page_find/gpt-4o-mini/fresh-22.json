@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Информации о новом индийском анимационном сериале, созданном Мэттом Брали, который был полностью профинансирован 17 марта 2026 года, у меня нет. Он наиболее известен как создатель шоу \"Amphibia\".\n\nFINAL: Нет информации о сериале.",
+ "cost": 0.0014704499999999565,
+ "seconds": 52.5,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_PUYiaTY7u3FsDGCPYjoGRRS3",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"indie animated series created by Matt Braly\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_PUYiaTY7u3FsDGCPYjoGRRS3",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_sPOxaVJNPFT2L5Hlr2erjUd5",
+     "function": {
+      "name": "ru_wiki_search",
+      "arguments": "{\"query\":\"инди анимационный сериал, созданный Мэттом Брали\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_sPOxaVJNPFT2L5Hlr2erjUd5",
+   "content": "[Бушеми, Стив] В Википедии есть статьи о других людях с фамилией Бушеми . Стив Бушеми англ. Steve Buscemi Бушеми в 2025 году Имя при рождении Стивен Винсент Бушеми Дата рождения 13 декабря 1957 ( 1957-12-13 ) (68 лет) Место рождения Бруклин , Нью-Йорк , США Гражданство США Профессия актёр , кинорежиссёр , продюсер Карьера 1985 — н. в. Награды « Золотой глобус » (2010) Премия Гильдии киноактёров США (2010, 2011) « Независимый дух » (1992, 2001) Премия Национального общества кинокритиков США (2001) IMDb ID 0000114 Медиафайлы на Викискладе Сти́вен Ви́нсент ( Стив ) Буше́ми [ 1 ] [ 2 ] ( англ. Steven Vincent (Steve) Buscemi ; род. 13 декабря 1957 ( 1957-12-13 ) , Бруклин , Нью-Йорк , США ) — американский актёр, продюсер и режиссёр кино и телевидения. Его карьера охватывает пять десятилетий, за которые он снялся более чем в сотне фильмов и сериалов, играя как комедийные, так и драматические роли. Он работал и в независимом, и в коммерческом кино, а среди его наград есть « Золотой глобус », премии Гильдии актёров , « Эмми » и « Независимый дух ». При этом именно обширная работа в малобюджетных картинах принесла ему репутацию одной из ключевых фигур американского инди-кино — так его воспринимали многие критики, включая Роджера Эберта . Бушеми известен прежде всего как актёр характерных, часто эксцентричных и криминальных персонажей, и он никогда не спорил с тем, что его часто зовут именно на такие типажи. Его путь как исполнителя начался в нью-йоркских клубах в конце семидесятых, где он по ночам выступал как комик, а днём учился актёрскому мастерству в Институте Ли Страсберга ; на жизнь он тогда зарабатывал, подрабатывая помощником официанта и грузчиком. Позже он устроился пожарным и отдал этой работе четыре года, а параллельно сочинял и играл собственные пьесы вместе с Марком Буном‑младшим . В середине восьмидесятых Бушеми получил первые роли в кино, а по-настоящему его карьера пошла в гору после третьего фильма — «Прощальные взгляды» (1986). Его ранние годы в индустрии с"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_k4ISEmeJQ9ZfFlbt2SxnwOJE",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\":\"Matt Braly indie animated series 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_k4ISEmeJQ9ZfFlbt2SxnwOJE",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_cHXiDFMZL3HQtED7yNijclOp",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Matt Braly indie animated series\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_cHXiDFMZL3HQtED7yNijclOp",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_5sI81TnuHxvvnFGoyW4AwPBf",
+     "function": {
+      "name": "espn_search",
+      "arguments": "{\"query\":\"Matt Braly animation series\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_5sI81TnuHxvvnFGoyW4AwPBf",
+   "content": "[Braves take on the Reds in first of 3-game series] "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_0OIrShRMZOVOR8jmLXzmerrS",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"upcoming animated series by Matt Braly\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_0OIrShRMZOVOR8jmLXzmerrS",
+   "content": "[Gargoyles (TV series)] Gargoyles (also known as Gargoyles: The Goliath Chronicles for season 3) is an animated television series co-produced by Walt Disney Television Animation and Buena Vista Television, Walt Disney Animation Japan for its first two seasons and Nelvana Limited for its final, and originally aired from October 24, 1994, to February 15, 1997. The series features a species of nocturnal creatures known as gargoyles that turn to stone during the day. After spending a thousand years in an enchanted petrified state, the gargoyles (who have been transported from medieval Scotland) are reawakened in modern-day New York City, and take on roles as the city's secret night-time protectors. Gargoyles was noted for its relatively dark tone, complex story arcs, and melodrama; character arcs were heavily employed throughout the series, as were Shakespearean themes. The series also received favorable comparisons to Batman: The Animated Series and X-Men: The Animated Series. A video game adaptation and a spin-off comic series were released in 1995. The show's storyline continued from 2006 to 2009 in a comic book series of the same title, produced by Slave Labor Graphics, and was again revived by Dynamite Entertainment in 2022. In 2026, a potential animated revival was hinted to be in development."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_KT1ZY3wJFn4R01btYxkeoZn1",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\":\"Matt Braly new animated series 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_KT1ZY3wJFn4R01btYxkeoZn1",
+   "content": "No data"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "Информации о новом индийском анимационном сериале, созданном Мэттом Брали, который был полностью профинансирован 17 марта 2026 года, у меня нет. Он наиболее известен как создатель шоу \"Amphibia\".\n\nFINAL: Нет информации о сериале.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
