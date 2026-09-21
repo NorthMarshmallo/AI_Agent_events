@@ -54,11 +54,14 @@ def check_format(rows):
     return problems == 0
 
 
-def check_sonnet(rows):
+def check_sonnet(rows, traces=None):
     import fetch_fresh as f
     right = []
     for r in rows:
-        ans = f.strong_answer(r["question"])
+        if traces:
+            ans = json.loads((Path(traces) / f"{r['id']}.json").read_text(encoding="utf-8"))["answer"].split("FINAL:")[-1].strip()
+        else:
+            ans = f.strong_answer(r["question"])
         if f.normalize(r["answer"]) in f.normalize(ans):
             right.append((r["id"], r["question"], ans))
     share = len(right) / len(rows) if rows else 0
@@ -73,9 +76,14 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("path")
     ap.add_argument("--sonnet", action="store_true", help="прогнать сильную модель без инструментов (нужен ключ)")
+    ap.add_argument("--traces", help="взять ответы сильной модели из папки трейсов, например traces/без инструментов/claude-sonnet-4.6")
+    ap.add_argument("--ids", help="диапазон номеров вопросов, например 125-154")
     args = ap.parse_args()
     rows = load(args.path)
+    if args.ids:
+        lo, hi = map(int, args.ids.split("-"))
+        rows = [r for r in rows if lo <= int(r["id"].split("-")[-1]) <= hi]
     ok = check_format(rows)
-    if args.sonnet and rows:
-        ok = check_sonnet(rows) and ok
+    if (args.sonnet or args.traces) and rows:
+        ok = check_sonnet(rows, args.traces) and ok
     sys.exit(0 if ok else 1)
