@@ -1,0 +1,186 @@
+{
+ "task": {
+  "id": "fresh-101",
+  "source": "fresh",
+  "question": "What is the duration of the ceasefire in the 2026 Lebanon war?",
+  "answer": "10-day",
+  "evidence": "April 16 – 2026 Lebanon war: A US-brokered 10-day ceasefire takes effect between Israel and Lebanon, following ambassador-level talks in the White House.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The duration of the ceasefire in the 2026 Lebanon war began on April 16, 2026, and was initially set for 10 days, with the possibility of extensions. It was extended more than once, and by June 2026, another agreement was reached between Israel and Lebanon. \n\nFINAL: 10 days (initial ceasefire duration)",
+ "cost": 0.0014758500000000008,
+ "seconds": 46.2,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What is the duration of the ceasefire in the 2026 Lebanon war?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_3685axyKh3xLUaPKxrkDkZby",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Lebanon war ceasefire duration\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_3685axyKh3xLUaPKxrkDkZby",
+   "content": "[January 2025 Gaza war ceasefire] A hostages-and-prisoners exchange and armistice between Israel and Hamas-led Palestinian militant groups in the Gaza Strip took effect from 19 January to 18 March 2025, during the Gaza war. It included eight rounds of hostage-and-prisoner exchanges between Israel and Hamas. The initial proposal included three stages, beginning with a six-week ceasefire and the release of all Israelis and Palestinians by both parties, an end to the war, Israel's withdrawal from the Gaza Strip, and a reconstruction plan. The proposal was first drafted by mediators from the United States, Egypt, and Qatar, accepted by Hamas on 5 May 2024. On 10 June, the UN Security Council supported it as Resolution 2735. Later in 2024, Israeli prime minister Benjamin Netanyahu rejected a permanent ceasefire, while some US officials also accused Hamas of hindering the proposal. President-elect Donald Trump joined President Biden in pressuring Israel to accept a similar proposal. A variation of the proposal was accepted by Israel and Hamas on 15 January 2025. On 17 January, the deal was signed and approved by the Security Cabinet of Israel and later the full Cabinet of Israel. During the first stage, in exchange of the release of 30–50 Palestinians prisoners for every Israeli released, Hamas released 33 hostages. Israel agreed to provide \"intensive and sufficient\" quantities of humanitarian aid, allow displaced Palestinians to return home and begin a phased withdrawal from Gaza. In the second stage, Israel would accept a permanent ceasefire and Hamas would release the remaining living male hostages, both civilians and soldiers, for an exchange of Palestinian prisoners. In the third stage, the remains of deceased Israeli hostages would be released. Under the 5 May proposal, Israel would commit to lifting the blockade on the Gaza Strip, but this commitment was not present in the 31 May proposal. From the beginning of the implementation of the deal, Israel was consistentl"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_bvrIoWjApXIxppYbqtXpGS9i",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Lebanon war\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_bvrIoWjApXIxppYbqtXpGS9i",
+   "content": "[2026 Lebanon war] Since 2 March 2026, there has been an ongoing war in Lebanon between Israel and the militant group Hezbollah, with Israel invading parts of Lebanon. It is a resumption of major fighting in the Hezbollah–Israel conflict, and part of the wider conflict in the Middle East. The war has precipitated a humanitarian crisis, resulted in the deaths of more than 4,000 people from Israeli strikes in Lebanon, and seen the forced displacement of over 1 million. After Hezbollah attacked Israel on October 8, 2023, one day after Hamas October 7 attacks at the start of the Gaza war, led to the 2024 Israeli invasion of Lebanon. After an Israel-Lebanon ceasefire agreement in November 2024, Israel still conducted airstrikes, saying that Hezbollah breached ceasefire conditions. Hezbollah launched strikes on Israel on 2 March 2026, in response to Israel and the United States launching a war against Iran, Hezbollah's main backer, and assassinating its supreme leader. Israel resumed airstrikes across Lebanon on a larger scale and, on March 16, began ground operations in southern Lebanon. The main bridges on the Litani River were blown up by Israel to cut off the south from the rest of Lebanon; Bint Jbeil became a site of intense ground combat. Israel announced it would demolish Lebanese border villages and occupy Lebanon up to the Litani. Lebanon moved to ban Hezbollah's military activities; it also condemned Israeli attacks on Lebanese civilians. Iran called for an end to Israeli attacks in Lebanon as a condition for a ceasefire in the wider war. After a ceasefire halted the Iran war, Hezbollah halted its attacks. Israeli Prime Minister Benjamin Netanyahu said the ceasefire did not apply to Lebanon, contradicting Iran and the Pakistani mediator, and launched the largest airstrikes of the war. On 16 April, Israel and Lebanon agreed to a 10-day ceasefire, later extended more than once. On 3 June, Israel and Lebanon reached an agreement, facilitated by the US. On June 4, H"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_oZcL2RvAlHR1nUbNubWe62Va",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Lebanon war ceasefire April 2026 June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_oZcL2RvAlHR1nUbNubWe62Va",
+   "content": "[2026 Lebanon war] Since 2 March 2026, there has been an ongoing war in Lebanon between Israel and the militant group Hezbollah, with Israel invading parts of Lebanon. It is a resumption of major fighting in the Hezbollah–Israel conflict, and part of the wider conflict in the Middle East. The war has precipitated a humanitarian crisis, resulted in the deaths of more than 4,000 people from Israeli strikes in Lebanon, and seen the forced displacement of over 1 million. After Hezbollah attacked Israel on October 8, 2023, one day after Hamas October 7 attacks at the start of the Gaza war, led to the 2024 Israeli invasion of Lebanon. After an Israel-Lebanon ceasefire agreement in November 2024, Israel still conducted airstrikes, saying that Hezbollah breached ceasefire conditions. Hezbollah launched strikes on Israel on 2 March 2026, in response to Israel and the United States launching a war against Iran, Hezbollah's main backer, and assassinating its supreme leader. Israel resumed airstrikes across Lebanon on a larger scale and, on March 16, began ground operations in southern Lebanon. The main bridges on the Litani River were blown up by Israel to cut off the south from the rest of Lebanon; Bint Jbeil became a site of intense ground combat. Israel announced it would demolish Lebanese border villages and occupy Lebanon up to the Litani. Lebanon moved to ban Hezbollah's military activities; it also condemned Israeli attacks on Lebanese civilians. Iran called for an end to Israeli attacks in Lebanon as a condition for a ceasefire in the wider war. After a ceasefire halted the Iran war, Hezbollah halted its attacks. Israeli Prime Minister Benjamin Netanyahu said the ceasefire did not apply to Lebanon, contradicting Iran and the Pakistani mediator, and launched the largest airstrikes of the war. On 16 April, Israel and Lebanon agreed to a 10-day ceasefire, later extended more than once. On 3 June, Israel and Lebanon reached an agreement, facilitated by the US. On June 4, H"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_dwAz3o8feQNH1te15hAz7rdS",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Israel Lebanon ceasefire duration April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_dwAz3o8feQNH1te15hAz7rdS",
+   "content": "[2006 Lebanon War] The 2006 Lebanon War was a 34-day armed conflict in Lebanon, fought between Hezbollah and Israel. The war started on 12 July 2006 and continued until a United Nations-brokered ceasefire went into effect in the morning on 14 August 2006, though it formally ended on 8 September 2006 when Israel lifted its naval blockade of Lebanon. It marked the third Israeli invasion into Lebanon since 1978. After Israel's withdrawal from southern Lebanon in 2000, Hezbollah aimed for the release of Lebanese citizens held in Israeli prisons. On 12 July 2006, Hezbollah ambushed Israeli soldiers on the border, killing three and capturing two; a further five were killed during a failed Israeli rescue attempt. Hezbollah demanded an exchange of prisoners with Israel. Israel launched airstrikes and artillery fire on targets in Lebanon, attacking both Hezbollah military targets and Lebanese civilian infrastructure, including Beirut's Rafic Hariri International Airport. Israel launched a ground invasion of Southern Lebanon and imposed an air-and-naval blockade on the country. Hezbollah then launched more rockets into northern Israel and engaged the IDF in guerrilla warfare from hardened positions. According to Israeli sources, Hezbollah fired close to 4,000 rockets and missiles at Israel from their arsenal of around 15,000 held before the war. On 11 August 2006, the United Nations Security Council unanimously approved United Nations Security Council Resolution 1701 (UNSCR 1701) in an effort to end the hostilities, which called for disarmament of Hezbollah, Israeli withdrawal from Lebanon, and for the deployment of the Lebanese Armed Forces and an enlarged United Nations Interim Force in Lebanon (UNIFIL) in the south. The Lebanese Army began deploying in Southern Lebanon on 17 August and the blockade was lifted on 8 September. On 1 October, most Israeli troops withdrew from Lebanon, although the last of the troops continued to occupy the border-straddling village of Ghajar. "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_G2tG7hfyLUDiCjTQVXy1YeW3",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Lebanon war ceasefire date duration April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_G2tG7hfyLUDiCjTQVXy1YeW3",
+   "content": "[2026 Strait of Hormuz crisis] Shipping traffic through the Strait of Hormuz, a major maritime choke point for world energy trade, has been largely blocked by Iran since 28 February 2026, when the United States and Israel launched an air war against Iran. In retaliation, the Iranian Revolutionary Guard Corps (IRGC) issued warnings forbidding passage through the strait, boarded and attacked merchant ships, and laid sea mines in the strait. From 13 April to 29 May 2026, the US simultaneously blockaded Iranian ports. Until the war's start, about 25% of the world's seaborne oil trade and 20% of the world's liquefied natural gas (LNG) passed through the strait. Soon after the start of the conflict, the number of tankers trafficking the strait dropped near zero. On 27 March, the IRGC announced that the strait was closed to any vessel going \"to and from\" the ports of the US, Israel, and their allies. The International Maritime Organization reported on 21 April that about 20,000 mariners and 2,000 ships were stranded in the Persian Gulf due to the closure. Amid fears of prolonged supply shortages, oil prices rose faster than during any other conflict in recent history; Brent crude oil prices surpassed US$100 per barrel on 8 March for the first time in four years, rising to US$126 per barrel at their peak. The largest-ever monthly increase in oil prices occurred in March 2026. The closure of the strait became the largest disruption to world energy supply since the 1970s energy crisis as well as the largest in the history of the world oil market. Other commodity markets to suffer supply disruption and price increases due to the crisis include aluminum, fertilizer, and helium. In late March and early April, US president Donald Trump repeatedly threatened to destroy Iran's infrastructure if it did not reopen the strait. On 8 April a temporary ceasefire between Iran and the US was agreed and was to involve the reopening of the strait. However, following the failure of the Islama"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_3UlQk48NCFWOKZmBP5Q54Qko",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Lebanon war ceasefire agreements details\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_3UlQk48NCFWOKZmBP5Q54Qko",
+   "content": "[2026 Iran war ceasefire] On 8 April 2026, the United States and Iran agreed to a two-week ceasefire in the 2026 Iran war, mediated by Pakistan. Iran had rejected the draft proposal for a 45-day two-phase ceasefire framework introduced on 5 April by Pakistan, instead proposing its own 10-point plan for a peace agreement. The proposal was developed as part of ongoing mediation efforts involving regional and international actors during the 2025–2026 negotiations. Since its declaration, the ceasefire was violated by both sides numerous times. On 21 April, US president Donald Trump extended the ceasefire indefinitely. On 8 July, the ceasefire deal collapsed after attacks by both sides. Low-intensity fighting between the US and Iran continued intermittently. Later, Trump decided to arrive at a more comprehensive ceasefire that would lead to an US–Iranian agreement. As a result, new ceasefire conditions were agreed upon on 12 June. On 17 June, the presidents of both countries signed the Islamabad Memorandum, a memorandum of understanding that formalized the process of ending the war and established a 60-day period to negotiate the final terms of a deal."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_dcwTAeVN1nn06qUcqSIu1VSw",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Lebanon war ceasefire duration April 16 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_dcwTAeVN1nn06qUcqSIu1VSw",
+   "content": "[2026 Strait of Hormuz crisis] Shipping traffic through the Strait of Hormuz, a major maritime choke point for world energy trade, has been largely blocked by Iran since 28 February 2026, when the United States and Israel launched an air war against Iran. In retaliation, the Iranian Revolutionary Guard Corps (IRGC) issued warnings forbidding passage through the strait, boarded and attacked merchant ships, and laid sea mines in the strait. From 13 April to 29 May 2026, the US simultaneously blockaded Iranian ports. Until the war's start, about 25% of the world's seaborne oil trade and 20% of the world's liquefied natural gas (LNG) passed through the strait. Soon after the start of the conflict, the number of tankers trafficking the strait dropped near zero. On 27 March, the IRGC announced that the strait was closed to any vessel going \"to and from\" the ports of the US, Israel, and their allies. The International Maritime Organization reported on 21 April that about 20,000 mariners and 2,000 ships were stranded in the Persian Gulf due to the closure. Amid fears of prolonged supply shortages, oil prices rose faster than during any other conflict in recent history; Brent crude oil prices surpassed US$100 per barrel on 8 March for the first time in four years, rising to US$126 per barrel at their peak. The largest-ever monthly increase in oil prices occurred in March 2026. The closure of the strait became the largest disruption to world energy supply since the 1970s energy crisis as well as the largest in the history of the world oil market. Other commodity markets to suffer supply disruption and price increases due to the crisis include aluminum, fertilizer, and helium. In late March and early April, US president Donald Trump repeatedly threatened to destroy Iran's infrastructure if it did not reopen the strait. On 8 April a temporary ceasefire between Iran and the US was agreed and was to involve the reopening of the strait. However, following the failure of the Islama"
+  },
+  {
+   "role": "assistant",
+   "content": "The duration of the ceasefire in the 2026 Lebanon war began on April 16, 2026, and was initially set for 10 days, with the possibility of extensions. It was extended more than once, and by June 2026, another agreement was reached between Israel and Lebanon. \n\nFINAL: 10 days (initial ceasefire duration)",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

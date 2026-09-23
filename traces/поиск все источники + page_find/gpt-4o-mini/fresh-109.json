@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-109",
+  "source": "fresh",
+  "question": "What type of incident is investigated by Counter Terrorism Policing in May 2026?",
+  "answer": "conspiracy to commit arson",
+  "evidence": "10 May – Counter Terrorism Policing arrest a man and a woman on suspicion of conspiracy to commit arson following an attack at the former East London Central Synagogue in Whitechapel. Police say the incident is being investigated alongside several apparent attacks on Jewish sites in London since late March.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "В мае 2026 года Контртеррористическая полиция проводила расследование в связи с волной антисемитских атак, направленных против еврейского сообщества в Лондоне, включая поджоги синагог и нападения. FINAL: волна антисемитских атак.",
+ "cost": 0.00028125000000001066,
+ "seconds": 7.1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What type of incident is investigated by Counter Terrorism Policing in May 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_NBWeC3VYBnFwzFZminLQk590",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"incident investigated by Counter Terrorism Policing May 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_NBWeC3VYBnFwzFZminLQk590",
+   "content": "[2026 London antisemitic attacks] Beginning in March 2026, the Jewish community in London, United Kingdom, became the target of a wave of antisemitic attacks, primarily involving arson directed at synagogues, community charities, and residential buildings. The campaign's most prominent incidents include the Hatzola ambulance arson and the Golders Green stabbings. Responsibility for many of the incidents was claimed online by Harakat Ashab al-Yamin al-Islamia (HAYI), identified by investigators as a front group for Iran's Islamic Revolutionary Guard Corps (IRGC). According to authorities, the IRGC outsourced the operations to local criminals to maintain plausible deniability. Kata'ib Hezbollah, an Iran-backed Iraqi paramilitary group, was implicated when its commander, Mohammad Baqer Saad Dawood al-Saadi, was charged by U.S. prosecutors for directing the network. The attacks prompted a major counter-terrorism investigation, leading to over 80 arrests and increased security for the Jewish community in northwest London. The wave of attacks also saw a significant response from political leaders and community figures. Counter-terrorism investigators also examined related incidents involving Israeli and Iranian-opposition interests."
+  },
+  {
+   "role": "assistant",
+   "content": "В мае 2026 года Контртеррористическая полиция проводила расследование в связи с волной антисемитских атак, направленных против еврейского сообщества в Лондоне, включая поджоги синагог и нападения. FINAL: волна антисемитских атак.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

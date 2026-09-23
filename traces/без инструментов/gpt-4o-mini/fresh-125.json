@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "fresh-125",
+  "source": "fresh",
+  "question": "By what factor is RFdiffusion3 faster than RFdiffusion2 in computational time, according to a December 2025 GEN article?",
+  "answer": "ten-fold",
+  "evidence": "RFdiffusion3 exhibits ten-fold faster performance over RFdiffusion2, despite taking a more computationally intensive all-atom method.",
+  "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/"
+ },
+ "answer": "I currently do not have access to external databases or articles published after October 2023. To find the factor by which RFdiffusion3 is faster than RFdiffusion2, I recommend checking the December 2025 GEN article directly. \n\nFINAL: N/A",
+ "cost": 4.9650000000012184e-05,
+ "seconds": 1.6,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "By what factor is RFdiffusion3 faster than RFdiffusion2 in computational time, according to a December 2025 GEN article?"
+  },
+  {
+   "role": "assistant",
+   "content": "I currently do not have access to external databases or articles published after October 2023. To find the factor by which RFdiffusion3 is faster than RFdiffusion2, I recommend checking the December 2025 GEN article directly. \n\nFINAL: N/A",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

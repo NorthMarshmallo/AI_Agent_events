@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-101",
+  "source": "fresh",
+  "question": "What is the duration of the ceasefire in the 2026 Lebanon war?",
+  "answer": "10-day",
+  "evidence": "April 16 – 2026 Lebanon war: A US-brokered 10-day ceasefire takes effect between Israel and Lebanon, following ambassador-level talks in the White House.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Let me think about this. As of my knowledge cutoff, I don't have reliable information about a \"2026 Lebanon war\" — this would be a future event beyond my knowledge cutoff date, or it may refer to something I don't have detailed records about.\n\nHowever, if you're referring to events I might have information about: The 2024 Lebanon ceasefire (between Israel and Hezbollah, announced in November 2024) was initially set for **60 days**.\n\nIf you are asking about a specific \"2026 Lebanon war,\" I don't have verified information about that event.\n\nFINAL: I don't have verified information about a 2026 Lebanon war ceasefire duration.",
+ "cost": 0.0027840000000000087,
+ "seconds": 4.9,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What is the duration of the ceasefire in the 2026 Lebanon war?"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me think about this. As of my knowledge cutoff, I don't have reliable information about a \"2026 Lebanon war\" — this would be a future event beyond my knowledge cutoff date, or it may refer to something I don't have detailed records about.\n\nHowever, if you're referring to events I might have information about: The 2024 Lebanon ceasefire (between Israel and Hezbollah, announced in November 2024) was initially set for **60 days**.\n\nIf you are asking about a specific \"2026 Lebanon war,\" I don't have verified information about that event.\n\nFINAL: I don't have verified information about a 2026 Lebanon war ceasefire duration.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

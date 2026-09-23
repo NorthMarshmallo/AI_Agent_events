@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-11",
+  "source": "fresh",
+  "question": "What was the title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026?",
+  "answer": "Helter Skelter",
+  "evidence": "May 9 until May 23 – Helter Skelter: Arthur Jafa and Richard Prince at Fondazione Prada in Venice.",
+  "page": "2026 in art",
+  "url": "https://en.wikipedia.org/wiki/2026_in_art",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I don't have reliable information about events scheduled for May 2026, as my knowledge cutoff is July 2025 and I may not have details about future exhibitions announced after that date.\n\nI cannot verify the title of an art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026, without risking providing incorrect information.\n\nFINAL: I don't have reliable information about this future event.",
+ "cost": 0.0019529999999999999,
+ "seconds": 3.5,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What was the title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have reliable information about events scheduled for May 2026, as my knowledge cutoff is July 2025 and I may not have details about future exhibitions announced after that date.\n\nI cannot verify the title of an art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026, without risking providing incorrect information.\n\nFINAL: I don't have reliable information about this future event.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

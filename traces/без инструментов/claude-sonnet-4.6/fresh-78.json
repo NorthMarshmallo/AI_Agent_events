@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-78",
+  "source": "fresh",
+  "question": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?",
+  "answer": "13.2 months",
+  "evidence": "31 May – A Phase 3 trial published in the New England Journal of Medicine reports that daraxonrasib, an investigational oral RAS(ON) inhibitor, nearly doubles median overall survival in patients with previously treated metastatic pancreatic cancer, from 6.6 months with standard chemotherapy to 13.2 months.",
+  "page": "2026 in science",
+  "url": "https://en.wikipedia.org/wiki/2026_in_science",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I need to check current medical literature or reports from May 2026 for the latest data on median overall survival in metastatic pancreatic cancer.\n\nMy knowledge cutoff is early 2025, and I don't have access to medical publications or clinical trial results from May 2026. I cannot accurately report a specific figure that would have been published after my knowledge cutoff date.\n\nIf you're looking for this information, I'd recommend checking:\n- ClinicalTrials.gov\n- PubMed/MEDLINE\n- ASCO (American Society of Clinical Oncology) 2026 Annual Meeting abstracts\n- ESMO 2026 publications\n- Recent issues of journals like *Journal of Clinical Oncology*, *NEJM*, or *The Lancet Oncology*\n\nAs of my knowledge cutoff (~early 2025), the median overall survival for metastatic pancreatic cancer with standard regimens (e.g., FOLFIRINOX or gemcitabine/nab-paclitaxel) was approximately **8–12 months**, depending on patient performance status and the regimen used.\n\nFINAL: I don't have data from May 2026; as of early 2025, median overall survival for metastatic pancreatic cancer was approximately 8–12 months with standard chemotherapy regimens.",
+ "cost": 0.0049919999999999964,
+ "seconds": 7.1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to check current medical literature or reports from May 2026 for the latest data on median overall survival in metastatic pancreatic cancer.\n\nMy knowledge cutoff is early 2025, and I don't have access to medical publications or clinical trial results from May 2026. I cannot accurately report a specific figure that would have been published after my knowledge cutoff date.\n\nIf you're looking for this information, I'd recommend checking:\n- ClinicalTrials.gov\n- PubMed/MEDLINE\n- ASCO (American Society of Clinical Oncology) 2026 Annual Meeting abstracts\n- ESMO 2026 publications\n- Recent issues of journals like *Journal of Clinical Oncology*, *NEJM*, or *The Lancet Oncology*\n\nAs of my knowledge cutoff (~early 2025), the median overall survival for metastatic pancreatic cancer with standard regimens (e.g., FOLFIRINOX or gemcitabine/nab-paclitaxel) was approximately **8–12 months**, depending on patient performance status and the regimen used.\n\nFINAL: I don't have data from May 2026; as of early 2025, median overall survival for metastatic pancreatic cancer was approximately 8–12 months with standard chemotherapy regimens.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

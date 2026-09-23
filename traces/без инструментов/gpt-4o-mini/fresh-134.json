@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-134",
+  "source": "fresh",
+  "question": "How many teams participated in the 2025 ICPC World Finals, where an OpenAI model and Google's Gemini both reached gold-medal level?",
+  "answer": "139",
+  "evidence": "139 teams competed to be World Champion.",
+  "page": "International Collegiate Programming Contest",
+  "url": "https://en.wikipedia.org/wiki/International_Collegiate_Programming_Contest",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "I'm unable to provide information on events occurring after my last update in October 2023, including the 2025 ICPC World Finals. FINAL: Unknown",
+ "cost": 3.6599999999997745e-05,
+ "seconds": 2.3,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "How many teams participated in the 2025 ICPC World Finals, where an OpenAI model and Google's Gemini both reached gold-medal level?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'm unable to provide information on events occurring after my last update in October 2023, including the 2025 ICPC World Finals. FINAL: Unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

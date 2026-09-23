@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-123",
+  "source": "fresh",
+  "question": "What country broke off diplomatic relations with France in June 2026?",
+  "answer": "Burkina Faso",
+  "evidence": "26 June – Burkina Faso breaks off diplomatic relations with France.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I need to check current events about June 2026, which is beyond my knowledge cutoff. Let me reason about this carefully.\n\nMy knowledge cutoff is early 2025, so I don't have information about events in June 2026.\n\nI cannot answer this question accurately as it refers to events in June 2026, which is beyond my knowledge cutoff date.\n\nFINAL: Не знаю — это событие выходит за пределы моих данных (июнь 2026 года).",
+ "cost": 0.0021720000000000073,
+ "seconds": 14.6,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What country broke off diplomatic relations with France in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to check current events about June 2026, which is beyond my knowledge cutoff. Let me reason about this carefully.\n\nMy knowledge cutoff is early 2025, so I don't have information about events in June 2026.\n\nI cannot answer this question accurately as it refers to events in June 2026, which is beyond my knowledge cutoff date.\n\nFINAL: Не знаю — это событие выходит за пределы моих данных (июнь 2026 года).",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

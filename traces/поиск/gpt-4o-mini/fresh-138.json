@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-138",
+  "source": "fresh",
+  "question": "Which two scientists received the 2025 ACM A.M. Turing Award, announced in March 2026, for their role in quantum information science?",
+  "answer": "Charles H. Bennett, Gilles Brassard",
+  "evidence": "2025 – Charles H. Bennett, Gilles Brassard: For their essential role in igniting and shaping the quantum revolution in computer science and in information and communications technology.",
+  "page": "Turing Award",
+  "url": "https://en.wikipedia.org/wiki/Turing_Award",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "The two scientists who received the 2025 ACM A.M. Turing Award for their role in quantum information science are Charles H. Bennett and Gilles Brassard. \n\nFINAL: Charles H. Bennett and Gilles Brassard",
+ "cost": 0.0001515000000000266,
+ "seconds": 5.0,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "Which two scientists received the 2025 ACM A.M. Turing Award, announced in March 2026, for their role in quantum information science?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_S7MIIy2jTLrXmJQSmHoimcYP",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2025 ACM A.M. Turing Award winners\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_S7MIIy2jTLrXmJQSmHoimcYP",
+   "content": "[Turing Award] The ACM A. M. Turing Award is an annual prize given by the Association for Computing Machinery (ACM) for contributions of lasting and major technical importance to computer science. It is generally recognized as the highest distinction in the field of computer science and is often referred to as the \"Nobel Prize of Computing\". As of 2026, 81 people have been awarded the prize, with the most recent recipients being Charles H. Bennett and Gilles Brassard, who won in 2025. The award is named after Alan Turing, also referred as \"Father of Computer Science\", who was a British mathematician and reader in mathematics at the University of Manchester. Turing is often credited as being the founder of theoretical computer science and artificial intelligence, and a key contributor to the Allied cryptanalysis of the Enigma cipher during World War II. From 2007 to 2013, the award was accompanied by a prize of US$250,000, with financial support provided by Intel and Google. Since 2014, the award has been accompanied by a prize of US$1 million, with financial support provided by Google. The first recipient, in 1966, was Alan Perlis. The youngest recipient was Donald Knuth, who won in 1974 at the age of 36, while the oldest recipient was Alfred Aho, who won in 2020 at the age of 79. Three women have been awarded the prize: Frances Allen (in 2006), Barbara Liskov (in 2008), and Shafi Goldwasser (in 2012)."
+  },
+  {
+   "role": "assistant",
+   "content": "The two scientists who received the 2025 ACM A.M. Turing Award for their role in quantum information science are Charles H. Bennett and Gilles Brassard. \n\nFINAL: Charles H. Bennett and Gilles Brassard",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

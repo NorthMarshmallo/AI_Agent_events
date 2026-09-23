@@ -1,0 +1,220 @@
+{
+ "task": {
+  "id": "fresh-105",
+  "source": "fresh",
+  "question": "What is the increase in fuel surcharges by Air China and China Southern Airlines in April 2026?",
+  "answer": "¥60–120",
+  "evidence": "2 April – Air China, China Southern Airlines, and its subsidiary XiamenAir increase fuel surcharges by ¥60–120 (US$8.70–17.5) on domestic flights in response to rising oil prices linked to the 2026 Iran war.",
+  "page": "2026 in China",
+  "url": "https://en.wikipedia.org/wiki/2026_in_China",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I couldn't find specific information regarding the increase in fuel surcharges by Air China and China Southern Airlines for April 2026. It appears that this data is not currently available. \n\nFINAL: Not available.",
+ "cost": 0.002358150000000059,
+ "seconds": 85.2,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What is the increase in fuel surcharges by Air China and China Southern Airlines in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_F9ef1SG429GQ0EWVsjHTKjTG",
+     "function": {
+      "name": "espn_search",
+      "arguments": "{\"query\": \"Air China fuel surcharges April 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_zkueKtU1Hruuh05NmGEBhbMU",
+     "function": {
+      "name": "espn_search",
+      "arguments": "{\"query\": \"China Southern Airlines fuel surcharges April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_F9ef1SG429GQ0EWVsjHTKjTG",
+   "content": "[India's medals at Asian Games 2026: Live tracker] The stage is set for India's campaign at the Asian Games 2026 in Japan's Aichi-Nagoya. The Games will be held from September 19 to October 4, with Nagoya City's Mizuho Park Athletic Stadium hosting the opening and closing ceremonies. A total of 469 medals will be on offer in 43 sports with events happening across 54 venues. The 501-member Indian contingent is aiming to build on its best-ever Asian Games performance at Hangzhou in 2023, where the country won 106 medals, including 28 gold, to finish fourth in the standings. ASIAN GAMES MEDAL TALLY | INDIA AT ASIAN GAMES 2026 | KEY DATES AT ASIAN GAMES 2026 Here is the list of every medal India have won at the Asian Games 2026 so far: Mirabai Chanu wins SILVER With a combined lift of 198kg (87kg in snatch, 111kg in clean & jerk), Mirabai Chanu has claimed her first Asian Games medal, only behind three-time gold medalist Ri Song Gum of North Korea, who broke the world record with a lift of 215kg. India's men team wins BRONZE Satwiksairaj Rankireddy and Chirag Shetty were the lone winners as Lakshya Sen, Ayush Shetty and the pair of Arjun-Hariharan lost as China beat India 3-1 in the men's team semifinal. Jay Meena wins BRONZE Jay Meena lost out vs Takuya Kurosaka in the men's soft tennis individual semifinal. Indian women's skeet team wins BRONZE The Indian women's skeet team of Raiza Dhillon, Parinaaz Dhaliwal, and Maheshwari Chauhan win BRONZE in the women's skeet event, with a total of 331. India finished behind China, who took gold with 346, with Kazakhstan in second. Indian men's skeet team wins BRONZE Soon after, the Indian men's skeet of Anantjeet Singh Naruka, Mairaj Ahmed Khan and Bhavtegh Singh win BRONZE in the men's skeet event, with a total of 346. India finished behind Qatar, who took gold with 353, with Kuwait in second with 348. India women's team win GOLD The Indian women's team have beaten Sri Lanka by 148 runs to win the nation's first gold of the 202"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_zkueKtU1Hruuh05NmGEBhbMU",
+   "content": "[2026 NBA buzz: Latest free agency and trade updates] play Bobby Marks: The best thing Warriors can do with Steph's contract is wait (2:22) NBA free agency has almost reached the end, with several players landing in new homes this offseason. LeBron James decided to continue his historic career with the Philadelphia 76ers after months of deliberation. The Sixers also traded for Jaylen Brown this summer, turning the franchise into a true contender with two huge moves. Meanwhile, Giannis Antetokounmpo is headed to South Beach to team up with Bam Adebayo and the Miami Heat , and the Los Angeles Lakers have been sold for the second time in 10 months. What will happen next during this turbulent offseason? Check back here for all the latest buzz, news and reactions from our ESPN NBA insiders, with the latest info at the top: Quick links: Free agency grades | Trade grades Trade tracker | Transactions Depth charts | Trade machine | More The Atlanta Hawks are trading Dorian Finney-Smith to the Charlotte Hornets for Buddy Hield , Ryan Nembhard and cash, sources told ESPN's Shams Charania. The Toronto Raptors and Kawhi Leonard have agreed to a two-year, $115 million extension, sources told ESPN's Shams Charania. Leonard now has a total of three years and $165 million left on his deal. The 2026-27 season will be Leonard's first back in Toronto since the 2018-19 campaign, a season in which he helped lead the Raptors to their only title in franchise history. Free agent center Jalen Duren and the Detroit Pistons are at an impasse this season and the franchise is uncertain if he will show up to next Monday's Media Day, sources told ESPN's Shams Charania. \"When you talk to people close to [Duren], he feels a certain way toward the Pistons' respect level for him,\" Charania said on NBA Today. \"For him it's been all about respect, for the team it has just been about business. ... Over the course of this offseason, his offer has been been around the $180 to $190 million over five years r"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_HKHkAcMCQCePBAs6Zcyf77Sz",
+     "function": {
+      "name": "espn_search",
+      "arguments": "{\"query\": \"Air China fuel surcharge April 2026 increase\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_74sT7gm2FFNmtu83AyDvzLHv",
+     "function": {
+      "name": "espn_search",
+      "arguments": "{\"query\": \"China Southern Airlines fuel surcharge April 2026 increase\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_HKHkAcMCQCePBAs6Zcyf77Sz",
+   "content": "[India at Asian Games 2026: Full schedule of medal events and fixtures on September 23, Wednesday] Mirabai Chanu. Lars Baron/Getty Images Anish Anand Multiple Authors Sep 23, 2026, 07:01 AM ET Email Print Open Extended Reactions Another action-packed day is in store at the Asian Games 2026 with Indian athletes looking to increase their medal tally on Day 4 in Aichi-Nagoya. Double Olympic medallist Manu Bhaker will feature in the individual and team events of the 10m air pistol. Indian weightlifting legend Mirabai Chanu will look to clinch her first Asian Games medal as she will be seen in the women's 49kg. After back-to-back wins, the Indian women's hockey team will play against Thailand with an aim to maintain their momentum. Meanwhile, after beating Japan in the quarterfinals, the Indian men's badminton team will face China in the semifinal. SEPTEMBER 24 SCHEDULE | ASIAN GAMES MEDAL TALLY | INDIA AT ASIAN GAMES 2026 | KEY DATES AT ASIAN GAMES 2026 | INDIA'S LIVE MEDAL TRACKER NOTE: The event timings are in IST chronological order. COMPLETED EVENTS Rowing - Balraj Panwar finished third in his heat, and QUALIFIED FOR FINAL in men's single sculls. Rowing - Satnam Singh-Salman Khan finished second in their heat, and QUALIFIED FOR FINAL in men's doubles sculls heats. Canoe Sprint - Harshwardhan Shaktawat, Varinder Singh, L Naocha Singh Oinam, and Arun Singh QUALIFIED FOR FINAL A from men's kayak four 500m heats. Swimming - Benedicton Beniston finished 4th and Sajan Prakash did not start in men's 100m butterfly heat 2, Benedicton did not qualify for the final. Canoe Sprint - Megha Pradeep finished fifth in women's canoe single 200m heats. Rowing - Jaswinder Singh and Nitin Kumar missed out on Final A in Men's Pair heats. Swimming - Vedaant Madhavan and Aneesh Sunil didn't qualify for the final from men's 200m freestyle heats. Table tennis - Harmeet Desai-Yashaswini Ghorpade beat Ismail-Fathimath Ali of Maldives 3-2 in mixed doubles round of 32 match. Table tennis - Manu"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_74sT7gm2FFNmtu83AyDvzLHv",
+   "content": "[2026 NBA buzz: Latest free agency and trade updates] play Bobby Marks: The best thing Warriors can do with Steph's contract is wait (2:22) NBA free agency has almost reached the end, with several players landing in new homes this offseason. LeBron James decided to continue his historic career with the Philadelphia 76ers after months of deliberation. The Sixers also traded for Jaylen Brown this summer, turning the franchise into a true contender with two huge moves. Meanwhile, Giannis Antetokounmpo is headed to South Beach to team up with Bam Adebayo and the Miami Heat , and the Los Angeles Lakers have been sold for the second time in 10 months. What will happen next during this turbulent offseason? Check back here for all the latest buzz, news and reactions from our ESPN NBA insiders, with the latest info at the top: Quick links: Free agency grades | Trade grades Trade tracker | Transactions Depth charts | Trade machine | More The Atlanta Hawks are trading Dorian Finney-Smith to the Charlotte Hornets for Buddy Hield , Ryan Nembhard and cash, sources told ESPN's Shams Charania. The Toronto Raptors and Kawhi Leonard have agreed to a two-year, $115 million extension, sources told ESPN's Shams Charania. Leonard now has a total of three years and $165 million left on his deal. The 2026-27 season will be Leonard's first back in Toronto since the 2018-19 campaign, a season in which he helped lead the Raptors to their only title in franchise history. Free agent center Jalen Duren and the Detroit Pistons are at an impasse this season and the franchise is uncertain if he will show up to next Monday's Media Day, sources told ESPN's Shams Charania. \"When you talk to people close to [Duren], he feels a certain way toward the Pistons' respect level for him,\" Charania said on NBA Today. \"For him it's been all about respect, for the team it has just been about business. ... Over the course of this offseason, his offer has been been around the $180 to $190 million over five years r"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_oei7TZJjwFd3gk7QlTITRlqw",
+     "function": {
+      "name": "espn_search",
+      "arguments": "{\"query\": \"Air China surcharge increase April 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_9WWrZvs6JYVZlBK2ArRVD4xQ",
+     "function": {
+      "name": "espn_search",
+      "arguments": "{\"query\": \"China Southern Airlines surcharge increase April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_oei7TZJjwFd3gk7QlTITRlqw",
+   "content": "[NFL International Games: Schedule, UK times, how to watch matches in London, Paris, Madrid, more] play How should the Commanders handle another Jayden Daniels injury? (2:07) The NFL is going global again in 2026, with its biggest-ever programme of International Games taking place throughout the regular season. As well as heading to London this year -- with the Tottenham Hotspur Stadium and Wembley both hosts -- the league is hitting new markets, in Europe and beyond. Here's everything you need to know about the 2026 NFL International Games. Melbourne, Australia Week 1: San Francisco 49ers 27-7 Los Angeles Rams -- Sept. 11 Rio de Janeiro, Brazil Week 3: Baltimore Ravens @ Dallas Cowboys -- 9.25 p.m., Sept. 27 London, England Week 4: Indianapolis Colts @ Washington Commanders (Tottenham Hotspur Stadium) -- 2.30 p.m., Oct. 4 Week 5: Philadelphia Eagles @ Jacksonville Jaguars (Tottenham Hotspur Stadium) -- 2.30 p.m., Oct. 11 Week 6: Houston Texans @ Jacksonville Jaguars (Wembley Stadium) -- 2.30 p.m., Oct. 18 Paris, France Week 7: Pittsburgh Steelers @ New Orleans Saints -- 2.30 p.m., Oct. 25 Madrid, Spain Week 9: Cincinnati Bengals @ Atlanta Falcons -- 2.30 p.m., Nov. 8 Munich, Germany Week 10: New England Patriots @ Detroit Lions -- 2.30 p.m., Nov. 15 Mexico City, Mexico Week 11: Minnesota Vikings @ San Francisco 49ers -- 1.20 a.m., Nov. 23 (played locally on Nov. 22) In 2027, the Super Bowl will air on ESPN for the first time in network history. Click the link to find out more information. All the NFL International Games this season will be shown live in the UK across 5, Sky Sports and NFL Game Pass on DAZN. That includes all three London games as well as the games in Paris, Madrid and Munich. Sky Sports will show more than half of the league's games in 2026, while NFL Game Pass on DAZN provides access to every NFL game throughout the regular season. Channel 5 is showing many games live on free-to-air television, too, starting with Colts-Commanders on Oct. 4. Yes. T"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9WWrZvs6JYVZlBK2ArRVD4xQ",
+   "content": "[F1 2027 calendar: Monaco GP gets sprint race, Türkiye and Portugal return to schedule] The 2027 Monaco Grand Prix has been named as one of 10 sprint races on next year's 24-race calendar, which includes the return of rounds in Türkiye and Portugal. The 2027 schedule is set to get underway with a sprint race in Bahrain on March 14 and run until the final race of the season in Abu Dhabi on Dec. 12, which will also feature Formula 1's sprint format. The addition of a sprint race in Monaco is among the most unexpected additions to the calendar as the tight street circuit is notorious for its lack of overtaking. Sprint weekends feature just one practice session on Friday followed by sprint qualifying the same day, a sprint race (one third of the length of a full grand prix) on Saturday before the standard qualifying and the grand prix take place on Saturday and Sunday as usual. Sources have indicated to ESPN that Formula 1 believes the addition of a second qualifying session in Monaco will add value over two practice sessions, with the potential for two different grid orders in the sprint and main grand prix. Qualifying has long been seen as the highlight of the Monaco Grand Prix weekend, partly due to the skill required to thread a car between the narrow barriers and partly because it very often defines the finishing order for Sunday's grand prix. The Monaco Grand Prix getting a sprint race is the biggest surprise on the F1 2027 calendar reveal. Photo by Joe Portlock/Getty Images F1 CEO Stefano Domenicali has been keen to increase the number of sprint races in recent years due to the increased viewership the format receives by substituting two extra competitive sessions for two practice sessions. \"Data shows that total viewership of Sprint weekends is 12% higher than non-Sprint weekends, Sprint Qualifying is up to three times more popular with fans than Free Practice,\" F1 said in a press release. \"82% of attendees at Sprint weekends say it adds value to their ticket, a"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Dr01x7qoiOGyOzmASCWONRSA",
+     "function": {
+      "name": "espn_search",
+      "arguments": "{\"query\": \"Air China fuel surcharge news April 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_LdSxWl0WeqlXgtw4yzWOX2Jl",
+     "function": {
+      "name": "espn_search",
+      "arguments": "{\"query\": \"China Southern Airlines fuel surcharge news April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Dr01x7qoiOGyOzmASCWONRSA",
+   "content": "[Full final 2026 regular-season grades for all 30 MLB teams] play Pat Murphy opens up about Brewers' success by doing 'more with less' (1:36) As we wrap up the 2026 Major League Baseball regular season, it's time for some final grades. As expected, the Los Angeles Dodgers challenged the single-season record for wins. The New York Mets had a huge offseason that paid off with the National League East title. The New York Yankees dominated the American League East. The Milwaukee Brewers failed to scrap their way to the playoffs. Tarik Skubal carried the Detroit Tigers to the AL Central championship. The Chicago White Sox ? A joke once again. Wait ... no, that's not at all what happened. The only joke -- outside of the usual ineptitude we see from the clubs at the bottom of the majors -- was the AL West, which might see a team with a losing record capture the division title. The 2026 season might not have gone as expected, but we still had breakout performances, surprising teams, unpredictable results, a flamethrowing phenom, a season for the ages and a very mediocre AL. Let's go to the grades. What a wonderful, engaging and thrilling regular season for the Brewers. They've already set the franchise record for wins in a single season, breaking last year's mark of 97, and are heading to the top record in the majors for the second year in a row. Jacob Misiorowski has been the best individual story of the season -- alongside division rival Pete Crow-Armstrong -- but it has been an impressive teamwide effort. Milwaukee's rookie pitchers have started 77 games, most in the majors, while another pair of rookies in shortstop Cooper Pratt and right fielder Luis Lara will be starting in October. Brice Turang 's 6.9 bWAR is second among MLB position players, and he should finish in the top five of the MVP voting. Oh, and the bullpen is top five in the majors in win probability added. Not bad for a team that was 11th in ESPN's preseason power rankings . At least we got \"the thing we"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_LdSxWl0WeqlXgtw4yzWOX2Jl",
+   "content": "[2026 NBA buzz: Latest free agency and trade updates] play Bobby Marks: The best thing Warriors can do with Steph's contract is wait (2:22) NBA free agency has almost reached the end, with several players landing in new homes this offseason. LeBron James decided to continue his historic career with the Philadelphia 76ers after months of deliberation. The Sixers also traded for Jaylen Brown this summer, turning the franchise into a true contender with two huge moves. Meanwhile, Giannis Antetokounmpo is headed to South Beach to team up with Bam Adebayo and the Miami Heat , and the Los Angeles Lakers have been sold for the second time in 10 months. What will happen next during this turbulent offseason? Check back here for all the latest buzz, news and reactions from our ESPN NBA insiders, with the latest info at the top: Quick links: Free agency grades | Trade grades Trade tracker | Transactions Depth charts | Trade machine | More The Atlanta Hawks are trading Dorian Finney-Smith to the Charlotte Hornets for Buddy Hield , Ryan Nembhard and cash, sources told ESPN's Shams Charania. The Toronto Raptors and Kawhi Leonard have agreed to a two-year, $115 million extension, sources told ESPN's Shams Charania. Leonard now has a total of three years and $165 million left on his deal. The 2026-27 season will be Leonard's first back in Toronto since the 2018-19 campaign, a season in which he helped lead the Raptors to their only title in franchise history. Free agent center Jalen Duren and the Detroit Pistons are at an impasse this season and the franchise is uncertain if he will show up to next Monday's Media Day, sources told ESPN's Shams Charania. \"When you talk to people close to [Duren], he feels a certain way toward the Pistons' respect level for him,\" Charania said on NBA Today. \"For him it's been all about respect, for the team it has just been about business. ... Over the course of this offseason, his offer has been been around the $180 to $190 million over five years r"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_OtaILBq4qw6Z0wFBZSJJ9Gdy",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Air China fuel surcharge increase April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_OtaILBq4qw6Z0wFBZSJJ9Gdy",
+   "content": "[2026 in China] Events in the year 2026 in China."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ncKapkvhAuS5CbmhAogHqDmH",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"China Southern Airlines fuel surcharge increase April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ncKapkvhAuS5CbmhAogHqDmH",
+   "content": "[2026 Iran war fuel crisis] The 2026 Iran war fuel crisis is a worldwide fuel crisis caused by the war between Iran and the U.S.-Israel coalition. The closure of the Strait of Hormuz, through which over 20% of the world's oil trade passes, and attacks on energy infrastructure in Iran and several Gulf Cooperation Council countries led to a large disruption in global oil supplies. The disruption led to global oil prices rising and caused fuel shortages in countries which imported most of their fuel from the Persian Gulf region. Much of the world has been affected by panic buying and severe disruption to the distribution of petroleum products, liquefied natural gas (LNG), and urea used for fertiliser. The economies of most countries are expected to be adversely affected by the crisis, leading to inflation and heightened risks of stagflation and recession. As of April 2026 there was ongoing concerns about energy security as well as food security, related to fertiliser shortages and costs. Brent prices initially surged to a peak of approximately $118 in late March 2026 before declining to around $70 by July 1, then rebounded to over $100 by late July and fluctuated between $87 and $97 through August. As of early September 2026, price surged up to $109 as renewed attacks on shipping and energy infrastructure reversed earlier gains. By June 2026, the yearly inflation rate is 3.53%, with the consumer price index decreasing by 0.42% and weekly earnings increasing by 0.77% since May 2026. In July, the IMF revised its world GDP growth rate to 3% for 2026 and 3.4% in 2027. According to IMF the effect of the oil supply shock on the world economy is limited due to the AI-driven demand."
+  },
+  {
+   "role": "assistant",
+   "content": "I couldn't find specific information regarding the increase in fuel surcharges by Air China and China Southern Airlines for April 2026. It appears that this data is not currently available. \n\nFINAL: Not available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

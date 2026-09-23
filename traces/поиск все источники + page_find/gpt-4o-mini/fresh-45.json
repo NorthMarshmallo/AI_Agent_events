@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-45",
+  "source": "fresh",
+  "question": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?",
+  "answer": "F-16 Fighting Falcon",
+  "evidence": "13 August – An F-16 Fighting Falcon of the Turkish Air Force crashes in Yalova Province. The pilot ejects safely.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "An F-16 Fighting Falcon of the Turkish Air Force crashed in Yalova Province, Turkey, on August 13, 2026. \n\nFINAL: F-16 Fighting Falcon",
+ "cost": 0.0003667500000000268,
+ "seconds": 135.1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ggKFa84sM9KQiPUHGBdhCHnQ",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yalova Province Turkey aircraft crash August 13 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ggKFa84sM9KQiPUHGBdhCHnQ",
+   "content": "[2026 in Turkey] Individuals and events related to 2026 in Turkey."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_4JQnsf4mdIRjb5aygetzumFO",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in Turkey\",\"keywords\":[\"Yalova Province\",\"August 13\",\"aircraft crash\"],\"site\":\"en_wiki\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_4JQnsf4mdIRjb5aygetzumFO",
+   "content": "13 August – An F-16 Fighting Falcon of the Turkish Air Force crashes in Yalova Province."
+  },
+  {
+   "role": "assistant",
+   "content": "An F-16 Fighting Falcon of the Turkish Air Force crashed in Yalova Province, Turkey, on August 13, 2026. \n\nFINAL: F-16 Fighting Falcon",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

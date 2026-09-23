@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-51",
+  "source": "fresh",
+  "question": "What is the name of the French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026?",
+  "answer": "Bruno Foucher",
+  "evidence": "13 August – The French Foreign Ministry opens disciplinary proceedings against its ambassador to the Central African Republic, Bruno Foucher, following allegations that he brought around 30 young women to his official residence in Bangui from 2024 to 2026.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026 is Bruno Foucher.\n\nFINAL: Bruno Foucher",
+ "cost": 0.0005197499999999855,
+ "seconds": 38.6,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_PFmcATH731OACQ8GM6s27VDK",
+     "function": {
+      "name": "espn_search",
+      "arguments": "{\"query\":\"French ambassador to the Central African Republic disciplinary proceedings August 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_PFmcATH731OACQ8GM6s27VDK",
+   "content": "[Ghana legend Asamoah Gyan appointed player liaison for Black Stars] play Patrick Vieira insists he expects to win trophies as Senegal boss (0:43) Former Ghana captain Asamoah Gyan has been appointed as Clubs and Player Relations Manager by the Ghana Football Association. The appointment brings the country's record goalscorer into the national team's backroom staff and comes just four months after he was named an ambassador for Ghana's national teams. The GFA announced the appointment Monday, saying Gyan will act as a link between the technical staff, players and their clubs, with responsibility for communication over call-ups and player welfare. He will also provide mentorship and support to the squad. \"As Clubs and Player Relations Manager, Gyan will serve as a key liaison between the technical team, players and clubs, facilitate communication around player call-ups and welfare, and provide mentorship and support to the playing body,\" the GFA said in a statement. \"His experience, leadership and deep connection with the current generation of players is expected to be a major asset for the team.\" Asamoah Gyan is Ghana's record goal-scorer, and has been appointed in a mentorship role for the Black Stars. Ghana FA This new position gives Gyan a more direct role with the Black Stars, with the GFA describing it as, \"a new strategic role that will focus on strengthening the relationship between the national team, players, and their respective clubs, as well as improving player welfare and engagement.\" It comes after his appointment in May when he was named Ambassador for Ghana's National Teams and Colts Football. That brief was focused on promotion, fan engagement, corporate partnerships and youth football. The former Sunderland striker joins the Black Stars setup as Ghana begin their 2027 Africa Cup of Nations qualifying campaign following their run to the round of 32 at the 2026 World Cup. Carlos Queiroz will oversee the campaign after the GFA reappointed the Portugues"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_bCvP1Yf68hsdNWvZ6i3e75s8",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"French ambassador to the Central African Republic disciplinary proceedings August 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_bCvP1Yf68hsdNWvZ6i3e75s8",
+   "content": "[2026 in the Central African Republic] The following is a list of events of the year 2026 in the Central African Republic."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_EPMZJvmxOPRLYUhUvcUI5nKj",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in the Central African Republic\",\"keywords\":[\"French ambassador\",\"disciplinary proceedings\",\"August 2026\"],\"site\":\"en_wiki\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_EPMZJvmxOPRLYUhUvcUI5nKj",
+   "content": "13 August – The French Foreign Ministry opens disciplinary proceedings against its ambassador to the Central African Republic, Bruno Foucher, following allegations that he brought around 30 young women to his official residence in Bangui between January 2024 and March 2026."
+  },
+  {
+   "role": "assistant",
+   "content": "The French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026 is Bruno Foucher.\n\nFINAL: Bruno Foucher",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

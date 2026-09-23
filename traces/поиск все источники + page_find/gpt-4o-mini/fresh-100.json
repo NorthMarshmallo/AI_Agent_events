@@ -1,0 +1,112 @@
+{
+ "task": {
+  "id": "fresh-100",
+  "source": "fresh",
+  "question": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?",
+  "answer": "252,756 miles",
+  "evidence": "April 6 – The crew of Artemis II breaks the record for the furthest humans have ever been from Earth, reaching a maximum distance of 252,756 miles (406,771 km) as they travel around the far side of the Moon.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "During the Artemis II mission on April 6, 2026, the crew reached a maximum distance of 252,756 miles (406,771 km) from Earth. \n\nFINAL: 252756",
+ "cost": 0.000797099999999995,
+ "seconds": 44.8,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_S3YeLxmxyOqkXnGL6G3oUfO3",
+     "function": {
+      "name": "espn_search",
+      "arguments": "{\"query\":\"Artemis II maximum distance from Earth April 6 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_S3YeLxmxyOqkXnGL6G3oUfO3",
+   "content": "[What is the Protect College Sports Act? What would the bill do?] The Protect College Sports Act aims to solve many of the issues facing college sports as it transitions to a more professionalized era. Photo by Chip Somodevilla/Getty Images Dan Murphy Sep 23, 2026, 01:23 PM ET Close Dan Murphy is a reporter on ESPN's investigative and enterprise team. Reach him at daniel.murphy@espn.com. Follow on X Multiple Authors Email Print Open Extended Reactions The U.S. Senate is planning to vote in the coming days on a bill that would significantly shape the future of college sports. The Protect College Sports Act addresses myriad topics that are contributing to an unstable and often messy period for the college sports industry as it transitions to a more professional model for its biggest schools and most popular sports. The bill is the result of more than a half-decade of steady lobbying from the NCAA, conferences, their schools and other advocacy groups. It will be the first bill on this topic to make it to a full Senate vote , and if approved would move on to debate in the House of Representatives, where it could change. In the past two weeks, lawmakers and others have made a major push to try to draw attention to the bill. Supporters have made bold claims that the treasured American institution of college sports will be irreparably harmed if Congress doesn't act. Opponents say the bill is an attempt to restore authority to a set of power brokers who have a long history of exploiting athletes. Both sides have dabbled in bad sports analogies, hyperbolic warnings and misleading statements. As a crucial vote approaches, let's sort the truths from the myths in some of the public statements on the issue and add context to how the college sports system currently works and what the Protect College Sports Act would actually do to change it. \"This is about reining in the bad practices that are happening in college sports today, the runaway costs... [and] the runaway arms race in "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Z9LJ0rmlsv3FBRg4qPTq6e63",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Artemis II mission details maximum distance from Earth\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Z9LJ0rmlsv3FBRg4qPTq6e63",
+   "content": "[Artemis II] Artemis II (April 1–11, 2026) was a crewed flyby of the Moon and first crewed flight of the NASA-led Artemis program. It was the first crewed flight beyond low Earth orbit (LEO) since Apollo 17 in 1972 and the only crewed flight beyond LEO not part of the Apollo program. It was the first crewed flight of the Space Launch System (SLS) and of the Orion spacecraft, named Integrity by the four-person crew. The mission was a test flight supporting the Artemis IV mission to return humans to the lunar surface. Originally designated Exploration Mission-2 (EM-2) and intended to support the canceled Asteroid Redirect Mission, its objectives were revised after the establishment of the Artemis program in 2017. The mission's primary goal was to validate the Orion spacecraft's systems, crew operations, and mission procedures ahead of sustained lunar exploration in future Artemis missions. Artemis II's mission objectives were similar to those of Apollo 8 in 1968, the first crewed lunar flight of the Apollo program, while its free-return trajectory resembled that flown by Apollo 13 in 1970. Among the four crew members, Victor Glover became the only person of color, Christina Koch the only woman, Canadian Space Agency astronaut Jeremy Hansen the only person not from the United States, and Reid Wiseman the oldest person to travel beyond low Earth orbit and around the Moon. During their lunar flyby, the crew broke Apollo 13's record of 248,655 miles (400,171 km) for the greatest human distance from Earth, reaching a maximum distance of 252,756 miles (406,771 km). After its launch, Artemis II gained widespread global attention for its achievements and inclusive crew, giving rise to the term \"Moon joy\"."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_bgwDoqKU6iQRICm8yYwSMKAZ",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Artemis II\", \"keywords\": [\"April 6 2026\", \"maximum distance\", \"Earth\"], \"site\": \"en_wiki\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_1Svd1XOdpXAOeK6Zuueal57h",
+     "function": {
+      "name": "ru_wiki_search",
+      "arguments": "{\"query\": \"Artemis II\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_bgwDoqKU6iQRICm8yYwSMKAZ",
+   "content": "It was the first crewed flight beyond low Earth orbit (LEO) since Apollo 17 in 1972 and the only crewed flight beyond LEO not part of the Apollo program.\nAmong the four crew members, Victor Glover became the only person of color, Christina Koch the only woman, Canadian Space Agency astronaut Jeremy Hansen the only person not from the United States, and Reid Wiseman the oldest person to travel beyond low Earth orbit and around the Moon.\nDuring their lunar flyby, the crew broke Apollo 13's record of 248,655 miles (400,171 km) for the greatest human distance from Earth, reaching a maximum distance of 252,756 miles (406,771 km).\nThe first day of the mission was spent largely in high Earth orbit, where the crew conducted system checkouts.\nOrion operated in a highly elliptical, high Earth orbit with a period of roughly 24 hours, allowing extended testing of onboard systems.\nAfter NASA mission managers confirmed Orion's performance, the spacecraft executed a trans-lunar injection (TLI) burn to depart Earth orbit.\nOrion then traveled toward the Moon on a free-return trajectory, looping around the far side before naturally returning toward Earth on a free-return trajectory without requiring additional propulsion for the return leg.\n=== High Earth orbit and systems checkout ===\nThe ICPS burn raised the perigee out of the atmosphere, placing the spacecraft into a stable low Earth orbit.\nWhen the spacecraft reached this new perigee about an hour later, it executed a 15-minute burn to raise its next apogee to 44,000 miles (71,000 km; 38,000 nmi), establishing a 23.5-hour high Earth orbit.\nThis marked the first time a crewed spacecraft had entered a high Earth orbit without proceeding directly to the Moon.\nOn flight day 2, following completion of high Earth orbit operations and system checks, Orion performed a 5-minute, 49-second TLI burn using the ESM's AJ10 main engine.\nIts farthest distance from Earth was 252,756 miles (406,771 km; 219,639 nmi) at 23:02 UTC, and it surpassed A"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1Svd1XOdpXAOeK6Zuueal57h",
+   "content": "[Артемида-2] У этого термина существуют и другие значения, см. Artemis . У этого термина существуют и другие значения, см. Артемида (значения) . Артемида-2 Взлёт ракеты Эмблема Общие сведения Страна США Организация НАСА Задачи Пилотируемый облёт Луны Статус Миссия завершена Полётные данные корабля Название корабля Орион Номер корабля CM-003 Ракета-носитель SLS Block 1 Crew Стартовая площадка КЦ Кеннеди , LC-39B [ 1 ] Запуск 1 апреля 2026 года в 18:35 по местному времени (22:35 UTC ) Посадка корабля 11 апреля 2026 года , 00:07 UTC Место посадки Тихий океан (близ побережья Сан-Диего ) Длительность полёта ~9 дней, 1 час, 32 мин, 35 с NSSDC ID 2026-069A SCN 68538 Полётные данные экипажа Позывной «Интегрити» Фотография экипажа Официальный портрет экипажа. По часовой стрелке слева направо: Кук , Гловер , Хансен и Уайзман Артемида-1 Артемида-3 Медиафайлы на Викискладе «Артемида-2» ( англ. Artemis II [ 2 ] ) — миссия по пилотируемому облёту Луны в рамках программы НАСА « Артемида ». Это первая пилотируемая экспедиция космического корабля « Орион », запущенного при помощи сверхтяжёлой ракеты-носителя Space Launch System (SLS) [ 3 ] [ 4 ] , и первый с декабря 1972 года (« Аполлон-17 ») полёт людей за пределы низкой околоземной орбиты . Запуск миссии состоялся 1 апреля 2026 года в 22:35 UTC [ 5 ] [ 6 ] . В состав экипажа миссии вошли три американских астронавта Рид Уайсмен , Виктор Гловер , Кристина Кук и канадский астронавт Джереми Хансен . Талисманом экипажа стал индикатор невесомости « Райз ». Целью миссии являлось испытание систем корабля «Орион» перед запланированной на 2028 год миссией « Артемида-4 » с высадкой человека на Луну [ 7 ] . Состав  Ракета-носитель  «Block1» вариант ракеты SLS Space Launch System — сверхтяжёлая ракета-носитель , используемая для запуска космического корабля « Орион » с Земли на околоземную орбиту [ 8 ] . Космический корабль  « Орион » — транспортное средство для экипажа, рассчитанное на четырёх человек и используемое во всех экспедициях програ"
+  },
+  {
+   "role": "assistant",
+   "content": "During the Artemis II mission on April 6, 2026, the crew reached a maximum distance of 252,756 miles (406,771 km) from Earth. \n\nFINAL: 252756",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

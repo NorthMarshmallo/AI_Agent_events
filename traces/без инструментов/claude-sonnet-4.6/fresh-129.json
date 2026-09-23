@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-129",
+  "source": "fresh",
+  "question": "Which two investors co-led Chai Discovery's $130 million Series B round in December 2025, per GEN?",
+  "answer": "Oak HC/FT and General Catalyst",
+  "evidence": "Oak HC/FT and General Catalyst co-led the Series B.",
+  "page": "Chai's the Limit for AI Antibody Designer After $130M Series B Funding",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/chais-the-limit-for-ai-antibody-designer-after-130m-series-b-funding/",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "Let me think about this. Chai Discovery is an AI-driven drug discovery company. I need to recall details about their $130 million Series B round in December 2025.\n\nBased on my knowledge, Chai Discovery's $130 million Series B round in December 2025 was co-led by **Andreessen Horowitz (a16z)** and **Spark Capital**.\n\nHowever, I'm not fully certain of the exact investors as reported specifically by GEN (Genetic Engineering & Biotechnology News). Let me reason carefully — Chai Discovery raised a $130M Series B, and from what I recall, it was led by **Andreessen Horowitz** and **Foresite Capital**, or possibly other investors.\n\nI'm not confident enough in the specific details as reported by GEN to give a definitive answer without risking inaccuracy.\n\nFINAL: I don't have sufficiently reliable information about which two investors co-led Chai Discovery's $130 million Series B as reported by GEN in December 2025 to give a confident answer.",
+ "cost": 0.004010999999999987,
+ "seconds": 6.0,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "Which two investors co-led Chai Discovery's $130 million Series B round in December 2025, per GEN?"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me think about this. Chai Discovery is an AI-driven drug discovery company. I need to recall details about their $130 million Series B round in December 2025.\n\nBased on my knowledge, Chai Discovery's $130 million Series B round in December 2025 was co-led by **Andreessen Horowitz (a16z)** and **Spark Capital**.\n\nHowever, I'm not fully certain of the exact investors as reported specifically by GEN (Genetic Engineering & Biotechnology News). Let me reason carefully — Chai Discovery raised a $130M Series B, and from what I recall, it was led by **Andreessen Horowitz** and **Foresite Capital**, or possibly other investors.\n\nI'm not confident enough in the specific details as reported by GEN to give a definitive answer without risking inaccuracy.\n\nFINAL: I don't have sufficiently reliable information about which two investors co-led Chai Discovery's $130 million Series B as reported by GEN in December 2025 to give a confident answer.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

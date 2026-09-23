@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-110",
+  "source": "fresh",
+  "question": "Who wins the special election in Georgia in 2026?",
+  "answer": "Clay Fuller",
+  "evidence": "Assistant District Attorney Clay Fuller, a Trump-endorsed Republican, wins the special election in Georgia to replace Marjorie Taylor Greene, who resigned in January following a public fallout with Trump.",
+  "page": "2026 in the United States",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Clay Fuller",
+ "cost": 9.390000000003562e-05,
+ "seconds": 4.2,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "Who wins the special election in Georgia in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_g3oALagFH6DR9GUzfV9ML96J",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Georgia special election 2026 results\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_g3oALagFH6DR9GUzfV9ML96J",
+   "content": "[2026 Georgia's 14th congressional district special election] The 2026 Georgia's 14th congressional district special election was held on March 10, 2026, to fill the vacancy in Georgia's 14th congressional district. The seat became vacant on January 5, 2026, when incumbent Marjorie Taylor Greene resigned. Under Georgia law, all candidates appeared on one ballot in the March 10, 2026 special election. As no candidate received more than 50% of the vote, a runoff election between district attorney Clay Fuller and cattleman Shawn Harris was held on April 7, 2026, with Fuller winning to serve the remainder of the 119th United States Congress, ending January 3, 2027."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Clay Fuller",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

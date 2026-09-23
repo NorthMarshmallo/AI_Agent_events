@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-37",
+  "source": "fresh",
+  "question": "On what date did resident doctors in England announce a four-day strike in June 2026?",
+  "answer": "15 June",
+  "evidence": "Resident doctors in England announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Resident doctors in England announced a four-day strike from 7 am on 15 June 2026. \n\nFINAL: 15 June 2026",
+ "cost": 0.0005762999999999741,
+ "seconds": 12.5,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "On what date did resident doctors in England announce a four-day strike in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ITcnBePnKQWp3VZ4Z917rbFD",
+     "function": {
+      "name": "espn_search",
+      "arguments": "{\"query\":\"resident doctors England four-day strike June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ITcnBePnKQWp3VZ4Z917rbFD",
+   "content": "[NBA trade tracker: Updates for every deal of the 2026 offseason] play Jaylen Brown has 'nothing but respect' for Jayson Tatum after trade (1:10) Major NBA moves have already gone down this offseason, none bigger than the late-night blockbuster that ended a year-long Giannis Antetokounmpo trade saga. The Milwaukee Bucks finally dealt the two-time MVP to the Miami Heat for four players, four first-round picks and a pick swap. Antetokounmpo likely won't be the only superstar finding a new team this offseason, as former All-Stars such as Domantas Sabonis could also be on the move. More action happened less than 24 hours before the draft. The Minnesota Timberwolves sent Julius Randle and the No. 28 pick to the Brooklyn Nets for the No. 33 pick. The Nets also sent Nic Claxton to the Chicago Bulls in the deal. The draft saw several trades -- including pick No. 47, which changed hands several times -- and sent Isaiah Stewart on the move to Memphis , ending the Beef Stew era in Detroit. And the day after the draft saw LaMelo Ball get shipped from the Charlotte Hornets to the Minnesota Timberwolves . Kawhi Leonard , after six seasons with the LA Clippers , will return to the Toronto Raptors , the franchise he helped lead to an NBA championship in 2019. With plenty more deals sure to come, here are the details of every trade that has happened this summer. Quick links: Latest buzz | Grading every trade Trade machine | Depth charts Charlotte Hornets get: G Buddy Hield G Ryan Nembhard Cash considerations Atlanta Hawks get: F Dorian Finney-Smith New Orleans Pelicans get: G AJ Johnson F Taj Gibson Memphis Grizzlies get: G Jordan Hawkins G Micah Peavy Future second-round pick Future second-round pick swap Minnesota Timberwolves get: F Cody Williams G John Konchar Utah Jazz get: F Josh Green Cash considerations Cleveland Cavaliers get: G Peyton Watson F Cam Whitmore 2027 second-round pick (most favorable of Philadelphia, Golden State, Phoenix, OKC, Houston, Indiana and Miami); then "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_womjp6z0J1nSu7xGPNkP76fs",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"resident doctors England four-day strike June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_womjp6z0J1nSu7xGPNkP76fs",
+   "content": "[2026 in England] Events of the year 2026 in England."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_dOR6Nk20Jy7A0iSj5vNiQF7T",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in England\",\"keywords\":[\"resident doctors\",\"four-day strike\",\"June\"],\"site\":\"en_wiki\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_dOR6Nk20Jy7A0iSj5vNiQF7T",
+   "content": "Resident doctors in England vote in favour of further strike action in their long-running dispute with the UK government over pay and training posts.\nMadeleine Lonsdale, aged 18, who killed two teenagers in a high-speed car crash in June 2025, weeks after passing her driving test, is sentenced to 14 months in a young offenders' institute.\nThe British Medical Association announces that resident doctors in England will stage a six-day strike from 7am on 7 April after talks between union representatives and the UK government broke down.\nResident doctors in England begin a six-day strike\nAt the Old Bailey, Nancy Pexton is found guilty of the murder of her sister, film director Jennifer Abbott, after slashing her neck and stealing a diamond encrusted Rolex watch belonging to her in June 2025.\nResident doctors announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute.\n=== June ===\n1 June – Vickrum Digwa is sentenced to life imprisonment with a minimum term of 21 years for the murder of Henry Nowak.\n3 June – Nine children are treated in hospital after eating seeds from trees at a primary school in West Bridgford, Nottinghamshire.\n4 June –\n5 June\n8 June – Fire breaks out at a recycling centre in Bermondsey, south London, disrupting local train services.\n9 June –\n10 June –\nFive people are given custodial sentences ranging between two and three years for violent disorder during civil unrest in Southampton on 2 June.\n11 June –\nA further three men are given custodial sentences for violent disorder in unrest in Southampton on 2 June.\nNorthumbria Police confirm the death of one of their officers, 19-year-old Jess Turnbull, who was injured in a collision after responding to a crash on 8 June.\n12 June –\n18 June – Police confirm that the body of a man was found in the landing gear of a plane that landed at Gatwick Airport from Morocco on 16 June.\n19 June – Janice Nix is sentenced to twelve years in prison for the 1978 manslaughter of Andrea Bernard."
+  },
+  {
+   "role": "assistant",
+   "content": "Resident doctors in England announced a four-day strike from 7 am on 15 June 2026. \n\nFINAL: 15 June 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

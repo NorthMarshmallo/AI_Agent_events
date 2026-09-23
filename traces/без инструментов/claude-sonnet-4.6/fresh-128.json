@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "fresh-128",
+  "source": "fresh",
+  "question": "What is the name of the RFdiffusion2-designed metallohydrolase reported to have catalytic efficiency several orders of magnitude higher than earlier designed metallohydrolases?",
+  "answer": "ZETA_1",
+  "evidence": "One design, named ZETA_1, demonstrated high catalytic efficiency several orders of magnitude higher compared to previously designed metallohydrolases.",
+  "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/"
+ },
+ "answer": "I need to find information about RFdiffusion2-designed metallohydrolases with high catalytic efficiency.\n\nLet me think about this. RFdiffusion2 is a newer version of the protein design tool RFdiffusion. There have been recent papers about designing enzymes using these tools.\n\nBased on my knowledge, there was a notable paper describing the design of metallohydrolases using RFdiffusion2. The enzyme designed was reported to have catalytic efficiency several orders of magnitude higher than previously designed metallohydrolases.\n\nFrom recent literature (2024), a paper from the Baker lab and collaborators described designing zinc metallohydrolases using RFdiffusion2. The designed enzyme was called \"WHAM\" or had a specific name. \n\nActually, I recall that in 2024, there was a report about a designed metallohydrolase. The protein designed using RFdiffusion2 that achieved high catalytic efficiency for hydrolysis reactions - I believe this enzyme was named something like \"ProD\" or had a specific designation.\n\nLet me reconsider. There was a 2024 paper describing RFdiffusion2-based design of a phosphotriesterase or similar metallohydrolase. The designed enzyme with dramatically improved catalytic efficiency compared to earlier designs...\n\nI believe the enzyme was named **DMPH** (Designed MetalloProtein Hydrolase) or possibly **\"de novo metallohydrolase\"** with a specific label. \n\nActually, from what I recall about the RFdiffusion2 paper itself (Baker lab, 2024), they designed various proteins including enzymes. The metallohydrolase designed with RFdiffusion2 that showed catalytic efficiency orders of magnitude higher than earlier designed metallohydrolases was reported as **\"WHAM-1\"** or similar.\n\nI'm not confident enough in the specific name without being able to verify this directly.\n\nFINAL: I don't have sufficient reliable information to state the specific name of this enzyme with confidence.",
+ "cost": 0.007347000000000048,
+ "seconds": 10.3,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the RFdiffusion2-designed metallohydrolase reported to have catalytic efficiency several orders of magnitude higher than earlier designed metallohydrolases?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to find information about RFdiffusion2-designed metallohydrolases with high catalytic efficiency.\n\nLet me think about this. RFdiffusion2 is a newer version of the protein design tool RFdiffusion. There have been recent papers about designing enzymes using these tools.\n\nBased on my knowledge, there was a notable paper describing the design of metallohydrolases using RFdiffusion2. The enzyme designed was reported to have catalytic efficiency several orders of magnitude higher than previously designed metallohydrolases.\n\nFrom recent literature (2024), a paper from the Baker lab and collaborators described designing zinc metallohydrolases using RFdiffusion2. The designed enzyme was called \"WHAM\" or had a specific name. \n\nActually, I recall that in 2024, there was a report about a designed metallohydrolase. The protein designed using RFdiffusion2 that achieved high catalytic efficiency for hydrolysis reactions - I believe this enzyme was named something like \"ProD\" or had a specific designation.\n\nLet me reconsider. There was a 2024 paper describing RFdiffusion2-based design of a phosphotriesterase or similar metallohydrolase. The designed enzyme with dramatically improved catalytic efficiency compared to earlier designs...\n\nI believe the enzyme was named **DMPH** (Designed MetalloProtein Hydrolase) or possibly **\"de novo metallohydrolase\"** with a specific label. \n\nActually, from what I recall about the RFdiffusion2 paper itself (Baker lab, 2024), they designed various proteins including enzymes. The metallohydrolase designed with RFdiffusion2 that showed catalytic efficiency orders of magnitude higher than earlier designed metallohydrolases was reported as **\"WHAM-1\"** or similar.\n\nI'm not confident enough in the specific name without being able to verify this directly.\n\nFINAL: I don't have sufficient reliable information to state the specific name of this enzyme with confidence.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

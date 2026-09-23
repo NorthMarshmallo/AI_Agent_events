@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-122",
+  "source": "fresh",
+  "question": "Who ousted Sussan Ley in February 2026 in Australian politics?",
+  "answer": "Angus Taylor",
+  "evidence": "February 13 – Sussan Ley, the first female leader of the Liberal Party of Australia, was ousted by Angus Taylor.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "In February 2026, Sussan Ley was ousted by a challenge from her fellow Liberal MP, Andrew Constance. FINAL: Andrew Constance",
+ "cost": 3.464999999996943e-05,
+ "seconds": 5.1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "Who ousted Sussan Ley in February 2026 in Australian politics?"
+  },
+  {
+   "role": "assistant",
+   "content": "In February 2026, Sussan Ley was ousted by a challenge from her fellow Liberal MP, Andrew Constance. FINAL: Andrew Constance",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

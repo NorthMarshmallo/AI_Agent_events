@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-102",
+  "source": "fresh",
+  "question": "Who was recognized as Hero of Ukraine in 2025?",
+  "answer": "Oleksandr Dovhach",
+  "evidence": "9 March – Oleksandr Dovhach, military pilot, Hero of Ukraine (2025).",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Роберт Бровди был удостоен звания Героя Украины в 2025 году. FINAL: Роберт Бровди",
+ "cost": 0.0006484499999999671,
+ "seconds": 12.5,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "Who was recognized as Hero of Ukraine in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_UP1BTGFNY31MzMtZrXt2Td09",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Hero of Ukraine 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_UP1BTGFNY31MzMtZrXt2Td09",
+   "content": "[Hero of Ukraine] A Hero of Ukraine (abbr. HOU; Ukrainian: Герой України, romanized: Heroi Ukrainy) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. The decoration was created in 1998 by President Leonid Kuchma. As of July 26, 2026, the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public). The decoration is granted to two classes of recipients: to civilians, the Order of the State (abbr. OS, Ukrainian: Орден Держави, romanized: Orden Derzhavy); and to military recipients, the Order of the Gold Star (abbr. OGS, Орден «Золота Зірка», Orden \"Zolota Zirka\"). The first foreigner awarded the decoration was Belarusian Mykhailo Zhyznevskyi in June 2017."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ZtzCQ5IBVwrqO4GyZFq5YMuq",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Hero of Ukraine\",\"keywords\":[\"2025\"],\"site\":\"en_wiki\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ZtzCQ5IBVwrqO4GyZFq5YMuq",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_8xuuRZMO2G4VUAmNhvuvOesA",
+     "function": {
+      "name": "ru_wiki_search",
+      "arguments": "{\"query\":\"Герой Украины 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_8xuuRZMO2G4VUAmNhvuvOesA",
+   "content": "[Бровди, Роберт Иосифович] Запрос «Мадяр» перенаправляется сюда; также см. Мадьяр . В Википедии есть статьи о других людях с такой фамилией, см. Бровди . Роберт Бровди укр. Роберт Бровді венг. Bródi Róbert Командующий Силами беспилотных систем Украины с 3 июня 2025 Президент Владимир Зеленский Предшественник Вадим Сухаревский Рождение 9 августа 1975 ( 1975-08-09 ) (51 год) Ужгород , Закарпатская область , Украинская ССР , СССР Профессия предприниматель , экономист Деятельность военный деятель Награды Военная служба Годы службы 2022 — н. в. Принадлежность Украина Род войск Силы беспилотных систем Украины Командовал 414-я отдельная бригада беспилотных систем Сражения Российско-украинская война Вторжение России на Украину Бои за Николаев Бои за Бахмут Звание Майор Медиафайлы на Викискладе Ро́берт Ио́сифович Бро́вди ( укр. Роберт Йосипович Бровді , венг. Bródi Róbert , позывной — Мадяр (с укр. — « венгр »); род. 9 августа 1975 , Ужгород ) — украинский военнослужащий , майор , участник российско-украинской войны . С 3 июня 2025 года командующий Силами беспилотных систем Украины , организатор и руководитель аэроразведывательного подразделения ВСУ [укр.] , неформальное название ( укр. Птахи Мадяра — птицы Мадьяра). Герой Украины (2025). Биография  Родился 9 августа 1975 года в Ужгороде Закарпатской области УССР , венгр по происхождению [ 1 ] . В 1997 году окончил Ужгородский национальный университет по специальности «Экономика предприятия». С 1998 года занимался предпринимательской деятельностью, включая розничную торговлю, недвижимость и строительство. Был одним из ведущих девелоперов в Ужгороде . Среди его бизнес-проектов — «Маркет-БК» (операции с недвижимостью), «Империя фуд» (торговля продуктами питания) и «Скотч энд сода Украина» (торговля одеждой). Работал генеральным директором Аграрной биржи Украины при Министерстве аграрной политики. С осени 2010 года по май 2012 года занимал должность генерального директора компании «Хлеб Инвестбуд», а с мая 2012 года по январь 2"
+  },
+  {
+   "role": "assistant",
+   "content": "Роберт Бровди был удостоен звания Героя Украины в 2025 году. FINAL: Роберт Бровди",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

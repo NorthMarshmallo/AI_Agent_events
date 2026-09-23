@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "fresh-133",
+  "source": "fresh",
+  "question": "On what date did DeepSeek release its open-weight reasoning model DeepSeek-R1?",
+  "answer": "20 January 2025",
+  "evidence": "Released on 20 January 2025, DeepSeek-R1 surpassed ChatGPT as the most downloaded freeware app",
+  "page": "DeepSeek (chatbot)",
+  "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)"
+ },
+ "answer": "DeepSeek released its open-weight reasoning model DeepSeek-R1 on June 15, 2023. \n\nFINAL: June 15, 2023",
+ "cost": 3.4800000000001496e-05,
+ "seconds": 1.3,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "On what date did DeepSeek release its open-weight reasoning model DeepSeek-R1?"
+  },
+  {
+   "role": "assistant",
+   "content": "DeepSeek released its open-weight reasoning model DeepSeek-R1 on June 15, 2023. \n\nFINAL: June 15, 2023",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-82",
+  "source": "fresh",
+  "question": "What was the death toll from the fire at a shoe factory in China in July 2026?",
+  "answer": "28 people",
+  "evidence": "9 July — A fire at a shoe factory in Jinjiang, Quanzhou kills 28 people.",
+  "page": "2026 in China",
+  "url": "https://en.wikipedia.org/wiki/2026_in_China",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The fire at a shoe factory in Jinjiang, Quanzhou, China, in July 2026 resulted in the death of 28 people. \n\nFINAL: 28",
+ "cost": 0.0004013999999999962,
+ "seconds": 8.9,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What was the death toll from the fire at a shoe factory in China in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_61CS0r1fj4R0nnJyn2tsjfFd",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"China shoe factory fire July 2026 death toll\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_61CS0r1fj4R0nnJyn2tsjfFd",
+   "content": "[2026 in China] Events in the year 2026 in China."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_RDhU74XLzrHeV0r8sVWOwgdv",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in China\",\"keywords\":[\"shoe factory fire\",\"death toll\",\"July\"],\"site\":\"en_wiki\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_RDhU74XLzrHeV0r8sVWOwgdv",
+   "content": "=== July ===\n5 July — Two people are killed and four injured when a truck carrying ammonium nitrate exploded after colliding with another vehicle in Xilingol League, Inner Mongolia.\n6 July —\n7 July — A landslide strikes Renzang village in Tanchang County, Gansu province, killing 21 forestry workers.\n8 July — A magnitude 5.0 earthquake hits Gao County in Sichuan, injuring four people and damaging 4,309 homes.\n9 July — A fire at a shoe factory in Jinjiang, Quanzhou kills 28 people.\n10 July —\n17 July — Sixty-one people are reported dead and missing in a landslide at Pengshui County, Chongqing.\n20 July — An officer of the Philippine Navy is injured after being struck by a baton by China Coast Guard personnel during a confrontation at Second Thomas Shoal in the South China Sea.\n21 July — A magnitude 4.9 earthquake hits Yunnan, damaging 221 homes.\n24 July – The United States imposes a 12.5% tariff on China, citing the presence of alleged forced labor in the supply chain.\n25 July – The porcelain-making sites of Jingdezhen are designated as UNESCO World Heritage Sites.\n26 July – Ten people are killed and 23 injured in a flash flood at the Shuangshimen Scenic Area in Weiyuan County, Gansu.\n22 July – Wang Quanying, 105, soldier, last living female soldier of the Long March."
+  },
+  {
+   "role": "assistant",
+   "content": "The fire at a shoe factory in Jinjiang, Quanzhou, China, in July 2026 resulted in the death of 28 people. \n\nFINAL: 28",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

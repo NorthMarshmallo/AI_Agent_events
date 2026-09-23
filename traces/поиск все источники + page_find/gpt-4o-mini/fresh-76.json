@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-76",
+  "source": "fresh",
+  "question": "What was the sentence given to former president Yoon Suk Yeol in South Korea in February 2026?",
+  "answer": "life imprisonment",
+  "evidence": "19 February – Former president Yoon Suk Yeol is convicted and sentenced to life imprisonment for insurrection relating to the 2024 South Korean martial law crisis.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "In February 2026, former president Yoon Suk Yeol was sentenced to life imprisonment for heading an insurrection and other crimes. \n\nFINAL: life imprisonment",
+ "cost": 0.0004537500000000305,
+ "seconds": 6.2,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What was the sentence given to former president Yoon Suk Yeol in South Korea in February 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_9uJ9OHXPl3q5yDLc6htSMZU2",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yoon Suk Yeol February 2026 sentence\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9uJ9OHXPl3q5yDLc6htSMZU2",
+   "content": "[Yoon Suk Yeol] Yoon Suk Yeol (Korean: 윤석열; pronounced [jun sʰʌŋnjʌɭ]; born 18 December 1960) is a South Korean politician who served as the 13th president of South Korea from 2022 until his removal from office in 2025. A member of the People Power Party during his presidency, he had the shortest presidency as an elected leader in the country's democratic history. Yoon previously served as prosecutor general from 2019 to 2021. Yoon is currently serving a life sentence in prison after being convicted of heading an insurrection and other crimes. Born in Seoul, Yoon received his bachelor's and master's degrees in law from Seoul National University. In his capacity as chief of the Seoul Central District Prosecutor's Office, he played a key role in convicting former presidents Park Geun-hye and Lee Myung-bak for corruption and abuse of power. In 2019, President Moon Jae-in appointed Yoon as Prosecutor General of South Korea. Under Yoon's leadership, the Supreme Prosecutor's Office conducted embattled investigations into Cho Kuk, an influential figure in the Moon administration, that led to Cho's resignation as Minister of Justice. Yoon's clashes with the Moon administration prior to his resignation as prosecutor general in 2021 led to his rise as a potential presidential candidate among conservative voters. On 29 June 2021, Yoon announced his candidacy in the 2022 presidential election. He joined the People Power Party (PPP) in July and won its nomination in November. Considered a conservative politician, Yoon ran on a platform promising economic deregulation, opposing feminism, and on measures such as abolishing the Ministry of Gender Equality and Family. He narrowly defeated Democratic Party nominee Lee Jae Myung by less than a percentage point on 9 March 2022 and assumed office as president on 10 May, becoming the first elected president to be born after the end to fighting in the Korean War. During his presidency, Yoon pursued friendlier relations with Japan and the "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ybai7pO3zdNSPOCaXYmXZif3",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Yoon Suk Yeol\",\"keywords\":[\"sentence\",\"February 2026\"],\"site\":\"en_wiki\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ybai7pO3zdNSPOCaXYmXZif3",
+   "content": "Yoon is currently serving a life sentence in prison after being convicted of heading an insurrection and other crimes.\nIn February 2026, he was sentenced to life imprisonment over the martial law declaration.\nYoon is serving his sentence at Seoul Detention Center and faces ongoing multiple criminal trials in relation to other charges from the martial law declaration and other scandals.\nOn 7 November 2021, Yoon stated that if he were elected president, he would pardon former presidents Lee Myung-bak and Park Geun-hye, both of whom were serving lengthy prison sentences for corruption (Park Geun-hye was later pardoned by President Moon Jae-in on 24 December of that same year).\nOn 28 January 2026, Seoul Central District Court sentenced Kim to 20 months in prison for corruption, for receiving luxury gifts like a Graff diamond necklace and a Chanel bag from the Unification Church in return for promises of business favors.\nOn 16 January 2026, Yoon was convicted in a related trial and sentenced to five years' imprisonment on charges of abuse of power, obstruction of justice and falsification of official documents related to his failed martial law bid in 2024, subsequently increased to seven years after his lawyers appealed the sentence.\nOn 19 February 2026, Yoon was convicted of leading an insurrection, and sentenced to life imprisonment.\nOn 12 June 2026, Yoon was found guilty of treason and abuse of power for ordering drones to be flown into North Korea in October 2024 to drop propaganda leaflets on three occasions, to provoke North Korea and help justify his martial law declaration, and sentenced to 30 years imprisonment."
+  },
+  {
+   "role": "assistant",
+   "content": "In February 2026, former president Yoon Suk Yeol was sentenced to life imprisonment for heading an insurrection and other crimes. \n\nFINAL: life imprisonment",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

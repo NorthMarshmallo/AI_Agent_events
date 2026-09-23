@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-130",
+  "source": "fresh",
+  "question": "What is the name of the protein design reasoning model for binder generation that Nvidia unveiled at GTC 2026?",
+  "answer": "Proteina-Complexa",
+  "evidence": "Nvidia unveiled Proteina-Complexa, a protein design reasoning model that generates binders for structure-based drug discovery.",
+  "page": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "The name of the protein design reasoning model for binder generation that Nvidia unveiled at GTC 2026 is \"FoldingAmerica.\" \n\nFINAL: FoldingAmerica",
+ "cost": 3.5699999999971865e-05,
+ "seconds": 2.8,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the protein design reasoning model for binder generation that Nvidia unveiled at GTC 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "The name of the protein design reasoning model for binder generation that Nvidia unveiled at GTC 2026 is \"FoldingAmerica.\" \n\nFINAL: FoldingAmerica",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

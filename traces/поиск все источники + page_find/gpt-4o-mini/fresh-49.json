@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-49",
+  "source": "fresh",
+  "question": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?",
+  "answer": "life imprisonment",
+  "evidence": "24 March – A special NIA court sentences Kashmiri separatist Asiya Andrabi to life imprisonment for her involvement in terrorist activities in Kashmir.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I could not find any information regarding the sentence given to Asiya Andrabi in India on March 24, 2026. \n\nFINAL: No information found.",
+ "cost": 0.000769350000000002,
+ "seconds": 14.7,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_GwwLMjWNYRaNhtMne5lbBIQG",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Asiya Andrabi sentence March 24 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_GwwLMjWNYRaNhtMne5lbBIQG",
+   "content": "[Asiya Andrabi] Asiya Andrabi is a Kashmiri separatist and founding leader of Dukhtaran-e-Millat. This group is part of the separatist organisation All Parties Hurriyat Conference in the Kashmir Valley. Government of India has declared it as a banned organization. The organisation claims that it aims for the freedom of Kashmir from India. Until her arrest, she was one of the most important women separatists in the valley. She is married to Ashiq Hussain Faktoo (a founding member of the Hizbul Mujahideen) in 1990. Her husband has been in jail since 1992, convicted of murder. Asiya Andrabi had a major role in starting and backing-up various protests in the Kashmir Valley. She is best known for supporting Masarat Alam in the 2010 Kashmir unrest across Kashmir by using her village network of Dukhtaran-e-Millat operatives for rally support. She hoisted the Pakistan flag and sang the Pakistani national anthem in Kashmir on 25 March 2015. Later on, she was booked for that. On 12 September 2015, she slaughtered a cow and released a video in a bid to defy the ban on sale of beef in Jammu and Kashmir. On 6 July 2018, Asiya was taken into custody by the National Investigation Agency (NIA)."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_KSyVqIhHHy23vOn0Of35JPoQ",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Asiya Andrabi\",\"keywords\":[\"sentence\",\"March 24, 2026\"],\"site\":\"en_wiki\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_KSyVqIhHHy23vOn0Of35JPoQ",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_VfFU5HQuNtSkL22JoQ7eY4Fq",
+     "function": {
+      "name": "ru_wiki_search",
+      "arguments": "{\"query\":\"Асия Андраби\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_VfFU5HQuNtSkL22JoQ7eY4Fq",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_FOCVJzniz7UsLgkDHDnnLYke",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\":\"Asiya Andrabi sentence March 24 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_FOCVJzniz7UsLgkDHDnnLYke",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "I could not find any information regarding the sentence given to Asiya Andrabi in India on March 24, 2026. \n\nFINAL: No information found.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

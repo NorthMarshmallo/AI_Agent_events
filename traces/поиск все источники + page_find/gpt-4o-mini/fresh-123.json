@@ -1,0 +1,186 @@
+{
+ "task": {
+  "id": "fresh-123",
+  "source": "fresh",
+  "question": "What country broke off diplomatic relations with France in June 2026?",
+  "answer": "Burkina Faso",
+  "evidence": "26 June – Burkina Faso breaks off diplomatic relations with France.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "По состоянию на июнь 2026 года, страна, которая разорвала дипломатические отношения с Францией, не была определена в источниках. Основные события июня 2026 года, связанные с дипломатическими отношениями, произошли между Польшей и Украиной, но не касались Франции. Не удалось найти подтверждения конкретной страны, разорвавшей связи с Францией в этот период.\n\nFINAL: Неизвестно",
+ "cost": 0.001373399999999969,
+ "seconds": 29.9,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What country broke off diplomatic relations with France in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Hziphn4C8WNcU66WVlbhQxyC",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"country broke off diplomatic relations with France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Hziphn4C8WNcU66WVlbhQxyC",
+   "content": "[International recognition of Israel] As of February 2026, the State of Israel is recognized as a sovereign state by 169 of the other 192 member states of the United Nations, or approximately 88% of all UN members. The State of Israel was formally established by the Israeli Declaration of Independence on 14 May 1948, and was admitted to the United Nations (UN) as a full member state on 11 May 1949. It also maintains bilateral ties with all of the UNSC Permanent Five. Twenty-three member states have either never formally recognized Israel or have withdrawn their recognition; others have severed diplomatic relations without explicitly withdrawing their recognition. Additionally, many non-recognizing countries have challenged Israel's existence—predominantly those in the Muslim world—due to significant animosity stemming from the Israeli–Palestinian conflict and the Arab–Israeli conflict."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_PPj64uKmHpcAZV8OlDRCirj1",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"International recognition of Israel\",\"keywords\":[\"France\",\"June 2026\"],\"site\":\"en_wiki\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_PPj64uKmHpcAZV8OlDRCirj1",
+   "content": "The First Syrian Republic was the sole negative vote; the United States, Argentina, Colombia, the Soviet Union, and the Ukrainian SSR voted in favour; and Belgium, the United Kingdom, Canada, the Republic of China, and France abstained.\nThose voting in favour were China, France, the United States, the Soviet Union, Argentina, Canada, the Republic of Cuba, Norway, and the Ukrainian SSR.\nThose that voted in favour of Israel were: Argentina, Australia, Bolivia, the Byelorussian SSR, Canada, Chile, China, Colombia, Costa Rica, Cuba, Czechoslovakia, the Dominican Republic, Ecuador, France, Guatemala, Haiti, Honduras, Iceland, Liberia, Luxembourg, Mexico, the Netherlands, New Zealand, Nicaragua, Norway, Panama, Paraguay, Peru, the Philippines, communist Poland, the Ukrainian SSR, South Africa, the Soviet Union, the United States, Uruguay, Venezuela, and Yugoslavia."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_n5XKjD5DZD7MoCflmPABYicJ",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"June 2026 diplomatic relations France\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_n5XKjD5DZD7MoCflmPABYicJ",
+   "content": "[2026 Poland–Ukraine diplomatic crisis] The 2026 Poland–Ukraine diplomatic crisis began in May 2026 after Ukrainian president Volodymyr Zelenskyy awarded the Ukrainian Special Operations Center North the honorary title \"Heroes of the UPA\", on that unit's request. This decision sparked outrage in Poland as the UPA was responsible for the massacres of Poles in Volhynia and Eastern Galicia, leading to a major crisis in bilateral relations. On 19 June 2026, Polish President Karol Nawrocki stripped the Order of the White Eagle from Ukrainian president Volodymyr Zelenskyy. Zelenskyy promptly returned the Order of the White Eagle to the Polish Presidential Chancellery. In solidarity with Zelenskyy, three former Ukrainian presidents Leonid Kuchma, Viktor Yushchenko, and Petro Poroshenko voluntarily renounced and returned their Orders of the White Eagle to Poland. In response, on 25 June 2026, several Polish politicians renounced their Ukrainian orders, notably Jarosław Kaczyński with his Order of Yaroslav the Wise which was the third-highest Ukrainian order when he received it in 2022."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1gtNyjmKasNNNPP4UFFAmJXt",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 Poland–Ukraine diplomatic crisis\",\"keywords\":[\"diplomatic relations\",\"France\",\"June 2026\"],\"site\":\"en_wiki\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1gtNyjmKasNNNPP4UFFAmJXt",
+   "content": "On 19 June 2026, Polish President Karol Nawrocki stripped the Order of the White Eagle from Ukrainian president Volodymyr Zelenskyy.\nIn response, on 25 June 2026, several Polish politicians renounced their Ukrainian orders, notably Jarosław Kaczyński with his Order of Yaroslav the Wise which was the third-highest Ukrainian order when he received it in 2022."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_mbH8vPbPM3arDjvDlOQBeEXM",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\":\"country diplomatic relations France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_mbH8vPbPM3arDjvDlOQBeEXM",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_y34PYRGSBPoHjZ9xIDZlC5IP",
+     "function": {
+      "name": "ru_wiki_search",
+      "arguments": "{\"query\":\"декларация об обрыве дипломатических отношений с Францией\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_y34PYRGSBPoHjZ9xIDZlC5IP",
+   "content": "[Приднестровская Молдавская Республика] Термин «Приднестровье» имеет также другие значения . Запрос «ПМР» перенаправляется сюда; см. также другие значения . Непризнанное государство Приднестровская Молдавская Республика молд. Република Молдовеняскэ Нистрянэ рум. Republica Moldovenească Nistreană укр. Придністровська Молдавська Республіка Флаг Герб Гимн : «Мы славим тебя, Приднестровье!» Сверху: Приднестровье на карте Европы Снизу: территория Приднестровья на карте Молдовы [ 1 ] Дата образования 2 сентября 1990 [ 2 ] Провозглашение независимости 25 августа 1991 [ 3 ] (от Молдавской ССР ) Дипломатическое признание Частично признанные: Республика Абхазия Южная Осетия Официальные языки молдавский (на молдавской кириллице ), русский , украинский [ 4 ] Столица Тирасполь [ 5 ] Крупнейшие города Тирасполь, Бендеры , Рыбница Форма правления президентская республика [ 6 ] Президент Вадим Красносельский Председатель Правительства Александр Розенберг Председатель Верховного Совета Татьяна Залевская Гос. религия светское государство [ 7 ] Территория • Всего 4163 км² ( 186-я в мире ) Население • Оценка ↘ 455 741 [ 8 ] чел. ( 176-е ) • Перепись (2015) ↘ 475 665 [ 9 ] чел. • Плотность 134 чел./км² ВВП • Итого 1,05 млрд [ 10 ] долл. • На душу населения 2584 [ 10 ] (2023) долл. Названия жителей приднестро́вцы, приднестро́вец, приднестро́вка Валюта приднестровский рубль Телефонный код + 373 5xx xxxxx +373 21x xxxxx +373 77x xxxxx Часовой пояс EET ( UTC+2 , летом UTC+3 ) [ 11 ] [ 12 ] Автомобильное движение справа Медиафайлы на Викискладе Приднестро́вская Молда́вская Респу́блика ( молд. / рум. Република Молдовеняскэ Нистрянэ / Republica Moldovenească Nistreană , укр. Придністровська Молдавська Республіка ), или Приднестро́вье [ 13 ] ( молд. / рум. Нистрения / Nistrenia , укр. Придністров’я ) — непризнанное государство в Восточной Европе , провозглашённое на международно признанной территории Молдовы . Расположено преимущественно на левом берегу Днестра , включает в себя также несколько"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_i4if1F7O5UGnmJU5i6pq3uzq",
+     "function": {
+      "name": "ru_wiki_search",
+      "arguments": "{\"query\":\"разрыв дипломатических отношений между странами\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_i4if1F7O5UGnmJU5i6pq3uzq",
+   "content": "[Дипломатические отношения] Дипломати́ческие отноше́ния — основная форма поддержания официальных отношений между суверенными государствами , а также между государствами и другими субъектами международного публичного права в соответствии с нормами международного права и практикой международного общения [ 1 ] [ 2 ] [ 3 ] [ 4 ] . Дипломатические отношения призваны способствовать развитию дружественных отношений между государствами, поддержанию мира и безопасности. Существование (а также установление, возобновление) дипломатических отношений всегда свидетельствует о том, что стороны признают друг друга в целом невраждебными друг другу субъектами международного права; также оно свидетельствует и об обоюдном признании законности той власти, которая руководит каждым из субъектов и представляет его на международной арене. В некоторых случаях, как, например, в случае КНР и Китайской республики на Тайване , установление дипломатических отношений с одним из правительств делает невозможным их установление с другим, так как оба режима считают себя единственной законной властью на всей территории единой страны. При этом наличие реального контроля данного правительства над территорией своего государства как раз не является необходимым условием: известны случаи, когда дипломатические отношения устанавливались с правительствами в изгнании. Установление  Дипломатические отношения между государствами и государствоподобными образованиями в общем случае — это дружеские контакты любого характера между их правительствами, они могут существовать даже при отсутствии посольств. Однако полноценный характер дипломатические отношения приобретают только после открытия дипломатической миссии или, что более предпочтительно, обмене ими [ 5 ] . Согласно Венской конвенции о дипломатических сношениях 1961 года , установление дипломатических отношений осуществляется по взаимному согласию. Установлению дипломатических отношений обычно предшествует юридическое признание государства и его правительства со"
+  },
+  {
+   "role": "assistant",
+   "content": "По состоянию на июнь 2026 года, страна, которая разорвала дипломатические отношения с Францией, не была определена в источниках. Основные события июня 2026 года, связанные с дипломатическими отношениями, произошли между Польшей и Украиной, но не касались Франции. Не удалось найти подтверждения конкретной страны, разорвавшей связи с Францией в этот период.\n\nFINAL: Неизвестно",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
