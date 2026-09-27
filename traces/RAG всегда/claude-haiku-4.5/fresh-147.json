@@ -1,0 +1,46 @@
+{
+ "answer": "I need to find information about which animation studio received the 2026 Princess of Asturias Award for Communication and Humanities.\n\nLooking at the sources provided:\n- [1] mentions \"Studio Ghibli\" and \"Princess of Asturias Award for Communication and Humanities\"\n- [2] mentions \"Studio Ghibli\" and \"Prince of Asturias Award for Communication and Humanities\" (note: this is \"Prince\" not \"Princess\")\n- [3], [4], and [5] discuss 2026 animation awards but not the Princess of Asturias Award\n\nHowever, source [1] only indicates the title/topic but does not explicitly state that Studio Ghibli received the 2026 Princess of Asturias Award for Communication and Humanities. The source appears to be a page title or reference without confirming the award was actually granted in 2026.\n\nNOT_FOUND\n\nFINAL: NOT_FOUND",
+ "hits": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Studio_Ghibli",
+   "text": "Princess of Asturias Award for Communication and Humanities",
+   "page": "Studio Ghibli",
+   "section": "External links",
+   "id": 6669,
+   "score": 0.7776
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Studio_Ghibli",
+   "text": "Prince of Asturias Award for Communication and Humanities",
+   "page": "Studio Ghibli",
+   "section": "External links",
+   "id": 6667,
+   "score": 0.7591
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+   "text": "Goya Award for Best Animated Film: Decorado",
+   "page": "2026 in animation",
+   "section": "Awards",
+   "id": 2549,
+   "score": 0.6421
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+   "text": "National Board of Review Award for Best Animated Film: Arco",
+   "page": "2026 in animation",
+   "section": "Awards",
+   "id": 2555,
+   "score": 0.5963
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+   "text": "European Film Award for Best Animated Feature Film: Arco",
+   "page": "2026 in animation",
+   "section": "Awards",
+   "id": 2545,
+   "score": 0.5939
+  }
+ ],
+ "cost": 0.001269000000000001
+}

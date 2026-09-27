@@ -1,0 +1,46 @@
+{
+ "answer": "According to the sources, the protein design reasoning model for binder generation that Nvidia unveiled at GTC 2026 is called **Proteina-Complexa** [1].\n\nFINAL: Proteina-Complexa",
+ "hits": [
+  {
+   "text": "Concurrently, Nvidia unveiled a new protein design reasoning model, Proteina-Complexa, which generates binders for structure-based drug discovery. One million designed protein binders were experimentally validated against over 130 targets in an expansive collaboration with Manifold Bio, Novo Nordisk, Viva Biotech, University of Cambridge, LMU Munich, and Duke University. The model combines the partially latent flow matching architecture of its predecessor, La-Proteina, with test-time compute scaling to iteratively optimize designs.",
+   "page": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+   "id": 5689,
+   "score": 0.7166
+  },
+  {
+   "text": "In drug discovery, AI models have evolved beyond simple structure prediction to simulate complex protein interactions, ushering in a new era of biological reasoning to unlock disease mechanisms.",
+   "page": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+   "id": 5687,
+   "score": 0.5139
+  },
+  {
+   "text": "GPT-5 is a system that contains a fast, high-throughput model, a deeper reasoning model, and a real-time router that decides which model to use based on conversation type, complexity, tool needs, and explicit user intent. Altman had previously criticized the manual model picker for being overly complex, suggesting a need for unification. GPT-5 also includes agentic functionality through which it can set up its own desktop and can use its browser to search autonomously for sources that relate to its task. The GPT-5 system card defines two fast, high-throughput models – gpt-5-main and gpt-5-main-mini – and two thinking models – gpt-5-thinking and gpt-5-thinking-mini. In the OpenAI API, developers can access the thinking model, its mini version, and gpt-5-thinking-nano, an even smaller and faster nano version of the thinking model. The version of GPT-5 that is accessible via the API has adjustable reasoning effort (low, medium, high, or minimal) and verbosity (low, medium, or high). Additionally, ChatGPT provides access to gpt-5-thinking with a setting that makes use of parallel test-time compute, referred to as gpt-5-thinking-pro.",
+   "page": "GPT-5",
+   "section": "Architecture",
+   "url": "https://en.wikipedia.org/wiki/GPT-5",
+   "id": 6108,
+   "score": 0.5112
+  },
+  {
+   "text": "Cosmos-H, an open model family that enables domain-specific, physics-based synthetic data generation at scale. D evelopers can augment datasets with lifelike simulations and evaluate robotic policies by predicting the future state of surgical environments.",
+   "page": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+   "id": 5693,
+   "score": 0.4882
+  },
+  {
+   "text": "RFdiffusion3 enters a growing ecosystem of protein design models that cover multiple modalities, such as BoltzGen, which was released in October. BoltzGen demonstrated generalizable therapeutic design in any format, including nanobodies, mini-binders, and disulfide-bonded peptides, and against any target across nucleic acids, small molecules, and both ordered and disordered proteins. Notably, BoltzGen designs binders only and does not generate catalytic enzymes as demonstrated by RFdiffusion 3.",
+   "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/",
+   "id": 5639,
+   "score": 0.4762
+  }
+ ],
+ "cost": 0.001077999999999999
+}

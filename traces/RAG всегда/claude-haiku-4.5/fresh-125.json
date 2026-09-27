@@ -1,0 +1,46 @@
+{
+ "answer": "According to the source, RFdiffusion3 exhibits **ten-fold faster performance** over RFdiffusion2 in computational time [1].\n\nFINAL: RFdiffusion3 is ten times faster than RFdiffusion2 in computational time.",
+ "hits": [
+  {
+   "text": "To achieve intricate chemical interactions with new precision, RFdiffusion3 treats individual atoms as the fundamental units being designed, a methodological advance from its predecessor, RFdiffusion2, concurrently published in Nature Methods, which implements a hybrid atom and amino acid residue approach. In computational time, RFdiffusion3 exhibits ten-fold faster performance over RFdiffusion2, despite taking a more computationally intensive all-atom method.",
+   "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/",
+   "id": 5640,
+   "score": 0.6654
+  },
+  {
+   "text": "Krishna told GEN that the underlying intuition for RFdiffusion 3 was to give “more knobs for generality and controllability.” As an example, the model’s all-atom approach can allow the specification of a hydrogen bond to a particular atom, a level of precision that can greatly facilitate the construction complex reactions, such as enzyme catalysis. He also notes that RFdiffusion3 has limitations when designing against biomolecules not seen in the training set, such as non-canonical amino acids.",
+   "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/",
+   "id": 5641,
+   "score": 0.6059
+  },
+  {
+   "text": "The field looks forward to the next generation of complex proteins designed by RFdiffusion3.",
+   "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/",
+   "id": 5650,
+   "score": 0.5555
+  },
+  {
+   "text": "RFdiffusion3 enters a growing ecosystem of protein design models that cover multiple modalities, such as BoltzGen, which was released in October. BoltzGen demonstrated generalizable therapeutic design in any format, including nanobodies, mini-binders, and disulfide-bonded peptides, and against any target across nucleic acids, small molecules, and both ordered and disordered proteins. Notably, BoltzGen designs binders only and does not generate catalytic enzymes as demonstrated by RFdiffusion 3.",
+   "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/",
+   "id": 5639,
+   "score": 0.5543
+  },
+  {
+   "text": "“We built this as a general model and are sharing it freely so the scientific community can create things we haven’t even imagined yet,” said Rohith Krishna, PhD, postdoctoral researcher in the Baker lab and co-lead author of the RFdiffusion3 bioRxiv preprint that has not been peer reviewed.",
+   "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/",
+   "id": 5636,
+   "score": 0.5529
+  }
+ ],
+ "cost": 0.0009730000000000016
+}

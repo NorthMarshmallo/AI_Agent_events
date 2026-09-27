@@ -1,0 +1,46 @@
+{
+ "answer": "According to the sources, Chai-2 achieved a 16% success rate in fully de novo antibody design of ≤20 antibodies or nanobodies to 52 diverse targets [2].\n\nFINAL: 16% success rate across 52 diverse targets using at most 20 antibody candidates per target.",
+ "hits": [
+  {
+   "page": "Chai's the Limit for AI Antibody Designer After $130M Series B Funding",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/chais-the-limit-for-ai-antibody-designer-after-130m-series-b-funding/",
+   "text": "“We actually tested as few as 20 molecules for each one of those targets. Most papers in this space were putting out data on 2 or 3 molecules,” Josh Meier, Chai’s co-founder and CEO, as well as the preprint’s corresponding author, told GEN. “Given the really high success rates of the models, we’ve actually now been able to test this at a really large scale. We published a benchmark on over 50 targets, and since then, we’ve done way more than 100.”",
+   "id": 5654,
+   "score": 0.7187
+  },
+  {
+   "page": "Chai's the Limit for AI Antibody Designer After $130M Series B Funding",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/chais-the-limit-for-ai-antibody-designer-after-130m-series-b-funding/",
+   "text": "Chai unveiled Chai-2 in June with a preprint posted in bioRxiv that reported a 16% success rate in fully de novo antibody design of ≤20 antibodies or nanobodies to 52 diverse targets—a more than 100-fold improvement over previous computational methods. Chai researchers completed the workflow from AI design to wet-lab validation in under two weeks.",
+   "id": 5653,
+   "score": 0.6998
+  },
+  {
+   "page": "Chai's the Limit for AI Antibody Designer After $130M Series B Funding",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/chais-the-limit-for-ai-antibody-designer-after-130m-series-b-funding/",
+   "text": "“We find that >86% of these full-length mAbs have strong developability profiles on par with therapeutic antibodies. We further show that resolved structures of designs match in silico predictions, demonstrating that Chai-2 provides atomistically-accurate models of designed antibodies,” Chai researchers wrote in the updated preprint, for which Meier also served as corresponding author.",
+   "id": 5656,
+   "score": 0.6496
+  },
+  {
+   "page": "Chai's the Limit for AI Antibody Designer After $130M Series B Funding",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/chais-the-limit-for-ai-antibody-designer-after-130m-series-b-funding/",
+   "text": "Earlier this month, Chai posted an updated preprint highlighting the company’s expansion of de novo antibody design by applying Chai-2 to design therapeutic full-length monoclonal antibodies across conventional and challenging target classes.",
+   "id": 5655,
+   "score": 0.6389
+  },
+  {
+   "page": "Chai's the Limit for AI Antibody Designer After $130M Series B Funding",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/chais-the-limit-for-ai-antibody-designer-after-130m-series-b-funding/",
+   "text": "Just as Chai-2 represented a major upgrade to the company’s Chai-1 open-source foundation model for molecular structure prediction unveiled last year, the company aims to further double down on research breakthroughs with its latest financing, Meier told GEN.",
+   "id": 5658,
+   "score": 0.6343
+  }
+ ],
+ "cost": 0.0009860000000000008
+}

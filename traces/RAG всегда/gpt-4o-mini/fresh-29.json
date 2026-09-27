@@ -1,0 +1,46 @@
+{
+ "answer": "The sources indicate that the number of people killed in the train derailment near Adamuz, Spain, in January 2026 is 43 or 46, depending on the source. However, the most consistent figure across the sources is 46 people killed [1][3]. \n\nFINAL: 46",
+ "hits": [
+  {
+   "page": "2026",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "January 18 – 46 people are killed and 292 are injured after two trains derail in Adamuz in southern Spain.",
+   "id": 23,
+   "score": 0.8193
+  },
+  {
+   "page": "2026 in Spain",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+   "text": "18 January – Two high-speed trains derail and collide near Adamuz, killing 43 people.",
+   "id": 2105,
+   "score": 0.7919
+  },
+  {
+   "page": "2026 in rail transport",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+   "text": "– A high-speed train derails and crashes into another high-speed train in southern Spain, killing 46 people.",
+   "id": 3464,
+   "score": 0.7076
+  },
+  {
+   "page": "2026 in Spain",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+   "text": "20 January – A Rodalies de Catalunya train collides with a retaining wall that had fallen on the track in Gelida, killing the driver and injuring 37 passengers.",
+   "id": 2106,
+   "score": 0.6833
+  },
+  {
+   "page": "2026 in Spain",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+   "text": "22 January – A commuter train collides with a crane near Cartagena, injuring four people.",
+   "id": 2107,
+   "score": 0.6579
+  }
+ ],
+ "cost": 7.38e-05
+}

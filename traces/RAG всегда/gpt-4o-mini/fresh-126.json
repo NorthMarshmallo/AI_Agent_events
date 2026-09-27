@@ -1,0 +1,46 @@
+{
+ "answer": "Rohith Krishna, PhD, is the postdoctoral researcher in the Baker lab who is co-lead author of the RFdiffusion3 bioRxiv preprint [1]. \n\nFINAL: Rohith Krishna.",
+ "hits": [
+  {
+   "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/",
+   "text": "“We built this as a general model and are sharing it freely so the scientific community can create things we haven’t even imagined yet,” said Rohith Krishna, PhD, postdoctoral researcher in the Baker lab and co-lead author of the RFdiffusion3 bioRxiv preprint that has not been peer reviewed.",
+   "id": 5636,
+   "score": 0.657
+  },
+  {
+   "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/",
+   "text": "Baker, who is the director of the Institute for Protein Design at the University of Washington (UW) and a Howard Hughes Medical Institute (HHMI) investigator, won the 2024 Nobel Prize in Chemistry for the design of novel proteins. RFdiffusion3 is one step closer to designing and understanding biological complexity, a challenge Baker recently described to GEN as one of the main obstacles to overcome for de novo design to transform medicine.",
+   "id": 5638,
+   "score": 0.6113
+  },
+  {
+   "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/",
+   "text": "Researchers from the lab of Nobel laureate, David Baker, PhD, have now released RFdiffusion3 open source. The latest version of the de novo protein design model generates proteins that interact with any type of molecule, including DNA and small molecules with broad applications across sustainability and therapeutics.",
+   "id": 5635,
+   "score": 0.6097
+  },
+  {
+   "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/",
+   "text": "To achieve intricate chemical interactions with new precision, RFdiffusion3 treats individual atoms as the fundamental units being designed, a methodological advance from its predecessor, RFdiffusion2, concurrently published in Nature Methods, which implements a hybrid atom and amino acid residue approach. In computational time, RFdiffusion3 exhibits ten-fold faster performance over RFdiffusion2, despite taking a more computationally intensive all-atom method.",
+   "id": 5640,
+   "score": 0.585
+  },
+  {
+   "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/",
+   "text": "While RFdiffusion3’s open-source launch opens the door for a new wave of enzyme innovation across the community, the Baker lab is already charting an impressive path forward in complex catalytic design.",
+   "id": 5642,
+   "score": 0.58
+  }
+ ],
+ "cost": 0.00010650000000000004
+}

@@ -19,3 +19,10 @@ __pycache__/
 .idea/
 .vscode/
 .DS_Store
+
+# Milvus Lite
+*.db
+*.db.lock
+
+# Журнал реплик агента (эпизодическая память)
+logs/

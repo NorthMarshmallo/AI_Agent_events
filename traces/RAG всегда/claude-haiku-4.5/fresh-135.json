@@ -1,0 +1,46 @@
+{
+ "answer": "NOT_FOUND\n\nThe sources provided contain information about the 2026 Winter Olympics figure skating competition and the 2026 Russian Figure Skating Championship, but they do not specify the location (Saint Petersburg) or provide complete results showing who won the women's singles competition at the Russian Championship 2026. Source [3] shows Adeliya Petrosyan with a score of 235.95 and rank 1, but this alone does not confirm she won the championship, and there is no mention of the competition being held in Saint Petersburg.\n\nFINAL: NOT_FOUND",
+ "hits": [
+  {
+   "text": "6 | Аделия Петросян | Индивидуальные нейтральные спортсмены | 214,53 | 5 | 72,89 | 5 | 141,64",
+   "page": "Фигурное катание на зимних Олимпийских играх 2026 — одиночное катание (женщины)",
+   "section": "Итог",
+   "url": "https://ru.wikipedia.org/wiki/Фигурное_катание_на_зимних_Олимпийских_играх_2026_—_одиночное_катание_(женщины)",
+   "id": 7041,
+   "score": 0.7243
+  },
+  {
+   "text": "7 | Нина Петрыкина | Эстония | 210,82 | 10 | 69,63 | 6 | 141,19",
+   "page": "Фигурное катание на зимних Олимпийских играх 2026 — одиночное катание (женщины)",
+   "section": "Итог",
+   "url": "https://ru.wikipedia.org/wiki/Фигурное_катание_на_зимних_Олимпийских_играх_2026_—_одиночное_катание_(женщины)",
+   "id": 7042,
+   "score": 0.7215
+  },
+  {
+   "text": "01! | Аделия Петросян | 235,95 | 1 | 86,52 | 2 | 149,43",
+   "page": "Чемпионат России по фигурному катанию 2026",
+   "section": "Женщины",
+   "url": "https://ru.wikipedia.org/wiki/Чемпионат_России_по_фигурному_катанию_2026",
+   "id": 6021,
+   "score": 0.7133
+  },
+  {
+   "text": "6 | Нина Петрыкина | Эстония | 141,19 | 74,82 | 66,37 | 8,36 | 8,36 | 8,14",
+   "page": "Фигурное катание на зимних Олимпийских играх 2026 — одиночное катание (женщины)",
+   "section": "Произвольная программа",
+   "url": "https://ru.wikipedia.org/wiki/Фигурное_катание_на_зимних_Олимпийских_играх_2026_—_одиночное_катание_(женщины)",
+   "id": 7016,
+   "score": 0.7104
+  },
+  {
+   "text": "Место | Спортсменка | Страна | Сумма баллов | КП | ПП",
+   "page": "Фигурное катание на зимних Олимпийских играх 2026 — одиночное катание (женщины)",
+   "section": "Итог",
+   "url": "https://ru.wikipedia.org/wiki/Фигурное_катание_на_зимних_Олимпийских_играх_2026_—_одиночное_катание_(женщины)",
+   "id": 7035,
+   "score": 0.7061
+  }
+ ],
+ "cost": 0.0011339999999999996
+}

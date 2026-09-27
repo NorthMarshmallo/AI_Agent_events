@@ -1,0 +1,46 @@
+{
+ "answer": "According to the source, Nvidia, EMBL, Google DeepMind and Seoul National University contributed 1.7 million new predicted protein complexes to the AlphaFold Protein Structure Database, as announced at GTC 2026 [1].\n\nFINAL: 1.7 million new predicted protein complexes",
+ "hits": [
+  {
+   "text": "Announced at GTC, a new collaboration between Nvidia, European Molecular Biology Laboratory (EMBL), Google DeepMind and Seoul National University, has contributed 1.7 million new predicted protein complexes to the AlphaFold Protein Structure Database. 30 million additional predicted structures have been made available for bulk download. The expansion removes a massive computational barrier for researchers, particularly those in limited super computing environments.",
+   "page": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+   "id": 5688,
+   "score": 0.8334
+  },
+  {
+   "text": "Concurrently, Nvidia unveiled a new protein design reasoning model, Proteina-Complexa, which generates binders for structure-based drug discovery. One million designed protein binders were experimentally validated against over 130 targets in an expansive collaboration with Manifold Bio, Novo Nordisk, Viva Biotech, University of Cambridge, LMU Munich, and Duke University. The model combines the partially latent flow matching architecture of its predecessor, La-Proteina, with test-time compute scaling to iteratively optimize designs.",
+   "page": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+   "id": 5689,
+   "score": 0.6197
+  },
+  {
+   "text": "28 January – Researchers at Google DeepMind publish a study on AlphaGenome, a deep learning model that predicts the functional effects of genetic variants across multiple regulatory modalities from long DNA sequences, improving interpretation of non-coding regions of the genome.",
+   "page": "2026 in science",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_science",
+   "id": 3697,
+   "score": 0.5963
+  },
+  {
+   "text": "In drug discovery, AI models have evolved beyond simple structure prediction to simulate complex protein interactions, ushering in a new era of biological reasoning to unlock disease mechanisms.",
+   "page": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+   "id": 5687,
+   "score": 0.5123
+  },
+  {
+   "text": "Roche’s GPU deployment comes after Eli Lilly and Nvidia jointly pledged $1 billion over five years to fund talent, infrastructure and compute to address key bottlenecks in AI-based drug discovery. The AI co-innovation lab was announced during January’s JP Morgan Healthcare Conference and will be staffed by the combined teams from the pharma giant and computational powerhouse.",
+   "page": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+   "id": 5684,
+   "score": 0.4954
+  }
+ ],
+ "cost": 0.0009820000000000002
+}
