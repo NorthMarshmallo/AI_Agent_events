@@ -1,0 +1,46 @@
+{
+ "answer": "NOT_FOUND.  \nFINAL: NOT_FOUND",
+ "hits": [
+  {
+   "section": "History",
+   "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+   "text": "On 30 April 2025, Deepseek released its math-focused Artificial Intelligence Model named \"DeepSeek-Prover-V2-671B\". This model is useful for formal theorem proving and mathematical reasoning.",
+   "page": "DeepSeek (chatbot)",
+   "id": 5703,
+   "score": 0.7248
+  },
+  {
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+   "text": "DeepSeek is a generative artificial intelligence chatbot developed by the Chinese company DeepSeek. Released on 20 January 2025, DeepSeek-R1 surpassed ChatGPT as the most downloaded freeware app on the iOS App Store in the United States by 27 January. DeepSeek's success against larger and more established rivals has been described as \"upending AI\" and initiating \"a global AI space race \". DeepSeek's compliance with Chinese government censorship policies and its data collection practices have also raised concerns over privacy and information control in the model, prompting regulatory scrutiny in multiple countries. However, it has also been praised for its open weights and infrastructure code, energy efficiency and contributions to open-source artificial intelligence.",
+   "page": "DeepSeek (chatbot)",
+   "id": 5700,
+   "score": 0.6179
+  },
+  {
+   "section": "History",
+   "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+   "text": "On 3 April 2025, in collaboration with researchers at Tsinghua University, DeepSeek published a paper unveiling a new model that combines the techniques generative reward modeling (GRM) and self-principled critique tuning (SPCT). The resulting model is referred to as DeepSeek-GRM. The goal of using these techniques is to foster more effective inference-time scaling within their LLM and chatbot services. Notably, DeepSeek has said that these new models will be released and made open source.",
+   "page": "DeepSeek (chatbot)",
+   "id": 5702,
+   "score": 0.6115
+  },
+  {
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+   "text": "Stable release | DeepSeek V4 Pro / 24 April 2026; 5 months ago (2026-04-24) DeepSeek V4 Flash / 24 April 2026; 5 months ago (2026-04-24)",
+   "page": "DeepSeek (chatbot)",
+   "id": 5698,
+   "score": 0.6109
+  },
+  {
+   "section": "History",
+   "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+   "text": "On 24 April 2026, DeepSeek released DeepSeek V4 and V4-Pro, and then DeepSeek-V4.1-Flash in September 9, 2026.",
+   "page": "DeepSeek (chatbot)",
+   "id": 5704,
+   "score": 0.6095
+  }
+ ],
+ "cost": 7.995000000000007e-05
+}

@@ -1,0 +1,46 @@
+{
+ "answer": "According to the sources, GPT-5 was launched on August 7, 2025 [4].\n\nFINAL: August 7, 2025",
+ "hits": [
+  {
+   "section": "Background",
+   "url": "https://en.wikipedia.org/wiki/GPT-5",
+   "text": "By late July 2025, OpenAI was widely anticipated as planning to release GPT-5 in early August. On July 30, The Verge reported that \"Microsoft is getting ready for GPT-5\" as \"sources familiar with Microsoft's AI plans\" told an editor that the company was testing a new mode for its Copilot chatbot that would offer a model that \"thinks deeply or quickly based on the task\". On August 5, in the leadup to the release of GPT-5, OpenAI released GPT-OSS, a set of two open-weight models that have reasoning capabilities. GPT-5 was then unveiled during a livestream event on August 7.",
+   "page": "GPT-5",
+   "id": 6104,
+   "score": 0.7837
+  },
+  {
+   "section": "Background",
+   "url": "https://en.wikipedia.org/wiki/GPT-5",
+   "text": "On April 14, 2023, Sam Altman, the chief executive officer of OpenAI, spoke at an event at the Massachusetts Institute of Technology and said that the company was not training GPT-5 at that time. He stated that OpenAI was \"prioritizing GPT-4 development\" and that \"we are not and won't for some time\" release GPT-5.",
+   "page": "GPT-5",
+   "id": 6101,
+   "score": 0.7649
+  },
+  {
+   "section": "Background",
+   "url": "https://en.wikipedia.org/wiki/GPT-5",
+   "text": "On July 18, OpenAI filed for a \"GPT-5\" trademark in the United States. On November 13, Altman confirmed to the Financial Times that the company was working to develop GPT-5.",
+   "page": "GPT-5",
+   "id": 6102,
+   "score": 0.7619
+  },
+  {
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/GPT-5",
+   "text": "GPT-5 is a multimodal large language model developed by OpenAI and the fifth in its series of generative pre-trained transformer (GPT) foundation models. Preceded in the series by GPT-4, it was launched on August 7, 2025. It is publicly accessible to users of the chatbot products ChatGPT and Microsoft Copilot as well as to developers through the OpenAI API.",
+   "page": "GPT-5",
+   "id": 6086,
+   "score": 0.7462
+  },
+  {
+   "section": "Background",
+   "url": "https://en.wikipedia.org/wiki/GPT-5",
+   "text": "According to The Information, \"[f]or much of the second half of 2024, OpenAI was developing a model known internally as Orion and intended to become GPT-5\", \"[b]ut the Orion effort failed to produce a better model, and the company instead released it as GPT-4.5 in February [2025].\"",
+   "page": "GPT-5",
+   "id": 6103,
+   "score": 0.7416
+  }
+ ],
+ "cost": 0.0007699999999999999
+}

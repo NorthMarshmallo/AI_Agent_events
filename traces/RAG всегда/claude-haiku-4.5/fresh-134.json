@@ -1,0 +1,46 @@
+{
+ "answer": "NOT_FOUND\n\nThe sources provided do not contain information about the 2025 ICPC World Finals. The most recent World Finals data in the sources is from 2015 [1] and 2011 [2]. Additionally, there is no information in any of the sources about OpenAI models or Google's Gemini participating in or reaching gold-medal level at any ICPC World Finals.\n\nFINAL: The sources do not contain information about the 2025 ICPC World Finals or the participation of OpenAI or Google models.",
+ "hits": [
+  {
+   "section": "2015 World Finals",
+   "url": "https://en.wikipedia.org/wiki/International_Collegiate_Programming_Contest",
+   "text": "The 2015 World Finals were held in Marrakesh (Morocco) during May 16–21, hosted by Mohammed the Fifth University, Al Akhawayn University and Mundiapolis University. The final competition took place on May 20. 128 teams competed to be World Champion. Saint Petersburg ITMO emerged as the winner, having solved all problems (13) for the first time ever. Other medalists included teams from Russia (2G), China (1G, 1B, 1S), Japan (1G), the United States (1B, 1S), Croatia (1S), Czech Republic (1S), Korea (1B), and Poland (1B).",
+   "page": "International Collegiate Programming Contest",
+   "id": 5805,
+   "score": 0.5265
+  },
+  {
+   "section": "2011 World Finals",
+   "url": "https://en.wikipedia.org/wiki/International_Collegiate_Programming_Contest",
+   "text": "The 2011 ACM-ICPC World Finals were held in Orlando, Florida and hosted by main sponsor IBM. The contest was initially scheduled to be held in Sharm el-Sheikh, Egypt in February, but was moved due to the political instability associated with the Arab Spring. Zhejiang University took first place with the University of Michigan at Ann Arbor, Tsinghua University, and Saint Petersburg State University taking 2nd, 3rd, and 4th respectively each receiving gold medals. China (2G) United States (1G) Russia (1G, 2S, 2B) Germany (1S) Ukraine (1S) Poland (1B) Canada (1B)",
+   "page": "International Collegiate Programming Contest",
+   "id": 5782,
+   "score": 0.5162
+  },
+  {
+   "section": "History",
+   "url": "https://en.wikipedia.org/wiki/International_Collegiate_Programming_Contest",
+   "text": "From 1997 to 2017, International Business Machines Corporation (IBM) was the sponsor of ICPC. During that time contest participation has grown by more than 2000%. In 1997, 840 teams from 560 universities participated. In 2017, 46,381 students from 2,948 universities in 103 countries on six continents participated in regional competitions. Organized as a highly localized extra-curricular university mind sport and operating as a globally-coordinated unincorporated association operating under agreements with host universities and non-profits, the ICPC is open to qualified teams from every university in the world.",
+   "page": "International Collegiate Programming Contest",
+   "id": 5767,
+   "score": 0.5074
+  },
+  {
+   "section": "Contest rules",
+   "url": "https://en.wikipedia.org/wiki/International_Collegiate_Programming_Contest",
+   "text": "During each contest, the teams of three are given 5 hours to solve between eight and fifteen programming problems (with eight typical for regionals and twelve for finals). They must submit solutions as programs in C, C++, Java, Ada, Python or Kotlin (although it is not guaranteed every problem is solvable in any certain language, the ICPC website states that \"the judges will have solved all problems in Java and C++\" for both regional and world finals competitions). Programs are then run on test data. If a program fails to give a correct answer, the team is notified and can submit another program.",
+   "page": "International Collegiate Programming Contest",
+   "id": 5772,
+   "score": 0.5023
+  },
+  {
+   "section": "Background",
+   "url": "https://en.wikipedia.org/wiki/GPT-5",
+   "text": "According to The Information, \"[f]or much of the second half of 2024, OpenAI was developing a model known internally as Orion and intended to become GPT-5\", \"[b]ut the Orion effort failed to produce a better model, and the company instead released it as GPT-4.5 in February [2025].\"",
+   "page": "GPT-5",
+   "id": 6103,
+   "score": 0.4848
+  }
+ ],
+ "cost": 0.001414
+}

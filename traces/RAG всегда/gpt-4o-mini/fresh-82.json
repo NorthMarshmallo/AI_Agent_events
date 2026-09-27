@@ -1,0 +1,46 @@
+{
+ "answer": "The death toll from the fire at a shoe factory in China in July 2026 was 28 people [1]. \n\nFINAL: 28",
+ "hits": [
+  {
+   "text": "9 July — A fire at a shoe factory in Jinjiang, Quanzhou kills 28 people.",
+   "page": "2026 in China",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_China",
+   "id": 886,
+   "score": 0.764
+  },
+  {
+   "text": "An explosion at a fireworks factory in Liuyang, Hunan, China kills 37 people and injures 51 others.",
+   "page": "2026",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "id": 107,
+   "score": 0.647
+  },
+  {
+   "text": "4 May – At least 37 people are killed in explosion at a fireworks factory in Liuyang, Hunan.",
+   "page": "2026 in China",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_China",
+   "id": 861,
+   "score": 0.6233
+  },
+  {
+   "text": "A gas explosion at the Liushenyu coal mine in Shanxi, China, kills 82 people.",
+   "page": "2026",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "id": 116,
+   "score": 0.6218
+  },
+  {
+   "text": "18 January – Four people are killed while 84 others are injured with six reported missing following an explosion at the Baogang United Steel factory in Baotou.",
+   "page": "2026 in China",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_China",
+   "id": 833,
+   "score": 0.6001
+  }
+ ],
+ "cost": 5.400000000000001e-05
+}
