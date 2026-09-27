@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Свежие вопросы для домашки: факты 2026 года из Википедии, на которых Sonnet без инструментов ошибается.
 
-Запуск: python fetch_fresh.py [--limit 120]
+Запуск: python scripts/fetch_fresh.py [--limit 120]
 Результат: data/fresh_2026.jsonl и сводка в консоли.
 
 Как собирается:
@@ -16,7 +16,7 @@ import requests
 from pydantic import BaseModel, Field, ValidationError
 
 sys.stdout.reconfigure(encoding="utf-8")
-HERE = Path(__file__).resolve().parent
+HERE = Path(__file__).resolve().parent.parent   # корень репозитория, скрипт лежит в scripts/
 for env in [HERE / ".env", HERE.parent.parent / "demo" / ".env"]:
     if env.exists():
         for line in env.read_text(encoding="utf-8").splitlines():
