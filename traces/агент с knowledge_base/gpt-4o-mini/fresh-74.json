@@ -1,6 +1,60 @@
 {
  "answer": "On July 20, 2026, Nicaraguan Co-President Daniel Ortega ceased the country's electoral system, suspending the next general election indefinitely and declaring the elections obsolete. \n\nFINAL: Daniel Ortega",
- "hits": [],
- "cost": 0.0001215900000000002,
+ "hits": [
+  {
+   "text": "July 20 – Nicaraguan Co-President Daniel Ortega ceases their country's electoral system, thereby suspending the next general election indefinitely as the country's elections were now declared obsolete.",
+   "page": "2026 in politics",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+   "id": 3424,
+   "score": 0.7639
+  },
+  {
+   "text": "Nicaraguan co-president Daniel Ortega announces an end to elections within Nicaragua.",
+   "page": "2026",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "id": 153,
+   "score": 0.7116
+  },
+  {
+   "text": "The 2026 Guinea-Bissau general election is scheduled to be held.",
+   "page": "2026",
+   "section": "Predicted and scheduled events",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "id": 214,
+   "score": 0.5548
+  },
+  {
+   "text": "The 2026 Colombian parliamentary election was held.",
+   "page": "2026 in politics",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+   "id": 3383,
+   "score": 0.5537
+  },
+  {
+   "text": "December 5 – The 2026 Gambian presidential election is scheduled to be held.",
+   "page": "2026 in politics",
+   "section": "Predicted and scheduled events",
+   "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+   "id": 3448,
+   "score": 0.5388
+  }
+ ],
+ "queries": [
+  {
+   "query": "Nicaragua electoral system July 20, 2026",
+   "page": "",
+   "ids": [
+    3424,
+    153,
+    214,
+    3383,
+    3448
+   ]
+  }
+ ],
+ "cost": 0.00012158999999999955,
  "searches": 1
 }

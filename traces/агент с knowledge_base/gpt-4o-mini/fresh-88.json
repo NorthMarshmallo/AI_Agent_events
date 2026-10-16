@@ -1,6 +1,60 @@
 {
- "answer": "The boat capsizing in Japan in March 2026 occurred off Henoko, Okinawa Prefecture. FINAL: Henoko, Okinawa Prefecture",
- "hits": [],
- "cost": 0.00012136000000000004,
+ "answer": "The boat capsizing in Japan in March 2026 occurred off Henoko, Okinawa Prefecture, resulting in the deaths of two people. \n\nFINAL: Henoko, Okinawa Prefecture",
+ "hits": [
+  {
+   "page": "2026 in Japan",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "text": "March 16 – Two boats carrying high school students on a field trip capsize off Henoko, Okinawa Prefecture, killing two people.",
+   "id": 1524,
+   "score": 0.6385
+  },
+  {
+   "page": "2026 in Japan",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "text": "May 14 – A ship dismantling plant in Kure, Hiroshima catches fire, resulting in the evacuation of 650 people.",
+   "id": 1556,
+   "score": 0.6094
+  },
+  {
+   "page": "2026 in Japan",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "text": "February 12 – The Fisheries Agency seizes a Chinese fishing boat and its 11 crew inside the Exclusive economic zone of Japan off the coast of Nagasaki Prefecture.",
+   "id": 1508,
+   "score": 0.5984
+  },
+  {
+   "page": "2026 in Japan",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "text": "A fishing boat sinks after being struck by a cargo vessel off the coast of Mie Prefecture, killing two people and injuring 10 others.",
+   "id": 1514,
+   "score": 0.5957
+  },
+  {
+   "page": "2026 in Japan",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "text": "A liquefied natural gas (LNG) oil tanker registered in Japan crosses the Strait of Hormuz for the first since the outbreak of the 2026 Iran war.",
+   "id": 1536,
+   "score": 0.5892
+  }
+ ],
+ "queries": [
+  {
+   "query": "boat capsizing Japan March 2026",
+   "page": "",
+   "ids": [
+    1524,
+    1556,
+    1508,
+    1514,
+    1536
+   ]
+  }
+ ],
+ "cost": 0.00012676000000000007,
  "searches": 1
 }

@@ -1,6 +1,60 @@
 {
  "answer": "V. D. Satheesan is elected as the Chief Minister of Kerala in May 2026. \n\nFINAL: Chief Minister of Kerala",
- "hits": [],
- "cost": 0.0001158899999999999,
+ "hits": [
+  {
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "14 May – V. D. Satheesan is elected as the Chief Minister of Kerala.",
+   "page": "2026 in India",
+   "id": 1227,
+   "score": 0.7696
+  },
+  {
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "2026 Kerala Legislative Assembly election: The UDF wins a majority of seats in the Kerala Legislative Assembly.",
+   "page": "2026 in India",
+   "id": 1204,
+   "score": 0.5791
+  },
+  {
+   "section": "Deaths",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "V. K. Ebrahimkunju, 73, politician, Kerala MLA (2011–2021).",
+   "page": "2026 in India",
+   "id": 1308,
+   "score": 0.5589
+  },
+  {
+   "section": "Deaths",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "30 June – P. A. Madhavan, 79, Kerala MLA (2011–2016).",
+   "page": "2026 in India",
+   "id": 1349,
+   "score": 0.5429
+  },
+  {
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "2026 Puducherry Legislative Assembly election",
+   "page": "2026 in India",
+   "id": 1205,
+   "score": 0.5314
+  }
+ ],
+ "queries": [
+  {
+   "query": "V. D. Satheesan Kerala May 2026",
+   "page": "",
+   "ids": [
+    1227,
+    1204,
+    1308,
+    1349,
+    1205
+   ]
+  }
+ ],
+ "cost": 0.00011589000000000022,
  "searches": 1
 }

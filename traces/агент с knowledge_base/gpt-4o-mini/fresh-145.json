@@ -1,6 +1,60 @@
 {
  "answer": "Tatsuya Nagamine died on August 20, 2025, after a year-long illness. \n\nFINAL: August 20, 2025",
- "hits": [],
- "cost": 0.00013647000000000008,
+ "hits": [
+  {
+   "page": "Tatsuya Nagamine",
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/Tatsuya_Nagamine",
+   "text": "Died | August 20, 2025 (2025-08-20) (aged 53)",
+   "id": 6486,
+   "score": 0.8618
+  },
+  {
+   "page": "Tatsuya Nagamine",
+   "section": "Death",
+   "url": "https://en.wikipedia.org/wiki/Tatsuya_Nagamine",
+   "text": "He died on 20 August, 2025, after a year-long battle with an undisclosed illness. His death was not publicly disclosed until November 13, when a memorial service was held at Toei's studio in Higashi-Ōizumi, Nerima, Tokyo, and was announced on X by several of his colleagues. Nagamine's family followed by posting an announcement on his account.",
+   "id": 6489,
+   "score": 0.8056
+  },
+  {
+   "page": "Tatsuya Nagamine",
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/Tatsuya_Nagamine",
+   "text": "Tatsuya Nagamine (長峯 達也, Nagamine Tatsuya; October 6, 1971 – August 20, 2025) was a Japanese anime director who worked for Toei Animation.",
+   "id": 6488,
+   "score": 0.686
+  },
+  {
+   "page": "Tatsuya Nagamine",
+   "section": "External links",
+   "url": "https://en.wikipedia.org/wiki/Tatsuya_Nagamine",
+   "text": "Tatsuya Nagamine at Anime News Network 's encyclopedia",
+   "id": 6504,
+   "score": 0.6179
+  },
+  {
+   "page": "2026 in Japan",
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "text": "August 21 – Sunao Takami, who killed five people in a 2009 arson attack at a pachinko shop in Konohana-ku, Osaka, becomes the first person to be executed under the Takaichi administration.",
+   "id": 1594,
+   "score": 0.541
+  }
+ ],
+ "queries": [
+  {
+   "query": "Tatsuya Nagamine death date",
+   "page": "",
+   "ids": [
+    6486,
+    6489,
+    6488,
+    6504,
+    1594
+   ]
+  }
+ ],
+ "cost": 0.00013423999999999988,
  "searches": 1
 }

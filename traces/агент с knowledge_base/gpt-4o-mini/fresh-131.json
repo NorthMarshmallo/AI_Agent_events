@@ -1,6 +1,60 @@
 {
  "answer": "At GTC 2026, Nvidia, EMBL, Google DeepMind, and Seoul National University announced the addition of 1.7 million new predicted protein complexes to the AlphaFold Protein Structure Database. \n\nFINAL: 1.7 million",
- "hits": [],
- "cost": 0.00018035000000000013,
+ "hits": [
+  {
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+   "text": "Announced at GTC, a new collaboration between Nvidia, European Molecular Biology Laboratory (EMBL), Google DeepMind and Seoul National University, has contributed 1.7 million new predicted protein complexes to the AlphaFold Protein Structure Database. 30 million additional predicted structures have been made available for bulk download. The expansion removes a massive computational barrier for researchers, particularly those in limited super computing environments.",
+   "page": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences",
+   "section": "",
+   "id": 5688,
+   "score": 0.7669
+  },
+  {
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+   "text": "Concurrently, Nvidia unveiled a new protein design reasoning model, Proteina-Complexa, which generates binders for structure-based drug discovery. One million designed protein binders were experimentally validated against over 130 targets in an expansive collaboration with Manifold Bio, Novo Nordisk, Viva Biotech, University of Cambridge, LMU Munich, and Duke University. The model combines the partially latent flow matching architecture of its predecessor, La-Proteina, with test-time compute scaling to iteratively optimize designs.",
+   "page": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences",
+   "section": "",
+   "id": 5689,
+   "score": 0.5939
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_science",
+   "text": "28 January – Researchers at Google DeepMind publish a study on AlphaGenome, a deep learning model that predicts the functional effects of genetic variants across multiple regulatory modalities from long DNA sequences, improving interpretation of non-coding regions of the genome.",
+   "page": "2026 in science",
+   "section": "January",
+   "id": 3697,
+   "score": 0.552
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+   "text": "Organizations | AI21 Labs Alibaba Anthropic Baidu Cohere DeepSeek EleutherAI Google DeepMind Hugging Face Meta AI Microsoft AI Mistral AI MiniMax Moonshot AI Nvidia OpenAI OpenRouter Sarvam AI StepFun Technology Innovation Institute Thinking Machines Lab xAI",
+   "page": "DeepSeek (chatbot)",
+   "section": "External links",
+   "id": 5760,
+   "score": 0.5202
+  },
+  {
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+   "text": "Among the key announcements at GTC was NemoClaw, an enterprise optimized version of OpenClaw that adds privacy and security controls, enabling organizations to deploy AI agents more safely at scale.",
+   "page": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences",
+   "section": "",
+   "id": 5678,
+   "score": 0.5162
+  }
+ ],
+ "queries": [
+  {
+   "query": "AlphaFold Protein Structure Database GTC 2026 Nvidia EMBL Google DeepMind Seoul National University",
+   "page": "",
+   "ids": [
+    5688,
+    5689,
+    3697,
+    5760,
+    5678
+   ]
+  }
+ ],
+ "cost": 0.000178,
  "searches": 1
 }

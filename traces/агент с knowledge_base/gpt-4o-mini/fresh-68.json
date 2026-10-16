@@ -1,6 +1,60 @@
 {
  "answer": "The Canadian Prime Minister who announced a deal with India in March 2026 is Mark Carney. \n\nFINAL: Mark Carney",
- "hits": [],
- "cost": 0.0001263499999999999,
+ "hits": [
+  {
+   "page": "2026 in India",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "2 March – Prime Minister Narendra Modi and Canadian Prime Minister Mark Carney announce that Canada and India have agreed to a deal that would strengthen their economic partnership, in a move aimed at boosting ties after two years of strained relationship between the two countries.",
+   "id": 1173,
+   "score": 0.7553
+  },
+  {
+   "page": "2026 in Canada",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "Canada and India sign multiple deals in multiple areas and sectors, totaling $5.5 billion CAD, with a goal to sign a more comprehensive trade deal by December.",
+   "id": 652,
+   "score": 0.7385
+  },
+  {
+   "page": "2026 in Canada",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "Canada reaches an agreement with India to expand the export of oil and gas to the country.",
+   "id": 626,
+   "score": 0.6831
+  },
+  {
+   "page": "2026 in Canada",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "January 16 – Canada reaches a trade deal with China that eliminates or lowers Chinese tariffs on canola and other products, with Canada allowing the import of a limited quantity of Chinese-made electric vehicles into the country.",
+   "id": 618,
+   "score": 0.6283
+  },
+  {
+   "page": "2026 in Canada",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "January 12–17 – Carney travels to China to meet with president Xi Jinping, premier Li Qiang and other government leaders for the first visit to China by a sitting Prime Minister since 2017.",
+   "id": 613,
+   "score": 0.5942
+  }
+ ],
+ "queries": [
+  {
+   "query": "Canadian Prime Minister deal with India March 2026",
+   "page": "",
+   "ids": [
+    1173,
+    652,
+    626,
+    618,
+    613
+   ]
+  }
+ ],
+ "cost": 0.00012635,
  "searches": 1
 }

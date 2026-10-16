@@ -1,6 +1,60 @@
 {
  "answer": "On July 15, 2026, President Zelenskyy dismissed Mykhailo Fedorov as the defence minister of Ukraine, which led to nationwide protests. \n\nFINAL: Mykhailo Fedorov",
- "hits": [],
+ "hits": [
+  {
+   "page": "2026 in Ukraine",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "15 July – Dismissal of Mykhailo Fedorov: President Zelenskyy dismisses defence minister Mykhailo Fedorov, sparking nationwide protests.",
+   "id": 2279,
+   "score": 0.671
+  },
+  {
+   "page": "2026 in Ukraine",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "9 January – Defense Minister Denys Shmyhal and Deputy Prime Minister and Digital Transformation Minister Mykhailo Fedorov resign.",
+   "id": 2245,
+   "score": 0.6672
+  },
+  {
+   "page": "2026 in Ukraine",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "14 July – Yulia Svyrydenko resigns as prime minister as part of a cabinet reshuffle by president Zelenskyy.",
+   "id": 2278,
+   "score": 0.6494
+  },
+  {
+   "page": "2026 in Ukraine",
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "19 August – The Verkhovna Rada approves the appointment of Yevhenii Khmara as defense minister.",
+   "id": 2285,
+   "score": 0.6352
+  },
+  {
+   "page": "2026 in Ukraine",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "President Zelenskyy appoints former Canadian deputy prime minister Chrystia Freeland as an economic development adviser.",
+   "id": 2244,
+   "score": 0.5961
+  }
+ ],
+ "queries": [
+  {
+   "query": "defence minister dismissed Ukraine July 15 2026",
+   "page": "",
+   "ids": [
+    2279,
+    2245,
+    2278,
+    2285,
+    2244
+   ]
+  }
+ ],
  "cost": 0.00013012000000000006,
  "searches": 1
 }

@@ -1,6 +1,60 @@
 {
  "answer": "The Evansville Thunderbolts won three games to secure the President's Cup title in May 2026, defeating the Peoria Rivermen three games to two. \n\nFINAL: 3",
- "hits": [],
- "cost": 0.00013423000000000016,
+ "hits": [
+  {
+   "page": "2026 in ice hockey",
+   "section": "Minor league professional (AHL/ECHL/SPHL)",
+   "url": "https://en.wikipedia.org/wiki/2026_in_ice_hockey",
+   "text": "May 9: The Evansville Thunderbolts defeat the Peoria Rivermen three games to two to win their second consecutive and second overall President's Cup title.",
+   "id": 3242,
+   "score": 0.7893
+  },
+  {
+   "page": "2026 in ice hockey",
+   "section": "Minor league professional (AHL/ECHL/SPHL)",
+   "url": "https://en.wikipedia.org/wiki/2026_in_ice_hockey",
+   "text": "April 8 – May 9: 2026 President's Cup playoffs",
+   "id": 3241,
+   "score": 0.5557
+  },
+  {
+   "page": "2026 in ice hockey",
+   "section": "Minor league professional (AHL/ECHL/SPHL)",
+   "url": "https://en.wikipedia.org/wiki/2026_in_ice_hockey",
+   "text": "October 17, 2024 – April 19: 2025–26 ECHL season",
+   "id": 3234,
+   "score": 0.5047
+  },
+  {
+   "page": "2026 in ice hockey",
+   "section": "Junior (OHL/QMJHL/USHL/WHL)",
+   "url": "https://en.wikipedia.org/wiki/2026_in_ice_hockey",
+   "text": "May 22 – 31: 2026 Memorial Cup at Prospera Place in Kelowna",
+   "id": 3258,
+   "score": 0.5023
+  },
+  {
+   "page": "2026 in ice hockey",
+   "section": "Junior (OHL/QMJHL/USHL/WHL)",
+   "url": "https://en.wikipedia.org/wiki/2026_in_ice_hockey",
+   "text": "Anderson Cup and Eastern Conference winners: Youngstown Phantoms",
+   "id": 3244,
+   "score": 0.4962
+  }
+ ],
+ "queries": [
+  {
+   "query": "Evansville Thunderbolts President's Cup title May 2026",
+   "page": "",
+   "ids": [
+    3242,
+    3241,
+    3234,
+    3258,
+    3244
+   ]
+  }
+ ],
+ "cost": 0.00013423000000000005,
  "searches": 1
 }

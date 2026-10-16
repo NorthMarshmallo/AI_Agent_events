@@ -1,6 +1,60 @@
 {
  "answer": "Fourteen people were killed in the fire at a car parts factory in Daejeon in March 2026. \n\nFINAL: 14",
- "hits": [],
+ "hits": [
+  {
+   "page": "2026 in South Korea",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+   "text": "20 March – Fourteen people are killed in a fire at a car parts factory in Daejeon.",
+   "id": 2049,
+   "score": 0.6973
+  },
+  {
+   "page": "2026 in South Korea",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+   "text": "1 June – An explosion hits a factory operated by Hanwha Aerospace in Daejeon, killing five people.",
+   "id": 2056,
+   "score": 0.6158
+  },
+  {
+   "page": "2026 in South Korea",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+   "text": "A massive fire breaks out at Guryong Village in Gangnam, Seoul.",
+   "id": 2037,
+   "score": 0.5754
+  },
+  {
+   "page": "2026 in China",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_China",
+   "text": "9 July — A fire at a shoe factory in Jinjiang, Quanzhou kills 28 people.",
+   "id": 886,
+   "score": 0.5426
+  },
+  {
+   "page": "2026 in Japan",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "text": "May 14 – A ship dismantling plant in Kure, Hiroshima catches fire, resulting in the evacuation of 650 people.",
+   "id": 1556,
+   "score": 0.4911
+  }
+ ],
+ "queries": [
+  {
+   "query": "Daejeon factory fire March 2026",
+   "page": "",
+   "ids": [
+    2049,
+    2056,
+    2037,
+    886,
+    1556
+   ]
+  }
+ ],
  "cost": 0.00011705000000000005,
  "searches": 1
 }

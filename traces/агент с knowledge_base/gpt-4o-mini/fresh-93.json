@@ -1,6 +1,60 @@
 {
- "answer": "Spain wins the 2026 FIFA World Cup on July 19, 2026, defeating Argentina 1–0 in the final. \n\nFINAL: Spain",
- "hits": [],
- "cost": 0.0001418700000000001,
+ "answer": "Spain wins the 2026 FIFA World Cup on July 19, 2026, defeating Argentina 1–0 in the final. FINAL: Spain",
+ "hits": [
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "text": "The following awards were presented at the end of the tournament.",
+   "page": "2026 FIFA World Cup",
+   "section": "Awards",
+   "id": 294,
+   "score": 0.6727
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "text": "In March and April 2025, FIFA unveiled a set of 16 posters representing each of the 2026 World Cup host cities. The posters, designed by local artists, were intended to reflect the \"distinct identity and heritage\" of each city. On March 3, 2026, the official poster for the tournament was unveiled. It was created by Carson Ting of Canada, Minerva GM of Mexico, and Hank Willis Thomas of the United States.",
+   "page": "2026 FIFA World Cup",
+   "section": "Branding",
+   "id": 305,
+   "score": 0.6639
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "text": "The 2026 FIFA World Cup was the 23rd FIFA World Cup, the quadrennial international men's soccer championship contested by the national teams of the member associations of FIFA. The tournament began on June 11, 2026, and concluded on July 19 with Spain winning the championship for the second time. It was jointly hosted by 16 cities—11 in the United States, 3 in Mexico, and 2 in Canada. The tournament was the first FIFA World Cup to be hosted by three countries and the first to include 48 teams, an expansion from the previous 32-team format.",
+   "page": "2026 FIFA World Cup",
+   "section": "",
+   "id": 220,
+   "score": 0.6623
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+   "text": "19 July – Spain wins the 2026 FIFA World Cup after defeating Argentina 1–0 at the final.",
+   "page": "2026 in Spain",
+   "section": "July",
+   "id": 2133,
+   "score": 0.6439
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "text": "Golden Ball: Awarded to the best overall player of the tournament.",
+   "page": "2026 FIFA World Cup",
+   "section": "Awards",
+   "id": 295,
+   "score": 0.6384
+  }
+ ],
+ "queries": [
+  {
+   "query": "2026 FIFA World Cup winner",
+   "page": "",
+   "ids": [
+    294,
+    305,
+    220,
+    2133,
+    295
+   ]
+  }
+ ],
+ "cost": 0.00014127000000000041,
  "searches": 1
 }

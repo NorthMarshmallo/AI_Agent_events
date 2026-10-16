@@ -1,6 +1,60 @@
 {
- "answer": "In 2025, Viktor Kuzmenko, a rescuer and civil defense officer, and Oleksandr Dovhach, a military pilot, were both recognized as Heroes of Ukraine. \n\nFINAL: Viktor Kuzmenko and Oleksandr Dovhach.",
- "hits": [],
- "cost": 0.00013947000000000005,
+ "answer": "In 2025, Viktor Kuzmenko, a rescuer and civil defense officer, and Oleksandr Dovhach, a military pilot, were recognized as Heroes of Ukraine. \n\nFINAL: Viktor Kuzmenko and Oleksandr Dovhach.",
+ "hits": [
+  {
+   "page": "2026 in Ukraine",
+   "section": "Deaths",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "Viktor Kuzmenko, rescuer and civil defense officer, Hero of Ukraine (2025).",
+   "id": 2311,
+   "score": 0.7104
+  },
+  {
+   "page": "2026 in Ukraine",
+   "section": "Deaths",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "9 March – Oleksandr Dovhach, military pilot, Hero of Ukraine (2025).",
+   "id": 2301,
+   "score": 0.6948
+  },
+  {
+   "page": "2026 in Ukraine",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "19 June – Polish president Karol Nawrocki strips president Zelenskyy of the Order of the White Eagle, Poland's highest state honour, after Zelenskyy honored a special operations forces unit with the name \"Heroes of the Ukrainian Insurgent Army\", a Nazi-collaborating organization that conducted massacres against Poles in Volhynia and Eastern Galicia.",
+   "id": 2277,
+   "score": 0.5581
+  },
+  {
+   "page": "2026 in Ukraine",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "2 February – Ukraine designates the Iranian Islamic Revolutionary Guard Corps as a terrorist organization for its role in crackdown of the 2025–2026 Iranian protests and support for Russia in the Russian invasion of Ukraine.",
+   "id": 2250,
+   "score": 0.5395
+  },
+  {
+   "page": "2026 in Ukraine",
+   "section": "Deaths",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "14 February – Serhiy Petrov, 28, soldier and footballer (Volyn Lutsk, Ahrobiznes Volochysk, Zirka Kropyvnytskyi).",
+   "id": 2295,
+   "score": 0.5144
+  }
+ ],
+ "queries": [
+  {
+   "query": "Hero of Ukraine 2025",
+   "page": "",
+   "ids": [
+    2311,
+    2301,
+    2277,
+    2250,
+    2295
+   ]
+  }
+ ],
+ "cost": 0.00013886999999999992,
  "searches": 1
 }

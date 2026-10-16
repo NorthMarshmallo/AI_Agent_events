@@ -1,6 +1,60 @@
 {
  "answer": "At least 129 people were killed and nearly 1,300 injured when a magnitude 7.7 earthquake struck off the island of Flores, Indonesia on August 15, 2026. \n\nFINAL: 129",
- "hits": [],
+ "hits": [
+  {
+   "page": "2026",
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "August 15 – At least 129 people are killed and nearly 1,300 injured when a magnitude 7.7 earthquake strikes off the island of Flores, Indonesia.",
+   "id": 168,
+   "score": 0.7262
+  },
+  {
+   "page": "2026",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "June 8 – A powerful magnitude 7.8 earthquake strikes the Philippines, the strongest in the country since 1976. 107 are killed and 1,319 are injured.",
+   "id": 126,
+   "score": 0.4979
+  },
+  {
+   "page": "2026",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "January 24 – At least 70 people are killed and 10 others missing after major landslides in West Java, Indonesia.",
+   "id": 32,
+   "score": 0.4845
+  },
+  {
+   "page": "2026 in Japan",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "text": "July 8 – A house and a road is destroyed following a landslide in Koka, Shiga.",
+   "id": 1575,
+   "score": 0.4815
+  },
+  {
+   "page": "2026 in Japan",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "text": "A magnitude 5.9 earthquake strikes southern Amami, Kagoshima.",
+   "id": 1560,
+   "score": 0.4728
+  }
+ ],
+ "queries": [
+  {
+   "query": "earthquake Flores Indonesia August 15 2026",
+   "page": "",
+   "ids": [
+    168,
+    126,
+    32,
+    1575,
+    1560
+   ]
+  }
+ ],
  "cost": 0.00013069999999999998,
  "searches": 1
 }

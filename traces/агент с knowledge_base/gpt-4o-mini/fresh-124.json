@@ -1,6 +1,60 @@
 {
  "answer": "The city in Germany that experienced a nightclub fire in March 2026 is Kehl, Baden-Württemberg. FINAL: Kehl",
- "hits": [],
- "cost": 0.00012299,
+ "hits": [
+  {
+   "page": "2026 in Germany",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+   "text": "29 March – A nightclub burns down in Kehl, Baden-Württemberg. All 750 people inside are evacuated, three of whom are treated for shock.",
+   "id": 1059,
+   "score": 0.6137
+  },
+  {
+   "page": "2026 in Germany",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+   "text": "3 January – An arson attack on cables in Berlin causes a blackout affecting 40,000 households. Left-wing Vulkangruppe (Volcano Group) claims responsibility and calls it a protest against fossil fuel usage and AI data centers.",
+   "id": 1038,
+   "score": 0.4273
+  },
+  {
+   "page": "2026 in Germany",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+   "text": "1 January – Two people are killed in fireworks-related incidents during New Year's celebrations in Bielefeld.",
+   "id": 1037,
+   "score": 0.3806
+  },
+  {
+   "page": "2026 in Germany",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+   "text": "3 February – Two people are arrested on suspicion of plotting to sabotage several corvettes destined for the German Navy at a shipyard in Hamburg in 2025.",
+   "id": 1048,
+   "score": 0.373
+  },
+  {
+   "page": "2026 in Germany",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+   "text": "A meteorite strikes a roof of a house in Koblenz, Rhineland-Palatinate. No one is injured.",
+   "id": 1055,
+   "score": 0.3666
+  }
+ ],
+ "queries": [
+  {
+   "query": "nightclub fire March 2026",
+   "page": "2026 in Germany",
+   "ids": [
+    1059,
+    1038,
+    1037,
+    1048,
+    1055
+   ]
+  }
+ ],
+ "cost": 0.00012299000000000012,
  "searches": 1
 }

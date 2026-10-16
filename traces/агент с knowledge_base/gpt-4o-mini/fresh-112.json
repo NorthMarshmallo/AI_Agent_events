@@ -1,6 +1,60 @@
 {
  "answer": "On May 19, 2026, ESA (European Space Agency) and CAS (Chinese Academy of Sciences) launched their joint heliophysics mission called SMILE. This mission aims to study the dynamic interaction between solar wind and Earth's magnetosphere. The spacecraft reached its final science orbit on June 20, 2026.\n\nFINAL: SMILE mission",
- "hits": [],
- "cost": 0.00017117999999999994,
+ "hits": [
+  {
+   "page": "2026 in spaceflight",
+   "section": "Astronomy and astrophysics",
+   "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+   "text": "On 19 May, ESA and CAS launched their joint heliophysics mission SMILE to study the dynamic interaction between solar wind and Earth's magnetosphere. The spacecraft reached its final science orbit on 20 June.",
+   "id": 3782,
+   "score": 0.6044
+  },
+  {
+   "page": "2026 in spaceflight",
+   "section": "Satellite technology",
+   "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+   "text": "On 31 August and 1 September, ESA sent a small airplane to observe the destructive reentries of the last two satellites of the magnetospheric mission Cluster II. To better coordinate the aerial observation campaign, ESA commanded the satellites in late January 2026 to slightly alter their orbits so they would reenter closer to each other. This initiative was part of ESA Space Safety Programme's efforts to reduce the risks of space debris and served as precursor to the Draco mission planned for 2027.",
+   "id": 3822,
+   "score": 0.5717
+  },
+  {
+   "page": "2026 in spaceflight",
+   "section": "Astronomy and astrophysics",
+   "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+   "text": "On 11 January, NASA launched the Pandora small space telescope to study exoplanet atmospheres. The same Falcon 9 flight also carried two CubeSat-type space telescopes by NASA: SPARCS and BlackCAT, alongside other payloads. Pandora completed its commissioning phase and started scientific observations in August 2026.",
+   "id": 3780,
+   "score": 0.5598
+  },
+  {
+   "page": "2026 in spaceflight",
+   "section": "Solar system exploration",
+   "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+   "text": "The joint ESA-JAXA mission BepiColombo is expected to enter orbit around Mercury in late 2026. The arrival operations began on 3 September 2026 with the separation of the propulsion module from the remaining spacecraft.",
+   "id": 3789,
+   "score": 0.5502
+  },
+  {
+   "page": "2026 in spaceflight",
+   "section": "Solar system exploration",
+   "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+   "text": "In November, NASA's twin ESCAPADE spacecraft are expected to perform a gravity assist maneuver at Earth that will send them towards Mars.",
+   "id": 3793,
+   "score": 0.5418
+  }
+ ],
+ "queries": [
+  {
+   "query": "ESA CAS mission May 19 2026",
+   "page": "",
+   "ids": [
+    3782,
+    3822,
+    3780,
+    3789,
+    3793
+   ]
+  }
+ ],
+ "cost": 0.0001681800000000004,
  "searches": 1
 }

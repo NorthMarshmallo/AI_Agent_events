@@ -1,6 +1,60 @@
 {
  "answer": "The 2026 Major League Baseball All-Star Game was held at Citizens Bank Park in Philadelphia, Pennsylvania. \n\nFINAL: Citizens Bank Park, Philadelphia, Pennsylvania",
- "hits": [],
- "cost": 0.00011640999999999995,
+ "hits": [
+  {
+   "section": "Major League Baseball",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "July 14: 2026 Major League Baseball All-Star Game at Citizens Bank Park in Philadelphia, Pennsylvania",
+   "page": "2026 in sports",
+   "id": 3970,
+   "score": 0.7202
+  },
+  {
+   "section": "National Hockey League",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "March 2026: 2026 National Hockey League All-Star Game",
+   "page": "2026 in sports",
+   "id": 4170,
+   "score": 0.7037
+  },
+  {
+   "section": "Major League Baseball",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "July 12–13: 2026 Major League Baseball draft in Philadelphia, Pennsylvania",
+   "page": "2026 in sports",
+   "id": 3969,
+   "score": 0.6366
+  },
+  {
+   "section": "Major League Baseball",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "March 26 – September 27: 2026 Major League Baseball season",
+   "page": "2026 in sports",
+   "id": 3968,
+   "score": 0.6191
+  },
+  {
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "March 5–17 – The 2026 World Baseball Classic is held in the United States, including Puerto Rico, as well as in Japan. The championship game is held at LoanDepot Park in Miami.",
+   "page": "2026 in the United States",
+   "id": 5148,
+   "score": 0.6134
+  }
+ ],
+ "queries": [
+  {
+   "query": "2026 Major League Baseball All-Star Game",
+   "page": "",
+   "ids": [
+    3970,
+    4170,
+    3969,
+    3968,
+    5148
+   ]
+  }
+ ],
+ "cost": 0.00011641000000000006,
  "searches": 1
 }

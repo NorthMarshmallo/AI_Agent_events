@@ -1,6 +1,60 @@
 {
  "answer": "GPT-5 was launched by OpenAI on August 7, 2025. \n\nFINAL: August 7, 2025",
- "hits": [],
- "cost": 0.00031153000000000083,
- "searches": 2
+ "hits": [
+  {
+   "page": "GPT-5",
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/GPT-5",
+   "text": "Release | August 7, 2025; 13 months ago (2025-08-07)",
+   "id": 6078,
+   "score": 0.8041
+  },
+  {
+   "page": "GPT-5",
+   "section": "Background",
+   "url": "https://en.wikipedia.org/wiki/GPT-5",
+   "text": "On July 18, OpenAI filed for a \"GPT-5\" trademark in the United States. On November 13, Altman confirmed to the Financial Times that the company was working to develop GPT-5.",
+   "id": 6102,
+   "score": 0.6715
+  },
+  {
+   "page": "GPT-5",
+   "section": "Background",
+   "url": "https://en.wikipedia.org/wiki/GPT-5",
+   "text": "By late July 2025, OpenAI was widely anticipated as planning to release GPT-5 in early August. On July 30, The Verge reported that \"Microsoft is getting ready for GPT-5\" as \"sources familiar with Microsoft's AI plans\" told an editor that the company was testing a new mode for its Copilot chatbot that would offer a model that \"thinks deeply or quickly based on the task\". On August 5, in the leadup to the release of GPT-5, OpenAI released GPT-OSS, a set of two open-weight models that have reasoning capabilities. GPT-5 was then unveiled during a livestream event on August 7.",
+   "id": 6104,
+   "score": 0.6566
+  },
+  {
+   "page": "GPT-5",
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/GPT-5",
+   "text": "GPT-5 is a multimodal large language model developed by OpenAI and the fifth in its series of generative pre-trained transformer (GPT) foundation models. Preceded in the series by GPT-4, it was launched on August 7, 2025. It is publicly accessible to users of the chatbot products ChatGPT and Microsoft Copilot as well as to developers through the OpenAI API.",
+   "id": 6086,
+   "score": 0.6566
+  },
+  {
+   "page": "GPT-5",
+   "section": "Use",
+   "url": "https://en.wikipedia.org/wiki/GPT-5",
+   "text": "GPT-5 is also available in Microsoft Copilot, and Microsoft stated that it will incorporate GPT-5 into a wide variety of its products. According to 9to5Mac, Apple Inc. is planning to integrate the model into the Apple Intelligence feature in its iOS 26, iPadOS 26, and macOS Tahoe operating systems. It is also accessible via the OpenAI API.",
+   "id": 6112,
+   "score": 0.6449
+  }
+ ],
+ "queries": [
+  {
+   "query": "GPT-5 launch date",
+   "page": "",
+   "ids": [
+    6078,
+    6102,
+    6104,
+    6086,
+    6112
+   ]
+  }
+ ],
+ "cost": 0.00014622000000000007,
+ "searches": 1
 }

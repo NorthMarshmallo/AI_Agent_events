@@ -1,6 +1,60 @@
 {
  "answer": "The outcome of the 2026 São Toméan presidential election held on July 19 was that incumbent nonpartisan President Carlos Vila Nova was re-elected for a second five-year term. \n\nFINAL: Carlos Vila Nova re-elected.",
- "hits": [],
+ "hits": [
+  {
+   "page": "2026",
+   "section": "Predicted and scheduled events",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "September 27 – The 2026 São Toméan parliamentary election is scheduled to be held.",
+   "id": 197,
+   "score": 0.802
+  },
+  {
+   "page": "2026 in politics",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+   "text": "July 19 – The 2026 São Toméan presidential election was held, with incumbent nonpartisan President Carlos Vila Nova re-elected for a second five-year term.",
+   "id": 3423,
+   "score": 0.7996
+  },
+  {
+   "page": "2026 in politics",
+   "section": "Predicted and scheduled events",
+   "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+   "text": "September 27 – The 2026 São Toméan parliamentary election is scheduled to be held.",
+   "id": 3438,
+   "score": 0.7964
+  },
+  {
+   "page": "2026",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "2026 São Toméan presidential election: Incumbent President Carlos Vila Nova is reelected for a second term.",
+   "id": 149,
+   "score": 0.68
+  },
+  {
+   "page": "2026",
+   "section": "Predicted and scheduled events",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "November 15 – The 2026 Cape Verdean presidential election is scheduled to be held.",
+   "id": 210,
+   "score": 0.6499
+  }
+ ],
+ "queries": [
+  {
+   "query": "2026 São Toméan presidential election July",
+   "page": "",
+   "ids": [
+    197,
+    3423,
+    3438,
+    149,
+    210
+   ]
+  }
+ ],
  "cost": 0.00012738000000000007,
  "searches": 1
 }

@@ -1,6 +1,65 @@
 {
  "answer": "NOT_FOUND",
- "hits": [],
+ "hits": [
+  {
+   "page": "2026 in science",
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/2026_in_science",
+   "text": "The following scientific events occurred, or are scheduled to occur in 2026.",
+   "id": 3680,
+   "score": 0.5194
+  },
+  {
+   "page": "2026 in sports",
+   "section": "National Basketball Association",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "October 21, 2025 – April 12: 2025–26 NBA season",
+   "id": 3987,
+   "score": 0.514
+  },
+  {
+   "page": "2026 in politics",
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+   "text": "The following political events have occurred or are scheduled to occur in 2026.",
+   "id": 3347,
+   "score": 0.51
+  },
+  {
+   "page": "2026",
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "2026 (MMXXVI) is the current year, and is a common year starting on Thursday of the Gregorian calendar, the 2026th year of the Common Era (CE) and Anno Domini (AD) designations, the 26th year of the 3rd millennium and the 21st century, and the 7th year of the 2020s decade.",
+   "id": 0,
+   "score": 0.5052
+  },
+  {
+   "page": "2026 in the United States",
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "The following is a list of events of the year 2026 in the United States, as well as predicted and scheduled events that have not yet occurred.",
+   "id": 5056,
+   "score": 0.5009
+  }
+ ],
+ "queries": [
+  {
+   "query": "January 11, 2026",
+   "page": "2026 in Benin",
+   "ids": []
+  },
+  {
+   "query": "January 11, 2026",
+   "page": "",
+   "ids": [
+    3680,
+    3987,
+    3347,
+    0,
+    5056
+   ]
+  }
+ ],
  "cost": 0.00016124,
  "searches": 2
 }

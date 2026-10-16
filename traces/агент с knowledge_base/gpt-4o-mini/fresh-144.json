@@ -1,6 +1,60 @@
 {
- "answer": "Veteran anime voice actor Takaya Hashi died at the age of 72 on 27 August 2025. \n\nFINAL: 72",
- "hits": [],
+ "answer": "Veteran anime voice actor Takaya Hashi died on 27 August 2025 at the age of 72. \n\nFINAL: 72",
+ "hits": [
+  {
+   "page": "Takaya Hashi",
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/Takaya_Hashi",
+   "text": "Died | 27 August 2025 (2025-08-27) (aged 72)",
+   "id": 6443,
+   "score": 0.8715
+  },
+  {
+   "page": "Takaya Hashi",
+   "section": "Life and career",
+   "url": "https://en.wikipedia.org/wiki/Takaya_Hashi",
+   "text": "Hashi died from a heart attack on 27 August 2025, at the age of 72.",
+   "id": 6454,
+   "score": 0.8473
+  },
+  {
+   "page": "Takaya Hashi",
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/Takaya_Hashi",
+   "text": "Born | Takaya Katō (1952-09-08) 8 September 1952",
+   "id": 6442,
+   "score": 0.7058
+  },
+  {
+   "page": "Takaya Hashi",
+   "section": "Life and career",
+   "url": "https://en.wikipedia.org/wiki/Takaya_Hashi",
+   "text": "Takaya Hashi, a native of Tokyo, was born on 8 September 1952. He graduated from Musashi Institute of Technology High School [ ja ] and Toho Gakuen College of Drama and Music Department of Arts, where he was a theatre major.",
+   "id": 6448,
+   "score": 0.6336
+  },
+  {
+   "page": "Takaya Hashi",
+   "section": "Life and career",
+   "url": "https://en.wikipedia.org/wiki/Takaya_Hashi",
+   "text": "Despite his advanced age, Hashi remained in voice acting during his senior years, and his voice acting career lasted several decades. Joshua Fox of Screen Rant called Hashi a \"true anime legend\", citing his deep voice and ability to improve even at an advanced age. Robert Ito of The New York Times called Hashi \"[one] of Japan's top voice actors\".",
+   "id": 6452,
+   "score": 0.6325
+  }
+ ],
+ "queries": [
+  {
+   "query": "Takaya Hashi death age",
+   "page": "",
+   "ids": [
+    6443,
+    6454,
+    6442,
+    6448,
+    6452
+   ]
+  }
+ ],
  "cost": 0.00013483999999999979,
  "searches": 1
 }

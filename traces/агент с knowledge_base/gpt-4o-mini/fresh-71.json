@@ -1,6 +1,60 @@
 {
  "answer": "The name of the 14-year-old involved in the school stabbing in Kyiv on January 12, 2026, is Nikita Solovyov. \n\nFINAL: Nikita Solovyov",
- "hits": [],
- "cost": 0.00012664999999999985,
+ "hits": [
+  {
+   "page": "2026 in Ukraine",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "12 January – 2026 Kyiv school stabbing: 14-year-old Nikita Solovyov stabs and injures two people at a school in Kyiv.",
+   "id": 2246,
+   "score": 0.8153
+  },
+  {
+   "page": "2026 in Ukraine",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "18 April – Six people, including the gunman, are killed in a mass shooting and hostage crisis at a supermarket in Kyiv.",
+   "id": 2266,
+   "score": 0.6577
+  },
+  {
+   "page": "2026 in Russia",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+   "text": "4 February – Six people are injured in a combined arson and hammer attack by a student inside a school in Krasnoyarsk Krai.",
+   "id": 1844,
+   "score": 0.6022
+  },
+  {
+   "page": "2026 in Turkey",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "2 March – The Çekmeköy school stabbing occurs, where a 17-year-old student stabbed two teachers and another student.",
+   "id": 2188,
+   "score": 0.5989
+  },
+  {
+   "page": "2026 in France",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_France",
+   "text": "3 February – A teacher is critically injured in a stabbing by a pupil inside a school in Toulon.",
+   "id": 927,
+   "score": 0.5956
+  }
+ ],
+ "queries": [
+  {
+   "query": "Kyiv school stabbing January 12 2026",
+   "page": "",
+   "ids": [
+    2246,
+    2266,
+    1844,
+    2188,
+    927
+   ]
+  }
+ ],
+ "cost": 0.00012905000000000034,
  "searches": 1
 }

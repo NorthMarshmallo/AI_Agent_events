@@ -1,6 +1,60 @@
 {
  "answer": "An F-16 Fighting Falcon of the Turkish Air Force crashed in Yalova Province, Turkey on August 13, 2026. The pilot ejected safely. \n\nFINAL: F-16 Fighting Falcon",
- "hits": [],
- "cost": 0.0001331799999999999,
+ "hits": [
+  {
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "13 August – An F-16 Fighting Falcon of the Turkish Air Force crashes in Yalova Province. The pilot ejects safely.",
+   "page": "2026 in Turkey",
+   "id": 2217,
+   "score": 0.6722
+  },
+  {
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "25 February – An F-16 fighter jet of the Turkish Air Force crashes shortly after takeoff near a section of Otoyol 5 in Balıkesir, killing the pilot.",
+   "page": "2026 in Turkey",
+   "id": 2187,
+   "score": 0.6231
+  },
+  {
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+   "text": "An Antonov An-26 transport aircraft of the Russian Air Force crashes into a cliff in Crimea, killing all 30 on board.",
+   "page": "2026 in Russia",
+   "id": 1879,
+   "score": 0.5431
+  },
+  {
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "31 May – A bus crashes into highway barriers and catches fire in Denizli Province, killing eight people and injuring 33 others.",
+   "page": "2026 in Turkey",
+   "id": 2207,
+   "score": 0.5249
+  },
+  {
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "A boat carrying migrants collides with a Turkish Coast Guard vessel off Demre, Antalya Province, killing 14 passengers.",
+   "page": "2026 in Turkey",
+   "id": 2190,
+   "score": 0.5207
+  }
+ ],
+ "queries": [
+  {
+   "query": "aircraft crash Yalova Province Turkey August 13 2026",
+   "page": "",
+   "ids": [
+    2217,
+    2187,
+    1879,
+    2207,
+    2190
+   ]
+  }
+ ],
+ "cost": 0.0001331800000000001,
  "searches": 1
 }

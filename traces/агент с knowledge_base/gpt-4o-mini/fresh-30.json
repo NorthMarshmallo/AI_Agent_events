@@ -1,6 +1,60 @@
 {
- "answer": "Journalist Alican Uludag was arrested in Ankara, Turkey, on February 19, 2026, on charges of insulting President Erdoğan on social media. \n\nFINAL: Ankara",
- "hits": [],
- "cost": 0.00013296999999999994,
+ "answer": "Journalist Alican Uludag was arrested in Ankara, Turkey, on February 19, 2026. FINAL: Ankara",
+ "hits": [
+  {
+   "page": "2026 in Turkey",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "19 February – Journalist Alican Uludag is arrested in Ankara on charges of insulting president Erdoğan on social media.",
+   "id": 2185,
+   "score": 0.7534
+  },
+  {
+   "page": "2026 in Turkey",
+   "section": "Deaths",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "29 June – Arda Küçükyetim, 20, convicted attempted murderer (2024 Eskişehir stabbing).",
+   "id": 2238,
+   "score": 0.6605
+  },
+  {
+   "page": "2026 in Turkey",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "3 July — A court in Istanbul imprisons comedian Deniz Göktaş for insulting President Erdoğan and religious principles.",
+   "id": 2211,
+   "score": 0.6015
+  },
+  {
+   "page": "2026 in Turkey",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "29 January – The Turkish Football Federation issues a fine of 802,500 lira ($18,500) on Diyarbakır-based club Amed S.F.K. and suspends its president, Nahit Eren, on charges of \"making ideological propaganda\" after the club uploads a video of a woman having her hair braided amid similar acts by Kurds in protests against the 2026 northeastern Syria offensive.",
+   "id": 2181,
+   "score": 0.5723
+  },
+  {
+   "page": "2026 in Turkey",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "23 June – At least 209 people are arrested in raids by security forces across Ankara ahead of the 2026 Ankara NATO summit.",
+   "id": 2210,
+   "score": 0.5619
+  }
+ ],
+ "queries": [
+  {
+   "query": "Alican Uludag arrest February 2026",
+   "page": "",
+   "ids": [
+    2185,
+    2238,
+    2211,
+    2181,
+    2210
+   ]
+  }
+ ],
+ "cost": 0.00012936999999999996,
  "searches": 1
 }

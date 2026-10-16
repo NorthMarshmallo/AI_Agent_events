@@ -1,6 +1,60 @@
 {
  "answer": "At least 66 people were killed in the Kenya floods on March 6–7, 2026. \n\nFINAL: 66",
- "hits": [],
+ "hits": [
+  {
+   "page": "2026",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "March 6–7 – 2026 Kenya floods: At least 66 people are killed after floods across Kenya.",
+   "id": 71,
+   "score": 0.8161
+  },
+  {
+   "page": "2026 in the United Kingdom",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "text": "More than 70 flood warnings remain in place across the UK, following prolonged and record-breaking rainfall.",
+   "id": 4304,
+   "score": 0.5428
+  },
+  {
+   "page": "2026 in India",
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "Eight people die across Kerala due to rain-related incidents.",
+   "id": 1288,
+   "score": 0.5311
+  },
+  {
+   "page": "2026",
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "August 15 – At least 129 people are killed and nearly 1,300 injured when a magnitude 7.7 earthquake strikes off the island of Flores, Indonesia.",
+   "id": 168,
+   "score": 0.5261
+  },
+  {
+   "page": "2026 in India",
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "A landslide triggers a flashflood at an under-construction tunnel in Uttarakhand, killing seven people and injuring 13 others.",
+   "id": 1292,
+   "score": 0.5239
+  }
+ ],
+ "queries": [
+  {
+   "query": "Kenya floods March 6-7, 2026",
+   "page": "",
+   "ids": [
+    71,
+    4304,
+    1288,
+    168,
+    1292
+   ]
+  }
+ ],
  "cost": 0.00011799000000000011,
  "searches": 1
 }

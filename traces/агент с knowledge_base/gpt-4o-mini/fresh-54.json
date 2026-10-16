@@ -1,6 +1,60 @@
 {
  "answer": "The fire at a shopping mall in Karachi on January 17, 2026, killed 80 people. \n\nFINAL: 80",
- "hits": [],
+ "hits": [
+  {
+   "page": "2026",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "January 17 – A fire at a shopping mall in Karachi, Pakistan, kills 80 people.",
+   "id": 22,
+   "score": 0.7074
+  },
+  {
+   "page": "2026 in Japan",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "text": "June 23 – At least 15 buildings are burned after a fire breaks out in a shopping arcade in Izumo, Shimane.",
+   "id": 1570,
+   "score": 0.4802
+  },
+  {
+   "page": "2026 in sports",
+   "section": "Multi-sport events",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "November 28 – December 7: 2026 Asian Indoor and Martial Arts Games in Riyadh",
+   "id": 3848,
+   "score": 0.4769
+  },
+  {
+   "page": "2026 in the United States",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "2026 attack on the United States consulate in Karachi: In Karachi, Pakistan, protesters supportive of the Iranian government attempt to storm the U.S. consulate. The Marine Security Guard opened fire, killing several protesters.",
+   "id": 5141,
+   "score": 0.4661
+  },
+  {
+   "page": "2026 in India",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "24 January – A fire at a four-story building in Hyderabad, Telangana, kills six people.",
+   "id": 1155,
+   "score": 0.4457
+  }
+ ],
+ "queries": [
+  {
+   "query": "fire shopping mall Karachi January 17 2026",
+   "page": "",
+   "ids": [
+    22,
+    1570,
+    3848,
+    5141,
+    1155
+   ]
+  }
+ ],
  "cost": 0.00012019999999999978,
  "searches": 1
 }

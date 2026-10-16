@@ -1,6 +1,60 @@
 {
  "answer": "The city in Spain that experienced a fatal incident during the 2026 FIFA World Cup final celebrations is Ciudad Rodrigo, where one person was killed by a collapsed fountain. \n\nFINAL: Ciudad Rodrigo",
- "hits": [],
- "cost": 0.00012890000000000002,
+ "hits": [
+  {
+   "page": "2026 in Spain",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+   "text": "20 July – One person is killed by a collapsed fountain in Ciudad Rodrigo during celebrations over the 2026 FIFA World Cup final.",
+   "id": 2134,
+   "score": 0.7206
+  },
+  {
+   "page": "2026 in Mexico",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Mexico",
+   "text": "1 July – Four people die, three ‌of asphyxiation, during World Cup celebrations in Mexico City.",
+   "id": 1744,
+   "score": 0.6068
+  },
+  {
+   "page": "2026 in Spain",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+   "text": "11 June – Two people are killed while four others are injured in a fire at a residential building in Magaluf.",
+   "id": 2130,
+   "score": 0.5888
+  },
+  {
+   "page": "2026 FIFA World Cup",
+   "section": "Discipline",
+   "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "text": "Following the full-time whistle in the final, Argentina player Leandro Paredes was involved in altercations with Spain players Eric García and Gavi. While FIFA initially reported a red card for these incidents, the organization later confirmed that Paredes was not punished at the time.",
+   "id": 290,
+   "score": 0.5731
+  },
+  {
+   "page": "2026 in Spain",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+   "text": "19 July – Spain wins the 2026 FIFA World Cup after defeating Argentina 1–0 at the final.",
+   "id": 2133,
+   "score": 0.5677
+  }
+ ],
+ "queries": [
+  {
+   "query": "2026 FIFA World Cup final celebrations fatal incident Spain",
+   "page": "",
+   "ids": [
+    2134,
+    1744,
+    2130,
+    290,
+    2133
+   ]
+  }
+ ],
+ "cost": 0.00012890000000000004,
  "searches": 1
 }

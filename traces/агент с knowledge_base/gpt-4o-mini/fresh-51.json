@@ -1,6 +1,60 @@
 {
  "answer": "The name of the French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026 is Bruno Foucher. \n\nFINAL: Bruno Foucher",
- "hits": [],
- "cost": 0.0001311699999999999,
+ "hits": [
+  {
+   "page": "2026 in France",
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026_in_France",
+   "text": "13 August – The French Foreign Ministry opens disciplinary proceedings against its ambassador to the Central African Republic, Bruno Foucher, following allegations that he brought around 30 young women to his official residence in Bangui from 2024 to 2026.",
+   "id": 982,
+   "score": 0.7527
+  },
+  {
+   "page": "2026 in France",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_France",
+   "text": "23 February – US ambassador Charles Kushner ignores a summons by the French foreign ministry over comments made regarding the killing of Quentin Deranque.",
+   "id": 936,
+   "score": 0.5361
+  },
+  {
+   "page": "2026 in France",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_France",
+   "text": "7 February – Former culture minister Jack Lang resigns from the Institut du monde arabe after his name appears 670 times in the Epstein files.",
+   "id": 929,
+   "score": 0.5255
+  },
+  {
+   "page": "2026 in France",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_France",
+   "text": "8 January – Laurent Vinatier, a French researcher imprisoned in Russia since 2024 on charges of failing to register as a \"foreign agent\", is released in a prisoner swap in exchange for Russian basketball player Daniil Kasatkin, who had been detained in France since 2025 on suspicion of involvement in cyberhacking.",
+   "id": 919,
+   "score": 0.5161
+  },
+  {
+   "page": "2026 in France",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_France",
+   "text": "26 June – Burkina Faso breaks off diplomatic relations with France.",
+   "id": 970,
+   "score": 0.5088
+  }
+ ],
+ "queries": [
+  {
+   "query": "French ambassador Central African Republic disciplinary proceedings August 2026",
+   "page": "",
+   "ids": [
+    982,
+    936,
+    929,
+    919,
+    970
+   ]
+  }
+ ],
+ "cost": 0.00013117000000000011,
  "searches": 1
 }

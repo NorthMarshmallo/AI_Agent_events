@@ -1,6 +1,60 @@
 {
- "answer": "The Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026 is Dharmendra Pradhan. \n\nFINAL: Dharmendra Pradhan",
- "hits": [],
- "cost": 0.00013958999999999998,
+ "answer": "The Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026 is Dharmendra Pradhan. FINAL: Dharmendra Pradhan",
+ "hits": [
+  {
+   "page": "2026 in India",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "The Cockroach Janta Party organises the Sansad Chalo March demanding the resignation of Education Minister Dharmendra Pradhan over the 2026 NEET controversy.",
+   "id": 1261,
+   "score": 0.7674
+  },
+  {
+   "page": "2026 in India",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "6 June – 2026 Delhi Jantar Mantar protests: The Cockroach Janta Party led by Abhijeet Dipke stages protests at Jantar Mantar demanding the resignation of Education Minister Dharmendra Pradhan over the 2026 NEET controversy.",
+   "id": 1234,
+   "score": 0.6362
+  },
+  {
+   "page": "2026 in India",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "16 May – The Cockroach Janta Party is founded by Abhijeet Dipke in response to the comments made by Chief Justice of India, Surya Kant who called unemployed youths as \"cockroaches\" and \"parasites\".",
+   "id": 1228,
+   "score": 0.636
+  },
+  {
+   "page": "2026 in politics",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+   "text": "June 6 – A group of young Indian students and leftists formed an unofficial Cockroach Janta Party, precipitating a series of nationwide protests in Jantar Mantar, New Delhi over a leak of NEET exam previously occurred one month earlier on May 3.",
+   "id": 3412,
+   "score": 0.6351
+  },
+  {
+   "page": "2026 in India",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "Dharmendra Pradhan resigns as Education Minister amid outrage over the 2026 NEET controversy. He is replaced by Pralhad Joshi.",
+   "id": 1276,
+   "score": 0.5998
+  }
+ ],
+ "queries": [
+  {
+   "query": "Education Minister resign Cockroach Janta Party India 2026",
+   "page": "",
+   "ids": [
+    1261,
+    1234,
+    1228,
+    3412,
+    1276
+   ]
+  }
+ ],
+ "cost": 0.00013898999999999986,
  "searches": 1
 }

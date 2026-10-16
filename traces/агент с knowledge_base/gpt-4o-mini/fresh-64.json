@@ -1,6 +1,60 @@
 {
  "answer": "Ihor Polishchuk resigned as mayor of Lutsk in March 2026 amid a corruption investigation against him. \n\nFINAL: mayor of Lutsk",
- "hits": [],
+ "hits": [
+  {
+   "page": "2026 in Ukraine",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "25 March – Ihor Polishchuk resigns as mayor of Lutsk amid a corruption investigation against him.",
+   "id": 2265,
+   "score": 0.6525
+  },
+  {
+   "page": "2026 in Ukraine",
+   "section": "Deaths",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "Ihor Zvarych, 73, MP (2006–2007, 2011–2012).",
+   "id": 2318,
+   "score": 0.5736
+  },
+  {
+   "page": "2026 in Ukraine",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "9 January – Defense Minister Denys Shmyhal and Deputy Prime Minister and Digital Transformation Minister Mykhailo Fedorov resign.",
+   "id": 2245,
+   "score": 0.557
+  },
+  {
+   "page": "2026 in Ukraine",
+   "section": "September",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "8 September – Ruslan Kravchenko resigns as Prosecutor General amid allegations of money-laundering involving call centers engaged in financial scams.",
+   "id": 2287,
+   "score": 0.5333
+  },
+  {
+   "page": "2026 in Ukraine",
+   "section": "Deaths",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "7 April – Ihor Mityukov, 73, minister of finance (1997–2001), ambassador to the UK (2002–2005) and the EU (1995–1997).",
+   "id": 2308,
+   "score": 0.5332
+  }
+ ],
+ "queries": [
+  {
+   "query": "Ihor Polishchuk resignation March 2026",
+   "page": "",
+   "ids": [
+    2265,
+    2318,
+    2245,
+    2287,
+    2308
+   ]
+  }
+ ],
  "cost": 0.00012259999999999984,
  "searches": 1
 }

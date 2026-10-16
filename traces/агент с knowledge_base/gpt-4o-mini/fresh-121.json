@@ -1,6 +1,60 @@
 {
  "answer": "A magnitude 5.6 earthquake struck Yamanashi Prefecture on June 27, 2026, injuring 10 people. \n\nFINAL: 5.6",
- "hits": [],
- "cost": 0.00012619999999999992,
+ "hits": [
+  {
+   "page": "2026 in Japan",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "text": "June 27 – A magnitude 5.6 earthquake strikes Yamanashi Prefecture, injuring 10 people.",
+   "id": 1573,
+   "score": 0.7041
+  },
+  {
+   "page": "2026",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "July 28 – An earthquake strikes Kumamoto Prefecture in southern Japan with a magnitude of Mww 6.8(MJMA 7.1) at a depth of 10 km (6.2 mi), killing at least 30 and injuring over 60.",
+   "id": 156,
+   "score": 0.6397
+  },
+  {
+   "page": "2026 in Japan",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "text": "May 15 – A magnitude 6.3 earthquake strikes off the coast of Miyagi Prefecture.",
+   "id": 1557,
+   "score": 0.6224
+  },
+  {
+   "page": "2026 in Japan",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "text": "April 20 – A magnitude 7.7 earthquake hits off the Sanriku Coast, triggering up to 80-centimeter (31 in) tsunamis and injuring six people.",
+   "id": 1546,
+   "score": 0.6215
+  },
+  {
+   "page": "2026 in Japan",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "text": "A magnitude 6.4 earthquake hits Tottori and Shimane Prefectures, injuring seven people.",
+   "id": 1481,
+   "score": 0.606
+  }
+ ],
+ "queries": [
+  {
+   "query": "Yamanashi Prefecture earthquake June 2026",
+   "page": "",
+   "ids": [
+    1573,
+    156,
+    1557,
+    1546,
+    1481
+   ]
+  }
+ ],
+ "cost": 0.00012649999999999988,
  "searches": 1
 }

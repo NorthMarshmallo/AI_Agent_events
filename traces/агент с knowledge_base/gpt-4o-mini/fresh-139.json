@@ -1,6 +1,60 @@
 {
- "answer": "The name of DeepSeek's math-focused AI model, released on 30 April 2025, is \"DeepSeek-Prover-V2-671B\". \n\nFINAL: DeepSeek-Prover-V2-671B",
- "hits": [],
- "cost": 0.00016602,
+ "answer": "The name of DeepSeek's math-focused AI model, released on 30 April 2025, is \"DeepSeek-Prover-V2-671B\". FINAL: DeepSeek-Prover-V2-671B",
+ "hits": [
+  {
+   "page": "DeepSeek (chatbot)",
+   "section": "History",
+   "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+   "text": "On 30 April 2025, Deepseek released its math-focused Artificial Intelligence Model named \"DeepSeek-Prover-V2-671B\". This model is useful for formal theorem proving and mathematical reasoning.",
+   "id": 5703,
+   "score": 0.7274
+  },
+  {
+   "page": "DeepSeek (chatbot)",
+   "section": "External links",
+   "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+   "text": "Concepts | Language model NLP NLG Computational linguistics Foundation model Small language model Reasoning model Generative pre-trained transformer Transformer Attention KV cache Context window Tokenization Word embedding Parameter Hyperparameter Autoregression Mixture of experts (MoE) Inference Model compression Knowledge distillation Speculative decoding PagedAttention Neural scaling law Multimodality Open weights",
+   "id": 5751,
+   "score": 0.6962
+  },
+  {
+   "page": "DeepSeek (chatbot)",
+   "section": "Operation",
+   "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+   "text": "DeepSeek-V3 uses significantly fewer resources compared to its peers. For example, whereas the world's leading AI companies train their chatbots with supercomputers using as many as 16,000 graphics processing units (GPUs), DeepSeek claims to have needed only about 2,000 GPUs—namely, the H800 series chips from Nvidia. It was trained in around 55 days at a cost of US$5.58 million, which is roughly one-tenth of what tech giant Meta spent building its latest AI technology.",
+   "id": 5707,
+   "score": 0.6763
+  },
+  {
+   "page": "DeepSeek (chatbot)",
+   "section": "External links",
+   "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+   "text": "Benchmarks, evaluation, and detection | Language model benchmark MMLU Humanity's Last Exam LMArena LLM-as-a-Judge Perplexity metric GPTZero Artificial intelligence content detection Undetectable.ai",
+   "id": 5758,
+   "score": 0.6761
+  },
+  {
+   "page": "DeepSeek (chatbot)",
+   "section": "External links",
+   "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+   "text": "Models | Apertus BERT BLOOM Chinchilla Claude DBRX DeepSeek-LLM Gemini Gemma GloVe GLM GPT GPT-J PanGu Granite Hy Inkling Jais LaMDA Laguna S Llama MiMo Minerva Mistral and Mixtral Muse Spark Muse Glimmer Nemotron PaLM Phi Qwen Seq2seq T5 Vicuna Word2vec XLNet",
+   "id": 5753,
+   "score": 0.6593
+  }
+ ],
+ "queries": [
+  {
+   "query": "DeepSeek math-focused AI model",
+   "page": "",
+   "ids": [
+    5703,
+    5751,
+    5707,
+    5758,
+    5753
+   ]
+  }
+ ],
+ "cost": 0.00016182000000000045,
  "searches": 1
 }

@@ -1,6 +1,60 @@
 {
  "answer": "The anime series that won Anime of the Year at the 2026 Crunchyroll Anime Awards is \"My Hero Academia.\" \n\nFINAL: My Hero Academia",
- "hits": [],
- "cost": 0.00012549000000000024,
+ "hits": [
+  {
+   "section": "Awards",
+   "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+   "text": "Crunchyroll Anime Award for Anime of the Year: My Hero Academia",
+   "page": "2026 in animation",
+   "id": 2542,
+   "score": 0.81
+  },
+  {
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/Crunchyroll_Anime_Awards",
+   "text": "Awarded for | Best in anime of the previous year",
+   "page": "Crunchyroll Anime Awards",
+   "id": 6312,
+   "score": 0.8082
+  },
+  {
+   "section": "Editions",
+   "url": "https://en.wikipedia.org/wiki/Crunchyroll_Anime_Awards",
+   "text": "Ceremony | Date | Anime of the Year | Film of the Year",
+   "page": "Crunchyroll Anime Awards",
+   "id": 6327,
+   "score": 0.7786
+  },
+  {
+   "section": "Awards",
+   "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+   "text": "Crunchyroll Anime Award for Film of the Year: Demon Slayer: Kimetsu no Yaiba – The Movie: Infinity Castle",
+   "page": "2026 in animation",
+   "id": 2543,
+   "score": 0.7422
+  },
+  {
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/Crunchyroll_Anime_Awards",
+   "text": "The Crunchyroll Anime Awards, also known simply as The Anime Awards, are awards given annually by the anime streaming service Crunchyroll to recognize the best anime of the previous year. Announced in December 2016, the awards were first presented in January 2017. Crunchyroll describes it as a \"global event that recognizes the anime shows, characters, and artists that fans around the world love most.\"",
+   "page": "Crunchyroll Anime Awards",
+   "id": 6314,
+   "score": 0.7216
+  }
+ ],
+ "queries": [
+  {
+   "query": "2026 Crunchyroll Anime Awards Anime of the Year",
+   "page": "",
+   "ids": [
+    2542,
+    6312,
+    6327,
+    2543,
+    6314
+   ]
+  }
+ ],
+ "cost": 0.0001247200000000009,
  "searches": 1
 }

@@ -1,6 +1,60 @@
 {
  "answer": "In the bus accident in São José da Tapera, Alagoas, in February 2026, 16 people were killed. \n\nFINAL: 16",
- "hits": [],
- "cost": 0.00012582999999999995,
+ "hits": [
+  {
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Brazil",
+   "text": "3 February – A bus veers off a road and overturns in São José da Tapera, Alagoas, killing 16 people.",
+   "page": "2026 in Brazil",
+   "id": 524,
+   "score": 0.695
+  },
+  {
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Brazil",
+   "text": "16 February – A bus overturns along the BR-153 near Marilia, São Paulo State, killing six people.",
+   "page": "2026 in Brazil",
+   "id": 527,
+   "score": 0.5683
+  },
+  {
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Brazil",
+   "text": "2 January – A truck collides with a bus in Rio Grande do Sul, killing 11 people and injuring seven others.",
+   "page": "2026 in Brazil",
+   "id": 519,
+   "score": 0.5093
+  },
+  {
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Brazil",
+   "text": "19 August – A minibus collides with a truck near Ipiranga, Paraná, killing 23 people.",
+   "page": "2026 in Brazil",
+   "id": 558,
+   "score": 0.5012
+  },
+  {
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Brazil",
+   "text": "5 March – A nursing home collapses in Belo Horizonte, killing eight people and leaving four missing.",
+   "page": "2026 in Brazil",
+   "id": 534,
+   "score": 0.4636
+  }
+ ],
+ "queries": [
+  {
+   "query": "bus accident São José da Tapera Alagoas February 2026",
+   "page": "",
+   "ids": [
+    524,
+    527,
+    519,
+    558,
+    534
+   ]
+  }
+ ],
+ "cost": 0.00012583000000000039,
  "searches": 1
 }

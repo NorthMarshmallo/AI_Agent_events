@@ -1,6 +1,111 @@
 {
  "answer": "Richard Lewer won the Archibald Prize on May 8, 2026, for his portrait of artist, traditional healer, and Aboriginal elder Iluwanti Ken. \n\nFINAL: Richard Lewer",
- "hits": [],
- "cost": 0.00012684000000000013,
- "searches": 1
+ "hits": [
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+   "text": "18 April – The 2026 Newcastle lord mayoral by-election is held, resulting in the election of Gavin Morris.",
+   "page": "2026 in Australia",
+   "section": "April",
+   "id": 417,
+   "score": 0.5117
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+   "text": "2026 South Australian First Nations Voice election",
+   "page": "2026 in Australia",
+   "section": "March",
+   "id": 403,
+   "score": 0.5107
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+   "text": "Administrator of the Northern Territory – Hugh Heggie until 30 January 2026, then David Connolly",
+   "page": "2026 in Australia",
+   "section": "Governors and administrators",
+   "id": 344,
+   "score": 0.5093
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+   "text": "10 May – Legh Davis, South Australian politician (b. 1940)",
+   "page": "2026 in Australia",
+   "section": "May",
+   "id": 504,
+   "score": 0.5048
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+   "text": "November – 2026 South Australian local elections",
+   "page": "2026 in Australia",
+   "section": "Future and scheduled events",
+   "id": 472,
+   "score": 0.4927
+  },
+  {
+   "text": "8 May – Richard Lewer wins the Archibald Prize for his portrait of artist, traditional healer, and Aboriginal elder Iluwanti Ken.",
+   "page": "2026 in Australia",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+   "id": 428,
+   "score": 0.5987
+  },
+  {
+   "text": "May 8 – Richard Lewer wins the Archibald Prize for his portrait of the Pitjantjatjara elder and artist Iluwanti Ken.",
+   "page": "2026 in art",
+   "section": "Events",
+   "url": "https://en.wikipedia.org/wiki/2026_in_art",
+   "id": 2733,
+   "score": 0.5786
+  },
+  {
+   "text": "National Board of Review Award for Best Animated Film: Arco",
+   "page": "2026 in animation",
+   "section": "Awards",
+   "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+   "id": 2555,
+   "score": 0.5199
+  },
+  {
+   "text": "Annie Award for Best Animated Feature – Independent: Arco",
+   "page": "2026 in animation",
+   "section": "Awards",
+   "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+   "id": 2529,
+   "score": 0.5105
+  },
+  {
+   "text": "March 12 – Smiljan Radić is announced as the winner of the Pritzker Architecture Prize.",
+   "page": "2026 in art",
+   "section": "Events",
+   "url": "https://en.wikipedia.org/wiki/2026_in_art",
+   "id": 2727,
+   "score": 0.4936
+  }
+ ],
+ "queries": [
+  {
+   "query": "Archibald Prize winner May 8, 2026",
+   "page": "",
+   "ids": [
+    417,
+    403,
+    344,
+    504,
+    472
+   ]
+  },
+  {
+   "query": "Archibald Prize 2026 winner",
+   "page": "",
+   "ids": [
+    428,
+    2733,
+    2555,
+    2529,
+    2727
+   ]
+  }
+ ],
+ "cost": 0.0002134000000000001,
+ "searches": 2
 }

@@ -1,6 +1,60 @@
 {
- "answer": "The data suggesting over 2,700 deaths due to heatwaves in the United Kingdom in 2026 was produced by Imperial College London, the Met Office, and the London School of Hygiene and Tropical Medicine. \n\nFINAL: Imperial College London, the Met Office, and the London School of Hygiene and Tropical Medicine.",
- "hits": [],
- "cost": 0.00014985999999999992,
+ "answer": "The data suggesting over 2,700 deaths due to heatwaves in the United Kingdom in 2026 was produced by Imperial College London, the Met Office, and the London School of Hygiene and Tropical Medicine. \n\nFINAL: Imperial College London, Met Office, London School of Hygiene and Tropical Medicine.",
+ "hits": [
+  {
+   "text": "2026 United Kingdom heatwaves: Data produced by Imperial College London, the Met Office and the London School of Hygiene and Tropical Medicine suggests that more than 2,700 deaths may have occurred as a result of the heatwaves in May and June.",
+   "page": "2026 in the United Kingdom",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "id": 4822,
+   "score": 0.8123
+  },
+  {
+   "text": "May 2026 United Kingdom heatwave: Two teenage boys die in separate incidents in Kent and Oxford, bringing the total number of water-related deaths in recent days to 11.",
+   "page": "2026 in the United Kingdom",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "id": 4664,
+   "score": 0.7757
+  },
+  {
+   "text": "Data indicates there were 1,504 heat-related deaths in 2025, lower than expected despite it being the hottest year on record.",
+   "page": "2026 in the United Kingdom",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "id": 4496,
+   "score": 0.7642
+  },
+  {
+   "text": "2026 United Kingdom heatwaves: Amber heat-health alerts are issued by the UK Health Security Agency for the Midlands, eastern and southern England from 09:00 BST on 8 July to 21:00 BST on 12 July.",
+   "page": "2026 in the United Kingdom",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "id": 4794,
+   "score": 0.727
+  },
+  {
+   "text": "The 2026 European heatwaves begin, bringing record-breaking temperatures to several European countries and causing thousands of deaths over the next several weeks.",
+   "page": "2026",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "id": 115,
+   "score": 0.7254
+  }
+ ],
+ "queries": [
+  {
+   "query": "heatwaves deaths United Kingdom 2026",
+   "page": "",
+   "ids": [
+    4822,
+    4664,
+    4496,
+    4794,
+    115
+   ]
+  }
+ ],
+ "cost": 0.00014805999999999977,
  "searches": 1
 }

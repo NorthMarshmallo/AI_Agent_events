@@ -1,6 +1,60 @@
 {
  "answer": "On January 29, 2026, the Supreme Court of India stayed the implementation of the UGC Equity Regulations, 2026, citing misuse by specific groups. \n\nFINAL: UGC Equity Regulations, 2026",
- "hits": [],
- "cost": 0.0001352599999999999,
+ "hits": [
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "29 January – The Supreme Court of India stays the implementation of the UGC Equity Regulations, 2026 citing misuse by specific groups.",
+   "page": "2026 in India",
+   "section": "January",
+   "id": 1159,
+   "score": 0.6965
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "27 May – The Supreme Court of India upholds the constitutional validity of the Special Intensive Revision in a landmark verdict.",
+   "page": "2026 in India",
+   "section": "May",
+   "id": 1231,
+   "score": 0.6826
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "The government of Tamil Nadu moves the Supreme Court against the order of Madras High Court imposing a ban of slaughter of cows in Tamil Nadu.",
+   "page": "2026 in India",
+   "section": "June",
+   "id": 1247,
+   "score": 0.5964
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "Chief Justice Surya Kant refuses to examine the videos of police brutality against protesters by the Delhi Police during the Sansad Chalo March saying that the court does not want to waste its time.",
+   "page": "2026 in India",
+   "section": "July",
+   "id": 1270,
+   "score": 0.5758
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "The Supreme Court directs the Director of All India Institutes of Medical Sciences (AIIMS) to constitute a medical board to examine the health of convicted godman Asaram who sought an interim bail on medical grounds.",
+   "page": "2026 in India",
+   "section": "July",
+   "id": 1265,
+   "score": 0.5629
+  }
+ ],
+ "queries": [
+  {
+   "query": "Supreme Court of India stay January 29 2026",
+   "page": "",
+   "ids": [
+    1159,
+    1231,
+    1247,
+    1270,
+    1265
+   ]
+  }
+ ],
+ "cost": 0.00013449000000000002,
  "searches": 1
 }

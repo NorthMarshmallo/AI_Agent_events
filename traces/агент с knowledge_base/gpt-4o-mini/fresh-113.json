@@ -1,6 +1,60 @@
 {
- "answer": "Statistics Canada announced 850 job cuts on January 13, 2026, with over 100 to happen in the following days. \n\nFINAL: 850",
- "hits": [],
- "cost": 0.00012037000000000007,
+ "answer": "Statistics Canada announced 850 job cuts on January 13, 2026, with over 100 to happen in the following days. \n\nFINAL: 850 job cuts",
+ "hits": [
+  {
+   "page": "2026 in Canada",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "January 13 – Statistics Canada announces 850 job cuts, with over 100 to happen in the following days.",
+   "id": 614,
+   "score": 0.8485
+  },
+  {
+   "page": "2026 in Canada",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "January 7 – Ubisoft closes Ubisoft Halifax, impacting 71 positions.",
+   "id": 609,
+   "score": 0.6208
+  },
+  {
+   "page": "2026 in Canada",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "June 10 – Ubisoft closes its Winnipeg studio, affecting 65 employees,",
+   "id": 688,
+   "score": 0.5751
+  },
+  {
+   "page": "2026 in Canada",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "January 4 – The Canada Revenue Agency says it is owed more than $10 billion CAD in COVID-19 benefits and had disbursed $83.5 billion in COVID benefits to Canadians as of November 30, 2025, and had been repaid more than $4 billion.",
+   "id": 603,
+   "score": 0.5309
+  },
+  {
+   "page": "2026 in Canada",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "May 12 – The 2026 Canadian census takes place.",
+   "id": 681,
+   "score": 0.5248
+  }
+ ],
+ "queries": [
+  {
+   "query": "Statistics Canada job cuts January 13, 2026",
+   "page": "",
+   "ids": [
+    614,
+    609,
+    688,
+    603,
+    681
+   ]
+  }
+ ],
+ "cost": 0.00012157000000000053,
  "searches": 1
 }

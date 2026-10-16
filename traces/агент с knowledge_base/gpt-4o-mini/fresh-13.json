@@ -1,6 +1,60 @@
 {
  "answer": "The highest recorded temperature in Germany during the 2026 European heatwaves was 41.5 °C (106.7 °F), measured in Möckern-Drewitz on June 27. \n\nFINAL: 41.5 °C",
- "hits": [],
- "cost": 0.00014238,
+ "hits": [
+  {
+   "page": "2026 in Germany",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+   "text": "27 June — 2026 European heatwaves: The highest recorded temperature in Germany is taken in Möckern-Drewitz, measuring 41.5 °C (106.7 °F).",
+   "id": 1075,
+   "score": 0.8595
+  },
+  {
+   "page": "2026",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "The 2026 European heatwaves begin, bringing record-breaking temperatures to several European countries and causing thousands of deaths over the next several weeks.",
+   "id": 115,
+   "score": 0.7292
+  },
+  {
+   "page": "2026 in the United Kingdom",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "text": "2026 United Kingdom heatwaves: Data produced by Imperial College London, the Met Office and the London School of Hygiene and Tropical Medicine suggests that more than 2,700 deaths may have occurred as a result of the heatwaves in May and June.",
+   "id": 4822,
+   "score": 0.6419
+  },
+  {
+   "page": "2026 in the United Kingdom",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "text": "2026 United Kingdom heatwaves: A temperature of 35.1° C is recorded in Wisley, Surrey, which the Met Office reports is the eighth day above 34° C in 2026, a new UK record for the most number of 34° C or higher days in a calendar year.",
+   "id": 4808,
+   "score": 0.6417
+  },
+  {
+   "page": "2026 in the United Kingdom",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "text": "2026 United Kingdom heatwaves: Parts of southern England record 14 consecutive days above their local heatwave thresholds, while no measurable rain is recorded across central England for 15 days, the region's longest dry spell since June 1996.",
+   "id": 4837,
+   "score": 0.6408
+  }
+ ],
+ "queries": [
+  {
+   "query": "highest recorded temperature Germany 2026 heatwaves",
+   "page": "",
+   "ids": [
+    1075,
+    115,
+    4822,
+    4808,
+    4837
+   ]
+  }
+ ],
+ "cost": 0.00014688000000000003,
  "searches": 1
 }

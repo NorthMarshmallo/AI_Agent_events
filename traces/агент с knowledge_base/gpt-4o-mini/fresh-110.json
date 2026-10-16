@@ -1,6 +1,60 @@
 {
- "answer": "Clay Fuller, a Trump-endorsed Republican, wins the special election in Georgia in 2026 to replace Marjorie Taylor Greene, who resigned in January. \n\nFINAL: Clay Fuller",
- "hits": [],
- "cost": 0.00012566999999999982,
+ "answer": "Clay Fuller, a Trump-endorsed Republican, wins the special election in Georgia to replace Marjorie Taylor Greene in April 2026. \n\nFINAL: Clay Fuller",
+ "hits": [
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "2027–2028 United States redistricting: Republicans in the Georgia General Assembly reject an attempt by Governor Brian Kemp to redistrict Georgia’s congressional districts for the 2028 U.S. House of Representatives elections in the state after State House Speaker Jon G. Burns announced that he will not hold a vote to do so.",
+   "page": "2026 in the United States",
+   "section": "June",
+   "id": 5403,
+   "score": 0.6328
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "Assistant District Attorney Clay Fuller, a Trump-endorsed Republican, wins the special election in Georgia to replace Marjorie Taylor Greene, who resigned in January following a public fallout with Trump.",
+   "page": "2026 in the United States",
+   "section": "April",
+   "id": 5217,
+   "score": 0.6144
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "FBI investigation into the 2020 United States presidential election in Georgia: The Federal Bureau of Investigation raids the election center in Fulton County, Georgia.",
+   "page": "2026 in the United States",
+   "section": "January",
+   "id": 5100,
+   "score": 0.5428
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+   "text": "June 1 – The 2026 Ethiopian general election was held",
+   "page": "2026 in politics",
+   "section": "June",
+   "id": 3410,
+   "score": 0.538
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+   "text": "May 30 – The 2026 Maltese general election was held",
+   "page": "2026 in politics",
+   "section": "May",
+   "id": 3408,
+   "score": 0.5214
+  }
+ ],
+ "queries": [
+  {
+   "query": "Georgia special election 2026",
+   "page": "",
+   "ids": [
+    5403,
+    5217,
+    5100,
+    3410,
+    3408
+   ]
+  }
+ ],
+ "cost": 0.00012281999999999983,
  "searches": 1
 }

@@ -1,6 +1,60 @@
 {
  "answer": "Rubén Rocha Moya returns to office as the governor of Sinaloa on August 21, 2026, after being on leave since May due to accusations of ties to organized crime. \n\nFINAL: Rubén Rocha Moya",
- "hits": [],
+ "hits": [
+  {
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Mexico",
+   "text": "21 August – Sinaloa governor Rubén Rocha Moya, on a leave of absence since May following accusations of ties to organized crime, returns to office.",
+   "page": "2026 in Mexico",
+   "id": 1754,
+   "score": 0.6556
+  },
+  {
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Mexico",
+   "text": "22 August – Rubén Rocha Moya asks the Congress of Sinaloa to grant him an indefinite leave of absence from his position as governor of Sinaloa.",
+   "page": "2026 in Mexico",
+   "id": 1755,
+   "score": 0.6535
+  },
+  {
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Mexico",
+   "text": "29 April – Sinaloa governor Rubén Rocha Moya and nine other Mexican government officials are indicted by the U.S. Department of Justice on charges of conspiring with the Sinaloa Cartel, other charges include money laundering and fuel trafficking. Rocha and Culiacán mayor Juan de Dios Gámez Mendívil subsequently go on leave beginning 1 May.",
+   "page": "2026 in Mexico",
+   "id": 1731,
+   "score": 0.6262
+  },
+  {
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Mexico",
+   "text": "3 June – A Los Angeles Times article reveals that the U.S. Department of Justice is investigating both Sonora and Tamaulipas governors Alfonso Durazo and Américo Villarreal, allegedly for drug trafficking and fuel contraband.",
+   "page": "2026 in Mexico",
+   "id": 1739,
+   "score": 0.6087
+  },
+  {
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Mexico",
+   "text": "29 January – Sergio Torres Félix and Elizabeth Montoya Ojeda, members of the Congress of Sinaloa for the Citizens' Movement, are injured in an armed attack in Culiacán.",
+   "page": "2026 in Mexico",
+   "id": 1696,
+   "score": 0.5973
+  }
+ ],
+ "queries": [
+  {
+   "query": "Sinaloa governor August 21 2026",
+   "page": "",
+   "ids": [
+    1754,
+    1755,
+    1731,
+    1739,
+    1696
+   ]
+  }
+ ],
  "cost": 0.00014495000000000003,
  "searches": 1
 }
