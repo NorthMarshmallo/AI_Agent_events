@@ -1,0 +1,554 @@
+{
+ "task": {
+  "id": "fresh-137",
+  "source": "fresh",
+  "question": "On what date was GPT-5 launched by OpenAI?",
+  "answer": "August 7, 2025",
+  "evidence": "it was launched on August 7, 2025.",
+  "page": "GPT-5",
+  "url": "https://en.wikipedia.org/wiki/GPT-5"
+ },
+ "answer": "На данный момент OpenAI не анонсировала дату запуска GPT-5. FINAL: Дата запуска GPT-5 не известна.",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 571,
+   "completion": 20,
+   "cost": 9.765e-05
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 754,
+   "completion": 20,
+   "cost": 0.0001251
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 881,
+   "completion": 19,
+   "cost": 0.00014355
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1242,
+   "completion": 20,
+   "cost": 0.0001983
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1531,
+   "completion": 21,
+   "cost": 0.00015585
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1821,
+   "completion": 20,
+   "cost": 0.00028515
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 13,
+   "tools": 0,
+   "prompt": 1400,
+   "completion": 29,
+   "cost": 0.0002274
+  }
+ ],
+ "messages": [
+  {
+   "content": "On what date was GPT-5 launched by OpenAI?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "3380fcd4-c3fc-4b37-acbc-c9ed2775dd79"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 20,
+     "prompt_tokens": 571,
+     "total_tokens": 591,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 9.765e-05,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 9.765e-05,
+      "upstream_inference_prompt_cost": 8.565e-05,
+      "upstream_inference_completions_cost": 1.2e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420622-wAyEjj2Kmu1yzjJ7Uvxt",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-322f-7962-92da-5b6b02ea3889-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "GPT-5 launch date OpenAI"
+     },
+     "id": "call_FazAZvSsIyIPxnKzoXNpMMVk",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 571,
+    "output_tokens": 20,
+    "total_tokens": 591,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[GPT-4] Generative Pre-trained Transformer 4 (GPT-4) is a large language model developed by OpenAI and the fourth in its series of GPT foundation models. GPT-4 is preceded by GPT-3.5 and followed by its successor GPT-5. GPT-4V is a version of GPT-4 that can process images in addition to text. OpenAI has not revealed technical details and statistics about GPT-4, such as the precise size of the model. An early version of GPT-4 was integrated by Microsoft into Bing Chat, launched in February 2023. GPT-4 was released in ChatGPT in March 2023, and removed in 2025. GPT-4 is still available in OpenAI's API.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "71b57980-6f0d-41c0-9f8a-12159ae0f6a0",
+   "tool_call_id": "call_FazAZvSsIyIPxnKzoXNpMMVk",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 20,
+     "prompt_tokens": 754,
+     "total_tokens": 774,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001251,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001251,
+      "upstream_inference_prompt_cost": 0.0001131,
+      "upstream_inference_completions_cost": 1.2e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420624-ITatonqr01dvWsMlpBFf",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-39ba-74e2-91cf-824a695e5cbf-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "OpenAI GPT-5 release date"
+     },
+     "id": "call_JuikWkJ8G4kbCNKwCDH03gYy",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 754,
+    "output_tokens": 20,
+    "total_tokens": 774,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[OpenAI o1] OpenAI o1 is a generative pre-trained transformer (GPT), the first in OpenAI's \"o\" series of reasoning models. A preview of o1 was released by OpenAI on September 12, 2024. o1 spends time \"thinking\" before it answers, making it better at complex reasoning tasks, science and programming than GPT-4o. The full version was released to ChatGPT users on December 5, 2024.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "857717cc-2b26-4051-9618-497709ca858e",
+   "tool_call_id": "call_JuikWkJ8G4kbCNKwCDH03gYy",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 19,
+     "prompt_tokens": 881,
+     "total_tokens": 900,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00014355,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00014355,
+      "upstream_inference_prompt_cost": 0.00013215,
+      "upstream_inference_completions_cost": 1.14e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e9e83bb9dc",
+    "id": "gen-1792420626-u2KvWkLGvMceyLeozVz8",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-40cd-7580-a73b-e4687fcebeb7-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "OpenAI GPT-5 announcement"
+     },
+     "id": "call_PrnEKr9Wj8JsL3960yQQ0KKq",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 881,
+    "output_tokens": 19,
+    "total_tokens": 900,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[GPT-2] Generative Pre-trained Transformer 2 (GPT-2) is a large language model (LLM) by OpenAI and the second in their foundational series of GPT models. GPT-2 was pre-trained on a dataset of 8 million web pages. It was partially released in February 2019, followed by full release of the 1.5-billion-parameter model on November 5, 2019. GPT-2 was created as a \"direct scale-up\" of GPT-1 with a ten-fold increase in both its parameter count and the size of its training dataset. It is a general-purpose learner and its ability to perform the various tasks was a consequence of its general ability to accurately predict the next item in a sequence, which enabled it to translate texts, answer questions about a topic from a text, summarize passages from a larger text, and generate text output on a level sometimes indistinguishable from that of humans; however, it could become repetitive or nonsensical when generating long passages. It was superseded by the GPT-3 and GPT-4 models, which are no longer open source. GPT-2 has, like its predecessor GPT-1 and its successors GPT-3, GPT-4 and GPT-5, a generative pre-trained transformer architecture, implementing a deep neural network, specifically a transformer model, which uses attention instead of older recurrence- and convolution-based architectures. Attention mechanisms allow the model to selectively focus on segments of input text it predicts to be the most relevant. This model allows for greatly increased parallelization, and outperforms previous benchmarks for RNN/CNN/LSTM-based models.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "fe9a8b05-05c3-4605-abb0-ad5ed3513ab2",
+   "tool_call_id": "call_PrnEKr9Wj8JsL3960yQQ0KKq",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 20,
+     "prompt_tokens": 1242,
+     "total_tokens": 1262,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001983,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001983,
+      "upstream_inference_prompt_cost": 0.0001863,
+      "upstream_inference_completions_cost": 1.2e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420644-xhHMY6wX48DMJH0ZIVb2",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-86d5-70b0-bd2b-9cd1a5483884-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "OpenAI GPT-5 release announcement"
+     },
+     "id": "call_gQDIlOXDiXkJbwozv2J4eFX6",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1242,
+    "output_tokens": 20,
+    "total_tokens": 1262,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[ChatGPT] ChatGPT is a generative AI chatbot developed by OpenAI. Originally released on November 30, 2022, the product uses large language models—specifically generative pre-trained transformers (GPTs)—to generate text, speech, and images in response to user prompts. ChatGPT accelerated the AI boom, an ongoing period marked by rapid investment and public attention toward the field of artificial intelligence (AI). OpenAI operates the service on a freemium model. Users can interact with ChatGPT through text, audio, and image prompts. ChatGPT was quickly adopted, reaching 100 million monthly active users two months after its release and 900 million weekly active users in February 2026. Proponents say that it has the potential to transform numerous professional fields, and it has instigated public debate about the nature of creativity and the future of knowledge work. The chatbot has also been criticized for its limitations and potential for unethical use. It may generate incorrect or nonsensical answers that sound plausible, known as hallucinations. Biases in its training data have been reflected in its responses. The chatbot can facilitate academic dishonesty, generate misinformation, and create malicious code. The ethics of its development, particularly the use of copyrighted content as training data, have also drawn controversy.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "fe7d940f-5811-4896-b2da-511dc8b2a5b1",
+   "tool_call_id": "call_gQDIlOXDiXkJbwozv2J4eFX6",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 21,
+     "prompt_tokens": 1531,
+     "total_tokens": 1552,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00015585,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00015585,
+      "upstream_inference_prompt_cost": 0.00014325,
+      "upstream_inference_completions_cost": 1.26e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420646-rSLfIYSSworo7qBuF2Tv",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-8e93-71c0-a57e-ad2d80ceefda-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "OpenAI GPT-5 release date announcement"
+     },
+     "id": "call_TTq93ke9BGClMcqq7TAqGLMD",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1531,
+    "output_tokens": 21,
+    "total_tokens": 1552,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1152,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[ChatGPT] ChatGPT is a generative AI chatbot developed by OpenAI. Originally released on November 30, 2022, the product uses large language models—specifically generative pre-trained transformers (GPTs)—to generate text, speech, and images in response to user prompts. ChatGPT accelerated the AI boom, an ongoing period marked by rapid investment and public attention toward the field of artificial intelligence (AI). OpenAI operates the service on a freemium model. Users can interact with ChatGPT through text, audio, and image prompts. ChatGPT was quickly adopted, reaching 100 million monthly active users two months after its release and 900 million weekly active users in February 2026. Proponents say that it has the potential to transform numerous professional fields, and it has instigated public debate about the nature of creativity and the future of knowledge work. The chatbot has also been criticized for its limitations and potential for unethical use. It may generate incorrect or nonsensical answers that sound plausible, known as hallucinations. Biases in its training data have been reflected in its responses. The chatbot can facilitate academic dishonesty, generate misinformation, and create malicious code. The ethics of its development, particularly the use of copyrighted content as training data, have also drawn controversy.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "4f2b9b5c-1bb3-43e6-b208-5c2103c35296",
+   "tool_call_id": "call_TTq93ke9BGClMcqq7TAqGLMD",
+   "status": "success"
+  },
+  {
+   "content": "На данный момент OpenAI не анонсировала дату запуска GPT-5. FINAL: Дата запуска GPT-5 не известна.",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 29,
+     "prompt_tokens": 1400,
+     "total_tokens": 1429,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0002274,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0002274,
+      "upstream_inference_prompt_cost": 0.00021,
+      "upstream_inference_completions_cost": 1.74e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_f1b0ec5777",
+    "id": "gen-1792420682-HVB51Jo7dIvbCUz2vCsu",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15499-1b1b-7490-9aa7-260dd12bb0ac-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1400,
+    "output_tokens": 29,
+    "total_tokens": 1429,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

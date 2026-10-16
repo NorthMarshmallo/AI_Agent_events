@@ -1,0 +1,749 @@
+{
+ "task": {
+  "id": "fresh-21",
+  "source": "fresh",
+  "question": "In art, which artist accused Devon Rodriguez of presenting his work as his own in June 2026?",
+  "answer": "Gavin Snider",
+  "evidence": "June – Artist Gavin Snider accuses fellow artist and social media star Devon Rodriguez of presenting images of paintings of triumphant New York Knicks fans outside Madison Square Garden commissioned by the team from him to celebrate their 2026 NBA Championship, victory as his own. Rodriguez summarily removes his social media post introducing the work as his own.",
+  "page": "2026 in art",
+  "url": "https://en.wikipedia.org/wiki/2026_in_art",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "У меня нет информации о том, какой художник обвинил Девона Родригеса в представлении его работы как своей в июне 2026 года. FINAL: Нет информации.",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 580,
+   "completion": 22,
+   "cost": 0.0001002
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 734,
+   "completion": 40,
+   "cost": 0.0001341
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 784,
+   "completion": 24,
+   "cost": 0.000132
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1257,
+   "completion": 22,
+   "cost": 0.00020175
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1289,
+   "completion": 21,
+   "cost": 0.00020595
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2027,
+   "completion": 51,
+   "cost": 0.00024825
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2794,
+   "completion": 23,
+   "cost": 0.0002793
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 3083,
+   "completion": 38,
+   "cost": 0.00028365
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2662,
+   "completion": 39,
+   "cost": 0.0004227
+  }
+ ],
+ "messages": [
+  {
+   "content": "In art, which artist accused Devon Rodriguez of presenting his work as his own in June 2026?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "6fe632ef-df54-475a-9341-be747e3a0e59"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 22,
+     "prompt_tokens": 580,
+     "total_tokens": 602,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001002,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001002,
+      "upstream_inference_prompt_cost": 8.7e-05,
+      "upstream_inference_completions_cost": 1.32e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420523-Eq52MOrsQohbZxpFgYzv",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-ad06-7902-aa1f-21df2b09f5ad-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Devon Rodriguez artist accusation June 2026"
+     },
+     "id": "call_n3nwNYCq88EtNKxUMnPurnjd",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 580,
+    "output_tokens": 22,
+    "total_tokens": 602,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Devon Rodriguez] Devon Rodriguez (born April 8, 1996) is an American artist from New York City. He initially gained recognition for drawing a series of realistic portraits of commuters on the New York City Subway. In 2019, Rodriguez was a finalist in the Outwin Boochever Portrait Competition for his portrait of sculptor John Ahearn. In 2020, he joined the video hosting platform TikTok and quickly achieved a large following for quick-sketching commuters and capturing their reactions when the sketches were handed to them. Rodriguez is now the most followed visual artist on the platform.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "94e48029-9bfc-4251-a429-69063fc61b74",
+   "tool_call_id": "call_n3nwNYCq88EtNKxUMnPurnjd",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 40,
+     "prompt_tokens": 734,
+     "total_tokens": 774,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001341,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001341,
+      "upstream_inference_prompt_cost": 0.0001101,
+      "upstream_inference_completions_cost": 2.4e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420525-G9U1FAEROzKqlijpWrTR",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-b595-7253-849e-2d0c37b0983e-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Devon Rodriguez",
+      "keywords": [
+       "accused",
+       "presenting work as his own",
+       "June 2026"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_gDIJi8xcBWtDpM65REVzqGQq",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 734,
+    "output_tokens": 40,
+    "total_tokens": 774,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "7c9ceabc-3b0c-4906-a5aa-90da23ed35c4",
+   "tool_call_id": "call_gDIJi8xcBWtDpM65REVzqGQq",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 24,
+     "prompt_tokens": 784,
+     "total_tokens": 808,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.000132,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.000132,
+      "upstream_inference_prompt_cost": 0.0001176,
+      "upstream_inference_completions_cost": 1.44e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_7b4718ccca",
+    "id": "gen-1792420526-576AfBYJR4q4ZANetGUp",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-bb2f-7981-ab3d-ac29fc5ba93c-0",
+   "tool_calls": [
+    {
+     "name": "espn_search",
+     "args": {
+      "query": "Devon Rodriguez artist accusation June 2026"
+     },
+     "id": "call_uzlpZXs5qa10gK8iQBs2qYdF",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 784,
+    "output_tokens": 24,
+    "total_tokens": 808,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Astros will not renew contract of manager Joe Espada] Joe Espada, who guided the Houston Astros to two American League West titles in his three seasons, will not be returning as manager of the team in 2027. The Astros, who were swept in two games by the Chicago White Sox in the AL wild-card series, said Wednesday that they would not be renewing Espada's contract when it expires at the end of the month. \"We are thankful for Joe's hard work, his passion for the game, and for his commitment to the Houston Astros,\" team owner Jim Crane said in a statement. \"He represented the Astros and the Houston community in the most positive way. We wish he and his family the best moving forward.\" Overall, Espada, 51, was 256-229 as manager in Houston, who had granted permission on Tuesday to the Seattle Mariners , a divisional rival, to interview Espada for their managerial vacancy. The Astros also parted ways with catching instructor Tim Cossins, game planning coach Tommy Kawamura, third base coach Tony Perezchica, assistant hitting coach Anthony Iapoce and assistant pitching coach Ethan Katz. Houston will now be searching for a new manager and general manager after former GM Dana Brown was fired in August. Espada was promoted from bench coach after the 2023 season when Dusty Baker retired. He helped the Astros recover from a 12-24 start to win their seventh AL West crown in eight seasons in 2024 but lost in the AL wild-card game. After the Astros finished second in 2025 and failed to make the postseason for the first time since 2016, he guided Houston to another division title in 2026, finishing 81-81. It was the first time in MLB history that a team reached the playoffs without a winning record. It was a roller-coaster 2026 season for the Astros, who had the lowest winning percentage for a team reaching the postseason in a non-shortened year. Houston was 20-31 through May 20 but dropped only as much as six games out of first in a weak division. The Astros recovered to win 40 of",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "espn_search",
+   "id": "64da3806-cd29-4263-b368-a64adcd2ba0c",
+   "tool_call_id": "call_uzlpZXs5qa10gK8iQBs2qYdF",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 22,
+     "prompt_tokens": 1257,
+     "total_tokens": 1279,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00020175,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00020175,
+      "upstream_inference_prompt_cost": 0.00018855,
+      "upstream_inference_completions_cost": 1.32e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420544-Ode4evaEJMy3qqVsuTFH",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15497-001c-7e02-9c4f-d9947687fb09-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "Devon Rodriguez artist accusation June 2026"
+     },
+     "id": "call_eIiKCMiAN5mcDwV7SeEtrvZF",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1257,
+    "output_tokens": 22,
+    "total_tokens": 1279,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "b69eb256-2fed-4134-9808-9e9f6deac9c0",
+   "tool_call_id": "call_eIiKCMiAN5mcDwV7SeEtrvZF",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 21,
+     "prompt_tokens": 1289,
+     "total_tokens": 1310,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00020595,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00020595,
+      "upstream_inference_prompt_cost": 0.00019335,
+      "upstream_inference_completions_cost": 1.26e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e9e83bb9dc",
+    "id": "gen-1792420576-hssj2PNMOk05UCiNddMs",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15497-7dbd-71a1-a4a1-c39059552b2e-0",
+   "tool_calls": [
+    {
+     "name": "ru_wiki_search",
+     "args": {
+      "query": "Девон Родригес"
+     },
+     "id": "call_qoRjFRBZ68Lv7ml0ZkZ9Wd7B",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1289,
+    "output_tokens": 21,
+    "total_tokens": 1310,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Город грехов (фильм)] У этого термина существуют и другие значения, см. Город грехов (значения) . Город грехов англ. Sin City Жанры неонуар криминал фильм-антология Режиссёры Роберт Родригес Фрэнк Миллер Квентин Тарантино (специально приглашённый режиссёр) Продюсеры Элисабет Авельян Фрэнк Миллер Роберт Родригес На основе одноимённой серии комиксов Фрэнка Миллера В главных ролях Микки Рурк Брюс Уиллис Клайв Оуэн Бенисио дель Торо Джессика Альба Розарио Доусон Ник Стал Девон Аоки Джейми Кинг Алексис Бледел Бриттани Мёрфи Карла Гуджино Джош Хартнетт Майкл Кларк Дункан Рутгер Хауэр Пауэрс Бут Элайджа Вуд Майкл Мэдсен Оператор Роберт Родригес Композиторы Джон Дебни Грэм Ревелл Роберт Родригес Кинокомпании Dimension Films Troublemaker Studios Дистрибьютор Miramax Films Длительность 124 мин 142 мин (расширенная версия) Бюджет 40 000 000 $ Сборы $158 733 820 Страна США Язык английский Год 2005 Следующий фильм Город грехов 2: Женщина, ради которой стоит убивать IMDb ID 0401792 Официальный сайт (англ.) Официальный сайт Медиафайлы на Викискладе Цитаты в Викицитатнике «Го́род грехо́в» ( англ. Sin City ) — американский неонуарный криминальный фильм-антология 2005 года режиссёров Роберта Родригеса и Фрэнка Миллера , основанный на одноимённой серии комиксов Миллера. В фильме снялись Джессика Альба , Бенисио Дель Торо , Бриттани Мерфи , Клайв Оуэн , Микки Рурк , Брюс Уиллис и Элайджа Вуд , а также Алексис Бледел , Пауэрс Бут , Майкл Кларк Дункан , Розарио Доусон , Девон Аоки , Карла Гуджино , Рутгер Хауэр , Джейми Кинг , Майкл Мэдсен , Ник Стал и Макензи Вега , среди прочих. Большая часть фильма основана на первой, третьей и четвёртой книгах оригинальной серии комиксов Миллера. « Трудное прощание » рассказывает о бывшем заключенном, который отправляется на поиски убийцы своей бывшей возлюбленной. « Резня по высшему классу » рассказывает о частном детективе, который оказывается втянутым в уличную войну между группой проституток и группой наёмников, полицией и мафией. « Тот жёлтый у",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "ru_wiki_search",
+   "id": "d0b75dab-44d8-4272-bcd0-6a1b60ac57cd",
+   "tool_call_id": "call_qoRjFRBZ68Lv7ml0ZkZ9Wd7B",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 51,
+     "prompt_tokens": 2027,
+     "total_tokens": 2078,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00024825,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00024825,
+      "upstream_inference_prompt_cost": 0.00021765,
+      "upstream_inference_completions_cost": 3.06e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420579-O4DzngaORqoPOIlYZwjV",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15497-87a9-7c72-b921-ebac2f93307b-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Город грехов (фильм)",
+      "keywords": [
+       "Девон Родригес",
+       "обвинение",
+       "работа",
+       "июнь 2026"
+      ],
+      "site": "ru_wiki"
+     },
+     "id": "call_yywGIRke8l71yvBTGKYzdd9y",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2027,
+    "output_tokens": 51,
+    "total_tokens": 2078,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1152,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "Структура фильма  Фильм базируется на четырёх работах Миллера: графические новеллы «Трудное прощание» («The Hard Goodbye») — о человеке, который отправляется на поиски убийцы своей возлюбленной, «Большая смачная резня» («The Big Fat Kill») — об уличной войне между группами проституток и наёмников, «Тот жёлтый ублюдок» («That Yellow Bastard») — о бывшем полицейском, защищающем девушку от серийного убийцы и графический рассказ «Клиент всегда прав» («The Customer is Always Right»), который разделён на две части и использован как короткие пролог и эпилог к фильму.\nЧто с ними ни делай, совесть не мучает») В ролях  Клиент всегда прав  Джош Хартнетт — Киллер (в сценарии известен как «Человек») Марли Шелтон — Клиент Алексис Бледел — Бекки Тяжёлое прощание  Микки Рурк — Марв Джейми Кинг — Голди и Венди Карла Гуджино — Люсилль Элайджа Вуд — Кевин Рутгер Хауэр — кардинал Патрик Генри Рорк Пауэрс Бут — сенатор Рорк Клайв Оуэн — Дуайт МакКарти Джессика Альба — Нэнси Каллахан Фрэнк Миллер — священник Роберт Родригес — член команды спецназа Большая смачная резня  Клайв Оуэн — Дуайт МакКарти Майкл Кларк Дункан — Манут Бенисио Дель Торо — Джек Рафферти Розарио Доусон — Гейл Алексис Бледел — Бекки Девон Аоки — Михо Бриттани Мерфи — Шелли Патрисия Вонне — Даллас Кларк Миддлтон [англ.] — Шутц Жёлтый ублюдок  Брюс Уиллис — детектив Джон Хартиган Джессика Альба — Нэнси Каллахан Макензи Вега — Нэнси Каллахан в детстве Ник Стал — Рорк-младший Пауэрс Бут — сенатор Рорк Майкл Мэдсен — Боб Ник Офферман — Берт Шлубб Над фильмом работали  Фрэнк Миллер — режиссёр , сценарист (graphic novels) Роберт Родригес — режиссёр , композитор , оператор (shot by) , редактор Квентин Тарантино — режиссёр (special guest director) Элисабет Авельян — продюсер — продюсер Билл Скотт — продюсер — линейный продюсер Боб Вайнштейн — продюсер — исполнительный продюсер Харви Вайнштейн — продюсер — исполнительный продюсер Джон Дебни — композитор Грэм Ревелл — композитор Мэри Верну — кастинг Стив Джойнер — арт-директор Жа",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "9cb86b14-6ab8-434e-8ae4-7503830b4205",
+   "tool_call_id": "call_yywGIRke8l71yvBTGKYzdd9y",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 23,
+     "prompt_tokens": 2794,
+     "total_tokens": 2817,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 2048,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0002793,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0002793,
+      "upstream_inference_prompt_cost": 0.0002655,
+      "upstream_inference_completions_cost": 1.38e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420581-CWbAFdCiltB1C1OQq0yh",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15497-8eec-7812-a2ea-3f1d690c8afa-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Devon Rodriguez June 2026 artist accusation news"
+     },
+     "id": "call_rtkwrTbth8oSRQihPXPn1tH8",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2794,
+    "output_tokens": 23,
+    "total_tokens": 2817,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 2048,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Turning Point USA] Turning Point USA, Inc. (TPUSA) is an American nonprofit organization that advocates for conservative politics on high school, college, and university campuses. It was founded in 2012 by Charlie Kirk and Bill Montgomery. TPUSA's affiliate groups include Turning Point Endowment, Turning Point Action and TPUSA Faith. TPUSA has been described as the fastest growing organization of campus chapters in America and one of the most powerful conservative youth groups in the nation. In 2016, the organization launched Professor Watchlist, a website that lists academic staff that, according to TPUSA, \"discriminate against conservative students and advance leftist propaganda in the classroom.\" TPUSA has attempted to influence student government elections in an effort to \"combat modern liberalism on college and university campuses.\" In 2021, TPUSA started its School Board Watchlist website, which publishes names and photos of school board members who have adopted mask mandates or anti-racist curricula. Though aligned with the Christian right, TPUSA has led its operations separate from traditional conservative organizations nationwide. TPUSA hosts several annual conferences, including the Student Action Summit, Young Women's Leadership Summit, Young Black Leadership Summit, and AmericaFest. The organization is funded by conservative donors and foundations, including Republican Party politicians.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "904b62c3-1fd9-448d-952e-859909f54410",
+   "tool_call_id": "call_rtkwrTbth8oSRQihPXPn1tH8",
+   "status": "success"
+  },
+  {
+   "content": "У меня нет информации о том, какой художник обвинил Девона Родригеса в представлении его работы как своей в июне 2026 года. FINAL: Нет информации.",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 39,
+     "prompt_tokens": 2662,
+     "total_tokens": 2701,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0004227,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0004227,
+      "upstream_inference_prompt_cost": 0.0003993,
+      "upstream_inference_completions_cost": 2.34e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_465d6a0752",
+    "id": "gen-1792420584-HTnOh9LQl0Ev0JQdtCTm",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15497-9bae-73b3-98ca-c89684247ce3-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2662,
+    "output_tokens": 39,
+    "total_tokens": 2701,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

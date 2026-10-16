@@ -1,0 +1,364 @@
+{
+ "task": {
+  "id": "fresh-145",
+  "source": "fresh",
+  "question": "On what date did Tatsuya Nagamine, director of One Piece Film: Z and Dragon Ball Super: Broly, die after a year-long illness?",
+  "answer": "August 20, 2025",
+  "evidence": "Tatsuya Nagamine (長峯 達也, Nagamine Tatsuya; October 6, 1971 – August 20, 2025) was a Japanese anime director who worked for Toei Animation.",
+  "page": "Tatsuya Nagamine",
+  "url": "https://en.wikipedia.org/wiki/Tatsuya_Nagamine"
+ },
+ "answer": "Tatsuya Nagamine died on August 20, 2025. \n\nFINAL: August 20, 2025",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 591,
+   "completion": 20,
+   "cost": 0.00010065
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 713,
+   "completion": 19,
+   "cost": 0.00011835
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 778,
+   "completion": 18,
+   "cost": 0.0001275
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 857,
+   "completion": 26,
+   "cost": 0.00014415
+  }
+ ],
+ "messages": [
+  {
+   "content": "On what date did Tatsuya Nagamine, director of One Piece Film: Z and Dragon Ball Super: Broly, die after a year-long illness?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "5e6156ba-17c4-493a-adc7-28b67d794696"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 20,
+     "prompt_tokens": 591,
+     "total_tokens": 611,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00010065,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00010065,
+      "upstream_inference_prompt_cost": 8.865e-05,
+      "upstream_inference_completions_cost": 1.2e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420646-724VrveQIvbBHfyiK6LP",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-8d96-7ea3-a5cd-530fd0bbd9ec-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Tatsuya Nagamine death date"
+     },
+     "id": "call_F82jizKauAkozbU40GJglglH",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 591,
+    "output_tokens": 20,
+    "total_tokens": 611,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Nippon Sangoku] Nippon Sangoku: The Three Nations of the Crimson Sun (Japanese: 日本三國, Hepburn: Nihōn Sangoku) is a Japanese manga series written and illustrated by Ikka Matsuki. It began serialization on Shogakukan's Ura Sunday website and MangaONE app in November 2021. An anime television series adaptation produced by Studio Kafka aired from April to June 2026. A sequel has been announced.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "7c8d2df2-1bd0-4a35-8b80-f2c114bb11ee",
+   "tool_call_id": "call_F82jizKauAkozbU40GJglglH",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 19,
+     "prompt_tokens": 713,
+     "total_tokens": 732,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00011835,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00011835,
+      "upstream_inference_prompt_cost": 0.00010695,
+      "upstream_inference_completions_cost": 1.14e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420648-CwuQA1alZQaprvUXbaiq",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-96b0-7f23-908f-278f97bf347e-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Tatsuya Nagamine obituary"
+     },
+     "id": "call_rAGVziWK0XGtH6k9jXajGEva",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 713,
+    "output_tokens": 19,
+    "total_tokens": 732,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[2025 in animation] 2025 in animation is an overview of notable events, including notable awards, list of films released, television show debuts and endings, and notable deaths.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "4b2cc2a1-c30b-47d4-a018-d4fe2d45c42f",
+   "tool_call_id": "call_rAGVziWK0XGtH6k9jXajGEva",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 18,
+     "prompt_tokens": 778,
+     "total_tokens": 796,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001275,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001275,
+      "upstream_inference_prompt_cost": 0.0001167,
+      "upstream_inference_completions_cost": 1.08e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420650-BDVSE1DY1YKWPt0MjRp7",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-9d5e-7243-a891-95927952a582-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Tatsuya Nagamine"
+     },
+     "id": "call_Kbhe34KSJ7G0iPtaohTVkl33",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 778,
+    "output_tokens": 18,
+    "total_tokens": 796,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Tatsuya Nagamine] Tatsuya Nagamine (長峯 達也, Nagamine Tatsuya; October 6, 1971 – August 20, 2025) was a Japanese anime director who worked for Toei Animation.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "ccf46659-72f3-4dae-8e61-8f79f7eb6aa6",
+   "tool_call_id": "call_Kbhe34KSJ7G0iPtaohTVkl33",
+   "status": "success"
+  },
+  {
+   "content": "Tatsuya Nagamine died on August 20, 2025. \n\nFINAL: August 20, 2025",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 26,
+     "prompt_tokens": 857,
+     "total_tokens": 883,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00014415,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00014415,
+      "upstream_inference_prompt_cost": 0.00012855,
+      "upstream_inference_completions_cost": 1.56e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420668-p7xvUZViHmGoEMypAcwQ",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-e47f-7af3-836c-b3df1666d4dc-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 857,
+    "output_tokens": 26,
+    "total_tokens": 883,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

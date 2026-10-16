@@ -1,0 +1,659 @@
+{
+ "task": {
+  "id": "fresh-134",
+  "source": "fresh",
+  "question": "How many teams participated in the 2025 ICPC World Finals, where an OpenAI model and Google's Gemini both reached gold-medal level?",
+  "answer": "139",
+  "evidence": "139 teams competed to be World Champion.",
+  "page": "International Collegiate Programming Contest",
+  "url": "https://en.wikipedia.org/wiki/International_Collegiate_Programming_Contest",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "На данный момент нет информации о количестве команд, участвовавших в 2025 ICPC World Finals, где модели OpenAI и Google's Gemini достигли уровня золотой медали. \n\nFINAL: Неизвестно.",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 588,
+   "completion": 21,
+   "cost": 0.0001008
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 773,
+   "completion": 38,
+   "cost": 0.00013875
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1214,
+   "completion": 22,
+   "cost": 0.0001953
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1400,
+   "completion": 37,
+   "cost": 0.0001458
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1890,
+   "completion": 25,
+   "cost": 0.0001929
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1925,
+   "completion": 28,
+   "cost": 0.00017115
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1963,
+   "completion": 22,
+   "cost": 0.00030765
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 15,
+   "tools": 0,
+   "prompt": 1542,
+   "completion": 44,
+   "cost": 0.0002577
+  }
+ ],
+ "messages": [
+  {
+   "content": "How many teams participated in the 2025 ICPC World Finals, where an OpenAI model and Google's Gemini both reached gold-medal level?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "052a926f-94e3-49b2-8e41-630930edc652"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 21,
+     "prompt_tokens": 588,
+     "total_tokens": 609,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001008,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001008,
+      "upstream_inference_prompt_cost": 8.82e-05,
+      "upstream_inference_completions_cost": 1.26e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420615-H5V4Ovqb7cdY8BOApJ3z",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-1548-7583-ab8a-99239f3ff5b1-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "2025 ICPC World Finals teams participated"
+     },
+     "id": "call_Qa9xwp8emAnoGPRUwNTtaaN8",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 588,
+    "output_tokens": 21,
+    "total_tokens": 609,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[International Collegiate Programming Contest] The International Collegiate Programming Contest (ICPC) is an annual multi-tiered competitive programming competition among the universities of the world. Directed by ICPC Executive Director and Baylor Professor William B. Poucher, the ICPC operates autonomous regional contests covering six continents culminating in a global World Finals every year. In 2018, ICPC participation included 52,709 students from 3,233 universities in 110 countries. The ICPC operates under the auspices of the ICPC Foundation and operates under agreements with host universities and non-profits, all in accordance with the ICPC Policies and Procedures. From 1977 until 2017 ICPC was held under the auspices of ACM and was referred to as ACM-ICPC.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "7c66d78a-eac7-4e8f-8ac7-a1d057f9249b",
+   "tool_call_id": "call_Qa9xwp8emAnoGPRUwNTtaaN8",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 38,
+     "prompt_tokens": 773,
+     "total_tokens": 811,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00013875,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00013875,
+      "upstream_inference_prompt_cost": 0.00011595,
+      "upstream_inference_completions_cost": 2.28e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420617-sSlVyxHgoxbLg5JziYeP",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-1d34-71a0-bf8d-ada84ffbff0c-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "International Collegiate Programming Contest",
+      "keywords": [
+       "2025",
+       "World Finals",
+       "teams",
+       "participated"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_s50tUpqIzH3bhQY641vGxJVQ",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 773,
+    "output_tokens": 38,
+    "total_tokens": 811,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "Poucher, the ICPC operates autonomous regional contests covering six continents culminating in a global World Finals every year.\nTeams that participated included Texas A&M, Texas Tech, University of Houston, and five or six other Texas University / Colleges.\nThe second- and third-place teams did not successfully complete all three problems.\nFrom 1977 to 1989, the contest included mainly teams of four from universities throughout the United States and Canada.\nTo increase access to the World Finals, teams were reduced to three students within their first five academic years.\nIn 1997, 840 teams from 560 universities participated.\nIn 2017, 46,381 students from 2,948 universities in 103 countries on six continents participated in regional competitions.\nOrganized as a highly localized extra-curricular university mind sport and operating as a globally-coordinated unincorporated association operating under agreements with host universities and non-profits, the ICPC is open to qualified teams from every university in the world.\nThe ICPC operates under the auspices of the ICPC Foundation which provides the ICPC Global Headquarters to service a globally-coordinated community  whose events operate under agreements with host universities and non-profits to insure that participation in ICPC is open to qualified teams from every university in the world.\nThe ICPC World Finals (The Annual World Finals of the International Collegiate Programming Contest) is the final round of competition.\nOver its history it has become a 4-day event held in the finest venues worldwide with 140 teams competing in the 2018 World Finals.\nRecent World Champion teams have been recognized by their country's head of state.\nFrom 2000 to 2022, excluding 2021, only teams from Russia, China, and Poland have won the ICPC world finals.\nStudents who have previously competed in two World Finals or five regional competitions are ineligible to compete again.\nDuring each contest, the teams of three are given 5 hours t",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "e8794df6-367b-42f2-bddc-9f5771cfa399",
+   "tool_call_id": "call_s50tUpqIzH3bhQY641vGxJVQ",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 22,
+     "prompt_tokens": 1214,
+     "total_tokens": 1236,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001953,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001953,
+      "upstream_inference_prompt_cost": 0.0001821,
+      "upstream_inference_completions_cost": 1.32e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420618-HhLKFrDJfJHnL4yE2O06",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-228f-7d40-8e4e-98758f7abd8b-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "2025 ICPC World Finals number of teams"
+     },
+     "id": "call_XSqU92Buj8gf5MznSlVWImLS",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1214,
+    "output_tokens": 22,
+    "total_tokens": 1236,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[International Collegiate Programming Contest] The International Collegiate Programming Contest (ICPC) is an annual multi-tiered competitive programming competition among the universities of the world. Directed by ICPC Executive Director and Baylor Professor William B. Poucher, the ICPC operates autonomous regional contests covering six continents culminating in a global World Finals every year. In 2018, ICPC participation included 52,709 students from 3,233 universities in 110 countries. The ICPC operates under the auspices of the ICPC Foundation and operates under agreements with host universities and non-profits, all in accordance with the ICPC Policies and Procedures. From 1977 until 2017 ICPC was held under the auspices of ACM and was referred to as ACM-ICPC.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "e2e656cd-1dfe-411b-ae4e-100209aa1ab6",
+   "tool_call_id": "call_XSqU92Buj8gf5MznSlVWImLS",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 37,
+     "prompt_tokens": 1400,
+     "total_tokens": 1437,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001458,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001458,
+      "upstream_inference_prompt_cost": 0.0001236,
+      "upstream_inference_completions_cost": 2.22e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420620-vOm7cjZVW6Wbc5KKzEVI",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-29a3-7531-816b-e8a406bc8f00-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "International Collegiate Programming Contest",
+      "keywords": [
+       "2025",
+       "World Finals",
+       "number of teams"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_XM9YgwzG4O0pJmKMqd2POcMQ",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1400,
+    "output_tokens": 37,
+    "total_tokens": 1437,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1152,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "Poucher, the ICPC operates autonomous regional contests covering six continents culminating in a global World Finals every year.\nTo increase access to the World Finals, teams were reduced to three students within their first five academic years.\nThe ICPC World Finals (The Annual World Finals of the International Collegiate Programming Contest) is the final round of competition.\nOver its history it has become a 4-day event held in the finest venues worldwide with 140 teams competing in the 2018 World Finals.\nFrom 2000 to 2022, excluding 2021, only teams from Russia, China, and Poland have won the ICPC world finals.\nStudents who have previously competed in two World Finals or five regional competitions are ineligible to compete again.\nThey must submit solutions as programs in C, C++, Java, Ada, Python or Kotlin (although it is not guaranteed every problem is solvable in any certain language, the ICPC website states that \"the judges will have solved all problems in Java and C++\" for both regional and world finals competitions).\n== 2004–2025 finals ==\n=== 2004 World Finals ===\nThe 2004 ACM-ICPC World Finals were hosted at the Obecni Dum, Prague, by Czech Technical University in Prague.\n3,150 teams representing 1,411 universities from 75 countries competed in elimination rounds, with 73 of those teams proceeding to the world finals.\n=== 2005 World Finals ===\nThe 2005 world finals were held at Pudong Shangri-La Hotel in Shanghai on April 6, 2005, hosted by Shanghai Jiao Tong University.\n4,109 teams representing 1,582 universities from 71 countries competed in elimination rounds, with 78 of those teams proceeding to the world finals.\n=== 2006 World Finals ===\nThe 2006 ACM-ICPC World Finals were held in San Antonio, Texas, and hosted by Baylor University.\n5,606 teams representing 1,733 universities from 84 countries competed in elimination rounds, with 83 of those teams proceeding to the world finals.\n=== 2007 World Finals ===\nThe 2007 ACM-ICPC World Finals were held at the",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "8edccc6e-3461-4523-8d6c-b497cdc4efb0",
+   "tool_call_id": "call_XM9YgwzG4O0pJmKMqd2POcMQ",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 25,
+     "prompt_tokens": 1890,
+     "total_tokens": 1915,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1408,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001929,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001929,
+      "upstream_inference_prompt_cost": 0.0001779,
+      "upstream_inference_completions_cost": 1.5e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420622-CYcu9GvzPMyQ3FgLilNZ",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-2f65-7d92-ad79-552899caedb0-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "2025 ICPC World Finals results OpenAI model Google's Gemini"
+     },
+     "id": "call_REpGVMJkW6dcKWgxvog6hepU",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1890,
+    "output_tokens": 25,
+    "total_tokens": 1915,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1408,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "c451df61-2c55-4fe1-b269-8312e85f7355",
+   "tool_call_id": "call_REpGVMJkW6dcKWgxvog6hepU",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 28,
+     "prompt_tokens": 1925,
+     "total_tokens": 1953,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1792,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00017115,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00017115,
+      "upstream_inference_prompt_cost": 0.00015435,
+      "upstream_inference_completions_cost": 1.68e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420623-07f8G2wahruOW0IT5dXt",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-3588-7e93-9a04-a7e6adb74ed3-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "2025 ICPC World Finals teams participated OpenAI model Google's Gemini gold medal"
+     },
+     "id": "call_FByWTsvqCpJU6QxCai0t0Q9B",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1925,
+    "output_tokens": 28,
+    "total_tokens": 1953,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1792,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "5c63ad45-ef00-4c39-bb0b-90f5202806ea",
+   "tool_call_id": "call_FByWTsvqCpJU6QxCai0t0Q9B",
+   "status": "success"
+  },
+  {
+   "content": "На данный момент нет информации о количестве команд, участвовавших в 2025 ICPC World Finals, где модели OpenAI и Google's Gemini достигли уровня золотой медали. \n\nFINAL: Неизвестно.",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 44,
+     "prompt_tokens": 1542,
+     "total_tokens": 1586,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0002577,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0002577,
+      "upstream_inference_prompt_cost": 0.0002313,
+      "upstream_inference_completions_cost": 2.64e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_0c63340341",
+    "id": "gen-1792420626-4OMsyoX5l1v7qrkE6QdO",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-3fd6-7023-b67c-d6679e8a21d6-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1542,
+    "output_tokens": 44,
+    "total_tokens": 1586,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,744 @@
+{
+ "task": {
+  "id": "fresh-150",
+  "source": "fresh",
+  "question": "In which Japanese city was the 2025–26 Grand Prix of Figure Skating Final held, where Alysa Liu won the women's singles title?",
+  "answer": "Nagoya",
+  "evidence": "held from December 4 to 7 at the Aichi International Arena in Nagoya, Japan.",
+  "page": "2025–26 Grand Prix of Figure Skating Final",
+  "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Grand_Prix_of_Figure_Skating_Final"
+ },
+ "answer": "Город, в котором проходил финал Гран-при по фигурному катанию 2025–26, не был найден в доступных источниках. Однако, учитывая, что Alysa Liu выиграла титул в женском одиночном катании, можно предположить, что это было в Японии, так как финал часто проходит в японских городах. \n\nFINAL: Япония",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-150",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 589,
+   "completion": 28,
+   "cost": 0.00010515
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-150",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1018,
+   "completion": 40,
+   "cost": 0.0001767
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-150",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1090,
+   "completion": 25,
+   "cost": 0.0001017
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-150",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1364,
+   "completion": 36,
+   "cost": 0.0001494
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-150",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1441,
+   "completion": 26,
+   "cost": 0.00023175
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-150",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1716,
+   "completion": 26,
+   "cost": 0.000177
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-150",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1991,
+   "completion": 27,
+   "cost": 0.00019005
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-150",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2267,
+   "completion": 26,
+   "cost": 0.00021165
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-150",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 1846,
+   "completion": 86,
+   "cost": 0.0003285
+  }
+ ],
+ "messages": [
+  {
+   "content": "In which Japanese city was the 2025–26 Grand Prix of Figure Skating Final held, where Alysa Liu won the women's singles title?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "48724b33-bd90-451f-bd48-8d26bf366b26"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 28,
+     "prompt_tokens": 589,
+     "total_tokens": 617,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00010515,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00010515,
+      "upstream_inference_prompt_cost": 8.835e-05,
+      "upstream_inference_completions_cost": 1.68e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420659-IPWQ51HMNg6yV2RO1m2V",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-c1c4-77d0-9e7b-502b139bb0d8-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "2025–26 Grand Prix of Figure Skating Final Alysa Liu city"
+     },
+     "id": "call_tzqfmUIkSNmwZNl8gNqt2MhL",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 589,
+    "output_tokens": 28,
+    "total_tokens": 617,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Alysa Liu] Alysa Liu ( ə-LISS-ə LEE-oo; born August 8, 2005) is an American figure skater. She is the 2026 Olympic champion in both the women's singles and team events, the 2025 World champion, the 2022 World bronze medalist, the 2025–26 Grand Prix Final champion, a two-time Grand Prix medalist, a four-time Challenger Series champion, and a two-time U.S. national champion. At the junior level, Liu was the 2020 World Junior bronze medalist, the 2019–20 Junior Grand Prix Final silver medalist, a two-time Junior Grand Prix champion, and the 2018 U.S. junior national champion. In 2019, Liu, then 13, became the youngest-ever U.S. women's national champion. The following year, she became the youngest skater to win two senior national titles, the first woman to win consecutive U.S. titles since Ashley Wagner in 2012 and 2013 and the first woman to win the junior and senior titles back-to-back since Mirai Nagasu in 2008. Following a period of retirement, she won a world title at the 2025 World Championships, becoming the first U.S. woman to do so since Kimmie Meissner in 2006. At the 2026 Winter Olympics, she became the first American woman to win an individual medal since Sasha Cohen in 2006, as well as the first American gold medalist since Sarah Hughes in 2002. An accomplished jumper, Liu was the first woman to complete a quadruple jump and a triple Axel in the same program, and the first to land a triple Axel-triple toe loop combination in the short program. She was the first American woman to land a quadruple jump and the first American junior woman to complete a triple Axel in international competition.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "5a199beb-5275-4e5a-a321-21701f85a6f6",
+   "tool_call_id": "call_tzqfmUIkSNmwZNl8gNqt2MhL",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 40,
+     "prompt_tokens": 1018,
+     "total_tokens": 1058,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001767,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001767,
+      "upstream_inference_prompt_cost": 0.0001527,
+      "upstream_inference_completions_cost": 2.4e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420661-FKTaMvRJDhSaUQu1XnBA",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-c97a-7df1-866d-e87693f21057-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Alysa Liu",
+      "keywords": [
+       "2025–26 Grand Prix of Figure Skating Final",
+       "city"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_rEw6815UT5b54husaL4RKmLT",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1018,
+    "output_tokens": 40,
+    "total_tokens": 1058,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "In March 2026, following her Olympic gold medal wins, Liu was awarded the key to the city of Oakland.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "99b2a6b7-3d55-4ac3-8d76-a1d152e92f13",
+   "tool_call_id": "call_rEw6815UT5b54husaL4RKmLT",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 25,
+     "prompt_tokens": 1090,
+     "total_tokens": 1115,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1024,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001017,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001017,
+      "upstream_inference_prompt_cost": 8.67e-05,
+      "upstream_inference_completions_cost": 1.5e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420663-Zhmf5I5lcFv6FS7J4uUF",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-cfe9-78d0-a856-cb7e08645444-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "2025–26 Grand Prix of Figure Skating Final location"
+     },
+     "id": "call_m4I09hutfMvdtmVqij89y8Ad",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1090,
+    "output_tokens": 25,
+    "total_tokens": 1115,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1024,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Grand Prix of Figure Skating Final] The Grand Prix of Figure Skating Final – originally known as the Champions Series Final – is an annual figure skating competition sanctioned by the International Skating Union (ISU). It is the culminating event of the Grand Prix Series. Medals are awarded in men's singles, women's singles, pair skating, and ice dance. Skaters earn points based on their results at qualifying competitions each season, and the top six skaters or teams in each discipline are invited to then compete at the Grand Prix of Figure Skating Final. Since 2008, the Grand Prix Final has been held concurrently with the Junior Grand Prix of Figure Skating Final. Evgeni Plushenko of Russia and Yuzuru Hanyu of Japan are tied for winning the most Grand Prix Final titles in men's singles (with four each), while Irina Slutskaya of Russia and Mao Asada of Japan are tied for winning the most titles in women's singles (also with four each). Shen Xue and Zhao Hongbo of China hold the record in pair skating (with six), while Meryl Davis and Charlie White of the United States hold the record in ice dance (with five).",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "146744d4-6ebf-4a3a-9538-d7bedca0dd3b",
+   "tool_call_id": "call_m4I09hutfMvdtmVqij89y8Ad",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 36,
+     "prompt_tokens": 1364,
+     "total_tokens": 1400,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1024,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001494,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001494,
+      "upstream_inference_prompt_cost": 0.0001278,
+      "upstream_inference_completions_cost": 2.16e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420665-LFQwW5Q3Xp1Q4I8tMigD",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-d7d8-7513-89fc-f73df06a5b71-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Grand Prix of Figure Skating Final",
+      "keywords": [
+       "2025–26",
+       "location"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_3W2ETfIodc5HvjdZwwkxZfDJ",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1364,
+    "output_tokens": 36,
+    "total_tokens": 1400,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1024,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "The ISU left open the possibility for postponement until the end of the season, but did not announce a post-season date or location for any rescheduled event.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "194cc2f7-4c19-4c8f-9b40-4f58242476af",
+   "tool_call_id": "call_3W2ETfIodc5HvjdZwwkxZfDJ",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 26,
+     "prompt_tokens": 1441,
+     "total_tokens": 1467,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00023175,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00023175,
+      "upstream_inference_prompt_cost": 0.00021615,
+      "upstream_inference_completions_cost": 1.56e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_7b4718ccca",
+    "id": "gen-1792420666-MxfcpNT53fzG71eQIN1p",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-ddfe-7693-93d8-f40a537ed779-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "2025–26 Grand Prix of Figure Skating Final host city"
+     },
+     "id": "call_qkGdRut8vhSLIBLA3Eu3vsSA",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1441,
+    "output_tokens": 26,
+    "total_tokens": 1467,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Grand Prix of Figure Skating Final] The Grand Prix of Figure Skating Final – originally known as the Champions Series Final – is an annual figure skating competition sanctioned by the International Skating Union (ISU). It is the culminating event of the Grand Prix Series. Medals are awarded in men's singles, women's singles, pair skating, and ice dance. Skaters earn points based on their results at qualifying competitions each season, and the top six skaters or teams in each discipline are invited to then compete at the Grand Prix of Figure Skating Final. Since 2008, the Grand Prix Final has been held concurrently with the Junior Grand Prix of Figure Skating Final. Evgeni Plushenko of Russia and Yuzuru Hanyu of Japan are tied for winning the most Grand Prix Final titles in men's singles (with four each), while Irina Slutskaya of Russia and Mao Asada of Japan are tied for winning the most titles in women's singles (also with four each). Shen Xue and Zhao Hongbo of China hold the record in pair skating (with six), while Meryl Davis and Charlie White of the United States hold the record in ice dance (with five).",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "f9c09610-442e-4737-87f5-a66118cd2f70",
+   "tool_call_id": "call_qkGdRut8vhSLIBLA3Eu3vsSA",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 26,
+     "prompt_tokens": 1716,
+     "total_tokens": 1742,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.000177,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.000177,
+      "upstream_inference_prompt_cost": 0.0001614,
+      "upstream_inference_completions_cost": 1.56e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420669-EXbMlWmd3FN9VyY9f00E",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-e667-7a32-ab34-9776b4a916f2-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "2025–26 Grand Prix of Figure Skating Final location Japan"
+     },
+     "id": "call_zJ0A6NWMkIehXqfYTNvyILDW",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1716,
+    "output_tokens": 26,
+    "total_tokens": 1742,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1280,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Grand Prix of Figure Skating Final] The Grand Prix of Figure Skating Final – originally known as the Champions Series Final – is an annual figure skating competition sanctioned by the International Skating Union (ISU). It is the culminating event of the Grand Prix Series. Medals are awarded in men's singles, women's singles, pair skating, and ice dance. Skaters earn points based on their results at qualifying competitions each season, and the top six skaters or teams in each discipline are invited to then compete at the Grand Prix of Figure Skating Final. Since 2008, the Grand Prix Final has been held concurrently with the Junior Grand Prix of Figure Skating Final. Evgeni Plushenko of Russia and Yuzuru Hanyu of Japan are tied for winning the most Grand Prix Final titles in men's singles (with four each), while Irina Slutskaya of Russia and Mao Asada of Japan are tied for winning the most titles in women's singles (also with four each). Shen Xue and Zhao Hongbo of China hold the record in pair skating (with six), while Meryl Davis and Charlie White of the United States hold the record in ice dance (with five).",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "76014e42-a230-418f-8acf-51c78adc2ed8",
+   "tool_call_id": "call_zJ0A6NWMkIehXqfYTNvyILDW",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 27,
+     "prompt_tokens": 1991,
+     "total_tokens": 2018,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1664,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00019005,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00019005,
+      "upstream_inference_prompt_cost": 0.00017385,
+      "upstream_inference_completions_cost": 1.62e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420671-yq2JnibUMbtL9tkgBumA",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-ef30-7070-9399-8c8d168e49cd-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "2025–26 Grand Prix of Figure Skating Final host city Japan"
+     },
+     "id": "call_qV79pwhXBePKSf9bIopGpxcn",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1991,
+    "output_tokens": 27,
+    "total_tokens": 2018,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1664,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Grand Prix of Figure Skating Final] The Grand Prix of Figure Skating Final – originally known as the Champions Series Final – is an annual figure skating competition sanctioned by the International Skating Union (ISU). It is the culminating event of the Grand Prix Series. Medals are awarded in men's singles, women's singles, pair skating, and ice dance. Skaters earn points based on their results at qualifying competitions each season, and the top six skaters or teams in each discipline are invited to then compete at the Grand Prix of Figure Skating Final. Since 2008, the Grand Prix Final has been held concurrently with the Junior Grand Prix of Figure Skating Final. Evgeni Plushenko of Russia and Yuzuru Hanyu of Japan are tied for winning the most Grand Prix Final titles in men's singles (with four each), while Irina Slutskaya of Russia and Mao Asada of Japan are tied for winning the most titles in women's singles (also with four each). Shen Xue and Zhao Hongbo of China hold the record in pair skating (with six), while Meryl Davis and Charlie White of the United States hold the record in ice dance (with five).",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "6fc123c1-6d2f-4449-9dcd-344d603f97fd",
+   "tool_call_id": "call_qV79pwhXBePKSf9bIopGpxcn",
+   "status": "success"
+  },
+  {
+   "content": "Город, в котором проходил финал Гран-при по фигурному катанию 2025–26, не был найден в доступных источниках. Однако, учитывая, что Alysa Liu выиграла титул в женском одиночном катании, можно предположить, что это было в Японии, так как финал часто проходит в японских городах. \n\nFINAL: Япония",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 86,
+     "prompt_tokens": 1846,
+     "total_tokens": 1932,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0003285,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0003285,
+      "upstream_inference_prompt_cost": 0.0002769,
+      "upstream_inference_completions_cost": 5.16e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_ddc7adf4b5",
+    "id": "gen-1792420674-yCb7cVRf0F2gL4b8DLmG",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-fbed-7bf1-a054-ac35a91d5770-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1846,
+    "output_tokens": 86,
+    "total_tokens": 1932,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,279 @@
+{
+ "task": {
+  "id": "fresh-144",
+  "source": "fresh",
+  "question": "At what age did veteran anime voice actor Takaya Hashi, known for Kakuzu in Naruto and Donovan Desmond in Spy × Family, die on 27 August 2025?",
+  "answer": "72",
+  "evidence": "Hashi died from a heart attack on 27 August 2025, at the age of 72.",
+  "page": "Takaya Hashi",
+  "url": "https://en.wikipedia.org/wiki/Takaya_Hashi"
+ },
+ "answer": "Takaya Hashi died at the age of 72. FINAL: 72",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-144",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 596,
+   "completion": 19,
+   "cost": 0.0001008
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-144",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 737,
+   "completion": 30,
+   "cost": 0.00012855
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-144",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 902,
+   "completion": 17,
+   "cost": 0.0001455
+  }
+ ],
+ "messages": [
+  {
+   "content": "At what age did veteran anime voice actor Takaya Hashi, known for Kakuzu in Naruto and Donovan Desmond in Spy × Family, die on 27 August 2025?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "bbb8b6ff-ca5f-48b5-926b-8cc5825bbe69"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 19,
+     "prompt_tokens": 596,
+     "total_tokens": 615,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001008,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001008,
+      "upstream_inference_prompt_cost": 8.94e-05,
+      "upstream_inference_completions_cost": 1.14e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420644-OhoWbpjGButDhBvo5fyk",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-8712-7a23-9120-792a660a52a3-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Takaya Hashi death age"
+     },
+     "id": "call_cWcfjukmmdNxWS0K0ShsqZQY",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 596,
+    "output_tokens": 19,
+    "total_tokens": 615,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Takaya Hashi] Takaya Katō (加藤 孝也, Katō Takaya; 8 September 1952 – 27 August 2025), known professionally as Takaya Hashi (土師 孝也, Hashi Takaya), was a Japanese voice actor. He voiced Toki in Fist of the North Star, Kakuzu in Naruto, Vearn in Dragon Quest: The Adventure of Dai, and Donovan Desmond in Spy × Family. He was a representative director at the talent agency Apte Pro until his death.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "e36985d3-ace5-4f41-9712-6be33db056c7",
+   "tool_call_id": "call_cWcfjukmmdNxWS0K0ShsqZQY",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 30,
+     "prompt_tokens": 737,
+     "total_tokens": 767,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00012855,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00012855,
+      "upstream_inference_prompt_cost": 0.00011055,
+      "upstream_inference_completions_cost": 1.8e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420646-hYGyKRwMZPIPly7FADFX",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-8e79-77c3-b278-0a1104d75726-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Takaya Hashi",
+      "keywords": [
+       "age",
+       "death"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_364jsmEvcm4HXlpp9bmkV5my",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 737,
+    "output_tokens": 30,
+    "total_tokens": 767,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "He was a representative director at the talent agency Apte Pro until his death.\nDespite his advanced age, Hashi remained in voice acting during his senior years, and his voice acting career lasted several decades.\nJoshua Fox of Screen Rant called Hashi a \"true anime legend\", citing his deep voice and ability to improve even at an advanced age.\nHashi served as representative director for talent agency Apte Pro until his death.\nHashi died from a heart attack on 27 August 2025, at the age of 72.\nDragon Quest XI: Echoes of an Elusive Age (2017), Auroral Serpent",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "ef8759d8-5f73-40c8-883e-e5974f93bffd",
+   "tool_call_id": "call_364jsmEvcm4HXlpp9bmkV5my",
+   "status": "success"
+  },
+  {
+   "content": "Takaya Hashi died at the age of 72. FINAL: 72",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 17,
+     "prompt_tokens": 902,
+     "total_tokens": 919,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001455,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001455,
+      "upstream_inference_prompt_cost": 0.0001353,
+      "upstream_inference_completions_cost": 1.02e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_7b4718ccca",
+    "id": "gen-1792420649-D8xtY8lcDjjY7prrzHjm",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-98f4-7501-acdb-27c13092ca82-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 902,
+    "output_tokens": 17,
+    "total_tokens": 919,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

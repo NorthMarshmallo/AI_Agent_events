@@ -1,0 +1,283 @@
+{
+ "task": {
+  "id": "fresh-12",
+  "source": "fresh",
+  "question": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?",
+  "answer": "700,000",
+  "evidence": "The number of children getting support for special educational needs and disabilities has increased by 12% between January 2025 and January 2026, UK government figures indicate, with 700,000 children now receiving help.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I couldn't find specific information regarding the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026. The available resources did not provide this data. \n\nFINAL: Data not found.",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 583,
+   "completion": 32,
+   "cost": 0.00010665
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 667,
+   "completion": 44,
+   "cost": 0.00012645
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1079,
+   "completion": 45,
+   "cost": 0.00018885
+  }
+ ],
+ "messages": [
+  {
+   "content": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "5049f11f-48ea-4aaf-969d-f79db8b49f59"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 32,
+     "prompt_tokens": 583,
+     "total_tokens": 615,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00010665,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00010665,
+      "upstream_inference_prompt_cost": 8.745e-05,
+      "upstream_inference_completions_cost": 1.92e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420499-8SpAd3sH6gFI7oaXO12w",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-4e8a-7bc2-b899-828e0d9b907e-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "number of children receiving support for special educational needs and disabilities in the United Kingdom January 2026"
+     },
+     "id": "call_YufC0DhZvOteT2qMS8Ba6mEa",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 583,
+    "output_tokens": 32,
+    "total_tokens": 615,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Special education in the United Kingdom] Special educational needs (SEN), also known as special educational needs and disabilities (SEND) in England refers to the education of children who require different education provision to the mainstream system.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "68ab17e5-8c10-4d2b-a8e9-93a25f2fc92c",
+   "tool_call_id": "call_YufC0DhZvOteT2qMS8Ba6mEa",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 44,
+     "prompt_tokens": 667,
+     "total_tokens": 711,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00012645,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00012645,
+      "upstream_inference_prompt_cost": 0.00010005,
+      "upstream_inference_completions_cost": 2.64e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420517-QEk5auVy5E4YvCABgM6T",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-95d9-73e0-83c4-040aae935718-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Special education in the United Kingdom",
+      "keywords": [
+       "January 2026",
+       "number of children",
+       "special educational needs",
+       "disabilities"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_4zQOlMk2hrPXpUNU6qWbO1PM",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 667,
+    "output_tokens": 44,
+    "total_tokens": 711,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "Special educational needs (SEN), also known as special educational needs and disabilities (SEND) in England refers to the education of children who require different education provision to the mainstream system.\nThe meaning of SEN is set out in the Education Act 1996 and was amended in the Special Educational Needs and Disability Bill of 2001.\nEvery school must have a Special Educational Needs Co-Ordinator (SENCO), who is responsible for overseeing the support of pupils with SEN.\nIf a family feels that their child is not receiving sufficient support, they may take their local authority to the Special Educational Needs and Disability Tribunal to appeal any decisions the local authority has made on a child's support.\nA Local Offer (or LO) is a statement detailing the pattern of support which a local authority expects to be available for children and young people with special educational needs (SEN) and/or disabilities within their area.\nIt should also tell families about training, employment and independent living options available for young people with special educational needs and/or disabilities.\nAs well as children with disabilities, this also encompasses children who may need support for reasons other than disability, such as children who are being bullied or who are in foster care.\nRegulations for SEN in Northern Ireland are currently governed by the Special Educational Needs and Disability Act (Northern Ireland) 2016.\nChildren who have very significant disabilities are referred straight to Statutory Assessment without having to go through the school-based stages.\nThe education of children with disabilities became mandatory in the Education Act 1918.\nThe Education Act 1944 created provision for children with disabilities to receive \"special educational treatment\" in special schools.\nSEN statements were introduced in 1978 and parents of children with disabilities were given the right to appeal decisions made by local authorities about decisions on their child's e",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "13387616-2cb3-4764-a09e-5e9faf4e3d89",
+   "tool_call_id": "call_4zQOlMk2hrPXpUNU6qWbO1PM",
+   "status": "success"
+  },
+  {
+   "content": "I couldn't find specific information regarding the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026. The available resources did not provide this data. \n\nFINAL: Data not found.",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 45,
+     "prompt_tokens": 1079,
+     "total_tokens": 1124,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00018885,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00018885,
+      "upstream_inference_prompt_cost": 0.00016185,
+      "upstream_inference_completions_cost": 2.7e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420519-8vnjjTmIfKrCZvloZEw4",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-9ccf-7792-a32c-377f5d735c3b-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1079,
+    "output_tokens": 45,
+    "total_tokens": 1124,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}
