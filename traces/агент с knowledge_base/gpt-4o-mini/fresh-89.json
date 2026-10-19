@@ -1,6 +1,60 @@
 {
  "answer": "Doug Armstrong announced he is stepping down as general manager of the Canada men's national ice hockey team on March 17, 2026. \n\nFINAL: Doug Armstrong",
- "hits": [],
+ "hits": [
+  {
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "March 17 – Doug Armstrong announces he is stepping down as general manager of the Canada men's national ice hockey team",
+   "page": "2026 in Canada",
+   "id": 664,
+   "score": 0.7757
+  },
+  {
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_ice_hockey",
+   "text": "David Branch, 77, Canadian executive (Ontario Hockey League, Canadian Hockey League)",
+   "page": "2026 in ice hockey",
+   "id": 3299,
+   "score": 0.5685
+  },
+  {
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "David Branch, ice hockey administrator (b. 1948)",
+   "page": "2026 in Canada",
+   "id": 723,
+   "score": 0.5634
+  },
+  {
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "Dick Roberge, ice hockey player and coach (b. 1934)",
+   "page": "2026 in Canada",
+   "id": 765,
+   "score": 0.5566
+  },
+  {
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_ice_hockey",
+   "text": "Forbes Kennedy, 90, Canadian centre (Detroit Red Wings, Boston Bruins, Philadelphia Flyers) and coach (Winston-Salem Polar Twins, Richmond Wildcats, Charlottetown Eagles/Abbies)",
+   "page": "2026 in ice hockey",
+   "id": 3326,
+   "score": 0.5369
+  }
+ ],
+ "queries": [
+  {
+   "query": "Canada men's national ice hockey team general manager stepping down March 2026",
+   "page": "",
+   "ids": [
+    664,
+    3299,
+    723,
+    765,
+    3326
+   ]
+  }
+ ],
  "cost": 0.00012209999999999999,
  "searches": 1
 }

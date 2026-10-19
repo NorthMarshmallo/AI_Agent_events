@@ -1,6 +1,60 @@
 {
- "answer": "In May 2026, the following cities resumed or started passenger services:\n\n1. **Birmingham** - Local passenger service resumed on the Camp Hill line.\n2. **Kansas City** - KC Streetcar extended to Berkeley Riverfront from River Market North.\n3. **London** - Lumo started passenger services between London and Stirling.\n\nFINAL: Birmingham, Kansas City, London",
- "hits": [],
- "cost": 0.00023625000000000035,
- "searches": 2
+ "answer": "In May 2026, passenger services resumed between Baku and Tbilisi on May 26. \n\nFINAL: Baku and Tbilisi",
+ "hits": [
+  {
+   "text": "7 April – Local passenger service resumes on Birmingham's Camp Hill line after it was discontinued in 1946.",
+   "page": "2026 in rail transport",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+   "id": 3506,
+   "score": 0.5376
+  },
+  {
+   "text": "– Passenger services resume between Beijing and Pyongyang.",
+   "page": "2026 in rail transport",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+   "id": 3495,
+   "score": 0.5059
+  },
+  {
+   "text": "– Grand Central starts operating passenger services between Newcastle upon Tyne and Brighton.",
+   "page": "2026 in rail transport",
+   "section": "December",
+   "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+   "id": 3638,
+   "score": 0.4888
+  },
+  {
+   "text": "– Grand Central starts operating passenger services to Cleethorpes and Grimsby.",
+   "page": "2026 in rail transport",
+   "section": "December",
+   "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+   "id": 3637,
+   "score": 0.484
+  },
+  {
+   "text": "26 May – Passenger servises resume between Baku and Tbilisi.",
+   "page": "2026 in rail transport",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+   "id": 3530,
+   "score": 0.4669
+  }
+ ],
+ "queries": [
+  {
+   "query": "cities resumed passenger services",
+   "page": "",
+   "ids": [
+    3506,
+    3495,
+    3638,
+    3637,
+    3530
+   ]
+  }
+ ],
+ "cost": 0.00010972999999999994,
+ "searches": 1
 }

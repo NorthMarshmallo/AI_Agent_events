@@ -1,6 +1,60 @@
 {
- "answer": "On August 31, 2026, a court in Seoul sentenced Unification Church leader Han Hak-ja to two years' imprisonment for bribery involving former first lady Kim Keon Hee. \n\nFINAL: Han Hak-ja",
- "hits": [],
- "cost": 0.00014054999999999992,
+ "answer": "On August 31, 2026, Unification Church leader Han Hak-ja was sentenced to two years' imprisonment for bribery involving former first lady Kim Keon Hee. \n\nFINAL: Han Hak-ja",
+ "hits": [
+  {
+   "page": "2026 in South Korea",
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+   "text": "31 August – A court in Seoul sentences Unification Church leader Han Hak-ja to two years' imprisonment for bribery involving former first lady Kim Keon Hee.",
+   "id": 2077,
+   "score": 0.686
+  },
+  {
+   "page": "2026 in South Korea",
+   "section": "September",
+   "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+   "text": "2 September – A court sentences an elderly care home director in Incheon to 15 years' imprisonment for sexually assaulting three of his patients.",
+   "id": 2078,
+   "score": 0.681
+  },
+  {
+   "page": "2026 in South Korea",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+   "text": "28 April – The Seoul High Court extends former first lady Kim Keon Hee's prison term for corruption from 20 months to four years.",
+   "id": 2050,
+   "score": 0.6582
+  },
+  {
+   "page": "2026 in South Korea",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+   "text": "28 January – Former first lady Kim Keon Hee is convicted and sentenced to 20 months' imprisonment on charges of accepting bribes from the Unification Church.",
+   "id": 2039,
+   "score": 0.6536
+  },
+  {
+   "page": "2026 in South Korea",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+   "text": "12 June – Former president Yoon Suk Yeol is sentenced to 30 years' imprisonment for sending drones into North Korea as part of efforts to stage provocations to justify the imposition of martial law in 2024.",
+   "id": 2060,
+   "score": 0.6496
+  }
+ ],
+ "queries": [
+  {
+   "query": "two years imprisonment bribery South Korea August 31 2026",
+   "page": "",
+   "ids": [
+    2077,
+    2078,
+    2050,
+    2039,
+    2060
+   ]
+  }
+ ],
+ "cost": 0.00013794000000000002,
  "searches": 1
 }

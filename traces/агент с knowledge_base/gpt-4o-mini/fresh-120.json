@@ -1,6 +1,60 @@
 {
  "answer": "In January 2026, the United States seized two shadow fleet tankers, including one under a Russian flag, as part of the United States oil blockade during Operation Southern Spear. \n\nFINAL: Operation Southern Spear",
- "hits": [],
- "cost": 0.00014447999999999978,
+ "hits": [
+  {
+   "text": "January 7 – The United States seizes two shadow fleet tankers, including one under a Russian flag, in the United States oil blockade during Operation Southern Spear.",
+   "page": "2026",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "id": 15,
+   "score": 0.7484
+  },
+  {
+   "text": "The US announces that it destroyed five Iranian tankers in retaliation to additional attempted missile attacks on one of its Navy warships.",
+   "page": "2026 in the United States",
+   "section": "September",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "id": 5598,
+   "score": 0.5928
+  },
+  {
+   "text": "The US military reports that it destroyed three IRGC-connected oil tankers in response to the latter's fire on its warships.",
+   "page": "2026 in the United States",
+   "section": "September",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "id": 5591,
+   "score": 0.5851
+  },
+  {
+   "text": "The U.S. announces that it struck IRGC targets in Iran after the latter's attacks on commercial shipping in Hormuz and its soldiers, adding that it targeted tankers owned by the National Iranian Oil Company as part of its new \"tanker to tanker\" policy. Trump states that a most devastating attack is in the works, adding that when it is complete the Iranian government will be in ruins. Trump announces that a major target of those strikes were Iran's efforts to rebuild its radar system.",
+   "page": "2026 in the United States",
+   "section": "September",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "id": 5578,
+   "score": 0.5818
+  },
+  {
+   "text": "US Coast Guards abduct the captain and first officer of a Russian-flagged oil tanker and remove them from UK territory. The US force sailed the vessel, the Marinera, into UK waters after seizing it south of Iceland on 7 January.",
+   "page": "2026 in the United Kingdom",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "id": 4265,
+   "score": 0.5738
+  }
+ ],
+ "queries": [
+  {
+   "query": "United States seizing tankers January 2026",
+   "page": "",
+   "ids": [
+    15,
+    5598,
+    5591,
+    5578,
+    4265
+   ]
+  }
+ ],
+ "cost": 0.00014448,
  "searches": 1
 }

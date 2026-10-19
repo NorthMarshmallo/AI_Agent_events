@@ -1,6 +1,60 @@
 {
- "answer": "On 29 July 2026, the FSB charged Telegram founder Pavel Durov with assisting Ukraine's \"terrorism.\" \n\nFINAL: Pavel Durov",
- "hits": [],
- "cost": 0.00025188,
- "searches": 2
+ "answer": "I could not find any specific information regarding charges made by the FSB in Russia on July 29, 2026. \n\nFINAL: NOT_FOUND",
+ "hits": [
+  {
+   "page": "2026 in Russia",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+   "text": "29 June – The FSB arrests a militant who planned to ignite a synagogue in Yaroslavl.",
+   "id": 1937,
+   "score": 0.468
+  },
+  {
+   "page": "2026 in Turkey",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "20 April – Eight people are sentenced to up to 7.5 years' imprisonment for the plunging of a cable car on Tünek Tepe in 2024 that killed one person.",
+   "id": 2199,
+   "score": 0.4511
+  },
+  {
+   "page": "2026 in Canada",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "April 14 – Carney orders the suspension of the federal fuel excise tax in response to the 2026 Iran war from 20 April to 7 September.",
+   "id": 675,
+   "score": 0.4498
+  },
+  {
+   "page": "2026 in Russia",
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+   "text": "21 August – Nikolai Bondarenko, a CPRF candidate to the 2026 Russian legislative election, is fined one thousand rubles for \"demonstration of extremist symbolism\", barring him from the election.",
+   "id": 1952,
+   "score": 0.4481
+  },
+  {
+   "page": "2026 in the United States",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "April 28 – Former FBI director James Comey is indicted on federal charges of threatening the president. The charges are related to a post he made in May 2025, which included a photo of seashells on the beach arranged to spell \"86 47\".",
+   "id": 5265,
+   "score": 0.4279
+  }
+ ],
+ "queries": [
+  {
+   "query": "FSB charges July 29 2026",
+   "page": "",
+   "ids": [
+    1937,
+    2199,
+    675,
+    1952,
+    5265
+   ]
+  }
+ ],
+ "cost": 0.00020058,
+ "searches": 1
 }

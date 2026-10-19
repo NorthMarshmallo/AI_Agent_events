@@ -1,6 +1,60 @@
 {
  "answer": "Liam Nassereddine was announced as the winner of the 'Concertgebouw Young Talent Award' by the Concertgebouw in Amsterdam in January 2026. \n\nFINAL: Liam Nassereddine",
- "hits": [],
+ "hits": [
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_classical_music",
+   "text": "14 January – The Concertgebouw, Amsterdam announces Liam Nassereddine as the winner of its 'Concertgebouw Young Talent Award'.",
+   "page": "2026 in classical music",
+   "section": "Events",
+   "id": 2830,
+   "score": 0.7265
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_classical_music",
+   "text": "21 January – The Ernst von Siemens Foundation announces its 2026 prizes:",
+   "page": "2026 in classical music",
+   "section": "Events",
+   "id": 2834,
+   "score": 0.5558
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_classical_music",
+   "text": "The Hallé announces Aku Sorensen as the winner of the Siemens Hallé International Conductors Competition 2026.",
+   "page": "2026 in classical music",
+   "section": "Events",
+   "id": 2875,
+   "score": 0.5525
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "October 24 – The Junior Eurovision Song Contest 2026 is scheduled to be held in Attard, Malta.",
+   "page": "2026",
+   "section": "Predicted and scheduled events",
+   "id": 201,
+   "score": 0.543
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_classical_music",
+   "text": "1 May – The Adelaide Youth Orchestras announce the appointment of Lloyd Van't Hoff as its next artistic director, effective in June 2026.",
+   "page": "2026 in classical music",
+   "section": "Events",
+   "id": 2889,
+   "score": 0.5409
+  }
+ ],
+ "queries": [
+  {
+   "query": "Concertgebouw Young Talent Award January 2026",
+   "page": "",
+   "ids": [
+    2830,
+    2834,
+    2875,
+    201,
+    2889
+   ]
+  }
+ ],
  "cost": 0.00012699,
  "searches": 1
 }

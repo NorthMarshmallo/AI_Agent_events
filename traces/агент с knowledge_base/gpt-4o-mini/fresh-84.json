@@ -1,6 +1,60 @@
 {
  "answer": "James Pearce Jr. was suspended for eight games in the 2026 NFL season due to a violation of the league's personal conduct policy. FINAL: 8 games",
- "hits": [],
- "cost": 0.00012529999999999985,
+ "hits": [
+  {
+   "page": "2026 in the United States",
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "2026 NFL season: The National Football League suspends Atlanta Falcons linebacker James Pearce Jr. for eight games in violation of the league's personal conduct policy after his arrest in February on domestic violence charges.",
+   "id": 5530,
+   "score": 0.6976
+  },
+  {
+   "page": "2026 in sports",
+   "section": "National Football League",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "September 9, 2026 – January 10, 2027: 2026 NFL season",
+   "id": 3854,
+   "score": 0.4572
+  },
+  {
+   "page": "2026 in Australia",
+   "section": "Sport",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+   "text": "17 March – Marinko Matosevic is barred from sporting activities for four years by the International Tennis Integrity Agency for doping offences between 2018 and 2020.",
+   "id": 475,
+   "score": 0.4259
+  },
+  {
+   "page": "2026 FIFA World Cup",
+   "section": "Discipline",
+   "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "text": "A player or team official was automatically suspended for the next match of the tournament for the following offenses:",
+   "id": 285,
+   "score": 0.4218
+  },
+  {
+   "page": "2026 in Australia",
+   "section": "Sport",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+   "text": "4 August – The International Tennis Integrity Agency suspends Nick Kyrgios after he tests positive for cocaine.",
+   "id": 480,
+   "score": 0.4124
+  }
+ ],
+ "queries": [
+  {
+   "query": "James Pearce Jr. suspension 2026 NFL season",
+   "page": "",
+   "ids": [
+    5530,
+    3854,
+    475,
+    285,
+    480
+   ]
+  }
+ ],
+ "cost": 0.0001253000000000005,
  "searches": 1
 }

@@ -1,6 +1,60 @@
 {
  "answer": "On September 3, 2026, ISRO launched EOS-05, India's first geostationary Earth observation satellite. This launch was part of PSLV's return-to-flight mission after a previous failure in January 2026. \n\nFINAL: EOS-05 satellite",
- "hits": [],
+ "hits": [
+  {
+   "page": "2026 in spaceflight",
+   "section": "Satellite technology",
+   "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+   "text": "On 3 September, ISRO launched EOS-05, India's first geostationary Earth observation satellite. The satellite was launched on PSLV's return-to-flight mission after the failed PSLV-C62 in January 2026.",
+   "id": 3823,
+   "score": 0.6906
+  },
+  {
+   "page": "2026 in India",
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "21 August – Indian National Space Promotion and Authorisation Centre head Pawan Goenka announces that ISRO is going to stop making launch vehicles and it will be done by private sector.",
+   "id": 1295,
+   "score": 0.6518
+  },
+  {
+   "page": "2026 in spaceflight",
+   "section": "Rocket innovation",
+   "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+   "text": "On 18 July, Skyroot Aerospace launched Vikram 1, India's first commercially built rocket, with a successful flight carrying multiple payloads to Low Earth Orbit.",
+   "id": 3813,
+   "score": 0.6068
+  },
+  {
+   "page": "2026 in spaceflight",
+   "section": "Indian human spaceflight program",
+   "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+   "text": "ISRO aims to launch Gaganyaan-1, India's first uncrewed orbital test flight to support human exploration missions.",
+   "id": 3808,
+   "score": 0.5928
+  },
+  {
+   "page": "2026 in spaceflight",
+   "section": "Satellite technology",
+   "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+   "text": "In 2026, NASA plans to launch LOXSAT, a cryogenic fluid management demonstration satellite mission.",
+   "id": 3824,
+   "score": 0.5717
+  }
+ ],
+ "queries": [
+  {
+   "query": "ISRO launch September 3, 2026",
+   "page": "",
+   "ids": [
+    3823,
+    1295,
+    3813,
+    3808,
+    3824
+   ]
+  }
+ ],
  "cost": 0.00014165,
  "searches": 1
 }

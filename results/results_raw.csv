@@ -447,7 +447,7 @@ config,model,id,source,correct,steps,tool_calls,tools,cost,seconds,answer,gold
 поиск,gpt-4o-mini,fresh-135,fresh,False,2,1,web_search,0.00010064999999997992,7.0,Нет данных.,Петросян
 поиск,gpt-4o-mini,fresh-136,fresh,False,6,5,web_search,0.0006799499999999847,40.1,информация о победителе отсутствует,Saint Petersburg State University
 поиск,gpt-4o-mini,fresh-137,fresh,False,4,3,web_search,0.00031124999999998515,18.0,No information available,"August 7, 2025"
-поиск,gpt-4o-mini,fresh-138,fresh,False,2,1,web_search,0.0001515000000000266,5.0,Charles H. Bennett and Gilles Brassard,"Charles H. Bennett, Gilles Brassard"
+поиск,gpt-4o-mini,fresh-138,fresh,True,2,1,web_search,0.0001515000000000266,5.0,Charles H. Bennett and Gilles Brassard,"Charles H. Bennett, Gilles Brassard"
 поиск,gpt-4o-mini,fresh-139,fresh,False,8,7,web_search,0.0010441500000000214,31.0,Неизвестно.,DeepSeek-Prover-V2-671B
 поиск,gpt-4o-mini,fresh-140,fresh,False,8,7,web_search,0.0018908999999999732,158.3,Mugen Train,"Crouching Tiger, Hidden Dragon"
 поиск,gpt-4o-mini,fresh-141,fresh,False,4,3,web_search,0.0005225999999999842,11.2,Not found,$70 million
@@ -602,7 +602,7 @@ config,model,id,source,correct,steps,tool_calls,tools,cost,seconds,answer,gold
 поиск все источники + page_find,gpt-4o-mini,fresh-135,fresh,True,3,2,"ru_wiki_search,web_search",0.0004888499999999851,6.4,Аделия Петросян,Петросян
 поиск все источники + page_find,gpt-4o-mini,fresh-136,fresh,False,8,7,"page_find,web_search",0.0017689499999999914,22.9,информация отсутствует.,Saint Petersburg State University
 поиск все источники + page_find,gpt-4o-mini,fresh-137,fresh,True,5,4,web_search,0.0007057500000000605,132.3,"August 7, 2025","August 7, 2025"
-поиск все источники + page_find,gpt-4o-mini,fresh-138,fresh,False,2,1,web_search,0.0002833499999999045,4.3,Charles H. Bennett and Gilles Brassard,"Charles H. Bennett, Gilles Brassard"
+поиск все источники + page_find,gpt-4o-mini,fresh-138,fresh,True,2,1,web_search,0.0002833499999999045,4.3,Charles H. Bennett and Gilles Brassard,"Charles H. Bennett, Gilles Brassard"
 поиск все источники + page_find,gpt-4o-mini,fresh-139,fresh,False,8,7,web_search,0.0011806500000000053,24.2,нет информации.,DeepSeek-Prover-V2-671B
 поиск все источники + page_find,gpt-4o-mini,fresh-140,fresh,False,4,3,"page_find,web_search",0.0008242500000000819,14.7,"""Demon Slayer: Kimetsu no Yaiba – The Movie: Mugen Train""","Crouching Tiger, Hidden Dragon"
 поиск все источники + page_find,gpt-4o-mini,fresh-141,fresh,True,4,3,"espn_search,page_find,web_search",0.0006704999999999073,18.6,70 million,$70 million
@@ -659,7 +659,7 @@ config,model,id,source,correct,steps,tool_calls,tools,cost,seconds,answer,gold
 поиск все источники + page_find,claude-haiku-4.5,fresh-135,fresh,True,2,1,ru_wiki_search,0.0115289999999999,5.5,Аделия Петросян,Петросян
 поиск все источники + page_find,claude-haiku-4.5,fresh-136,fresh,False,4,3,web_search,0.0226090000000001,13.0,"I apologize, but I'm unable to find specific information abo",Saint Petersburg State University
 поиск все источники + page_find,claude-haiku-4.5,fresh-137,fresh,False,2,1,web_search,0.010777000000000037,8.5,GPT-5 has not been launched by OpenAI yet.,"August 7, 2025"
-поиск все источники + page_find,claude-haiku-4.5,fresh-138,fresh,False,2,1,web_search,0.010774999999999979,127.5,Charles H. Bennett and Gilles Brassard,"Charles H. Bennett, Gilles Brassard"
+поиск все источники + page_find,claude-haiku-4.5,fresh-138,fresh,True,2,1,web_search,0.010774999999999979,127.5,Charles H. Bennett and Gilles Brassard,"Charles H. Bennett, Gilles Brassard"
 поиск все источники + page_find,claude-haiku-4.5,fresh-139,fresh,False,4,3,web_search,0.02190000000000003,12.7,I'm unable to find specific information about a DeepSeek mat,DeepSeek-Prover-V2-671B
 поиск все источники + page_find,claude-haiku-4.5,fresh-140,fresh,False,8,7,web_search,0.06315599999999999,32.8,<ответ>Demon Slayer: Kimetsu no Yaiba – The Movie: Mugen Tra,"Crouching Tiger, Hidden Dragon"
 поиск все источники + page_find,claude-haiku-4.5,fresh-141,fresh,False,4,3,web_search,0.02472799999999986,13.7,"Based on my search results, I cannot find the specific U.S. ",$70 million

@@ -1,0 +1,21 @@
+{
+ "message": {
+  "role": "assistant",
+  "content": null,
+  "refusal": null,
+  "reasoning": null,
+  "tool_calls": [
+   {
+    "type": "function",
+    "index": 0,
+    "id": "call_RXW03Z0k9aIzlNTud42NeOVQ",
+    "function": {
+     "name": "knowledge_base",
+     "arguments": "{\"query\":\"defence minister dismissed Ukraine July 15 2026\"}"
+    }
+   }
+  ]
+ },
+ "prompt": 2308,
+ "cost": 0.000198
+}

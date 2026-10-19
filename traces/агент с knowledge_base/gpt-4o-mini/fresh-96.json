@@ -1,6 +1,87 @@
 {
  "answer": "The 2026 European Men's and Women's Team Badminton Championships were held in Istanbul, Turkey, from February 11 to 15. \n\nFINAL: Istanbul, Turkey",
- "hits": [],
- "cost": 0.00017815000000000018,
+ "hits": [
+  {
+   "section": "Continental championships",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "February 11 – 15 : 2026 European Men's and Women's Team Badminton Championships in Istanbul, Turkey",
+   "page": "2026 in sports",
+   "id": 3936,
+   "score": 0.7404
+  },
+  {
+   "section": "Continental championships",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "April 6 – 12 : 2026 European Badminton Championships in Huelva, Spain",
+   "page": "2026 in sports",
+   "id": 3943,
+   "score": 0.7081
+  },
+  {
+   "section": "Handball",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "2026 European Women's Handball Championship in Czech Republic, Poland, Romania, Slovakia and Turkey",
+   "page": "2026 in sports",
+   "id": 4165,
+   "score": 0.7108
+  },
+  {
+   "page": "2026 in sports",
+   "section": "Continental championships",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "February 13 – 15 : 2026 Oceania Men's & Women's Team Badminton Championships in Auckland, New Zealand",
+   "id": 3938,
+   "score": 0.6375
+  },
+  {
+   "page": "2026 in sports",
+   "section": "Handball",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "15 January – 1 February 2026 European Men's Handball Championship in Denmark, Norway and Sweden",
+   "id": 4164,
+   "score": 0.6108
+  },
+  {
+   "section": "Predicted and scheduled events",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "December 3–20 – The 2026 European Women's Handball Championship is scheduled to be held in the Czech Republic, Poland, Romania, Slovakia and Turkey.",
+   "page": "2026",
+   "id": 212,
+   "score": 0.6707
+  },
+  {
+   "section": "Scheduled",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "3–20 December – 2026 European Women's Handball Championship in Czech Republic, Poland, Romania, Slovakia and Turkey.",
+   "page": "2026 in Turkey",
+   "id": 2223,
+   "score": 0.6572
+  }
+ ],
+ "queries": [
+  {
+   "query": "2026 European Men's Team Badminton Championships",
+   "page": "",
+   "ids": [
+    3936,
+    3943,
+    4165,
+    3938,
+    4164
+   ]
+  },
+  {
+   "query": "2026 European Women's Team Badminton Championships",
+   "page": "",
+   "ids": [
+    3936,
+    4165,
+    3943,
+    212,
+    2223
+   ]
+  }
+ ],
+ "cost": 0.00017214999999999993,
  "searches": 2
 }

@@ -1,6 +1,60 @@
 {
  "answer": "Dharmendra Pradhan resigned from the position of Education Minister in India in July 2026 amid protests over a NEET exam leak. FINAL: Education Minister",
- "hits": [],
- "cost": 0.00012398999999999993,
+ "hits": [
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+   "text": "July 25 – Indian Education Minister Dharmendra Pradhan resigns from the position in light of the protests over a NEET exam leak. Most of the protests ceased following his resignation.",
+   "page": "2026 in politics",
+   "section": "July",
+   "id": 3425,
+   "score": 0.6567
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "Dharmendra Pradhan resigns as Education Minister amid outrage over the 2026 NEET controversy. He is replaced by Pralhad Joshi.",
+   "page": "2026 in India",
+   "section": "July",
+   "id": 1276,
+   "score": 0.6527
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "Nitish Kumar announces his resignation as chief minister of Bihar to run in the 2026 Rajya Sabha elections.",
+   "page": "2026 in India",
+   "section": "March",
+   "id": 1175,
+   "score": 0.5539
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "Nitish Kumar resigns as the Chief Minister of Bihar with Samrat Choudhary succeeding him.",
+   "page": "2026 in India",
+   "section": "April",
+   "id": 1210,
+   "score": 0.5341
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "28 June – Sonam Wangchuk goes on an indefinite hunger strike in protests demanding the resignation of education minister, Dharmendra Pradhan over the 2026 NEET controversy.",
+   "page": "2026 in India",
+   "section": "June",
+   "id": 1244,
+   "score": 0.5087
+  }
+ ],
+ "queries": [
+  {
+   "query": "Dharmendra Pradhan resignation July 2026",
+   "page": "",
+   "ids": [
+    3425,
+    1276,
+    1175,
+    1210,
+    1244
+   ]
+  }
+ ],
+ "cost": 0.00012399000000000025,
  "searches": 1
 }

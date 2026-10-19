@@ -1,6 +1,60 @@
 {
  "answer": "The 2026 U.S. Women's Open, held at Riviera Country Club in Pacific Palisades, California, was associated with golfer Nelly Korda. \n\nFINAL: Nelly Korda",
- "hits": [],
- "cost": 0.00013308000000000026,
+ "hits": [
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "June 4–7: 2026 U.S. Women's Open at Riviera Country Club in Pacific Palisades, California – Nelly Korda",
+   "page": "2026 in sports",
+   "section": "Women's major golf championships (LPGA Tour)",
+   "id": 4155,
+   "score": 0.7822
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "July 30 – August 2: 2026 Women's British Open at Royal Lytham & St Annes Golf Club in Lytham St. Annes, England– Shiho Kuwaki",
+   "page": "2026 in sports",
+   "section": "Women's major golf championships (LPGA Tour)",
+   "id": 4158,
+   "score": 0.6472
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "June 25–28: 2026 Women's PGA Championship in Hazeltine National Golf Club in Chaska, Minnesota – Ryu Hae-ran",
+   "page": "2026 in sports",
+   "section": "Women's major golf championships (LPGA Tour)",
+   "id": 4156,
+   "score": 0.632
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "June 18–21: 2026 U.S. Open at Shinnecock Hills Golf Club in Southampton, New York – Wyndham Clark",
+   "page": "2026 in sports",
+   "section": "Men's major golf championships (PGA Tour)",
+   "id": 4152,
+   "score": 0.6121
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "July 2–5: U.S. Senior Open at Scioto Country Club in Columbus, Ohio – Pádraig Harrington",
+   "page": "2026 in sports",
+   "section": "Senior major golf championships (PGA Tour Champions)",
+   "id": 4161,
+   "score": 0.6104
+  }
+ ],
+ "queries": [
+  {
+   "query": "2026 U.S. Women's Open California",
+   "page": "",
+   "ids": [
+    4155,
+    4158,
+    4156,
+    4152,
+    4161
+   ]
+  }
+ ],
+ "cost": 0.00013307999999999983,
  "searches": 1
 }

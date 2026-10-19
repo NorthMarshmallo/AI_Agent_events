@@ -1,6 +1,60 @@
 {
  "answer": "Tonya McBride Robles was appointed as the president and chief executive officer of the Rochester Philharmonic Orchestra, effective August 17, 2026. \n\nFINAL: Tonya McBride Robles",
- "hits": [],
- "cost": 0.0001351900000000001,
+ "hits": [
+  {
+   "page": "2026 in classical music",
+   "section": "Events",
+   "url": "https://en.wikipedia.org/wiki/2026_in_classical_music",
+   "text": "The Rochester Philharmonic Orchestra announces the appointment of Tonya McBride Robles as its next president and chief executive officer, effective 17 August 2026.",
+   "id": 2908,
+   "score": 0.7833
+  },
+  {
+   "page": "2026 in classical music",
+   "section": "Events",
+   "url": "https://en.wikipedia.org/wiki/2026_in_classical_music",
+   "text": "30 July – The Buffalo Philharmonic Orchestra announces the appointment of Jennifer Barbee as its next president and executive director, effective 1 September 2026.",
+   "id": 2920,
+   "score": 0.6624
+  },
+  {
+   "page": "2026 in classical music",
+   "section": "Events",
+   "url": "https://en.wikipedia.org/wiki/2026_in_classical_music",
+   "text": "27 May – The Seattle Symphony announces the appointment of Jeremy S. Rothman as its next president and chief executive officer, effective 1 September 2026.",
+   "id": 2898,
+   "score": 0.6541
+  },
+  {
+   "page": "2026 in classical music",
+   "section": "Events",
+   "url": "https://en.wikipedia.org/wiki/2026_in_classical_music",
+   "text": "The Buffalo Philharmonic Orchestra announces that Daniel Hart is to retire as its president and executive director on 31 December 2026.",
+   "id": 2883,
+   "score": 0.6428
+  },
+  {
+   "page": "2026 in classical music",
+   "section": "Events",
+   "url": "https://en.wikipedia.org/wiki/2026_in_classical_music",
+   "text": "Aurora Orchestra announces that John Harte is to stand down as its chief executive in July 2026.",
+   "id": 2825,
+   "score": 0.5954
+  }
+ ],
+ "queries": [
+  {
+   "query": "Rochester Philharmonic Orchestra president CEO August 17 2026",
+   "page": "",
+   "ids": [
+    2908,
+    2920,
+    2898,
+    2883,
+    2825
+   ]
+  }
+ ],
+ "cost": 0.00013364999999999991,
  "searches": 1
 }

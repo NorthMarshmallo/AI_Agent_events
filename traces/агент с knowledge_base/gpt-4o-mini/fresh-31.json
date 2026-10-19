@@ -1,6 +1,60 @@
 {
  "answer": "Aibek Dädebai of the newly-formed Ädilet party formed the new government of Kazakhstan after the legislative election on August 23, 2026. \n\nFINAL: Aibek Dädebai",
- "hits": [],
+ "hits": [
+  {
+   "page": "2026 in politics",
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+   "text": "August 23 – The 2026 Kazakh legislative election was held, with Aibek Dädebai of the newly-formed Ädilet forming the new government of Kazakhstan.",
+   "id": 3430,
+   "score": 0.7612
+  },
+  {
+   "page": "2026",
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "August 23 – 2026 Kazakh legislative election: Pro-Tokayev party Ädilet wins a supermajority in the newly established Kurultai.",
+   "id": 172,
+   "score": 0.6624
+  },
+  {
+   "page": "2026 in politics",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+   "text": "The 2026 Kazakh constitutional referendum was held, with nearly 90% of voters in favour.",
+   "id": 3387,
+   "score": 0.6251
+  },
+  {
+   "page": "2026",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "2026 Kazakh constitutional referendum: The new Constitution of Kazakhstan is accepted with 90% in favor.",
+   "id": 77,
+   "score": 0.5981
+  },
+  {
+   "page": "2026 in rail transport",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+   "text": "16 May – Astana Light Metro opens between Nursultan Nazarbayev International Airport and Astana Nurly Zhol station.",
+   "id": 3525,
+   "score": 0.5288
+  }
+ ],
+ "queries": [
+  {
+   "query": "Kazakhstan government formation August 23 2026",
+   "page": "",
+   "ids": [
+    3430,
+    172,
+    3387,
+    77,
+    3525
+   ]
+  }
+ ],
  "cost": 0.00012907,
  "searches": 1
 }

@@ -1,6 +1,60 @@
 {
- "answer": "The date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls was 13 July 2026. \n\nFINAL: 13 July 2026",
- "hits": [],
- "cost": 0.00013540999999999998,
+ "answer": "The Munich court imprisoned the Iraqi couple for enslaving and raping Yazidi girls on 13 July 2026. \n\nFINAL: 13 July 2026",
+ "hits": [
+  {
+   "page": "2026 in Germany",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+   "text": "13 July – A Munich court imprisons an Iraqi couple who were members of Islamic State for enslaving and raping Yazidi girls.",
+   "id": 1080,
+   "score": 0.768
+  },
+  {
+   "page": "2026 in the United Kingdom",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "text": "At a hearing at Preston Crown Court, Walid Saadaoui and Amar Hussein, who plotted an ISIS-style terror attack against the Jewish community in Manchester, are sentenced to life imprisonment with minimum terms of 37 and 26 years respectively.",
+   "id": 4323,
+   "score": 0.4678
+  },
+  {
+   "page": "2026 in the United Kingdom",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "text": "At a hearing at Manchester Crown Court, Paul Quinn is sentenced to 24 years in prison for committing a rape that led to the wrongful conviction of Andrew Malkinson.",
+   "id": 4687,
+   "score": 0.4608
+  },
+  {
+   "page": "2026 in the United Kingdom",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "text": "An Afghan asylum seeker is jailed for 16 years for abducting and raping a 12-year-old girl.",
+   "id": 4472,
+   "score": 0.4596
+  },
+  {
+   "page": "2026 in Germany",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+   "text": "20 May – The Public Prosecutor General arrests a Chinese couple in Munich on suspicion of spying for Chinese intelligence.",
+   "id": 1067,
+   "score": 0.4364
+  }
+ ],
+ "queries": [
+  {
+   "query": "Munich court imprisoned Iraqi couple enslaving raping Yazidi girls",
+   "page": "",
+   "ids": [
+    1080,
+    4323,
+    4687,
+    4472,
+    1067
+   ]
+  }
+ ],
+ "cost": 0.00013361,
  "searches": 1
 }

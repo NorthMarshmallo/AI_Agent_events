@@ -1,6 +1,60 @@
 {
  "answer": "On February 15, 2026, former energy minister German Galushchenko was arrested while attempting to flee Ukraine aboard a train amid corruption charges against him. \n\nFINAL: German Galushchenko",
- "hits": [],
+ "hits": [
+  {
+   "page": "2026 in Ukraine",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "25 February – A suspect in the 2025 murder of politician Andriy Portnov is arrested in Heinsberg, Germany.",
+   "id": 2255,
+   "score": 0.7074
+  },
+  {
+   "page": "2026 in Ukraine",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "15 February – Former energy minister German Galushchenko is arrested while attempting to flee Ukraine aboard a train amid corruption charges against him.",
+   "id": 2252,
+   "score": 0.7043
+  },
+  {
+   "page": "2026 in Germany",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+   "text": "25 February – A suspect in the 2025 murder of Ukrainian politician Andriy Portnov is arrested in Heinsberg.",
+   "id": 1051,
+   "score": 0.6287
+  },
+  {
+   "page": "2026 in Ukraine",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+   "text": "19 March – Former MP Lyudmila Marchenko is sentenced to two years' imprisonment by the High Anti-Corruption Court of Ukraine for bribery.",
+   "id": 2263,
+   "score": 0.6213
+  },
+  {
+   "page": "2026 in Russia",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+   "text": "4 March – Russia releases two dual Hungarian-Ukrainian nationals who had been captured while fighting for Ukraine following negotiations between president Putin and Hungarian foreign minister Péter Szijjártó.",
+   "id": 1862,
+   "score": 0.6152
+  }
+ ],
+ "queries": [
+  {
+   "query": "arrested February 15 2026 Ukraine",
+   "page": "",
+   "ids": [
+    2255,
+    2252,
+    1051,
+    2263,
+    1862
+   ]
+  }
+ ],
  "cost": 0.00013099999999999999,
  "searches": 1
 }

@@ -1,6 +1,60 @@
 {
- "answer": "In the mass shooting at Tumbler Ridge Secondary School in British Columbia, Canada, in February 2026, at least nine people were killed, including the perpetrator, and 27 were injured. \n\nFINAL: 9",
- "hits": [],
- "cost": 0.00013644000000000004,
+ "answer": "In the mass shooting at Tumbler Ridge Secondary School in British Columbia, Canada, on February 10, 2026, at least nine people were killed, including the perpetrator, and 27 were injured. \n\nFINAL: 9 killed",
+ "hits": [
+  {
+   "page": "2026",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "February 10 – At least nine people, including the perpetrator, are killed, and 27 are injured in a mass shooting at Tumbler Ridge Secondary School and at a residence in Tumbler Ridge, British Columbia, Canada.",
+   "id": 52,
+   "score": 0.7573
+  },
+  {
+   "page": "2026 in Canada",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "Nine people are killed in a shooting in Tumbler Ridge, British Columbia.",
+   "id": 642,
+   "score": 0.6239
+  },
+  {
+   "page": "2026 in Canada",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "Two people are killed in a shooting at the Cree Nation of Mistissini in Quebec.",
+   "id": 628,
+   "score": 0.4693
+  },
+  {
+   "page": "2026 in Canada",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "Three people, including the gunman, are killed in a shooting in Montreal.",
+   "id": 695,
+   "score": 0.465
+  },
+  {
+   "page": "2026 in the United States",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "February 16 – A mass shooting occurs at the Dennis M. Lynch Arena in Pawtucket, Rhode Island, during a high school ice hockey game. The attack results in the deaths of three people, and three others hospitalized.",
+   "id": 5121,
+   "score": 0.4646
+  }
+ ],
+ "queries": [
+  {
+   "query": "Tumbler Ridge Secondary School mass shooting February 2026",
+   "page": "",
+   "ids": [
+    52,
+    642,
+    628,
+    695,
+    5121
+   ]
+  }
+ ],
+ "cost": 0.00013884,
  "searches": 1
 }

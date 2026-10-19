@@ -1,6 +1,60 @@
 {
  "answer": "In February 2026, the GRU Airport People Mover opens at São Paulo/Guarulhos International Airport on February 21. \n\nFINAL: GRU Airport People Mover opens on February 21, 2026.",
- "hits": [],
- "cost": 0.0001271600000000003,
+ "hits": [
+  {
+   "page": "2026 in rail transport",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+   "text": "21 February – GRU Airport People Mover opens in São Paulo/Guarulhos International Airport.",
+   "id": 3486,
+   "score": 0.6636
+  },
+  {
+   "page": "2026 in rail transport",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+   "text": "– Line 17 of the São Paulo Metro opens between São Paulo–Morumbi, Aeroporto de Congonhas and Washington Luís.",
+   "id": 3502,
+   "score": 0.5933
+  },
+  {
+   "page": "2026",
+   "section": "Predicted and scheduled events",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "The 2026 Brazilian general election is scheduled to be held.",
+   "id": 199,
+   "score": 0.5129
+  },
+  {
+   "page": "2026 in Brazil",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Brazil",
+   "text": "11 June–19 July – Brazil participates at the 2026 FIFA World Cup",
+   "id": 548,
+   "score": 0.5049
+  },
+  {
+   "page": "2026 in politics",
+   "section": "Predicted and scheduled events",
+   "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+   "text": "October 4 – The 2026 Brazilian general election is scheduled to be held.",
+   "id": 3440,
+   "score": 0.5043
+  }
+ ],
+ "queries": [
+  {
+   "query": "São Paulo/Guarulhos International Airport February 2026",
+   "page": "",
+   "ids": [
+    3486,
+    3502,
+    199,
+    548,
+    3440
+   ]
+  }
+ ],
+ "cost": 0.00012715999999999986,
  "searches": 1
 }

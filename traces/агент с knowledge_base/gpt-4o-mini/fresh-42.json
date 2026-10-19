@@ -1,6 +1,60 @@
 {
- "answer": "The Noida International Airport in India was inaugurated by Prime Minister Narendra Modi on 28 March 2026. \n\nFINAL: Prime Minister Narendra Modi",
- "hits": [],
- "cost": 0.00011045,
+ "answer": "The Noida International Airport in India was inaugurated by Prime Minister Narendra Modi on 28 March 2026. \n\nFINAL: Narendra Modi",
+ "hits": [
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "28 March – The Noida International Airport is inaugurated by Prime Minister Narendra Modi.",
+   "page": "2026 in India",
+   "section": "March",
+   "id": 1195,
+   "score": 0.7852
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "Prime Minister Narendra Modi inaugurates Alluri Sitarama Raju International Airport at Bhogapuram in Andhra Pradesh.",
+   "page": "2026 in India",
+   "section": "August",
+   "id": 1286,
+   "score": 0.6408
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+   "text": "3 September – Passenger trains start running to Urgench International Airport.",
+   "page": "2026 in rail transport",
+   "section": "September",
+   "id": 3582,
+   "score": 0.5485
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+   "text": "– HSR link to Madrid–Barajas Airport opens.",
+   "page": "2026 in rail transport",
+   "section": "Unknown date",
+   "id": 3670,
+   "score": 0.5305
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "16–20 February – AI Impact Summit in New Delhi.",
+   "page": "2026 in India",
+   "section": "February",
+   "id": 1166,
+   "score": 0.5064
+  }
+ ],
+ "queries": [
+  {
+   "query": "Noida International Airport inauguration March 2026",
+   "page": "",
+   "ids": [
+    1195,
+    1286,
+    3582,
+    3670,
+    1166
+   ]
+  }
+ ],
+ "cost": 0.00010924999999999997,
  "searches": 1
 }

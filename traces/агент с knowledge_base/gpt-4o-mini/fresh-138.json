@@ -1,6 +1,60 @@
 {
  "answer": "The two scientists who received the 2025 ACM A.M. Turing Award, announced in March 2026, for their role in quantum information science are Charles H. Bennett and Gilles Brassard. \n\nFINAL: Charles H. Bennett and Gilles Brassard",
- "hits": [],
- "cost": 0.00013507000000000016,
+ "hits": [
+  {
+   "page": "Turing Award",
+   "section": "Recipients",
+   "url": "https://en.wikipedia.org/wiki/Turing_Award",
+   "text": "2025 | | Charles H. Bennett | \"For their essential role in igniting and shaping the quantum revolution in computer science and in information and communications technology.\" | IBM Research",
+   "id": 6208,
+   "score": 0.7231
+  },
+  {
+   "page": "2026 in science",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_science",
+   "text": "18 March – Charles H. Bennett and Gilles Brassard are awarded the 2025 Turing Award for their work in quantum information science.",
+   "id": 3711,
+   "score": 0.72
+  },
+  {
+   "page": "Turing Award",
+   "section": "External links",
+   "url": "https://en.wikipedia.org/wiki/Turing_Award",
+   "text": "ACM A.M. Turing Award Centenary Celebration",
+   "id": 6213,
+   "score": 0.7019
+  },
+  {
+   "page": "Turing Award",
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/Turing_Award",
+   "text": "Presented by | Association for Computing Machinery",
+   "id": 6134,
+   "score": 0.6902
+  },
+  {
+   "page": "Turing Award",
+   "section": "Recipients",
+   "url": "https://en.wikipedia.org/wiki/Turing_Award",
+   "text": "Year | Recipient(s) | Citation | Affiliation",
+   "id": 6138,
+   "score": 0.6758
+  }
+ ],
+ "queries": [
+  {
+   "query": "2025 ACM A.M. Turing Award quantum information science",
+   "page": "",
+   "ids": [
+    6208,
+    3711,
+    6213,
+    6134,
+    6138
+   ]
+  }
+ ],
+ "cost": 0.00013506999999999972,
  "searches": 1
 }

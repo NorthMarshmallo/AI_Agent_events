@@ -1,6 +1,87 @@
 {
- "answer": "In April 2026, Air China and China Southern Airlines, along with its subsidiary XiamenAir, increased fuel surcharges by ¥60–120 (approximately US$8.70–17.5) on domestic flights. This increase was in response to rising oil prices linked to the 2026 Iran war.\n\nFINAL: ¥60–120 (US$8.70–17.5) increase",
- "hits": [],
- "cost": 0.00022612999999999973,
+ "answer": "In April 2026, Air China and China Southern Airlines increased their fuel surcharges by ¥60–120 (approximately US$8.70–17.5) on domestic flights. This adjustment was made in response to rising oil prices linked to the 2026 Iran war.\n\nFINAL: ¥60–120 (US$8.70–17.5) increase",
+ "hits": [
+  {
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_China",
+   "text": "2 April – Air China, China Southern Airlines, and its subsidiary XiamenAir increase fuel surcharges by ¥60–120 (US$8.70–17.5) on domestic flights in response to rising oil prices linked to the 2026 Iran war.",
+   "page": "2026 in China",
+   "id": 853,
+   "score": 0.7525
+  },
+  {
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+   "text": "1 April – The federal government reduces the fuel excise rate to 26.3 cents per litre between 1 April and 30 June to address rising fuel prices caused by the 2026 Iran war.",
+   "page": "2026 in Australia",
+   "id": 409,
+   "score": 0.493
+  },
+  {
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_China",
+   "text": "China lifts tariffs on imports from 20 African countries until 2028.",
+   "page": "2026 in China",
+   "id": 860,
+   "score": 0.4509
+  },
+  {
+   "page": "2026 in Canada",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "April 14 – Carney orders the suspension of the federal fuel excise tax in response to the 2026 Iran war from 20 April to 7 September.",
+   "id": 675,
+   "score": 0.4664
+  },
+  {
+   "page": "2026 in China",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_China",
+   "text": "18 April – China lodges a diplomatic complaint alleging that a Royal New Zealand Air Force spy plane violated its airspace over the Yellow Sea and East China Sea. The New Zealand Defence Force denies breaching Chinese airspace, stating that it was monitoring shipping near North Korea as part of a multinational sanctions enforcement team.",
+   "id": 856,
+   "score": 0.4493
+  },
+  {
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+   "text": "Russia imposes a ban on the export of aviation fuel until 30 November.",
+   "page": "2026 in Russia",
+   "id": 1926,
+   "score": 0.4572
+  },
+  {
+   "section": "Before",
+   "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+   "text": "Smith, Martin (NASASpaceflight): Despite initial setbacks, Chinese spaceflight expected to see exciting 2026",
+   "page": "2026 in spaceflight",
+   "id": 3833,
+   "score": 0.4433
+  }
+ ],
+ "queries": [
+  {
+   "query": "Air China fuel surcharge April 2026",
+   "page": "",
+   "ids": [
+    853,
+    409,
+    860,
+    675,
+    856
+   ]
+  },
+  {
+   "query": "China Southern Airlines fuel surcharge April 2026",
+   "page": "",
+   "ids": [
+    853,
+    409,
+    1926,
+    860,
+    3833
+   ]
+  }
+ ],
+ "cost": 0.00021847999999999985,
  "searches": 2
 }

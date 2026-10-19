@@ -1,6 +1,60 @@
 {
  "answer": "On January 29, 2026, the Turkish Football Federation issued a fine of 802,500 lira (approximately $18,500) to Amed S.F.K. and suspended its president, Nahit Eren, for \"making ideological propaganda\" after the club uploaded a video of a woman having her hair braided, which was linked to protests by Kurds against the 2026 northeastern Syria offensive.\n\nFINAL: 802,500 lira fine",
- "hits": [],
- "cost": 0.00017074000000000006,
+ "hits": [
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "29 January – The Turkish Football Federation issues a fine of 802,500 lira ($18,500) on Diyarbakır-based club Amed S.F.K. and suspends its president, Nahit Eren, on charges of \"making ideological propaganda\" after the club uploads a video of a woman having her hair braided amid similar acts by Kurds in protests against the 2026 northeastern Syria offensive.",
+   "page": "2026 in Turkey",
+   "section": "January",
+   "id": 2181,
+   "score": 0.6259
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "13 January – Ayfer Elmastaşoğlu, 81, footballer and football manager.",
+   "page": "2026 in Turkey",
+   "section": "Deaths",
+   "id": 2226,
+   "score": 0.5647
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "11 June–19 July – Turkey participates at the 2026 FIFA World Cup",
+   "page": "2026 in Turkey",
+   "section": "June",
+   "id": 2209,
+   "score": 0.5593
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "20 May: 2026 UEFA Europa League final in Istanbul, Turkey",
+   "page": "2026 in sports",
+   "section": "UEFA",
+   "id": 3867,
+   "score": 0.5349
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "29 June – Arda Küçükyetim, 20, convicted attempted murderer (2024 Eskişehir stabbing).",
+   "page": "2026 in Turkey",
+   "section": "Deaths",
+   "id": 2238,
+   "score": 0.5096
+  }
+ ],
+ "queries": [
+  {
+   "query": "Amed S.F.K. fine Turkish Football Federation January 29, 2026",
+   "page": "",
+   "ids": [
+    2181,
+    2226,
+    2209,
+    3867,
+    2238
+   ]
+  }
+ ],
+ "cost": 0.00017073999999999995,
  "searches": 1
 }

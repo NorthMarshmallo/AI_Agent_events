@@ -1,6 +1,60 @@
 {
- "answer": "The train collision in Spain on January 20, 2026, occurred in Gelida, where a Rodalies de Catalunya train collided with a retaining wall that had fallen on the track. This incident resulted in the death of the driver and injuries to 37 passengers. \n\nFINAL: Gelida",
- "hits": [],
- "cost": 0.00013699999999999997,
+ "answer": "The train collision in Spain on January 20, 2026, occurred in Gelida, where a Rodalies de Catalunya train collided with a retaining wall that had fallen on the track. FINAL: Gelida",
+ "hits": [
+  {
+   "text": "22 January – A commuter train collides with a crane near Cartagena, injuring four people.",
+   "page": "2026 in Spain",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+   "id": 2107,
+   "score": 0.683
+  },
+  {
+   "text": "18 January – Two high-speed trains derail and collide near Adamuz, killing 43 people.",
+   "page": "2026 in Spain",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+   "id": 2105,
+   "score": 0.654
+  },
+  {
+   "text": "20 January – A Rodalies de Catalunya train collides with a retaining wall that had fallen on the track in Gelida, killing the driver and injuring 37 passengers.",
+   "page": "2026 in Spain",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+   "id": 2106,
+   "score": 0.6479
+  },
+  {
+   "text": "January 18 – 46 people are killed and 292 are injured after two trains derail in Adamuz in southern Spain.",
+   "page": "2026",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "id": 23,
+   "score": 0.6033
+  },
+  {
+   "text": "October 19, 2025: Cross Zornotza in Spain",
+   "page": "2026 in sports",
+   "section": "2025–2026 World Athletics Cross Country Tour",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "id": 3892,
+   "score": 0.5635
+  }
+ ],
+ "queries": [
+  {
+   "query": "train collision Spain January 20, 2026",
+   "page": "",
+   "ids": [
+    2107,
+    2105,
+    2106,
+    23,
+    3892
+   ]
+  }
+ ],
+ "cost": 0.00012695000000000002,
  "searches": 1
 }

@@ -1,6 +1,60 @@
 {
  "answer": "On August 24, 2026, a leisure boat collided with a seawall near Haneda Airport, injuring nine people. \n\nFINAL: 9",
- "hits": [],
- "cost": 0.00013300999999999998,
+ "hits": [
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "text": "August 24 – A leisure boat collides with a seawall near Haneda Airport, injuring nine people.",
+   "page": "2026 in Japan",
+   "section": "August",
+   "id": 1596,
+   "score": 0.7691
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "text": "A fishing boat sinks after being struck by a cargo vessel off the coast of Mie Prefecture, killing two people and injuring 10 others.",
+   "page": "2026 in Japan",
+   "section": "February",
+   "id": 1514,
+   "score": 0.5713
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "text": "May 14 – A ship dismantling plant in Kure, Hiroshima catches fire, resulting in the evacuation of 650 people.",
+   "page": "2026 in Japan",
+   "section": "May",
+   "id": 1556,
+   "score": 0.5415
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "text": "September 15 – A Northrop Grumman RQ-4 Global Hawk of the Japan Air Self-Defense Force crashes into the Sea of Japan off Tottori Prefecture.",
+   "page": "2026 in Japan",
+   "section": "September",
+   "id": 1610,
+   "score": 0.5398
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "text": "March 16 – Two boats carrying high school students on a field trip capsize off Henoko, Okinawa Prefecture, killing two people.",
+   "page": "2026 in Japan",
+   "section": "March",
+   "id": 1524,
+   "score": 0.5368
+  }
+ ],
+ "queries": [
+  {
+   "query": "leisure boat collision Haneda Airport August 24, 2026",
+   "page": "2026 in Japan",
+   "ids": [
+    1596,
+    1514,
+    1556,
+    1610,
+    1524
+   ]
+  }
+ ],
+ "cost": 0.00013378,
  "searches": 1
 }

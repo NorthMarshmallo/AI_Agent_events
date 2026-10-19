@@ -1,6 +1,60 @@
 {
- "answer": "In June 2026, US President Donald Trump and Iranian President Masoud Pezeshkian signed the Islamabad Memorandum to end the 2026 Iran war. The signing took place during a dinner with French President Emmanuel Macron at the Palace of Versailles. \n\nFINAL: Islamabad Memorandum",
- "hits": [],
- "cost": 0.00015260000000000013,
+ "answer": "In June 2026, US President Donald Trump and Iranian President Masoud Pezeshkian signed the Islamabad Memorandum to end the 2026 Iran war. Trump signed the document during a dinner with French President Emmanuel Macron at the Palace of Versailles. \n\nFINAL: Islamabad Memorandum",
+ "hits": [
+  {
+   "page": "2026 in the United States",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "July 15 – 2026 Iran war: President Trump threatens attacks on Iranian power plants and bridges unless Iran resumes negotiations, while considering expanded military operations including the possible invasion of Kharg Island. CENTCOM reinstates its blockade of Iranian ports and conducts further strikes against coastal defences and missile facilities near the Strait of Hormuz.",
+   "id": 5471,
+   "score": 0.564
+  },
+  {
+   "page": "2026 in the United States",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "Trump and Iranian President Masoud Pezeshkian sign a memorandum of understanding to end the war. Trump signs the document at the Palace of Versailles, during a dinner with French President Emmanuel Macron following the G7 summit.",
+   "id": 5402,
+   "score": 0.5628
+  },
+  {
+   "page": "2026 in France",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_France",
+   "text": "17 June – US president Donald Trump and Iranian president Masoud Pezeshkian sign the Islamabad Memorandum to end the 2026 Iran war, with Trump signing the document during dinner with President Macron at the Palace of Versailles.",
+   "id": 963,
+   "score": 0.562
+  },
+  {
+   "page": "2026 in the United States",
+   "section": "September",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "Trump announces that he is willing to engage with Iran to negotiate a deal.",
+   "id": 5611,
+   "score": 0.5552
+  },
+  {
+   "page": "2026 in the United States",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "Trump warns that \"a whole civilization will die tonight, never to be brought back again\" unless Iran reaches a deal on reopening the Strait of Hormuz, and sets a deadline of 20:00 EDT.",
+   "id": 5214,
+   "score": 0.5451
+  }
+ ],
+ "queries": [
+  {
+   "query": "Trump Pezeshkian June 2026",
+   "page": "",
+   "ids": [
+    5471,
+    5402,
+    963,
+    5611,
+    5214
+   ]
+  }
+ ],
+ "cost": 0.00015260000000000002,
  "searches": 1
 }

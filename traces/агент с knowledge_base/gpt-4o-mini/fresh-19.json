@@ -1,6 +1,60 @@
 {
  "answer": "On June 15, 2026, Disney Branded Television rebranded itself as \"Disney Kids & Family.\" \n\nFINAL: Disney Kids & Family",
- "hits": [],
+ "hits": [
+  {
+   "page": "2026 in animation",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+   "text": "June 15: Disney Branded Television (Parent company of Disney Television Animation) rebrands itself as \"Disney Kids & Family\".",
+   "id": 2439,
+   "score": 0.7431
+  },
+  {
+   "page": "2026 in animation",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+   "text": "July 29: The fourth and final season of The Proud Family: Louder and Prouder premiered on Disney+.",
+   "id": 2476,
+   "score": 0.4999
+  },
+  {
+   "page": "2026 in China",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_China",
+   "text": "17 June — The State Administration for Market Regulation approves Paramount Skydance's proposed acquisition of Warner Bros. Discovery.",
+   "id": 876,
+   "score": 0.4915
+  },
+  {
+   "page": "2026 in animation",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+   "text": "January 26: Turner Classic Movies (TCM) announced a six-year contract with Warner Bros. Discovery to air the Looney Tunes and Merrie Melodies shorts starting in February amid ongoing efforts from several companies to acquire the company.",
+   "id": 2337,
+   "score": 0.4897
+  },
+  {
+   "page": "2026 in animation",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+   "text": "May 9: The fourth season of Chibiverse premiered on Disney Channel and Disney XD simultaneously.",
+   "id": 2409,
+   "score": 0.4843
+  }
+ ],
+ "queries": [
+  {
+   "query": "Disney Branded Television rebrand June 15 2026",
+   "page": "",
+   "ids": [
+    2439,
+    2476,
+    876,
+    2337,
+    2409
+   ]
+  }
+ ],
  "cost": 0.00012474000000000003,
  "searches": 1
 }

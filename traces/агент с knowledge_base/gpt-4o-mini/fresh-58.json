@@ -1,6 +1,60 @@
 {
- "answer": "On January 2, 2026, Chinese car company BYD Auto overtook American company Tesla as the world's largest seller of electric vehicles. \n\nFINAL: BYD Auto",
- "hits": [],
- "cost": 0.00014409000000000004,
+ "answer": "On January 2, 2026, Chinese car company BYD Auto overtook Tesla as the world's largest seller of electric vehicles. \n\nFINAL: BYD Auto",
+ "hits": [
+  {
+   "page": "2026 in China",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_China",
+   "text": "2 January – The New York Times reports that Chinese car company BYD Auto has overtaken American company Tesla as the world's largest seller of electric vehicles.",
+   "id": 829,
+   "score": 0.7272
+  },
+  {
+   "page": "2026 in the United Kingdom",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "text": "Tesla Energy Ventures Limited, a subsidiary of Elon Musk's company Tesla, is granted approval to begin supplying electricity to homes and businesses across the UK.",
+   "id": 4415,
+   "score": 0.5049
+  },
+  {
+   "page": "2026 in Canada",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "Carney announces a new strategy for Canada's automotive sector, eliminating the Electric Vehicle Availability Standards (EVAS) system implemented under the previous government led by former Prime Minister Justin Trudeau and re-introducing sale rebates for electric vehicles (EVs) priced under $50,000 that are sold in Canada, alongside $3 billion being allocated from the Strategic Response Fund to help the sector withstand the various impacts suffered as a result of the tariffs enacted in the second Trump administration.",
+   "id": 632,
+   "score": 0.4722
+  },
+  {
+   "page": "2026 in the United States",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "June 16 – SpaceX announces a US$60 billion all-stock deal to acquire Cursor, the developer of the AI coding assistant Cursor, with the transaction expected to close in the third quarter of 2026.",
+   "id": 5399,
+   "score": 0.4447
+  },
+  {
+   "page": "2026 in the United States",
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "The leveraged buyout of Electronic Arts is completed, with a consortium led by Saudi Arabia's Public Investment Fund and including Silver Lake and Affinity Partners acquiring the American video game publisher for US$55 billion and taking it private. The transaction is the largest leveraged buyout in history.",
+   "id": 5508,
+   "score": 0.4439
+  }
+ ],
+ "queries": [
+  {
+   "query": "largest seller of electric vehicles January 2 2026",
+   "page": "",
+   "ids": [
+    829,
+    4415,
+    632,
+    5399,
+    5508
+   ]
+  }
+ ],
+ "cost": 0.00014289000000000012,
  "searches": 1
 }

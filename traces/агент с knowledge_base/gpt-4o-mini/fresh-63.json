@@ -1,6 +1,146 @@
 {
  "answer": "Two people were killed in an avalanche at the Hohe Ferse near Ratschings on March 21, 2026. \n\nFINAL: 2",
- "hits": [],
- "cost": 0.00011824999999999987,
- "searches": 1
+ "hits": [
+  {
+   "text": "August 29: 2026 EFA Championship Game in Innsbruck, Austria",
+   "page": "2026 in sports",
+   "section": "European Football Alliance",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "id": 3858,
+   "score": 0.5243
+  },
+  {
+   "page": "2026 in ice hockey",
+   "section": "IIHF World Championship",
+   "url": "https://en.wikipedia.org/wiki/2026_in_ice_hockey",
+   "text": "May 15 – 31: 2026 IIHF World Championship in Zurich and Fribourg",
+   "id": 3179,
+   "score": 0.5325
+  },
+  {
+   "page": "Чемпионат России по фигурному катанию 2026",
+   "section": "",
+   "url": "https://ru.wikipedia.org/wiki/Чемпионат_России_по_фигурному_катанию_2026",
+   "text": "Чемпионат России по фигурному катанию на коньках 2026",
+   "id": 5998,
+   "score": 0.5325
+  },
+  {
+   "text": "November 2, 2025: Cross della Valsugana in Italy",
+   "page": "2026 in sports",
+   "section": "2025–2026 World Athletics Cross Country Tour",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "id": 3920,
+   "score": 0.5119
+  },
+  {
+   "page": "2026 in sports",
+   "section": "2026 UCI World Tour (men)",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "June 7-14 2026 Tour Auvergne-Rhône-Alpes (UWT #23):",
+   "id": 4051,
+   "score": 0.5162
+  },
+  {
+   "text": "March 9-15 2026 Tirreno–Adriatico (UWT #7):",
+   "page": "2026 in sports",
+   "section": "2026 UCI World Tour (men)",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "id": 4019,
+   "score": 0.5081
+  },
+  {
+   "text": "September 11 2026 Grand Prix Cycliste de Québec (UWT #33):",
+   "page": "2026 in sports",
+   "section": "2026 UCI World Tour (men)",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "id": 4084,
+   "score": 0.5047
+  },
+  {
+   "text": "April 26 2026 Liège–Bastogne–Liège (UWT #19):",
+   "page": "2026 in sports",
+   "section": "2026 UCI World Tour (men)",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "id": 4040,
+   "score": 0.4892
+  },
+  {
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Italy",
+   "text": "21 March – Two people are killed in an avalanche at the Hohe Ferse near Ratschings.",
+   "page": "2026 in Italy",
+   "id": 1384,
+   "score": 0.5954
+  },
+  {
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "An avalanche kills eight skiers northwest of Lake Tahoe in California.",
+   "page": "2026 in the United States",
+   "id": 5124,
+   "score": 0.573
+  },
+  {
+   "section": "Multi-sport events",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "March 6–15: 2026 Winter Paralympics in Milan and Cortina d'Ampezzo",
+   "page": "2026 in sports",
+   "id": 3837,
+   "score": 0.5253
+  },
+  {
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "August 8 – 2026 Canadian wildfires: The British Columbian government declares a state of emergency after the Bald Range fire destroyed homes and forced the evacuation of 20,000 people living along Okanagan Lake.",
+   "page": "2026 in Canada",
+   "id": 708,
+   "score": 0.5198
+  },
+  {
+   "section": "Divisions",
+   "url": "https://en.wikipedia.org/wiki/2026_in_ice_hockey",
+   "text": "The tournament was postponed due to the 2026 Iran war on March 18, 2026, and later cancelled on March 25, with the group's current composition frozen from promotion and relegation.",
+   "page": "2026 in ice hockey",
+   "id": 3188,
+   "score": 0.5179
+  }
+ ],
+ "queries": [
+  {
+   "query": "avalanche Ratschings March 2026",
+   "page": "",
+   "ids": [
+    3858,
+    3179,
+    5998,
+    3920,
+    4051
+   ]
+  },
+  {
+   "query": "Ratschings avalanche March 2026",
+   "page": "",
+   "ids": [
+    3858,
+    3920,
+    4019,
+    4084,
+    4040
+   ]
+  },
+  {
+   "query": "avalanche March 2026",
+   "page": "",
+   "ids": [
+    1384,
+    5124,
+    3837,
+    708,
+    3188
+   ]
+  }
+ ],
+ "cost": 0.0003538999999999999,
+ "searches": 3
 }

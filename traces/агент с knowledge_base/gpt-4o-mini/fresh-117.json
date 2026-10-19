@@ -1,6 +1,60 @@
 {
- "answer": "In April 2026, Line S2 of the Nanjing Metro opens between Xishanqiao station and Taibai station. \n\nFINAL: Line S2",
- "hits": [],
- "cost": 0.0001251099999999999,
+ "answer": "In April 2026, Line S2 of the Nanjing Metro opens between Xishanqiao station and Taibai station. \n\nFINAL: Line S2 opens between Xishanqiao and Taibai stations.",
+ "hits": [
+  {
+   "text": "22 April – Line S2 of the Nanjing Metro opens between Xishanqiao station and Taibai station.",
+   "page": "2026 in rail transport",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+   "id": 3512,
+   "score": 0.6782
+  },
+  {
+   "text": "– Line 3 of the Shenyang Metro extends from Nanliguan to Fangjialan.",
+   "page": "2026 in rail transport",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+   "id": 3548,
+   "score": 0.6383
+  },
+  {
+   "text": "16 September – Xiamen Metro: Line 4 begins trial running between Jimei Software Park North and Qianwu; Line 6 begins trial running between Jiaojiang Road and Huaqiao University.",
+   "page": "2026 in rail transport",
+   "section": "September",
+   "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+   "id": 3594,
+   "score": 0.6122
+  },
+  {
+   "text": "– Line 5 of the Xi'an Metro extends from Yanminghu to Xi'an Dongzhan.",
+   "page": "2026 in rail transport",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+   "id": 3549,
+   "score": 0.6031
+  },
+  {
+   "text": "– Suzhou Metro: Line 2 extends to Aigehaolu from Qihe; Line 4 extends to Guantanglu from Longdaobang; Line 7 extends to Chunqiulu from Changlou.",
+   "page": "2026 in rail transport",
+   "section": "Unknown date",
+   "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+   "id": 3649,
+   "score": 0.5988
+  }
+ ],
+ "queries": [
+  {
+   "query": "Nanjing Metro April 2026",
+   "page": "",
+   "ids": [
+    3512,
+    3548,
+    3594,
+    3549,
+    3649
+   ]
+  }
+ ],
+ "cost": 0.00013290999999999997,
  "searches": 1
 }

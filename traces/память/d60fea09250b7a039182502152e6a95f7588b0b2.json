@@ -1,0 +1,30 @@
+{
+ "message": {
+  "role": "assistant",
+  "content": null,
+  "refusal": null,
+  "reasoning": null,
+  "tool_calls": [
+   {
+    "type": "function",
+    "index": 0,
+    "id": "call_vp7o0yAIXU48bC5wpJmJJ9Xd",
+    "function": {
+     "name": "knowledge_base",
+     "arguments": "{\"query\": \"football\", \"page\": \"\"}"
+    }
+   },
+   {
+    "type": "function",
+    "index": 1,
+    "id": "call_5jl22jofAVP0MNiabvpN9ojv",
+    "function": {
+     "name": "knowledge_base",
+     "arguments": "{\"query\": \"Kaliningrad\", \"page\": \"\"}"
+    }
+   }
+  ]
+ },
+ "prompt": 403,
+ "cost": 9.405e-05
+}

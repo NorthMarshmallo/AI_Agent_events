@@ -1,6 +1,60 @@
 {
- "answer": "In the car incident in Leipzig, Germany, in May 2026, two people were killed and 22 others were injured. \n\nFINAL: 2 killed",
- "hits": [],
- "cost": 0.00011837999999999999,
+ "answer": "In the car incident in Leipzig, Germany, on May 4, 2026, two people were killed and 22 others were injured. \n\nFINAL: 2 killed",
+ "hits": [
+  {
+   "page": "2026 in Germany",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+   "text": "4 May – A car plows into a crowd in Grimmaische Strasse in Leipzig, killing two people and injuring 22 others.",
+   "id": 1063,
+   "score": 0.6791
+  },
+  {
+   "page": "2026 in Germany",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+   "text": "27 May – 2026 UEFA Conference League final in Leipzig.",
+   "id": 1068,
+   "score": 0.6136
+  },
+  {
+   "page": "2026 in sports",
+   "section": "UEFA",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "27 May: 2026 UEFA Conference League final in Leipzig, Germany",
+   "id": 3869,
+   "score": 0.5804
+  },
+  {
+   "page": "2026 in Germany",
+   "section": "September",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+   "text": "1 September – Germany orders the closure of the Russian consulate and cultural center in Berlin after it finds the Russian government responsible for the 2026 Leipzig Airport drone attack.",
+   "id": 1090,
+   "score": 0.5598
+  },
+  {
+   "page": "2026 in Germany",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+   "text": "A small plane carrying two people crashes into a house in Ganderkesee.",
+   "id": 1081,
+   "score": 0.5583
+  }
+ ],
+ "queries": [
+  {
+   "query": "Leipzig Germany car incident May 2026",
+   "page": "",
+   "ids": [
+    1063,
+    1068,
+    3869,
+    1090,
+    1081
+   ]
+  }
+ ],
+ "cost": 0.00012018,
  "searches": 1
 }

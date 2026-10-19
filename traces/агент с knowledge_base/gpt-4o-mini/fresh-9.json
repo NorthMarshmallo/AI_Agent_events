@@ -1,6 +1,60 @@
 {
  "answer": "The 2026 BWF World Championships were hosted in New Delhi, India, from August 17 to 23. \n\nFINAL: New Delhi, India",
- "hits": [],
+ "hits": [
+  {
+   "section": "Major championships",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "August 17 – 23 : 2026 BWF World Championships in New Delhi, India",
+   "page": "2026 in sports",
+   "id": 3927,
+   "score": 0.7684
+  },
+  {
+   "section": "BWF World Tour Finals",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "December 9 – 13 : 2026 BWF World Tour Finals in Hangzhou, China",
+   "page": "2026 in sports",
+   "id": 3953,
+   "score": 0.7338
+  },
+  {
+   "section": "Wheelchair Basketball",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "Ottawa 2026 IWBF Wheelchair Basketball World Championships",
+   "page": "2026 in sports",
+   "id": 4171,
+   "score": 0.6993
+  },
+  {
+   "section": "Continental championships",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "April 7 – 12 : 2026 Badminton Asia Championships in Ningbo, China",
+   "page": "2026 in sports",
+   "id": 3950,
+   "score": 0.6857
+  },
+  {
+   "section": "Continental championships",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "February 3 – 8 : 2026 Badminton Asia Team Championships in Qingdao, China",
+   "page": "2026 in sports",
+   "id": 3931,
+   "score": 0.6802
+  }
+ ],
+ "queries": [
+  {
+   "query": "2026 BWF World Championships",
+   "page": "",
+   "ids": [
+    3927,
+    3953,
+    4171,
+    3950,
+    3931
+   ]
+  }
+ ],
  "cost": 0.00011532,
  "searches": 1
 }

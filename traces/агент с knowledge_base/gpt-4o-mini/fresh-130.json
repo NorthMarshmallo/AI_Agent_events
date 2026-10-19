@@ -1,6 +1,60 @@
 {
  "answer": "The name of the protein design reasoning model for binder generation that Nvidia unveiled at GTC 2026 is Proteina-Complexa. FINAL: Proteina-Complexa",
- "hits": [],
+ "hits": [
+  {
+   "page": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+   "text": "Concurrently, Nvidia unveiled a new protein design reasoning model, Proteina-Complexa, which generates binders for structure-based drug discovery. One million designed protein binders were experimentally validated against over 130 targets in an expansive collaboration with Manifold Bio, Novo Nordisk, Viva Biotech, University of Cambridge, LMU Munich, and Duke University. The model combines the partially latent flow matching architecture of its predecessor, La-Proteina, with test-time compute scaling to iteratively optimize designs.",
+   "id": 5689,
+   "score": 0.7512
+  },
+  {
+   "page": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+   "text": "Announced at GTC, a new collaboration between Nvidia, European Molecular Biology Laboratory (EMBL), Google DeepMind and Seoul National University, has contributed 1.7 million new predicted protein complexes to the AlphaFold Protein Structure Database. 30 million additional predicted structures have been made available for bulk download. The expansion removes a massive computational barrier for researchers, particularly those in limited super computing environments.",
+   "id": 5688,
+   "score": 0.5621
+  },
+  {
+   "page": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+   "text": "In drug discovery, AI models have evolved beyond simple structure prediction to simulate complex protein interactions, ushering in a new era of biological reasoning to unlock disease mechanisms.",
+   "id": 5687,
+   "score": 0.5564
+  },
+  {
+   "page": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences",
+   "section": "",
+   "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+   "text": "Cosmos-H, an open model family that enables domain-specific, physics-based synthetic data generation at scale. D evelopers can augment datasets with lifelike simulations and evaluate robotic policies by predicting the future state of surgical environments.",
+   "id": 5693,
+   "score": 0.5394
+  },
+  {
+   "page": "GPT-5",
+   "section": "Architecture",
+   "url": "https://en.wikipedia.org/wiki/GPT-5",
+   "text": "GPT-5 is a system that contains a fast, high-throughput model, a deeper reasoning model, and a real-time router that decides which model to use based on conversation type, complexity, tool needs, and explicit user intent. Altman had previously criticized the manual model picker for being overly complex, suggesting a need for unification. GPT-5 also includes agentic functionality through which it can set up its own desktop and can use its browser to search autonomously for sources that relate to its task. The GPT-5 system card defines two fast, high-throughput models – gpt-5-main and gpt-5-main-mini – and two thinking models – gpt-5-thinking and gpt-5-thinking-mini. In the OpenAI API, developers can access the thinking model, its mini version, and gpt-5-thinking-nano, an even smaller and faster nano version of the thinking model. The version of GPT-5 that is accessible via the API has adjustable reasoning effort (low, medium, high, or minimal) and verbosity (low, medium, or high). Additionally, ChatGPT provides access to gpt-5-thinking with a setting that makes use of parallel test-time compute, referred to as gpt-5-thinking-pro.",
+   "id": 6108,
+   "score": 0.5129
+  }
+ ],
+ "queries": [
+  {
+   "query": "Nvidia GTC 2026 protein design reasoning model binder generation",
+   "page": "",
+   "ids": [
+    5689,
+    5688,
+    5687,
+    5693,
+    6108
+   ]
+  }
+ ],
  "cost": 0.00019001,
  "searches": 1
 }

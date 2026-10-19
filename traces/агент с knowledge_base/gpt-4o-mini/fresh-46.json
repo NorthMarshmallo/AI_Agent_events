@@ -1,6 +1,60 @@
 {
  "answer": "The Moscow bombing on August 1, 2026, resulted in five deaths, including the bomber. \n\nFINAL: 5",
- "hits": [],
+ "hits": [
+  {
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+   "text": "1 August – 2026 Moscow bombing: An explosion in an Italian restaurant-café in Moscow leaves five dead, including the bomber.",
+   "page": "2026 in Russia",
+   "id": 1945,
+   "score": 0.727
+  },
+  {
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+   "text": "Seven people are killed in a fire at a construction site in Moscow.",
+   "page": "2026 in Russia",
+   "id": 1904,
+   "score": 0.5885
+  },
+  {
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+   "text": "12 March – The Second Western District Military Court in Moscow sentences 19 people to sentences ranging up to life imprisonment for their role in carrying out the Crocus City Hall attack in 2024.",
+   "page": "2026 in Russia",
+   "id": 1866,
+   "score": 0.581
+  },
+  {
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+   "text": "Two people are killed in an explosion at a fireworks warehouse in Vladikavkaz.",
+   "page": "2026 in Russia",
+   "id": 1892,
+   "score": 0.558
+  },
+  {
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+   "text": "24 February – A police officer and a bomber are killed in a bomb attack near Moscow Savyolovsky railway station.",
+   "page": "2026 in Russia",
+   "id": 1858,
+   "score": 0.5343
+  }
+ ],
+ "queries": [
+  {
+   "query": "Moscow bombing August 1, 2026",
+   "page": "",
+   "ids": [
+    1945,
+    1904,
+    1866,
+    1892,
+    1858
+   ]
+  }
+ ],
  "cost": 0.000116,
  "searches": 1
 }

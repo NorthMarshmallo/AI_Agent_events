@@ -1,6 +1,60 @@
 {
- "answer": "On February 26, 2026, the government of Pakistan declared \"open war\" against the Taliban in Afghanistan. \n\nFINAL: open war against the Taliban",
- "hits": [],
- "cost": 0.00012643000000000008,
+ "answer": "On February 26, 2026, the government of Pakistan declared \"open war\" against the Taliban in Afghanistan during the Afghanistan–Pakistan war. \n\nFINAL: open war against the Taliban",
+ "hits": [
+  {
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+   "page": "2026",
+   "id": 62,
+   "score": 0.6963
+  },
+  {
+   "section": "Predicted and scheduled events",
+   "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+   "text": "November 28 – The 2026 Palestinian legislative election are scheduled to be held.",
+   "page": "2026 in politics",
+   "id": 3447,
+   "score": 0.5472
+  },
+  {
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+   "text": "February 12 – The 2026 Bangladeshi general election was held, with the Bangladesh National Party winning a landslide victory.",
+   "page": "2026 in politics",
+   "id": 3372,
+   "score": 0.5407
+  },
+  {
+   "section": "Predicted and scheduled events",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "November 28 – The 2026 Palestinian legislative election is scheduled to be held.",
+   "page": "2026",
+   "id": 211,
+   "score": 0.5362
+  },
+  {
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "June 15–17 – The United States and Iran announce and sign the Islamabad Memorandum, a 14-point agreement to end the 2026 Iran war, reopen the Strait of Hormuz, lift the U.S. blockade of Iranian ports, and begin a 60-day negotiation period on Iran's nuclear programme; Israel says it will not withdraw from territory it has seized in southern Lebanon.",
+   "page": "2026",
+   "id": 135,
+   "score": 0.5317
+  }
+ ],
+ "queries": [
+  {
+   "query": "Pakistan government declaration February 26 2026",
+   "page": "",
+   "ids": [
+    62,
+    3447,
+    3372,
+    211,
+    135
+   ]
+  }
+ ],
+ "cost": 0.00013112999999999992,
  "searches": 1
 }

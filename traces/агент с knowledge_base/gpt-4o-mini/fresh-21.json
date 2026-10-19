@@ -1,6 +1,60 @@
 {
- "answer": "In June 2026, artist Gavin Snider accused fellow artist and social media star Devon Rodriguez of presenting images of paintings he created, which were commissioned by the New York Knicks to celebrate their 2026 NBA Championship victory, as his own. Rodriguez subsequently removed his social media post introducing the work as his own. \n\nFINAL: Gavin Snider",
- "hits": [],
- "cost": 0.00014718,
+ "answer": "In June 2026, artist Gavin Snider accused fellow artist and social media star Devon Rodriguez of presenting images of paintings he created, which were commissioned by the New York Knicks to celebrate their 2026 NBA Championship victory, as his own. Rodriguez subsequently removed his social media post introducing the work as his own.\n\nFINAL: Gavin Snider",
+ "hits": [
+  {
+   "page": "2026 in art",
+   "section": "Events",
+   "url": "https://en.wikipedia.org/wiki/2026_in_art",
+   "text": "June – Artist Gavin Snider accuses fellow artist and social media star Devon Rodriguez of presenting images of paintings of triumphant New York Knicks fans outside Madison Square Garden commissioned by the team from him to celebrate their 2026 NBA Championship, victory as his own. Rodriguez summarily removes his social media post introducing the work as his own.",
+   "id": 2734,
+   "score": 0.5725
+  },
+  {
+   "page": "2026 in the United States",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "Singer D4vd is arrested as the main suspect of the death of Celeste Rivas Hernandez.",
+   "id": 5240,
+   "score": 0.4994
+  },
+  {
+   "page": "2026 in the United States",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "CNN reports that the DOJ opened a criminal investigation into E. Jean Carroll, accusing her of perjury during her defamation and sexual abuse lawsuit against Trump.",
+   "id": 5329,
+   "score": 0.4717
+  },
+  {
+   "page": "2026 in the United States",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "A probe against Eric Swalwell over the sexual assault allegations against him is launched by the Manhattan District Attorney.",
+   "id": 5230,
+   "score": 0.4582
+  },
+  {
+   "page": "2026 in the United States",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "The DOJ opens an investigation against Eric Swalwell.",
+   "id": 5239,
+   "score": 0.4471
+  }
+ ],
+ "queries": [
+  {
+   "query": "Devon Rodriguez artist accusation June 2026",
+   "page": "",
+   "ids": [
+    2734,
+    5240,
+    5329,
+    5230,
+    5239
+   ]
+  }
+ ],
+ "cost": 0.00014658,
  "searches": 1
 }

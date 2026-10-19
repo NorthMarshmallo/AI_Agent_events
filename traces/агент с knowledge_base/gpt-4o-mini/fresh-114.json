@@ -1,6 +1,60 @@
 {
  "answer": "A new Urgent Care Centre opened in St. John's, Newfoundland and Labrador on January 12, 2026. \n\nFINAL: Urgent Care Centre",
- "hits": [],
- "cost": 0.00012037999999999979,
+ "hits": [
+  {
+   "page": "2026 in Canada",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "January 12 – A new Urgent Care Centre opens in St. John's, Newfoundland and Labrador.",
+   "id": 612,
+   "score": 0.7517
+  },
+  {
+   "page": "2026 in Canada",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "February 27–March 8 – 2026 Montana's Brier is held in St. John's, Newfoundland and Labrador.",
+   "id": 651,
+   "score": 0.5526
+  },
+  {
+   "page": "2026 in Canada",
+   "section": "Premiers",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "Premier of Newfoundland and Labrador – Tony Wakeham",
+   "id": 597,
+   "score": 0.5452
+  },
+  {
+   "page": "2026 in Canada",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "May 11 – 2026 New Brunswick municipal elections",
+   "id": 680,
+   "score": 0.5049
+  },
+  {
+   "page": "2026 in Canada",
+   "section": "Lieutenant Governors",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "Lieutenant Governor of Newfoundland and Labrador – Joan Marie Aylward",
+   "id": 591,
+   "score": 0.5047
+  }
+ ],
+ "queries": [
+  {
+   "query": "facility opened in St. John's Newfoundland and Labrador January 12 2026",
+   "page": "",
+   "ids": [
+    612,
+    651,
+    597,
+    680,
+    591
+   ]
+  }
+ ],
+ "cost": 0.00011807000000000007,
  "searches": 1
 }

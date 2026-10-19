@@ -1,6 +1,60 @@
 {
  "answer": "France's Monroe finished 11th at Eurovision 2026 in Austria with their single \"Regarde!\". \n\nFINAL: 11th",
- "hits": [],
- "cost": 0.00011534000000000023,
+ "hits": [
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_France",
+   "text": "16 May – France's Monroe finishes 11th at Eurovision 2026 in Austria with their single \"Regarde!\".",
+   "page": "2026 in France",
+   "section": "May",
+   "id": 954,
+   "score": 0.759
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "October 24 – The Junior Eurovision Song Contest 2026 is scheduled to be held in Attard, Malta.",
+   "page": "2026",
+   "section": "Predicted and scheduled events",
+   "id": 201,
+   "score": 0.5568
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+   "text": "Australia's Delta Goodrem finishes fourth at Eurovision 2026 in Austria with the single \"Eclipse\".",
+   "page": "2026 in Australia",
+   "section": "May",
+   "id": 434,
+   "score": 0.5404
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+   "text": "16 May – Germany finishes 23rd at Eurovision 2026 in Austria.",
+   "page": "2026 in Germany",
+   "section": "May",
+   "id": 1066,
+   "score": 0.536
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "May 12–16 – The Eurovision Song Contest 2026 is held in Vienna, Austria, following their win at the Eurovision Song Contest 2025. Bulgarian contestant Dara wins with the song \"Bangaranga\", marking the first time Bulgaria has won the contest.",
+   "page": "2026",
+   "section": "May",
+   "id": 110,
+   "score": 0.5282
+  }
+ ],
+ "queries": [
+  {
+   "query": "France Monroe Eurovision 2026",
+   "page": "",
+   "ids": [
+    954,
+    201,
+    434,
+    1066,
+    110
+   ]
+  }
+ ],
+ "cost": 0.00011534000000000002,
  "searches": 1
 }

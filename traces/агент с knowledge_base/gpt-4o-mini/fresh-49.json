@@ -1,6 +1,60 @@
 {
  "answer": "On March 24, 2026, a special NIA court sentenced Kashmiri separatist Asiya Andrabi to life imprisonment for her involvement in terrorist activities in Kashmir. \n\nFINAL: life imprisonment",
- "hits": [],
- "cost": 0.00013599,
+ "hits": [
+  {
+   "page": "2026 in India",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "24 March – A special NIA court sentences Kashmiri separatist Asiya Andrabi to life imprisonment for her involvement in terrorist activities in Kashmir.",
+   "id": 1191,
+   "score": 0.694
+  },
+  {
+   "page": "2026 in Turkey",
+   "section": "Deaths",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "29 June – Arda Küçükyetim, 20, convicted attempted murderer (2024 Eskişehir stabbing).",
+   "id": 2238,
+   "score": 0.5288
+  },
+  {
+   "page": "2026 in India",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "Former Aam Aadmi Party (AAP) councillor Tahir Hussain is sentenced to life imprisonment for the murder of Intelligence Bureau officer Ankit Sharma during the 2020 Delhi riots.",
+   "id": 1284,
+   "score": 0.5159
+  },
+  {
+   "page": "2026 in the United States",
+   "section": "September",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "The US sentences a Syrian national who fraudulently immigrated to the country and served as the former head of the notorious Adra Prison under former Syrian President Bashar al-Assad to 60 years imprisonment on torture charges.",
+   "id": 5630,
+   "score": 0.5055
+  },
+  {
+   "page": "2026 in India",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "14 March – Sonam Wangchuk is released from jail after the government quashes the National Security Act (India) against him in aftermath of the Ladakh protests.",
+   "id": 1182,
+   "score": 0.4978
+  }
+ ],
+ "queries": [
+  {
+   "query": "Asiya Andrabi sentence March 24, 2026",
+   "page": "",
+   "ids": [
+    1191,
+    2238,
+    1284,
+    5630,
+    1182
+   ]
+  }
+ ],
+ "cost": 0.0001359900000000001,
  "searches": 1
 }

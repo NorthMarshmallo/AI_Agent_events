@@ -1,6 +1,60 @@
 {
  "answer": "In June 2026, at least 209 people were arrested in raids by security forces across Ankara ahead of the 2026 Ankara NATO summit. \n\nFINAL: 209",
- "hits": [],
- "cost": 0.00011930000000000003,
+ "hits": [
+  {
+   "page": "2026 in Turkey",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "23 June – At least 209 people are arrested in raids by security forces across Ankara ahead of the 2026 Ankara NATO summit.",
+   "id": 2210,
+   "score": 0.8037
+  },
+  {
+   "page": "2026",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "July 7–8 – The 2026 NATO summit is held in Ankara, Turkey.",
+   "id": 145,
+   "score": 0.6492
+  },
+  {
+   "page": "2026 in Turkey",
+   "section": "Deaths",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "29 June – Arda Küçükyetim, 20, convicted attempted murderer (2024 Eskişehir stabbing).",
+   "id": 2238,
+   "score": 0.6416
+  },
+  {
+   "page": "2026 in Turkey",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "19 February – Journalist Alican Uludag is arrested in Ankara on charges of insulting president Erdoğan on social media.",
+   "id": 2185,
+   "score": 0.5994
+  },
+  {
+   "page": "2026 in Turkey",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+   "text": "11 June–19 July – Turkey participates at the 2026 FIFA World Cup",
+   "id": 2209,
+   "score": 0.572
+  }
+ ],
+ "queries": [
+  {
+   "query": "number of people arrested in Ankara June 2026",
+   "page": "",
+   "ids": [
+    2210,
+    145,
+    2238,
+    2185,
+    2209
+   ]
+  }
+ ],
+ "cost": 0.00011930000000000014,
  "searches": 1
 }

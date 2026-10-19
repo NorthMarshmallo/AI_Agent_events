@@ -1,6 +1,60 @@
 {
  "answer": "Progress MS-33 was launched to the ISS on 22 March 2026. \n\nFINAL: 22 March 2026",
- "hits": [],
+ "hits": [
+  {
+   "page": "2026 in spaceflight",
+   "section": "International Space Station",
+   "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+   "text": "On 22 March, Roscosmos launched Progress MS-33 to ISS, the first space station uncrewed cargo flight of the year and the first launch from the Baikonur Cosmodrome Site 31 after substantial repairs necessitated by the damage caused by the November 2025 launch of Soyuz MS-28. Further resupply missions to ISS were: Cygnus NG-24 on 11 April, Progress MS-34 on 25 April, SpaceX CRS-34 on 15 May, and Progress MS-35 on 16 September.",
+   "id": 3799,
+   "score": 0.5585
+  },
+  {
+   "page": "2026 in spaceflight",
+   "section": "Lunar exploration",
+   "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+   "text": "NASA and Intuitive Machines plan to launch IM-3 aiming to land at Reiner Gamma.",
+   "id": 3795,
+   "score": 0.4764
+  },
+  {
+   "page": "2026 in spaceflight",
+   "section": "Satellite technology",
+   "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+   "text": "On 12 January, the Spanish space capsule company Orbital Paradigm, supported by ESA's FLPP, launched its first technology demonstration mission. The KID capsule was expected to re-enter Earth atmosphere after reaching orbit on the PSLV-C62 flight. The Indian PSLV rocket failed in flight but KID separated from the falling launch vehicle and managed to transmit flight data during its non-nominal suborbital flight, thus becoming the lone survivor of 2026's first launch failure.",
+   "id": 3816,
+   "score": 0.4736
+  },
+  {
+   "page": "2026 in spaceflight",
+   "section": "Astronomy and astrophysics",
+   "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+   "text": "On 3 July, Katalyst Space Technologies launched the Swift boost mission under a contract from NASA to save the Neil Gehrels Swift Observatory by boosting it to a higher orbit. They used the LINK spacecraft launched on a Northrop Grumman Pegasus XL aircraft-borne rocket. This was the final launch of Pegasus XL and means there are no remaining active orbital air launch systems anywhere in the world. Once in orbit, LINK suffered a series of technical issues, and on 19 August, NASA cancelled the rescue efforts.",
+   "id": 3783,
+   "score": 0.4676
+  },
+  {
+   "page": "2026 in spaceflight",
+   "section": "Artemis program",
+   "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+   "text": "On 27 February, NASA announced a number of changes to the Artemis program with the stated purpose of increasing its cadence of missions, including changing the Artemis III mission to a LEO demonstration flight, moving the first Artemis Moon landing to Artemis IV, and replacing the Exploration Upper Stage with another stage, later identified as Centaur V.",
+   "id": 3803,
+   "score": 0.4456
+  }
+ ],
+ "queries": [
+  {
+   "query": "Progress MS-33 launch date",
+   "page": "",
+   "ids": [
+    3799,
+    3795,
+    3816,
+    3783,
+    3803
+   ]
+  }
+ ],
  "cost": 0.00015507,
  "searches": 1
 }

@@ -1,6 +1,60 @@
 {
  "answer": "The indie animated series created by Matt Braly that was fully funded on March 17, 2026, is called \"Clara and the Below.\" \n\nFINAL: Clara and the Below",
- "hits": [],
+ "hits": [
+  {
+   "page": "2026 in animation",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+   "text": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+   "id": 2373,
+   "score": 0.6574
+  },
+  {
+   "page": "2026 in animation",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+   "text": "The teaser trailer for the indie animated series, Clara and the Below, created by Amphibia creator Matt Braly, was released on YouTube.",
+   "id": 2348,
+   "score": 0.5724
+  },
+  {
+   "page": "2026 in animation",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+   "text": "February 10: Amphibia creator Matt Braly announces that Sony Pictures Animation has canceled a planned film that he and Steven Universe creator Rebecca Sugar had been working on together.",
+   "id": 2345,
+   "score": 0.5358
+  },
+  {
+   "page": "2026 in animation",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+   "text": "Genndy Tartakovsky's upcoming series \"Heist Brothers\" (previously titled \"Heist Safari\") is officially greenlit for Adult Swim.",
+   "id": 2458,
+   "score": 0.5204
+  },
+  {
+   "page": "2026 in animation",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+   "text": "Invincible was announced to be renewed for a 6th season by Prime Video at this year's Annecy film festival.",
+   "id": 2450,
+   "score": 0.5112
+  }
+ ],
+ "queries": [
+  {
+   "query": "indie animated series Matt Braly funded March 17 2026",
+   "page": "",
+   "ids": [
+    2373,
+    2348,
+    2345,
+    2458,
+    2450
+   ]
+  }
+ ],
  "cost": 0.00013408000000000007,
  "searches": 1
 }

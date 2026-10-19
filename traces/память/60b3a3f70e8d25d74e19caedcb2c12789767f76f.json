@@ -1,0 +1,21 @@
+{
+ "message": {
+  "role": "assistant",
+  "content": null,
+  "refusal": null,
+  "reasoning": null,
+  "tool_calls": [
+   {
+    "type": "function",
+    "index": 0,
+    "id": "call_EdDAatFqSxTeB9Tet28sYjIe",
+    "function": {
+     "name": "knowledge_base",
+     "arguments": "{\"query\":\"Moscow bombing August 1 2026\"}"
+    }
+   }
+  ]
+ },
+ "prompt": 1794,
+ "cost": 0.0001581
+}

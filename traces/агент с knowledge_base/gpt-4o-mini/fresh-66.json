@@ -1,6 +1,60 @@
 {
- "answer": "In April 2026, after the hotel collapse in Anuppur, Madhya Pradesh, at least six people were reportedly trapped. FINAL: 6",
- "hits": [],
- "cost": 0.00012009,
+ "answer": "In April 2026, after the hotel collapse in Anuppur, Madhya Pradesh, at least six people were reportedly trapped. \n\nFINAL: 6",
+ "hits": [
+  {
+   "page": "2026 in India",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "4 April – One person is killed and at least six others are reportedly trapped after a four-story hotel collapses in Anuppur, Madhya Pradesh.",
+   "id": 1198,
+   "score": 0.7231
+  },
+  {
+   "page": "2026 in India",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "At least five people are killed and nine people are injured in a building collapse in Prayagraj, Uttar Pradesh.",
+   "id": 1188,
+   "score": 0.5031
+  },
+  {
+   "page": "2026 in India",
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "19 August – Nine people are killed in a hotel fire in Kolkata.",
+   "id": 1294,
+   "score": 0.4929
+  },
+  {
+   "page": "2026 in India",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "3 June – At least 21 people are killed in a fire at a hotel in New Delhi.",
+   "id": 1233,
+   "score": 0.4837
+  },
+  {
+   "page": "2026 in India",
+   "section": "September",
+   "url": "https://en.wikipedia.org/wiki/2026_in_India",
+   "text": "6 September – A five-story building collapses in Delhi, killing seven.",
+   "id": 1299,
+   "score": 0.4763
+  }
+ ],
+ "queries": [
+  {
+   "query": "hotel collapse Anuppur Madhya Pradesh April 2026",
+   "page": "",
+   "ids": [
+    1198,
+    1188,
+    1294,
+    1233,
+    1299
+   ]
+  }
+ ],
+ "cost": 0.00012068999999999969,
  "searches": 1
 }

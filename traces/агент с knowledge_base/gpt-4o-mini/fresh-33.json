@@ -1,6 +1,60 @@
 {
  "answer": "In April 2026, Sarnia—Lambton—Bkejwanong MP Marilyn Gladu defected from the Conservative Party to the Liberal Party. \n\nFINAL: Marilyn Gladu",
- "hits": [],
+ "hits": [
+  {
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "April 8 – Sarnia—Lambton—Bkejwanong MP Marilyn Gladu defects from the Conservative Party to the Liberal Party.",
+   "page": "2026 in Canada",
+   "id": 672,
+   "score": 0.607
+  },
+  {
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "text": "February 18 – Edmonton Riverbend MP Matt Jeneroux defects from the Conservative Party to the Liberal Party.",
+   "page": "2026 in Canada",
+   "id": 647,
+   "score": 0.5845
+  },
+  {
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "text": "Former Home Secretary Suella Braverman becomes the latest Conservative MP to defect to Reform UK.",
+   "page": "2026 in the United Kingdom",
+   "id": 4256,
+   "score": 0.5449
+  },
+  {
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+   "text": "Jonathan Huston, a member of the Western Australian Legislative Assembly, leaves the Liberal Party.",
+   "page": "2026 in Australia",
+   "id": 450,
+   "score": 0.5397
+  },
+  {
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "text": "Former Conservative Party Chancellor Nadhim Zahawi defects to Reform UK.",
+   "page": "2026 in the United Kingdom",
+   "id": 4213,
+   "score": 0.5309
+  }
+ ],
+ "queries": [
+  {
+   "query": "MP defected from Conservative Party to Liberal Party April 2026",
+   "page": "",
+   "ids": [
+    672,
+    647,
+    4256,
+    450,
+    4213
+   ]
+  }
+ ],
  "cost": 0.00012310999999999995,
  "searches": 1
 }

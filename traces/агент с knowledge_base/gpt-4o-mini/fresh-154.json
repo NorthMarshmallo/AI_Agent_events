@@ -1,6 +1,92 @@
 {
- "answer": "Alysa Liu scored 146.70 in the free skate at the 2025–26 Grand Prix Final in Nagoya. \n\nFINAL: 146.70",
- "hits": [],
- "cost": 0.0004879999999999997,
+ "answer": "Alysa Liu scored 146.70 in the free skate when she won the women's singles title at the 2025–26 Grand Prix Final in Nagoya. \n\nFINAL: 146.70",
+ "hits": [
+  {
+   "text": "Free skating | TSS | 150.97 | 2025 World Team Trophy",
+   "page": "Alysa Liu",
+   "section": "Detailed results",
+   "url": "https://en.wikipedia.org/wiki/Alysa_Liu",
+   "id": 7240,
+   "score": 0.7874
+  },
+  {
+   "text": "Nov 14–16, 2025 | 2025 Skate America | 2 | 73.73 | 1 | 140.54 | 1 | 214.27",
+   "page": "Alysa Liu",
+   "section": "Senior level",
+   "url": "https://en.wikipedia.org/wiki/Alysa_Liu",
+   "id": 7263,
+   "score": 0.7801
+  },
+  {
+   "text": "Dec 4–7, 2025 | 2025–26 Grand Prix Final | 2 | 75.79 | 3 | 146.70 | 1 | 222.49",
+   "page": "Alysa Liu",
+   "section": "Senior level",
+   "url": "https://en.wikipedia.org/wiki/Alysa_Liu",
+   "id": 7264,
+   "score": 0.792
+  },
+  {
+   "page": "Alysa Liu",
+   "section": "2025–26 season: Milano Cortina Olympic gold medals and Grand Prix Final gold",
+   "url": "https://en.wikipedia.org/wiki/Alysa_Liu",
+   "text": "The following month, she competed at 2025 Skate America, where she edged out Japan's Rinka Watanabe for the gold. She was second in the short, but finished first in the free skate and overall. Liu competed at the 2025–26 Grand Prix Final, her debut at this event, taking the gold. In early January, Liu and her choreographer finished revamping her season's originally intended \" Lady Gaga \" free program and revealed that she would debut the new program at the 2026 U.S. Championships. At the U.S. Championships, Liu won the silver medal behind Amber Glenn. She was subsequently named to the U.S. team for the 2026 Winter Olympics and said she would use her \"MacArthur Park\" free program there.",
+   "id": 7193,
+   "score": 0.7531
+  },
+  {
+   "page": "Alysa Liu",
+   "section": "2024–25 season: Comeback and World champion",
+   "url": "https://en.wikipedia.org/wiki/Alysa_Liu",
+   "text": "In October 2024, Liu competed at the 2024 CS Budapest Trophy, her first competition since March 2022. In the short program, she under-rotated the second half of her triple-triple combination but otherwise skated cleanly, scoring 68.83 points and ranking in first place. In the free skate, she under-rotated three jumps but still ranked second in the segment and first overall, winning the gold medal. Going on to compete on the 2024–25 Grand Prix series, Liu placed second in the short program at 2024 Skate Canada International but seventh in the free skate because three of her jumps were scored as underrotated. She placed sixth overall. She followed this with a fourth-place finish at the 2024 NHK Trophy.",
+   "id": 7189,
+   "score": 0.7516
+  },
+  {
+   "text": "1 | Alysa Liu | United States | 150.20 | 77.74 | 72.46 | 8.96 | 9.32 | 8.86 | 0.00",
+   "page": "Figure skating at the 2026 Winter Olympics – Women's singles",
+   "section": "Free skating",
+   "url": "https://en.wikipedia.org/wiki/Figure_skating_at_the_2026_Winter_Olympics_%E2%80%93_Women's_singles",
+   "id": 6740,
+   "score": 0.7709
+  },
+  {
+   "text": "3 | Alysa Liu | United States | 76.59 | 41.34 | 35.25 | 8.75 | 9.11 | 8.64 | 0.00",
+   "page": "Figure skating at the 2026 Winter Olympics – Women's singles",
+   "section": "Short program",
+   "url": "https://en.wikipedia.org/wiki/Figure_skating_at_the_2026_Winter_Olympics_%E2%80%93_Women's_singles",
+   "id": 6709,
+   "score": 0.7701
+  }
+ ],
+ "queries": [
+  {
+   "query": "Alysa Liu free skate score 2025–26 Grand Prix Final Nagoya",
+   "page": "",
+   "ids": [
+    7240,
+    7263,
+    7264,
+    7193,
+    7189
+   ]
+  },
+  {
+   "query": "2025–26 Grand Prix Final results",
+   "page": "2025–26 Grand Prix Final",
+   "ids": []
+  },
+  {
+   "query": "Alysa Liu Grand Prix Final 2025–26 free skate score",
+   "page": "",
+   "ids": [
+    7264,
+    7240,
+    7263,
+    6740,
+    6709
+   ]
+  }
+ ],
+ "cost": 0.0004921999999999999,
  "searches": 3
 }

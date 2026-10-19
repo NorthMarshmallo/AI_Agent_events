@@ -1,6 +1,60 @@
 {
  "answer": "In January 2026, a total fire ban came into force in Victoria, Australia, in response to an ongoing heatwave. \n\nFINAL: total fire ban",
- "hits": [],
+ "hits": [
+  {
+   "text": "The following is a list of events including expected and scheduled events for the year 2026 in Australia.",
+   "page": "2026 in Australia",
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+   "id": 332,
+   "score": 0.6673
+  },
+  {
+   "text": "28 November – 2026 Victorian state election",
+   "page": "2026 in Australia",
+   "section": "Future and scheduled events",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+   "id": 473,
+   "score": 0.6616
+  },
+  {
+   "text": "9 January – A total fire ban comes into force in Victoria in response to an ongoing heatwave.",
+   "page": "2026 in Australia",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+   "id": 349,
+   "score": 0.6547
+  },
+  {
+   "text": "29 June – Australia and Vanuatu sign the Nakamal Agreement in Canberra, strengthening cooperation on security, economic development, climate resilience, and infrastructure protection, with Australia remaining Vanuatu's primary security and policing partner.",
+   "page": "2026 in Australia",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+   "id": 454,
+   "score": 0.6264
+  },
+  {
+   "text": "10 January – Wildfires destroy 130 structures in Victoria, prompting premier Jacinta Allan declares a statewide emergency. The Australian Capital Territory declares a total fire ban.",
+   "page": "2026 in Australia",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+   "id": 350,
+   "score": 0.6223
+  }
+ ],
+ "queries": [
+  {
+   "query": "Victoria Australia January 2026",
+   "page": "",
+   "ids": [
+    332,
+    473,
+    349,
+    454,
+    350
+   ]
+  }
+ ],
  "cost": 0.00011696999999999999,
  "searches": 1
 }

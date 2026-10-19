@@ -1,6 +1,60 @@
 {
  "answer": "DeepSeek released its open-weight reasoning model DeepSeek-R1 on January 10, 2025. \n\nFINAL: January 10, 2025",
- "hits": [],
+ "hits": [
+  {
+   "page": "DeepSeek (chatbot)",
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+   "text": "Release | 10 January 2025; 20 months ago (2025-01-10)",
+   "id": 5697,
+   "score": 0.6829
+  },
+  {
+   "page": "DeepSeek (chatbot)",
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+   "text": "Stable release | DeepSeek V4 Pro / 24 April 2026; 5 months ago (2026-04-24) DeepSeek V4 Flash / 24 April 2026; 5 months ago (2026-04-24)",
+   "id": 5698,
+   "score": 0.671
+  },
+  {
+   "page": "DeepSeek (chatbot)",
+   "section": "History",
+   "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+   "text": "On 24 April 2026, DeepSeek released DeepSeek V4 and V4-Pro, and then DeepSeek-V4.1-Flash in September 9, 2026.",
+   "id": 5704,
+   "score": 0.6395
+  },
+  {
+   "page": "DeepSeek (chatbot)",
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+   "text": "License | Web and mobile apps: Proprietary Model (R1, V3 and V4): MIT License",
+   "id": 5699,
+   "score": 0.5766
+  },
+  {
+   "page": "DeepSeek (chatbot)",
+   "section": "History",
+   "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+   "text": "On 10 January 2025, DeepSeek released the chatbot, based on the DeepSeek-R1 model, for iOS and Android. By 27 January, DeepSeek-R1 surpassed ChatGPT as the most-downloaded freeware app on the iOS App Store in the United States, which resulted in an 18% drop in Nvidia 's share price. And after a \"large-scale\" cyberattack on the same day disrupted the proper functioning of its servers, DeepSeek had limited its new user registration to phone numbers from mainland China, email addresses, or Google account logins.",
+   "id": 5701,
+   "score": 0.5751
+  }
+ ],
+ "queries": [
+  {
+   "query": "DeepSeek-R1 release date",
+   "page": "",
+   "ids": [
+    5697,
+    5698,
+    5704,
+    5699,
+    5701
+   ]
+  }
+ ],
  "cost": 0.00013662000000000006,
  "searches": 1
 }

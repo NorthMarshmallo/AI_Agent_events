@@ -1,6 +1,60 @@
 {
- "answer": "In March 2026, an improvised explosive device was attempted to be ignited near a Bank of America building in Paris, France. \n\nFINAL: improvised explosive device",
- "hits": [],
- "cost": 0.00012607000000000004,
+ "answer": "In March 2026, an improvised explosive device was attempted to be ignited near a Bank of America building in Paris, France. FINAL: improvised explosive device",
+ "hits": [
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_France",
+   "text": "28 March – A man is detained and another is at large after trying to ignite an improvised explosive device near a Bank of America building in Paris.",
+   "page": "2026 in France",
+   "section": "March",
+   "id": 948,
+   "score": 0.6195
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "text": "One person is killed and 14 others are injured in a gas explosion and multiple-alarm fire at a 17-story apartment building in the Bronx, New York City.",
+   "page": "2026 in the United States",
+   "section": "January",
+   "id": 5096,
+   "score": 0.4535
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_France",
+   "text": "13 July – A major wildfire breaks out at Fontainebleau forest.",
+   "page": "2026 in France",
+   "section": "July",
+   "id": 974,
+   "score": 0.4347
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_France",
+   "text": "A wildfire fire breaks out in Landes, displacing 650 people.",
+   "page": "2026 in France",
+   "section": "August",
+   "id": 981,
+   "score": 0.4324
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+   "text": "July 7 – Two explosive devices near the Four Seasons Hotel Damascus explode, wounding at least 18 people. It is alleged to be an attempted assassination of Emmanuel Macron.",
+   "page": "2026 in politics",
+   "section": "July",
+   "id": 3421,
+   "score": 0.4221
+  }
+ ],
+ "queries": [
+  {
+   "query": "Bank of America building France March 2026 device ignited",
+   "page": "",
+   "ids": [
+    948,
+    5096,
+    974,
+    981,
+    3421
+   ]
+  }
+ ],
+ "cost": 0.00012546999999999992,
  "searches": 1
 }

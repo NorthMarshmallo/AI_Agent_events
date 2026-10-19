@@ -1,6 +1,60 @@
 {
  "answer": "In May 2026, Counter Terrorism Policing investigated an incident involving the arrest of a man and a woman on suspicion of conspiracy to commit arson following an attack at the former East London Central Synagogue in Whitechapel. This incident was part of a broader investigation into several attacks on Jewish sites in London since late March. \n\nFINAL: Arson conspiracy related to attacks on Jewish sites.",
- "hits": [],
- "cost": 0.00015660999999999995,
+ "hits": [
+  {
+   "text": "Counter terrorism police take over the Ann Widdecombe murder investigation.",
+   "page": "2026 in the United Kingdom",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "id": 4820,
+   "score": 0.6143
+  },
+  {
+   "text": "Home Secretary Shabana Mahmood announces plans to restructure policing in England and Wales, with the creation of a National Police Service for the most complex crimes, and a reduction in the number of local police forces by two thirds from the current 43.",
+   "page": "2026 in the United Kingdom",
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "id": 4255,
+   "score": 0.5814
+  },
+  {
+   "text": "London's Metropolitan Police forms a Community Protection Unit following recent attacks against members of the Jewish community.",
+   "page": "2026 in the United Kingdom",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "id": 4599,
+   "score": 0.5728
+  },
+  {
+   "text": "Authorities announce the arrest of eight serving and retired members of the Toronto Police Service as part of an organized crime investigation involving bribery, conspiracy to commit murder and drug trafficking.",
+   "page": "2026 in Canada",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+   "id": 633,
+   "score": 0.5534
+  },
+  {
+   "text": "10 May – Counter Terrorism Policing arrest a man and a woman on suspicion of conspiracy to commit arson following an attack at the former East London Central Synagogue in Whitechapel. Police say the incident is being investigated alongside several apparent attacks on Jewish sites in London since late March.",
+   "page": "2026 in the United Kingdom",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "id": 4613,
+   "score": 0.5353
+  }
+ ],
+ "queries": [
+  {
+   "query": "Counter Terrorism Policing May 2026",
+   "page": "",
+   "ids": [
+    4820,
+    4255,
+    4599,
+    633,
+    4613
+   ]
+  }
+ ],
+ "cost": 0.00015660999999999974,
  "searches": 1
 }

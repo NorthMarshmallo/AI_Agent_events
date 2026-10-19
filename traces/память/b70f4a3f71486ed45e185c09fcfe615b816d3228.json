@@ -1,0 +1,21 @@
+{
+ "message": {
+  "role": "assistant",
+  "content": null,
+  "refusal": null,
+  "reasoning": null,
+  "tool_calls": [
+   {
+    "type": "function",
+    "index": 0,
+    "id": "call_eSYWl9Y9I0IOqQPRmZM5cL4q",
+    "function": {
+     "name": "knowledge_base",
+     "arguments": "{\"query\":\"Noida International Airport inauguration March 2026\"}"
+    }
+   }
+  ]
+ },
+ "prompt": 315,
+ "cost": 6.105e-05
+}

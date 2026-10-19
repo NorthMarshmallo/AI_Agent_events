@@ -1,6 +1,60 @@
 {
  "answer": "The title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026, was \"Helter Skelter: Arthur Jafa and Richard Prince.\" \n\nFINAL: Helter Skelter: Arthur Jafa and Richard Prince",
- "hits": [],
- "cost": 0.00014809,
+ "hits": [
+  {
+   "page": "2026 in art",
+   "section": "Exhibitions",
+   "url": "https://en.wikipedia.org/wiki/2026_in_art",
+   "text": "May 9 until May 23 – Helter Skelter: Arthur Jafa and Richard Prince at Fondazione Prada in Venice.",
+   "id": 2749,
+   "score": 0.7369
+  },
+  {
+   "page": "2026 in art",
+   "section": "Exhibitions",
+   "url": "https://en.wikipedia.org/wiki/2026_in_art",
+   "text": "May 9 until November 29 – Wilderness (Tamiko Thiel, Nataša Prosenc Stearns, John Sanborn, Kames Bloom, Will Pappenheimer, Fernanda D'Agostino, Nina Sobell, Terry Flaxton) at the Palazzo Mora in Venice.",
+   "id": 2750,
+   "score": 0.6385
+  },
+  {
+   "page": "2026 in art",
+   "section": "Exhibitions",
+   "url": "https://en.wikipedia.org/wiki/2026_in_art",
+   "text": "April 9 until May 22 – MATISSE The Pursuit of Harmony at the Acquavella Galleries in New York City",
+   "id": 2747,
+   "score": 0.6082
+  },
+  {
+   "page": "2026 in art",
+   "section": "Works",
+   "url": "https://en.wikipedia.org/wiki/2026_in_art",
+   "text": "Florentina Holzinger – Seaworld Venice at the Austrian pavilion in the Giardini della Biennale at the 2026 Venice Biennale in Venice, Italy.",
+   "id": 2758,
+   "score": 0.5903
+  },
+  {
+   "page": "2026 in art",
+   "section": "Exhibitions",
+   "url": "https://en.wikipedia.org/wiki/2026_in_art",
+   "text": "April 12 until August 22 - Marcel Duchamp at MoMA in New York City.",
+   "id": 2748,
+   "score": 0.5898
+  }
+ ],
+ "queries": [
+  {
+   "query": "art exhibition Fondazione Prada Venice May 9 to May 23 2026",
+   "page": "",
+   "ids": [
+    2749,
+    2750,
+    2747,
+    2758,
+    2748
+   ]
+  }
+ ],
+ "cost": 0.00014809000000000003,
  "searches": 1
 }

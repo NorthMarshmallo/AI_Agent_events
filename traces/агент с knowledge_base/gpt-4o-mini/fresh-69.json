@@ -1,6 +1,60 @@
 {
  "answer": "The 2026 UEFA Conference League final will take place in Leipzig, Germany. \n\nFINAL: Leipzig, Germany",
- "hits": [],
- "cost": 0.00010379000000000009,
+ "hits": [
+  {
+   "text": "27 May: 2026 UEFA Conference League final in Leipzig, Germany",
+   "page": "2026 in sports",
+   "section": "UEFA",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "id": 3869,
+   "score": 0.7613
+  },
+  {
+   "text": "27 May – 2026 UEFA Conference League final in Leipzig.",
+   "page": "2026 in Germany",
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+   "id": 1068,
+   "score": 0.7301
+  },
+  {
+   "text": "20 May: 2026 UEFA Europa League final in Istanbul, Turkey",
+   "page": "2026 in sports",
+   "section": "UEFA",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "id": 3867,
+   "score": 0.7032
+  },
+  {
+   "text": "30 May: 2026 UEFA Champions League final in Budapest, Hungary",
+   "page": "2026 in sports",
+   "section": "UEFA",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "id": 3870,
+   "score": 0.6875
+  },
+  {
+   "text": "23 May: 2026 UEFA Women's Champions League final in Oslo, Norway",
+   "page": "2026 in sports",
+   "section": "UEFA",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "id": 3868,
+   "score": 0.6191
+  }
+ ],
+ "queries": [
+  {
+   "query": "2026 UEFA Conference League final city",
+   "page": "",
+   "ids": [
+    3869,
+    1068,
+    3867,
+    3870,
+    3868
+   ]
+  }
+ ],
+ "cost": 0.00010378999999999998,
  "searches": 1
 }

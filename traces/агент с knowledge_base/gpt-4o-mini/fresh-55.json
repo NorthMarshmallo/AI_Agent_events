@@ -1,6 +1,60 @@
 {
  "answer": "The Guerrero earthquake on January 2, 2026, killed two people. \n\nFINAL: 2",
- "hits": [],
+ "hits": [
+  {
+   "section": "January",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Mexico",
+   "text": "2 January – A magnitude 6.5 earthquake hits Guerrero, killing two people.",
+   "page": "2026 in Mexico",
+   "id": 1684,
+   "score": 0.718
+  },
+  {
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Mexico",
+   "text": "17 July – A magnitude 7.3 earthquake hits Chiapas, injuring 18 people.",
+   "page": "2026 in Mexico",
+   "id": 1747,
+   "score": 0.6341
+  },
+  {
+   "section": "May",
+   "url": "https://en.wikipedia.org/wiki/2026_in_China",
+   "text": "18 May – A magnitude 5.2 earthquake hits Guangxi, killing two people and injuring four in Liuzhou.",
+   "page": "2026 in China",
+   "id": 864,
+   "score": 0.5684
+  },
+  {
+   "section": "August",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+   "text": "18 August – A magnitude 4.9 earthquake hits Granada, injuring three people.",
+   "page": "2026 in Spain",
+   "id": 2140,
+   "score": 0.5656
+  },
+  {
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_China",
+   "text": "28 June — A magnitude 5.2 earthquake hits Gao County in Sichuan, injuring 15 people.",
+   "page": "2026 in China",
+   "id": 878,
+   "score": 0.5518
+  }
+ ],
+ "queries": [
+  {
+   "query": "Guerrero earthquake January 2 2026",
+   "page": "",
+   "ids": [
+    1684,
+    1747,
+    864,
+    2140,
+    878
+   ]
+  }
+ ],
  "cost": 0.00011104999999999991,
  "searches": 1
 }

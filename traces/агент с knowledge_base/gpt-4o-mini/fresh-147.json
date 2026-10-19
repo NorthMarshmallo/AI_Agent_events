@@ -1,6 +1,130 @@
 {
- "answer": "The animation studio granted the 2026 Princess of Asturias Award for Communication and Humanities is Studio Ghibli. \n\nFINAL: Studio Ghibli",
- "hits": [],
- "cost": 0.0008099900000000004,
- "searches": 6
+ "answer": "The animation studio that was granted the 2026 Princess of Asturias Award for Communication and Humanities is Studio Ghibli. \n\nFINAL: Studio Ghibli",
+ "hits": [
+  {
+   "page": "Studio Ghibli",
+   "section": "External links",
+   "url": "https://en.wikipedia.org/wiki/Studio_Ghibli",
+   "text": "Princess of Asturias Award for Communication and Humanities",
+   "id": 6669,
+   "score": 0.9485
+  },
+  {
+   "page": "Studio Ghibli",
+   "section": "External links",
+   "url": "https://en.wikipedia.org/wiki/Studio_Ghibli",
+   "text": "Prince of Asturias Award for Communication and Humanities",
+   "id": 6667,
+   "score": 0.9244
+  },
+  {
+   "page": "2026 in animation",
+   "section": "Awards",
+   "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+   "text": "Goya Award for Best Animated Film: Decorado",
+   "id": 2549,
+   "score": 0.6616
+  },
+  {
+   "page": "2026 in animation",
+   "section": "Awards",
+   "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+   "text": "National Board of Review Award for Best Animated Film: Arco",
+   "id": 2555,
+   "score": 0.5952
+  },
+  {
+   "page": "2026 in animation",
+   "section": "Awards",
+   "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+   "text": "European Film Award for Best Animated Feature Film: Arco",
+   "id": 2545,
+   "score": 0.5943
+  },
+  {
+   "page": "2026 in Spain",
+   "section": "Incumbents",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+   "text": "President of the Court of Auditors – Enriqueta Chicano Jávega",
+   "id": 2102,
+   "score": 0.5499
+  },
+  {
+   "page": "2026 in Spain",
+   "section": "Incumbents",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+   "text": "President of the Supreme Court and the General Council of the Judiciary – Isabel Perelló",
+   "id": 2100,
+   "score": 0.5454
+  },
+  {
+   "page": "2026 in Spain",
+   "section": "Incumbents",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+   "text": "President of the Council of State – Carmen Calvo",
+   "id": 2101,
+   "score": 0.5357
+  },
+  {
+   "page": "Studio Ghibli",
+   "section": "",
+   "url": "https://en.wikipedia.org/wiki/Studio_Ghibli",
+   "text": "Studio Ghibli's major awards across organizations include two Academy Awards for Best Animated Feature, one Golden Globe Award for Best Animated Feature Film, one BAFTA Award for Best Animated Film, one Golden Bear, three Animage Grand Prix awards and six Japan Academy Prizes. Four of the studio's films are among the ten highest-grossing Japanese feature films; Spirited Away is fourth, grossing ¥31.68 billion in Japan and over US$380 million worldwide. In 2026 the Studio Ghibli was awarded the Princess of Asturias Award in the category of \"Communication and Humanities\".",
+   "id": 6579,
+   "score": 0.6605
+  },
+  {
+   "page": "Studio Ghibli",
+   "section": "External links",
+   "url": "https://en.wikipedia.org/wiki/Studio_Ghibli",
+   "text": "2015: Emilio Lledó Íñigo 2016: James Nachtwey 2017: Les Luthiers 2018: Alma Guillermoprieto 2019: Museo del Prado 2020: Guadalajara International Book Fair and Hay Festival of Literature & Arts 2021: Gloria Steinem 2022: Adam Michnik 2023: Nuccio Ordine 2024: Marjane Satrapi 2025: Byung-Chul Han 2026: Studio Ghibli",
+   "id": 6670,
+   "score": 0.6494
+  },
+  {
+   "page": "Studio Ghibli",
+   "section": "Nippon Television era",
+   "url": "https://en.wikipedia.org/wiki/Studio_Ghibli",
+   "text": "In 2024, the studio received an honorary Palme d'Or at the 2024 Cannes Film Festival, the first film production company to receive the award. It was announced in May 2026 that Fukuda was to step down as president in June, to be replaced by Kenichi Yoda.",
+   "id": 6601,
+   "score": 0.6082
+  }
+ ],
+ "queries": [
+  {
+   "query": "2026 Princess of Asturias Award for Communication and Humanities animation studio",
+   "page": "",
+   "ids": [
+    6669,
+    6667,
+    2549,
+    2555,
+    2545
+   ]
+  },
+  {
+   "query": "2026 Princess of Asturias Award for Communication and Humanities",
+   "page": "",
+   "ids": [
+    6669,
+    6667,
+    2102,
+    2100,
+    2101
+   ]
+  },
+  {
+   "query": "Studio Ghibli 2026 Princess of Asturias Award for Communication and Humanities",
+   "page": "",
+   "ids": [
+    6669,
+    6667,
+    6579,
+    6670,
+    6601
+   ]
+  }
+ ],
+ "cost": 0.00033881000000000015,
+ "searches": 3
 }

@@ -1,6 +1,60 @@
 {
- "answer": "The ceasefire in the 2026 Lebanon war lasted for 10 days, taking effect on April 16, 2026. \n\nFINAL: 10 days",
- "hits": [],
- "cost": 0.00012879999999999966,
+ "answer": "The ceasefire in the 2026 Lebanon war lasted for 10 days, beginning on April 16, 2026. FINAL: 10 days",
+ "hits": [
+  {
+   "page": "2026",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "April 16 – 2026 Lebanon war: A US-brokered 10-day ceasefire takes effect between Israel and Lebanon, following ambassador-level talks in the White House.",
+   "id": 101,
+   "score": 0.7876
+  },
+  {
+   "page": "2026",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "March 2 – 2026 Lebanon war: Hezbollah begins launching strikes against Israel in retaliation for the assassination of Iranian Supreme Leader Ali Khamenei.",
+   "id": 66,
+   "score": 0.6573
+  },
+  {
+   "page": "2026",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "April 21 – 2026 Iran war: US President Trump announces a further extension of the ceasefire until an Iranian proposal is submitted and conversations are concluded at the request of Pakistan.",
+   "id": 103,
+   "score": 0.6236
+  },
+  {
+   "page": "2026",
+   "section": "April",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "2026 Iran war: Following an ultimatum from Trump regarding the Strait of Hormuz, the United States and Iran agree on a two-week ceasefire.",
+   "id": 93,
+   "score": 0.6156
+  },
+  {
+   "page": "2026",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026",
+   "text": "June 15–17 – The United States and Iran announce and sign the Islamabad Memorandum, a 14-point agreement to end the 2026 Iran war, reopen the Strait of Hormuz, lift the U.S. blockade of Iranian ports, and begin a 60-day negotiation period on Iran's nuclear programme; Israel says it will not withdraw from territory it has seized in southern Lebanon.",
+   "id": 135,
+   "score": 0.5965
+  }
+ ],
+ "queries": [
+  {
+   "query": "2026 Lebanon war ceasefire",
+   "page": "",
+   "ids": [
+    101,
+    66,
+    103,
+    93,
+    135
+   ]
+  }
+ ],
+ "cost": 0.00012759999999999996,
  "searches": 1
 }

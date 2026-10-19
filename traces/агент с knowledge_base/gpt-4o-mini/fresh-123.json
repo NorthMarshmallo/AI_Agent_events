@@ -1,6 +1,60 @@
 {
- "answer": "Burkina Faso broke off diplomatic relations with France in June 2026. \n\nFINAL: Burkina Faso",
- "hits": [],
- "cost": 0.00011117999999999979,
+ "answer": "Burkina Faso broke off diplomatic relations with France on June 26, 2026. \n\nFINAL: Burkina Faso",
+ "hits": [
+  {
+   "page": "2026 in France",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_France",
+   "text": "26 June – Burkina Faso breaks off diplomatic relations with France.",
+   "id": 970,
+   "score": 0.7111
+  },
+  {
+   "page": "2026 in France",
+   "section": "March",
+   "url": "https://en.wikipedia.org/wiki/2026_in_France",
+   "text": "26 March – France and the Philippines sign a visiting forces agreement.",
+   "id": 947,
+   "score": 0.6782
+  },
+  {
+   "page": "2026 in France",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_France",
+   "text": "11 June–19 July – France participates at the 2026 FIFA World Cup.",
+   "id": 961,
+   "score": 0.6706
+  },
+  {
+   "page": "2026 in France",
+   "section": "June",
+   "url": "https://en.wikipedia.org/wiki/2026_in_France",
+   "text": "17 June – US president Donald Trump and Iranian president Masoud Pezeshkian sign the Islamabad Memorandum to end the 2026 Iran war, with Trump signing the document during dinner with President Macron at the Palace of Versailles.",
+   "id": 963,
+   "score": 0.6466
+  },
+  {
+   "page": "2026 in France",
+   "section": "February",
+   "url": "https://en.wikipedia.org/wiki/2026_in_France",
+   "text": "6 February – Greenland crisis: France announces that it will open a consulate in Greenland to reinforce support for Denmark against US president Donald Trump's threats to annex the territory.",
+   "id": 928,
+   "score": 0.6443
+  }
+ ],
+ "queries": [
+  {
+   "query": "diplomatic relations France June 2026",
+   "page": "",
+   "ids": [
+    970,
+    947,
+    961,
+    963,
+    928
+   ]
+  }
+ ],
+ "cost": 0.00011298000000000015,
  "searches": 1
 }

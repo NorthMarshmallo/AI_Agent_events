@@ -1,0 +1,21 @@
+{
+ "message": {
+  "role": "assistant",
+  "content": null,
+  "refusal": null,
+  "reasoning": null,
+  "tool_calls": [
+   {
+    "type": "function",
+    "index": 0,
+    "id": "call_IP31hHD4n5LyZXyM9RWEAcSG",
+    "function": {
+     "name": "knowledge_base",
+     "arguments": "{\"query\":\"aircraft crash Yalova Province Turkey August 13 2026\"}"
+    }
+   }
+  ]
+ },
+ "prompt": 382,
+ "cost": 7.41e-05
+}
