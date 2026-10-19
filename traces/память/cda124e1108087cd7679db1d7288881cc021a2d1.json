@@ -1,0 +1,21 @@
+{
+ "message": {
+  "role": "assistant",
+  "content": null,
+  "refusal": null,
+  "reasoning": null,
+  "tool_calls": [
+   {
+    "type": "function",
+    "index": 0,
+    "id": "call_zWZZjUUlmsfF0ZU7F0ib2Z20",
+    "function": {
+     "name": "knowledge_base",
+     "arguments": "{\"query\":\"Mayor of New York City sworn in January 1 2026\"}"
+    }
+   }
+  ]
+ },
+ "prompt": 725,
+ "cost": 0.00012495
+}

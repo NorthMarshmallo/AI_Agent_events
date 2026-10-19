@@ -1,0 +1,21 @@
+{
+ "message": {
+  "role": "assistant",
+  "content": null,
+  "refusal": null,
+  "reasoning": null,
+  "tool_calls": [
+   {
+    "type": "function",
+    "index": 0,
+    "id": "call_FURvn4gOdaUm2wHHbOmP8m4l",
+    "function": {
+     "name": "knowledge_base",
+     "arguments": "{\"query\":\"Amed S.F.K. fine Turkish Football Federation January 29, 2026\"}"
+    }
+   }
+  ]
+ },
+ "prompt": 356,
+ "cost": 7.2e-05
+}

@@ -1,0 +1,21 @@
+{
+ "message": {
+  "role": "assistant",
+  "content": null,
+  "refusal": null,
+  "reasoning": null,
+  "tool_calls": [
+   {
+    "type": "function",
+    "index": 0,
+    "id": "call_VLEzbQjowh5b2C2gMoxruMy2",
+    "function": {
+     "name": "knowledge_base",
+     "arguments": "{\"query\":\"super-Earth confirmed atmosphere July 16 2026\"}"
+    }
+   }
+  ]
+ },
+ "prompt": 351,
+ "cost": 6.765e-05
+}

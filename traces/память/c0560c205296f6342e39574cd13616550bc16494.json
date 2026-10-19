@@ -1,0 +1,21 @@
+{
+ "message": {
+  "role": "assistant",
+  "content": null,
+  "refusal": null,
+  "reasoning": null,
+  "tool_calls": [
+   {
+    "type": "function",
+    "index": 0,
+    "id": "call_492yVyuFCcGhuiyhoRRDcOF9",
+    "function": {
+     "name": "knowledge_base",
+     "arguments": "{\"query\":\"2026 FIFA World Cup winner\"}"
+    }
+   }
+  ]
+ },
+ "prompt": 545,
+ "cost": 9.375e-05
+}

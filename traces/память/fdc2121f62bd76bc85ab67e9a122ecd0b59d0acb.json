@@ -1,0 +1,30 @@
+{
+ "message": {
+  "role": "assistant",
+  "content": null,
+  "refusal": null,
+  "reasoning": null,
+  "tool_calls": [
+   {
+    "type": "function",
+    "index": 0,
+    "id": "call_KNIbLm1t9uNk9Cv9me4DR9Yn",
+    "function": {
+     "name": "knowledge_base",
+     "arguments": "{\"query\": \"space\", \"page\": \"\"}"
+    }
+   },
+   {
+    "type": "function",
+    "index": 1,
+    "id": "call_K9D8raTVGdMNb8uqZmEzGUwx",
+    "function": {
+     "name": "knowledge_base",
+     "arguments": "{\"query\": \"hockey\", \"page\": \"\"}"
+    }
+   }
+  ]
+ },
+ "prompt": 240,
+ "cost": 6.9e-05
+}
