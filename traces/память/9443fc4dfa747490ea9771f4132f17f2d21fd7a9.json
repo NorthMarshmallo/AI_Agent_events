@@ -1,0 +1,21 @@
+{
+ "message": {
+  "role": "assistant",
+  "content": null,
+  "refusal": null,
+  "reasoning": null,
+  "tool_calls": [
+   {
+    "type": "function",
+    "index": 0,
+    "id": "call_HqG7jekeKdSUFUSl7cFOiVGS",
+    "function": {
+     "name": "knowledge_base",
+     "arguments": "{\"query\":\"anti-war protest Japan April 2026\"}"
+    }
+   }
+  ]
+ },
+ "prompt": 208,
+ "cost": 4.44e-05
+}

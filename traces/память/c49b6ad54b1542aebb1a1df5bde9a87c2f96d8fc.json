@@ -1,0 +1,21 @@
+{
+ "message": {
+  "role": "assistant",
+  "content": null,
+  "refusal": null,
+  "reasoning": null,
+  "tool_calls": [
+   {
+    "type": "function",
+    "index": 0,
+    "id": "call_39N44ZiTtbGWM4dUH8Q2w4pA",
+    "function": {
+     "name": "knowledge_base",
+     "arguments": "{\"query\":\"space events July 2026\"}"
+    }
+   }
+  ]
+ },
+ "prompt": 264,
+ "cost": 5.16e-05
+}

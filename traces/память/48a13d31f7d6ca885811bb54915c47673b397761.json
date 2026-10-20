@@ -1,0 +1,21 @@
+{
+ "message": {
+  "role": "assistant",
+  "content": null,
+  "refusal": null,
+  "reasoning": null,
+  "tool_calls": [
+   {
+    "type": "function",
+    "index": 0,
+    "id": "call_QY1vyumuo1seIKotXjuo9VMH",
+    "function": {
+     "name": "knowledge_base",
+     "arguments": "{\"query\":\"Asiya Andrabi sentence March 24 2026\"}"
+    }
+   }
+  ]
+ },
+ "prompt": 2586,
+ "cost": 0.0002205
+}

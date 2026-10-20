@@ -1,0 +1,165 @@
+{
+ "answer": "I could not find information on the winner of the 2026 Indianapolis 500. \n\nFINAL: NOT_FOUND",
+ "hits": [
+  {
+   "text": "Charles Leclerc wins the 2026 British Grand Prix.",
+   "page": "2026 in the United Kingdom",
+   "section": "July",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+   "id": 4791,
+   "score": 0.4969
+  },
+  {
+   "page": "2026 in sports",
+   "section": "2026 UCI World Tour (men)",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "Young Rider Classification(): Pietro Mattio(Visma–Lease a Bike)",
+   "id": 4077,
+   "score": 0.5006
+  },
+  {
+   "page": "2026 in sports",
+   "section": "2026 UCI World Tour (men)",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "Young Rider Classification(): Andrea Raccagni(Soudal–Quick-Step)",
+   "id": 4006,
+   "score": 0.4967
+  },
+  {
+   "page": "2026 in sports",
+   "section": "2026 UCI World Tour (men)",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "General Classification(): Marco Brenner(Tudor Pro Cycling Team)",
+   "id": 4070,
+   "score": 0.494
+  },
+  {
+   "page": "2026 in sports",
+   "section": "2026 UCI World Tour (men)",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "General Classification(): Isaac del Toro(UAE Team Emirates XRG)",
+   "id": 4020,
+   "score": 0.4852
+  },
+  {
+   "page": "2026 in sports",
+   "section": "2025–2026 World Athletics Cross Country Tour",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "November 30, 2025: Carsolina Cross in Italy",
+   "id": 3922,
+   "score": 0.4331
+  },
+  {
+   "page": "2026 in sports",
+   "section": "2025–2026 World Athletics Cross Country Tour",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "November 23, 2025: Cinque Mulini in Italy",
+   "id": 3900,
+   "score": 0.3933
+  },
+  {
+   "page": "2026 in sports",
+   "section": "Senior major golf championships (PGA Tour Champions)",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "April 30 – May 3: Regions Tradition at Greystone Golf & Country Club in Birmingham, Alabama – Stewart Cink",
+   "id": 4160,
+   "score": 0.3861
+  },
+  {
+   "page": "2026 in sports",
+   "section": "Senior major golf championships (PGA Tour Champions)",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "April 16–19: Senior PGA Championship at The Concession Golf Club in Bradenton, Florida – Stewart Cink",
+   "id": 4159,
+   "score": 0.3817
+  },
+  {
+   "page": "2026 in sports",
+   "section": "2026 Diamond League",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "July 4: Prefontaine Classic in United States",
+   "id": 3887,
+   "score": 0.3723
+  },
+  {
+   "text": "Points Classification(): Dorian Godon(INEOS Grenadiers)",
+   "page": "2026 in sports",
+   "section": "2026 UCI World Tour (men)",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "id": 4027,
+   "score": 0.4792
+  },
+  {
+   "text": "October 4 – 2026 Japanese motorcycle Grand Prix",
+   "page": "2026 in Japan",
+   "section": "Sports",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+   "id": 1627,
+   "score": 0.479
+  },
+  {
+   "text": "General Classification(): Isaac del Toro(UAE Team Emirates XRG)",
+   "page": "2026 in sports",
+   "section": "2026 UCI World Tour (men)",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "id": 4008,
+   "score": 0.4777
+  },
+  {
+   "page": "2026 in sports",
+   "section": "2026 UCI World Tour (men)",
+   "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+   "text": "General Classification(): Isaac del Toro(UAE Team Emirates XRG)",
+   "id": 4052,
+   "score": 0.4852
+  }
+ ],
+ "queries": [
+  {
+   "query": "2026 Indianapolis 500 winner",
+   "page": "",
+   "ids": [
+    4791,
+    4077,
+    4006,
+    4070,
+    4020
+   ]
+  },
+  {
+   "query": "Indianapolis 500",
+   "page": "2026 in sports",
+   "ids": [
+    3922,
+    3900,
+    4160,
+    4159,
+    3887
+   ]
+  },
+  {
+   "query": "2026 Indianapolis 500 results",
+   "page": "",
+   "ids": [
+    4791,
+    4027,
+    1627,
+    4008,
+    4052
+   ]
+  },
+  {
+   "query": "2026 Indianapolis 500 winner",
+   "page": "2026 in sports",
+   "ids": [
+    4077,
+    4006,
+    4070,
+    4020,
+    4052
+   ]
+  }
+ ],
+ "cost": 0.00061277,
+ "searches": 4
+}

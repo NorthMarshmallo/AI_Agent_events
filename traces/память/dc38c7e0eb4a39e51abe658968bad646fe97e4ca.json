@@ -1,0 +1,21 @@
+{
+ "message": {
+  "role": "assistant",
+  "content": null,
+  "refusal": null,
+  "reasoning": null,
+  "tool_calls": [
+   {
+    "type": "function",
+    "index": 0,
+    "id": "call_61TZmjexzfYx5O1VkrnceWuR",
+    "function": {
+     "name": "knowledge_base",
+     "arguments": "{\"query\":\"Dharmendra Pradhan resignation July 2026\"}"
+    }
+   }
+  ]
+ },
+ "prompt": 353,
+ "cost": 6.735e-05
+}
