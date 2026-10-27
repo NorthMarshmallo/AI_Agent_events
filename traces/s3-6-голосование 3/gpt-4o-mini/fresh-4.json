@@ -1,0 +1,230 @@
+{
+ "task": {
+  "id": "fresh-4",
+  "source": "fresh",
+  "question": "What measure came into force in Victoria, Australia in January 2026?",
+  "answer": "A total fire ban",
+  "evidence": "9 January – A total fire ban comes into force in Victoria in response to an ongoing heatwave.",
+  "page": "2026 in Australia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Я не смог найти информацию о конкретной мере, вступившей в силу в Виктории, Австралия, в январе 2026 года. Возможно, эта информация еще не доступна в открытых источниках. \n\nFINAL: информация не найдена",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 574,
+   "completion": 21,
+   "cost": 9.87e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 574,
+   "completion": 37,
+   "cost": 0.0001083
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 574,
+   "completion": 22,
+   "cost": 9.93e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1312,
+   "completion": 19,
+   "cost": 0.0002082
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1292,
+   "completion": 21,
+   "cost": 0.0002064
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1214,
+   "completion": 20,
+   "cost": 0.0001941
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1366,
+   "completion": 33,
+   "cost": 0.0001287
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1385,
+   "completion": 21,
+   "cost": 0.00012435
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1746,
+   "completion": 45,
+   "cost": 0.0001929
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1416,
+   "completion": 23,
+   "cost": 0.0001302
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1306,
+   "completion": 36,
+   "cost": 0.0001311
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1461,
+   "completion": 22,
+   "cost": 0.00013635
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1908,
+   "completion": 34,
+   "cost": 0.000201
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1952,
+   "completion": 20,
+   "cost": 0.0001992
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2623,
+   "completion": 22,
+   "cost": 0.00026265
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2341,
+   "completion": 30,
+   "cost": 0.00036915
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2680,
+   "completion": 53,
+   "cost": 0.0002418
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 3132,
+   "completion": 37,
+   "cost": 0.000348
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 3546,
+   "completion": 28,
+   "cost": 0.0005487
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 3125,
+   "completion": 43,
+   "cost": 0.00049455
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "Я не смог найти информацию о конкретной мере, вступившей в силу в Виктории, Австралия, в январе 2026 года. Возможно, эта информация еще не доступна в открытых источниках. \n\nFINAL: информация не найдена"
+  },
+  {
+   "role": "vote",
+   "content": "В январе 2026 года в Виктории, Австралия, вступит в силу закон о запрете на использование одноразового пластика. FINAL: Запрет на использование одноразового пластика."
+  },
+  {
+   "role": "vote",
+   "content": "В январе 2026 года в Виктории, Австралия, вступил в силу общий запрет на огонь в ответ на продолжающуюсяheatwave. FINAL: Общий запрет на огонь."
+  }
+ ]
+}

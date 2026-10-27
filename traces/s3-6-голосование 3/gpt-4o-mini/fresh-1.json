@@ -1,0 +1,100 @@
+{
+ "task": {
+  "id": "fresh-1",
+  "source": "fresh",
+  "question": "What date was Progress MS-33 launched to the ISS?",
+  "answer": "22 March",
+  "evidence": "On 22 March, Roscosmos launched Progress MS-33 to ISS, the first space station uncrewed cargo flight of the year and the first launch from the Baikonur Cosmodrome Site 31 after substantial repairs necessitated by the damage caused by the November 2025 launch of Soyuz MS-28. Further resupply missions to ISS were: Cygnus NG-24 on 11 April, Progress MS-34 on 25 April, and SpaceX CRS-34 on 15 May.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "February 27, 2025",
+  "agent_ok": true
+ },
+ "answer": "Космический корабль \"Прогресс МС-33\" был запущен 22 марта 2026 года в 14:59 по московскому времени. \n\nFINAL: 22 марта 2026",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-1",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 571,
+   "completion": 22,
+   "cost": 9.885e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-1",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 571,
+   "completion": 22,
+   "cost": 9.885e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-1",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 571,
+   "completion": 19,
+   "cost": 9.705e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-1",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1396,
+   "completion": 22,
+   "cost": 0.0002226
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-1",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1298,
+   "completion": 43,
+   "cost": 0.0002205
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-1",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1298,
+   "completion": 36,
+   "cost": 0.0001203
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-1",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 2123,
+   "completion": 46,
+   "cost": 0.00025005
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "Космический корабль \"Прогресс МС-33\" был запущен 22 марта 2026 года в 14:59 по московскому времени. \n\nFINAL: 22 марта 2026"
+  },
+  {
+   "role": "vote",
+   "content": "Прогресс МС-33 был запущен к Международной космической станции 22 марта 2026 года в 14:59 мск. \n\nFINAL: 22 марта 2026"
+  },
+  {
+   "role": "vote",
+   "content": "Прогресс МС-33 был запущен 22 марта 2026 года в 14:59 мск.\n\nFINAL: 22 марта 2026 года"
+  }
+ ]
+}

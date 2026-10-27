@@ -1,0 +1,100 @@
+{
+ "task": {
+  "id": "fresh-142",
+  "source": "fresh",
+  "question": "Which anime series won Anime of the Year at the 2026 Crunchyroll Anime Awards?",
+  "answer": "My Hero Academia",
+  "evidence": "The most recent ceremony was the 10th ceremony, held on May 23, 2026, where the eighth and final season of My Hero Academia won the Anime of the Year award.",
+  "page": "Crunchyroll Anime Awards",
+  "url": "https://en.wikipedia.org/wiki/Crunchyroll_Anime_Awards",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "The anime series that won Anime of the Year at the 2026 Crunchyroll Anime Awards is the eighth and final season of My Hero Academia. \n\nFINAL: My Hero Academia (eighth and final season)",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-142",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 578,
+   "completion": 25,
+   "cost": 0.0001017
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-142",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 578,
+   "completion": 25,
+   "cost": 0.0001017
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-142",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 789,
+   "completion": 44,
+   "cost": 0.00014475
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-142",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 789,
+   "completion": 41,
+   "cost": 0.00014295
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-142",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 578,
+   "completion": 25,
+   "cost": 0.0001017
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-142",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 789,
+   "completion": 39,
+   "cost": 0.00014175
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-142",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1213,
+   "completion": 32,
+   "cost": 0.00020115
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "The anime series that won Anime of the Year at the 2026 Crunchyroll Anime Awards is the eighth and final season of My Hero Academia. \n\nFINAL: My Hero Academia (eighth and final season)"
+  },
+  {
+   "role": "vote",
+   "content": "The eighth and final season of My Hero Academia won Anime of the Year at the 2026 Crunchyroll Anime Awards. \n\nFINAL: My Hero Academia"
+  },
+  {
+   "role": "vote",
+   "content": "The eighth and final season of My Hero Academia won the Anime of the Year award at the 2026 Crunchyroll Anime Awards. \n\nFINAL: My Hero Academia (eighth and final season)"
+  }
+ ]
+}

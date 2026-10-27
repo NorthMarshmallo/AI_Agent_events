@@ -1,0 +1,476 @@
+{
+ "task": {
+  "id": "fresh-25",
+  "source": "fresh",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "answer": "\"open war\"",
+  "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "On February 26, 2026, the government of Pakistan officially declared war on Afghanistan in response to military operations initiated by Afghan forces. This declaration followed a series of airstrikes by Pakistan on Afghan territories that began on February 21, 2026. The operation was named \"Gazab lilly-Haq\" (Righteous Fury) in Pakistan, while Afghanistan referred to its response as \"Rad al-Zolm\" (Response to Injustice).\n\nFINAL: Pakistan declared war on Afghanistan.",
+ "calls": [
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 137,
+   "completion": 253,
+   "cost": 0.00017235
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 839,
+   "completion": 25,
+   "cost": 0.00014085
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1263,
+   "completion": 42,
+   "cost": 0.00021465
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1315,
+   "completion": 22,
+   "cost": 0.00011445
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1347,
+   "completion": 30,
+   "cost": 0.00012405
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 2042,
+   "completion": 101,
+   "cost": 0.0002709
+  }
+ ],
+ "messages": [
+  {
+   "role": "plan",
+   "content": "1. **Web Search**: Использовать инструмент web_search для поиска информации о событиях, связанных с войной в Афганистане и Пакистане, с акцентом на дату 26 февраля 2026 года.\n   - Запрос: \"Pakistan government declaration February 26 2026 Afghanistan Pakistan war\"\n   \n2. **Gen Search**: Применить инструмент gen_search для поиска новостей в области биотехнологий, если это может быть связано с конфликтом или его последствиями.\n   - Запрос: \"Afghanistan Pakistan war February 2026 news\"\n\n3. **Ru Wiki Search**: Использовать инструмент ru_wiki_search для поиска информации на русском языке о войне в Афганистане и Пакистане, особенно о событиях в 2026 году.\n   - Запрос: \"Война в Афганистане и Пакистане 2026\"\n\n4. **Page Find**: Применить инструмент page_find для нахождения конкретных предложений с ключевыми словами из найденных статей, чтобы уточнить детали о декларации правительства Пакистана.\n   - Ключевые слова: \"декларация\", \"Пакистан\", \"26 февраля 2026\""
+  },
+  {
+   "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "084c022f-6b1e-4736-92b0-6f8bff0da39c"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 25,
+     "prompt_tokens": 839,
+     "total_tokens": 864,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00014085,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00014085,
+      "upstream_inference_prompt_cost": 0.00012585,
+      "upstream_inference_completions_cost": 1.5e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_d08df6a331",
+    "id": "gen-1793116116-HQB6btKZUsYYGTGUa9GU",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-966b-79d3-991a-9dea1741a26a-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Pakistan government declaration February 26 2026 Afghanistan Pakistan war"
+     },
+     "id": "call_rvuGMjvNJWgQv7EQg3WWI3xj",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 839,
+    "output_tokens": 25,
+    "total_tokens": 864,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[2025 Afghanistan–Pakistan conflict] In the early hours of 9 October 2025, Pakistan carried out airstrikes in Kabul, Khost, Jalalabad, and Paktika, targeting the Pakistani Taliban (TTP) which it code named \"Operation Khyber Storm\". The group's leader, Noor Wali Mehsud, was the main target of the attack in Kabul, which occurred in Abdul Haq Square, but survived. On the night from 11 to 12 October, the Afghan Taliban launched an attack on multiple Pakistani military posts along the Afghanistan–Pakistan border in retaliation for the Pakistani airstrikes. Following the attack, the Taliban’s Ministry of Defense announced the conclusion of their operation. However, Pakistani officials rejected the Taliban’s ceasefire declaration and continued their offensive, which was confirmed by a Taliban spokesman, noting that clashes persisted into the morning of 12 October. On the same day, reports emerged of Pakistani drone strikes in Kandahar and Helmand provinces, killing 19 Taliban fighters, though these casualties were not confirmed by Taliban officials. Both sides claimed to have inflicted heavy losses on each other and captured or destroyed several border posts. Satellite imagery of a Taliban military compound in Spin Boldak showed that it had suffered significant damage during the clashes. Heavy fighting resumed on 15 October, with both sides accusing the other of initiating the violence. The fiercest fighting occurred around Spin Boldak, where civilian casualties were reported. Pakistan later announced “precision” airstrikes inside Afghanistan, which Afghan locals and media said hit Kabul and military sites in Kandahar, while the Taliban attributed the Kabul explosion to an oil-tanker blast. Following a 48-hour ceasefire, which was only set by Pakistan publicly, the Pakistani military carried out airstrikes in Paktika province after the truce expired. The Taliban accused Pakistan of targeting civilians in Paktika, while Pakistan rebutted that the strikes targeted militants ",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "ffa03ef0-a812-4564-a08b-09e55c63ad20",
+   "tool_call_id": "call_rvuGMjvNJWgQv7EQg3WWI3xj",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 42,
+     "prompt_tokens": 1263,
+     "total_tokens": 1305,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00021465,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00021465,
+      "upstream_inference_prompt_cost": 0.00018945,
+      "upstream_inference_completions_cost": 2.52e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_d08df6a331",
+    "id": "gen-1793116124-92vdflY3EfV4BERmOB0k",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-b500-7103-8338-9c155ef95b80-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "2025 Afghanistan–Pakistan conflict",
+      "keywords": [
+       "декларация",
+       "Пакистан",
+       "26 февраля 2026"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_5BYMfqWbvAmjPfxw4i9qoiUM",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1263,
+    "output_tokens": 42,
+    "total_tokens": 1305,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "889feea1-9663-42d3-8064-c22fa8df3732",
+   "tool_call_id": "call_5BYMfqWbvAmjPfxw4i9qoiUM",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 22,
+     "prompt_tokens": 1315,
+     "total_tokens": 1337,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00011445,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00011445,
+      "upstream_inference_prompt_cost": 0.00010125,
+      "upstream_inference_completions_cost": 1.32e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_d08df6a331",
+    "id": "gen-1793116126-sRpBtelVSUzExmhTRWGk",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-be3b-7052-8b25-8559886ec509-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "Afghanistan Pakistan war February 2026 news"
+     },
+     "id": "call_75x8dc0wGQQkv8otN3Mrl4Dy",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1315,
+    "output_tokens": 22,
+    "total_tokens": 1337,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1280,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "0394558e-5305-40e3-9659-37429aa5cb24",
+   "tool_call_id": "call_75x8dc0wGQQkv8otN3Mrl4Dy",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 30,
+     "prompt_tokens": 1347,
+     "total_tokens": 1377,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00012405,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00012405,
+      "upstream_inference_prompt_cost": 0.00010605,
+      "upstream_inference_completions_cost": 1.8e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_d08df6a331",
+    "id": "gen-1793116137-emsOc8CNemyPdVMyzh8f",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-e6c9-7112-8e36-1d0abc2f5059-0",
+   "tool_calls": [
+    {
+     "name": "ru_wiki_search",
+     "args": {
+      "query": "Война в Афганистане и Пакистане 2026"
+     },
+     "id": "call_7YomVYsItlW4Er4tLWbRT19D",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1347,
+    "output_tokens": 30,
+    "total_tokens": 1377,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1280,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Афгано-пакистанская война] В другом языковом разделе есть более полная статья 2026 Afghanistan–Pakistan war (англ.) . Вы можете помочь проекту, расширив текущую статью с помощью перевода Афгано-пакистанская война Основной конфликт: часть недавнего конфликта ; причиной стали пограничные столкновения между Афганистаном и Пакистаном , а также распространение повстанческого движения в провинции Хайбер-Пахтунхва Афганистан (оранжевый) и Пакистан (зелёный) Дата 21 февраля 2026 — н. в. (8 месяцев 6 дней) Причина Афгано-пакистанский пограничный конфликт Статус продолжается Противники Пакистан ВС Пакистана : СВ Пакистана ВВС Пакистана Афганистан Армия Исламского Эмирата ВВС Афганистана Техрик-е Талибан Пакистан Командующие Асиф Али Зардари Шахбаз Шариф Хаваджа Асиф Асим Мунир Захир Ахмед Бабар [англ.] Хайбатулла Ахундзада Хасан Ахунд Мохаммад Якуб Фасихуддин Фитрат Амануддин Мансур [англ.] Нур Вали Мехсуд Силы сторон Вооружённые силы: 653 800 чел. Вооружённые силы: 165 000 чел. Потери 612 погибших, более 900+ раненых (по данным Афганистана) 21 погибших, 1 пропавший без вести (по данным Пакистана) 663 погибших, более 696 раненых (по данным Пакистана) 32 погибших, 42 раненных (по данным Афганистана) Гражданские потери 328 погибших и 120 раненых (по данным Афганистана) 212 погибших и 136 раненых (по данным ООН: UNAMA) 115 000 перемещённых на территории Афганистана (по данным ООН: UNHCR) 8 погибших (по данным Пакистана) 3000 перемещённых на территории Пакистана (по данным ООН: UNHCR) Афгано-пакистанская война — вооружённое противостояние между Афганистаном и Пакистаном , вызванное авиаударами пакистанских ВВС по афганским провинциям 21 февраля 2026 года. В ответ афганские силы 26 февраля начали военную операцию против Пакистана. 27 февраля Пакистан официально объявил войну Афганистану. В Пакистане операция получила название «Газаб лиль-Хак» (Праведная ярость [ 1 ] ), а в Афганистане — «Рад аль-Золм» (Ответ на несправедливость [ 2 ] ). Предыстория  См. также: Афгано-пакистанский",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "ru_wiki_search",
+   "id": "73036de5-7472-4571-8b3e-94f434318adf",
+   "tool_call_id": "call_7YomVYsItlW4Er4tLWbRT19D",
+   "status": "success"
+  },
+  {
+   "content": "On February 26, 2026, the government of Pakistan officially declared war on Afghanistan in response to military operations initiated by Afghan forces. This declaration followed a series of airstrikes by Pakistan on Afghan territories that began on February 21, 2026. The operation was named \"Gazab lilly-Haq\" (Righteous Fury) in Pakistan, while Afghanistan referred to its response as \"Rad al-Zolm\" (Response to Injustice).\n\nFINAL: Pakistan declared war on Afghanistan.",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 101,
+     "prompt_tokens": 2042,
+     "total_tokens": 2143,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0002709,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0002709,
+      "upstream_inference_prompt_cost": 0.0002103,
+      "upstream_inference_completions_cost": 6.06e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_d08df6a331",
+    "id": "gen-1793116139-lFKQmtdm1EkTdG4EUvWw",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-efd5-7701-ad51-ce2332f5a015-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2042,
+    "output_tokens": 101,
+    "total_tokens": 2143,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1280,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

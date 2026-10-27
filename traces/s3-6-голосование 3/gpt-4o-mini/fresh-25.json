@@ -1,0 +1,210 @@
+{
+ "task": {
+  "id": "fresh-25",
+  "source": "fresh",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "answer": "\"open war\"",
+  "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "On February 26, 2026, the government of Pakistan officially declared war on Afghanistan following escalating tensions and military actions between the two countries. The conflict intensified after Pakistan conducted airstrikes against alleged militant camps in Afghanistan, prompting a military response from Afghan forces. This declaration marked the beginning of what was termed \"Operation Ghazab lil-Haq\" by Pakistan.\n\nFINAL: Pakistan officially declared war on Afghanistan.",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 582,
+   "completion": 27,
+   "cost": 0.0001035
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 582,
+   "completion": 26,
+   "cost": 0.0001029
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1041,
+   "completion": 25,
+   "cost": 0.00017115
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1008,
+   "completion": 42,
+   "cost": 0.0001764
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1179,
+   "completion": 24,
+   "cost": 0.00011445
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1602,
+   "completion": 41,
+   "cost": 0.0001785
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1653,
+   "completion": 28,
+   "cost": 0.00014955
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1465,
+   "completion": 43,
+   "cost": 0.00016875
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2336,
+   "completion": 60,
+   "cost": 0.0002616
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2406,
+   "completion": 57,
+   "cost": 0.0002223
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1637,
+   "completion": 22,
+   "cost": 0.00015315
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1882,
+   "completion": 43,
+   "cost": 0.0001929
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1935,
+   "completion": 27,
+   "cost": 0.00017205
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2627,
+   "completion": 84,
+   "cost": 0.00030045
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 582,
+   "completion": 25,
+   "cost": 0.0001023
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1040,
+   "completion": 22,
+   "cost": 0.0001692
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1477,
+   "completion": 34,
+   "cost": 0.00024195
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1945,
+   "completion": 35,
+   "cost": 0.00020715
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "On February 26, 2026, the government of Pakistan officially declared war on Afghanistan following escalating tensions and military actions between the two countries. The conflict intensified after Pakistan conducted airstrikes against alleged militant camps in Afghanistan, prompting a military response from Afghan forces. This declaration marked the beginning of what was termed \"Operation Ghazab lil-Haq\" by Pakistan.\n\nFINAL: Pakistan officially declared war on Afghanistan."
+  },
+  {
+   "role": "vote",
+   "content": "I couldn't find specific information about a declaration made by the government of Pakistan on February 26, 2026, in relation to the Afghanistan-Pakistan war. It appears that the details regarding this date are not documented in the available resources. \n\nFINAL: No information found."
+  },
+  {
+   "role": "vote",
+   "content": "On February 26, 2026, the government of Pakistan declared \"open war\" against the Taliban in Afghanistan. \n\nFINAL: open war against the Taliban in Afghanistan"
+  }
+ ]
+}

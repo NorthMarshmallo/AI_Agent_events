@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-16",
+  "source": "fresh",
+  "question": "In ice hockey, which team won their first Walter Cup on May 20, 2026?",
+  "answer": "Montreal Victoire",
+  "evidence": "May 20: The Montreal Victoire defeat the Ottawa Charge three games to one in the 2026 Walter Cup Finals to win their first Walter Cup.",
+  "page": "2026 in ice hockey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_ice_hockey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The Montreal Victoire won their first Walter Cup on May 20, 2026. \n\nFINAL: Montreal Victoire",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-16",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 579,
+   "completion": 22,
+   "cost": 0.00010005
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-16",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 929,
+   "completion": 25,
+   "cost": 0.00015435
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-16",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 632,
+   "completion": 9,
+   "cost": 0.0001002
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "Montreal Victoire",
+   "supported": true,
+   "issue": ""
+  }
+ ]
+}

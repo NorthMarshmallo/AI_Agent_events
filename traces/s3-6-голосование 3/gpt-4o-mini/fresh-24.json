@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-24",
+  "source": "fresh",
+  "question": "In the United Kingdom, what is declared across the whole of Wales in July 2026?",
+  "answer": "a drought",
+  "evidence": "2026 United Kingdom heatwaves: A drought is declared across the whole of Wales, with the country on course to experience its driest July for 190 years.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "In July 2026, the Environment Agency declared a drought across all of Wales. \n\nFINAL: drought across all of Wales",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-24",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 578,
+   "completion": 20,
+   "cost": 9.87e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-24",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 578,
+   "completion": 20,
+   "cost": 9.87e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-24",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 578,
+   "completion": 20,
+   "cost": 9.87e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-24",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1090,
+   "completion": 39,
+   "cost": 0.0001869
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-24",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1679,
+   "completion": 29,
+   "cost": 0.00019245
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-24",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1090,
+   "completion": 39,
+   "cost": 0.0001869
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-24",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1090,
+   "completion": 36,
+   "cost": 0.0001851
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-24",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1679,
+   "completion": 26,
+   "cost": 0.00019065
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-24",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1671,
+   "completion": 38,
+   "cost": 0.00019665
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "In July 2026, a drought was declared across all of Wales due to severely dry conditions accompanying a heatwave. \n\nFINAL: drought"
+  },
+  {
+   "role": "vote",
+   "content": "In July 2026, the Environment Agency declared a drought across all of Wales. \n\nFINAL: drought across all of Wales"
+  },
+  {
+   "role": "vote",
+   "content": "In July 2026, the Environment Agency declared a drought across all of Wales due to severely dry conditions and a series of heatwaves. \n\nFINAL: Drought across all of Wales"
+  }
+ ]
+}

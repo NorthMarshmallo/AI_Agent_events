@@ -1,0 +1,64 @@
+{
+ "task": {
+  "id": "fresh-135",
+  "source": "fresh",
+  "question": "Кто выиграл женское одиночное катание на чемпионате России по фигурному катанию 2026 года в Санкт-Петербурге?",
+  "answer": "Петросян",
+  "evidence": "01! | Аделия Петросян | 235,95 | 1 | 86,52 | 2 | 149,43",
+  "page": "Чемпионат России по фигурному катанию 2026",
+  "url": "https://ru.wikipedia.org/wiki/Чемпионат_России_по_фигурному_катанию_2026",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "Победителем женского одиночного катания на чемпионате России по фигурному катанию 2026 года в Санкт-Петербурге стала Аделия Петросян. \n\nFINAL: Аделия Петросян",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-135",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 588,
+   "completion": 33,
+   "cost": 0.000108
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-135",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 631,
+   "completion": 28,
+   "cost": 0.00011145
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-135",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1515,
+   "completion": 48,
+   "cost": 0.00025605
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-135",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 686,
+   "completion": 9,
+   "cost": 0.0001083
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "Аделия Петросян",
+   "supported": true,
+   "issue": ""
+  }
+ ]
+}

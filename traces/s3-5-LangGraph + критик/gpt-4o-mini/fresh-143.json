@@ -1,0 +1,94 @@
+{
+ "task": {
+  "id": "fresh-143",
+  "source": "fresh",
+  "question": "How much did Chainsaw Man – The Movie: Reze Arc earn in its opening weekend in North America in October 2025?",
+  "answer": "$18 million",
+  "evidence": "The film topped the U.S. opening weekend in 3,003 North American theaters, earning US$18 million at the box office.",
+  "page": "Chainsaw Man – The Movie: Reze Arc",
+  "url": "https://en.wikipedia.org/wiki/Chainsaw_Man_–_The_Movie:_Reze_Arc",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "Chainsaw Man – The Movie: Reze Arc earned $18 million in its opening weekend in North America in October 2025. \n\nFINAL: 18 million",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-143",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 586,
+   "completion": 34,
+   "cost": 0.0001083
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-143",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1060,
+   "completion": 32,
+   "cost": 0.0001782
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-143",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1382,
+   "completion": 32,
+   "cost": 0.0001497
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-143",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1424,
+   "completion": 25,
+   "cost": 0.0002286
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-143",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 2132,
+   "completion": 61,
+   "cost": 0.0002508
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-143",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2357,
+   "completion": 34,
+   "cost": 0.00021075
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-143",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 1258,
+   "completion": 9,
+   "cost": 0.0001941
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "18 million",
+   "supported": true,
+   "issue": ""
+  }
+ ]
+}

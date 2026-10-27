@@ -1,0 +1,569 @@
+{
+ "task": {
+  "id": "fresh-154",
+  "source": "fresh",
+  "question": "What was Alysa Liu's free skate score when she won the women's singles title at the 2025–26 Grand Prix Final in Nagoya?",
+  "answer": "146.70",
+  "evidence": "Dec 4–7, 2025 | 2025–26 Grand Prix Final | 2 | 75.79 | 3 | 146.70 | 1 | 222.49",
+  "page": "Alysa Liu",
+  "url": "https://en.wikipedia.org/wiki/Alysa_Liu"
+ },
+ "answer": "I couldn't find the specific free skate score for Alysa Liu at the 2025–26 Grand Prix Final. However, she won the women's singles title at this event. \n\nFINAL: Information not found.",
+ "calls": [
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-154",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 144,
+   "completion": 150,
+   "cost": 0.0001116
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-154",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 743,
+   "completion": 28,
+   "cost": 0.00012825
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-154",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1173,
+   "completion": 26,
+   "cost": 0.00019155
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-154",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1209,
+   "completion": 38,
+   "cost": 0.00011775
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-154",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1345,
+   "completion": 30,
+   "cost": 0.00013335
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-154",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 2102,
+   "completion": 54,
+   "cost": 0.0002517
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-154",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2998,
+   "completion": 43,
+   "cost": 0.0003219
+  }
+ ],
+ "messages": [
+  {
+   "role": "plan",
+   "content": "1. **Web Search**: Использовать инструмент web_search для поиска информации о \"Alysa Liu 2025–26 Grand Prix Final free skate score\".\n   \n2. **Gen Search**: Если информация не найдена, использовать gen_search с запросом \"Alysa Liu Grand Prix Final 2025–26 results\".\n\n3. **Page Find**: Применить инструмент page_find для поиска ключевых слов \"Alysa Liu free skate score\" в найденных статьях, чтобы уточнить детали.\n\n4. **Ru Wiki Search**: В случае необходимости, использовать ru_wiki_search с запросом \"Алиса Лю 2025–26 Гран-при финал\" для получения информации на русском языке."
+  },
+  {
+   "content": "What was Alysa Liu's free skate score when she won the women's singles title at the 2025–26 Grand Prix Final in Nagoya?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "332ffabc-3123-4c12-b379-2776fa553ae8"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 28,
+     "prompt_tokens": 743,
+     "total_tokens": 771,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00012825,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00012825,
+      "upstream_inference_prompt_cost": 0.00011145,
+      "upstream_inference_completions_cost": 1.68e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_a61d6793b9",
+    "id": "gen-1793116245-2KA6qN0jkXhmxssqOiH2",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0e-8ef6-7e23-946f-5e16229f38ac-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Alysa Liu 2025–26 Grand Prix Final free skate score"
+     },
+     "id": "call_WyvzcSBJk9tSwGjLFSjQENnq",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 743,
+    "output_tokens": 28,
+    "total_tokens": 771,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Alysa Liu] Alysa Liu ( ə-LISS-ə LEE-oo; born August 8, 2005) is an American figure skater. She is the 2026 Olympic champion in both the women's singles and team events, the 2025 World champion, the 2022 World bronze medalist, the 2025–26 Grand Prix Final champion, a two-time Grand Prix medalist, a four-time Challenger Series champion, and a two-time U.S. national champion. At the junior level, Liu was the 2020 World Junior bronze medalist, the 2019–20 Junior Grand Prix Final silver medalist, a two-time Junior Grand Prix champion, and the 2018 U.S. junior national champion. In 2019, Liu, then 13, became the youngest-ever U.S. women's national champion. The following year, she became the youngest skater to win two senior national titles, the first woman to win consecutive U.S. titles since Ashley Wagner in 2012 and 2013, and the first girl to win the junior and senior titles back-to-back since Mirai Nagasu in 2008. Following a period of retirement, she won a world title at the 2025 World Championships, becoming the first U.S. woman to do so since Kimmie Meissner in 2006. At the 2026 Winter Olympics, she became the first American woman to win an individual medal since Sasha Cohen in 2006, as well as the first American gold medalist since Sarah Hughes in 2002. An accomplished jumper, Liu was the first woman to complete a quadruple jump and a triple Axel in the same program, and the first to land a triple Axel-triple toe loop combination in the short program. She was the first American woman to land a quadruple jump and the first American junior woman to complete a triple Axel in international competition.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "c3e0eae9-9d7e-43b7-8b53-7fc1e4fd6de3",
+   "tool_call_id": "call_WyvzcSBJk9tSwGjLFSjQENnq",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 26,
+     "prompt_tokens": 1173,
+     "total_tokens": 1199,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00019155,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00019155,
+      "upstream_inference_prompt_cost": 0.00017595,
+      "upstream_inference_completions_cost": 1.56e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_a61d6793b9",
+    "id": "gen-1793116247-66efWHRyePEMQvsf9o5h",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0e-9779-77c2-b9dc-192e7c4d609c-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "Alysa Liu Grand Prix Final 2025–26 results"
+     },
+     "id": "call_91ONicHGTqDBdDpLx2OUoebW",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1173,
+    "output_tokens": 26,
+    "total_tokens": 1199,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "383b5ecc-426a-44bb-9f2b-a96817bda011",
+   "tool_call_id": "call_91ONicHGTqDBdDpLx2OUoebW",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 38,
+     "prompt_tokens": 1209,
+     "total_tokens": 1247,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00011775,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00011775,
+      "upstream_inference_prompt_cost": 9.495e-05,
+      "upstream_inference_completions_cost": 2.28e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_a61d6793b9",
+    "id": "gen-1793116257-HqdFxlISaZpKfJWR7v5m",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0e-be01-7bb0-a05e-7ae519926ecd-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Alysa Liu",
+      "keywords": [
+       "2025–26 Grand Prix Final",
+       "free skate score"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_Aoq5KCpvXOHIdq2mmZM88DgU",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1209,
+    "output_tokens": 38,
+    "total_tokens": 1247,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1152,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "She is the 2026 Olympic champion in both the women's singles and team events, the 2025 World champion, the 2022 World bronze medalist, the 2025–26 Grand Prix Final champion, a two-time Grand Prix medalist, a four-time Challenger Series champion, and a two-time U.S.\nLiu competed at the 2025–26 Grand Prix Final, her debut at this event, taking the gold.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "2ae52c25-67e7-4667-8032-145ff3430013",
+   "tool_call_id": "call_Aoq5KCpvXOHIdq2mmZM88DgU",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 30,
+     "prompt_tokens": 1345,
+     "total_tokens": 1375,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00013335,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00013335,
+      "upstream_inference_prompt_cost": 0.00011535,
+      "upstream_inference_completions_cost": 1.8e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_a61d6793b9",
+    "id": "gen-1793116275-mOrdK9TO1paIrr7vlnjD",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0f-02ce-75c3-8600-87ec3bf26acc-0",
+   "tool_calls": [
+    {
+     "name": "ru_wiki_search",
+     "args": {
+      "query": "Алиса Лю 2025–26 Гран-при финал"
+     },
+     "id": "call_aZetZEA48H7785ojQq4nDEiU",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1345,
+    "output_tokens": 30,
+    "total_tokens": 1375,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1152,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Финал Гран-при по фигурному катанию 2025/2026] Финал Гран-при по фигурному катанию 2025/2026 Тип соревнования Международный турнир под эгидой ИСУ Дата 4— 7 декабря 2025 года Сезон 2025—2026 Место проведения Нагоя , Япония Организатор Федерация конькобежного спорта Японии Победители Мужское одиночное катание Илья Малинин Со Мингю (юн.) Женское одиночное катание Алиса Лю Мао Симада (юн.) Парное катание Рику Миура / Рюити Кихара Го Жуй / Чжан Ивэнь (юн.) Танцы на льду Мэдисон Чок / Эван Бейтс Хана Мария Абоян / Даниил Веселухин (юн.) Соревнования Предыдущее Финал Гран-при 2024/2025 Последующее Финал Гран-при 2026/2027 Финал Гран-при по фигурному катанию 2025/2026 ( англ. ISU Grand Prix of Figure Skating Final 2025/26 ) — международное соревнование по фигурному катанию , заключительный турнир серии Гран-при в сезоне 2025—2026 годов. Соревнования прошли в Нагое , Япония , с 4 по 7 декабря 2025 года [ 1 ] . Организатор турнира — Федерация конькобежного спорта Японии при поддержке Международного союза конькобежцев . Медали были разыграны в мужском и женском одиночном катании, в парном катании и танцах на льду среди взрослых и юниоров. Участники  Шесть лучших фигуристов или пар квалифицируются в финал Гран-при, набирая очки на соревнованиях серии Гран-при . При равенстве очков учитывается дополнительный критерий: лучшее место, которое спортсмен занял на этапах. Если этот критерий не позволит выявить лучшего, то учитывается сумма набранных баллов за два этапа [ 1 ] . Взрослые  Мужчины [ 2 ] Женщины [ 3 ] Пары [ 4 ] Танцы [ 5 ] Илья Малинин Монэ Тиба Рику Миура / Рюити Кихара Мэдисон Чок / Эван Бейтс Юма Кагияма Каори Сакамото Сара Конти / Никколо Мачии Лоранс Фурнье-Бодри / Гийом Сизерон Сюн Сато Эмбер Гленн Минерва Фабинне Хазе / Никита Володин Лайла Фир / Льюис Гибсон Адам Сяо Хим Фа Алиса Лю Анастасия Метёлкина / Лука Берулава Пайпер Гиллес / Поль Пуарье Михаил Шайдоров Ами Накаи Дианна Стеллато-Дудек / Максим Дешам Эллисон Рид / Саулюс Амбрулявичюс Даниэль Грассль Ринка",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "ru_wiki_search",
+   "id": "7dc31cd4-f2e0-4492-a783-f78ee75f6161",
+   "tool_call_id": "call_aZetZEA48H7785ojQq4nDEiU",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 54,
+     "prompt_tokens": 2102,
+     "total_tokens": 2156,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0002517,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0002517,
+      "upstream_inference_prompt_cost": 0.0002193,
+      "upstream_inference_completions_cost": 3.24e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_a61d6793b9",
+    "id": "gen-1793116278-88bB6ZMh48SzqZu27PLF",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0f-0fee-70d2-ab8b-ce9aedab1435-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Финал Гран-при по фигурному катанию 2025/2026",
+      "keywords": [
+       "Алиса Лю",
+       "свободная программа",
+       "баллы"
+      ],
+      "site": "ru_wiki"
+     },
+     "id": "call_W65sLopqtF7JVec1lZWKdvvJ",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2102,
+    "output_tokens": 54,
+    "total_tokens": 2156,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1280,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "Финал Гран-при по фигурному катанию 2025/2026 Тип соревнования Международный турнир под эгидой ИСУ Дата 4— 7 декабря 2025 года Сезон 2025—2026 Место проведения Нагоя , Япония Организатор Федерация конькобежного спорта Японии Победители Мужское одиночное катание Илья Малинин Со Мингю (юн.) Женское одиночное катание Алиса Лю Мао Симада (юн.) Парное катание Рику Миура / Рюити Кихара Го Жуй / Чжан Ивэнь (юн.) Танцы на льду Мэдисон Чок / Эван Бейтс Хана Мария Абоян / Даниил Веселухин (юн.) Соревнования Предыдущее Финал Гран-при 2024/2025 Последующее Финал Гран-при 2026/2027 Финал Гран-при по фигурному катанию 2025/2026 ( англ.\nВзрослые  Мужчины [ 2 ] Женщины [ 3 ] Пары [ 4 ] Танцы [ 5 ] Илья Малинин Монэ Тиба Рику Миура / Рюити Кихара Мэдисон Чок / Эван Бейтс Юма Кагияма Каори Сакамото Сара Конти / Никколо Мачии Лоранс Фурнье-Бодри / Гийом Сизерон Сюн Сато Эмбер Гленн Минерва Фабинне Хазе / Никита Володин Лайла Фир / Льюис Гибсон Адам Сяо Хим Фа Алиса Лю Анастасия Метёлкина / Лука Берулава Пайпер Гиллес / Поль Пуарье Михаил Шайдоров Ами Накаи Дианна Стеллато-Дудек / Максим Дешам Эллисон Рид / Саулюс Амбрулявичюс Даниэль Грассль Ринка Ватанабэ Мария Павлова / Алексей Святченко Эмилия Зингас / Вадим Колесник Запасные Кадзуки Томоно Изабо Левито Суй Вэньцзин / Хань Цун Маржори Лажуа / Закари Лага Лукас Бричги Анастасия Губанова Элли Кам / Дэнни О’Ши Шарлен Гиньяр / Марко Фаббри Ника Эгадзе Брэди Теннелл Алиса Ефимова / Миша Митрофанов Евгения Лопарёва / Жоффре Бриссо Юниоры  Юноши [ 6 ] Девушки [ 7 ] Пары [ 8 ] Танцы [ 9 ] Рио Наката Мао Симада Ава Кемп / Йонатан Елизаров Хана Мария Абоян / Даниил Веселухин Со Мингю Ким Юджэ Чжан Сюаньци / Фэн Вэньцян Ирина Пидгайна / Артём Коваль Чхве Хабин Маюко Ока Го Жуй / Чжан Ивэнь Лайла Вейон / Александр Брендис Тайга Нисино Мэй Окада Джазмин Дерошер / Киран Трэшер Амбре Перрье Джанезини / Самюэль Блан Клаперман Луций Казанецкий Сумика Канадзава Джулия Кваттрокки / Этьен Лакасс Жасмин Робертсон / Чейз Ронер Денис Круглов Ким Юсон Чэн",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "a2be936a-350c-420e-98d0-8a9e55856bf8",
+   "tool_call_id": "call_W65sLopqtF7JVec1lZWKdvvJ",
+   "status": "success"
+  },
+  {
+   "content": "I couldn't find the specific free skate score for Alysa Liu at the 2025–26 Grand Prix Final. However, she won the women's singles title at this event. \n\nFINAL: Information not found.",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 43,
+     "prompt_tokens": 2998,
+     "total_tokens": 3041,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 2048,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0003219,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0003219,
+      "upstream_inference_prompt_cost": 0.0002961,
+      "upstream_inference_completions_cost": 2.58e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_a61d6793b9",
+    "id": "gen-1793116281-iZd9EY0UShUvVhUxGGuJ",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0f-1c52-7db1-a917-eed71ee55013-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2998,
+    "output_tokens": 43,
+    "total_tokens": 3041,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 2048,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

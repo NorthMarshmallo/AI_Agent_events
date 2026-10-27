@@ -1,0 +1,770 @@
+{
+ "task": {
+  "id": "fresh-129",
+  "source": "fresh",
+  "question": "Which two investors co-led Chai Discovery's $130 million Series B round in December 2025, per GEN?",
+  "answer": "Oak HC/FT and General Catalyst",
+  "evidence": "Oak HC/FT and General Catalyst co-led the Series B.",
+  "page": "Chai's the Limit for AI Antibody Designer After $130M Series B Funding",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/chais-the-limit-for-ai-antibody-designer-after-130m-series-b-funding/",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "Извините, но у меня нет информации о том, какие именно инвесторы со-возглавили раунд финансирования Chai Discovery на сумму 130 миллионов долларов в декабре 2025 года. \n\nFINAL: Информация недоступна.",
+ "calls": [
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 138,
+   "completion": 106,
+   "cost": 8.43e-05
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 693,
+   "completion": 24,
+   "cost": 0.00011835
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1131,
+   "completion": 44,
+   "cost": 0.00019605
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1413,
+   "completion": 26,
+   "cost": 0.00014115
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1810,
+   "completion": 43,
+   "cost": 0.0001917
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 2001,
+   "completion": 25,
+   "cost": 0.00018075
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2456,
+   "completion": 41,
+   "cost": 0.000249
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2793,
+   "completion": 27,
+   "cost": 0.00025275
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 3191,
+   "completion": 43,
+   "cost": 0.00030285
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2770,
+   "completion": 51,
+   "cost": 0.0004461
+  }
+ ],
+ "messages": [
+  {
+   "role": "plan",
+   "content": "1. **Инструмент**: gen_search  \n   **Запрос**: \"Chai Discovery Series B round December 2025 investors\"  \n   **Ключевые слова**: \"Chai Discovery\", \"Series B\", \"investors\", \"December 2025\"\n\n2. **Инструмент**: page_find  \n   **Запрос**: \"co-led investors\"  \n   **Ключевые слова**: \"co-led\", \"investors\", \"Chai Discovery\", \"Series B\""
+  },
+  {
+   "content": "Which two investors co-led Chai Discovery's $130 million Series B round in December 2025, per GEN?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "3d24d9bb-92d3-4965-b967-3b65a2ea0d94"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 24,
+     "prompt_tokens": 693,
+     "total_tokens": 717,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00011835,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00011835,
+      "upstream_inference_prompt_cost": 0.00010395,
+      "upstream_inference_completions_cost": 1.44e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e7d38d081f",
+    "id": "gen-1793116137-G8IBJqDNJsyzWnuWDoVg",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-e7ec-7ad1-bf37-40b463dc8179-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "Chai Discovery Series B round December 2025 investors"
+     },
+     "id": "call_W6W06GbVl0mrqRYyz4KQ8EUU",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 693,
+    "output_tokens": 24,
+    "total_tokens": 717,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Next 10 U.S. Biopharma Clusters] The days of biotech businesses and institutions limiting their research and commercial activity to top clusters like Boston/Cambridge, MA, and the San Francisco Bay Area are passing, as the life sciences expand their horizons to regions and states not usually thought of as hotspots for the industry. “Life science entrepreneurship and new product development is flourishing outside traditional coastal epicenters, creating a dynamic and distributed map of regional hubs across the United States,” wrote John Flavin, founder and CEO of venture capital firm Portal Innovations, and Pat Flavin, John’s brother and Portal’s president, in Biotech’s Future Will Be More Distributed , a guest editorial published December 15, 2025, by Timmerman Report . Portal itself reflects that trend, having U.S. locations not only in Chicago (No. 9 on GEN ’s most recent A-List of Top 10 U.S. Biopharma Clusters , published June 1), but in Providence, RI; the New York suburb of New Brunswick, NJ; and Houston (Portal also has a fifth office in Dublin, Ireland). The Flavin brothers cited several factors in the industry becoming more ‘‘distributed” or scattered beyond the largest clusters: Academic research shifting —Over the past decade, research has shifted to a translational focus, to address the need for more practical application in life sciences. Federal funding flattening —Cutbacks in or leveling amounts of NIH funding (depending on the region) have forced universities to adopt new avenues for attracting and retaining research talent—such as pursuing closer relationships with industry. COVID-19 —The pandemic that wreaked havoc on the world “acted as a global shock to the life sciences innovation system, accelerating pre-existing trends and forcing a rapid re-evaluation of how and where innovation happens,” John and Pat Flavin wrote. The growth of biotech hubs outside of the top 10 regions and states ranked since 2014 in GEN ’s nationally- and regionally-cited",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "b5043e64-d03f-4755-8e98-add66e49d3a6",
+   "tool_call_id": "call_W6W06GbVl0mrqRYyz4KQ8EUU",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 44,
+     "prompt_tokens": 1131,
+     "total_tokens": 1175,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00019605,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00019605,
+      "upstream_inference_prompt_cost": 0.00016965,
+      "upstream_inference_completions_cost": 2.64e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e7d38d081f",
+    "id": "gen-1793116138-ZmTGDmGdf76ITD95mwLB",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-edba-7322-9751-e02e94d9f486-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Next 10 U.S. Biopharma Clusters",
+      "keywords": [
+       "co-led",
+       "investors",
+       "Chai Discovery",
+       "Series B"
+      ],
+      "site": "gen"
+     },
+     "id": "call_gQBbOl5wR2Qs7VrwyLnWV1cv",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1131,
+    "output_tokens": 44,
+    "total_tokens": 1175,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "Denver-Boulder, CO CordenPharma, a peptide drug substance contract development and manufacturing organization (CDMO), leased 64,000 square feet in Boulder at BioMed Realty’s Flatiron Park (5505 Central Ave.) in March [BioMed Realty] Area biotech executives joined 430+ executives and investors across tech specialties to form Ensuring Colorado’s Innovation Future.\nThe deal came five months after VitriVax closed a $17.25 million Series B financing round whose proceeds were intended to fund development and commercialization of the company’s Atomic Layering Thermostable Antigen and Adjuvant (ALTA ® ) technology.\nILiAD Biotechnologies, based in the Fort Lauderdale suburb of Weston, FL, closed in February on an oversubscribed $115 million Series B VC financing whose proceeds are intended to fund advancement of a next-generation pertussis vaccine candidate, BPZE1.\nMorgan to launch an annual summit after being created earlier in 2025 by about 500 industry executives and investors.\nPeptilogics last year completed an oversubscribed $78 million Series B2 financing whose proceeds are funding the trial.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "0e44db12-7b90-4a48-85c1-cb3475e56356",
+   "tool_call_id": "call_gQBbOl5wR2Qs7VrwyLnWV1cv",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 26,
+     "prompt_tokens": 1413,
+     "total_tokens": 1439,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00014115,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00014115,
+      "upstream_inference_prompt_cost": 0.00012555,
+      "upstream_inference_completions_cost": 1.56e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e7d38d081f",
+    "id": "gen-1793116140-tSoUBplkHJwkJ4XBYH1i",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-f4e8-7a82-92cf-793954bc10b5-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "Chai Discovery Series B round December 2025 co-led investors"
+     },
+     "id": "call_9t2JALl8RjoBUSDSqgHauVHS",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1413,
+    "output_tokens": 26,
+    "total_tokens": 1439,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1152,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Top 10 Spatial Biology Companies of 2024] A series of announcements in recent weeks shows just how much the spatial biology field has matured in the years since Nature Methods recognized spatial biology—which it called spatially resolved transcriptomics—as its Method of the Year 2020 . Recent news about research institutions The University of Texas MD Anderson Cancer Center in September appointed computational biologist Linghua Wang, MD, PhD, to co-lead a focus area within its Institute for Data Science in Oncology dedicated to using single-cell spatial omics to unveil the complexity of cancer biology and thus explore new opportunities for cancer therapeutics. Wang was also appointed to join MD Anderson’s James P. Allison Institute as an associate member based on her expertise in spatial biology and the tumor microenvironment. Beyond the United States, Australia’s Colonial Foundation gave A$21 million ($14 million) in September to launch a namesake Diagnostics Center that will apply spatial biology toward enhanced diagnoses and thus more personalized care for patients with inflammatory diseases such as rheumatoid arthritis and inflammatory bowel disease. The Center is co-led by the Walter and Eliza Hall Institute of Medical Research and the Royal Melbourne Hospital. Recent news about business developments The top two private companies in spatial biology based on their total capital raised, Vizgen and Ultivue, merged in October into a single entity that aspires to be a powerhouse in the field by offering both single-cell spatial genomics and multiplex proteomic profiling technologies to customers engaged in foundational and clinical research. The Vizgen-Ultivue merger reflects continuing consolidation in spatial biology, as does Bruker’s acquisition of NanoString Technologies by placing the winning $392.6 million bid for the company at a bankruptcy court auction earlier this year. Bio-Techne kicked off the current round of mergers and acquisitions last year by snapp",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "8f607424-d29d-482e-a092-611b1a696e2a",
+   "tool_call_id": "call_9t2JALl8RjoBUSDSqgHauVHS",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 43,
+     "prompt_tokens": 1810,
+     "total_tokens": 1853,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1408,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001917,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001917,
+      "upstream_inference_prompt_cost": 0.0001659,
+      "upstream_inference_completions_cost": 2.58e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e7d38d081f",
+    "id": "gen-1793116146-TqHDF3nrboXlJBFtlgr7",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-0cdd-7b83-917c-b9788e845cbe-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Top 10 Spatial Biology Companies of 2024",
+      "keywords": [
+       "co-led",
+       "investors",
+       "Chai Discovery",
+       "Series B"
+      ],
+      "site": "gen"
+     },
+     "id": "call_FTUyCqJ6CX98JAcle8NRekan",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1810,
+    "output_tokens": 43,
+    "total_tokens": 1853,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1408,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "The Center is co-led by the Walter and Eliza Hall Institute of Medical Research and the Royal Melbourne Hospital.\nRareCyte Total Capital Raised: $125 million RareCyte in June completed a $20 million financing from new and existing investors that the company expects will enable it to expand its Orion spatial biology platform, including commercializing new multiplex assays, reagent products, and software applications.\nKanvas Biosciences Kanvas Biosciences brought its total capital raised to $29.5 million in July when it raised $12.5 mil­lion in fund­ing co-led by DCVC and Lions Cap­i­tal.\nFigure disclosed by Resolve Biosciences on the Investors page of its website.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "f0895cd1-1857-4d21-8e33-211a7bb9a13b",
+   "tool_call_id": "call_FTUyCqJ6CX98JAcle8NRekan",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 25,
+     "prompt_tokens": 2001,
+     "total_tokens": 2026,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1792,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00018075,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00018075,
+      "upstream_inference_prompt_cost": 0.00016575,
+      "upstream_inference_completions_cost": 1.5e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e7d38d081f",
+    "id": "gen-1793116154-Dpfg4dkICXsYcYgqe239",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-296d-77d2-9e3a-73d79a543df6-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "Chai Discovery Series B round December 2025 investors names"
+     },
+     "id": "call_WeKZRLm09Hy7OwoMoO8xE0b9",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2001,
+    "output_tokens": 25,
+    "total_tokens": 2026,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1792,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Seven Biopharma Trends to Watch in 2026] Biopharma may see a happier year ahead in 2026 than in recent years, according to analysts at William Blair. For one thing, the industry’s top stocks have recovered from lows that stretched into last spring. Blair cited the SPDR S&P Biotech exchange-traded fund (NYSE Arca: XBI) , which bounced back from $66.66 a share on April 9, nearly doubling (up 85%) to $123.43 on December 19. Another reason for optimism, the analysts wrote in a recent report, is better-than-expected policies from President Donald Trump’s second administration—from encouraging the reshoring of biopharma manufacturing in the United States to most favored nation (MFN) pricing, which has spared companies from much-feared tariffs in return for commitments to selling key drugs at lower prices to patients. “While there are still some unanswered questions regarding drug pricing in the United States, changing frameworks at the FDA, and international threats to the U.S. biopharma ecosystem from China, we believe continued strong clinical data, commercial launches, and M&A will keep the sector performing better than the bear markets of 2021 through 2024,” concluded William Blair analysts Matt Phipps, PhD; Sami Corwin, PhD; Lachlan Hanbury-Brown; Andy T. Hsieh, PhD; and Myles R. Minter, PhD. “As long as the sector continues to reward strong clinical results and companies are able to commercially launch drugs without significant government regulations around pricing, we believe specialist investment in biotech can continue to have strong performance.” Below are seven biopharma-related trends for 2026 that have emerged from GEN interviews with experts and other industry stakeholders, and from reviews of reports and public statements. AI: Focusing beyond targets, to trials and models Artificial intelligence (AI) will continue to reshape biopharma, from big pharmas to smaller “pure play” AI-based drug developers, as the technology advances beyond target selection towar",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "94d51848-0745-404f-a037-2e5f5bb064b4",
+   "tool_call_id": "call_WeKZRLm09Hy7OwoMoO8xE0b9",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 41,
+     "prompt_tokens": 2456,
+     "total_tokens": 2497,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1920,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.000249,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.000249,
+      "upstream_inference_prompt_cost": 0.0002244,
+      "upstream_inference_completions_cost": 2.46e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e7d38d081f",
+    "id": "gen-1793116159-XbQTCUSmvzihNahkB9Xp",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-3eef-7c00-8e9f-d32aeee31f1c-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Seven Biopharma Trends to Watch in 2026",
+      "keywords": [
+       "Chai Discovery",
+       "Series B",
+       "investors"
+      ],
+      "site": "gen"
+     },
+     "id": "call_p898OWGH14TKmLVhXXSvrLol",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2456,
+    "output_tokens": 41,
+    "total_tokens": 2497,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1920,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "During 2026, Recursion has guided investors to an early Phase I safety and PK monotherapy data readout in the first half for REC-1245 (targeting RBM39) in biomarker-enriched solid tumors and lymphoma; and to potential Phase I study launches for REC-102 (ENPP1) in hypophosphatasia and REC-7735 (PI3Kα, H1047R mutation) in HR+ breast cancer.\nInsilico’s IPO has attracted 15 “cornerstone” investors, including Chinese tech conglomerate Tencent and Eli Lilly, with which Insilico in November expanded a two-year collaboration by agreeing to partner in AI drug development .\nFINANCE: M&A, VC funding, even IPOs expected to accelerate Market watchers are expecting to see merger and acquisition (M&A) activity accelerate further in 2026, after a year that saw a clear comeback for such deals, considered by investors to be the most lucrative avenues for cashing in on their investments.\nWould-be buyers enjoy a huge reservoir of cash, nearly $1.4 trillion set aside for dealmaking by the top 25 biopharmas—what EY-Parthenon calls “firepower.” And many would-be takeover targets are squeezed for cash, as they have drawn down on their venture financings of the COVID-19 era and soon after, only to find investors are less willing to finance them.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "214849d2-314f-4755-962c-8b78470f556c",
+   "tool_call_id": "call_p898OWGH14TKmLVhXXSvrLol",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 27,
+     "prompt_tokens": 2793,
+     "total_tokens": 2820,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 2432,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00025275,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00025275,
+      "upstream_inference_prompt_cost": 0.00023655,
+      "upstream_inference_completions_cost": 1.62e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e7d38d081f",
+    "id": "gen-1793116164-mGNo59nZRWuaI10qIbiy",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-5114-7773-a9aa-97ac207217bd-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "Chai Discovery Series B round December 2025 investors names co-led"
+     },
+     "id": "call_OEHNMZnTEc5QQDJ6U0NaxcuQ",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2793,
+    "output_tokens": 27,
+    "total_tokens": 2820,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 2432,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Top 10 Spatial Biology Companies of 2024] A series of announcements in recent weeks shows just how much the spatial biology field has matured in the years since Nature Methods recognized spatial biology—which it called spatially resolved transcriptomics—as its Method of the Year 2020 . Recent news about research institutions The University of Texas MD Anderson Cancer Center in September appointed computational biologist Linghua Wang, MD, PhD, to co-lead a focus area within its Institute for Data Science in Oncology dedicated to using single-cell spatial omics to unveil the complexity of cancer biology and thus explore new opportunities for cancer therapeutics. Wang was also appointed to join MD Anderson’s James P. Allison Institute as an associate member based on her expertise in spatial biology and the tumor microenvironment. Beyond the United States, Australia’s Colonial Foundation gave A$21 million ($14 million) in September to launch a namesake Diagnostics Center that will apply spatial biology toward enhanced diagnoses and thus more personalized care for patients with inflammatory diseases such as rheumatoid arthritis and inflammatory bowel disease. The Center is co-led by the Walter and Eliza Hall Institute of Medical Research and the Royal Melbourne Hospital. Recent news about business developments The top two private companies in spatial biology based on their total capital raised, Vizgen and Ultivue, merged in October into a single entity that aspires to be a powerhouse in the field by offering both single-cell spatial genomics and multiplex proteomic profiling technologies to customers engaged in foundational and clinical research. The Vizgen-Ultivue merger reflects continuing consolidation in spatial biology, as does Bruker’s acquisition of NanoString Technologies by placing the winning $392.6 million bid for the company at a bankruptcy court auction earlier this year. Bio-Techne kicked off the current round of mergers and acquisitions last year by snapp",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "7cbfce47-7730-4b8f-a56d-372aa2da24d5",
+   "tool_call_id": "call_OEHNMZnTEc5QQDJ6U0NaxcuQ",
+   "status": "success"
+  },
+  {
+   "content": "Извините, но у меня нет информации о том, какие именно инвесторы со-возглавили раунд финансирования Chai Discovery на сумму 130 миллионов долларов в декабре 2025 года. \n\nFINAL: Информация недоступна.",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 51,
+     "prompt_tokens": 2770,
+     "total_tokens": 2821,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0004461,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0004461,
+      "upstream_inference_prompt_cost": 0.0004155,
+      "upstream_inference_completions_cost": 3.06e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e7d38d081f",
+    "id": "gen-1793116170-Aq2Q82ZF5mghrsCNRrV1",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-6a14-7c52-bf8c-9d4727ba7f53-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2770,
+    "output_tokens": 51,
+    "total_tokens": 2821,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

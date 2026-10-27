@@ -1,0 +1,150 @@
+{
+ "task": {
+  "id": "fresh-141",
+  "source": "fresh",
+  "question": "How much did Demon Slayer: Infinity Castle gross in its U.S. opening weekend?",
+  "answer": "$70 million",
+  "evidence": "The film grossed $70 million in its U.S. opening weekend, setting the record for the biggest opening weekend for an international film in the U.S.",
+  "page": "Demon Slayer: Kimetsu no Yaiba – The Movie: Infinity Castle",
+  "url": "https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba_–_The_Movie:_Infinity_Castle",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "Demon Slayer: Infinity Castle grossed $70 million in its U.S. opening weekend. \n\nFINAL: 70 million",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-141",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 576,
+   "completion": 27,
+   "cost": 0.0001026
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-141",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 576,
+   "completion": 27,
+   "cost": 0.0001026
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-141",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 576,
+   "completion": 27,
+   "cost": 0.0001026
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-141",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1056,
+   "completion": 25,
+   "cost": 0.0001734
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-141",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1056,
+   "completion": 25,
+   "cost": 9.66e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-141",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1519,
+   "completion": 46,
+   "cost": 0.00025545
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-141",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1974,
+   "completion": 26,
+   "cost": 0.0002349
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-141",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1519,
+   "completion": 46,
+   "cost": 0.00025545
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-141",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1974,
+   "completion": 6,
+   "cost": 0.0001557
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-141",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1056,
+   "completion": 25,
+   "cost": 0.0001734
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-141",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1519,
+   "completion": 46,
+   "cost": 0.00014985
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-141",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 2033,
+   "completion": 26,
+   "cost": 0.00020535
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "Demon Slayer: Infinity Castle grossed $70 million in its U.S. opening weekend. \n\nFINAL: 70 million"
+  },
+  {
+   "role": "vote",
+   "content": "Demon Slayer: Infinity Castle grossed $70 million in its U.S. opening weekend. \n\nFINAL: 70 million"
+  },
+  {
+   "role": "vote",
+   "content": "FINAL: $70 million"
+  }
+ ]
+}

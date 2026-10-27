@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-130",
+  "source": "fresh",
+  "question": "What is the name of the protein design reasoning model for binder generation that Nvidia unveiled at GTC 2026?",
+  "answer": "Proteina-Complexa",
+  "evidence": "Concurrently, Nvidia unveiled a new protein design reasoning model, Proteina-Complexa, which generates binders for structure-based drug discovery.",
+  "page": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "The name of the protein design reasoning model for binder generation that Nvidia unveiled at GTC 2026 is Dyno Psi-1. \n\nFINAL: Dyno Psi-1",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 582,
+   "completion": 26,
+   "cost": 0.0001029
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 648,
+   "completion": 25,
+   "cost": 0.0001122
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 713,
+   "completion": 24,
+   "cost": 0.00012135
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 777,
+   "completion": 23,
+   "cost": 0.00013035
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 840,
+   "completion": 22,
+   "cost": 0.0001392
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 902,
+   "completion": 20,
+   "cost": 0.0001473
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1087,
+   "completion": 25,
+   "cost": 0.00017805
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 1152,
+   "completion": 24,
+   "cost": 0.0001104
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 731,
+   "completion": 39,
+   "cost": 0.00013305
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 778,
+   "completion": 38,
+   "cost": 0.0001395
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 641,
+   "completion": 26,
+   "cost": 0.00011175
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 707,
+   "completion": 28,
+   "cost": 0.00012285
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1176,
+   "completion": 26,
+   "cost": 0.000192
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1582,
+   "completion": 45,
+   "cost": 0.0002643
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1783,
+   "completion": 36,
+   "cost": 0.00017385
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 944,
+   "completion": 9,
+   "cost": 0.000147
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "информация недоступна.",
+   "supported": false,
+   "issue": "Нет информации о названии модели дизайна белка для генерации связывателей, упомянутой Nvidia на GTC 2026."
+  },
+  {
+   "round": 2,
+   "answer": "Dyno Psi-1",
+   "supported": true,
+   "issue": ""
+  }
+ ]
+}

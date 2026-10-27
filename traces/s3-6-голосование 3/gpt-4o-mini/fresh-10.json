@@ -1,0 +1,280 @@
+{
+ "task": {
+  "id": "fresh-10",
+  "source": "fresh",
+  "question": "How many people were killed in the February 18 explosion at a fireworks store in China?",
+  "answer": "Twelve",
+  "evidence": "18 February – Twelve people are killed in an explosion at a fireworks store in Xiangyang, Hubei.",
+  "page": "2026 in China",
+  "url": "https://en.wikipedia.org/wiki/2026_in_China",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "В результате взрыва в магазине фейерверков в Китае 18 февраля 2023 года погибло 11 человек. FINAL: 11",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 577,
+   "completion": 20,
+   "cost": 9.855e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 577,
+   "completion": 20,
+   "cost": 9.855e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 577,
+   "completion": 21,
+   "cost": 9.915e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 639,
+   "completion": 41,
+   "cost": 0.00012045
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 640,
+   "completion": 41,
+   "cost": 0.0001206
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 639,
+   "completion": 41,
+   "cost": 0.00012045
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 706,
+   "completion": 24,
+   "cost": 0.0001203
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 707,
+   "completion": 32,
+   "cost": 0.00012525
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 706,
+   "completion": 25,
+   "cost": 0.0001209
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1687,
+   "completion": 24,
+   "cost": 0.00026745
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1432,
+   "completion": 23,
+   "cost": 0.0002286
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1753,
+   "completion": 45,
+   "cost": 0.00028995
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1497,
+   "completion": 44,
+   "cost": 0.00014535
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 772,
+   "completion": 44,
+   "cost": 0.0001422
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1833,
+   "completion": 35,
+   "cost": 0.00017115
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1576,
+   "completion": 22,
+   "cost": 0.000144
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 842,
+   "completion": 24,
+   "cost": 0.0001407
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1890,
+   "completion": 24,
+   "cost": 0.0001635
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1640,
+   "completion": 42,
+   "cost": 0.000156
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2043,
+   "completion": 37,
+   "cost": 0.00020385
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 908,
+   "completion": 44,
+   "cost": 0.0001626
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 1622,
+   "completion": 33,
+   "cost": 0.0002631
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 1708,
+   "completion": 24,
+   "cost": 0.0002706
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 13,
+   "tools": 0,
+   "prompt": 487,
+   "completion": 33,
+   "cost": 9.285e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 1287,
+   "completion": 33,
+   "cost": 0.00021285
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "В результате взрыва в магазине фейерверков в Китае 18 февраля 2023 года погибло 11 человек. FINAL: 11"
+  },
+  {
+   "role": "vote",
+   "content": "В результате взрыва в магазине фейерверков в Китае 18 февраля 2023 года погибли 9 человек. FINAL: 9"
+  },
+  {
+   "role": "vote",
+   "content": "В результате взрыва в магазине фейерверков в Китае 18 февраля 2023 года погибло 12 человек. FINAL: 12"
+  }
+ ]
+}

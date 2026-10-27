@@ -1,0 +1,198 @@
+{
+ "task": {
+  "id": "fresh-125",
+  "source": "fresh",
+  "question": "By what factor is RFdiffusion3 faster than RFdiffusion2 in computational time, according to a December 2025 GEN article?",
+  "answer": "ten-fold",
+  "evidence": "RFdiffusion3 exhibits ten-fold faster performance over RFdiffusion2, despite taking a more computationally intensive all-atom method.",
+  "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/"
+ },
+ "answer": "I couldn't find any information regarding the computational speed comparison between RFdiffusion3 and RFdiffusion2 from December 2025. \n\nFINAL: No data",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 587,
+   "completion": 25,
+   "cost": 0.00010305
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 587,
+   "completion": 27,
+   "cost": 0.00010425
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 587,
+   "completion": 27,
+   "cost": 0.00010425
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 622,
+   "completion": 25,
+   "cost": 0.0001083
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 624,
+   "completion": 29,
+   "cost": 0.000111
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 624,
+   "completion": 29,
+   "cost": 0.000111
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 663,
+   "completion": 29,
+   "cost": 0.00011685
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 663,
+   "completion": 23,
+   "cost": 0.00011325
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 657,
+   "completion": 27,
+   "cost": 0.00011475
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1115,
+   "completion": 24,
+   "cost": 0.00018165
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1149,
+   "completion": 24,
+   "cost": 0.00018675
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1183,
+   "completion": 28,
+   "cost": 0.00011745
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1017,
+   "completion": 27,
+   "cost": 0.00016875
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 698,
+   "completion": 40,
+   "cost": 0.0001287
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1054,
+   "completion": 32,
+   "cost": 0.0001005
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1654,
+   "completion": 96,
+   "cost": 0.0002193
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 18,
+   "tools": 5,
+   "prompt": 2094,
+   "completion": 35,
+   "cost": 0.0002103
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "I couldn't find any information regarding the computational speed comparison between RFdiffusion3 and RFdiffusion2 from December 2025. \n\nFINAL: No data"
+  },
+  {
+   "role": "vote",
+   "content": "I could not find any information regarding the computational time factor by which RFdiffusion3 is faster than RFdiffusion2 in a December 2025 article. \n\nFINAL: No data found."
+  },
+  {
+   "role": "vote",
+   "content": "I could not find any information regarding the computational speed comparison between RFdiffusion3 and RFdiffusion2 from a December 2025 article. \n\nFINAL: No data"
+  }
+ ]
+}

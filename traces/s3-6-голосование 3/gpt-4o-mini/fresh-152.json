@@ -1,0 +1,90 @@
+{
+ "task": {
+  "id": "fresh-152",
+  "source": "fresh",
+  "question": "Which Japanese teammate finished second behind Kaori Sakamoto at the 2026 World Figure Skating Championships in Prague?",
+  "answer": "Mone Chiba",
+  "evidence": "Sakamoto took to the ice to cheers from a packed arena in Prague and delivered a typically artistic and consistent final free skate to stay ahead of her Japanese teammate Mone Chiba.",
+  "page": "Kaori Sakamoto wins 4th world figure skating title before retirement",
+  "url": "https://www.espn.com/olympics/figureskating/story/_/id/48323929/kaori-sakamoto-signs-4th-world-figure-skating-title-retirement",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "Mone Chiba finished second behind Kaori Sakamoto at the 2026 World Figure Skating Championships in Prague. \n\nFINAL: Mone Chiba",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-152",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 583,
+   "completion": 27,
+   "cost": 0.00010365
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-152",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 583,
+   "completion": 27,
+   "cost": 0.00010365
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-152",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 583,
+   "completion": 27,
+   "cost": 0.00010365
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-152",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1059,
+   "completion": 33,
+   "cost": 0.00017865
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-152",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1059,
+   "completion": 33,
+   "cost": 0.00010185
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-152",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1059,
+   "completion": 38,
+   "cost": 0.00010485
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "Mone Chiba finished second behind Kaori Sakamoto at the 2026 World Figure Skating Championships in Prague. \n\nFINAL: Mone Chiba"
+  },
+  {
+   "role": "vote",
+   "content": "The Japanese teammate who finished second behind Kaori Sakamoto at the 2026 World Figure Skating Championships in Prague is Mone Chiba. \n\nFINAL: Mone Chiba"
+  },
+  {
+   "role": "vote",
+   "content": "Mone Chiba finished second behind Kaori Sakamoto at the 2026 World Figure Skating Championships in Prague. \n\nFINAL: Mone Chiba"
+  }
+ ]
+}

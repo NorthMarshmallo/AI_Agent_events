@@ -1,0 +1,110 @@
+{
+ "task": {
+  "id": "fresh-135",
+  "source": "fresh",
+  "question": "Кто выиграл женское одиночное катание на чемпионате России по фигурному катанию 2026 года в Санкт-Петербурге?",
+  "answer": "Петросян",
+  "evidence": "01! | Аделия Петросян | 235,95 | 1 | 86,52 | 2 | 149,43",
+  "page": "Чемпионат России по фигурному катанию 2026",
+  "url": "https://ru.wikipedia.org/wiki/Чемпионат_России_по_фигурному_катанию_2026",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "Женское одиночное катание на чемпионате России по фигурному катанию 2026 года выиграла Аделия Петросян. \n\nFINAL: Аделия Петросян",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-135",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 588,
+   "completion": 28,
+   "cost": 0.000105
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-135",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 588,
+   "completion": 33,
+   "cost": 0.000108
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-135",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 588,
+   "completion": 35,
+   "cost": 0.0001092
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-135",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 631,
+   "completion": 28,
+   "cost": 0.00011145
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-135",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1472,
+   "completion": 42,
+   "cost": 0.000246
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-135",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1196,
+   "completion": 28,
+   "cost": 0.0001962
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-135",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1515,
+   "completion": 45,
+   "cost": 0.00025425
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-135",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 2080,
+   "completion": 48,
+   "cost": 0.0002544
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "Женское одиночное катание на чемпионате России по фигурному катанию 2026 года выиграла Аделия Петросян. \n\nFINAL: Аделия Петросян"
+  },
+  {
+   "role": "vote",
+   "content": "Победителем женского одиночного катания на чемпионате России по фигурному катанию 2026 года в Санкт-Петербурге стала Аделия Петросян. \n\nFINAL: Аделия Петросян"
+  },
+  {
+   "role": "vote",
+   "content": "На чемпионате России по фигурному катанию 2026 года в Санкт-Петербурге женское одиночное катание выиграла Аделия Петросян. \n\nFINAL: Аделия Петросян"
+  }
+ ]
+}

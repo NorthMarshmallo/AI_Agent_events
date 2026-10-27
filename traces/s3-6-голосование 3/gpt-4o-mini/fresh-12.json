@@ -1,0 +1,300 @@
+{
+ "task": {
+  "id": "fresh-12",
+  "source": "fresh",
+  "question": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?",
+  "answer": "700,000",
+  "evidence": "The number of children getting support for special educational needs and disabilities has increased by 12% between January 2025 and January 2026, UK government figures indicate, with 700,000 children now receiving help.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "На данный момент у меня нет данных о количестве детей, получающих поддержку по специальным образовательным потребностям и инвалидности в Великобритании в январе 2026 года. Однако, согласно последним доступным данным, в 2023 году в Англии было около 1.4 миллиона детей с специальными образовательными потребностями. \n\nFINAL: Данные недоступны.",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 583,
+   "completion": 32,
+   "cost": 0.00010665
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 583,
+   "completion": 31,
+   "cost": 0.00010605
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 583,
+   "completion": 31,
+   "cost": 0.00010605
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 751,
+   "completion": 43,
+   "cost": 0.00013845
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 865,
+   "completion": 26,
+   "cost": 0.00014535
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1169,
+   "completion": 35,
+   "cost": 0.00019635
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1288,
+   "completion": 22,
+   "cost": 0.0002064
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1588,
+   "completion": 37,
+   "cost": 0.0001644
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1637,
+   "completion": 23,
+   "cost": 0.00014415
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 1796,
+   "completion": 39,
+   "cost": 0.0001776
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 1375,
+   "completion": 80,
+   "cost": 0.00025425
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 892,
+   "completion": 26,
+   "cost": 0.0001494
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 892,
+   "completion": 24,
+   "cost": 0.0001482
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 937,
+   "completion": 23,
+   "cost": 0.00015435
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 981,
+   "completion": 25,
+   "cost": 0.00016215
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1142,
+   "completion": 24,
+   "cost": 0.0001857
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1444,
+   "completion": 22,
+   "cost": 0.0002298
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1744,
+   "completion": 25,
+   "cost": 0.0002766
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 941,
+   "completion": 23,
+   "cost": 0.00015495
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1242,
+   "completion": 24,
+   "cost": 0.0002007
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 1905,
+   "completion": 22,
+   "cost": 0.00019335
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1544,
+   "completion": 23,
+   "cost": 0.0002454
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 1484,
+   "completion": 126,
+   "cost": 0.0002982
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1845,
+   "completion": 25,
+   "cost": 0.00020535
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2006,
+   "completion": 27,
+   "cost": 0.0001827
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2311,
+   "completion": 21,
+   "cost": 0.00035925
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-12",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 1890,
+   "completion": 80,
+   "cost": 0.0003315
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "На данный момент у меня нет данных о количестве детей, получающих поддержку по специальным образовательным потребностям и инвалидности в Великобритании в январе 2026 года. Однако, согласно последним доступным данным, в 2023 году в Англии было около 1.4 миллиона детей с специальными образовательными потребностями. \n\nFINAL: Данные недоступны."
+  },
+  {
+   "role": "vote",
+   "content": "На момент моего последнего обновления данных в октябре 2023 года, точных данных о количестве детей, получающих поддержку по специальным образовательным потребностям и инвалидности в Великобритании в январе 2026 года, не существует. Однако, по данным на 2023 год, около 1,5 миллиона детей в Англии получали поддержку по специальным образовательным потребностям и инвалидности (SEND). Для более точных данных в 2026 году необходимо обратиться к официальным источникам в будущем.\n\nFINAL: Около 1,5 миллиона детей в Англии."
+  },
+  {
+   "role": "vote",
+   "content": "На данный момент у меня нет информации о количестве детей, получающих поддержку по специальным образовательным потребностям и инвалидности в Соединенном Королевстве в январе 2026 года. Однако, согласно предыдущим данным, число детей с особыми образовательными потребностями в Великобритании увеличивается. \n\nFINAL: Нет данных о количестве детей в январе 2026 года."
+  }
+ ]
+}

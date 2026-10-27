@@ -1,0 +1,597 @@
+{
+ "task": {
+  "id": "fresh-134",
+  "source": "fresh",
+  "question": "How many teams participated in the 2025 ICPC World Finals, where an OpenAI model and Google's Gemini both reached gold-medal level?",
+  "answer": "139",
+  "evidence": "139 teams competed to be World Champion.",
+  "page": "International Collegiate Programming Contest",
+  "url": "https://en.wikipedia.org/wiki/International_Collegiate_Programming_Contest",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "На данный момент нет точной информации о количестве команд, участвовавших в финале ICPC 2025. Однако известно, что финал пройдет в Баку, Азербайджан, и что команды, такие как Санкт-Петербургский государственный университет, будут участвовать. \n\nFINAL: Нет данных о количестве команд.",
+ "calls": [
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 143,
+   "completion": 237,
+   "cost": 0.00016365
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 829,
+   "completion": 60,
+   "cost": 0.00016035
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 5,
+   "tools": 5,
+   "prompt": 1060,
+   "completion": 38,
+   "cost": 0.0001818
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 7,
+   "tools": 5,
+   "prompt": 1512,
+   "completion": 23,
+   "cost": 0.0001638
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 9,
+   "tools": 5,
+   "prompt": 2144,
+   "completion": 46,
+   "cost": 0.0002436
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 11,
+   "tools": 5,
+   "prompt": 2759,
+   "completion": 46,
+   "cost": 0.00028785
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 13,
+   "tools": 5,
+   "prompt": 3483,
+   "completion": 67,
+   "cost": 0.00056265
+  }
+ ],
+ "messages": [
+  {
+   "role": "plan",
+   "content": "1. **Web Search**: Использовать инструмент web_search для поиска информации о 2025 ICPC World Finals.\n   - Запрос: \"2025 ICPC World Finals teams participated\"\n   - Ключевые слова: \"ICPC 2025\", \"World Finals\", \"teams\"\n\n2. **Gen Search**: Использовать инструмент gen_search для поиска новостей о 2025 ICPC World Finals и упоминания OpenAI и Google's Gemini.\n   - Запрос: \"2025 ICPC World Finals OpenAI Google Gemini\"\n   - Ключевые слова: \"ICPC\", \"OpenAI\", \"Google Gemini\"\n\n3. **Page Find**: Использовать инструмент page_find для нахождения конкретной информации о количестве команд в найденной статье.\n   - Ключевые слова: \"количество команд\", \"ICPC 2025\" \n\n4. **Ru Wiki Search**: При необходимости использовать инструмент ru_wiki_search для поиска информации на русском языке.\n   - Запрос: \"ICPC 2025 финал команды\"\n   - Ключевые слова: \"ICPC\", \"2025\", \"финал\", \"команды\""
+  },
+  {
+   "content": "How many teams participated in the 2025 ICPC World Finals, where an OpenAI model and Google's Gemini both reached gold-medal level?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "1d957a35-6e1e-4e77-aa50-9f3d7b1fc243"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 60,
+     "prompt_tokens": 829,
+     "total_tokens": 889,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00016035,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00016035,
+      "upstream_inference_prompt_cost": 0.00012435,
+      "upstream_inference_completions_cost": 3.6e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_71fee889d4",
+    "id": "gen-1793116156-izi9SQWE2KHlK6hhQ2fw",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-3201-7db1-b22a-c567339f052b-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "2025 ICPC World Finals teams participated"
+     },
+     "id": "call_ZDk5o4HDL17hOf7AwxTExyuO",
+     "type": "tool_call"
+    },
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "2025 ICPC World Finals OpenAI Google Gemini"
+     },
+     "id": "call_cB3EJpFJYOUT5udVzf9vWw4M",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 829,
+    "output_tokens": 60,
+    "total_tokens": 889,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[International Collegiate Programming Contest] The International Collegiate Programming Contest (ICPC) is an annual multi-tiered competitive programming competition among the universities of the world. Directed by ICPC Executive Director and Baylor Professor William B. Poucher, the ICPC operates autonomous regional contests covering six continents culminating in a global World Finals every year. In 2018, ICPC participation included 52,709 students from 3,233 universities in 110 countries. The ICPC operates under the auspices of the ICPC Foundation and operates under agreements with host universities and non-profits, all in accordance with the ICPC Policies and Procedures. From 1977 until 2017 ICPC was held under the auspices of ACM and was referred to as ACM-ICPC.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "77649743-5837-4334-b76b-2159ad14f4ad",
+   "tool_call_id": "call_ZDk5o4HDL17hOf7AwxTExyuO",
+   "status": "success"
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "b85b053d-72eb-4928-8c68-c6eb7de290f8",
+   "tool_call_id": "call_cB3EJpFJYOUT5udVzf9vWw4M",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 38,
+     "prompt_tokens": 1060,
+     "total_tokens": 1098,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001818,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001818,
+      "upstream_inference_prompt_cost": 0.000159,
+      "upstream_inference_completions_cost": 2.28e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_71fee889d4",
+    "id": "gen-1793116161-sCXzZmRGROZZHywUiUGs",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-44ed-7aa2-a48c-4f3cfa29e35d-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "International Collegiate Programming Contest",
+      "keywords": [
+       "2025",
+       "ICPC",
+       "World Finals",
+       "teams"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_HBRmqPPYTs52siJVevtfs89S",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1060,
+    "output_tokens": 38,
+    "total_tokens": 1098,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "The International Collegiate Programming Contest (ICPC) is an annual multi-tiered competitive programming competition among the universities of the world.\nDirected by ICPC Executive Director and Baylor Professor William B.\nPoucher, the ICPC operates autonomous regional contests covering six continents culminating in a global World Finals every year.\nIn 2018, ICPC participation included 52,709 students from 3,233 universities in 110 countries.\nThe ICPC operates under the auspices of the ICPC Foundation and operates under agreements with host universities and non-profits, all in accordance with the ICPC Policies and Procedures.\nFrom 1977 until 2017 ICPC was held under the auspices of ACM and was referred to as ACM-ICPC.\nThe ICPC traces its roots to a competition held at Texas A&M University in 1970 hosted by the Alpha chapter of the Upsilon Pi Epsilon Computer Science Honor Society (UPE).\nTeams that participated included Texas A&M, Texas Tech, University of Houston, and five or six other Texas University / Colleges.\nThe second- and third-place teams did not successfully complete all three problems.\nFrom 1977 to 1989, the contest included mainly teams of four from universities throughout the United States and Canada.\nICPC Headquarters was hosted by Baylor University from 1989 until 2022, with regional contests established within the world's university community, the ICPC has grown into a worldwide competition.\nTo increase access to the World Finals, teams were reduced to three students within their first five academic years.\nFrom 1997 to 2017, International Business Machines Corporation (IBM) was the sponsor of ICPC.\nIn 1997, 840 teams from 560 universities participated.\nOrganized as a highly localized extra-curricular university mind sport and operating as a globally-coordinated unincorporated association operating under agreements with host universities and non-profits, the ICPC is open to qualified teams from every university in the world.\nThe ICPC is indebted to AC",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "219bdf3d-9231-456a-ac46-04908cda4ff2",
+   "tool_call_id": "call_HBRmqPPYTs52siJVevtfs89S",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 23,
+     "prompt_tokens": 1512,
+     "total_tokens": 1535,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1024,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001638,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001638,
+      "upstream_inference_prompt_cost": 0.00015,
+      "upstream_inference_completions_cost": 1.38e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_71fee889d4",
+    "id": "gen-1793116178-4hR9Sq5qGeFLlwGpS21E",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-8a5c-7b30-991c-72243d4e8f21-0",
+   "tool_calls": [
+    {
+     "name": "ru_wiki_search",
+     "args": {
+      "query": "ICPC 2025 финал команды"
+     },
+     "id": "call_OG1O8FCTK9LrXvWUV8tj29Wm",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1512,
+    "output_tokens": 23,
+    "total_tokens": 1535,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1024,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Международная студенческая олимпиада по программированию] Международная студенческая олимпиада по программированию (в английском принято сокращение ICPC , до 2017 — ACM ICPC ), называемая также Студенческим командным чемпионатом мира по программированию ICPC — крупнейшая студенческая командная олимпиада по программированию . История  Студенческий командный чемпионат мира по программированию ICPC уходит своими корнями в соревнование, проводившееся в Техасском университете в 1970. Свой нынешний облик чемпионат принял в 1977 году, когда первый финал был проведён в рамках ежегодной конференции ACM по информатике , и с тех пор проводится ежегодно [ 1 ] [ 2 ] . До 2017 года чемпионат проводился под эгидой ассоциации вычислительной техники (ACM). Начиная с 1989 года, организацией соревнований занимается университет Бэйлора [ 1 ] . В разное время спонсорами соревнований становились такие компании, как Apple , AT&T и Microsoft [ 3 ] , c 1997 по 2017 год генеральным спонсором являлась компания IBM [ 1 ] [ 4 ] , начиная с 2018 года глобальным спонсором средств программирования является компания JetBrains [ 4 ] . В России одним из основателей студенческих соревнований по программированию являлся Панкратьев Евгений Васильевич [ 5 ] . Россия , Азербайджан , Армения , Беларусь , Грузия , Казахстан , Кыргызстан , Узбекистан составляют Северный Евразийский регион , ежегодно делегирующий на финальный турнир свои лучшие команды. Квота региона по числу команд с 2009 до 2013 года ежегодно увеличивалась: в 2009 году на финал было отправлено 11 команд, в 2010 — 12 команд, в 2011 — 13 команд, в 2012 — 16 команд, в 2013 — 19 команд, в 2014 — 17 команд [ 6 ] . Страны Балтии покинули Северо-Восточный Европейский полуфинальный регион: Эстония — в 2018 году [ 7 ] , Литва и Латвия — в 2020 году [ 8 ] . Правила  Чемпионский кубок ICPC, полученный командой МГУ в 2019 году Команда МГУ, победители ICPC-2019 и 2018: Михаил Ипатов, Владислав Макеев, Григорий Резников Олимпиада — командное соревновани",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "ru_wiki_search",
+   "id": "c25aebc6-3292-4721-8266-a7bd7ac9321b",
+   "tool_call_id": "call_OG1O8FCTK9LrXvWUV8tj29Wm",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 46,
+     "prompt_tokens": 2144,
+     "total_tokens": 2190,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1408,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0002436,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0002436,
+      "upstream_inference_prompt_cost": 0.000216,
+      "upstream_inference_completions_cost": 2.76e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_71fee889d4",
+    "id": "gen-1793116182-OEuHjGbt6V46I9VChbP1",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-96ce-7463-8936-8ee07ea24a63-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Международная студенческая олимпиада по программированию",
+      "keywords": [
+       "2025",
+       "финал",
+       "команды"
+      ],
+      "site": "ru_wiki"
+     },
+     "id": "call_KyrjJLQDEZXHBVrX1IlYjutM",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2144,
+    "output_tokens": 46,
+    "total_tokens": 2190,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1408,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "Свой нынешний облик чемпионат принял в 1977 году, когда первый финал был проведён в рамках ежегодной конференции ACM по информатике , и с тех пор проводится ежегодно [ 1 ] [ 2 ] .\nРоссия , Азербайджан , Армения , Беларусь , Грузия , Казахстан , Кыргызстан , Узбекистан составляют Северный Евразийский регион , ежегодно делегирующий на финальный турнир свои лучшие команды.\nКвота региона по числу команд с 2009 до 2013 года ежегодно увеличивалась: в 2009 году на финал было отправлено 11 команд, в 2010 — 12 команд, в 2011 — 13 команд, в 2012 — 16 команд, в 2013 — 19 команд, в 2014 — 17 команд [ 6 ] .\nСтраны Балтии покинули Северо-Восточный Европейский полуфинальный регион: Эстония — в 2018 году [ 7 ] , Литва и Латвия — в 2020 году [ 8 ] .\nСтуденты, дважды участвовавшие в финальной стадии олимпиады, или пятикратно принимавшие участие в региональном отборе, не допускаются к участию.\nКоманды пишут решения на языках программирования C , C++ , Java , Python или Kotlin набирая и компилируя программы, используя Ubuntu 18.04.\nТак, например, при проведении четвертьфинала по северо-восточному региону участникам доступен Паскаль [ 10 ] .\nИзначально штрафное время каждой команды равно нулю.\nЗа каждую правильно сданную задачу к штрафному времени команды прибавляют время, прошедшее с начала соревнования до момента сдачи задачи.\nУчитывая, что в распоряжении каждой команды находится только один компьютер, навыки эффективной и слаженной командной работы выходят на первый план.\nЗатем проводятся региональные олимпиады, победители которых отправляются на финальный этап мирового первенства.\nВ региональных соревнованиях один университет может быть представлен несколькими командами, но на финал может отправиться только одна команда от университета.\nПобедители ICPC  Чемпионами мира с 1977 года становились [ 12 ] : Год Место проведения Победитель Состав команды Тренер 2025 Баку , Азербайджан Санкт-Петербургский государственный университет Максим Туревский, Леонид Данилевич, Фёдор Ушаков Иван Казм",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "157a275e-9d4f-4051-a1b9-8280ea236bef",
+   "tool_call_id": "call_KyrjJLQDEZXHBVrX1IlYjutM",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 46,
+     "prompt_tokens": 2759,
+     "total_tokens": 2805,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 2048,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00028785,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00028785,
+      "upstream_inference_prompt_cost": 0.00026025,
+      "upstream_inference_completions_cost": 2.76e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_71fee889d4",
+    "id": "gen-1793116184-ucn29oHmFMPzvJJpZz64",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-a01c-7163-892f-171dd2d55537-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Международная студенческая олимпиада по программированию",
+      "keywords": [
+       "2025",
+       "Баку",
+       "команды"
+      ],
+      "site": "ru_wiki"
+     },
+     "id": "call_wejItUX51UyvbsiS4CMDyOit",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2759,
+    "output_tokens": 46,
+    "total_tokens": 2805,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 2048,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "Россия , Азербайджан , Армения , Беларусь , Грузия , Казахстан , Кыргызстан , Узбекистан составляют Северный Евразийский регион , ежегодно делегирующий на финальный турнир свои лучшие команды.\nКоманды пишут решения на языках программирования C , C++ , Java , Python или Kotlin набирая и компилируя программы, используя Ubuntu 18.04.\nИзначально штрафное время каждой команды равно нулю.\nЗа каждую правильно сданную задачу к штрафному времени команды прибавляют время, прошедшее с начала соревнования до момента сдачи задачи.\nУчитывая, что в распоряжении каждой команды находится только один компьютер, навыки эффективной и слаженной командной работы выходят на первый план.\nПобедители ICPC  Чемпионами мира с 1977 года становились [ 12 ] : Год Место проведения Победитель Состав команды Тренер 2025 Баку , Азербайджан Санкт-Петербургский государственный университет Максим Туревский, Леонид Данилевич, Фёдор Ушаков Иван Казменко 2024 Астана , Казахстан Пекинский университет Ван Вэйчэн (Wang Weicheng), Ван Сянвэнь (Wang Xiangwen), Сю Аньи (Xu Anyi) Луо Гоцзе (Luo Guojie) 2023** Луксор, Египет Высшая школа экономики Фёдор Ромашов, Кирилл Кудряшов, Александр Бабин Михаил Густокашин 2022** Луксор, Египет Пекинский университет Линью Цзян (Lingyu Jiang), Чжипэн Ван (Zhanpeng Wang), Юйсян Луо (Yuxiang Luo) Цинь цзянь Чжан (Qinjian Zhang) 2021* Бангладеш , Дакка Массачусетский технологический институт Джерри Мао (Jerry Mao), Минъян Дэн (Mingyang Deng), Сяо Мао (Xiao Mao) Се Цзинь (Ce Jin) 2020 Россия , Москва ННГУ Алексей Данилюк, Николай Калинин, Валерия Рябчикова Алексей Шмелев 2019 Португалия , Порту МГУ Михаил Ипатов, Владислав Макеев, Григорий Резников Елена Андреева 2018 Китай , Пекин МГУ Михаил Ипатов, Владислав Макеев, Григорий Резников Елена Андреева 2017 США , Рапид-Сити Университет ИТМО Иван Белоногов, Илья Збань, Владимир Смыкалов Андрей Станкевич 2016 Таиланд , Пхукет СПбГУ Станислав Ершов, Алексей Гордеев, Игорь Пышкин Андрей Лопатин 2015 Марокко , Марракеш Университет ИТМО ",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "f49f79e1-1ae0-4b61-bf1d-575043c86214",
+   "tool_call_id": "call_wejItUX51UyvbsiS4CMDyOit",
+   "status": "success"
+  },
+  {
+   "content": "На данный момент нет точной информации о количестве команд, участвовавших в финале ICPC 2025. Однако известно, что финал пройдет в Баку, Азербайджан, и что команды, такие как Санкт-Петербургский государственный университет, будут участвовать. \n\nFINAL: Нет данных о количестве команд.",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 67,
+     "prompt_tokens": 3483,
+     "total_tokens": 3550,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00056265,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00056265,
+      "upstream_inference_prompt_cost": 0.00052245,
+      "upstream_inference_completions_cost": 4.02e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_71fee889d4",
+    "id": "gen-1793116186-mzzZZCHn0WcUWPJDCEz5",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-a93c-76d3-9b2f-cd4243651e8d-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 3483,
+    "output_tokens": 67,
+    "total_tokens": 3550,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

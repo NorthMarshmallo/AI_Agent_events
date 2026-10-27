@@ -1,0 +1,150 @@
+{
+ "task": {
+  "id": "fresh-25",
+  "source": "fresh",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "answer": "\"open war\"",
+  "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "On February 26, 2026, the government of Pakistan, through its Defence Minister Khawaja Asif, escalated the conflict with Afghanistan by declaring an \"open war\" under the codename Operation Ghazab lil-Haq. This declaration followed a series of Pakistani airstrikes on alleged militant camps in eastern Afghanistan. \n\nFINAL: \"open war\" under the codename Operation Ghazab lil-Haq",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 582,
+   "completion": 29,
+   "cost": 0.0001047
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1010,
+   "completion": 43,
+   "cost": 0.0001773
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1182,
+   "completion": 23,
+   "cost": 0.0001143
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1620,
+   "completion": 36,
+   "cost": 0.0001782
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1666,
+   "completion": 29,
+   "cost": 0.0001521
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2350,
+   "completion": 22,
+   "cost": 0.0002409
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 3037,
+   "completion": 61,
+   "cost": 0.00031935
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 1423,
+   "completion": 35,
+   "cost": 0.00023445
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 639,
+   "completion": 23,
+   "cost": 0.00010965
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 885,
+   "completion": 37,
+   "cost": 0.00015495
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1329,
+   "completion": 86,
+   "cost": 0.00025095
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-25",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 792,
+   "completion": 9,
+   "cost": 0.0001242
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "Pakistan officially declared war on Afghanistan.",
+   "supported": false,
+   "issue": "Нет подтверждения о том, что Пакистан официально объявил войну Афганистану 26 февраля 2026 года."
+  },
+  {
+   "round": 2,
+   "answer": "\"open war\" under the codename Operation Ghazab lil-Haq",
+   "supported": true,
+   "issue": ""
+  }
+ ]
+}

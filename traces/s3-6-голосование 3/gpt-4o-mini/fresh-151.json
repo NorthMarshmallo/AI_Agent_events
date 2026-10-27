@@ -1,0 +1,90 @@
+{
+ "task": {
+  "id": "fresh-151",
+  "source": "fresh",
+  "question": "What total score did Kaori Sakamoto post to win her fourth world title at the 2026 World Figure Skating Championships in Prague?",
+  "answer": "238.28",
+  "evidence": "Sakamoto jumped up and danced in celebration at leaving on a personal-best total 238.28 points and embraced Chiba, who scored 228.47.",
+  "page": "Kaori Sakamoto wins 4th world figure skating title before retirement",
+  "url": "https://www.espn.com/olympics/figureskating/story/_/id/48323929/kaori-sakamoto-signs-4th-world-figure-skating-title-retirement",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "Kaori Sakamoto posted a total score of 238.28 points to win her fourth world title at the 2026 World Figure Skating Championships in Prague. \n\nFINAL: 238.28",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-151",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 588,
+   "completion": 29,
+   "cost": 0.0001056
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-151",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 588,
+   "completion": 29,
+   "cost": 0.0001056
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-151",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1066,
+   "completion": 42,
+   "cost": 0.0001851
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-151",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1066,
+   "completion": 42,
+   "cost": 0.0001083
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-151",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 588,
+   "completion": 29,
+   "cost": 0.0001056
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-151",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1066,
+   "completion": 42,
+   "cost": 0.0001083
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "Kaori Sakamoto posted a total score of 238.28 points to win her fourth world title at the 2026 World Figure Skating Championships in Prague. \n\nFINAL: 238.28"
+  },
+  {
+   "role": "vote",
+   "content": "Kaori Sakamoto posted a total score of 238.28 points to win her fourth world title at the 2026 World Figure Skating Championships in Prague. \n\nFINAL: 238.28"
+  },
+  {
+   "role": "vote",
+   "content": "Kaori Sakamoto posted a total score of 238.28 points to win her fourth world title at the 2026 World Figure Skating Championships in Prague. \n\nFINAL: 238.28"
+  }
+ ]
+}

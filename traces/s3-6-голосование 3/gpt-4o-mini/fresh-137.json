@@ -1,0 +1,198 @@
+{
+ "task": {
+  "id": "fresh-137",
+  "source": "fresh",
+  "question": "On what date was GPT-5 launched by OpenAI?",
+  "answer": "August 7, 2025",
+  "evidence": "it was launched on August 7, 2025.",
+  "page": "GPT-5",
+  "url": "https://en.wikipedia.org/wiki/GPT-5"
+ },
+ "answer": "На данный момент OpenAI не анонсировала дату запуска GPT-5. Наиболее свежая информация указывает на выход GPT-4.5 в феврале 2025 года, тогда как GPT-5 ожидается позже. FINAL: Дата запуска GPT-5 не известна.",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 571,
+   "completion": 20,
+   "cost": 9.765e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 571,
+   "completion": 20,
+   "cost": 9.765e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 571,
+   "completion": 20,
+   "cost": 9.765e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 754,
+   "completion": 20,
+   "cost": 0.0001251
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 698,
+   "completion": 20,
+   "cost": 0.0001167
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 825,
+   "completion": 60,
+   "cost": 0.00015975
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 754,
+   "completion": 20,
+   "cost": 0.0001251
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 881,
+   "completion": 21,
+   "cost": 0.00014475
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1339,
+   "completion": 20,
+   "cost": 0.00021285
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1454,
+   "completion": 25,
+   "cost": 0.0002331
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 881,
+   "completion": 19,
+   "cost": 0.00014355
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1102,
+   "completion": 20,
+   "cost": 0.0001773
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1229,
+   "completion": 21,
+   "cost": 0.00012015
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1687,
+   "completion": 20,
+   "cost": 0.00017865
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2144,
+   "completion": 20,
+   "cost": 0.0002088
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2210,
+   "completion": 21,
+   "cost": 0.0001905
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 1789,
+   "completion": 60,
+   "cost": 0.00030435
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "На данный момент OpenAI не анонсировала дату запуска GPT-5. Наиболее свежая информация указывает на выход GPT-4.5 в феврале 2025 года, тогда как GPT-5 ожидается позже. FINAL: Дата запуска GPT-5 не известна."
+  },
+  {
+   "role": "vote",
+   "content": "It appears that GPT-5 has not been launched yet by OpenAI. The latest release mentioned is the OpenAI o1 model, with a preview released on September 12, 2024, and the full version on December 5, 2024. \n\nFINAL: Not launched yet"
+  },
+  {
+   "role": "vote",
+   "content": "GPT-5 was launched on August 7, 2025. \n\nFINAL: August 7, 2025"
+  }
+ ]
+}

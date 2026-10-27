@@ -1,0 +1,240 @@
+{
+ "task": {
+  "id": "fresh-21",
+  "source": "fresh",
+  "question": "In art, which artist accused Devon Rodriguez of presenting his work as his own in June 2026?",
+  "answer": "Gavin Snider",
+  "evidence": "June – Artist Gavin Snider accuses fellow artist and social media star Devon Rodriguez of presenting images of paintings of triumphant New York Knicks fans outside Madison Square Garden commissioned by the team from him to celebrate their 2026 NBA Championship, victory as his own. Rodriguez summarily removes his social media post introducing the work as his own.",
+  "page": "2026 in art",
+  "url": "https://en.wikipedia.org/wiki/2026_in_art",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I couldn't find any information regarding an artist accusing Devon Rodriguez of presenting his work as his own in June 2026. \n\nFINAL: No information found.",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 580,
+   "completion": 22,
+   "cost": 0.0001002
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 580,
+   "completion": 22,
+   "cost": 0.0001002
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 580,
+   "completion": 22,
+   "cost": 0.0001002
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 734,
+   "completion": 40,
+   "cost": 0.0001341
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 734,
+   "completion": 41,
+   "cost": 0.0001347
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 784,
+   "completion": 24,
+   "cost": 0.000132
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 785,
+   "completion": 24,
+   "cost": 0.00013215
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1257,
+   "completion": 22,
+   "cost": 0.00020175
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 734,
+   "completion": 40,
+   "cost": 0.0001341
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 784,
+   "completion": 24,
+   "cost": 0.000132
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1289,
+   "completion": 18,
+   "cost": 0.00011775
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1257,
+   "completion": 22,
+   "cost": 0.00011535
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1289,
+   "completion": 18,
+   "cost": 0.00011775
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1927,
+   "completion": 82,
+   "cost": 0.00033825
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1927,
+   "completion": 33,
+   "cost": 0.00021285
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1258,
+   "completion": 18,
+   "cost": 0.0001995
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1896,
+   "completion": 22,
+   "cost": 0.0002112
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2614,
+   "completion": 23,
+   "cost": 0.0002715
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 18,
+   "tools": 5,
+   "prompt": 3031,
+   "completion": 22,
+   "cost": 0.00027585
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 19,
+   "tools": 0,
+   "prompt": 2610,
+   "completion": 60,
+   "cost": 0.0004275
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-21",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1928,
+   "completion": 32,
+   "cost": 0.0003084
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "У меня нет информации о том, какой художник обвинил Девона Родригеса в том, что он представил его работы как свои собственные в июне 2026 года. \n\nFINAL: Нет информации о художнике, который обвинил Девона Родригеса."
+  },
+  {
+   "role": "vote",
+   "content": "I couldn't find any information regarding an artist accusing Devon Rodriguez of presenting his work as his own in June 2026. \n\nFINAL: No information found."
+  },
+  {
+   "role": "vote",
+   "content": "I couldn't find any information on the artist who accused Devon Rodriguez of presenting his work as his own in June 2026. \n\nFINAL: No information found."
+  }
+ ]
+}

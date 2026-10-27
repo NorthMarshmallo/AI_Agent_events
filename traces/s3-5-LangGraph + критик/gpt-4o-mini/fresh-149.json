@@ -1,0 +1,114 @@
+{
+ "task": {
+  "id": "fresh-149",
+  "source": "fresh",
+  "question": "How many years after retiring following the 2022 Beijing Games did Alysa Liu launch her comeback, per ESPN?",
+  "answer": "two",
+  "evidence": "Liu retired after the 2022 Beijing Games only to launch a triumphant comeback two years later.",
+  "page": "Olympic champ Alysa Liu withdraws from figure skating worlds",
+  "url": "https://www.espn.com/olympics/figureskating/story/_/id/48133340/olympic-champ-alysa-liu-withdraws-figure-skating-worlds",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "Alysa Liu retired after the 2022 Beijing Games and launched her comeback two years later. Therefore, she made her comeback in 2024.\n\nFINAL: 2",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 582,
+   "completion": 26,
+   "cost": 0.0001029
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1052,
+   "completion": 21,
+   "cost": 0.0001704
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1409,
+   "completion": 51,
+   "cost": 0.00016515
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1496,
+   "completion": 46,
+   "cost": 0.000252
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1552,
+   "completion": 26,
+   "cost": 0.0001428
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2010,
+   "completion": 26,
+   "cost": 0.0002019
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2455,
+   "completion": 49,
+   "cost": 0.00025365
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2578,
+   "completion": 36,
+   "cost": 0.0003027
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 1248,
+   "completion": 9,
+   "cost": 0.0001926
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "2",
+   "supported": true,
+   "issue": ""
+  }
+ ]
+}

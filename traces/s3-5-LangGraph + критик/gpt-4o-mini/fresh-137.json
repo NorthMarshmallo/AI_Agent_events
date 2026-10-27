@@ -1,0 +1,214 @@
+{
+ "task": {
+  "id": "fresh-137",
+  "source": "fresh",
+  "question": "On what date was GPT-5 launched by OpenAI?",
+  "answer": "August 7, 2025",
+  "evidence": "it was launched on August 7, 2025.",
+  "page": "GPT-5",
+  "url": "https://en.wikipedia.org/wiki/GPT-5"
+ },
+ "answer": "GPT-5 was released on August 7, 2025.\n\nFINAL: August 7, 2025",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 571,
+   "completion": 20,
+   "cost": 9.765e-05
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 754,
+   "completion": 20,
+   "cost": 0.0001251
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 881,
+   "completion": 19,
+   "cost": 0.00014355
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 946,
+   "completion": 64,
+   "cost": 0.0001803
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 726,
+   "completion": 18,
+   "cost": 0.0001197
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 613,
+   "completion": 20,
+   "cost": 0.00010395
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 796,
+   "completion": 20,
+   "cost": 0.0001314
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 923,
+   "completion": 19,
+   "cost": 0.00014985
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 988,
+   "completion": 19,
+   "cost": 0.0001596
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1126,
+   "completion": 20,
+   "cost": 0.0001809
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1205,
+   "completion": 27,
+   "cost": 0.00019695
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 887,
+   "completion": 60,
+   "cost": 0.00016905
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 653,
+   "completion": 20,
+   "cost": 0.00010995
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 780,
+   "completion": 20,
+   "cost": 0.000129
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 907,
+   "completion": 19,
+   "cost": 0.00014745
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 972,
+   "completion": 20,
+   "cost": 0.0001578
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1194,
+   "completion": 24,
+   "cost": 0.0001935
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-137",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 863,
+   "completion": 53,
+   "cost": 0.00016125
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "No launch date available for GPT-5.",
+   "supported": false,
+   "issue": "Нет информации о дате запуска GPT-5."
+  },
+  {
+   "round": 2,
+   "answer": "November 12, 2025",
+   "supported": false,
+   "issue": "Ответ о запуске GPT-5 не подтверждён, так как в находках указано, что три модели GPT-5.1 были выпущены 12 ноября 2025 года, но не указано, что это запуск GPT-5."
+  },
+  {
+   "round": 3,
+   "answer": "August 7, 2025",
+   "supported": false,
+   "issue": "The response states that GPT-5 was launched on August 7, 2025, which is correct, but it does not mention that GPT-4.5 was removed on the same date, which is relevant context."
+  }
+ ]
+}

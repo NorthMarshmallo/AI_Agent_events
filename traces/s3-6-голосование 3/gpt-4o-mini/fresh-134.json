@@ -1,0 +1,280 @@
+{
+ "task": {
+  "id": "fresh-134",
+  "source": "fresh",
+  "question": "How many teams participated in the 2025 ICPC World Finals, where an OpenAI model and Google's Gemini both reached gold-medal level?",
+  "answer": "139",
+  "evidence": "139 teams competed to be World Champion.",
+  "page": "International Collegiate Programming Contest",
+  "url": "https://en.wikipedia.org/wiki/International_Collegiate_Programming_Contest",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "На данный момент нет информации о количестве команд, участвовавших в финале ICPC 2025, и о том, достигли ли модели OpenAI и Google's Gemini уровня золотой медали. FINAL: Информация недоступна.",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 588,
+   "completion": 21,
+   "cost": 0.0001008
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 588,
+   "completion": 21,
+   "cost": 0.0001008
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 773,
+   "completion": 38,
+   "cost": 0.00013875
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 773,
+   "completion": 37,
+   "cost": 0.00013815
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1263,
+   "completion": 22,
+   "cost": 0.00020265
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1449,
+   "completion": 38,
+   "cost": 0.00024015
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1940,
+   "completion": 24,
+   "cost": 0.000219
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1214,
+   "completion": 22,
+   "cost": 0.0001953
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1974,
+   "completion": 35,
+   "cost": 0.0001731
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2462,
+   "completion": 23,
+   "cost": 0.0002391
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1400,
+   "completion": 37,
+   "cost": 0.0002322
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1890,
+   "completion": 21,
+   "cost": 0.0002097
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2649,
+   "completion": 44,
+   "cost": 0.00031815
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2228,
+   "completion": 48,
+   "cost": 0.000363
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2037,
+   "completion": 37,
+   "cost": 0.00019335
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 13,
+   "tools": 0,
+   "prompt": 1616,
+   "completion": 70,
+   "cost": 0.0002844
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 588,
+   "completion": 22,
+   "cost": 0.0001014
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 736,
+   "completion": 43,
+   "cost": 0.0001362
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1113,
+   "completion": 26,
+   "cost": 0.00018255
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1149,
+   "completion": 23,
+   "cost": 0.00010935
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1781,
+   "completion": 53,
+   "cost": 0.00021255
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2405,
+   "completion": 50,
+   "cost": 0.00025635
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 3147,
+   "completion": 21,
+   "cost": 0.00030225
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 3332,
+   "completion": 40,
+   "cost": 0.0002934
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2911,
+   "completion": 45,
+   "cost": 0.00046365
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "На данный момент нет информации о количестве команд, участвовавших в финале ICPC 2025, и о том, достигли ли модели OpenAI и Google's Gemini уровня золотой медали. FINAL: Информация недоступна."
+  },
+  {
+   "role": "vote",
+   "content": "К сожалению, информация о количестве команд, участвовавших в финале ICPC 2025, в доступных данных отсутствует. Однако, на основе предыдущих лет, можно предположить, что количество команд будет в пределах 140-150, как это было в последних финалах. \n\nFINAL: Информация о количестве команд отсутствует."
+  },
+  {
+   "role": "vote",
+   "content": "Извините, но у меня нет информации о количестве команд, участвовавших в финале ICPC 2025 года. На данный момент ничего не известно о данном событии. \n\nFINAL: Неизвестно."
+  }
+ ]
+}

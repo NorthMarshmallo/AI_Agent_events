@@ -1,0 +1,218 @@
+{
+ "task": {
+  "id": "fresh-126",
+  "source": "fresh",
+  "question": "Which postdoctoral researcher in the Baker lab is co-lead author of the RFdiffusion3 bioRxiv preprint, according to a December 2025 GEN article?",
+  "answer": "Rohith Krishna",
+  "evidence": "said Rohith Krishna, PhD, postdoctoral researcher in the Baker lab and co-lead author of the RFdiffusion3 bioRxiv preprint",
+  "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/"
+ },
+ "answer": "The co-lead author of the RFdiffusion3 bioRxiv preprint from the Baker lab is Rohith Krishna, PhD. \n\nFINAL: Rohith Krishna",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-126",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 594,
+   "completion": 28,
+   "cost": 0.0001059
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-126",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 594,
+   "completion": 28,
+   "cost": 0.0001059
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-126",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 594,
+   "completion": 28,
+   "cost": 0.0001059
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-126",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 632,
+   "completion": 31,
+   "cost": 0.0001134
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-126",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 632,
+   "completion": 28,
+   "cost": 0.0001116
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-126",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 670,
+   "completion": 30,
+   "cost": 0.0001185
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-126",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1195,
+   "completion": 33,
+   "cost": 0.00019905
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-126",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1238,
+   "completion": 19,
+   "cost": 0.0001107
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-126",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1658,
+   "completion": 49,
+   "cost": 0.0002781
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-126",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1780,
+   "completion": 17,
+   "cost": 0.0002772
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-126",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1158,
+   "completion": 29,
+   "cost": 0.0001911
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-126",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1197,
+   "completion": 25,
+   "cost": 0.00019455
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-126",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1625,
+   "completion": 35,
+   "cost": 0.00017835
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-126",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 632,
+   "completion": 28,
+   "cost": 0.0001116
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-126",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 670,
+   "completion": 30,
+   "cost": 0.0001185
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-126",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1195,
+   "completion": 26,
+   "cost": 0.00010845
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-126",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1231,
+   "completion": 22,
+   "cost": 0.00011145
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-126",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1656,
+   "completion": 47,
+   "cost": 0.0001902
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-126",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1937,
+   "completion": 35,
+   "cost": 0.00031155
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "The co-lead author of the RFdiffusion3 bioRxiv preprint from the Baker lab is Rohith Krishna, PhD. \n\nFINAL: Rohith Krishna"
+  },
+  {
+   "role": "vote",
+   "content": "Nathaniel Bennett, PhD. \n\nFINAL: Nathaniel Bennett, PhD"
+  },
+  {
+   "role": "vote",
+   "content": "The co-lead author of the RFdiffusion3 bioRxiv preprint from the Baker lab is Rohith Krishna, PhD. \n\nFINAL: Rohith Krishna"
+  }
+ ]
+}

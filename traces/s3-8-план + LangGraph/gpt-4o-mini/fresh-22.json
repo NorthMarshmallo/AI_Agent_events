@@ -1,0 +1,475 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The indie animated series created by Matt Braly that was fully funded on March 17, 2026, is titled \"Afterworld: กลับบ้าน\". \n\nFINAL: Afterworld: กลับบ้าน",
+ "calls": [
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 144,
+   "completion": 185,
+   "cost": 0.0001326
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 778,
+   "completion": 23,
+   "cost": 0.0001305
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 877,
+   "completion": 31,
+   "cost": 0.00015015
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1662,
+   "completion": 19,
+   "cost": 0.0002607
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1691,
+   "completion": 33,
+   "cost": 0.00014865
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1995,
+   "completion": 42,
+   "cost": 0.00019965
+  }
+ ],
+ "messages": [
+  {
+   "role": "plan",
+   "content": "1. **Web Search**: Использовать инструмент web_search для поиска информации о независимом анимационном сериале, созданном Мэттом Брали. Запрос: \"indie animated series Matt Braly 2026\".\n   \n2. **Ru Wiki Search**: Использовать инструмент ru_wiki_search для поиска аналогичной информации на русском языке. Запрос: \"независимый анимационный сериал Мэтта Брали 2026\".\n\n3. **Gen Search**: Использовать инструмент gen_search для поиска новостей о биотехнологиях, если это может быть связано с анимацией. Запрос: \"Matt Braly animated series news\".\n\n4. **Page Find**: Использовать инструмент page_find для поиска конкретных предложений с ключевыми словами из найденных статей. Ключевые слова: \"Matt Braly\", \"animated series\", \"2026\"."
+  },
+  {
+   "content": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "274d3c8e-7f1a-4e72-a734-037a431de925"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 23,
+     "prompt_tokens": 778,
+     "total_tokens": 801,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001305,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001305,
+      "upstream_inference_prompt_cost": 0.0001167,
+      "upstream_inference_completions_cost": 1.38e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_13bf8fac29",
+    "id": "gen-1793116103-hVFJIZ58dAEBzG0V6Y0v",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-6222-7150-9a8d-cdd831c6e7b1-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "indie animated series Matt Braly 2026"
+     },
+     "id": "call_7T3T3XGGGq6qFQ07EPqIDErs",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 778,
+    "output_tokens": 23,
+    "total_tokens": 801,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "743d3030-f84c-44cc-b840-e000f14f6061",
+   "tool_call_id": "call_7T3T3XGGGq6qFQ07EPqIDErs",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 31,
+     "prompt_tokens": 877,
+     "total_tokens": 908,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00015015,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00015015,
+      "upstream_inference_prompt_cost": 0.00013155,
+      "upstream_inference_completions_cost": 1.86e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_13bf8fac29",
+    "id": "gen-1793116105-8fFVJAOZfaJ6F1ldMfMQ",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-6b4c-7452-9f76-a227f775be9b-0",
+   "tool_calls": [
+    {
+     "name": "ru_wiki_search",
+     "args": {
+      "query": "независимый анимационный сериал Мэтта Брали 2026"
+     },
+     "id": "call_1q6oOM4SIPoH5u1WesaQJ42U",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 877,
+    "output_tokens": 31,
+    "total_tokens": 908,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Спилберг, Стивен] Запрос «Спилберг» перенаправляется сюда; см. также другие значения . Стивен Спилберг англ. Steven Spielberg Спилберг в 2023 году Дата рождения 18 декабря 1946 ( 1946-12-18 ) (79 лет) Место рождения Цинциннати , Огайо , США [ 1 ] Гражданство США [ 2 ] Профессия кинорежиссёр , кинопродюсер , сценарист , художник , монтажёр , кинооператор , актёр . Карьера 1959 — н. в. Направление фильм-триллер , драма , научно-фантастический фильм , фильм ужасов , боевик , приключения , психологический фильм ужасов [вд] , военный фильм , криминальный фильм , психологический фильм-триллер [вд] , фэнтези , комедия , фильм ужасов о природе [вд] , научно-фантастический фильм ужасов [вд] и фильм-тайна Награды Приз за лучший сценарий Каннского кинофестиваля (1974) « Сатурн » (1978 — дважды, 1982, 1994 — дважды, 2002, 2003) « Золотой глобус » (1983, 1994 — дважды, 1999 — дважды, 2009, 2012, 2022, 2023 — дважды) Награда имени Ирвинга Тальберга (1987) « Эмми » (1991, 1993, 1996 — трижды, 1997, 1999, 2000, 2002, 2003, 2006, 2010) « Золотой лев за карьеру » (1993) « Оскар » (1994 — дважды, 1999) BAFTA (1986, 1994 — дважды, 2009) « Сезар » (1995) « Тони » (2022) « Золотой медведь » (2023) « Грэмми » (2026) IMDb ID 0000229 Автограф amblin.com/steven… (англ.) Медиафайлы на Викискладе Сти́вен А́ллан Спи́лберг ( англ. Steven Allan Spielberg ; род. 18 декабря 1946 [ 3 ] [ 4 ] […] , Цинциннати , Огайо [ 1 ] ) — американский кинорежиссёр , продюсер и сценарист . Одна из ключевых фигур эры Нового Голливуда , пионер современного блокбастера и самый коммерчески успешный режиссёр в истории мирового кинематографа. Лауреат многих премий , в частности, трёх «Оскаров» , награды имени Ирвинга Тальберга , Центра Кеннеди , Сесиля Б. Де Милля . Фильмография Спилберга обширна (более 30 одних режиссёрских работ) и очень разнообразна: он с одинаковым успехом снимал приключенческие и фантастические блокбастеры, социальные и исторические драмы, а также детское кино. Спилберг родился в Цинциннати ( Ога",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "ru_wiki_search",
+   "id": "ce8cfd2c-1d32-4841-b37c-64d0388b7ce4",
+   "tool_call_id": "call_1q6oOM4SIPoH5u1WesaQJ42U",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 19,
+     "prompt_tokens": 1662,
+     "total_tokens": 1681,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0002607,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0002607,
+      "upstream_inference_prompt_cost": 0.0002493,
+      "upstream_inference_completions_cost": 1.14e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_13bf8fac29",
+    "id": "gen-1793116114-tyH6nm1b427aDAIZt35d",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-8d9e-7b92-8505-d7ff06e7529e-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "Matt Braly animated series news"
+     },
+     "id": "call_zNMP2IUEpWglElSUIzoS6jXR",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1662,
+    "output_tokens": 19,
+    "total_tokens": 1681,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "6b0b811e-709b-4e10-a0f1-f1db5436e0da",
+   "tool_call_id": "call_zNMP2IUEpWglElSUIzoS6jXR",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 33,
+     "prompt_tokens": 1691,
+     "total_tokens": 1724,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1664,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00014865,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00014865,
+      "upstream_inference_prompt_cost": 0.00012885,
+      "upstream_inference_completions_cost": 1.98e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_13bf8fac29",
+    "id": "gen-1793116118-fuC92N7UIz6BpUJJzGn3",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-9e8b-7dd1-b733-b1fcd257630b-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Matt Braly",
+      "keywords": [
+       "indie animated series",
+       "2026"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_9GEDbt7uJAZ5dfhnTT0NzHVZ",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1691,
+    "output_tokens": 33,
+    "total_tokens": 1724,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1664,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "In February 2026, Braly announced on social media that the film, about a teenage boy traveling to a world filled with Thai spirits before he undergoes an important life-altering medical operation, and inspired by his own life story and background, was scrapped at Sony Pictures Animation in early 2025, with the studio determining that the film was not \"commercial enough\" to produce.\nIn May 2026, Braly announced that a Thai animation studio, THE MONK Studios, had acquired rights to the film, under the name \"Afterworld: กลับบ้าน\", but that it was not funded, in production, or greenlit, but that the studio would be at Annecy trying to get \"potential partners and investors\".\nOn February 11, 2026, Braly announced that he founded his own animation studio, Fantasy Project.\nOn March 17, 2026, Braly launched a Kickstarter for the series, with a goal of funding a single episode which was 6-10 minutes for a cost of $25,000.\nAfter less than a week, it earned \"more than ten times\" that target amount, at over $231,000 by March 23, 2026.\nThe first episode is slated to release on December 25, 2026.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "eb94e617-7247-4d8d-b39e-23e8e8031dd1",
+   "tool_call_id": "call_9GEDbt7uJAZ5dfhnTT0NzHVZ",
+   "status": "success"
+  },
+  {
+   "content": "The indie animated series created by Matt Braly that was fully funded on March 17, 2026, is titled \"Afterworld: กลับบ้าน\". \n\nFINAL: Afterworld: กลับบ้าน",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 42,
+     "prompt_tokens": 1995,
+     "total_tokens": 2037,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1664,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00019965,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00019965,
+      "upstream_inference_prompt_cost": 0.00017445,
+      "upstream_inference_completions_cost": 2.52e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_13bf8fac29",
+    "id": "gen-1793116120-PXHK3k2NtU64M7OLxSQc",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-a51a-7842-a914-4d8ca6c55525-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1995,
+    "output_tokens": 42,
+    "total_tokens": 2037,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1664,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

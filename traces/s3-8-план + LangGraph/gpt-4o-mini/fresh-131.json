@@ -1,0 +1,758 @@
+{
+ "task": {
+  "id": "fresh-131",
+  "source": "fresh",
+  "question": "How many new predicted protein complexes did Nvidia, EMBL, Google DeepMind and Seoul National University add to the AlphaFold Protein Structure Database, as announced at GTC 2026?",
+  "answer": "1.7 million",
+  "evidence": "Announced at GTC, a new collaboration between Nvidia, European Molecular Biology Laboratory (EMBL), Google DeepMind and Seoul National University, has contributed 1.7 million new predicted protein complexes to the AlphaFold Protein Structure Database.",
+  "page": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "Не удалось найти информацию о количестве новых предсказанных белковых комплексов, добавленных в AlphaFold Protein Structure Database на GTC 2026. \n\nFINAL: Нет данных",
+ "calls": [
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 151,
+   "completion": 244,
+   "cost": 0.00016905
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 844,
+   "completion": 27,
+   "cost": 0.0001428
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 881,
+   "completion": 24,
+   "cost": 0.00014655
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1343,
+   "completion": 53,
+   "cost": 0.00023325
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1583,
+   "completion": 28,
+   "cost": 0.00015825
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1621,
+   "completion": 36,
+   "cost": 0.00014955
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1667,
+   "completion": 20,
+   "cost": 0.00014685
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2228,
+   "completion": 56,
+   "cost": 0.000243
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2443,
+   "completion": 37,
+   "cost": 0.00022545
+  }
+ ],
+ "messages": [
+  {
+   "role": "plan",
+   "content": "1. **Инструмент**: gen_search  \n   **Запрос**: \"AlphaFold Protein Structure Database new predicted protein complexes GTC 2026\"  \n   **Ключевые слова**: AlphaFold, protein complexes, GTC 2026, Nvidia, EMBL, Google DeepMind, Seoul National University  \n\n2. **Инструмент**: page_find  \n   **Запрос**: \"new predicted protein complexes\"  \n   **Ключевые слова**: AlphaFold, protein complexes, Nvidia, EMBL, Google DeepMind, Seoul National University  \n\n3. **Инструмент**: web_search  \n   **Запрос**: \"AlphaFold Protein Structure Database GTC 2026 announcement\"  \n   **Ключевые слова**: AlphaFold, protein complexes, GTC 2026, Nvidia, EMBL, Google DeepMind, Seoul National University  \n\n4. **Инструмент**: ru_wiki_search  \n   **Запрос**: \"AlphaFold Protein Structure Database\"  \n   **Ключевые слова**: AlphaFold, белковые комплексы, GTC 2026, Nvidia, EMBL, Google DeepMind, Seoul National University  "
+  },
+  {
+   "content": "How many new predicted protein complexes did Nvidia, EMBL, Google DeepMind and Seoul National University add to the AlphaFold Protein Structure Database, as announced at GTC 2026?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "1b068110-4345-4cbc-b8b3-f7a3c9c02690"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 27,
+     "prompt_tokens": 844,
+     "total_tokens": 871,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001428,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001428,
+      "upstream_inference_prompt_cost": 0.0001266,
+      "upstream_inference_completions_cost": 1.62e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_71fee889d4",
+    "id": "gen-1793116144-4569NRQnPQPvGjjzVKel",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-0336-7c52-9d6d-0c810199a798-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "AlphaFold Protein Structure Database new predicted protein complexes GTC 2026"
+     },
+     "id": "call_xI1lKWA1c7DB5ERmqbTgBCJm",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 844,
+    "output_tokens": 27,
+    "total_tokens": 871,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "129c7618-68a9-4d14-898d-1e675e4317f8",
+   "tool_call_id": "call_xI1lKWA1c7DB5ERmqbTgBCJm",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 24,
+     "prompt_tokens": 881,
+     "total_tokens": 905,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00014655,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00014655,
+      "upstream_inference_prompt_cost": 0.00013215,
+      "upstream_inference_completions_cost": 1.44e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_71fee889d4",
+    "id": "gen-1793116145-SDFRSZTeUWthDopvZvZb",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-0960-7930-ae84-b8a597b19f9f-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "AlphaFold Protein Structure Database GTC 2026 announcement"
+     },
+     "id": "call_0926EG9yPDOdxZmomwIX2vhd",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 881,
+    "output_tokens": 24,
+    "total_tokens": 905,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Murine respirovirus] Murine respirovirus, now Respirovirus muris, formerly Sendai virus (SeV) and previously also known as murine parainfluenza virus type 1 or hemagglutinating virus of Japan (HVJ), is an enveloped, 150–200 nm diameter, negative sense, single-stranded RNA virus of the family Paramyxoviridae. It typically infects rodents and it is not pathogenic for humans or domestic animals. Respirovirus muris is a member of the genus Respirovirus. The virus was isolated in the city of Sendai in Japan in the early 1950s. Since then, it has been actively used in research as a model pathogen. The virus is infectious for many cancer cell lines (see below), and has oncolytic properties demonstrated in animal models and in naturally occurring cancers in animals. Its ability to fuse eukaryotic cells and to form syncytium was used to produce hybridoma cells capable of manufacturing monoclonal antibodies in large quantities. Recent applications of SeV-based vectors include the reprogramming of somatic cells into induced pluripotent stem cells and vaccine creation. For vaccination purpose the Sendai virus-based constructs could be delivered in a form of nasal drops, which may be beneficial in inducing a mucosal immune response. SeV has several features that are important in a vector for a successful vaccine: the virus does not integrate into the host genome, it does not undergo genetic recombination, it replicates only in the cytoplasm without DNA intermediates or a nuclear phase and it does not cause any disease in humans or domestic animals. Sendai virus is used as a backbone for vaccine development against Mycobacterium tuberculosis that causes tuberculosis, against HIV-1 that causes AIDS and against other viruses, including those that cause severe respiratory infections in children. The latter include human respiratory syncytial virus (HRSV), human metapneumovirus (HMPV) and human parainfluenza viruses (HPIV). The vaccine studies against M. tuberculosis, HMPV, HPIV1 an",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "e883f3c6-5847-414c-a793-6a7cec059f53",
+   "tool_call_id": "call_0926EG9yPDOdxZmomwIX2vhd",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 53,
+     "prompt_tokens": 1343,
+     "total_tokens": 1396,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00023325,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00023325,
+      "upstream_inference_prompt_cost": 0.00020145,
+      "upstream_inference_completions_cost": 3.18e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_71fee889d4",
+    "id": "gen-1793116148-HPOAEFp2oupxndhoPkZF",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-1255-7240-8589-3ab4f86d007d-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "AlphaFold Protein Structure Database",
+      "keywords": [
+       "new predicted protein complexes",
+       "GTC 2026",
+       "Nvidia",
+       "EMBL",
+       "Google DeepMind",
+       "Seoul National University"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_iZ4dY8JvX8BMkFSTnw25ZEEN",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1343,
+    "output_tokens": 53,
+    "total_tokens": 1396,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "mimics the way a person might assemble a jigsaw puzzle: first connecting pieces in small clumps—in this case clusters of amino acids—and then searching for ways to join the clumps in a larger whole.\"\nAnnounced on 8 May 2024, AlphaFold 3 was co-developed by Google DeepMind and Isomorphic Labs, both subsidiaries of Alphabet.\nA 2025 report by the Innovation Growth Lab, funded by Google DeepMind but conducted independently, reported a related pattern at the level of individual researchers.\nThe AlphaFold Protein Structure Database (AFDB), a joint project between AlphaFold and EMBL-EBI, was launched on July 22, 2021.\nCarlos Outeiral, CASP14: what Google DeepMind's AlphaFold 2 really achieved, and what it means for protein folding, biology and bioinformatics, Oxford Protein Informatics Group.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "f460c057-d4f6-40ba-9a12-4b3eff4fc32c",
+   "tool_call_id": "call_iZ4dY8JvX8BMkFSTnw25ZEEN",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 28,
+     "prompt_tokens": 1583,
+     "total_tokens": 1611,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00015825,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00015825,
+      "upstream_inference_prompt_cost": 0.00014145,
+      "upstream_inference_completions_cost": 1.68e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_71fee889d4",
+    "id": "gen-1793116150-IlozqTmE1UmFC8sPLqUe",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-1960-7f11-a876-c9feb0f6f8dc-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "AlphaFold Protein Structure Database GTC 2026 new predicted protein complexes announcement"
+     },
+     "id": "call_ZadQEK5S26FCHbMZMsFkhcjL",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1583,
+    "output_tokens": 28,
+    "total_tokens": 1611,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1280,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "2ed19338-dbdd-4b2e-83dd-c6945dc95c61",
+   "tool_call_id": "call_ZadQEK5S26FCHbMZMsFkhcjL",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 36,
+     "prompt_tokens": 1621,
+     "total_tokens": 1657,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1536,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00014955,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00014955,
+      "upstream_inference_prompt_cost": 0.00012795,
+      "upstream_inference_completions_cost": 2.16e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_71fee889d4",
+    "id": "gen-1793116157-AQbDpEHLBMVWmSYlMp3v",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-362b-7151-9fc6-05416efe7fd6-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "AlphaFold Protein Structure Database new predicted protein complexes GTC 2026 Nvidia EMBL Google DeepMind Seoul National University"
+     },
+     "id": "call_1OPaLdK6jHgcHlHHlEteLbZY",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1621,
+    "output_tokens": 36,
+    "total_tokens": 1657,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1536,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "769976a7-f85f-4a2f-8042-0a30fba13e44",
+   "tool_call_id": "call_1OPaLdK6jHgcHlHHlEteLbZY",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 20,
+     "prompt_tokens": 1667,
+     "total_tokens": 1687,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1536,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00014685,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00014685,
+      "upstream_inference_prompt_cost": 0.00013485,
+      "upstream_inference_completions_cost": 1.2e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_71fee889d4",
+    "id": "gen-1793116159-737J9F8nMBFSu8bdYipc",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-3d9d-7e51-add2-2b688e570abc-0",
+   "tool_calls": [
+    {
+     "name": "ru_wiki_search",
+     "args": {
+      "query": "AlphaFold Protein Structure Database"
+     },
+     "id": "call_ljilK6EyKzVLpmy4s02CDdH2",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1667,
+    "output_tokens": 20,
+    "total_tokens": 1687,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1536,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[AlphaFold] AlphaFold Тип модель искусственного интеллекта [вд] и ИИ Разработчик Google DeepMind Написана на Python Дата выпуска 2018 Последняя версия 3 (8 мая 2024 [ 1 ] ) Репозиторий github.com/google-deepmi… github.com/google-deepmi… Лицензия Apache License 2.0 Сайт alphafold.com (англ.) Медиафайлы на Викискладе AlphaFold — программа на базе искусственного интеллекта (AI), разработанная Google DeepMind , которая выполняет предсказания пространственной структуры белка [ 2 ] . Программа разработана как система глубокого обучения [ 3 ] . AlphaFold имеет две основные версии. Команда исследователей, использовавшая AlphaFold 1, заняла первое место в общем рейтинге 13-й СASP в декабре 2018 года. Программа оказалась особенно успешной в предсказании структур белков в категории, которую организаторы конкурса оценивали как самую сложную — когда для белков с частично похожей последовательностью не было доступно существующих шаблонных структур [ 4 ] . Команда разработчиков AlphaFold 2 участвовала в следующем конкурсе CASP в ноябре 2020 года [ 5 ] . Команда достигла гораздо большей точности, чем любая другая группа. Модель набрала более 90 баллов примерно для двух третей белков в тесте GDT, который измеряет степень, с которой структура, предсказанная вычислительной программой, подобна структуре, определённой лабораторным экспериментом (число 100 соответствует полному совпадению) [ 6 ] [ 7 ] . Результаты AlphaFold 2 в CASP были охарактеризованы как «поразительные» [ 8 ] . В то же время некоторые исследователи отметили, что точность недостаточно высока для оставшейся трети прогнозов и что не раскрывается механизм и правила сворачивания белка, чтобы проблема сворачивания белка считалась решённой [ 9 ] . 15 июля 2021 года статья об AlphaFold2 была размещена в Nature в качестве публикации для предварительного доступа вместе с программным обеспечением с открытым исходным кодом и доступной для поиска базой данных с различными видами белков [ 10 ] [ 11 ] [ 12 ] [ 13 ] . 8 мая 2024 год",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "ru_wiki_search",
+   "id": "632ae33c-15e0-4fc9-a6ae-ab880b7fda03",
+   "tool_call_id": "call_ljilK6EyKzVLpmy4s02CDdH2",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 56,
+     "prompt_tokens": 2228,
+     "total_tokens": 2284,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1664,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.000243,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.000243,
+      "upstream_inference_prompt_cost": 0.0002094,
+      "upstream_inference_completions_cost": 3.36e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_71fee889d4",
+    "id": "gen-1793116161-6frwJM31upuin37T9o1P",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-46cb-7b30-9b9d-56113cd484d2-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "AlphaFold",
+      "keywords": [
+       "новые предсказанные белковые комплексы",
+       "GTC 2026",
+       "Nvidia",
+       "EMBL",
+       "Google DeepMind",
+       "Seoul National University"
+      ],
+      "site": "ru_wiki"
+     },
+     "id": "call_suuWd4yLtFEPC8UZkH4VldND",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2228,
+    "output_tokens": 56,
+    "total_tokens": 2284,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1664,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "AlphaFold Тип модель искусственного интеллекта [вд] и ИИ Разработчик Google DeepMind Написана на Python Дата выпуска 2018 Последняя версия 3 (8 мая 2024 [ 1 ] ) Репозиторий github.com/google-deepmi… github.com/google-deepmi… Лицензия Apache License 2.0 Сайт alphafold.com (англ.) Медиафайлы на Викискладе AlphaFold — программа на базе искусственного интеллекта (AI), разработанная Google DeepMind , которая выполняет предсказания пространственной структуры белка [ 2 ] .\n↑ Google DeepMind and Isomorphic Labs introduce AlphaFold 3 AI model .",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "8e43a6b2-4f57-4754-a025-0d6b85ad836a",
+   "tool_call_id": "call_suuWd4yLtFEPC8UZkH4VldND",
+   "status": "success"
+  },
+  {
+   "content": "Не удалось найти информацию о количестве новых предсказанных белковых комплексов, добавленных в AlphaFold Protein Structure Database на GTC 2026. \n\nFINAL: Нет данных",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 37,
+     "prompt_tokens": 2443,
+     "total_tokens": 2480,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 2176,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00022545,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00022545,
+      "upstream_inference_prompt_cost": 0.00020325,
+      "upstream_inference_completions_cost": 2.22e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_71fee889d4",
+    "id": "gen-1793116163-8B3NitsrbiAtV7ctioTM",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-4f60-7793-97a3-c101de8a2380-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2443,
+    "output_tokens": 37,
+    "total_tokens": 2480,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 2176,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}
