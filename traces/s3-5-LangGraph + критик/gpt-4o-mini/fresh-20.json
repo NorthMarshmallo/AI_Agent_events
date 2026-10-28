@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-20",
+  "source": "fresh",
+  "question": "In the 2026 FIFA World Cup, what format was used for the knockout stage starting June 28?",
+  "answer": "single-elimination",
+  "evidence": "The knockout stage used a single-elimination format, starting with the newly introduced round of 32 on June 28 and culminating with the final on July 19, with a match for third place the day before. If the score was even after regulation time in a match, 30 minutes of extra time were added. If still tied after this, a penalty shootout determined the winner.",
+  "page": "2026 FIFA World Cup",
+  "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+  "sonnet_answer": "The Round of 32 knockout stage began on June 28, 2026, as the expanded 48-team tournament introduced a Round of 32 for the first time in World Cup history.",
+  "agent_ok": true
+ },
+ "answer": "The knockout stage of the 2026 FIFA World Cup used a single-elimination format, with the top two teams from each of the twelve groups and the best eight third-place teams advancing. \n\nFINAL: single-elimination format",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-20",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 581,
+   "completion": 21,
+   "cost": 9.975e-05
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-20",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 730,
+   "completion": 46,
+   "cost": 0.0001371
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-20",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 560,
+   "completion": 9,
+   "cost": 8.94e-05
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "single-elimination format",
+   "supported": true,
+   "issue": ""
+  }
+ ]
+}

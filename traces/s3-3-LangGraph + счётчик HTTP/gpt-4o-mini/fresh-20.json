@@ -1,0 +1,186 @@
+{
+ "task": {
+  "id": "fresh-20",
+  "source": "fresh",
+  "question": "In the 2026 FIFA World Cup, what format was used for the knockout stage starting June 28?",
+  "answer": "single-elimination",
+  "evidence": "The knockout stage used a single-elimination format, starting with the newly introduced round of 32 on June 28 and culminating with the final on July 19, with a match for third place the day before. If the score was even after regulation time in a match, 30 minutes of extra time were added. If still tied after this, a penalty shootout determined the winner.",
+  "page": "2026 FIFA World Cup",
+  "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+  "sonnet_answer": "The Round of 32 knockout stage began on June 28, 2026, as the expanded 48-team tournament introduced a Round of 32 for the first time in World Cup history.",
+  "agent_ok": true
+ },
+ "answer": "The knockout stage of the 2026 FIFA World Cup used a single-elimination tournament format, with the top two teams from each of the twelve groups and the best eight third-place teams advancing. \n\nFINAL: single-elimination tournament format",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-20",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 581,
+   "completion": 21,
+   "cost": 9.975e-05
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-20",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 730,
+   "completion": 48,
+   "cost": 0.0001383
+  }
+ ],
+ "messages": [
+  {
+   "content": "In the 2026 FIFA World Cup, what format was used for the knockout stage starting June 28?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "83189ecb-cd4f-4266-a214-fa3639d6e79d"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 21,
+     "prompt_tokens": 581,
+     "total_tokens": 602,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 9.975e-05,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 9.975e-05,
+      "upstream_inference_prompt_cost": 8.715e-05,
+      "upstream_inference_completions_cost": 1.26e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420520-PLHoJg7esU0DD9X1B6eu",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-a11b-72c3-9027-57578db52cd6-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "2026 FIFA World Cup knockout stage format"
+     },
+     "id": "call_xRVmMniEX13rCctyOHCpym0K",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 581,
+    "output_tokens": 21,
+    "total_tokens": 602,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[2026 FIFA World Cup knockout stage] The knockout stage of the 2026 FIFA World Cup was the second and final stage of the competition, following the group stage. Played from June 28 to July 19, 2026, the knockout stage ended with the final, held at MetLife Stadium in East Rutherford, New Jersey. The top two teams from each of the twelve groups, along with the best eight third-place teams, advanced to the knockout stage to compete in a single-elimination tournament. There were 32 matches in the knockout stage, including a match for third place.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "8cd8c22e-285b-4173-a4e2-f6e2580d1d75",
+   "tool_call_id": "call_xRVmMniEX13rCctyOHCpym0K",
+   "status": "success"
+  },
+  {
+   "content": "The knockout stage of the 2026 FIFA World Cup used a single-elimination tournament format, with the top two teams from each of the twelve groups and the best eight third-place teams advancing. \n\nFINAL: single-elimination tournament format",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 48,
+     "prompt_tokens": 730,
+     "total_tokens": 778,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001383,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001383,
+      "upstream_inference_prompt_cost": 0.0001095,
+      "upstream_inference_completions_cost": 2.88e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420522-yUPMzA81vMD1jVS5rNiH",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-a8c5-7801-8e21-f760b81bcf89-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 730,
+    "output_tokens": 48,
+    "total_tokens": 778,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

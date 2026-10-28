@@ -76,7 +76,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("path")
     ap.add_argument("--sonnet", action="store_true", help="прогнать сильную модель без инструментов (нужен ключ)")
-    ap.add_argument("--traces", help="взять ответы сильной модели из папки трейсов, например traces/без инструментов/claude-sonnet-4.6")
+    ap.add_argument("--traces", help="взять ответы сильной модели из папки трейсов, например traces/s1-1-без инструментов/claude-sonnet-4.6")
     ap.add_argument("--ids", help="диапазон номеров вопросов, например 125-154")
     args = ap.parse_args()
     rows = load(args.path)

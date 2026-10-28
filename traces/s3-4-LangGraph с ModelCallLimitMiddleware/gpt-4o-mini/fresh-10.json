@@ -1,0 +1,311 @@
+{
+ "task": {
+  "id": "fresh-10",
+  "source": "fresh",
+  "question": "How many people were killed in the February 18 explosion at a fireworks store in China?",
+  "answer": "Twelve",
+  "evidence": "18 February – Twelve people are killed in an explosion at a fireworks store in Xiangyang, Hubei.",
+  "page": "2026 in China",
+  "url": "https://en.wikipedia.org/wiki/2026_in_China",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Model call limits exceeded: run limit (3/3)",
+ "calls": [
+  {
+   "tag": "s3-4-LangGraph с ModelCallLimitMiddleware | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 577,
+   "completion": 20,
+   "cost": 9.855e-05
+  },
+  {
+   "tag": "s3-4-LangGraph с ModelCallLimitMiddleware | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 639,
+   "completion": 41,
+   "cost": 0.00012045
+  },
+  {
+   "tag": "s3-4-LangGraph с ModelCallLimitMiddleware | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 706,
+   "completion": 24,
+   "cost": 0.0001203
+  }
+ ],
+ "messages": [
+  {
+   "content": "How many people were killed in the February 18 explosion at a fireworks store in China?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "7a93009b-dae5-498a-b4db-b31d95a85e03"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 20,
+     "prompt_tokens": 577,
+     "total_tokens": 597,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 9.855e-05,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 9.855e-05,
+      "upstream_inference_prompt_cost": 8.655e-05,
+      "upstream_inference_completions_cost": 1.2e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792494697-QRkDD8ntiEJenvWTv17x",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15902-7cf6-7b80-a9b0-80038f922f71-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "February 18 explosion fireworks store China"
+     },
+     "id": "call_j2i318cAJNb4umsz9rSv89Vb",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 577,
+    "output_tokens": 20,
+    "total_tokens": 597,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[List of fireworks accidents and incidents] This is a list of fireworks accidents and incidents, including pyrotechnics fire and explosion. The list is sortable by casualties and date.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "4246550c-0182-49b2-aad3-c771151374af",
+   "tool_call_id": "call_j2i318cAJNb4umsz9rSv89Vb",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 41,
+     "prompt_tokens": 639,
+     "total_tokens": 680,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00012045,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00012045,
+      "upstream_inference_prompt_cost": 9.585e-05,
+      "upstream_inference_completions_cost": 2.46e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792494700-qUCHwMrfiLQexmgwzKCa",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15902-879f-7dd0-add5-b8bcabeac098-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "List of fireworks accidents and incidents",
+      "keywords": [
+       "February 18",
+       "explosion",
+       "fireworks store",
+       "China"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_HqRHI3sHUrr1nbzyP057VHld",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 639,
+    "output_tokens": 41,
+    "total_tokens": 680,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "This is a list of fireworks accidents and incidents, including pyrotechnics fire and explosion.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "f8cdc1c0-5e78-4b59-8d02-2f9518a69d2a",
+   "tool_call_id": "call_HqRHI3sHUrr1nbzyP057VHld",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 24,
+     "prompt_tokens": 706,
+     "total_tokens": 730,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001203,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001203,
+      "upstream_inference_prompt_cost": 0.0001059,
+      "upstream_inference_completions_cost": 1.44e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792494702-LWwKLyCy4y4DeP9Ox0ZY",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15902-8e04-75c1-845e-373a1f21bb84-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "February 18 2023 explosion fireworks store China casualties"
+     },
+     "id": "call_R3qEcaOklCF3TG4yVH9BbZb1",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 706,
+    "output_tokens": 24,
+    "total_tokens": 730,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[List of fireworks accidents and incidents] This is a list of fireworks accidents and incidents, including pyrotechnics fire and explosion. The list is sortable by casualties and date.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "8713057a-880c-4582-b68b-af1f2455f0e4",
+   "tool_call_id": "call_R3qEcaOklCF3TG4yVH9BbZb1",
+   "status": "success"
+  },
+  {
+   "content": "Model call limits exceeded: run limit (3/3)",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "ai",
+   "id": "f971a138-2980-40c7-b5b5-1e918f627ca2",
+   "tool_calls": [],
+   "invalid_tool_calls": []
+  }
+ ]
+}

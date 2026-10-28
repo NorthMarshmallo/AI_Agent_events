@@ -1,0 +1,748 @@
+{
+ "task": {
+  "id": "fresh-17",
+  "source": "fresh",
+  "question": "In spaceflight, what was launched by ISRO on September 3, 2026?",
+  "answer": "EOS-05",
+  "evidence": "On 3 September, ISRO launched EOS-05, India's first geostationary Earth observation satellite. The satellite was launched on PSLV's return-to-flight mission after the failed PSLV-C62 in January 2026.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Based on my knowledge cutoff, I don't have reliable information about a specific ISRO launch on September 3, 2026, as this date is beyond my knowledge cutoff.\n\nFINAL: Информация о запуске ISRO 3 сентября 2026 года недоступна",
+ "calls": [
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-17",
+   "model": "claude-sonnet-4.6",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 1456,
+   "completion": 63,
+   "cost": 0.005313
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-17",
+   "model": "claude-sonnet-4.6",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1837,
+   "completion": 66,
+   "cost": 0.006501
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-17",
+   "model": "claude-sonnet-4.6",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 2020,
+   "completion": 108,
+   "cost": 0.00768
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-17",
+   "model": "claude-sonnet-4.6",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 2219,
+   "completion": 110,
+   "cost": 0.008307
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-17",
+   "model": "claude-sonnet-4.6",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 2343,
+   "completion": 108,
+   "cost": 0.008649
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-17",
+   "model": "claude-sonnet-4.6",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2467,
+   "completion": 63,
+   "cost": 0.008346
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-17",
+   "model": "claude-sonnet-4.6",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2647,
+   "completion": 59,
+   "cost": 0.008826
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-17",
+   "model": "claude-sonnet-4.6",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2737,
+   "completion": 104,
+   "cost": 0.009771
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-17",
+   "model": "claude-sonnet-4.6",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 1498,
+   "completion": 71,
+   "cost": 0.005559
+  }
+ ],
+ "messages": [
+  {
+   "content": "In spaceflight, what was launched by ISRO on September 3, 2026?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "37577747-71a9-4b0f-a398-2f50da5fd996"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 63,
+     "prompt_tokens": 1456,
+     "total_tokens": 1519,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.005313,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.005313,
+      "upstream_inference_prompt_cost": 0.004368,
+      "upstream_inference_completions_cost": 0.000945
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115686-pM4Em679cAYyPrV9VZLm",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-05a2-74e3-801d-896261fddf2f-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "ISRO launch September 3 2026"
+     },
+     "id": "toolu_01DFNHfcnjLV3TvZoF7Vizov",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1456,
+    "output_tokens": 63,
+    "total_tokens": 1519,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Next Generation Launch Vehicle] The Next Generation Launch Vehicle (NGLV) is a family of three-stage partially reusable medium to super heavy-lift launch vehicle, currently under development by ISRO. The family of these vehicles are designed to replace currently operational systems like the PSLV and GSLV. Previously referred to as Unified Launch Vehicle (ULV), it is now known as Project Soorya. The family consists of three launchers, initially being designed to replace the different core propulsion modules of PSLV, GSLV, and LVM3 respectively with a common semi-cryogenic engine, giving it its original title of ULV. Initial proposals indicated the craft were planned to be expendable. As of October 2022, proposals under the more recent name NGLV suggests they will instead have partial reusability. Dr S. Sivakumar is the program director for ISRO's Space Transportation System and the project director for NGLV at the Vikram Sarabhai Space Centre (VSSC). In an interview, the former Chairman of ISRO S. Somanath stated that after the integration of the NGLV, all other launch vehicles will be retired, except the LVM3 and the SSLV. The development of the NGLV is projected to take 8 years, having began in December 2024.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "2f19a738-7e6c-4791-beea-3d2025314a87",
+   "tool_call_id": "toolu_01DFNHfcnjLV3TvZoF7Vizov",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 66,
+     "prompt_tokens": 1837,
+     "total_tokens": 1903,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.006501,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.006501,
+      "upstream_inference_prompt_cost": 0.005511,
+      "upstream_inference_completions_cost": 0.00099
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115688-1c4JlhNxj6jNjNZZ0G0u",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-0f1f-7530-b813-3a0e72fdd52b-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "ISRO September 3 2026 spaceflight launch"
+     },
+     "id": "toolu_0174C1Sx1bXCg5Gosb8GepGb",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1837,
+    "output_tokens": 66,
+    "total_tokens": 1903,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[List of spaceflight launches in July–September 2026] This article lists orbital and suborbital launches during the third quarter of the year 2026. For all other spaceflight activities, see 2026 in spaceflight. For launches during the rest of 2026, see List of spaceflight launches in January–March 2026, List of spaceflight launches in April–June 2026, and List of spaceflight launches in October–December 2026.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "329dd4b1-b5fa-4294-9962-e82f7b400419",
+   "tool_call_id": "toolu_0174C1Sx1bXCg5Gosb8GepGb",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 108,
+     "prompt_tokens": 2020,
+     "total_tokens": 2128,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00768,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00768,
+      "upstream_inference_prompt_cost": 0.00606,
+      "upstream_inference_completions_cost": 0.00162
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115691-jtCylvmYXVQ8x4vwkB2S",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-190f-7590-9be2-de371416bc75-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "List of spaceflight launches in July–September 2026",
+      "keywords": "ISRO\", \"September 3",
+      "site": "en_wiki"
+     },
+     "id": "toolu_01AYgHr3535vH7bjbTnMCCYr",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2020,
+    "output_tokens": 108,
+    "total_tokens": 2128,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "Error invoking tool 'page_find' with kwargs {'title': 'List of spaceflight launches in July–September 2026', 'keywords': 'ISRO\", \"September 3', 'site': 'en_wiki'} with error:\n keywords: Input should be a valid list\n Please fix the error and try again.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "a5fe21d4-4aa1-4db0-a1dc-2dd55b81b60f",
+   "tool_call_id": "toolu_01AYgHr3535vH7bjbTnMCCYr",
+   "status": "error"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 110,
+     "prompt_tokens": 2219,
+     "total_tokens": 2329,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.008307,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.008307,
+      "upstream_inference_prompt_cost": 0.006657,
+      "upstream_inference_completions_cost": 0.00165
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115692-pxQsGX7TvmguZxgAz5fB",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-200c-7331-aa26-90432ecab7d5-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "List of spaceflight launches in July–September 2026",
+      "keywords": [
+       "ISRO",
+       "September 3"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "toolu_019Tj9xmAuUyTobSogT6p1m7",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2219,
+    "output_tokens": 110,
+    "total_tokens": 2329,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "42f210e9-499e-4d55-bb0a-4b104f30e4b6",
+   "tool_call_id": "toolu_019Tj9xmAuUyTobSogT6p1m7",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 108,
+     "prompt_tokens": 2343,
+     "total_tokens": 2451,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.008649,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.008649,
+      "upstream_inference_prompt_cost": 0.007029,
+      "upstream_inference_completions_cost": 0.00162
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115695-RvSCgyWH4uX1fVpRpqFp",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-290c-77d0-92cc-72d1c33a19b0-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "List of spaceflight launches in July–September 2026",
+      "keywords": [
+       "ISRO",
+       "September"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "toolu_018mRFHLy69QRRRtVu1EYnoD",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2343,
+    "output_tokens": 108,
+    "total_tokens": 2451,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "=== September ===",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "b3829a6c-3cc7-48c2-9cd3-69872b57ea0b",
+   "tool_call_id": "toolu_018mRFHLy69QRRRtVu1EYnoD",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 63,
+     "prompt_tokens": 2467,
+     "total_tokens": 2530,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.008346,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.008346,
+      "upstream_inference_prompt_cost": 0.007401,
+      "upstream_inference_completions_cost": 0.000945
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115702-EUgNkgFW6vvMrCVVKSpD",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-45e5-7d20-8a20-c85c84c3078e-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "2026 in spaceflight ISRO September"
+     },
+     "id": "toolu_01W8Jyw3gi2DP8VLotiUANi8",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2467,
+    "output_tokens": 63,
+    "total_tokens": 2530,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[List of spaceflight launches in July–September 2026] This article lists orbital and suborbital launches during the third quarter of the year 2026. For all other spaceflight activities, see 2026 in spaceflight. For launches during the rest of 2026, see List of spaceflight launches in January–March 2026, List of spaceflight launches in April–June 2026, and List of spaceflight launches in October–December 2026.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "669f6101-1579-4ae3-9571-2c0bf83489fd",
+   "tool_call_id": "toolu_01W8Jyw3gi2DP8VLotiUANi8",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 59,
+     "prompt_tokens": 2647,
+     "total_tokens": 2706,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.008826,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.008826,
+      "upstream_inference_prompt_cost": 0.007941,
+      "upstream_inference_completions_cost": 0.000885
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115711-nz4S3AiZZT01KvCsjvch",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-6673-7663-9ce0-4c107e559791-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "2026 in spaceflight"
+     },
+     "id": "toolu_013nmKRtCQzfvWN7FUaj5v8N",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2647,
+    "output_tokens": 59,
+    "total_tokens": 2706,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[2026 in spaceflight] Notable spaceflight events during the year 2026.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "1ac7045f-93a9-4dac-b1ef-c038ac7b8683",
+   "tool_call_id": "toolu_013nmKRtCQzfvWN7FUaj5v8N",
+   "status": "success"
+  },
+  {
+   "content": "Based on my knowledge cutoff, I don't have reliable information about a specific ISRO launch on September 3, 2026, as this date is beyond my knowledge cutoff.\n\nFINAL: Информация о запуске ISRO 3 сентября 2026 года недоступна",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 71,
+     "prompt_tokens": 1498,
+     "total_tokens": 1569,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.005559,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.005559,
+      "upstream_inference_prompt_cost": 0.004494,
+      "upstream_inference_completions_cost": 0.001065
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115720-bcCgaDUsPbxeyHmPRu5N",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-89eb-7ab2-8c60-ac3d6dee0493-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1498,
+    "output_tokens": 71,
+    "total_tokens": 1569,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

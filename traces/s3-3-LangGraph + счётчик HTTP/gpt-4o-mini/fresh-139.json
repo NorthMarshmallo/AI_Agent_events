@@ -1,0 +1,644 @@
+{
+ "task": {
+  "id": "fresh-139",
+  "source": "fresh",
+  "question": "What is the name of DeepSeek's math-focused AI model, released on 30 April 2025?",
+  "answer": "DeepSeek-Prover-V2-671B",
+  "evidence": "On 30 April 2025, Deepseek released its math-focused Artificial Intelligence Model named \"DeepSeek-Prover-V2-671B\".",
+  "page": "DeepSeek (chatbot)",
+  "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)"
+ },
+ "answer": "У меня нет информации о математически ориентированной модели ИИ компании DeepSeek, выпущенной 30 апреля 2025 года. \n\nFINAL: информация недоступна",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 581,
+   "completion": 25,
+   "cost": 0.00010215
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 681,
+   "completion": 19,
+   "cost": 0.00011355
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 775,
+   "completion": 24,
+   "cost": 0.00013065
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 874,
+   "completion": 24,
+   "cost": 0.0001455
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 973,
+   "completion": 25,
+   "cost": 0.00016095
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1073,
+   "completion": 24,
+   "cost": 0.00017535
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1172,
+   "completion": 19,
+   "cost": 0.0001104
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 15,
+   "tools": 0,
+   "prompt": 751,
+   "completion": 34,
+   "cost": 0.00013305
+  }
+ ],
+ "messages": [
+  {
+   "content": "What is the name of DeepSeek's math-focused AI model, released on 30 April 2025?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "9b47fa5d-7caa-426a-bb57-82b7d3b637b2"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 25,
+     "prompt_tokens": 581,
+     "total_tokens": 606,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00010215,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00010215,
+      "upstream_inference_prompt_cost": 8.715e-05,
+      "upstream_inference_completions_cost": 1.5e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420627-LcTbJRkEdicV3Y6G2Qgz",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-4528-7af0-93c3-b050deac7a70-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "DeepSeek math-focused AI model April 30 2025"
+     },
+     "id": "call_TRf36UrZlrDCuHx5apzn5Gpr",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 581,
+    "output_tokens": 25,
+    "total_tokens": 606,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[DeepSeek] Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd., doing business as DeepSeek, is a Chinese artificial intelligence (AI) company that develops open weights large language models (LLMs). Based in Hangzhou, Zhejiang, DeepSeek is owned and funded by High-Flyer, a Chinese hedge fund.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "03a508dd-18ac-456d-a537-5b209e006c54",
+   "tool_call_id": "call_TRf36UrZlrDCuHx5apzn5Gpr",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 19,
+     "prompt_tokens": 681,
+     "total_tokens": 700,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00011355,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00011355,
+      "upstream_inference_prompt_cost": 0.00010215,
+      "upstream_inference_completions_cost": 1.14e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420645-XiKxBAf7Kdwf5LNsekVy",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-8b3a-7383-87cd-755b727ff73a-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "DeepSeek math-focused AI model"
+     },
+     "id": "call_daZSA27aXJOHRPuW5eTyMrTR",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 681,
+    "output_tokens": 19,
+    "total_tokens": 700,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[DeepSeek] Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd., doing business as DeepSeek, is a Chinese artificial intelligence (AI) company that develops open weights large language models (LLMs). Based in Hangzhou, Zhejiang, DeepSeek is owned and funded by High-Flyer, a Chinese hedge fund.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "a4bc9b32-2493-4528-949c-3967dd09274e",
+   "tool_call_id": "call_daZSA27aXJOHRPuW5eTyMrTR",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 24,
+     "prompt_tokens": 775,
+     "total_tokens": 799,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00013065,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00013065,
+      "upstream_inference_prompt_cost": 0.00011625,
+      "upstream_inference_completions_cost": 1.44e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420647-TMz8Wa0hfWLCSJouZIoy",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-9210-7353-9c89-0b07a16edb3d-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "DeepSeek AI model released April 30 2025"
+     },
+     "id": "call_zGPvOJlU1rH2fRzKhNRR2cDG",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 775,
+    "output_tokens": 24,
+    "total_tokens": 799,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[DeepSeek] Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd., doing business as DeepSeek, is a Chinese artificial intelligence (AI) company that develops open weights large language models (LLMs). Based in Hangzhou, Zhejiang, DeepSeek is owned and funded by High-Flyer, a Chinese hedge fund.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "b84c6bec-a2ad-4f5e-9d04-a4b810771ac3",
+   "tool_call_id": "call_zGPvOJlU1rH2fRzKhNRR2cDG",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 24,
+     "prompt_tokens": 874,
+     "total_tokens": 898,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001455,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001455,
+      "upstream_inference_prompt_cost": 0.0001311,
+      "upstream_inference_completions_cost": 1.44e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420665-PxENc7Y28lg9VvrrNSbm",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-d8c8-70e0-8375-c2128c02c400-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "DeepSeek math AI model April 30 2025"
+     },
+     "id": "call_PSNPUFN108DiXrgGuXXce5O5",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 874,
+    "output_tokens": 24,
+    "total_tokens": 898,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[DeepSeek] Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd., doing business as DeepSeek, is a Chinese artificial intelligence (AI) company that develops open weights large language models (LLMs). Based in Hangzhou, Zhejiang, DeepSeek is owned and funded by High-Flyer, a Chinese hedge fund.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "ed35c722-42c0-49da-b998-1d242dc47dcb",
+   "tool_call_id": "call_PSNPUFN108DiXrgGuXXce5O5",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 25,
+     "prompt_tokens": 973,
+     "total_tokens": 998,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00016095,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00016095,
+      "upstream_inference_prompt_cost": 0.00014595,
+      "upstream_inference_completions_cost": 1.5e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420667-qHjM9FtgO6xkYFTEo6io",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-e018-7662-bbc4-9892ceae0ee5-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "DeepSeek AI model name released April 30 2025"
+     },
+     "id": "call_KyQ3PLGnGJi60PiRypJlsQoZ",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 973,
+    "output_tokens": 25,
+    "total_tokens": 998,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[DeepSeek] Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd., doing business as DeepSeek, is a Chinese artificial intelligence (AI) company that develops open weights large language models (LLMs). Based in Hangzhou, Zhejiang, DeepSeek is owned and funded by High-Flyer, a Chinese hedge fund.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "f53d97a8-2b69-442f-b6f9-90b9e2857898",
+   "tool_call_id": "call_KyQ3PLGnGJi60PiRypJlsQoZ",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 24,
+     "prompt_tokens": 1073,
+     "total_tokens": 1097,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00017535,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00017535,
+      "upstream_inference_prompt_cost": 0.00016095,
+      "upstream_inference_completions_cost": 1.44e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420669-XrNkopl2M1UkiX9dA4FO",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-e865-7d02-aeb2-d135cf7a914a-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "DeepSeek AI model math April 30 2025"
+     },
+     "id": "call_8NleUHGw3tkTtywwr0Jm2YrF",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1073,
+    "output_tokens": 24,
+    "total_tokens": 1097,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[DeepSeek] Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd., doing business as DeepSeek, is a Chinese artificial intelligence (AI) company that develops open weights large language models (LLMs). Based in Hangzhou, Zhejiang, DeepSeek is owned and funded by High-Flyer, a Chinese hedge fund.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "284ebf5a-05b9-43a1-8634-8d7ca737de97",
+   "tool_call_id": "call_8NleUHGw3tkTtywwr0Jm2YrF",
+   "status": "success"
+  },
+  {
+   "content": "У меня нет информации о математически ориентированной модели ИИ компании DeepSeek, выпущенной 30 апреля 2025 года. \n\nFINAL: информация недоступна",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 34,
+     "prompt_tokens": 751,
+     "total_tokens": 785,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00013305,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00013305,
+      "upstream_inference_prompt_cost": 0.00011265,
+      "upstream_inference_completions_cost": 2.04e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_242228cf5a",
+    "id": "gen-1792420672-QFlRR1p6vqtv3GA0oIkw",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-f568-7081-bc5f-15482f45ab5d-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 751,
+    "output_tokens": 34,
+    "total_tokens": 785,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,186 @@
+{
+ "task": {
+  "id": "fresh-16",
+  "source": "fresh",
+  "question": "In ice hockey, which team won their first Walter Cup on May 20, 2026?",
+  "answer": "Montreal Victoire",
+  "evidence": "May 20: The Montreal Victoire defeat the Ottawa Charge three games to one in the 2026 Walter Cup Finals to win their first Walter Cup.",
+  "page": "2026 in ice hockey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_ice_hockey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The Montreal Victoire won their first Walter Cup on May 20, 2026. \n\nFINAL: Montreal Victoire",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-16",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 579,
+   "completion": 22,
+   "cost": 0.00010005
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-16",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 770,
+   "completion": 25,
+   "cost": 0.0001305
+  }
+ ],
+ "messages": [
+  {
+   "content": "In ice hockey, which team won their first Walter Cup on May 20, 2026?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "5d2e966e-bc60-4bbc-9a06-da9ecfd49f02"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 22,
+     "prompt_tokens": 579,
+     "total_tokens": 601,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00010005,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00010005,
+      "upstream_inference_prompt_cost": 8.685e-05,
+      "upstream_inference_completions_cost": 1.32e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420507-cS6OzvEKNrieY32CyFFV",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-7120-76e2-a513-13c43d6824e7-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Walter Cup winner May 20 2026"
+     },
+     "id": "call_DVSIdnNxBOQrW6VobmsdaQ7R",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 579,
+    "output_tokens": 22,
+    "total_tokens": 601,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Walter Cup] The Walter Cup (French: La coupe Walter) is the championship trophy awarded to the winner of the Walter Cup playoffs (French: Séries éliminatoires de la Coupe Walter de la LPHF), which culminate in an annual best-of-five series that determines the champion of the Professional Women's Hockey League (PWHL). The trophy is named in honour of PWHL co-founders and spouses Mark Walter and Kimbra Walter. Two teams have won the Cup since its establishment: the Minnesota Frost in both 2024 and 2025, and the Montreal Victoire in 2026. The Walter Cup is permanently on display at the Hockey Hall of Fame in Toronto. In contrast to the Stanley Cup, a replica of the Walter Cup is made for each year's champions.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "0e28b19a-6d7a-4cd5-a68b-8824cec16877",
+   "tool_call_id": "call_DVSIdnNxBOQrW6VobmsdaQ7R",
+   "status": "success"
+  },
+  {
+   "content": "The Montreal Victoire won their first Walter Cup on May 20, 2026. \n\nFINAL: Montreal Victoire",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 25,
+     "prompt_tokens": 770,
+     "total_tokens": 795,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001305,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001305,
+      "upstream_inference_prompt_cost": 0.0001155,
+      "upstream_inference_completions_cost": 1.5e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420526-9zPDYEm0cNVOH4WM541B",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-b7fc-7b52-90d3-305d114fb05a-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 770,
+    "output_tokens": 25,
+    "total_tokens": 795,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

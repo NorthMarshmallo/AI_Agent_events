@@ -1,0 +1,744 @@
+{
+ "task": {
+  "id": "fresh-4",
+  "source": "fresh",
+  "question": "What measure came into force in Victoria, Australia in January 2026?",
+  "answer": "A total fire ban",
+  "evidence": "9 January – A total fire ban comes into force in Victoria in response to an ongoing heatwave.",
+  "page": "2026 in Australia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "In January 2026, a total fire ban came into force in Victoria, Australia, in response to an ongoing heatwave. Additionally, a statewide emergency was declared due to wildfires that destroyed 130 structures. \n\nFINAL: Total fire ban and statewide emergency due to wildfires.",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 574,
+   "completion": 20,
+   "cost": 9.81e-05
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 666,
+   "completion": 34,
+   "cost": 0.0001203
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 725,
+   "completion": 23,
+   "cost": 0.00012255
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 820,
+   "completion": 36,
+   "cost": 0.0001446
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 957,
+   "completion": 26,
+   "cost": 0.00015915
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1573,
+   "completion": 21,
+   "cost": 0.00024855
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1629,
+   "completion": 37,
+   "cost": 0.00015135
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-4",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2058,
+   "completion": 58,
+   "cost": 0.0003435
+  }
+ ],
+ "messages": [
+  {
+   "content": "What measure came into force in Victoria, Australia in January 2026?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "a55afaa5-63e9-4538-8fd2-ad1b11062173"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 20,
+     "prompt_tokens": 574,
+     "total_tokens": 594,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 9.81e-05,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 9.81e-05,
+      "upstream_inference_prompt_cost": 8.61e-05,
+      "upstream_inference_completions_cost": 1.2e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420478-d7YmHJiDwUPz69uA45js",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15495-fdc6-7670-b404-1e578c28cdd7-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Victoria Australia January 2026 measure"
+     },
+     "id": "call_TsuvxnQEebgEC6C1rN3MvmHO",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 574,
+    "output_tokens": 20,
+    "total_tokens": 594,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[2026 local electoral calendar] This local electoral calendar for 2026 lists the subnational elections held, and scheduled to be held, in 2026. Referendums, recall and retention elections, and national by-elections (special elections) are also included. Specific dates are given where these are known.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "1b84b943-5549-4e80-a830-e879c2d3fdbf",
+   "tool_call_id": "call_TsuvxnQEebgEC6C1rN3MvmHO",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 34,
+     "prompt_tokens": 666,
+     "total_tokens": 700,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001203,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001203,
+      "upstream_inference_prompt_cost": 9.99e-05,
+      "upstream_inference_completions_cost": 2.04e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420480-Fold68kC5Y75EAl4Q08A",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-0684-7753-ba42-f9b7619eff30-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "2026 local electoral calendar",
+      "keywords": [
+       "Victoria",
+       "January 2026"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_rCaSo47rnMrXcJ2QVK4OlF40",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 666,
+    "output_tokens": 34,
+    "total_tokens": 700,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "Victoria, Nepean, Legislative Assembly by-election\nAustralia, Victoria, Legislative Assembly",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "14257884-d67b-4207-954a-d6ca51efeb0d",
+   "tool_call_id": "call_rCaSo47rnMrXcJ2QVK4OlF40",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 23,
+     "prompt_tokens": 725,
+     "total_tokens": 748,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00012255,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00012255,
+      "upstream_inference_prompt_cost": 0.00010875,
+      "upstream_inference_completions_cost": 1.38e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420498-tI4dJnn926wrDg34CPPP",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-4ad2-7e90-9f60-186ba896cc94-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Victoria Australia January 2026 new law or measure"
+     },
+     "id": "call_HW5mWai75YE254WOegP3VSjk",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 725,
+    "output_tokens": 23,
+    "total_tokens": 748,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[2026 local electoral calendar] This local electoral calendar for 2026 lists the subnational elections held, and scheduled to be held, in 2026. Referendums, recall and retention elections, and national by-elections (special elections) are also included. Specific dates are given where these are known.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "2cafd7ff-453c-4cdb-8bf8-14c37f90223b",
+   "tool_call_id": "call_HW5mWai75YE254WOegP3VSjk",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 36,
+     "prompt_tokens": 820,
+     "total_tokens": 856,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001446,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001446,
+      "upstream_inference_prompt_cost": 0.000123,
+      "upstream_inference_completions_cost": 2.16e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420516-4POlccM6LWAqG6Ji5EsJ",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-932a-7922-8074-b20b78acdbd9-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "2026 local electoral calendar",
+      "keywords": [
+       "measure",
+       "law",
+       "January 2026"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_ZPltNwomwYZaTDokMljrIR6U",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 820,
+    "output_tokens": 36,
+    "total_tokens": 856,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "Oklahoma, ballot measure\nAlaska, ballot measure\nOklahoma, ballot measures\nAlabama, Governor, Lieutenant Governor, Secretary of State, Attorney General, ballot measures, and local elections\nKansas, Governor, Lieutenant Governor, Secretary of State, Attorney General, and ballot measure\nSouth Dakota, Governor, Lieutenant Governor, Secretary of State, Attorney General, and ballot measure\nVermont, Governor, Lieutenant Governor, and ballot measure\nVirginia, ballot measures",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "c5430d15-bad9-4173-a5a9-bbc9147604e6",
+   "tool_call_id": "call_ZPltNwomwYZaTDokMljrIR6U",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 26,
+     "prompt_tokens": 957,
+     "total_tokens": 983,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00015915,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00015915,
+      "upstream_inference_prompt_cost": 0.00014355,
+      "upstream_inference_completions_cost": 1.56e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420518-mNWweqLteVsvndrSL048",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-98e6-7891-bfb8-e8fe92c754d4-0",
+   "tool_calls": [
+    {
+     "name": "ru_wiki_search",
+     "args": {
+      "query": "Виктория Австралия январь 2026"
+     },
+     "id": "call_F83DP5zpz17DQ2WRlZAJzofG",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 957,
+    "output_tokens": 26,
+    "total_tokens": 983,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Абрамченко, Виктория Валериевна] В Википедии есть статьи о других людях с такой фамилией, см. Абрамченко . Виктория Валерьевна Абрамченко Заместитель председателя Государственной Думы Федерального собрания Российской Федерации VIII и IX созывов с 11 сентября 2024 Предшественник Сергей Неверов Депутат Государственной думы Федерального собрания Российской Федерации VIII и IX созывов с 8 сентября 2024 Заместитель председателя правительства Российской Федерации 21 января 2020 — 7 мая 2024 Глава правительства Михаил Мишустин Андрей Белоусов ( и. о. ) Михаил Мишустин Президент Владимир Путин Преемник Дмитрий Патрушев Руководитель Росреестра 11 октября 2016 — 21 января 2020 Предшественник Игорь Васильев Андрей Приданкин ( врио ) Преемник Олег Скуфинский Рождение 22 мая 1975 ( 1975-05-22 ) (51 год) Черногорск , Хакасская АО , Красноярский край , РСФСР , СССР Партия беспартийная Образование РАГС Красноярский государственный аграрный университет Профессия экономист Деятельность политик , финансист Награды Военная служба Годы службы 1998—2005; (2011) 2016—2020 Принадлежность Росземкадастр ; Росреестр Звание Действительный государственный советник Российской Федерации 3 класса Медиафайлы на Викискладе Викто́рия Вале́риевна Абра́мченко (род. 22 мая 1975 , Черногорск , Хакасская АО , Красноярский край , РСФСР , СССР ) — российский государственный и политический деятель , экономист . Заместитель председателя Государственной Думы Федерального собрания Российской Федерации с 11 сентября 2024 года. Заместитель председателя правительства Российской Федерации с 21 января 2020 по 7 мая 2024 года [ 1 ] . Действительный государственный советник Российской Федерации 3 класса (2014). Куратор в Сибирском федеральном округе с 19 июля 2021 года [ 2 ] . Действительный государственный советник Российской Федерации 3-го класса [ 3 ] . Из-за вторжения России на Украину , находится под международными санкциями всех стран Евросоюза и некоторых других стран ➤ . Биография  Виктория Валериевна Абрамче",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "ru_wiki_search",
+   "id": "c6a6609d-8085-4e27-9a4b-a4965dd32cfd",
+   "tool_call_id": "call_F83DP5zpz17DQ2WRlZAJzofG",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 21,
+     "prompt_tokens": 1573,
+     "total_tokens": 1594,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00024855,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00024855,
+      "upstream_inference_prompt_cost": 0.00023595,
+      "upstream_inference_completions_cost": 1.26e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420536-yTohkxuYaEfjxsdxp2ph",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-e099-7713-87db-02b8dcd0dbf3-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Victoria Australia new laws January 2026"
+     },
+     "id": "call_c8O1d2QT7TC0KjmbNQ711oVD",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1573,
+    "output_tokens": 21,
+    "total_tokens": 1594,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[2026 in Australia] The following is a list of events including expected and scheduled events for the year 2026 in Australia.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "a40735c9-803c-4f14-bc01-372bd99aab34",
+   "tool_call_id": "call_c8O1d2QT7TC0KjmbNQ711oVD",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 37,
+     "prompt_tokens": 1629,
+     "total_tokens": 1666,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1536,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00015135,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00015135,
+      "upstream_inference_prompt_cost": 0.00012915,
+      "upstream_inference_completions_cost": 2.22e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420554-JboVP4Cj8AcIdl7keHCr",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15497-2799-7612-aa5b-dd3054e52b19-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "2026 in Australia",
+      "keywords": [
+       "Victoria",
+       "January 2026",
+       "law",
+       "measure"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_EuYCudjyaTt62lWpMF5uYjmA",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1629,
+    "output_tokens": 37,
+    "total_tokens": 1666,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1536,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "Premier of Victoria – Jacinta Allan until 28 July, then Ben Carroll\nGovernor of Victoria – Margaret Gardner\nAdministrator of the Northern Territory – Hugh Heggie until 30 January 2026, then David Connolly\nSix emergency warnings are issued in Victoria in response to bushfires.\nBlak Caucus, the Palestine Action Group and Jews Against the Occupation'48 file a challenge against new laws restricting protests in New South Wales at the Supreme Court of New South Wales.\n9 January – A total fire ban comes into force in Victoria in response to an ongoing heatwave.\n10 January – Wildfires destroy 130 structures in Victoria, prompting premier Jacinta Allan declares a statewide emergency.\n12 January – The National Socialist Network (NSN) announces it would disband in response to proposed new hate speech laws by the federal government which would make it easier to designate organisations as prohibited hate groups.\n21 January – National Party of Australia senators Bridget McKenzie, Ross Cadell and Susan McDonald quit the Ley shadow ministry after opposing the official Liberal–National Coalition position on the hate speech law.\nThe man is charged with one count of committing an unlawful act with intent to harm and one count of making explosives under suspicious circumstances.\nSix thousand protesters opposing Herzog's visit gather outside Sydney Town Hall organised by the Palestine Action Group and attempt to march in defiance of new protest laws in New South Wales, leading to scuffles with police.\nSeparate pro-Palestine and pro-Israel demonstrations are held outside an event hosting Herzog in Southbank, Victoria.\nThe Law Enforcement Conduct Commission launches an investigation into the conduct of New South Wales Police Force personnel during a pro-Palestine rally outside the Sydney Town Hall on 9 February.\nBecoming the first state in Australia to outlaw the slogans.\n30 March – Victoria Police fatally shoot Dezi Freeman, a sovereign citizen and fugitive who was on the run for seven m",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "22341eba-3443-46e0-8992-704bcac05dca",
+   "tool_call_id": "call_EuYCudjyaTt62lWpMF5uYjmA",
+   "status": "success"
+  },
+  {
+   "content": "In January 2026, a total fire ban came into force in Victoria, Australia, in response to an ongoing heatwave. Additionally, a statewide emergency was declared due to wildfires that destroyed 130 structures. \n\nFINAL: Total fire ban and statewide emergency due to wildfires.",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 58,
+     "prompt_tokens": 2058,
+     "total_tokens": 2116,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0003435,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0003435,
+      "upstream_inference_prompt_cost": 0.0003087,
+      "upstream_inference_completions_cost": 3.48e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_7b4718ccca",
+    "id": "gen-1792420556-ozbMCGiP4ZvAapJcoyXu",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15497-2d9e-7680-8fbc-ff0776907285-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2058,
+    "output_tokens": 58,
+    "total_tokens": 2116,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

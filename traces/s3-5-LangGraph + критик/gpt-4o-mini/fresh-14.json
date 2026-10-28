@@ -1,0 +1,64 @@
+{
+ "task": {
+  "id": "fresh-14",
+  "source": "fresh",
+  "question": "What city in Spain experienced a fatal incident during the 2026 FIFA World Cup final celebrations?",
+  "answer": "Ciudad Rodrigo",
+  "evidence": "20 July – One person is killed by a collapsed fountain in Ciudad Rodrigo during celebrations over the 2026 FIFA World Cup final.",
+  "page": "2026 in Spain",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The city in Spain that experienced a fatal incident during the 2026 FIFA World Cup final celebrations is Ciudad Rodrigo. FINAL: Ciudad Rodrigo",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-14",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 578,
+   "completion": 23,
+   "cost": 0.0001005
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-14",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 625,
+   "completion": 38,
+   "cost": 0.00011655
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-14",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 791,
+   "completion": 28,
+   "cost": 0.00013545
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-14",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 571,
+   "completion": 9,
+   "cost": 9.105e-05
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "Ciudad Rodrigo",
+   "supported": true,
+   "issue": ""
+  }
+ ]
+}

@@ -1,0 +1,228 @@
+{
+ "task": {
+  "id": "fresh-139",
+  "source": "fresh",
+  "question": "What is the name of DeepSeek's math-focused AI model, released on 30 April 2025?",
+  "answer": "DeepSeek-Prover-V2-671B",
+  "evidence": "On 30 April 2025, Deepseek released its math-focused Artificial Intelligence Model named \"DeepSeek-Prover-V2-671B\".",
+  "page": "DeepSeek (chatbot)",
+  "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)"
+ },
+ "answer": "I could not find any information about DeepSeek's math-focused AI model released on April 30, 2025. It appears that there are no relevant articles or sources available at this time. \n\nFINAL: No information found.",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 581,
+   "completion": 25,
+   "cost": 0.00010215
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 581,
+   "completion": 25,
+   "cost": 0.00010215
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 581,
+   "completion": 25,
+   "cost": 0.00010215
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 681,
+   "completion": 36,
+   "cost": 0.00012375
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 681,
+   "completion": 36,
+   "cost": 0.00012375
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 727,
+   "completion": 25,
+   "cost": 0.00012405
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 727,
+   "completion": 25,
+   "cost": 0.00012405
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 762,
+   "completion": 27,
+   "cost": 0.0001305
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 762,
+   "completion": 27,
+   "cost": 0.0001305
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1301,
+   "completion": 24,
+   "cost": 0.00020955
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1400,
+   "completion": 36,
+   "cost": 0.0001356
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 13,
+   "tools": 0,
+   "prompt": 979,
+   "completion": 33,
+   "cost": 0.00016665
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 681,
+   "completion": 36,
+   "cost": 0.00012375
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 727,
+   "completion": 25,
+   "cost": 0.00012405
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 762,
+   "completion": 27,
+   "cost": 0.0001305
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1301,
+   "completion": 47,
+   "cost": 0.00022335
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1301,
+   "completion": 17,
+   "cost": 0.00020535
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1920,
+   "completion": 36,
+   "cost": 0.0002136
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1966,
+   "completion": 23,
+   "cost": 0.0001647
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 1999,
+   "completion": 34,
+   "cost": 0.00022425
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "I could not find any information about DeepSeek's math-focused AI model released on April 30, 2025. It appears that there are no relevant articles or sources available at this time. \n\nFINAL: No information found."
+  },
+  {
+   "role": "vote",
+   "content": "I couldn't find any information about the name of DeepSeek's math-focused AI model released on April 30, 2025. \n\nFINAL: No information found."
+  },
+  {
+   "role": "vote",
+   "content": "У меня нет информации о математически ориентированной модели ИИ компании DeepSeek, выпущенной 30 апреля 2025 года. \n\nFINAL: Нет информации."
+  }
+ ]
+}

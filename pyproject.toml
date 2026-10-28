@@ -3,6 +3,10 @@ name = "ai-agent-events"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
+    "httpx>=0.28.1",
+    "langchain>=1.4.6",
+    "langchain-openai>=1.7.2",
+    "langgraph>=1.2.15",
     "matplotlib>=3.11.2",
     "numpy>=2.5.3",
     "pandas>=3.0.6",

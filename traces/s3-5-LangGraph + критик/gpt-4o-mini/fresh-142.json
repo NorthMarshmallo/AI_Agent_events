@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-142",
+  "source": "fresh",
+  "question": "Which anime series won Anime of the Year at the 2026 Crunchyroll Anime Awards?",
+  "answer": "My Hero Academia",
+  "evidence": "The most recent ceremony was the 10th ceremony, held on May 23, 2026, where the eighth and final season of My Hero Academia won the Anime of the Year award.",
+  "page": "Crunchyroll Anime Awards",
+  "url": "https://en.wikipedia.org/wiki/Crunchyroll_Anime_Awards",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "The eighth and final season of My Hero Academia won the Anime of the Year award at the 2026 Crunchyroll Anime Awards. \n\nFINAL: My Hero Academia (eighth and final season)",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-142",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 578,
+   "completion": 25,
+   "cost": 0.0001017
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-142",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 789,
+   "completion": 41,
+   "cost": 0.00014295
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-142",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 619,
+   "completion": 9,
+   "cost": 9.825e-05
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "My Hero Academia (eighth and final season)",
+   "supported": true,
+   "issue": ""
+  }
+ ]
+}

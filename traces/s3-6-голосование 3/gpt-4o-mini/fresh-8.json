@@ -1,0 +1,250 @@
+{
+ "task": {
+  "id": "fresh-8",
+  "source": "fresh",
+  "question": "Who was charged by the FSB in Russia on 29 July 2026?",
+  "answer": "Pavel Durov",
+  "evidence": "29 July – The FSB charges Telegram founder Pavel Durov of assisting Ukraine's \"terrorism\".",
+  "page": "2026 in Russia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I couldn't find any specific information regarding who was charged by the FSB in Russia on July 29, 2026. It appears that there may be no available records or news about this event. \n\nFINAL: No information found.",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 576,
+   "completion": 23,
+   "cost": 0.0001002
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 576,
+   "completion": 22,
+   "cost": 9.96e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 576,
+   "completion": 24,
+   "cost": 0.0001008
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 612,
+   "completion": 23,
+   "cost": 0.0001056
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 874,
+   "completion": 40,
+   "cost": 0.0001551
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1090,
+   "completion": 23,
+   "cost": 0.0001773
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 953,
+   "completion": 23,
+   "cost": 0.00015675
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1170,
+   "completion": 57,
+   "cost": 0.0001329
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1033,
+   "completion": 23,
+   "cost": 0.00016875
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1325,
+   "completion": 35,
+   "cost": 0.00013335
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1113,
+   "completion": 24,
+   "cost": 0.00010455
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1455,
+   "completion": 23,
+   "cost": 0.00015525
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1535,
+   "completion": 24,
+   "cost": 0.00013905
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 1877,
+   "completion": 48,
+   "cost": 0.00031035
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 917,
+   "completion": 34,
+   "cost": 0.00015795
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1013,
+   "completion": 28,
+   "cost": 0.00016875
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1359,
+   "completion": 41,
+   "cost": 0.00015165
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1462,
+   "completion": 32,
+   "cost": 0.0001425
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2174,
+   "completion": 28,
+   "cost": 0.0002373
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2520,
+   "completion": 39,
+   "cost": 0.0002382
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2621,
+   "completion": 32,
+   "cost": 0.00022995
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-8",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2200,
+   "completion": 36,
+   "cost": 0.0003516
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "I couldn't find any specific information regarding who was charged by the FSB in Russia on July 29, 2026. It appears that there may be no available records or news about this event. \n\nFINAL: No information found."
+  },
+  {
+   "role": "vote",
+   "content": "29 июля 2026 года Федеральная служба безопасности России (ФСБ) предъявила обвинения Ксении Карелиной. FINAL: Ксения Карелина"
+  },
+  {
+   "role": "vote",
+   "content": "On July 29, 2026, the FSB charged Telegram founder Pavel Durov with assisting Ukraine's \"terrorism\". \n\nFINAL: Pavel Durov"
+  }
+ ]
+}

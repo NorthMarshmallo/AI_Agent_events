@@ -1,0 +1,240 @@
+{
+ "task": {
+  "id": "fresh-15",
+  "source": "fresh",
+  "question": "Who was dismissed as Commander-in-Chief of the Armed Forces of Ukraine on 21 July 2026?",
+  "answer": "Oleksandr Syrskyi",
+  "evidence": "21 July – President Zelenskyy dismisses Oleksandr Syrskyi as Commander-in-Chief of the Armed Forces of Ukraine, replacing him with Mykhailo Drapatyi amidst protests demanding Syrskyi’s removal.",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "На данный момент нет информации о том, кто был уволен с должности Главнокомандующего Вооруженными силами Украины 21 июля 2026 года. Однако известно, что Министр обороны Украины Михаил Федоров был уволен 15 июля 2026 года. \n\nFINAL: Информации о увольнении Главнокомандующего не найдено.",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 580,
+   "completion": 29,
+   "cost": 0.0001044
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 580,
+   "completion": 29,
+   "cost": 0.0001044
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 580,
+   "completion": 29,
+   "cost": 0.0001044
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 929,
+   "completion": 42,
+   "cost": 0.00016455
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 929,
+   "completion": 37,
+   "cost": 0.00016155
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 929,
+   "completion": 37,
+   "cost": 0.00016155
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1037,
+   "completion": 35,
+   "cost": 0.00017655
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1003,
+   "completion": 33,
+   "cost": 0.00017025
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1003,
+   "completion": 27,
+   "cost": 0.00016665
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1204,
+   "completion": 39,
+   "cost": 0.000204
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1198,
+   "completion": 39,
+   "cost": 0.0002031
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1393,
+   "completion": 28,
+   "cost": 0.00013935
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1387,
+   "completion": 43,
+   "cost": 0.00014745
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1609,
+   "completion": 26,
+   "cost": 0.00015135
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1656,
+   "completion": 19,
+   "cost": 0.0001446
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1442,
+   "completion": 33,
+   "cost": 0.0001401
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 1702,
+   "completion": 20,
+   "cost": 0.0001521
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 1281,
+   "completion": 69,
+   "cost": 0.00023355
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1502,
+   "completion": 27,
+   "cost": 0.0001359
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 1642,
+   "completion": 41,
+   "cost": 0.0001653
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-15",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 1221,
+   "completion": 80,
+   "cost": 0.00023115
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "На данный момент нет информации о том, кто был уволен с должности Главнокомандующего Вооруженными силами Украины 21 июля 2026 года. Однако известно, что Министр обороны Украины Михаил Федоров был уволен 15 июля 2026 года. \n\nFINAL: Информации о увольнении Главнокомандующего не найдено."
+  },
+  {
+   "role": "vote",
+   "content": "Oleksandr Syrskyi was dismissed as Commander-in-Chief of the Armed Forces of Ukraine on 21 July 2026. FINAL: Oleksandr Syrskyi"
+  },
+  {
+   "role": "vote",
+   "content": "На данный момент нет информации о том, кто был уволен с поста Главнокомандующего Вооруженными Силами Украины 21 июля 2026 года. Однако известно, что 15 июля 2026 года был уволен министр обороны Украины Михаил Федоров. \n\nFINAL: Неизвестно."
+  }
+ ]
+}

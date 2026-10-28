@@ -1,0 +1,74 @@
+{
+ "task": {
+  "id": "fresh-0",
+  "source": "fresh",
+  "question": "On what date did Ukraine boycott the closing ceremony of the 2026 Winter Paralympics?",
+  "answer": "15 March",
+  "evidence": "15 March – Ukraine boycotts the closing ceremony of the 2026 Winter Paralympics in Italy in protest over Russian athletes being allowed to compete under the Russian flag after the lifting of sanctions imposed over the Russian invasion in 2022.",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Ukraine boycotted the closing ceremony of the 2026 Winter Paralympics on March 15, 2026. \n\nFINAL: March 15, 2026",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-0",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 578,
+   "completion": 25,
+   "cost": 0.0001017
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-0",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 974,
+   "completion": 36,
+   "cost": 0.0001677
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-0",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1407,
+   "completion": 40,
+   "cost": 0.00023505
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-0",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1844,
+   "completion": 36,
+   "cost": 0.0001926
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-0",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 970,
+   "completion": 9,
+   "cost": 0.0001509
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "March 15, 2026",
+   "supported": true,
+   "issue": ""
+  }
+ ]
+}

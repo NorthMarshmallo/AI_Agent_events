@@ -1,0 +1,248 @@
+{
+ "task": {
+  "id": "fresh-133",
+  "source": "fresh",
+  "question": "On what date did DeepSeek release its open-weight reasoning model DeepSeek-R1?",
+  "answer": "20 January 2025",
+  "evidence": "Released on 20 January 2025, DeepSeek-R1 surpassed ChatGPT as the most downloaded freeware app",
+  "page": "DeepSeek (chatbot)",
+  "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)"
+ },
+ "answer": "У меня нет информации о дате выпуска модели DeepSeek-R1. \n\nFINAL: информация недоступна",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 576,
+   "completion": 19,
+   "cost": 9.78e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 576,
+   "completion": 19,
+   "cost": 9.78e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 670,
+   "completion": 17,
+   "cost": 0.0001107
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 762,
+   "completion": 18,
+   "cost": 0.0001251
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 855,
+   "completion": 17,
+   "cost": 0.00013845
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 947,
+   "completion": 20,
+   "cost": 0.00015405
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1042,
+   "completion": 17,
+   "cost": 0.0001665
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 13,
+   "tools": 0,
+   "prompt": 621,
+   "completion": 26,
+   "cost": 0.00010875
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 670,
+   "completion": 19,
+   "cost": 0.0001119
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 764,
+   "completion": 20,
+   "cost": 0.0001266
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 859,
+   "completion": 21,
+   "cost": 0.00014145
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 955,
+   "completion": 17,
+   "cost": 0.00015345
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1047,
+   "completion": 19,
+   "cost": 0.00016845
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1141,
+   "completion": 19,
+   "cost": 0.00010575
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 15,
+   "tools": 0,
+   "prompt": 720,
+   "completion": 21,
+   "cost": 0.0001206
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 576,
+   "completion": 19,
+   "cost": 9.78e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 670,
+   "completion": 17,
+   "cost": 0.0001107
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 762,
+   "completion": 21,
+   "cost": 0.0001269
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 858,
+   "completion": 20,
+   "cost": 0.0001407
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 953,
+   "completion": 20,
+   "cost": 0.00015495
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1048,
+   "completion": 17,
+   "cost": 0.0001674
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 13,
+   "tools": 0,
+   "prompt": 627,
+   "completion": 24,
+   "cost": 0.00010845
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "У меня нет информации о дате выпуска модели DeepSeek-R1. \n\nFINAL: информация недоступна"
+  },
+  {
+   "role": "vote",
+   "content": "Извините, я не смог найти информацию о дате выпуска модели DeepSeek-R1. FINAL: информация недоступна."
+  },
+  {
+   "role": "vote",
+   "content": "К сожалению, у меня нет информации о дате выпуска модели DeepSeek-R1. FINAL: информация недоступна."
+  }
+ ]
+}

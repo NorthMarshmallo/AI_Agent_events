@@ -1,0 +1,754 @@
+{
+ "task": {
+  "id": "fresh-12",
+  "source": "fresh",
+  "question": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?",
+  "answer": "700,000",
+  "evidence": "The number of children getting support for special educational needs and disabilities has increased by 12% between January 2025 and January 2026, UK government figures indicate, with 700,000 children now receiving help.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Based on the information retrieved, I found that approximately one in five children receive support for special educational needs in the UK, but I could not find a specific figure for January 2026 specifically. The data available does not include a precise number for that specific date.\n\nFINAL: Данные о точном числе детей, получающих поддержку по SEND в Великобритании в январе 2026 года, недоступны.",
+ "calls": [
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-12",
+   "model": "claude-sonnet-4.6",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 1459,
+   "completion": 63,
+   "cost": 0.005322
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-12",
+   "model": "claude-sonnet-4.6",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1817,
+   "completion": 63,
+   "cost": 0.006396
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-12",
+   "model": "claude-sonnet-4.6",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1912,
+   "completion": 64,
+   "cost": 0.006696
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-12",
+   "model": "claude-sonnet-4.6",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 2008,
+   "completion": 63,
+   "cost": 0.006969
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-12",
+   "model": "claude-sonnet-4.6",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 2405,
+   "completion": 84,
+   "cost": 0.008475
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-12",
+   "model": "claude-sonnet-4.6",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2633,
+   "completion": 115,
+   "cost": 0.009624
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-12",
+   "model": "claude-sonnet-4.6",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 3182,
+   "completion": 121,
+   "cost": 0.011361
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-12",
+   "model": "claude-sonnet-4.6",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 3317,
+   "completion": 106,
+   "cost": 0.011541
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-12",
+   "model": "claude-sonnet-4.6",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2078,
+   "completion": 102,
+   "cost": 0.007764
+  }
+ ],
+ "messages": [
+  {
+   "content": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "e9a97ed5-06ba-4357-aefd-f61e364527c3"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 63,
+     "prompt_tokens": 1459,
+     "total_tokens": 1522,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.005322,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.005322,
+      "upstream_inference_prompt_cost": 0.004377,
+      "upstream_inference_completions_cost": 0.000945
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115642-UExEg12YlPFrDtQviRE7",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e05-5cc4-7d03-b8cf-10f1770376c0-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "children special educational needs disabilities UK January 2026"
+     },
+     "id": "toolu_016u7pW9aZmxaH8W5X2eK8be",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1459,
+    "output_tokens": 63,
+    "total_tokens": 1522,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Special education] Special education, also called SPED, special ed, aided education, alternative provision, exceptional student education, or special day class (SDC), is the practice of educating students in a way that accommodates their individual differences, disabilities, and special needs. This involves the individually planned and systematically monitored arrangement of teaching procedures, adapted equipment and materials, and accessible settings. These interventions are designed to help individuals with special needs achieve a higher level of personal self-sufficiency and success in school and in their community. This may not be available if the student were given only access to typical classroom education. Special education aims to provide accommodated education for students with disabilities such as learning disabilities or difficulties (such as dyslexia), communication disorders, emotional and behavioral disorders, physical disabilities (such as osteogenesis imperfecta, down syndrome, and muscular dystrophy), developmental disabilities (such as autism spectrum disorder, and intellectual disabilities) and other disabilities. Students with disabilities are likely to benefit from additional educational services such as different approaches to teaching, the use of technology, a specifically adapted teaching area, a resource room, or a separate classroom altogether. In the Western world, educators modify teaching methods, curriculum materials, and environments so that the maximum number of students are served in general education environments. Integration can reduce social stigmas and improve academic achievement for many students.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "deaee6c2-f087-4680-aaf4-a01fe0970aa3",
+   "tool_call_id": "toolu_016u7pW9aZmxaH8W5X2eK8be",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 63,
+     "prompt_tokens": 1817,
+     "total_tokens": 1880,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.006396,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.006396,
+      "upstream_inference_prompt_cost": 0.005451,
+      "upstream_inference_completions_cost": 0.000945
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115651-bJA4i5ndrMoKIEYhbSSx",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e05-7cc3-7380-ba67-c570e16f5d65-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "SEND children UK statistics January 2026 number"
+     },
+     "id": "toolu_01DXUpEZ1vDUzcTmT21hLoJH",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1817,
+    "output_tokens": 63,
+    "total_tokens": 1880,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[2026 in the United Kingdom] Events from the year 2026 in the United Kingdom.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "000e1f8c-d293-44c2-b7e0-2abcc040c0b0",
+   "tool_call_id": "toolu_01DXUpEZ1vDUzcTmT21hLoJH",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 64,
+     "prompt_tokens": 1912,
+     "total_tokens": 1976,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.006696,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.006696,
+      "upstream_inference_prompt_cost": 0.005736,
+      "upstream_inference_completions_cost": 0.00096
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115659-kN9FhoKcNwCoc5BGTxwl",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e05-9bee-7753-aec5-b3bc94d203ff-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "UK SEND support children 2026 statistics government report"
+     },
+     "id": "toolu_01DqgDRxppf2DbAK8LN1cSZA",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1912,
+    "output_tokens": 64,
+    "total_tokens": 1976,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[2026 in the United Kingdom] Events from the year 2026 in the United Kingdom.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "240e2c44-d843-4272-b486-a51660a7ab4e",
+   "tool_call_id": "toolu_01DqgDRxppf2DbAK8LN1cSZA",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 63,
+     "prompt_tokens": 2008,
+     "total_tokens": 2071,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.006969,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.006969,
+      "upstream_inference_prompt_cost": 0.006024,
+      "upstream_inference_completions_cost": 0.000945
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115667-8RFvZ0sGqNSnxX2DWOE2",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e05-be54-7892-975d-0e8f79f1e90d-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "special educational needs disabilities pupils England 2026 data"
+     },
+     "id": "toolu_01NZvVNLVj93iK9dpL23h691",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2008,
+    "output_tokens": 63,
+    "total_tokens": 2071,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Education in the Republic of Ireland] Education in the Republic of Ireland is a primary, secondary and higher (often known as \"third-level\" or tertiary) education. In recent years, further education has grown immensely, and Ireland now has one of the highest percentages of higher education completion in the EU, at 55% of working age adults, and 63% of adults aged 25–34 (as of 2023). Growth in the economy since the 1960s has driven much of the change in the education system. For universities there are student service fees (up to a maximum of €2,500), which students are required to pay on registration, to cover examinations, insurance and registration costs, although grants are available for low-income students. The Department of Education and Youth, under the control of the Minister for Education and Youth, is in overall control of policy, funding and direction, while other important organisations such as the National Qualifications Authority of Ireland, the Higher Education Authority, and on a local level the Education and Training Boards, are the only comprehensive system of government organisation. The Department of Further and Higher Education, Research, Innovation and Science, a department formed in August 2020, creates policy and controls funding for third-level institutions. Many other statutory and non-statutory bodies have a function in the education system. As of November 2025, the Minister for Education and Youth is Hildegarde Naughton and the Minister for Further and Higher Education, Research, Innovation and Science is James Lawless.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "2de037c0-07d0-458a-8496-b7a1fb7b6a4e",
+   "tool_call_id": "toolu_01NZvVNLVj93iK9dpL23h691",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 84,
+     "prompt_tokens": 2405,
+     "total_tokens": 2489,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.008475,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.008475,
+      "upstream_inference_prompt_cost": 0.007215,
+      "upstream_inference_completions_cost": 0.00126
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115686-79vQQdW0qx1Dc0QtPKGj",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-06a7-75c2-9c89-cb94f89404de-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "\"special educational needs\" UK \"1.7 million\" OR \"1.8 million\" OR \"1.9 million\" 2026"
+     },
+     "id": "toolu_0176uGyqJDAgrASAWW1AfErN",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2405,
+    "output_tokens": 84,
+    "total_tokens": 2489,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Special education in the United Kingdom] Special education in the United Kingdom, as an aspect of education, is a devolved matter, with each of the countries of the United Kingdom having separate systems under separate governments. The UK Government is responsible for England, whilst the Scottish Government, the Welsh Government and the Northern Ireland Executive are responsible for Scotland, Wales and Northern Ireland, respectively. Special education in Scotland is formally known as Additional Support Needs (ASN) or Additional Support for Learning (ASL) whereas in England it is usually referred to as 'Special educational needs' ('SEN'), or 'special educational needs and disabilities' ('SEND').",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "06ee66df-0a3f-4820-b497-2f45bee95ade",
+   "tool_call_id": "toolu_0176uGyqJDAgrASAWW1AfErN",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 115,
+     "prompt_tokens": 2633,
+     "total_tokens": 2748,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.009624,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.009624,
+      "upstream_inference_prompt_cost": 0.007899,
+      "upstream_inference_completions_cost": 0.001725
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115689-ourPchkEUnIhzdASjJVa",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-1155-7762-bbe1-2a4143f43f61-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Special education in the United Kingdom",
+      "keywords": [
+       "January 2026",
+       "children",
+       "number",
+       "support",
+       "SEND",
+       "statistics"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "toolu_01Uxvwa3GESBLEgwbYHUcedT",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2633,
+    "output_tokens": 115,
+    "total_tokens": 2748,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "Special education in Scotland is formally known as Additional Support Needs (ASN) or Additional Support for Learning (ASL) whereas in England it is usually referred to as 'Special educational needs' ('SEN'), or 'special educational needs and disabilities' ('SEND').\nSpecial educational provision means that the child needs support that would not generally be provided to a child of the same age in a mainstream school.\n== Support available ==\nThere are numerous types of support available depending on the child or young person's disability.\nSome support offered includes:\nSupport to communicate with other pupils\nSome support available for children with SEN include:\nThe current regulations for SEN are set out in the Children and Families Act 2014.\nDifferent levels of support are given to children depending on how much support is required.\nMost children with SEN are given school-level support, known as SEN support.\nAn Education, Health and Care Plan (EHCP) is given to children and young people who are considered to have complex needs.\nThey can be used for children and young people aged 2–25.\nChildren and young people with an EHCP are entitled to a personal budget.\nEvery school must have a Special Educational Needs Co-Ordinator (SENCO), who is responsible for overseeing the support of pupils with SEN.\nChildren with SEN in the UK can attend mainstream or special schools, but legally, local authorities are obliged to educate children in mainstream schools where possible.\nIf a family feels that their child is not receiving sufficient support, they may take their local authority to the Special Educational Needs and Disability Tribunal to appeal any decisions the local authority has made on a child's support.\nApproximately one in five children receive support for special education needs.\nA Local Offer (or LO) is a statement detailing the pattern of support which a local authority expects to be available for children and young people with special educational needs (SEN) and/or dis",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "04be70b2-439e-4001-a1d3-96dcdaa221f3",
+   "tool_call_id": "toolu_01Uxvwa3GESBLEgwbYHUcedT",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 121,
+     "prompt_tokens": 3182,
+     "total_tokens": 3303,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.011361,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.011361,
+      "upstream_inference_prompt_cost": 0.009546,
+      "upstream_inference_completions_cost": 0.001815
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115691-d6vkm0PS1cuG7jjxzslp",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-1b27-7881-9ca4-55bbd5c3e2dd-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Special education in the United Kingdom",
+      "keywords": [
+       "January 2026",
+       "1.6",
+       "1.7",
+       "1.8",
+       "million",
+       "receiving support"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "toolu_01VGwftnwJNkdFWA3EBvTzne",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 3182,
+    "output_tokens": 121,
+    "total_tokens": 3303,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "78a4a7f2-dd6d-4d13-ba76-462b16f5c495",
+   "tool_call_id": "toolu_01VGwftnwJNkdFWA3EBvTzne",
+   "status": "success"
+  },
+  {
+   "content": "Based on the information retrieved, I found that approximately one in five children receive support for special educational needs in the UK, but I could not find a specific figure for January 2026 specifically. The data available does not include a precise number for that specific date.\n\nFINAL: Данные о точном числе детей, получающих поддержку по SEND в Великобритании в январе 2026 года, недоступны.",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 102,
+     "prompt_tokens": 2078,
+     "total_tokens": 2180,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.007764,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.007764,
+      "upstream_inference_prompt_cost": 0.006234,
+      "upstream_inference_completions_cost": 0.00153
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115696-g0ykt7fhbnk3b2XAgl2F",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-2c53-7ba1-b310-0f1dd6f50675-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2078,
+    "output_tokens": 102,
+    "total_tokens": 2180,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

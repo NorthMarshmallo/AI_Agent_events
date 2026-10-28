@@ -1,0 +1,755 @@
+{
+ "task": {
+  "id": "fresh-18",
+  "source": "fresh",
+  "question": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?",
+  "answer": "13 July",
+  "evidence": "13 July – A Munich court imprisons an Iraqi couple who were members of Islamic State for enslaving and raping Yazidi girls.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "November 25, 2021",
+  "agent_ok": false
+ },
+ "answer": "Based on the information already retrieved, the Higher Regional Court of Munich convicted an Iraqi Kurdish couple (Twana H.S. and Asia R.A.) in July 2026 for enslaving, torturing, and sexually abusing two Yazidi girls. The exact date within July 2026 was not retrieved.\n\nFINAL: July 2026",
+ "calls": [
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-18",
+   "model": "claude-sonnet-4.6",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 1461,
+   "completion": 66,
+   "cost": 0.005373
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-18",
+   "model": "claude-sonnet-4.6",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1980,
+   "completion": 99,
+   "cost": 0.007425
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-18",
+   "model": "claude-sonnet-4.6",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 2161,
+   "completion": 108,
+   "cost": 0.008103
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-18",
+   "model": "claude-sonnet-4.6",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 2653,
+   "completion": 114,
+   "cost": 0.009669
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-18",
+   "model": "claude-sonnet-4.6",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 2964,
+   "completion": 72,
+   "cost": 0.009972
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-18",
+   "model": "claude-sonnet-4.6",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 3050,
+   "completion": 67,
+   "cost": 0.010155
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-18",
+   "model": "claude-sonnet-4.6",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 3570,
+   "completion": 71,
+   "cost": 0.011775
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-18",
+   "model": "claude-sonnet-4.6",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 3669,
+   "completion": 110,
+   "cost": 0.012657
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-18",
+   "model": "claude-sonnet-4.6",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2430,
+   "completion": 79,
+   "cost": 0.008475
+  }
+ ],
+ "messages": [
+  {
+   "content": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "3b3a7d4d-2cdc-4dea-9f9e-5c918ef0d5d8"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 66,
+     "prompt_tokens": 1461,
+     "total_tokens": 1527,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.005373,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.005373,
+      "upstream_inference_prompt_cost": 0.004383,
+      "upstream_inference_completions_cost": 0.00099
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115692-KN1W0Yjfj1MxW6aTKO9u",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-1cce-73a0-a776-2526866f1df4-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Munich court Iraqi couple enslaving raping Yazidi girls sentenced"
+     },
+     "id": "toolu_01MSBMLqTQUA2cDAp3anjpmv",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1461,
+    "output_tokens": 66,
+    "total_tokens": 1527,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking ethnoreligious group who practice Yazidism and who are indigenous to Kurdistan. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population had been displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of August 2014. During the Sinjar massacre, in which the Islamic State killed and abducted thousands of trapped Yazidis, the United States and the United Kingdom began carrying out airstrikes on the advancing Islamic State militants, while the People's Defense Units and the Kurdistan Workers' Party jointly formed a humanitarian corridor to evacuate the rest of the Yazidi refugees from the Sinjar Mountains. The United Nations and several other organizations, including the Council of Europe and the European Union, have designated the ant",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "9170dc9a-cb5a-49cf-a058-9423f5f33ce6",
+   "tool_call_id": "toolu_01MSBMLqTQUA2cDAp3anjpmv",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 99,
+     "prompt_tokens": 1980,
+     "total_tokens": 2079,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.007425,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.007425,
+      "upstream_inference_prompt_cost": 0.00594,
+      "upstream_inference_completions_cost": 0.001485
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115700-wqPInmVnUyDdizxDckV4",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-3c40-7ad2-80d6-070dfc951031-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Yazidi genocide",
+      "keywords": "Munich court Iraqi couple enslaved imprisoned sentenced",
+      "site": "en_wiki"
+     },
+     "id": "toolu_01GbCJZU2NXhc7gSeBGvdstC",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1980,
+    "output_tokens": 99,
+    "total_tokens": 2079,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "Error invoking tool 'page_find' with kwargs {'title': 'Yazidi genocide', 'keywords': 'Munich court Iraqi couple enslaved imprisoned sentenced', 'site': 'en_wiki'} with error:\n keywords: Input should be a valid list\n Please fix the error and try again.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "e5f5cdfa-9dd1-4b4b-891d-63ec704232eb",
+   "tool_call_id": "toolu_01GbCJZU2NXhc7gSeBGvdstC",
+   "status": "error"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 108,
+     "prompt_tokens": 2161,
+     "total_tokens": 2269,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.008103,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.008103,
+      "upstream_inference_prompt_cost": 0.006483,
+      "upstream_inference_completions_cost": 0.00162
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115701-Tm6kx0XYKx9hN0kbk9Hn",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-429a-78f3-abec-571f28f4f4e6-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Yazidi genocide",
+      "keywords": [
+       "Munich",
+       "Iraqi couple",
+       "enslaved",
+       "imprisoned",
+       "sentenced"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "toolu_01AQi5f655uaNWkXe7hFYwxC",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2161,
+    "output_tokens": 108,
+    "total_tokens": 2269,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "According to declarations, 971 Yazidi women and girls have been freed while 1,882 remained enslaved in Iraq and Syria.\nForced transfer of Yazidis from Mosul to Raqqah (Syria), trafficking, the sale and trade of women and children, and the use of sexually enslaved women as human shields by IS during the Mosul operations were also reported.\nA United Nations report issued on 2 October 2014, based on 500 interviews with witnesses, said that IS took 450–500 women and girls to Iraq's Nineveh region in August where \"150 unmarried girls and women, predominantly from the Yazidi and Christian communities, were reportedly transported to Syria, either to be enslaved to IS fighters as a 'reward' or to be sold as sex slaves\".\nSince 2014, efforts have been ongoing to rescue those enslaved by the Islamic State, including paying ransoms.\nFor over a year after the girls were first enslaved, Arab and Kurdish smugglers managed to free an average of 134 \"slaves\" a month.\nShe was sentenced to death in Iraq on 10 July 2024, as punishment for the crime of working with IS and for detaining Yazidi women in her house.\nOn 20 March Essid was pronounced guilty of genocide and crimes against humanity for having enslaved, tortured and inflicted \"serious bodily or mental harm constituting genocide\" against Yazidi women and children between 2014 and 2016.\nIn July 2026, the Higher Regional Court of Munich convicted an Iraqi Kurdish couple, identified as Twana H.S.\nwas sentenced to life imprisonment, and Asia R.A.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "fd287b13-9a84-40fa-8699-77f2bf14dcad",
+   "tool_call_id": "toolu_01AQi5f655uaNWkXe7hFYwxC",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 114,
+     "prompt_tokens": 2653,
+     "total_tokens": 2767,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.009669,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.009669,
+      "upstream_inference_prompt_cost": 0.007959,
+      "upstream_inference_completions_cost": 0.00171
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115840-zJiovnes9T4Yc9rPhYTM",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-4c0b-7182-8e94-356fc48cd9c1-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Yazidi genocide",
+      "keywords": [
+       "Munich",
+       "Twana",
+       "Asia",
+       "July 2026",
+       "sentenced",
+       "date"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "toolu_01EuJe1QkETee5g9yXJB6nti",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2653,
+    "output_tokens": 114,
+    "total_tokens": 2767,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "The United States Central Command also reported that a seventh airdrop was conducted and that to date, 114,000 meals and more than 35,000 gallons of water had been airdropped to the displaced Yazidis in the area.\nShe was sentenced to death in Iraq on 10 July 2024, as punishment for the crime of working with IS and for detaining Yazidi women in her house.\nIn July 2026, the Higher Regional Court of Munich convicted an Iraqi Kurdish couple, identified as Twana H.S.\nand Asia R.A., of genocide, crimes against humanity, and war crimes over the enslavement, torture, and sexual abuse of two Yazidi girls between 2015 and 2017.\nTwana H.S.\nwas sentenced to life imprisonment, and Asia R.A.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "4a5669fa-99d3-4c4c-bd4f-8a6e3933d984",
+   "tool_call_id": "toolu_01EuJe1QkETee5g9yXJB6nti",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 72,
+     "prompt_tokens": 2964,
+     "total_tokens": 3036,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.009972,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.009972,
+      "upstream_inference_prompt_cost": 0.008892,
+      "upstream_inference_completions_cost": 0.00108
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115843-4WC4mLZBqr6CfBiMFPlm",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e08-6a26-7e72-bdb6-37048fe9d77c-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Munich court Iraqi Kurdish couple Twana enslaving Yazidi girls exact date July 2026"
+     },
+     "id": "toolu_01HZXjCvoM246kNJVAcUKhMW",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2964,
+    "output_tokens": 72,
+    "total_tokens": 3036,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "721d3c24-ffeb-4d8b-951a-db7a3054c883",
+   "tool_call_id": "toolu_01HZXjCvoM246kNJVAcUKhMW",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 67,
+     "prompt_tokens": 3050,
+     "total_tokens": 3117,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.010155,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.010155,
+      "upstream_inference_prompt_cost": 0.00915,
+      "upstream_inference_completions_cost": 0.001005
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115845-47HBxik5hD5FTndqqNj9",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e08-7398-71e1-9fab-7ef751a8203e-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Munich Higher Regional Court Iraqi couple Yazidi girls genocide sentenced 2026"
+     },
+     "id": "toolu_01PUt9MPxoUGd5qkVRF89wyp",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 3050,
+    "output_tokens": 67,
+    "total_tokens": 3117,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking ethnoreligious group who practice Yazidism and who are indigenous to Kurdistan. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population had been displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of August 2014. During the Sinjar massacre, in which the Islamic State killed and abducted thousands of trapped Yazidis, the United States and the United Kingdom began carrying out airstrikes on the advancing Islamic State militants, while the People's Defense Units and the Kurdistan Workers' Party jointly formed a humanitarian corridor to evacuate the rest of the Yazidi refugees from the Sinjar Mountains. The United Nations and several other organizations, including the Council of Europe and the European Union, have designated the ant",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "e8509602-3686-4cc2-b1f8-0e69d0b07aff",
+   "tool_call_id": "toolu_01PUt9MPxoUGd5qkVRF89wyp",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 71,
+     "prompt_tokens": 3570,
+     "total_tokens": 3641,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.011775,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.011775,
+      "upstream_inference_prompt_cost": 0.01071,
+      "upstream_inference_completions_cost": 0.001065
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115848-Me2PklNVF031j3Gn1ddU",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e08-7f2f-7ae2-84c1-25f44c00c552-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "\"Munich\" \"Yazidi\" \"Iraqi couple\" enslaved raped sentenced imprisoned date"
+     },
+     "id": "toolu_01ArUE6Wf9PjPEC5RBBQ4n7D",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 3570,
+    "output_tokens": 71,
+    "total_tokens": 3641,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[2026 in Germany] Events in the year 2026 in Germany.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "5f9fb345-677b-482f-8474-bdbf9f48eeec",
+   "tool_call_id": "toolu_01ArUE6Wf9PjPEC5RBBQ4n7D",
+   "status": "success"
+  },
+  {
+   "content": "Based on the information already retrieved, the Higher Regional Court of Munich convicted an Iraqi Kurdish couple (Twana H.S. and Asia R.A.) in July 2026 for enslaving, torturing, and sexually abusing two Yazidi girls. The exact date within July 2026 was not retrieved.\n\nFINAL: July 2026",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 79,
+     "prompt_tokens": 2430,
+     "total_tokens": 2509,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.008475,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.008475,
+      "upstream_inference_prompt_cost": 0.00729,
+      "upstream_inference_completions_cost": 0.001185
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115853-mPVnBBMMqILYODZFC2GL",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e08-9192-74b0-8a45-2284433b715a-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2430,
+    "output_tokens": 79,
+    "total_tokens": 2509,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

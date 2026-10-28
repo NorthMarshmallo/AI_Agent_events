@@ -1,0 +1,64 @@
+{
+ "task": {
+  "id": "fresh-24",
+  "source": "fresh",
+  "question": "In the United Kingdom, what is declared across the whole of Wales in July 2026?",
+  "answer": "a drought",
+  "evidence": "2026 United Kingdom heatwaves: A drought is declared across the whole of Wales, with the country on course to experience its driest July for 190 years.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "In July 2026, the Environment Agency declared a drought across all of Wales due to severely dry conditions. \n\nFINAL: drought across all of Wales",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-24",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 578,
+   "completion": 20,
+   "cost": 9.87e-05
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-24",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1090,
+   "completion": 39,
+   "cost": 0.0001869
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-24",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1679,
+   "completion": 31,
+   "cost": 0.00019365
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-24",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 857,
+   "completion": 9,
+   "cost": 0.00013395
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "drought across all of Wales",
+   "supported": true,
+   "issue": ""
+  }
+ ]
+}

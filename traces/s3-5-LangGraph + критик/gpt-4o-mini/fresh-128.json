@@ -1,0 +1,62 @@
+{
+ "task": {
+  "id": "fresh-128",
+  "source": "fresh",
+  "question": "What is the name of the RFdiffusion2-designed metallohydrolase reported to have catalytic efficiency several orders of magnitude higher than earlier designed metallohydrolases?",
+  "answer": "ZETA_1",
+  "evidence": "One design, named ZETA_1, demonstrated high catalytic efficiency several orders of magnitude higher compared to previously designed metallohydrolases.",
+  "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/"
+ },
+ "answer": "The name of the RFdiffusion2-designed metallohydrolase reported to have catalytic efficiency several orders of magnitude higher than earlier designed metallohydrolases is ZETA_1. \n\nFINAL: ZETA_1",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-128",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 594,
+   "completion": 24,
+   "cost": 0.0001035
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-128",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1021,
+   "completion": 49,
+   "cost": 0.00018255
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-128",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1266,
+   "completion": 46,
+   "cost": 0.0002175
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-128",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 778,
+   "completion": 9,
+   "cost": 0.0001221
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "ZETA_1",
+   "supported": true,
+   "issue": ""
+  }
+ ]
+}

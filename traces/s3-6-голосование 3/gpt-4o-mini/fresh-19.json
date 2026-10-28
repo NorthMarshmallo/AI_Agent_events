@@ -1,0 +1,300 @@
+{
+ "task": {
+  "id": "fresh-19",
+  "source": "fresh",
+  "question": "In animation, what did Disney Branded Television rebrand itself as on June 15, 2026?",
+  "answer": "Disney Kids & Family",
+  "evidence": "June 15: Disney Branded Television (Parent company of Disney Television Animation) rebrands itself as \"Disney Kids & Family\".",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Disney Branded Television переименовался в \"Disney Television Animation\" 15 июня 2026 года. FINAL: Disney Television Animation",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 581,
+   "completion": 26,
+   "cost": 0.00010275
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 581,
+   "completion": 25,
+   "cost": 0.00010215
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 581,
+   "completion": 25,
+   "cost": 0.00010215
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 627,
+   "completion": 27,
+   "cost": 0.00011025
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1068,
+   "completion": 26,
+   "cost": 0.0001758
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1506,
+   "completion": 26,
+   "cost": 0.0001647
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 630,
+   "completion": 28,
+   "cost": 0.0001113
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 629,
+   "completion": 27,
+   "cost": 0.00011055
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1070,
+   "completion": 28,
+   "cost": 0.0001773
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1120,
+   "completion": 25,
+   "cost": 0.000183
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1072,
+   "completion": 28,
+   "cost": 0.0001776
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1155,
+   "completion": 23,
+   "cost": 0.00011025
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1709,
+   "completion": 25,
+   "cost": 0.00016575
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1762,
+   "completion": 27,
+   "cost": 0.0002805
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1241,
+   "completion": 22,
+   "cost": 0.00019935
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 2201,
+   "completion": 20,
+   "cost": 0.00021735
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2633,
+   "completion": 25,
+   "cost": 0.00024675
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 3070,
+   "completion": 20,
+   "cost": 0.0002805
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2146,
+   "completion": 24,
+   "cost": 0.0002115
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 3502,
+   "completion": 21,
+   "cost": 0.0003075
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2582,
+   "completion": 21,
+   "cost": 0.0003999
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 3081,
+   "completion": 27,
+   "cost": 0.00047835
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 3015,
+   "completion": 26,
+   "cost": 0.00031425
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2594,
+   "completion": 25,
+   "cost": 0.0004041
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1530,
+   "completion": 20,
+   "cost": 0.0001551
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 1962,
+   "completion": 20,
+   "cost": 0.0002007
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-19",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 1541,
+   "completion": 39,
+   "cost": 0.00025455
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "Извините, я не могу предоставить информацию о ребрендинге Disney Branded Television, так как у меня нет актуальных данных по этому вопросу. FINAL: Неизвестно."
+  },
+  {
+   "role": "vote",
+   "content": "Disney Branded Television переименовался в \"Disney Television Animation\" 15 июня 2026 года. FINAL: Disney Television Animation"
+  },
+  {
+   "role": "vote",
+   "content": "Disney Branded Television переименовался в Disney Television Animation 15 июня 2026 года. FINAL: Disney Television Animation"
+  }
+ ]
+}

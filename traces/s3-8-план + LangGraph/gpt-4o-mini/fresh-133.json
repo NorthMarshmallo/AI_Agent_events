@@ -1,0 +1,257 @@
+{
+ "task": {
+  "id": "fresh-133",
+  "source": "fresh",
+  "question": "On what date did DeepSeek release its open-weight reasoning model DeepSeek-R1?",
+  "answer": "20 January 2025",
+  "evidence": "Released on 20 January 2025, DeepSeek-R1 surpassed ChatGPT as the most downloaded freeware app",
+  "page": "DeepSeek (chatbot)",
+  "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)"
+ },
+ "answer": "DeepSeek-R1 was released in January 2025. \n\nFINAL: January 2025",
+ "calls": [
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 131,
+   "completion": 188,
+   "cost": 0.00013245
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 768,
+   "completion": 107,
+   "cost": 0.0001794
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "messages": 7,
+   "tools": 5,
+   "prompt": 2573,
+   "completion": 20,
+   "cost": 0.00039795
+  }
+ ],
+ "messages": [
+  {
+   "role": "plan",
+   "content": "1. **Инструмент**: web_search  \n   **Запрос**: \"DeepSeek-R1 release date\"  \n   **Ключевые слова**: \"DeepSeek\", \"open-weight reasoning model\", \"release date\"\n\n2. **Инструмент**: gen_search  \n   **Запрос**: \"DeepSeek-R1 model news\"  \n   **Ключевые слова**: \"DeepSeek\", \"DeepSeek-R1\", \"release\"\n\n3. **Инструмент**: ru_wiki_search  \n   **Запрос**: \"DeepSeek-R1\"  \n   **Ключевые слова**: \"DeepSeek\", \"модель\", \"дата выпуска\"\n\n4. **Инструмент**: page_find  \n   **Запрос**: \"DeepSeek-R1 release\"  \n   **Ключевые слова**: \"DeepSeek-R1\", \"release date\", \"model\""
+  },
+  {
+   "content": "On what date did DeepSeek release its open-weight reasoning model DeepSeek-R1?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "ab84116a-7de3-4261-95c2-e72aca771414"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 107,
+     "prompt_tokens": 768,
+     "total_tokens": 875,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001794,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001794,
+      "upstream_inference_prompt_cost": 0.0001152,
+      "upstream_inference_completions_cost": 6.42e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1793116157-D9bipNr2rk4EFxooLk9b",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-35e0-7843-ad01-09e91ec3d2bd-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "DeepSeek-R1 release date"
+     },
+     "id": "call_U1X76ikt8ILpuWSgNuV8s9qF",
+     "type": "tool_call"
+    },
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "DeepSeek-R1 model news"
+     },
+     "id": "call_mWaQPPwnMg5k0nGWCsBTYUd2",
+     "type": "tool_call"
+    },
+    {
+     "name": "ru_wiki_search",
+     "args": {
+      "query": "DeepSeek-R1"
+     },
+     "id": "call_qlamvBtz2oS4Kz1qc1fRUrG0",
+     "type": "tool_call"
+    },
+    {
+     "name": "page_find",
+     "args": {
+      "title": "DeepSeek-R1",
+      "keywords": [
+       "DeepSeek-R1",
+       "release date"
+      ],
+      "site": "ru_wiki"
+     },
+     "id": "call_HOZ0N2EywxJXEuxtp9KMzkAB",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 768,
+    "output_tokens": 107,
+    "total_tokens": 875,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[DeepSeek] Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd., doing business as DeepSeek, is a Chinese artificial intelligence (AI) company that develops open weights large language models (LLMs). Based in Hangzhou, Zhejiang, DeepSeek is owned and funded by High-Flyer, a Chinese hedge fund.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "58a4c5b3-0fc4-43d6-8b65-b9c36661c7d2",
+   "tool_call_id": "call_U1X76ikt8ILpuWSgNuV8s9qF",
+   "status": "success"
+  },
+  {
+   "content": "[StockWatch: Whirlwind Week for Nvidia as Investors Weigh DeepSeek’s Impact] Nvidia (NASDAQ: NVDA) CEO Jensen Huang’s meeting with President Donald Trump on Friday capped a whirlwind week for the increasingly life sciences-focused Silicon Valley microprocessing giant, in which its stock slid 16% as investors assessed how much of a competitive threat the company faces from the Chinese-owned artificial intelligence (AI) startup DeepSeek. “We appreciated the opportunity to meet with President Trump and discuss semiconductors and AI policy,” an Nvidia spokesperson said in a statement to Japan’s NHK and other news outlets. “Jensen and the President discussed the importance of strengthening U.S. technology and AI leadership.” Trump offered few specifics about his meeting with Huang, but said Friday : “He’s the biggest in the world in terms of chips. I can’t say what’s going to happen [except] we had a meeting. It was a good meeting.” “Eventually, we’re going to put tariffs on chips” as well as oil and gas, he continued: “That’ll happen fairly soon, I think around the 18th of February.” DeepSeek rattled Wall Street late last month by announcing it had gone live with its open source R1 model, one that it said rivaled the Model o1 of privately held OpenAI, the developer of ChatGPT. What especially shook investors was the prospect that China may have closed the tech gap with the United States in AI and especially DeepSeek’s claim that it developed an earlier model it launched in December, V3, for just $5.58 million—a far cry from the tens of billions and hundreds of billions of dollars that U.S. AI tech giants have committed toward expanding the technology. However, Palmer Luckey, co-founder of defense tech company Anduril Industries and co-founder of virtual reality company Oculus (acquired by Meta predecessor Facebook in 2017), dismissed that cost estimate as CCP [Chinese Communist Party] propaganda , telling Fox Business that much of DeepSeek’s infrastructure costs remain ",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "773a7155-b0ad-4371-b86b-241534a14477",
+   "tool_call_id": "call_mWaQPPwnMg5k0nGWCsBTYUd2",
+   "status": "success"
+  },
+  {
+   "content": "[DeepSeek] DeepSeek кит. упр. 杭州深度求索人工智能基础技术研究有限公司 англ. Hangzhou DeepSeek Artificial Intelligence Co., Ltd. Тип стартап и технологическая компания Дата основания 17 июля 2023 ; 3 года назад ( 2023-07-17 ) [ 1 ] Расположение Китай : Ханчжоу , Чжэцзян Ключевые фигуры Лян Вэньфэн Отрасль информационные технологии Продукция DeepSeek Материнская компания High-Flyer [вд] Сайт deepseek.com (англ.) (кит.) Медиафайлы на Викискладе DeepSeek ( кит. упр. 深度求索 , пиньинь Shēndù Qiúsuǒ ) — китайская компания, специализирующаяся на разработке семейства одноимённых больших языковых моделей . Компания базируется в Ханчжоу , основана и поддерживается китайским хедж-фондом High-Flyer [англ.] . DeepSeek выпустила свои модели с открытым исходным кодом . Версия DeepSeek-V3 считается сравнимой с другими языковыми моделями в 2024 году, такими как Qwen и ChatGPT . Выход модели DeepSeek-R1 в январе 2025 года вызвал кратковременное, но резкое снижение курсов акций мировых технологических компаний и дискуссии о переоценке инвестиций в ИИ ➤ . История  В 2015 году три инженера из Чжэцзянского университета основали компанию High-Flyer. Она использовала машинное обучение для торговли акциями [ 2 ] . В 2019 году создана компания High-Flyer AI, которая занималась исследованиями алгоритмов искусственного интеллекта [ 3 ] . К 2021 году все стратегии High-Flyer использовали ИИ, её сравнивали с Renaissance Technologies [ 4 ] . В апреле 2023 года High-Flyer объявила о новом проекте для исследования общего искусственного интеллекта . Он не будет использоваться для торговли акциями и отделится от финансового бизнеса High-Flyer [ 5 ] [ 6 ] . В мае 2023 года компания была запущена под названием DeepSeek, её возглавил один из сооснователей хедж-фонда High-Flyer Лян Вэньфэн [ 3 ] [ 6 ] . Разработка DeepSeek финансируется High-Flyer [ 4 ] [ 6 ] . Выпуск DeepSeek-V2 в мае 2024 года спровоцировал ценовую войну моделей искусственного интеллекта в Китае, так как предлагалась высокая производительность по низкой цен",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "ru_wiki_search",
+   "id": "6a9c3db8-b126-405f-b2c1-aab3821b291c",
+   "tool_call_id": "call_qlamvBtz2oS4Kz1qc1fRUrG0",
+   "status": "success"
+  },
+  {
+   "content": "Выход модели DeepSeek-R1 в январе 2025 года вызвал кратковременное, но резкое снижение курсов акций мировых технологических компаний и дискуссии о переоценке инвестиций в ИИ ➤ .\nGPU-часов) Стоимость (млн $) предварительная подготовка 2664 5,328 расширение контекста 119 0,24 тонкая настройка 5 0,01 общий 2788 5,576 R1  В ноябре 2024 года появилась DeepSeek-R1-Lite-Preview для решения задач, требующих логического вывода, математических рассуждений и решения проблем в реальном времени.\nВ январе 2025 года вышли DeepSeek-R1 и DeepSeek-R1-Zero, основанные на V3.\nВ мае 2025 года была выпущена улучшенная версия DeepSeek-R1, количество параметров которой выросло с 671 млрд до 685 млрд [ 40 ] .\nТакже вышла более легкая версия нейросети — DeepSeek-R1-0528-Qwen3-8B, созданная методом дистилляции с использованием языковой модели Qwen3-8B в качестве основы [ 41 ] .\nГазета The Indian Express отмечает, что распространены опасения по поводу времени запуска DeepSeek-R1 как сигнала Китая об уровне развития его ИИ.\nOpen-source DeepSeek-R1 uses pure reinforcement learning to match OpenAI o1 — at 95% less cost (амер.\nAnthology of DeepSeek papers (англ.) Рассуждающие модели первого поколения DeepSeek-R1-Zero и DeepSeek-R1 (англ.) Ссылки на внешние ресурсы В социальных сетях X Тематические сайты GitHub Словари и энциклопедии Большая датская В библиографических каталогах GND : 1355055415 Генеративный ИИ Концепции Автокодировщик Галлюцинация Глубокое обучение Генеративно-состязательная сеть Генеративный предварительно обученный трансформер Большая языковая модель Нейронная сеть Техника подсказок Стохастический попугай RAG RLHF Самоуправляемое обучение [укр.] Трансформер Вариационный автокодировщик [укр.] Зрительный трансформер [укр.] Векторное представление слов Модели Текст Alice AI BLOOM Character.ai Claude DBRX DeepSeek Ernie Bot Gemini ГигаЧат GPT 1 [англ.] 2 [англ.] 3 J ChatGPT 4 4o [англ.] 4.5 5 6 OpenAI o1 OpenAI o3 Granite Grok Kimi LaMDA LLaMA Microsoft 365 Copilot Mistral Large Pan",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "6404cbda-858d-4f52-9de8-e15eb82e9237",
+   "tool_call_id": "call_HOZ0N2EywxJXEuxtp9KMzkAB",
+   "status": "success"
+  },
+  {
+   "content": "DeepSeek-R1 was released in January 2025. \n\nFINAL: January 2025",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 20,
+     "prompt_tokens": 2573,
+     "total_tokens": 2593,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00039795,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00039795,
+      "upstream_inference_prompt_cost": 0.00038595,
+      "upstream_inference_completions_cost": 1.2e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1793116162-nXb2uX7LqrqQ7Mg7E55c",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-4a2d-7d81-b86b-0ef45c49aff8-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2573,
+    "output_tokens": 20,
+    "total_tokens": 2593,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

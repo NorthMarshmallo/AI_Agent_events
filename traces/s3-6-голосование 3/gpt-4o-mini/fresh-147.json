@@ -1,0 +1,90 @@
+{
+ "task": {
+  "id": "fresh-147",
+  "source": "fresh",
+  "question": "Which animation studio was granted the 2026 Princess of Asturias Award for Communication and Humanities?",
+  "answer": "Studio Ghibli",
+  "evidence": "In 2026 the Studio Ghibli was awarded the Princess of Asturias Award in the category of 'Communication and Humanities'.",
+  "page": "Studio Ghibli",
+  "url": "https://en.wikipedia.org/wiki/Studio_Ghibli",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "The animation studio granted the 2026 Princess of Asturias Award for Communication and Humanities is Studio Ghibli. \n\nFINAL: Studio Ghibli",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-147",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 577,
+   "completion": 25,
+   "cost": 0.00010155
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-147",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 577,
+   "completion": 25,
+   "cost": 0.00010155
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-147",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 577,
+   "completion": 25,
+   "cost": 0.00010155
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-147",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 960,
+   "completion": 30,
+   "cost": 0.000162
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-147",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 960,
+   "completion": 30,
+   "cost": 0.000162
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-147",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 960,
+   "completion": 30,
+   "cost": 0.000162
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "The animation studio granted the 2026 Princess of Asturias Award for Communication and Humanities is Studio Ghibli. \n\nFINAL: Studio Ghibli"
+  },
+  {
+   "role": "vote",
+   "content": "The animation studio granted the 2026 Princess of Asturias Award for Communication and Humanities is Studio Ghibli. \n\nFINAL: Studio Ghibli"
+  },
+  {
+   "role": "vote",
+   "content": "The animation studio awarded the 2026 Princess of Asturias Award for Communication and Humanities is Studio Ghibli. \n\nFINAL: Studio Ghibli"
+  }
+ ]
+}

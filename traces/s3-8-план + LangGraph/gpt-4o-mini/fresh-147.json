@@ -1,0 +1,200 @@
+{
+ "task": {
+  "id": "fresh-147",
+  "source": "fresh",
+  "question": "Which animation studio was granted the 2026 Princess of Asturias Award for Communication and Humanities?",
+  "answer": "Studio Ghibli",
+  "evidence": "In 2026 the Studio Ghibli was awarded the Princess of Asturias Award in the category of 'Communication and Humanities'.",
+  "page": "Studio Ghibli",
+  "url": "https://en.wikipedia.org/wiki/Studio_Ghibli",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "The animation studio awarded the 2026 Princess of Asturias Award for Communication and Humanities is Studio Ghibli. \n\nFINAL: Studio Ghibli",
+ "calls": [
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-147",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 132,
+   "completion": 227,
+   "cost": 0.000156
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-147",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 808,
+   "completion": 25,
+   "cost": 0.0001362
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-147",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1191,
+   "completion": 30,
+   "cost": 0.00019665
+  }
+ ],
+ "messages": [
+  {
+   "role": "plan",
+   "content": "1. **Инструмент**: web_search  \n   **Запрос**: \"2026 Princess of Asturias Award for Communication and Humanities animation studio\"  \n   **Ключевые слова**: \"Princess of Asturias\", \"2026\", \"animation studio\"\n\n2. **Инструмент**: ru_wiki_search  \n   **Запрос**: \"Принцесса Астурийская 2026 награда коммуникации и гуманитарным наукам\"  \n   **Ключевые слова**: \"Принцесса Астурийская\", \"2026\", \"анимационная студия\"\n\n3. **Инструмент**: gen_search  \n   **Запрос**: \"2026 Princess of Asturias Award animation studio\"  \n   **Ключевые слова**: \"Princess of Asturias\", \"2026\", \"animation\"\n\n4. **Инструмент**: page_find  \n   **Запрос**: \"2026 Princess of Asturias Award animation studio\"  \n   **Ключевые слова**: \"animation studio\", \"Princess of Asturias\", \"2026\""
+  },
+  {
+   "content": "Which animation studio was granted the 2026 Princess of Asturias Award for Communication and Humanities?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "1d9b792d-8b96-400f-a5ea-71a103dccffb"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 25,
+     "prompt_tokens": 808,
+     "total_tokens": 833,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001362,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001362,
+      "upstream_inference_prompt_cost": 0.0001212,
+      "upstream_inference_completions_cost": 1.5e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e52ea7ff4a",
+    "id": "gen-1793116212-xgry2o5aHtvJoWDEKieZ",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0e-0ca7-7333-ab0a-be261fae5d60-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "2026 Princess of Asturias Award for Communication and Humanities animation studio"
+     },
+     "id": "call_FJ5o6ekSzqEdcN2S149clc9Q",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 808,
+    "output_tokens": 25,
+    "total_tokens": 833,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Studio Ghibli] Studio Ghibli Inc. (Japanese: 株式会社スタジオジブリ, Hepburn: Kabushiki-gaisha Sutajio Jiburi) is a Japanese animation studio based in Koganei, Tokyo. It was founded on June 15, 1985, by directors Hayao Miyazaki and Isao Takahata and producer Toshio Suzuki, after acquiring Topcraft's assets. It has a strong presence in the animation industry and has expanded its portfolio to include various media such as short subjects, television commercials and two television films. The studio's work is highly acclaimed by both critics and audiences and has been recognized with numerous awards. Their mascot and most recognizable character is Totoro from the 1988 film My Neighbor Totoro, a giant spirit inspired by raccoon dogs (tanuki) and cats (neko). Among the studio's highest-grossing films are Princess Mononoke (1997), Spirited Away (2001), Howl's Moving Castle (2004), Ponyo (2008), and The Boy and the Heron (2023). Studio Ghibli's major awards across organizations include two Academy Awards for Best Animated Feature, one Golden Globe Award for Best Animated Feature Film, one BAFTA Award for Best Animated Film, one Golden Bear, three Animage Grand Prix awards and six Japan Academy Prizes. Four of the studio's films are among the ten highest-grossing Japanese feature films; Spirited Away is fourth, grossing ¥31.68 billion in Japan and over US$380 million worldwide. In 2026 the Studio Ghibli was awarded the Princess of Asturias Award in the category of \"Communication and Humanities\".",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "dc8b1bdc-3236-484c-b0aa-47886e81e20c",
+   "tool_call_id": "call_FJ5o6ekSzqEdcN2S149clc9Q",
+   "status": "success"
+  },
+  {
+   "content": "The animation studio awarded the 2026 Princess of Asturias Award for Communication and Humanities is Studio Ghibli. \n\nFINAL: Studio Ghibli",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 30,
+     "prompt_tokens": 1191,
+     "total_tokens": 1221,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00019665,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00019665,
+      "upstream_inference_prompt_cost": 0.00017865,
+      "upstream_inference_completions_cost": 1.8e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e52ea7ff4a",
+    "id": "gen-1793116214-cvWOirgfUGxcx2bhEbVC",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0e-14eb-7521-afac-5a3a1c76c62b-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1191,
+    "output_tokens": 30,
+    "total_tokens": 1221,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

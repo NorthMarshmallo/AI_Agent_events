@@ -1,0 +1,564 @@
+{
+ "task": {
+  "id": "fresh-153",
+  "source": "fresh",
+  "question": "На каком прыжке упала Аделия Петросян в произвольной программе на зимних Олимпийских играх 2026 года?",
+  "answer": "тулуп",
+  "evidence": "На олимпийском турнире 2026 в одиночном катании заняла итоговое 6 место, набрав в сумме 214,53 балла. Упала при исполнении четверного тулупа в произвольной программе.",
+  "page": "Петросян, Аделия Тиграновна",
+  "url": "https://ru.wikipedia.org/wiki/Петросян,_Аделия_Тиграновна",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "Аделия Петросян исполнила два чистых четверных риттбергера в произвольной программе на зимних Олимпийских играх 2026 года. \n\nFINAL: два чистых четверных риттбергера",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-153",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 592,
+   "completion": 34,
+   "cost": 0.0001092
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-153",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 636,
+   "completion": 22,
+   "cost": 0.0001086
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-153",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1374,
+   "completion": 57,
+   "cost": 0.0002403
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-153",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 2142,
+   "completion": 60,
+   "cost": 0.0002517
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-153",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 2440,
+   "completion": 54,
+   "cost": 0.0002352
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-153",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 3205,
+   "completion": 55,
+   "cost": 0.00033135
+  }
+ ],
+ "messages": [
+  {
+   "content": "На каком прыжке упала Аделия Петросян в произвольной программе на зимних Олимпийских играх 2026 года?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "09e4a68e-6491-4e77-8ecb-7053f1046175"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 34,
+     "prompt_tokens": 592,
+     "total_tokens": 626,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001092,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001092,
+      "upstream_inference_prompt_cost": 8.88e-05,
+      "upstream_inference_completions_cost": 2.04e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_01a55b9f25",
+    "id": "gen-1792420671-6qnBgxKilgrRDHSKhx4D",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-ef8a-7313-9f85-b0b24010f907-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Аделия Петросян произвольная программа зимние Олимпийские игры 2026"
+     },
+     "id": "call_LiJ4yQTFP0eV8NmiVYSD0rbi",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 592,
+    "output_tokens": 34,
+    "total_tokens": 626,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "897b0f6d-4635-44f1-be4a-f776bcb2ce59",
+   "tool_call_id": "call_LiJ4yQTFP0eV8NmiVYSD0rbi",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 22,
+     "prompt_tokens": 636,
+     "total_tokens": 658,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001086,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001086,
+      "upstream_inference_prompt_cost": 9.54e-05,
+      "upstream_inference_completions_cost": 1.32e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e9e83bb9dc",
+    "id": "gen-1792420673-xTItq6gD1IdGTxRZShp4",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-f6cf-7202-9c15-bd9edb8571d0-0",
+   "tool_calls": [
+    {
+     "name": "ru_wiki_search",
+     "args": {
+      "query": "Аделия Петросян"
+     },
+     "id": "call_7i8NhB6yZnhNmXmlBT7SxqK2",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 636,
+    "output_tokens": 22,
+    "total_tokens": 658,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Петросян, Аделия Тиграновна] В Википедии есть статьи о других людях с такой фамилией, см. Петросян . Аделия Петросян Петросян на пьедестале чемпионата России 2025 Персональные данные Гражданство Россия Дата рождения 5 июня 2007 ( 2007-06-05 ) [ 1 ] (19 лет) Место рождения Москва , Россия [ 1 ] Рост 152 см Тренер Инна Гончаренко Бывшие тренеры Этери Тутберидзе Сергей Дудаков Даниил Глейхенгауз Ирина Страхова Хореограф Анжелика Крылова Артём Федорченко Бывшие хореографы Даниил Глейхенгауз Ксения Поталицына Клуб МАФКК школа \"Хрустальный\" Место проживания Москва , Россия Награды Спортивные достижения 76 место в рейтинге ISU [ 2 ] Лучшие результаты по системе ИСУ [ 3 ] (на международных любительских соревнованиях) Сумма 214,53 ( ОИ 2026 ) Короткая 72,89 ( ОИ 2026 ) Произвольная 141,64 ( ОИ 2026 ) Карточка обновлялась последний раз: 1:48, 20 февраля 2026 (UTC) Медиафайлы на Викискладе Аде́лия Тигра́новна Петрося́н (род. 5 июня 2007 [ 1 ] , Москва [ 1 ] ) — российская фигуристка , выступающая в одиночном катании . Трёхкратная чемпионка России ( 2024 , 2025 , 2026 ), трёхкратная победительница финала Гран-при России (2023, 2024, 2025), бронзовый призёр чемпионата России ( 2022 ). Участница Олимпийских игр ( 2026 ). Обладательница двух медалей юниорской серии Гран-при : золото этапа в Словении 2021 года и бронзы этапа в Словакии 2021 года. Серебряный призер «Челленджера» Trialeti Trophy 2026 . Серебряный призёр первенства России среди юниоров (2021), победительница (2025) и серебряный призёр чемпионата России по прыжкам ( 2024 ). Мастер спорта России (2022) [ 4 ] . Спортивная карьера  Сезон 2019—2020  В сентябре заняла пятое место на первом этапе кубка России [ 5 ] . В октябре заняла третье место на втором этапе кубка России [ 6 ] . В начале февраля выступила на первенстве России по фигурному катанию в Саранске , в короткой программе занимала пятое место с 68,20 балла [ 7 ] , в произвольной программе седьмое место с 132,87 баллами, по итогу заняла шестое место с суммой балл",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "ru_wiki_search",
+   "id": "c86553f9-da54-42e5-bafb-72dafae4c3f4",
+   "tool_call_id": "call_7i8NhB6yZnhNmXmlBT7SxqK2",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 57,
+     "prompt_tokens": 1374,
+     "total_tokens": 1431,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0002403,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0002403,
+      "upstream_inference_prompt_cost": 0.0002061,
+      "upstream_inference_completions_cost": 3.42e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420675-E6OIiX9svoUGWOlibhG7",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-ff50-7e51-aa69-6f8f7508c792-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Петросян, Аделия Тиграновна",
+      "keywords": [
+       "прыжок",
+       "произвольная программа",
+       "Олимпийские игры 2026"
+      ],
+      "site": "ru_wiki"
+     },
+     "id": "call_WoBfBz4KdpLhPKRrnmHSDNve",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1374,
+    "output_tokens": 57,
+    "total_tokens": 1431,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "На этом соревновании был сделан четверной риттбергер , ранее одиночницами не исполнявшийся, и этот же прыжок был совершён в каскаде [ a ] [ 22 ] [ нет в источнике ] .\nВ ходе этого соревнования была чисто исполнена произвольная программа, включающая два чистых четверных риттбергера [ 24 ] .\nКороткая программа фигуристки была поставлена под три композиции Майкла Джексона: Earth Song , Billie Jean и They Don’t Care About Us , произвольная программа — под композицию «Февраль» Леонида Левашкевича [ 43 ] .\nПрограммы на сезон 2026/2027 ставила у Анжелики Крыловой (короткая программа) и Артёма Федорченко (произвольная программа) [ 74 ] [ 75 ] .\nПрограммы  Сезон Короткая программа Произвольная программа Показательные номера 2025—2026 [ 78 ] « Earth Song » « Billie Jean » « They Don’t Care About Us » Майкл Джексон хореограф-постановщик Даниил Глейхенгауз «Nocturne № 1» Джон Батист «Yo soy Maria» Астор Пьяццолла в исполнении Мильвы хореограф-постановщик Даниил Глейхенгауз « Waka Waka » « Hips Don’t Lie » Шакира хореограф-постановщик Даниил Глейхенгауз «Февраль» Леонид Левашкевич хореограф-постановщик Даниил Глейхенгауз 2024—2025 «Интерлюдия» Эрика Лундмоен хореограф-постановщик Даниил Глейхенгауз [ 79 ] «Nocturne № 1» Джон Батист «Yo soy Maria» Астор Пьяццолла в исполнении Мильвы хореограф-постановщик Даниил Глейхенгауз [ 80 ] « All I Want for Christmas Is You » Мэрайя Кэри 2023—2024 « Earth Song » « Billie Jean » « They Don’t Care About Us » Майкл Джексон хореограф-постановщик Даниил Глейхенгауз [ 81 ] «Февраль» Леонид Левашкевич хореограф-постановщик Даниил Глейхенгауз [ 82 ] « Mad World » Tears For Fears в исполнении 2WEI, Томми Проффитт, Флёри «Снег» Елена Ваенга 2022—2023 « Voilà » Барбара Прави хореография: Даниил Глейхенгауз «The Locked Room» Jun Miyake «Vie-Ni» Эннио Морриконе «Mechanisms» Кирилл Рихтер хореография: Даниил Глейхенгауз « Цыганочка » Ансамбль русских народных инструментов « No Time to Die » Билли Айлиш « Paint It Black » The Rolling Stones в исполнении С",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "d2ae24e6-624d-4329-b579-81ddac602e65",
+   "tool_call_id": "call_WoBfBz4KdpLhPKRrnmHSDNve",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 60,
+     "prompt_tokens": 2142,
+     "total_tokens": 2202,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1408,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0002517,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0002517,
+      "upstream_inference_prompt_cost": 0.0002157,
+      "upstream_inference_completions_cost": 3.6e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420677-VOO6IyIWoFS9Q64cvZTP",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15499-087d-74d0-8399-def77ca5a57c-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Петросян, Аделия Тиграновна",
+      "keywords": [
+       "четверной риттбергер",
+       "прыжок",
+       "Олимпийские игры 2026"
+      ],
+      "site": "ru_wiki"
+     },
+     "id": "call_X89IBBeLNRX5w4Vb4wby9GC6",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2142,
+    "output_tokens": 60,
+    "total_tokens": 2202,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1408,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "На этом соревновании был сделан четверной риттбергер , ранее одиночницами не исполнявшийся, и этот же прыжок был совершён в каскаде [ a ] [ 22 ] [ нет в источнике ] .\nТехника  С той или иной степенью успешности Петросян исполняла четверной риттбергер на различных соревнованиях.\nВ частности, на чемпионате России 2022 сначала был исполнен каскад 4Lo+2T с GOE 1,95, а следом за этим сольный четверной риттбергер (4Lo) с GOE 2,85 [ 76 ] .\n↑ 1 2 Фигуристка Аделия Петросян впервые в истории исполнила четверной риттбергер (рус.) .\n↑ Петросян исполнила тройной аксель и каскад с четверным тулупом в произвольной программе на Кубке Первого канала, но сдвоила второй четверной прыжок (рус.) .",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "4843d01b-cb95-468f-ab48-81fb1990eb52",
+   "tool_call_id": "call_X89IBBeLNRX5w4Vb4wby9GC6",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 54,
+     "prompt_tokens": 2440,
+     "total_tokens": 2494,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 2176,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0002352,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0002352,
+      "upstream_inference_prompt_cost": 0.0002028,
+      "upstream_inference_completions_cost": 3.24e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420680-XldcvkLK6HkO6BSWdOkA",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15499-11b5-70c1-914c-9bd26d9e1e26-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Петросян, Аделия Тиграновна",
+      "keywords": [
+       "прыжок",
+       "произвольная программа",
+       "Олимпийские игры"
+      ],
+      "site": "ru_wiki"
+     },
+     "id": "call_ciBUDdDAEApvXntAk3xCiymG",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2440,
+    "output_tokens": 54,
+    "total_tokens": 2494,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 2176,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "На этом соревновании был сделан четверной риттбергер , ранее одиночницами не исполнявшийся, и этот же прыжок был совершён в каскаде [ a ] [ 22 ] [ нет в источнике ] .\nВ ходе этого соревнования была чисто исполнена произвольная программа, включающая два чистых четверных риттбергера [ 24 ] .\nКороткая программа фигуристки была поставлена под три композиции Майкла Джексона: Earth Song , Billie Jean и They Don’t Care About Us , произвольная программа — под композицию «Февраль» Леонида Левашкевича [ 43 ] .\nПрограммы на сезон 2026/2027 ставила у Анжелики Крыловой (короткая программа) и Артёма Федорченко (произвольная программа) [ 74 ] [ 75 ] .\nПрограммы  Сезон Короткая программа Произвольная программа Показательные номера 2025—2026 [ 78 ] « Earth Song » « Billie Jean » « They Don’t Care About Us » Майкл Джексон хореограф-постановщик Даниил Глейхенгауз «Nocturne № 1» Джон Батист «Yo soy Maria» Астор Пьяццолла в исполнении Мильвы хореограф-постановщик Даниил Глейхенгауз « Waka Waka » « Hips Don’t Lie » Шакира хореограф-постановщик Даниил Глейхенгауз «Февраль» Леонид Левашкевич хореограф-постановщик Даниил Глейхенгауз 2024—2025 «Интерлюдия» Эрика Лундмоен хореограф-постановщик Даниил Глейхенгауз [ 79 ] «Nocturne № 1» Джон Батист «Yo soy Maria» Астор Пьяццолла в исполнении Мильвы хореограф-постановщик Даниил Глейхенгауз [ 80 ] « All I Want for Christmas Is You » Мэрайя Кэри 2023—2024 « Earth Song » « Billie Jean » « They Don’t Care About Us » Майкл Джексон хореограф-постановщик Даниил Глейхенгауз [ 81 ] «Февраль» Леонид Левашкевич хореограф-постановщик Даниил Глейхенгауз [ 82 ] « Mad World » Tears For Fears в исполнении 2WEI, Томми Проффитт, Флёри «Снег» Елена Ваенга 2022—2023 « Voilà » Барбара Прави хореография: Даниил Глейхенгауз «The Locked Room» Jun Miyake «Vie-Ni» Эннио Морриконе «Mechanisms» Кирилл Рихтер хореография: Даниил Глейхенгауз « Цыганочка » Ансамбль русских народных инструментов « No Time to Die » Билли Айлиш « Paint It Black » The Rolling Stones в исполнении С",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "462469a6-e262-4cca-bb00-e38e8d90b1b5",
+   "tool_call_id": "call_ciBUDdDAEApvXntAk3xCiymG",
+   "status": "success"
+  },
+  {
+   "content": "Аделия Петросян исполнила два чистых четверных риттбергера в произвольной программе на зимних Олимпийских играх 2026 года. \n\nFINAL: два чистых четверных риттбергера",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 55,
+     "prompt_tokens": 3205,
+     "total_tokens": 3260,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 2432,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00033135,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00033135,
+      "upstream_inference_prompt_cost": 0.00029835,
+      "upstream_inference_completions_cost": 3.3e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420682-K4aiZ4Py5Pe6Q9pRuZ53",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15499-1973-7c80-80ae-c028c1539802-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 3205,
+    "output_tokens": 55,
+    "total_tokens": 3260,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 2432,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

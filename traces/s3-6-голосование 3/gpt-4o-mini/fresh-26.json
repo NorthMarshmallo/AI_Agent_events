@@ -1,0 +1,160 @@
+{
+ "task": {
+  "id": "fresh-26",
+  "source": "fresh",
+  "question": "In Japan, how many people were injured in the leisure boat collision near Haneda Airport on August 24, 2026?",
+  "answer": "nine",
+  "evidence": "August 24 – A leisure boat collides with a seawall near Haneda Airport, injuring nine people.",
+  "page": "2026 in Japan",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "On August 24, 2026, a leisure boat collision near Haneda Airport resulted in nine people being injured. \n\nFINAL: 9",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-26",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 585,
+   "completion": 29,
+   "cost": 0.00010515
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-26",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 585,
+   "completion": 28,
+   "cost": 0.00010455
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-26",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 585,
+   "completion": 30,
+   "cost": 0.00010575
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-26",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1054,
+   "completion": 26,
+   "cost": 0.0001737
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-26",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1408,
+   "completion": 25,
+   "cost": 0.0001494
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-26",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1457,
+   "completion": 39,
+   "cost": 0.00013635
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-26",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1064,
+   "completion": 27,
+   "cost": 0.0001758
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-26",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1553,
+   "completion": 28,
+   "cost": 0.00014415
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-26",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1115,
+   "completion": 39,
+   "cost": 0.00011385
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-26",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1246,
+   "completion": 30,
+   "cost": 0.0002049
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-26",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1065,
+   "completion": 28,
+   "cost": 0.00017655
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-26",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1117,
+   "completion": 40,
+   "cost": 0.00019155
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-26",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1249,
+   "completion": 33,
+   "cost": 0.00013035
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "On August 24, 2026, a leisure boat collision near Haneda Airport resulted in nine people being injured. \n\nFINAL: 9"
+  },
+  {
+   "role": "vote",
+   "content": "На leisure boat collision у Haneda Airport 24 августа 2026 года пострадали девять человек. \n\nFINAL: 9"
+  },
+  {
+   "role": "vote",
+   "content": "On August 24, 2026, a leisure boat collided with a seawall near Haneda Airport, injuring nine people. \n\nFINAL: 9"
+  }
+ ]
+}

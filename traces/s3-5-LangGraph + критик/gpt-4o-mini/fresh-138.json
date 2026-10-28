@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-138",
+  "source": "fresh",
+  "question": "Which two scientists received the 2025 ACM A.M. Turing Award, announced in March 2026, for their role in quantum information science?",
+  "answer": "Charles H. Bennett, Gilles Brassard",
+  "evidence": "As of 2026, 81 people have been awarded the prize, with the most recent recipients being Charles H. Bennett and Gilles Brassard, who won in 2025.",
+  "page": "Turing Award",
+  "url": "https://en.wikipedia.org/wiki/Turing_Award",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "The two scientists who received the 2025 ACM A.M. Turing Award for their role in quantum information science are Charles H. Bennett and Gilles Brassard. \n\nFINAL: Charles H. Bennett and Gilles Brassard",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-138",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 590,
+   "completion": 25,
+   "cost": 0.0001035
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-138",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 950,
+   "completion": 45,
+   "cost": 0.0001695
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-138",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 615,
+   "completion": 9,
+   "cost": 9.765e-05
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "Charles H. Bennett and Gilles Brassard",
+   "supported": true,
+   "issue": ""
+  }
+ ]
+}

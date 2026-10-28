@@ -1,0 +1,176 @@
+{
+ "first": {
+  "model": "openai/gpt-4o-mini",
+  "messages": [
+   {
+    "role": "system",
+    "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса, имена и названия пиши как в источнике."
+   },
+   {
+    "role": "user",
+    "content": "What is 2 + 2? Reply with the number only."
+   }
+  ],
+  "temperature": 0.0,
+  "tools": [
+   {
+    "type": "function",
+    "function": {
+     "name": "web_search",
+     "description": "Ищет статью в англоязычной Википедии и возвращает её вступление",
+     "parameters": {
+      "properties": {
+       "query": {
+        "description": "короткий поисковый запрос: имя, название, термин",
+        "title": "Query",
+        "type": "string"
+       }
+      },
+      "required": [
+       "query"
+      ],
+      "title": "SearchArgs",
+      "type": "object"
+     }
+    }
+   },
+   {
+    "type": "function",
+    "function": {
+     "name": "ru_wiki_search",
+     "description": "Ищет статью в русской Википедии и возвращает название и начало статьи. Запрос пишется по-русски, продолжение статьи ищи через page_find с site=ru_wiki",
+     "parameters": {
+      "properties": {
+       "query": {
+        "description": "короткий поисковый запрос: имя, название, термин",
+        "title": "Query",
+        "type": "string"
+       }
+      },
+      "required": [
+       "query"
+      ],
+      "title": "SearchArgs",
+      "type": "object"
+     }
+    }
+   },
+   {
+    "type": "function",
+    "function": {
+     "name": "gen_search",
+     "description": "Ищет статью на GEN (Genetic Engineering & Biotechnology News) про биотех и AI в биологии и возвращает название и начало статьи. Запрос пишется по-английски, продолжение статьи ищи через page_find с site=gen",
+     "parameters": {
+      "properties": {
+       "query": {
+        "description": "короткий поисковый запрос: имя, название, термин",
+        "title": "Query",
+        "type": "string"
+       }
+      },
+      "required": [
+       "query"
+      ],
+      "title": "SearchArgs",
+      "type": "object"
+     }
+    }
+   },
+   {
+    "type": "function",
+    "function": {
+     "name": "espn_search",
+     "description": "Ищет спортивную новость на ESPN и возвращает название и начало статьи. Запрос пишется по-английски, продолжение статьи ищи через page_find с site=espn",
+     "parameters": {
+      "properties": {
+       "query": {
+        "description": "короткий поисковый запрос: имя, название, термин",
+        "title": "Query",
+        "type": "string"
+       }
+      },
+      "required": [
+       "query"
+      ],
+      "title": "SearchArgs",
+      "type": "object"
+     }
+    }
+   },
+   {
+    "type": "function",
+    "function": {
+     "name": "page_find",
+     "description": "Ищет предложения с ключевыми словами в полном тексте статьи, которую нашёл инструмент поиска. Нужна, когда во вступлении из поиска ответа нет: передай название статьи из квадратных скобок и сайт, где она найдена",
+     "parameters": {
+      "properties": {
+       "title": {
+        "description": "название статьи из квадратных скобок в ответе поиска, например 2026 in Japan",
+        "title": "Title",
+        "type": "string"
+       },
+       "keywords": {
+        "description": "ключевые слова для поиска предложений в статье: имена, места, даты, например ['Haneda', 'August 24']",
+        "items": {
+         "type": "string"
+        },
+        "title": "Keywords",
+        "type": "array"
+       },
+       "site": {
+        "default": "en_wiki",
+        "description": "откуда статья: en_wiki после web_search, ru_wiki после ru_wiki_search, gen после gen_search, espn после espn_search",
+        "enum": [
+         "en_wiki",
+         "ru_wiki",
+         "gen",
+         "espn"
+        ],
+        "title": "Site",
+        "type": "string"
+       }
+      },
+      "required": [
+       "title",
+       "keywords"
+      ],
+      "title": "FindArgs",
+      "type": "object"
+     }
+    }
+   }
+  ]
+ },
+ "calls": [
+  {
+   "tag": "пустой запрос: ReAct + счётчик HTTP",
+   "qid": "probe",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 614,
+   "completion": 30,
+   "cost": 0.0001101
+  },
+  {
+   "tag": "пустой запрос: ReAct + счётчик HTTP",
+   "qid": "probe",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 654,
+   "completion": 17,
+   "cost": 0.0001083
+  },
+  {
+   "tag": "пустой запрос: ReAct + счётчик HTTP",
+   "qid": "probe",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 869,
+   "completion": 5,
+   "cost": 0.00013335
+  }
+ ]
+}

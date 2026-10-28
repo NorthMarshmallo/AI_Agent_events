@@ -1,0 +1,156 @@
+{
+ "task": {
+  "id": "fresh-136",
+  "source": "fresh",
+  "question": "Which university's team won the 2025 ICPC World Finals in Baku?",
+  "answer": "Saint Petersburg State University",
+  "evidence": "139 teams competed to be World Champion. The winners were Saint Petersburg State University team named Polar Bear Transform. They solved 11 out of 12 problems.",
+  "page": "International Collegiate Programming Contest",
+  "url": "https://en.wikipedia.org/wiki/International_Collegiate_Programming_Contest",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "The team from Saint Petersburg State University, named Polar Bear Transform, won the 2025 ICPC World Finals in Baku. \n\nFINAL: Saint Petersburg State University",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-136",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 576,
+   "completion": 22,
+   "cost": 9.96e-05
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-136",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 762,
+   "completion": 35,
+   "cost": 0.0001353
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-136",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1087,
+   "completion": 35,
+   "cost": 0.00018405
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-136",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 756,
+   "completion": 41,
+   "cost": 0.000138
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-136",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 636,
+   "completion": 22,
+   "cost": 0.0001086
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-136",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 822,
+   "completion": 35,
+   "cost": 0.0001443
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-136",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1147,
+   "completion": 34,
+   "cost": 0.00019245
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-136",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 756,
+   "completion": 22,
+   "cost": 0.0001266
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-136",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 617,
+   "completion": 22,
+   "cost": 0.00010575
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-136",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 803,
+   "completion": 35,
+   "cost": 0.00014145
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-136",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1128,
+   "completion": 34,
+   "cost": 0.0001896
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-136",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 756,
+   "completion": 22,
+   "cost": 0.0001266
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "Saint Petersburg State University",
+   "supported": false,
+   "issue": "The findings do not confirm that Saint Petersburg State University won the 2025 ICPC World Finals; they mention Saint Petersburg ITMO as a winner in previous years."
+  },
+  {
+   "round": 2,
+   "answer": "Saint Petersburg State University",
+   "supported": false,
+   "issue": "Нет информации о победителе 2025 года в находках."
+  },
+  {
+   "round": 3,
+   "answer": "Saint Petersburg State University",
+   "supported": false,
+   "issue": "Нет информации о победителе 2025 года в находках."
+  }
+ ]
+}

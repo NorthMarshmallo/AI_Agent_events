@@ -1,0 +1,90 @@
+{
+ "task": {
+  "id": "fresh-9",
+  "source": "fresh",
+  "question": "What city hosted the 2026 BWF World Championships in sports in August?",
+  "answer": "New Delhi",
+  "evidence": "August 17 – 23 : 2026 BWF World Championships in New Delhi, India",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Zhengzhou",
+  "agent_ok": true
+ },
+ "answer": "The city that hosted the 2026 BWF World Championships in August is New Delhi, India. \n\nFINAL: New Delhi, India",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-9",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 575,
+   "completion": 20,
+   "cost": 9.825e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-9",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 575,
+   "completion": 22,
+   "cost": 9.945e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-9",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 575,
+   "completion": 21,
+   "cost": 9.885e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-9",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 658,
+   "completion": 25,
+   "cost": 0.0001137
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-9",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 660,
+   "completion": 28,
+   "cost": 0.0001158
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-9",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 659,
+   "completion": 28,
+   "cost": 0.00011565
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "The city that hosted the 2026 BWF World Championships in August is New Delhi, India. \n\nFINAL: New Delhi, India"
+  },
+  {
+   "role": "vote",
+   "content": "The 2026 BWF World Championships will be hosted in New Delhi, India. \n\nFINAL: New Delhi, India"
+  },
+  {
+   "role": "vote",
+   "content": "The city that hosted the 2026 BWF World Championships in August is New Delhi, India. \n\nFINAL: New Delhi, India"
+  }
+ ]
+}

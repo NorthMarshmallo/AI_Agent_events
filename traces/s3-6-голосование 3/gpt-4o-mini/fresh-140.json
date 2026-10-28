@@ -1,0 +1,250 @@
+{
+ "task": {
+  "id": "fresh-140",
+  "source": "fresh",
+  "question": "Which film did Demon Slayer: Infinity Castle surpass to become the highest-grossing international film ever released in North America?",
+  "answer": "Crouching Tiger, Hidden Dragon",
+  "evidence": "the highest-grossing international film in the U.S. (previously held by 2000's Crouching Tiger, Hidden Dragon)",
+  "page": "Demon Slayer: Kimetsu no Yaiba – The Movie: Infinity Castle",
+  "url": "https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba_–_The_Movie:_Infinity_Castle",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "Demon Slayer: Infinity Castle surpassed The Simpsons Movie to become the highest-grossing international film ever released in North America. \n\nFINAL: The Simpsons Movie",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 583,
+   "completion": 26,
+   "cost": 0.00010305
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 583,
+   "completion": 26,
+   "cost": 0.00010305
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 583,
+   "completion": 29,
+   "cost": 0.00010485
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1047,
+   "completion": 49,
+   "cost": 0.00018645
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1026,
+   "completion": 31,
+   "cost": 0.0001725
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1047,
+   "completion": 48,
+   "cost": 0.00018585
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1406,
+   "completion": 45,
+   "cost": 0.0001611
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1560,
+   "completion": 27,
+   "cost": 0.0002502
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1416,
+   "completion": 47,
+   "cost": 0.0002406
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1585,
+   "completion": 32,
+   "cost": 0.00015135
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1614,
+   "completion": 27,
+   "cost": 0.0002583
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 2025,
+   "completion": 31,
+   "cost": 0.00020715
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1864,
+   "completion": 47,
+   "cost": 0.000231
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2135,
+   "completion": 26,
+   "cost": 0.00020145
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2384,
+   "completion": 26,
+   "cost": 0.0002196
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 2786,
+   "completion": 26,
+   "cost": 0.0004335
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 3250,
+   "completion": 23,
+   "cost": 0.0003573
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2420,
+   "completion": 27,
+   "cost": 0.0002064
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 1999,
+   "completion": 40,
+   "cost": 0.00032385
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 3563,
+   "completion": 46,
+   "cost": 0.00048525
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 4057,
+   "completion": 45,
+   "cost": 0.00039555
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 3636,
+   "completion": 50,
+   "cost": 0.0005754
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "Demon Slayer: Infinity Castle surpassed The Simpsons Movie to become the highest-grossing international film ever released in North America. \n\nFINAL: The Simpsons Movie"
+  },
+  {
+   "role": "vote",
+   "content": "Demon Slayer: Infinity Castle surpassed \"Spider-Man: No Way Home\" to become the highest-grossing international film ever released in North America. FINAL: \"Spider-Man: No Way Home\""
+  },
+  {
+   "role": "vote",
+   "content": "Demon Slayer: Kimetsu no Yaiba – The Movie: Infinity Castle surpassed \"Demon Slayer: Mugen Train\" to become the highest-grossing international film ever released in North America. \n\nFINAL: Demon Slayer: Mugen Train"
+  }
+ ]
+}

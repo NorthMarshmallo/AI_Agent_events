@@ -1,0 +1,748 @@
+{
+ "task": {
+  "id": "fresh-140",
+  "source": "fresh",
+  "question": "Which film did Demon Slayer: Infinity Castle surpass to become the highest-grossing international film ever released in North America?",
+  "answer": "Crouching Tiger, Hidden Dragon",
+  "evidence": "the highest-grossing international film in the U.S. (previously held by 2000's Crouching Tiger, Hidden Dragon)",
+  "page": "Demon Slayer: Kimetsu no Yaiba – The Movie: Infinity Castle",
+  "url": "https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba_–_The_Movie:_Infinity_Castle",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "Demon Slayer: Infinity Castle surpassed \"Avatar\" to become the highest-grossing international film ever released in North America. FINAL: \"Avatar\"",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 583,
+   "completion": 29,
+   "cost": 0.00010485
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1026,
+   "completion": 29,
+   "cost": 0.0001713
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1414,
+   "completion": 47,
+   "cost": 0.0002403
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1612,
+   "completion": 29,
+   "cost": 0.0001536
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 2000,
+   "completion": 47,
+   "cost": 0.000213
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2210,
+   "completion": 28,
+   "cost": 0.0002043
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2597,
+   "completion": 28,
+   "cost": 0.00040635
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2848,
+   "completion": 46,
+   "cost": 0.0002916
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-140",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2427,
+   "completion": 30,
+   "cost": 0.00038205
+  }
+ ],
+ "messages": [
+  {
+   "content": "Which film did Demon Slayer: Infinity Castle surpass to become the highest-grossing international film ever released in North America?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "ef10d603-626e-4fd0-b660-813106d83627"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 29,
+     "prompt_tokens": 583,
+     "total_tokens": 612,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00010485,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00010485,
+      "upstream_inference_prompt_cost": 8.745e-05,
+      "upstream_inference_completions_cost": 1.74e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420628-aBOuSAQMFBKpC5FKQeqq",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-486e-7523-b0cc-e9cf9ef77e03-0",
+   "tool_calls": [
+    {
+     "name": "espn_search",
+     "args": {
+      "query": "Demon Slayer: Infinity Castle highest-grossing international film North America"
+     },
+     "id": "call_CFNu9dUa0smXiyEN8CHmySB7",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 583,
+    "output_tokens": 29,
+    "total_tokens": 612,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[2025 ACC college football projections, preview] To be the man, you have to beat the man. It's the mantra of Charlotte-based wrestling great Ric Flair, and it pretty reliably describes the annual title race in the Charlotte-based ACC. For 14 straight years, the ACC crown has gone to either Dabo Swinney's Clemson Tigers or to someone who managed to beat them in the regular season. Over the past 10 of those 14 years, Clemson has won eight titles. Even as the Tigers' status as a national championship contender diminished -- they've finished from 13th to 20th in the AP poll for four consecutive years after six straight top-four finishes -- they've split the past four conference titles. Last year they became the first bid thief of the expanded College Football Playoff era, knocking off SMU in Charlotte to nab the final playoff berth over Alabama. And with the highest returning production percentage in the country, the Tigers not only head into 2025 as obvious favorites to defend their crown, but they are also garnering top-five hype. I've been pretty skeptical about the latter hype -- we'll talk plenty about that below -- but there's no question the Tigers enter 2025 as the ACC's most likely champion. Who else might contend? Will SMU charge back after coming so close to a title in its conference debut? Can Miami finally get the offense and defense functional at the same time? Since beating Clemson in the regular season is evidently a prerequisite to ACC glory, can someone such as Louisville or Duke take advantage of opportunities? And what the heck is Florida State capable of after suffering the end-all, be-all of collapses in 2024? The most geographically ridiculous conference in major college football has countless storylines heading into the fall. Let's preview the ACC! Every week through the summer, Bill Connelly will preview another FBS conference, ultimately including all 136 FBS teams. The previews include 2024 breakdowns, 2025 previews and team-by-team capsules. ",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "espn_search",
+   "id": "8fae3e98-c617-4717-8034-ca22b52b7257",
+   "tool_call_id": "call_CFNu9dUa0smXiyEN8CHmySB7",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 29,
+     "prompt_tokens": 1026,
+     "total_tokens": 1055,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001713,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001713,
+      "upstream_inference_prompt_cost": 0.0001539,
+      "upstream_inference_completions_cost": 1.74e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_7b4718ccca",
+    "id": "gen-1792420636-qDsuAEN3NBpqnhcdSes2",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-6753-7272-91da-63363d67e0b6-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Demon Slayer: Infinity Castle highest-grossing international film North America surpasses"
+     },
+     "id": "call_4V4U8QbxrQFdJBoNHSzmdmW6",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1026,
+    "output_tokens": 29,
+    "total_tokens": 1055,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Demon Slayer: Kimetsu no Yaiba (TV series)] Demon Slayer: Kimetsu no Yaiba (Japanese: 鬼滅の刃, Hepburn: Kimetsu no Yaiba; rgh. 'Blade of Demon Destruction') is a Japanese anime television series produced by Ufotable, based on the manga series Demon Slayer: Kimetsu no Yaiba by Koyoharu Gotouge. It follows teenage Tanjiro Kamado, who strives to become a Demon Slayer after his family was slaughtered and his younger sister, Nezuko, is turned into a demon. The series' first season premiered in April 2019, having aired on Tokyo MX and other networks, while from the second season onwards it has aired on Fuji Television and its affiliates. In North America, the series is licensed by Aniplex of America. The English dub of the series aired on Adult Swim's Toonami programming block in the United States. A sequel film set after the events of the first season, Demon Slayer: Kimetsu no Yaiba – The Movie: Mugen Train, was released in October 2020 while the compilation films, Demon Slayer: Kimetsu no Yaiba – To the Swordsmith Village and Demon Slayer: Kimetsu no Yaiba – To the Hashira Training, were respectively released in February 2023 and February 2024. The film trilogy adapting the manga's \"Infinity Castle\" story arc premiered in July 2025. The series received critical acclaim for its storyline, animation, action sequences, characters, and voice acting (original and dubbed), as well as numerous awards, and is considered one of the best anime of the 2010s.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "1fee6bb7-df73-4540-97c0-6d29cc6a445e",
+   "tool_call_id": "call_4V4U8QbxrQFdJBoNHSzmdmW6",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 47,
+     "prompt_tokens": 1414,
+     "total_tokens": 1461,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0002403,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0002403,
+      "upstream_inference_prompt_cost": 0.0002121,
+      "upstream_inference_completions_cost": 2.82e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420638-U5UNNt4V5kaF0BdwtZ85",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-6ffe-7f82-9b93-999c5f742739-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Demon Slayer: Kimetsu no Yaiba (TV series)",
+      "keywords": [
+       "highest-grossing",
+       "North America",
+       "surpass"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_tCW14JSyyw171sdWPGqQ8CDx",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1414,
+    "output_tokens": 47,
+    "total_tokens": 1461,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "In North America, the series is licensed by Aniplex of America.\nThe film premiered in the United Kingdom on March 1, 2023, and in North America on March 3 of the same year.\nThe film has grossed over US$500 million worldwide, making it the highest-grossing film of 2020, and broke several box office records, including the highest-grossing Japanese film and anime film of all time.\nThe series has been licensed by Aniplex's North American subsidiary and streamed it on Crunchyroll, Hulu, and Funimation.\nIn that sense, what I felt surpassed envy, and I started thinking, 'Man, those guys sure are something!'\".",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "d1ac7069-7974-42c1-9ae6-269baaf0239c",
+   "tool_call_id": "call_tCW14JSyyw171sdWPGqQ8CDx",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 29,
+     "prompt_tokens": 1612,
+     "total_tokens": 1641,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1408,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001536,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001536,
+      "upstream_inference_prompt_cost": 0.0001362,
+      "upstream_inference_completions_cost": 1.74e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420640-ptP7B44NewzatCOsj4FG",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-7715-73c1-bb92-7db274452a82-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Demon Slayer: Infinity Castle surpasses which film highest-grossing North America"
+     },
+     "id": "call_Wh67c91Q6vGsHVrJlNFmo59f",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1612,
+    "output_tokens": 29,
+    "total_tokens": 1641,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1408,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Demon Slayer: Kimetsu no Yaiba (TV series)] Demon Slayer: Kimetsu no Yaiba (Japanese: 鬼滅の刃, Hepburn: Kimetsu no Yaiba; rgh. 'Blade of Demon Destruction') is a Japanese anime television series produced by Ufotable, based on the manga series Demon Slayer: Kimetsu no Yaiba by Koyoharu Gotouge. It follows teenage Tanjiro Kamado, who strives to become a Demon Slayer after his family was slaughtered and his younger sister, Nezuko, is turned into a demon. The series' first season premiered in April 2019, having aired on Tokyo MX and other networks, while from the second season onwards it has aired on Fuji Television and its affiliates. In North America, the series is licensed by Aniplex of America. The English dub of the series aired on Adult Swim's Toonami programming block in the United States. A sequel film set after the events of the first season, Demon Slayer: Kimetsu no Yaiba – The Movie: Mugen Train, was released in October 2020 while the compilation films, Demon Slayer: Kimetsu no Yaiba – To the Swordsmith Village and Demon Slayer: Kimetsu no Yaiba – To the Hashira Training, were respectively released in February 2023 and February 2024. The film trilogy adapting the manga's \"Infinity Castle\" story arc premiered in July 2025. The series received critical acclaim for its storyline, animation, action sequences, characters, and voice acting (original and dubbed), as well as numerous awards, and is considered one of the best anime of the 2010s.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "e8492873-257f-4bc8-bcd9-7c6ab309a9af",
+   "tool_call_id": "call_Wh67c91Q6vGsHVrJlNFmo59f",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 47,
+     "prompt_tokens": 2000,
+     "total_tokens": 2047,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1536,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.000213,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.000213,
+      "upstream_inference_prompt_cost": 0.0001848,
+      "upstream_inference_completions_cost": 2.82e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420642-y2BsvgS7g2gAqES5JQmh",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-7f3f-7212-bfc6-089e244b10a5-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Demon Slayer: Kimetsu no Yaiba (TV series)",
+      "keywords": [
+       "highest-grossing",
+       "Infinity Castle",
+       "surpass"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_VvAQzEs5XCHaH2iSeen4sM6E",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2000,
+    "output_tokens": 47,
+    "total_tokens": 2047,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1536,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "The film trilogy adapting the manga's \"Infinity Castle\" story arc premiered in July 2025.\nThe film has grossed over US$500 million worldwide, making it the highest-grossing film of 2020, and broke several box office records, including the highest-grossing Japanese film and anime film of all time.\nFollowing the airing of Hashira Training Arc on June 30, 2024, it was announced that the manga's \"Infinity Castle\" story arc would be adapted into a film trilogy.\nCrunchyroll announced that the film trilogy of the manga's \"Infinity Castle\" story arc will release exclusively to theaters globally.\nIn that sense, what I felt surpassed envy, and I started thinking, 'Man, those guys sure are something!'\".",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "066edd02-cd0e-4c1d-b5c8-6283ade43068",
+   "tool_call_id": "call_VvAQzEs5XCHaH2iSeen4sM6E",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 28,
+     "prompt_tokens": 2210,
+     "total_tokens": 2238,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1920,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0002043,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0002043,
+      "upstream_inference_prompt_cost": 0.0001875,
+      "upstream_inference_completions_cost": 1.68e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420644-H5ccBDFDfffAw2NqkcXm",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-860f-78d0-9fd3-c84e2eef0bf8-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Demon Slayer: Infinity Castle surpasses highest-grossing film North America"
+     },
+     "id": "call_8s1nqCtcbyz32tH1ZRmRozJk",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2210,
+    "output_tokens": 28,
+    "total_tokens": 2238,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1920,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Demon Slayer: Kimetsu no Yaiba (TV series)] Demon Slayer: Kimetsu no Yaiba (Japanese: 鬼滅の刃, Hepburn: Kimetsu no Yaiba; rgh. 'Blade of Demon Destruction') is a Japanese anime television series produced by Ufotable, based on the manga series Demon Slayer: Kimetsu no Yaiba by Koyoharu Gotouge. It follows teenage Tanjiro Kamado, who strives to become a Demon Slayer after his family was slaughtered and his younger sister, Nezuko, is turned into a demon. The series' first season premiered in April 2019, having aired on Tokyo MX and other networks, while from the second season onwards it has aired on Fuji Television and its affiliates. In North America, the series is licensed by Aniplex of America. The English dub of the series aired on Adult Swim's Toonami programming block in the United States. A sequel film set after the events of the first season, Demon Slayer: Kimetsu no Yaiba – The Movie: Mugen Train, was released in October 2020 while the compilation films, Demon Slayer: Kimetsu no Yaiba – To the Swordsmith Village and Demon Slayer: Kimetsu no Yaiba – To the Hashira Training, were respectively released in February 2023 and February 2024. The film trilogy adapting the manga's \"Infinity Castle\" story arc premiered in July 2025. The series received critical acclaim for its storyline, animation, action sequences, characters, and voice acting (original and dubbed), as well as numerous awards, and is considered one of the best anime of the 2010s.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "fd73e6e8-7344-4162-9624-9b75a63eb552",
+   "tool_call_id": "call_8s1nqCtcbyz32tH1ZRmRozJk",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 28,
+     "prompt_tokens": 2597,
+     "total_tokens": 2625,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00040635,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00040635,
+      "upstream_inference_prompt_cost": 0.00038955,
+      "upstream_inference_completions_cost": 1.68e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_01a55b9f25",
+    "id": "gen-1792420651-Bfaj6i4pDmU7EVECy4gC",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-a29b-7243-9465-cb6e040ef942-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Demon Slayer: Infinity Castle highest-grossing film surpasses which movie"
+     },
+     "id": "call_BL7FPP67nJFSL7DIcfv3nGGo",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2597,
+    "output_tokens": 28,
+    "total_tokens": 2625,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[List of highest-grossing R-rated films] This is a list of the highest-grossing R-rated films. An R-rated film is a film that has been assessed as having material which may be unsuitable for children under the age of 17 by the Motion Picture Association; the MPA writes \"Under 17 requires accompanying parent or adult guardian\". The R-rating applies to the United States, with similar ratings given in TV-MA for television and home video releases, as well as other countries such as 14A and 18A in Canada, 15 or 18 in the United Kingdom, and MA 15+ and R 18+ in Australia. All lists in this article are unadjusted for inflation except where specifically noted. The Odyssey is the highest-grossing R-rated film of all time. Demon Slayer: Kimetsu no Yaiba anime film series is the highest-grossing R-rated animated and non-English-language film franchise, with Infinity Castle as the highest-grossing R-rated animated and non-English-language film of all time.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "6ffb9ed9-1337-49e3-9b68-6ddbecd4606d",
+   "tool_call_id": "call_BL7FPP67nJFSL7DIcfv3nGGo",
+   "status": "success"
+  },
+  {
+   "content": "Demon Slayer: Infinity Castle surpassed \"Avatar\" to become the highest-grossing international film ever released in North America. FINAL: \"Avatar\"",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 30,
+     "prompt_tokens": 2427,
+     "total_tokens": 2457,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00038205,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00038205,
+      "upstream_inference_prompt_cost": 0.00036405,
+      "upstream_inference_completions_cost": 1.8e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_18581e8a86",
+    "id": "gen-1792420655-pWQ7SfI12hxCBVo55Y9y",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-b05e-7ef3-96fc-953244b8c7c3-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2427,
+    "output_tokens": 30,
+    "total_tokens": 2457,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

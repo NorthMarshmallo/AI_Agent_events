@@ -1,0 +1,280 @@
+{
+ "task": {
+  "id": "fresh-131",
+  "source": "fresh",
+  "question": "How many new predicted protein complexes did Nvidia, EMBL, Google DeepMind and Seoul National University add to the AlphaFold Protein Structure Database, as announced at GTC 2026?",
+  "answer": "1.7 million",
+  "evidence": "Announced at GTC, a new collaboration between Nvidia, European Molecular Biology Laboratory (EMBL), Google DeepMind and Seoul National University, has contributed 1.7 million new predicted protein complexes to the AlphaFold Protein Structure Database.",
+  "page": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "Извините, но у меня нет информации о количестве новых предсказанных белковых комплексов, которые Nvidia, EMBL, Google DeepMind и Seoul National University добавили в Базу данных структуры белков AlphaFold на GTC 2026. \n\nFINAL: Неизвестно.",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 596,
+   "completion": 27,
+   "cost": 0.0001056
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 596,
+   "completion": 33,
+   "cost": 0.0001092
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 596,
+   "completion": 33,
+   "cost": 0.0001092
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 639,
+   "completion": 35,
+   "cost": 0.00011685
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 685,
+   "completion": 33,
+   "cost": 0.00012255
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1061,
+   "completion": 29,
+   "cost": 0.00017655
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 639,
+   "completion": 35,
+   "cost": 0.00011685
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 685,
+   "completion": 33,
+   "cost": 0.00012255
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 728,
+   "completion": 20,
+   "cost": 0.0001212
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1582,
+   "completion": 27,
+   "cost": 0.0001767
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 728,
+   "completion": 25,
+   "cost": 0.0001242
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 775,
+   "completion": 24,
+   "cost": 0.00013065
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1289,
+   "completion": 51,
+   "cost": 0.00022395
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1506,
+   "completion": 27,
+   "cost": 0.0001461
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1619,
+   "completion": 32,
+   "cost": 0.00014685
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1662,
+   "completion": 24,
+   "cost": 0.0001485
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1237,
+   "completion": 27,
+   "cost": 0.00020175
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1702,
+   "completion": 26,
+   "cost": 0.0001845
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2166,
+   "completion": 24,
+   "cost": 0.0002145
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 1745,
+   "completion": 61,
+   "cost": 0.00029835
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1971,
+   "completion": 28,
+   "cost": 0.00020685
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1696,
+   "completion": 25,
+   "cost": 0.0002694
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1733,
+   "completion": 51,
+   "cost": 0.00016575
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2009,
+   "completion": 24,
+   "cost": 0.00017175
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-131",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 1588,
+   "completion": 48,
+   "cost": 0.000267
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "I couldn't find any specific information regarding the number of new predicted protein complexes added to the AlphaFold Protein Structure Database by Nvidia, EMBL, Google DeepMind, and Seoul National University at GTC 2026. \n\nFINAL: No data found."
+  },
+  {
+   "role": "vote",
+   "content": "Извините, но у меня нет информации о количестве новых предсказанных белковых комплексов, которые Nvidia, EMBL, Google DeepMind и Seoul National University добавили в Базу данных структуры белков AlphaFold на GTC 2026. \n\nFINAL: Неизвестно."
+  },
+  {
+   "role": "vote",
+   "content": "У меня нет информации о количестве новых предсказанных белковых комплексов, добавленных в Базу данных структур белков AlphaFold, как было объявлено на GTC 2026. \n\nFINAL: Неизвестно."
+  }
+ ]
+}

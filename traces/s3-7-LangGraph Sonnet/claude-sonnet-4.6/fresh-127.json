@@ -1,0 +1,643 @@
+{
+ "task": {
+  "id": "fresh-127",
+  "source": "fresh",
+  "question": "How many of the 96 experimentally screened RFdiffusion2-designed metallohydrolases showed proficient hydrolysis activity, per a December 2025 GEN article on a companion Baker lab Nature paper?",
+  "answer": "five",
+  "evidence": "Notably, five out of 96 designs showed proficient hydrolysis activity.",
+  "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/"
+ },
+ "answer": "The answer is clearly stated in the article.\n\nFINAL: 5",
+ "calls": [
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-127",
+   "model": "claude-sonnet-4.6",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 1485,
+   "completion": 71,
+   "cost": 0.00552
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-127",
+   "model": "claude-sonnet-4.6",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 2005,
+   "completion": 77,
+   "cost": 0.00717
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-127",
+   "model": "claude-sonnet-4.6",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 2096,
+   "completion": 72,
+   "cost": 0.007368
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-127",
+   "model": "claude-sonnet-4.6",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 2182,
+   "completion": 66,
+   "cost": 0.007536
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-127",
+   "model": "claude-sonnet-4.6",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 2697,
+   "completion": 129,
+   "cost": 0.010026
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-127",
+   "model": "claude-sonnet-4.6",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2938,
+   "completion": 130,
+   "cost": 0.010764
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-127",
+   "model": "claude-sonnet-4.6",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 3483,
+   "completion": 18,
+   "cost": 0.010719
+  }
+ ],
+ "messages": [
+  {
+   "content": "How many of the 96 experimentally screened RFdiffusion2-designed metallohydrolases showed proficient hydrolysis activity, per a December 2025 GEN article on a companion Baker lab Nature paper?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "112b7684-ce61-4ea5-8bb8-655c7d66e8af"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 71,
+     "prompt_tokens": 1485,
+     "total_tokens": 1556,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00552,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00552,
+      "upstream_inference_prompt_cost": 0.004455,
+      "upstream_inference_completions_cost": 0.001065
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115728-EX11qClVKbpa0QGrMuNd",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-ab0b-73f0-9b0b-2d0323a87a8e-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "RFdiffusion2 metallohydrolases Baker lab Nature 2025"
+     },
+     "id": "toolu_01Q6J3EAuRcJTxx7PuFNLjwj",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1485,
+    "output_tokens": 71,
+    "total_tokens": 1556,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes] Researchers from the lab of Nobel laureate, David Baker, PhD, have now released RFdiffusion3 open source. The latest version of the de novo protein design model generates proteins that interact with any type of molecule, including DNA and small molecules with broad applications across sustainability and therapeutics. “We built this as a general model and are sharing it freely so the scientific community can create things we haven’t even imagined yet,” said Rohith Krishna, PhD, postdoctoral researcher in the Baker lab and co-lead author of the RFdiffusion3 bioRxiv preprint that has not been peer reviewed. The work shows experimental proof of concept for the design of proteins that recognize specific sequences of DNA, which serves as a foundation for synthetic transcription factors for gene therapy, and complex enzyme catalysis, which offers industry applications. Baker, who is the director of the Institute for Protein Design at the University of Washington (UW) and a Howard Hughes Medical Institute (HHMI) investigator, won the 2024 Nobel Prize in Chemistry for the design of novel proteins. RFdiffusion3 is one step closer to designing and understanding biological complexity, a challenge Baker recently described to GEN as one of the main obstacles to overcome for de novo design to transform medicine. RFdiffusion3 enters a growing ecosystem of protein design models that cover multiple modalities, such as BoltzGen , which was released in October. BoltzGen demonstrated generalizable therapeutic design in any format, including nanobodies, mini-binders, and disulfide-bonded peptides, and against any target across nucleic acids, small molecules, and both ordered and disordered proteins. Notably, BoltzGen designs binders only and does not generate catalytic enzymes as demonstrated by RFdiffusion 3. To achieve intricate chemical interactions with new precision, RFdiffusion3 treats individual atoms as the ",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "497b7baa-9ebb-472a-aba3-9ffd7d39b92e",
+   "tool_call_id": "toolu_01Q6J3EAuRcJTxx7PuFNLjwj",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 77,
+     "prompt_tokens": 2005,
+     "total_tokens": 2082,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00717,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00717,
+      "upstream_inference_prompt_cost": 0.006015,
+      "upstream_inference_completions_cost": 0.001155
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115744-gnEd1zgKEEviPxyddObB",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-e876-7c11-92d8-a95748e98aed-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "RFdiffusion2 metallohydrolase hydrolysis activity 96 screened December 2025"
+     },
+     "id": "toolu_01UBj8HfNkCAtwcfdMfRYxND",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2005,
+    "output_tokens": 77,
+    "total_tokens": 2082,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "fb5c6a1f-1085-46d3-8e5f-de6ad7b3f2db",
+   "tool_call_id": "toolu_01UBj8HfNkCAtwcfdMfRYxND",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 72,
+     "prompt_tokens": 2096,
+     "total_tokens": 2168,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.007368,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.007368,
+      "upstream_inference_prompt_cost": 0.006288,
+      "upstream_inference_completions_cost": 0.00108
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115780-oKzMXZ1EXp7eZSNSvKzj",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e07-76bd-7ad2-a43d-c79037855696-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "Baker lab de novo metallohydrolase enzyme design RFdiffusion Nature 2025"
+     },
+     "id": "toolu_01AsAdvF6KW1MUihyrrRBqnj",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2096,
+    "output_tokens": 72,
+    "total_tokens": 2168,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "06ab7540-5bd2-4660-a37d-480a3e1b58da",
+   "tool_call_id": "toolu_01AsAdvF6KW1MUihyrrRBqnj",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 66,
+     "prompt_tokens": 2182,
+     "total_tokens": 2248,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.007536,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.007536,
+      "upstream_inference_prompt_cost": 0.006546,
+      "upstream_inference_completions_cost": 0.00099
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115785-4yPB5z0bnWTM4FGd2j3H",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e07-89f1-7853-a932-1d2996bc724e-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "RFdiffusion2 enzyme design Baker lab 2025"
+     },
+     "id": "toolu_014LfhtoQFqMTuLnSMqfxmPa",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2182,
+    "output_tokens": 66,
+    "total_tokens": 2248,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes] Researchers from the lab of Nobel laureate, David Baker, PhD, have now released RFdiffusion3 open source. The latest version of the de novo protein design model generates proteins that interact with any type of molecule, including DNA and small molecules with broad applications across sustainability and therapeutics. “We built this as a general model and are sharing it freely so the scientific community can create things we haven’t even imagined yet,” said Rohith Krishna, PhD, postdoctoral researcher in the Baker lab and co-lead author of the RFdiffusion3 bioRxiv preprint that has not been peer reviewed. The work shows experimental proof of concept for the design of proteins that recognize specific sequences of DNA, which serves as a foundation for synthetic transcription factors for gene therapy, and complex enzyme catalysis, which offers industry applications. Baker, who is the director of the Institute for Protein Design at the University of Washington (UW) and a Howard Hughes Medical Institute (HHMI) investigator, won the 2024 Nobel Prize in Chemistry for the design of novel proteins. RFdiffusion3 is one step closer to designing and understanding biological complexity, a challenge Baker recently described to GEN as one of the main obstacles to overcome for de novo design to transform medicine. RFdiffusion3 enters a growing ecosystem of protein design models that cover multiple modalities, such as BoltzGen , which was released in October. BoltzGen demonstrated generalizable therapeutic design in any format, including nanobodies, mini-binders, and disulfide-bonded peptides, and against any target across nucleic acids, small molecules, and both ordered and disordered proteins. Notably, BoltzGen designs binders only and does not generate catalytic enzymes as demonstrated by RFdiffusion 3. To achieve intricate chemical interactions with new precision, RFdiffusion3 treats individual atoms as the ",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "c3d17093-3719-437f-9fe3-f5676c00b013",
+   "tool_call_id": "toolu_014LfhtoQFqMTuLnSMqfxmPa",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 129,
+     "prompt_tokens": 2697,
+     "total_tokens": 2826,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.010026,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.010026,
+      "upstream_inference_prompt_cost": 0.008091,
+      "upstream_inference_completions_cost": 0.001935
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115790-TXC3RX6RnIwVnShZNHb5",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e07-9e04-7b01-9242-d5e2224baa89-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+      "keywords": "metallohydrolase\", \"96\", \"hydrolysis\", \"RFdiffusion2\"]",
+      "site": "gen"
+     },
+     "id": "toolu_01NFsjUHrzqxijhq1YFEyCNk",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2697,
+    "output_tokens": 129,
+    "total_tokens": 2826,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "Error invoking tool 'page_find' with kwargs {'title': 'RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes', 'keywords': 'metallohydrolase\", \"96\", \"hydrolysis\", \"RFdiffusion2\"]', 'site': 'gen'} with error:\n keywords: Input should be a valid list\n Please fix the error and try again.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "de40eacf-5f28-4c4d-b016-96567a50d3d3",
+   "tool_call_id": "toolu_01NFsjUHrzqxijhq1YFEyCNk",
+   "status": "error"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 130,
+     "prompt_tokens": 2938,
+     "total_tokens": 3068,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.010764,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.010764,
+      "upstream_inference_prompt_cost": 0.008814,
+      "upstream_inference_completions_cost": 0.00195
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115792-a7gaqTWI3fHkA97bbwf1",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e07-a658-7b62-abeb-47c04805ac6d-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+      "keywords": [
+       "metallohydrolase",
+       "96",
+       "hydrolysis",
+       "RFdiffusion2"
+      ],
+      "site": "gen"
+     },
+     "id": "toolu_01SeLHrJndScgKbPWTCzQMwb",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2938,
+    "output_tokens": 130,
+    "total_tokens": 3068,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "To achieve intricate chemical interactions with new precision, RFdiffusion3 treats individual atoms as the fundamental units being designed, a methodological advance from its predecessor, RFdiffusion2 , concurrently published in Nature Methods , which implements a hybrid atom and amino acid residue approach.\nIn computational time, RFdiffusion3 exhibits ten-fold faster performance over RFdiffusion2, despite taking a more computationally intensive all-atom method.\nIn a concurrently published Nature paper, the UW researchers applied RFdiffusion2 to demonstrate the successful design of metallohydrolases , enzymes that cleave some of the most difficult bonds in biology, such as protein peptide bonds, by leveraging the reactivity of a metal.\nMetallohydrolases have been of particular interest for degrading difficult pollutants.\nAs successful de novo enzyme design builds protein structures that contain an ideal active site of catalytic residues that stabilize the transition states of a reaction, RFdiffusion2 made the advance of eliminating the need to specify sequence position and backbone coordinates for each catalytic residue to expand the sampled space.\nOut of thousands of computational metallohydrolases designs, the authors experimentally screened 96 enzymes for the hydrolysis of the target molecule.\nNotably, five out of 96 designs showed proficient hydrolysis activity.\nOne design, named ZETA_1, demonstrated high catalytic efficiency several orders of magnitude higher compared to previously designed metallohydrolases.\nDonghyo Kim, PhD, postdoctoral researcher in the Baker lab and another co-lead author of the metallohydrolases study, adds that one interesting feature of de novo designed enzymes is their improved thermostability, which is valuable for catalytic reactions that can occur more efficiently at higher temperatures.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "d28d3042-8962-4e29-9422-5c0a82f47fd4",
+   "tool_call_id": "toolu_01SeLHrJndScgKbPWTCzQMwb",
+   "status": "success"
+  },
+  {
+   "content": "The answer is clearly stated in the article.\n\nFINAL: 5",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 18,
+     "prompt_tokens": 3483,
+     "total_tokens": 3501,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.010719,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.010719,
+      "upstream_inference_prompt_cost": 0.010449,
+      "upstream_inference_completions_cost": 0.00027
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115795-ekjbEwsSDYCQpN1GSNxD",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e07-af28-7892-9487-43aeccecfeba-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 3483,
+    "output_tokens": 18,
+    "total_tokens": 3501,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-3",
+  "source": "fresh",
+  "question": "What agreement did Ukraine and Romania sign in March 2026?",
+  "answer": "a strategic partnership agreement",
+  "evidence": "12 March – Ukraine and Romania sign a strategic partnership agreement in the defense and energy sectors.",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "In March 2026, Ukraine and Romania signed a strategic partnership agreement in the defense and energy sectors. \n\nFINAL: strategic partnership agreement in the defense and energy sectors",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-3",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 572,
+   "completion": 20,
+   "cost": 9.78e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-3",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 572,
+   "completion": 20,
+   "cost": 9.78e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-3",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 572,
+   "completion": 20,
+   "cost": 9.78e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-3",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 616,
+   "completion": 35,
+   "cost": 0.0001134
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-3",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 616,
+   "completion": 35,
+   "cost": 0.0001134
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-3",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 616,
+   "completion": 35,
+   "cost": 0.0001134
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-3",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1043,
+   "completion": 36,
+   "cost": 0.00017805
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-3",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1043,
+   "completion": 34,
+   "cost": 0.00010005
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-3",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1043,
+   "completion": 33,
+   "cost": 9.945e-05
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "In March 2026, Ukraine and Romania signed a strategic partnership agreement in the defense and energy sectors. \n\nFINAL: strategic partnership agreement in the defense and energy sectors"
+  },
+  {
+   "role": "vote",
+   "content": "In March 2026, Ukraine and Romania signed a strategic partnership agreement in the defense and energy sectors. \n\nFINAL: strategic partnership agreement in defense and energy sectors"
+  },
+  {
+   "role": "vote",
+   "content": "Ukraine and Romania signed a strategic partnership agreement in the defense and energy sectors on March 12, 2026. \n\nFINAL: Strategic partnership agreement in defense and energy sectors."
+  }
+ ]
+}

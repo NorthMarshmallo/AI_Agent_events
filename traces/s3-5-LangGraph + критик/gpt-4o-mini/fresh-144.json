@@ -1,0 +1,62 @@
+{
+ "task": {
+  "id": "fresh-144",
+  "source": "fresh",
+  "question": "At what age did veteran anime voice actor Takaya Hashi, known for Kakuzu in Naruto and Donovan Desmond in Spy × Family, die on 27 August 2025?",
+  "answer": "72",
+  "evidence": "Hashi died from a heart attack on 27 August 2025, at the age of 72.",
+  "page": "Takaya Hashi",
+  "url": "https://en.wikipedia.org/wiki/Takaya_Hashi"
+ },
+ "answer": "Takaya Hashi was born on September 8, 1952, and died on August 27, 2025, at the age of 72.\n\nFINAL: 72",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-144",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 596,
+   "completion": 19,
+   "cost": 0.0001008
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-144",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 737,
+   "completion": 34,
+   "cost": 0.00013095
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-144",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1004,
+   "completion": 38,
+   "cost": 0.0001734
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-144",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 775,
+   "completion": 9,
+   "cost": 0.00012165
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "72",
+   "supported": true,
+   "issue": ""
+  }
+ ]
+}

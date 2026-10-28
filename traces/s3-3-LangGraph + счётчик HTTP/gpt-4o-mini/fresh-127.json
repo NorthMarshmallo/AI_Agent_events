@@ -1,0 +1,739 @@
+{
+ "task": {
+  "id": "fresh-127",
+  "source": "fresh",
+  "question": "How many of the 96 experimentally screened RFdiffusion2-designed metallohydrolases showed proficient hydrolysis activity, per a December 2025 GEN article on a companion Baker lab Nature paper?",
+  "answer": "five",
+  "evidence": "Notably, five out of 96 designs showed proficient hydrolysis activity.",
+  "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/"
+ },
+ "answer": "К сожалению, у меня нет информации о том, сколько из 96 экспериментально протестированных метало-гидролаз, спроектированных с помощью RFdiffusion2, показали активность гидролиза, согласно статье GEN за декабрь 2025 года. FINAL: <нет данных>",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 599,
+   "completion": 30,
+   "cost": 0.00010785
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 639,
+   "completion": 30,
+   "cost": 0.00011385
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 679,
+   "completion": 32,
+   "cost": 0.00012105
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 722,
+   "completion": 25,
+   "cost": 0.0001233
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 759,
+   "completion": 22,
+   "cost": 0.00012705
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1199,
+   "completion": 47,
+   "cost": 0.00020805
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1270,
+   "completion": 25,
+   "cost": 0.0001191
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 1698,
+   "completion": 44,
+   "cost": 0.0002811
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 1277,
+   "completion": 60,
+   "cost": 0.00022755
+  }
+ ],
+ "messages": [
+  {
+   "content": "How many of the 96 experimentally screened RFdiffusion2-designed metallohydrolases showed proficient hydrolysis activity, per a December 2025 GEN article on a companion Baker lab Nature paper?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "c42e7135-21d0-4575-9217-29c23281c4f6"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 30,
+     "prompt_tokens": 599,
+     "total_tokens": 629,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00010785,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00010785,
+      "upstream_inference_prompt_cost": 8.985e-05,
+      "upstream_inference_completions_cost": 1.8e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420585-zLo9APJJsWnQJ8aHF6Eu",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15497-a1ae-7a01-9bab-638c36a35103-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "RFdiffusion2-designed metallohydrolases hydrolysis activity December 2025"
+     },
+     "id": "call_6pCNEgS6JvTQKJ36xr3nyevM",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 599,
+    "output_tokens": 30,
+    "total_tokens": 629,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "87a7e130-b664-481a-8d8f-16fa3784c4b5",
+   "tool_call_id": "call_6pCNEgS6JvTQKJ36xr3nyevM",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 30,
+     "prompt_tokens": 639,
+     "total_tokens": 669,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00011385,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00011385,
+      "upstream_inference_prompt_cost": 9.585e-05,
+      "upstream_inference_completions_cost": 1.8e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420596-W94M64lldDjsKKZnuda4",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15497-ca7d-7570-aaaa-8fb0c6f2938f-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "RFdiffusion2-designed metallohydrolases hydrolysis activity December 2025"
+     },
+     "id": "call_biFMf3q0qkFfmWKAajdtoDSw",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 639,
+    "output_tokens": 30,
+    "total_tokens": 669,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "11a1dac1-2eb5-4cc1-9fef-5ef85922b66c",
+   "tool_call_id": "call_biFMf3q0qkFfmWKAajdtoDSw",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 32,
+     "prompt_tokens": 679,
+     "total_tokens": 711,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00012105,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00012105,
+      "upstream_inference_prompt_cost": 0.00010185,
+      "upstream_inference_completions_cost": 1.92e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420598-7IOupmmvxFAPZv9HSWy5",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15497-d181-7880-b818-e0b72e9cca58-0",
+   "tool_calls": [
+    {
+     "name": "espn_search",
+     "args": {
+      "query": "RFdiffusion2-designed metallohydrolases hydrolysis activity December 2025"
+     },
+     "id": "call_qeg5WmzExA7W2GvHF9bHaThi",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 679,
+    "output_tokens": 32,
+    "total_tokens": 711,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "espn_search",
+   "id": "ab60019b-fb44-4a0a-9958-41c4e37b5e09",
+   "tool_call_id": "call_qeg5WmzExA7W2GvHF9bHaThi",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 25,
+     "prompt_tokens": 722,
+     "total_tokens": 747,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001233,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001233,
+      "upstream_inference_prompt_cost": 0.0001083,
+      "upstream_inference_completions_cost": 1.5e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420605-CCw35iS2dc2Yh13SQVGP",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15497-ede6-7bb1-9b63-d64c929d6458-0",
+   "tool_calls": [
+    {
+     "name": "ru_wiki_search",
+     "args": {
+      "query": "RFdiffusion2-designed metallohydrolases"
+     },
+     "id": "call_E0XxweREcBg7y20YYSPdXRjG",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 722,
+    "output_tokens": 25,
+    "total_tokens": 747,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "ru_wiki_search",
+   "id": "3967889e-2d28-4585-98d7-64fb44fdf7fe",
+   "tool_call_id": "call_E0XxweREcBg7y20YYSPdXRjG",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 22,
+     "prompt_tokens": 759,
+     "total_tokens": 781,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00012705,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00012705,
+      "upstream_inference_prompt_cost": 0.00011385,
+      "upstream_inference_completions_cost": 1.32e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420606-N13slybUspBMP4I1WhmP",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15497-f3cf-7792-8c3c-068e21d00762-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "Baker lab Nature paper December 2025"
+     },
+     "id": "call_eZcbusMG27kettrXUB5ftRSr",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 759,
+    "output_tokens": 22,
+    "total_tokens": 781,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[NeurIPS 2025: Biology’s Transformer Moment] San Diego – More than 24,000 machine learning experts gathered for the largest Neural Information Processing Systems (NeurIPS) conference to date, hosted against the sunny December backdrop of the San Diego Convention Center. NeurIPS 2025 featured over 5,000 papers accepted from a whopping pool of more than 21,000 submissions. Among the crowd was a growing life sciences community that attests biology is reaching a transformer moment, mirroring the 2017 publication of “ Attention is All You Need, ” which paved the way for modern AI architectures, including today’s large language models. Evan Feinberg, PhD, CEO of Genesis Molecular AI, has watched NeurIPS evolve over recent years with a growing number of attendees filling workshops specifically for AI in sciences. “The intersection is no longer niche, but rather a major burgeoning field and its own pillar of AI just as much as vision or language has become,” Feinberg told GEN. Genesis, spun out from the Stanford University lab of Vijay Pande, PhD, formerly partner of a16z Bio + Health and currently co-founder and managing partner of a new venture firm, VZVC. The company’s AI platform integrates diffusion models, language models and physical ML simulations for molecular generation and therapeutic property prediction. Recently, Genesis unveiled Pearl, a foundation model for protein-ligand cofolding reported to surpass AlphaFold3 in atomic accuracy . The company has also expanded its ML team in recent months, including the appointment of Aleksandra Faust, PhD as chief AI officer and Sergey Edunov as SVP of foundation models. Therapeutic round-up In small molecule drug discovery, Alex Zhavoronkov, PhD, founder and CEO of Insilico Medicine, points to accelerated timelines for candidates to enter clinical trials as an indicator of AI’s impact on biology. Insilico touts over a dozen IND-enabled drug candidates with a handful reaching Phase I trials. Earlier this year, the company ",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "43d03206-c078-4d66-be1b-9136b7a99eb7",
+   "tool_call_id": "call_eZcbusMG27kettrXUB5ftRSr",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 47,
+     "prompt_tokens": 1199,
+     "total_tokens": 1246,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00020805,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00020805,
+      "upstream_inference_prompt_cost": 0.00017985,
+      "upstream_inference_completions_cost": 2.82e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420611-1ffDuuFphvLpAaOyNGWK",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-04ce-7a00-87a8-7eceae9e4a7e-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "NeurIPS 2025: Biology’s Transformer Moment",
+      "keywords": [
+       "RFdiffusion2-designed metallohydrolases",
+       "hydrolysis activity"
+      ],
+      "site": "gen"
+     },
+     "id": "call_T3McGz43KlesGxx0n7awybZo",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1199,
+    "output_tokens": 47,
+    "total_tokens": 1246,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "Статья NeurIPS 2025: Biology’s Transformer Moment не найдена",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "dc48b60e-68cd-4eaf-a6b5-0efdc97e21cd",
+   "tool_call_id": "call_T3McGz43KlesGxx0n7awybZo",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 25,
+     "prompt_tokens": 1270,
+     "total_tokens": 1295,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001191,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001191,
+      "upstream_inference_prompt_cost": 0.0001041,
+      "upstream_inference_completions_cost": 1.5e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420616-VnuHgWsk7EOLBCY3ffsK",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-1b4c-7a73-b15a-a515443cb1ea-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "RFdiffusion2 metallohydrolases hydrolysis activity"
+     },
+     "id": "call_sO1RNiHtpIeShy4OqyWTmr43",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1270,
+    "output_tokens": 25,
+    "total_tokens": 1295,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1152,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes] Researchers from the lab of Nobel laureate, David Baker, PhD, have now released RFdiffusion3 open source. The latest version of the de novo protein design model generates proteins that interact with any type of molecule, including DNA and small molecules with broad applications across sustainability and therapeutics. “We built this as a general model and are sharing it freely so the scientific community can create things we haven’t even imagined yet,” said Rohith Krishna, PhD, postdoctoral researcher in the Baker lab and co-lead author of the RFdiffusion3 bioRxiv preprint that has not been peer reviewed. The work shows experimental proof of concept for the design of proteins that recognize specific sequences of DNA, which serves as a foundation for synthetic transcription factors for gene therapy, and complex enzyme catalysis, which offers industry applications. Baker, who is the director of the Institute for Protein Design at the University of Washington (UW) and a Howard Hughes Medical Institute (HHMI) investigator, won the 2024 Nobel Prize in Chemistry for the design of novel proteins. RFdiffusion3 is one step closer to designing and understanding biological complexity, a challenge Baker recently described to GEN as one of the main obstacles to overcome for de novo design to transform medicine. RFdiffusion3 enters a growing ecosystem of protein design models that cover multiple modalities, such as BoltzGen , which was released in October. BoltzGen demonstrated generalizable therapeutic design in any format, including nanobodies, mini-binders, and disulfide-bonded peptides, and against any target across nucleic acids, small molecules, and both ordered and disordered proteins. Notably, BoltzGen designs binders only and does not generate catalytic enzymes as demonstrated by RFdiffusion 3. To achieve intricate chemical interactions with new precision, RFdiffusion3 treats individual atoms as the ",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "540fbed0-28f5-4f62-a1ed-a063291033c9",
+   "tool_call_id": "call_sO1RNiHtpIeShy4OqyWTmr43",
+   "status": "success"
+  },
+  {
+   "content": "К сожалению, у меня нет информации о том, сколько из 96 экспериментально протестированных метало-гидролаз, спроектированных с помощью RFdiffusion2, показали активность гидролиза, согласно статье GEN за декабрь 2025 года. FINAL: <нет данных>",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 60,
+     "prompt_tokens": 1277,
+     "total_tokens": 1337,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00022755,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00022755,
+      "upstream_inference_prompt_cost": 0.00019155,
+      "upstream_inference_completions_cost": 3.6e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_ddc7adf4b5",
+    "id": "gen-1792420625-Ka6JTl3JSqwqovPik0Ln",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-3cdf-7923-939e-70252e98935c-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1277,
+    "output_tokens": 60,
+    "total_tokens": 1337,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

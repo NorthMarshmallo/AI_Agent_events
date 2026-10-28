@@ -1,0 +1,260 @@
+{
+ "task": {
+  "id": "fresh-130",
+  "source": "fresh",
+  "question": "What is the name of the protein design reasoning model for binder generation that Nvidia unveiled at GTC 2026?",
+  "answer": "Proteina-Complexa",
+  "evidence": "Concurrently, Nvidia unveiled a new protein design reasoning model, Proteina-Complexa, which generates binders for structure-based drug discovery.",
+  "page": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2026-agentic-ai-inflection-hits-healthcare-and-life-sciences/",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "К сожалению, у меня нет информации о названии модели проектирования белков для генерации связывающих молекул, которую Nvidia представила на GTC 2026. FINAL: информация недоступна.",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 582,
+   "completion": 26,
+   "cost": 0.0001029
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 582,
+   "completion": 26,
+   "cost": 0.0001029
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 582,
+   "completion": 26,
+   "cost": 0.0001029
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 648,
+   "completion": 25,
+   "cost": 0.0001122
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 648,
+   "completion": 25,
+   "cost": 0.0001122
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 648,
+   "completion": 28,
+   "cost": 0.000114
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 713,
+   "completion": 24,
+   "cost": 0.00012135
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 713,
+   "completion": 24,
+   "cost": 0.00012135
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1108,
+   "completion": 26,
+   "cost": 0.0001818
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 777,
+   "completion": 24,
+   "cost": 0.00013095
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 777,
+   "completion": 23,
+   "cost": 0.00013035
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 811,
+   "completion": 19,
+   "cost": 0.00013305
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1514,
+   "completion": 42,
+   "cost": 0.0001755
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 840,
+   "completion": 20,
+   "cost": 0.000138
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1193,
+   "completion": 24,
+   "cost": 0.00019335
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1257,
+   "completion": 23,
+   "cost": 0.00011595
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1712,
+   "completion": 37,
+   "cost": 0.000279
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 1320,
+   "completion": 24,
+   "cost": 0.000126
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 899,
+   "completion": 43,
+   "cost": 0.00016065
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1025,
+   "completion": 20,
+   "cost": 0.00016575
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1408,
+   "completion": 23,
+   "cost": 0.0001482
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 1471,
+   "completion": 23,
+   "cost": 0.00012885
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-130",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 1050,
+   "completion": 37,
+   "cost": 0.0001797
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "К сожалению, у меня нет информации о названии модели проектирования белков для генерации связывающих молекул, которую Nvidia представила на GTC 2026. FINAL: информация недоступна."
+  },
+  {
+   "role": "vote",
+   "content": "У меня нет информации о названии модели дизайна белков для генерации биндеров, представленном Nvidia на GTC 2026. FINAL: Информация недоступна."
+  },
+  {
+   "role": "vote",
+   "content": "The name of the protein design reasoning model for binder generation that Nvidia unveiled at GTC 2026 is \"Dyno Psi-1\". \n\nFINAL: Dyno Psi-1"
+  }
+ ]
+}

@@ -1,0 +1,736 @@
+{
+ "task": {
+  "id": "fresh-4",
+  "source": "fresh",
+  "question": "What measure came into force in Victoria, Australia in January 2026?",
+  "answer": "A total fire ban",
+  "evidence": "9 January – A total fire ban comes into force in Victoria in response to an ongoing heatwave.",
+  "page": "2026 in Australia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Based on what I found in my searches, I can note that Australia passed the Online Safety Amendment (Social Media Minimum Age) Act 2024, which banned children under 16 from social media platforms, with key provisions taking effect in December 2025. However, this was a federal (national) law, not specifically a Victoria state measure.\n\nFrom my knowledge, one notable measure that came into force in Victoria, Australia in January 2026 was the **ban on gas connections in new homes** (part of Victoria's transition away from gas), or possibly the **Workplace Injury Rehabilitation and Compensation** changes. However, I'm not certain enough about the exact January 2026 Victoria-specific measure without confirmed search results.\n\nFINAL: Запрет на подключение газа в новых домах",
+ "calls": [
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-4",
+   "model": "claude-sonnet-4.6",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 1450,
+   "completion": 66,
+   "cost": 0.00534
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-4",
+   "model": "claude-sonnet-4.6",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1875,
+   "completion": 61,
+   "cost": 0.00654
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-4",
+   "model": "claude-sonnet-4.6",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 2015,
+   "completion": 63,
+   "cost": 0.00699
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-4",
+   "model": "claude-sonnet-4.6",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 2483,
+   "completion": 75,
+   "cost": 0.008574
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-4",
+   "model": "claude-sonnet-4.6",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 2718,
+   "completion": 78,
+   "cost": 0.009324
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-4",
+   "model": "claude-sonnet-4.6",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 3204,
+   "completion": 62,
+   "cost": 0.010542
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-4",
+   "model": "claude-sonnet-4.6",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 3529,
+   "completion": 65,
+   "cost": 0.011562
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-4",
+   "model": "claude-sonnet-4.6",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 4079,
+   "completion": 64,
+   "cost": 0.013197
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-4",
+   "model": "claude-sonnet-4.6",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2840,
+   "completion": 177,
+   "cost": 0.011175
+  }
+ ],
+ "messages": [
+  {
+   "content": "What measure came into force in Victoria, Australia in January 2026?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "e46e9366-5360-4a75-8286-8f76e83f6898"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 66,
+     "prompt_tokens": 1450,
+     "total_tokens": 1516,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00534,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00534,
+      "upstream_inference_prompt_cost": 0.00435,
+      "upstream_inference_completions_cost": 0.00099
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115613-fcgQXoDkrF0lict5PRcN",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e04-e899-7f61-814d-f28e545431f3-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Victoria Australia January 2026 new law measure came into force"
+     },
+     "id": "toolu_01H4KjdDW5By1oBmHRoRyayb",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1450,
+    "output_tokens": 66,
+    "total_tokens": 1516,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Gun laws of Australia] Firearm restrictions in Australia primarily fall under the jurisdiction of Australian states and territories, while the federal government oversees the importation of firearms. During the last two decades of the 20th century, in response to several high-profile mass shootings, the federal government worked closely with state governments to implement more stringent firearms legislation. Gun laws were largely aligned in 1996 by the National Firearms Agreement which introduced stricter gun control measures and explicitly made gun ownership a privilege. In two federally funded gun buybacks and voluntary surrenders and State Governments' gun amnesties before and after the Port Arthur Massacre, more than a million firearms were collected and destroyed, possibly a third of the national stock. Since then the Agreement has continued to have support from both Labor and Coalition Federal Governments. In December 2023 the National Cabinet agreed to implement a national firearms register within four years. A person must have a firearm licence to possess or use a firearm. Licence holders must be able to demonstrate at least one \"genuine reason\" (which explicitly excludes self-defence) for holding a firearm licence and must not be a \"prohibited person\". All firearms must be registered by serial number to the owner. According to a 2025 review by The Australia Institute, while the National Firearms Agreement significantly improved public safety, the number of registered firearms has increased by approximately 25% since 1996. They noted emerging threats such as 3D-printed guns and recommended strengthening firearm regulations. In December 2025, a proposed national gun buy-back was announced by prime minister Anthony Albanese following the Bondi Beach shooting.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "bd058693-def8-4c59-8425-daf6141c6a91",
+   "tool_call_id": "toolu_01H4KjdDW5By1oBmHRoRyayb",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 61,
+     "prompt_tokens": 1875,
+     "total_tokens": 1936,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00654,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00654,
+      "upstream_inference_prompt_cost": 0.005625,
+      "upstream_inference_completions_cost": 0.000915
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115616-LxRJHcdgwSfod9HZQIW5",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e04-f5a0-7840-bbc6-de3f867bf610-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Victoria Australia new measure law January 2026"
+     },
+     "id": "toolu_01LLsuZ6DceVR8fyPyM6G23S",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1875,
+    "output_tokens": 61,
+    "total_tokens": 1936,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[2026 local electoral calendar] This local electoral calendar for 2026 lists the subnational elections held, and scheduled to be held, in 2026. Referendums, recall and retention elections, and national by-elections (special elections) are also included. Specific dates are given where these are known.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "65cb3c29-2b17-441c-85bc-65ba8b991963",
+   "tool_call_id": "toolu_01LLsuZ6DceVR8fyPyM6G23S",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 63,
+     "prompt_tokens": 2015,
+     "total_tokens": 2078,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00699,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00699,
+      "upstream_inference_prompt_cost": 0.006045,
+      "upstream_inference_completions_cost": 0.000945
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115619-uhBZRxRnPu6GGOawILHG",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e05-0241-7a00-9b42-62d1f0c74def-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Victoria Australia legislation policy came into effect January 2026"
+     },
+     "id": "toolu_01GomrUrzDPwzRDJU4pncirx",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2015,
+    "output_tokens": 63,
+    "total_tokens": 2078,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[White Australia policy] The White Australia policy was a set of racial policies that aimed to forbid people of non-European ethnic origins – Asians (primarily Chinese) and Pacific Islanders – from immigrating to Australia, in order to create a \"White/British\" ideal focused on Anglo-Celtic peoples, but not exclusively. Pre-Federation, the Australian colonies passed many anti-Chinese immigration laws mainly using Poll Taxes. With Federation in 1901 came discrimination based on the Dictation Test, which effectively gave power to immigration officials to racially discriminate without mentioning race. The policy also affected immigrants from Germany, Italy, and other European countries, especially in wartime. Governments progressively dismantled such policies between 1949 and 1973, when the Whitlam government removed the last racial elements of Australia's immigration laws. Competition in the gold fields between European and Chinese miners, and labour union opposition to the importation of Pacific Islanders (primarily South Sea Islanders) into the sugar plantations of Queensland, reinforced demands to eliminate or minimize low-wage immigration from Asia and the Pacific Islands. From the 1850s colonial governments imposed restrictions on Chinese arrivals, including poll taxes and tonnage restrictions. The colonial authorities levied a special tax on Chinese immigrants which other immigrants did not have to pay. Towards the end of the 19th century, labour unions pushed to stop Chinese immigrants from working in the furniture and market garden industries. Some laws were passed regarding the labelling of Chinese-made furniture in Victoria and Western Australia, but not in New South Wales. Chinese people dominated market gardening until their numbers declined as departures were not replaced. Soon after Australia became a federation in January 1901, the federal government of Edmund Barton passed the Immigration Restriction Act 1901; this was drafted by Alfred Deakin, who even",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "299bb238-d478-43c3-a66c-a95ef58c6423",
+   "tool_call_id": "toolu_01GomrUrzDPwzRDJU4pncirx",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 75,
+     "prompt_tokens": 2483,
+     "total_tokens": 2558,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.008574,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.008574,
+      "upstream_inference_prompt_cost": 0.007449,
+      "upstream_inference_completions_cost": 0.001125
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115623-51nbTD0NM9KzkAijiw2n",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e05-0fb6-7e31-a7d4-5f3bbbac338d-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "\"Victoria\" \"2026\" \"came into force\" OR \"takes effect\" OR \"new law\" January"
+     },
+     "id": "toolu_01QbggwpbYmsRmfjpw9i6fWW",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2483,
+    "output_tokens": 75,
+    "total_tokens": 2558,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Voluntary student unionism] Voluntary student unionism (VSU), as it is known in Australia, or voluntary student membership (VSM), as it is known in New Zealand, is a policy under which membership of – and payment of membership fees to – university student organisations is voluntary. Australia passed legislation enacting VSU in 2005, which came into force on 1 July 2006. Forms of VSU in Australia had been law in the state of Western Australia from 1994 until 2002, and in Victoria from 1994 to 2000. New Zealand passed legislation enacting VSM in 2011, rules which came into force on 1 January 2012.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "8a5bf5bc-fe19-442d-a672-27010cc2449c",
+   "tool_call_id": "toolu_01QbggwpbYmsRmfjpw9i6fWW",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 78,
+     "prompt_tokens": 2718,
+     "total_tokens": 2796,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.009324,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.009324,
+      "upstream_inference_prompt_cost": 0.008154,
+      "upstream_inference_completions_cost": 0.00117
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115626-SxyBxgUCsQp9TrEN85uK",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e05-1b95-7891-b861-218b874e1eb0-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Victoria Australia ban new rule January 2026 site:abc.net.au OR site:theage.com.au"
+     },
+     "id": "toolu_01G7fZyn5H5Y6FQRb73VN5Yx",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2718,
+    "output_tokens": 78,
+    "total_tokens": 2796,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Nuclear power in Australia] Nuclear power in Australia has been a topic of practical debate since the mid-20th century. Australia has never had a nuclear power plant, and has only one nuclear reactor (OPAL), the third in a series at Lucas Heights, New South Wales, which have been used exclusively for research, training, and to produce radionuclides for both nuclear medicine and industry. Australia hosts 33% of the world's proven uranium deposits, and is currently the world's third largest producer of uranium after Kazakhstan and Canada. Australia's extensive low-cost coal and natural gas reserves have historically been used as strong arguments for avoiding nuclear power. The Liberal Party has advocated for the development of nuclear power and nuclear industries in Australia since the 1950s. The Gorton government began work to construct the Jervis Bay Nuclear Power Plant in the late 1960s with a design specified to optimise production of plutonium for a secret federal government optional plan to produce nuclear weapons; after protests and boycotts, construction was abandoned following John Gorton's replacement as prime minister in 1971. An anti-nuclear movement developed in Australia in the 1970s, initially focusing on prohibiting nuclear weapons testing and limiting the development of uranium mining and export. The movement also challenged the environmental and economic costs of developing nuclear power and the possibility of fissile material being diverted into nuclear weapons production. A resurgence of interest in nuclear power was prompted by Prime Minister John Howard in 2007 in response to the need to move to low-carbon methods of power generation in order to reduce the effects of global warming on Australia. In 2015, South Australian Premier Jay Weatherill initiated a Nuclear Fuel Cycle Royal Commission to investigate the state's future role in the nuclear fuel cycle. As of 2018 there are three active uranium mines, Ranger in Northern Territory, Olympic Dam ",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "1312e212-60e2-464c-80fd-ff7c7c32bc63",
+   "tool_call_id": "toolu_01G7fZyn5H5Y6FQRb73VN5Yx",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 62,
+     "prompt_tokens": 3204,
+     "total_tokens": 3266,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.010542,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.010542,
+      "upstream_inference_prompt_cost": 0.009612,
+      "upstream_inference_completions_cost": 0.00093
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115628-XSOihuJJekJnbqTDo4s4",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e05-25ef-7843-b482-2eb3030923b8-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Victoria Australia social media ban children January 2026"
+     },
+     "id": "toolu_01TyfBFut3gjzDdsuqyy5TuZ",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 3204,
+    "output_tokens": 62,
+    "total_tokens": 3266,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Online Safety Amendment (Social Media Minimum Age) Act 2024] The Online Safety Amendment (Social Media Minimum Age) Act 2024 is an Australian act of parliament that prohibits minors under the age of 16 from holding an account on certain social media platforms. It is an amendment to the Online Safety Act 2021 and was passed by the Parliament of Australia on 29 November 2024. It imposes monetary penalties on social media companies that fail to take reasonable steps to prevent minors under 16 who are located in Australia from having accounts on their services. The legislation allows the government to determine which social media platforms must ban age‑restricted users and proclaim a date for the commencement of the ban, with those provisions taking effect on 10 December 2025. Facebook, Instagram, Reddit, Snapchat, TikTok, Twitter, Threads, Twitch, Kick, and YouTube were age‑restricted on 10 December 2025, with the possibility that more platforms may be added. It was the first such legislation to be passed in the world. The act is being challenged in the High Court by the Digital Freedom Project.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "9e00963e-74dd-4822-b5ce-6ed54839c774",
+   "tool_call_id": "toolu_01TyfBFut3gjzDdsuqyy5TuZ",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 65,
+     "prompt_tokens": 3529,
+     "total_tokens": 3594,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.011562,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.011562,
+      "upstream_inference_prompt_cost": 0.010587,
+      "upstream_inference_completions_cost": 0.000975
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115632-gGCL4RSTqt3AGXf1tYCo",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e05-34bb-7d80-aa4a-8a45681e8457-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Victoria state Australia new law January 2026 housing rental wage"
+     },
+     "id": "toolu_01Wxa7Y83dWnGrKgnMo9oVnT",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 3529,
+    "output_tokens": 65,
+    "total_tokens": 3594,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Economy of Australia] Australia has a highly developed mixed economy. As of 2026, Australia was the 12th-largest national economy by nominal GDP (gross domestic product), the 22nd-largest by PPP-adjusted GDP, and was the 21st-largest goods exporter and 24th-largest goods importer. Australia took the record for the longest run of uninterrupted GDP growth in the developed world with the March 2017 financial quarter. It was the 103rd quarter and the 26th year since the country had a technical recession. As of June 2021, the country's GDP was estimated at $1.98 trillion. The Australian economy is dominated by its service sector, which in 2017 comprised 62.7% of the GDP and employed 78.8% of the labour force. At the height of the mining boom in 2009–10, the total value-added of the mining industry was 8.4% of GDP. Despite the recent decline in the mining sector, the Australian economy has remained resilient and stable and did not experience a recession from 1991 until 2020. Among OECD members, Australia has a highly efficient and strong social security system, which comprises roughly 25% of GDP. Also among OECD members, Australia has had the most severe increases in cost of living relative to wage growth since the COVID-19 pandemic, along with Finland and New Zealand. The Australian Securities Exchange in Sydney is the 16th-largest stock exchange in the world in terms of domestic market capitalisation and has one of the largest interest rate derivatives markets in the Asia-Pacific region. Some of Australia's largest companies include Commonwealth Bank, BHP, CSL, Westpac, National Australia Bank, ANZ, Fortescue, Wesfarmers, Macquarie Group, Woolworths Group, Rio Tinto, Telstra, Woodside Energy and Transurban. The currency of Australia and its territories is the Australian dollar, which it shares with several Pacific nation states. Australia's economy is strongly intertwined with the countries of East and Southeast Asia, also known as ASEAN Plus Three (APT), accounting fo",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "6c3ed6db-0f62-498f-8df0-700d16b0ace3",
+   "tool_call_id": "toolu_01Wxa7Y83dWnGrKgnMo9oVnT",
+   "status": "success"
+  },
+  {
+   "content": "Based on what I found in my searches, I can note that Australia passed the Online Safety Amendment (Social Media Minimum Age) Act 2024, which banned children under 16 from social media platforms, with key provisions taking effect in December 2025. However, this was a federal (national) law, not specifically a Victoria state measure.\n\nFrom my knowledge, one notable measure that came into force in Victoria, Australia in January 2026 was the **ban on gas connections in new homes** (part of Victoria's transition away from gas), or possibly the **Workplace Injury Rehabilitation and Compensation** changes. However, I'm not certain enough about the exact January 2026 Victoria-specific measure without confirmed search results.\n\nFINAL: Запрет на подключение газа в новых домах",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 177,
+     "prompt_tokens": 2840,
+     "total_tokens": 3017,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.011175,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.011175,
+      "upstream_inference_prompt_cost": 0.00852,
+      "upstream_inference_completions_cost": 0.002655
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115637-3Aa0dDx4q9jscTAhNNyD",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e05-491d-7222-96eb-41e58152e899-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2840,
+    "output_tokens": 177,
+    "total_tokens": 3017,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

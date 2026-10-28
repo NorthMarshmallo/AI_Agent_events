@@ -1,0 +1,64 @@
+{
+ "task": {
+  "id": "fresh-13",
+  "source": "fresh",
+  "question": "What is the highest recorded temperature in Germany during the 2026 European heatwaves?",
+  "answer": "41.5 °C",
+  "evidence": "27 June — 2026 European heatwaves: The highest recorded temperature in Germany is taken in Möckern-Drewitz, measuring 41.5 °C (106.7 °F).",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The highest temperature recorded in Germany during the 2026 European heatwaves was 34 °C (93 °F) in Regensburg, Bavaria, on 26 May. \n\nFINAL: 34 °C",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-13",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 576,
+   "completion": 24,
+   "cost": 0.0001008
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-13",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1053,
+   "completion": 33,
+   "cost": 0.00017775
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-13",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1316,
+   "completion": 43,
+   "cost": 0.0001464
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-13",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 772,
+   "completion": 9,
+   "cost": 0.0001212
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "34 °C",
+   "supported": true,
+   "issue": ""
+  }
+ ]
+}

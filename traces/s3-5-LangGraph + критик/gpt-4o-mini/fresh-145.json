@@ -1,0 +1,72 @@
+{
+ "task": {
+  "id": "fresh-145",
+  "source": "fresh",
+  "question": "On what date did Tatsuya Nagamine, director of One Piece Film: Z and Dragon Ball Super: Broly, die after a year-long illness?",
+  "answer": "August 20, 2025",
+  "evidence": "Tatsuya Nagamine (長峯 達也, Nagamine Tatsuya; October 6, 1971 – August 20, 2025) was a Japanese anime director who worked for Toei Animation.",
+  "page": "Tatsuya Nagamine",
+  "url": "https://en.wikipedia.org/wiki/Tatsuya_Nagamine"
+ },
+ "answer": "Tatsuya Nagamine died on August 20, 2025. \n\nFINAL: August 20, 2025",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 591,
+   "completion": 20,
+   "cost": 0.00010065
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 713,
+   "completion": 19,
+   "cost": 0.00011835
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 923,
+   "completion": 20,
+   "cost": 0.00015045
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1004,
+   "completion": 26,
+   "cost": 0.0001662
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 777,
+   "completion": 9,
+   "cost": 0.00012195
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "August 20, 2025",
+   "supported": true,
+   "issue": ""
+  }
+ ]
+}

@@ -1,0 +1,280 @@
+{
+ "task": {
+  "id": "fresh-133",
+  "source": "fresh",
+  "question": "On what date did DeepSeek release its open-weight reasoning model DeepSeek-R1?",
+  "answer": "20 January 2025",
+  "evidence": "Released on 20 January 2025, DeepSeek-R1 surpassed ChatGPT as the most downloaded freeware app",
+  "page": "DeepSeek (chatbot)",
+  "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)"
+ },
+ "answer": "DeepSeek released its open-weight reasoning model **DeepSeek-R1** on **January 20, 2025**.\n\nFINAL: January 20, 2025",
+ "calls": [
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-133",
+   "model": "claude-sonnet-4.6",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 1458,
+   "completion": 63,
+   "cost": 0.005319
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-133",
+   "model": "claude-sonnet-4.6",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1614,
+   "completion": 106,
+   "cost": 0.006432
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-133",
+   "model": "claude-sonnet-4.6",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 2079,
+   "completion": 44,
+   "cost": 0.006897
+  }
+ ],
+ "messages": [
+  {
+   "content": "On what date did DeepSeek release its open-weight reasoning model DeepSeek-R1?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "6b289de9-f220-4a6f-8767-e54cee911e3c"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 63,
+     "prompt_tokens": 1458,
+     "total_tokens": 1521,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.005319,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.005319,
+      "upstream_inference_prompt_cost": 0.004374,
+      "upstream_inference_completions_cost": 0.000945
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115815-yaTvTC3GzvXZKIPbvMiY",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e07-feef-7793-adf0-7eacddfaa228-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "DeepSeek-R1 release date"
+     },
+     "id": "toolu_01AyW7NiCetYvRMvQFRGdyta",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1458,
+    "output_tokens": 63,
+    "total_tokens": 1521,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[DeepSeek] Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd., doing business as DeepSeek, is a Chinese artificial intelligence (AI) company that develops open weights large language models (LLMs). Based in Hangzhou, Zhejiang, DeepSeek is owned and funded by High-Flyer, a Chinese hedge fund.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "e1c81207-e12e-45df-8748-f765258aaf89",
+   "tool_call_id": "toolu_01AyW7NiCetYvRMvQFRGdyta",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 106,
+     "prompt_tokens": 1614,
+     "total_tokens": 1720,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.006432,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.006432,
+      "upstream_inference_prompt_cost": 0.004842,
+      "upstream_inference_completions_cost": 0.00159
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115818-arWkwBBr8t33Q1YbomMd",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e08-09ed-7910-9245-7e9a6e5b64f2-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "DeepSeek",
+      "keywords": [
+       "DeepSeek-R1",
+       "release",
+       "date"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "toolu_01UyPP7omxkm1AeReUNMv1Pj",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1614,
+    "output_tokens": 106,
+    "total_tokens": 1720,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "It launched an eponymous chatbot alongside its DeepSeek-R1 model in January 2025.\nSince January 2025, DeepSeek has released its models under free and open-source software licenses.\n== Model releases ==\nOn 20 January 2025, DeepSeek launched the DeepSeek-R1 model, which was free for iOS and Android.\nOn 28 May 2025, DeepSeek released DeepSeek-R1-0528 under the MIT License, which was a minor update upon R1.\nOn 21 August 2025, DeepSeek released DeepSeek V3.1 under the MIT License.\nIt was updated to V3.1-Terminus on 22 September 2025, which fixed multiple language artifacts and improved in intelligence in general.\nDeepSeek V3.2-Exp was released on 29 September 2025.\nDeepSeek-V3.2 was released on 1 December 2025, alongside a DeepSeek-V3.2-Speciale variant that focused on reasoning.\nOn 24 April 2026, DeepSeek released a preview of its V4 series, including the 284-billion parameter DeepSeek-V4-Flash and the 1.6-trillion parameter DeepSeek-V4-Pro.\nThe official versions of DeepSeek V4-Flash and V4-Pro were released on 31 July and 13 August, respectively.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "5953934a-cb38-44f1-9393-ec6e00fb628d",
+   "tool_call_id": "toolu_01UyPP7omxkm1AeReUNMv1Pj",
+   "status": "success"
+  },
+  {
+   "content": "DeepSeek released its open-weight reasoning model **DeepSeek-R1** on **January 20, 2025**.\n\nFINAL: January 20, 2025",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 44,
+     "prompt_tokens": 2079,
+     "total_tokens": 2123,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.006897,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.006897,
+      "upstream_inference_prompt_cost": 0.006237,
+      "upstream_inference_completions_cost": 0.00066
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115820-sGDfxvZTtyAUY8FoiHWH",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e08-12c3-7e80-8fee-f3b8b68f6bf3-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2079,
+    "output_tokens": 44,
+    "total_tokens": 2123,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,751 @@
+{
+ "task": {
+  "id": "fresh-10",
+  "source": "fresh",
+  "question": "How many people were killed in the February 18 explosion at a fireworks store in China?",
+  "answer": "Twelve",
+  "evidence": "18 February – Twelve people are killed in an explosion at a fireworks store in Xiangyang, Hubei.",
+  "page": "2026 in China",
+  "url": "https://en.wikipedia.org/wiki/2026_in_China",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "На данный момент нет точной информации о количестве жертв в результате взрыва в магазине фейерверков в Китае 18 февраля 2023 года. \n\nFINAL: Неизвестно.",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 577,
+   "completion": 20,
+   "cost": 9.855e-05
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 639,
+   "completion": 41,
+   "cost": 0.00012045
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 706,
+   "completion": 32,
+   "cost": 0.0001251
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1686,
+   "completion": 24,
+   "cost": 0.0002673
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1752,
+   "completion": 44,
+   "cost": 0.0001644
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1822,
+   "completion": 35,
+   "cost": 0.0001695
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2805,
+   "completion": 24,
+   "cost": 0.00030075
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2871,
+   "completion": 48,
+   "cost": 0.00025785
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-10",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2450,
+   "completion": 43,
+   "cost": 0.0003933
+  }
+ ],
+ "messages": [
+  {
+   "content": "How many people were killed in the February 18 explosion at a fireworks store in China?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "074df3f0-3a0f-4b71-a8b5-14abf8674f38"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 20,
+     "prompt_tokens": 577,
+     "total_tokens": 597,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 9.855e-05,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 9.855e-05,
+      "upstream_inference_prompt_cost": 8.655e-05,
+      "upstream_inference_completions_cost": 1.2e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420490-is06pKRWd7NdKOSC9r1j",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-2c5d-7991-9e68-418c28a02404-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "February 18 explosion fireworks store China"
+     },
+     "id": "call_mh32nQ1vXyEwojhiHBXpCNjL",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 577,
+    "output_tokens": 20,
+    "total_tokens": 597,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[List of fireworks accidents and incidents] This is a list of fireworks accidents and incidents, including pyrotechnics fire and explosion. The list is sortable by casualties and date.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "8843b29f-1d39-4d9f-9360-8317804c03d4",
+   "tool_call_id": "call_mh32nQ1vXyEwojhiHBXpCNjL",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 41,
+     "prompt_tokens": 639,
+     "total_tokens": 680,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00012045,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00012045,
+      "upstream_inference_prompt_cost": 9.585e-05,
+      "upstream_inference_completions_cost": 2.46e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420497-bQVCVDdChnJlBCQHPiuj",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-48c4-7dc1-8f0b-ef5ff7eb6c82-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "List of fireworks accidents and incidents",
+      "keywords": [
+       "February 18",
+       "explosion",
+       "fireworks store",
+       "China"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_H6H4r6NePvQGLMdX81Ks16Up",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 639,
+    "output_tokens": 41,
+    "total_tokens": 680,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "This is a list of fireworks accidents and incidents, including pyrotechnics fire and explosion.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "59f923b9-e135-4751-b7c5-c1142ce39f24",
+   "tool_call_id": "call_H6H4r6NePvQGLMdX81Ks16Up",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 32,
+     "prompt_tokens": 706,
+     "total_tokens": 738,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001251,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001251,
+      "upstream_inference_prompt_cost": 0.0001059,
+      "upstream_inference_completions_cost": 1.92e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420499-7FPalPSqIFvSCMKr7oSd",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-4ef0-75e0-8b83-83d3d04ee3b7-0",
+   "tool_calls": [
+    {
+     "name": "ru_wiki_search",
+     "args": {
+      "query": "взрыв в магазине фейерверков в Китае 18 февраля"
+     },
+     "id": "call_KreVTRqDLidiPPCqil1eCrsM",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 706,
+    "output_tokens": 32,
+    "total_tokens": 738,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[2026 год] Годы 2022 · 2023 · 2024 · 2025 — 2026 — 2027 · 2028 · 2029 · 2030 Десятилетия 2000-е · 2010-е — 2020-е — 2030-е · 2040-е Века XX век — XXI век — XXII век 3-е тысячелетие XIX век XX век XXI век XXII век XXIII век 1990-е 1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000-е 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010-е 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020-е 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030-е 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040-е 2040 2041 2042 2043 2044 2045 2046 2047 2048 2049 2050-е 2050 2051 2052 2053 2054 2055 2056 2057 2058 2059 2060-е 2060 2061 2062 2063 2064 2065 2066 2067 2068 2069 2070-е 2070 2071 2072 2073 2074 2075 2076 2077 2078 2079 2080-е 2080 2081 2082 2083 2084 2085 2086 2087 2088 2089 2090-е 2090 2091 2092 2093 2094 2095 2096 2097 2098 2099 2100-е 2100 2101 2102 2103 2104 2105 2106 2107 2108 2109 Хронологическая таблица 2026 (две ты́сячи два́дцать шесто́й) год в различных календарях Григорианский календарь 2026 MMXXVI Юлианский календарь 2025—2026 (с 14 января ) Юлианский календарь с византийской эрой 7534—7535 (с 14 сентября ) От основания Рима 2778—2779 (с 4 мая ) Еврейский календарь 5786—5787 ה'תשפ\"ו — ה'תשפ\"ז Исламский календарь 1447—1448 (с 16 июня ) Древнеармянский календарь 4518—4519 (с 24 августа ) Армянский церковный календарь 1475 ԹՎ ՌՆՀԵ Китайский календарь 4722—4723 (с 17 февраля ) 乙巳 — 丙午 зелёная змея — красная лошадь Эфиопский календарь 2018 — 2019 Древнеиндийский календарь ⁃ Викрам-самват 2082—2083 ⁃ Шака самват 1947—1948 ⁃ Кали-юга 5127—5128 Иранский календарь 1404—1405 Буддийский календарь 2569 Голоценовый календарь 12026 Японское летосчисление 8 год Рэйва Французский республиканский календарь 234—235 Календарь чучхе 115 год чучхе Календарь Миньго 115 год республики 2026 ( две ты́сячи два́дцать шесто́й ) год по григорианскому календарю — невисокосный год , начинающийся в четверг . Это 2026 год нашей эры , 6‑й год 3‑го десятилетия XXI века 3‑го тысячеле",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "ru_wiki_search",
+   "id": "9c020560-b260-43f9-a4da-6c76ae06e836",
+   "tool_call_id": "call_KreVTRqDLidiPPCqil1eCrsM",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 24,
+     "prompt_tokens": 1686,
+     "total_tokens": 1710,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0002673,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0002673,
+      "upstream_inference_prompt_cost": 0.0002529,
+      "upstream_inference_completions_cost": 1.44e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420507-HwZlSttG4xXWsIGOLGwq",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-6e62-7b20-9edc-686e59ca367b-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "February 18 2023 fireworks store explosion China casualties"
+     },
+     "id": "call_wjHVSNUjkvb6GmzSHYArLeGR",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1686,
+    "output_tokens": 24,
+    "total_tokens": 1710,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[List of fireworks accidents and incidents] This is a list of fireworks accidents and incidents, including pyrotechnics fire and explosion. The list is sortable by casualties and date.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "103413ae-4b7c-41e4-8035-658187b464bc",
+   "tool_call_id": "call_wjHVSNUjkvb6GmzSHYArLeGR",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 44,
+     "prompt_tokens": 1752,
+     "total_tokens": 1796,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1664,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001644,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001644,
+      "upstream_inference_prompt_cost": 0.000138,
+      "upstream_inference_completions_cost": 2.64e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420509-YcTbHN44uyDMnhjzcKt4",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-7715-7992-8608-521438a448af-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "List of fireworks accidents and incidents",
+      "keywords": [
+       "February 18",
+       "2023",
+       "explosion",
+       "fireworks store",
+       "China"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_ajp4aB1y4jsERsZYVcPCh4Na",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1752,
+    "output_tokens": 44,
+    "total_tokens": 1796,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1664,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "This is a list of fireworks accidents and incidents, including pyrotechnics fire and explosion.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "88a4132b-4fd4-47d6-9f95-dab2f117ce77",
+   "tool_call_id": "call_ajp4aB1y4jsERsZYVcPCh4Na",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 35,
+     "prompt_tokens": 1822,
+     "total_tokens": 1857,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1664,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001695,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001695,
+      "upstream_inference_prompt_cost": 0.0001485,
+      "upstream_inference_completions_cost": 2.1e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420510-abfDdaO7hVy4IdNkCs2R",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-7cfd-7cd1-b753-60e7836799ae-0",
+   "tool_calls": [
+    {
+     "name": "ru_wiki_search",
+     "args": {
+      "query": "взрыв в магазине фейерверков в Китае 18 февраля 2023"
+     },
+     "id": "call_1hUYrHGXig0x9EsOOsoyAIza",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1822,
+    "output_tokens": 35,
+    "total_tokens": 1857,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1664,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[2026 год] Годы 2022 · 2023 · 2024 · 2025 — 2026 — 2027 · 2028 · 2029 · 2030 Десятилетия 2000-е · 2010-е — 2020-е — 2030-е · 2040-е Века XX век — XXI век — XXII век 3-е тысячелетие XIX век XX век XXI век XXII век XXIII век 1990-е 1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000-е 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010-е 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020-е 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030-е 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040-е 2040 2041 2042 2043 2044 2045 2046 2047 2048 2049 2050-е 2050 2051 2052 2053 2054 2055 2056 2057 2058 2059 2060-е 2060 2061 2062 2063 2064 2065 2066 2067 2068 2069 2070-е 2070 2071 2072 2073 2074 2075 2076 2077 2078 2079 2080-е 2080 2081 2082 2083 2084 2085 2086 2087 2088 2089 2090-е 2090 2091 2092 2093 2094 2095 2096 2097 2098 2099 2100-е 2100 2101 2102 2103 2104 2105 2106 2107 2108 2109 Хронологическая таблица 2026 (две ты́сячи два́дцать шесто́й) год в различных календарях Григорианский календарь 2026 MMXXVI Юлианский календарь 2025—2026 (с 14 января ) Юлианский календарь с византийской эрой 7534—7535 (с 14 сентября ) От основания Рима 2778—2779 (с 4 мая ) Еврейский календарь 5786—5787 ה'תשפ\"ו — ה'תשפ\"ז Исламский календарь 1447—1448 (с 16 июня ) Древнеармянский календарь 4518—4519 (с 24 августа ) Армянский церковный календарь 1475 ԹՎ ՌՆՀԵ Китайский календарь 4722—4723 (с 17 февраля ) 乙巳 — 丙午 зелёная змея — красная лошадь Эфиопский календарь 2018 — 2019 Древнеиндийский календарь ⁃ Викрам-самват 2082—2083 ⁃ Шака самват 1947—1948 ⁃ Кали-юга 5127—5128 Иранский календарь 1404—1405 Буддийский календарь 2569 Голоценовый календарь 12026 Японское летосчисление 8 год Рэйва Французский республиканский календарь 234—235 Календарь чучхе 115 год чучхе Календарь Миньго 115 год республики 2026 ( две ты́сячи два́дцать шесто́й ) год по григорианскому календарю — невисокосный год , начинающийся в четверг . Это 2026 год нашей эры , 6‑й год 3‑го десятилетия XXI века 3‑го тысячеле",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "ru_wiki_search",
+   "id": "eebd5e33-57b7-49e7-a41a-fc569ae661e5",
+   "tool_call_id": "call_1hUYrHGXig0x9EsOOsoyAIza",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 24,
+     "prompt_tokens": 2805,
+     "total_tokens": 2829,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1792,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00030075,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00030075,
+      "upstream_inference_prompt_cost": 0.00028635,
+      "upstream_inference_completions_cost": 1.44e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420513-uuv4yOm9nt2Y4axhjVv5",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-8682-7fa3-8549-98e420a57a19-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "February 18 2023 China fireworks store explosion news"
+     },
+     "id": "call_B1eUcqNTVs4Xa2c87n8EPOLp",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2805,
+    "output_tokens": 24,
+    "total_tokens": 2829,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1792,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[List of fireworks accidents and incidents] This is a list of fireworks accidents and incidents, including pyrotechnics fire and explosion. The list is sortable by casualties and date.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "34276133-646b-4e97-8404-70e369920a13",
+   "tool_call_id": "call_B1eUcqNTVs4Xa2c87n8EPOLp",
+   "status": "success"
+  },
+  {
+   "content": "На данный момент нет точной информации о количестве жертв в результате взрыва в магазине фейерверков в Китае 18 февраля 2023 года. \n\nFINAL: Неизвестно.",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 43,
+     "prompt_tokens": 2450,
+     "total_tokens": 2493,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0003933,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0003933,
+      "upstream_inference_prompt_cost": 0.0003675,
+      "upstream_inference_completions_cost": 2.58e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_a010e5d37f",
+    "id": "gen-1792420517-9tEX3DBR4mZhfoTINXfP",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-9594-7502-a5f9-c45ba4dcced5-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2450,
+    "output_tokens": 43,
+    "total_tokens": 2493,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,238 @@
+{
+ "task": {
+  "id": "fresh-127",
+  "source": "fresh",
+  "question": "How many of the 96 experimentally screened RFdiffusion2-designed metallohydrolases showed proficient hydrolysis activity, per a December 2025 GEN article on a companion Baker lab Nature paper?",
+  "answer": "five",
+  "evidence": "Notably, five out of 96 designs showed proficient hydrolysis activity.",
+  "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/"
+ },
+ "answer": "I couldn't find any information on the number of RFdiffusion2-designed metallohydrolases that showed proficient hydrolysis activity based on the December 2025 GEN article about a companion Baker lab Nature paper. \n\nFINAL: No data available.",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 599,
+   "completion": 27,
+   "cost": 0.00010605
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 599,
+   "completion": 30,
+   "cost": 0.00010785
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 599,
+   "completion": 26,
+   "cost": 0.00010545
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 636,
+   "completion": 29,
+   "cost": 0.0001128
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1067,
+   "completion": 29,
+   "cost": 0.00017745
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1106,
+   "completion": 25,
+   "cost": 0.0001041
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 639,
+   "completion": 30,
+   "cost": 0.00011385
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 679,
+   "completion": 32,
+   "cost": 0.00012105
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1141,
+   "completion": 27,
+   "cost": 0.00018735
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 722,
+   "completion": 24,
+   "cost": 0.0001227
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 758,
+   "completion": 42,
+   "cost": 0.0001389
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1620,
+   "completion": 26,
+   "cost": 0.0001818
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1656,
+   "completion": 68,
+   "cost": 0.0002892
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 635,
+   "completion": 26,
+   "cost": 0.00011085
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 671,
+   "completion": 28,
+   "cost": 0.00011745
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 5,
+   "prompt": 2518,
+   "completion": 28,
+   "cost": 0.0003945
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1032,
+   "completion": 19,
+   "cost": 0.0001662
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1063,
+   "completion": 27,
+   "cost": 9.885e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 18,
+   "tools": 0,
+   "prompt": 2097,
+   "completion": 80,
+   "cost": 0.00036255
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1100,
+   "completion": 27,
+   "cost": 0.0001812
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-127",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1137,
+   "completion": 50,
+   "cost": 0.00020055
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "I couldn't find any information on the number of RFdiffusion2-designed metallohydrolases that showed proficient hydrolysis activity based on the December 2025 GEN article about a companion Baker lab Nature paper. \n\nFINAL: No data available."
+  },
+  {
+   "role": "vote",
+   "content": "К сожалению, я не смог найти информацию о том, сколько из 96 экспериментально проверенных металлогидролаз, разработанных с помощью RFdiffusion2, показали профицитную гидролитическую активность из статьи GEN за декабрь 2025 года о сопутствующей работе лаборатории Бейкера в журнале Nature. \n\nFINAL: Неизвестно."
+  },
+  {
+   "role": "vote",
+   "content": "I couldn't find any specific information about the number of RFdiffusion2-designed metallohydrolases that showed proficient hydrolysis activity from a December 2025 article. \n\nFINAL: No data available."
+  }
+ ]
+}

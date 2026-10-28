@@ -1,0 +1,250 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "У меня нет информации о новом инди-анимированном сериале от Мэтта Брали, который был бы полностью профинансирован 17 марта 2026 года. Однако он известен как создатель и исполнительный продюсер анимационного сериала \"Amphibia\". \n\nFINAL: Информация отсутствует.",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 589,
+   "completion": 22,
+   "cost": 0.00010155
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 589,
+   "completion": 22,
+   "cost": 0.00010155
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 589,
+   "completion": 27,
+   "cost": 0.00010455
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 687,
+   "completion": 37,
+   "cost": 0.00012525
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 692,
+   "completion": 18,
+   "cost": 0.0001146
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 687,
+   "completion": 38,
+   "cost": 0.00012585
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1014,
+   "completion": 33,
+   "cost": 0.0001719
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 775,
+   "completion": 27,
+   "cost": 0.00013245
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 786,
+   "completion": 25,
+   "cost": 0.0001329
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1078,
+   "completion": 22,
+   "cost": 9.81e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 878,
+   "completion": 33,
+   "cost": 0.0001515
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 842,
+   "completion": 20,
+   "cost": 0.0001383
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 987,
+   "completion": 28,
+   "cost": 0.00016485
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1176,
+   "completion": 28,
+   "cost": 0.0001932
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 938,
+   "completion": 18,
+   "cost": 0.0001515
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1282,
+   "completion": 56,
+   "cost": 0.0001491
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1142,
+   "completion": 22,
+   "cost": 0.0001845
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1240,
+   "completion": 24,
+   "cost": 0.0001236
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 15,
+   "tools": 5,
+   "prompt": 1546,
+   "completion": 32,
+   "cost": 0.0001551
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 1340,
+   "completion": 23,
+   "cost": 0.0001284
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 5,
+   "prompt": 1597,
+   "completion": 42,
+   "cost": 0.00014955
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 919,
+   "completion": 69,
+   "cost": 0.00017925
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "У меня нет информации о новом инди-анимированном сериале от Мэтта Брали, который был бы полностью профинансирован 17 марта 2026 года. Однако он известен как создатель и исполнительный продюсер анимационного сериала \"Amphibia\". \n\nFINAL: Информация отсутствует."
+  },
+  {
+   "role": "vote",
+   "content": "The indie animated series created by Matt Braly that was fully funded on March 17, 2026, is called \"Afterworld: กลับบ้าน\". \n\nFINAL: Afterworld: กลับบ้าน"
+  },
+  {
+   "role": "vote",
+   "content": "The name of the indie animated series created by Matt Braly is \"Clara and the Below.\" \n\nFINAL: Clara and the Below"
+  }
+ ]
+}

@@ -1,0 +1,186 @@
+{
+ "task": {
+  "id": "fresh-142",
+  "source": "fresh",
+  "question": "Which anime series won Anime of the Year at the 2026 Crunchyroll Anime Awards?",
+  "answer": "My Hero Academia",
+  "evidence": "The most recent ceremony was the 10th ceremony, held on May 23, 2026, where the eighth and final season of My Hero Academia won the Anime of the Year award.",
+  "page": "Crunchyroll Anime Awards",
+  "url": "https://en.wikipedia.org/wiki/Crunchyroll_Anime_Awards",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "The eighth and final season of My Hero Academia won the Anime of the Year award at the 2026 Crunchyroll Anime Awards. \n\nFINAL: My Hero Academia (eighth and final season)",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-142",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 578,
+   "completion": 25,
+   "cost": 0.0001017
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-142",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 789,
+   "completion": 41,
+   "cost": 0.00014295
+  }
+ ],
+ "messages": [
+  {
+   "content": "Which anime series won Anime of the Year at the 2026 Crunchyroll Anime Awards?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "1ad63a8a-d27e-4be5-863e-fa124a25056e"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 25,
+     "prompt_tokens": 578,
+     "total_tokens": 603,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001017,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001017,
+      "upstream_inference_prompt_cost": 8.67e-05,
+      "upstream_inference_completions_cost": 1.5e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420638-mwxdUtVesjG1mgYqcH07",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-6e26-7d02-9349-a6f75ff0ec22-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "2026 Crunchyroll Anime Awards Anime of the Year winner"
+     },
+     "id": "call_DzKbTglFufwdWJa83dzcPujw",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 578,
+    "output_tokens": 25,
+    "total_tokens": 603,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Crunchyroll Anime Awards] The Crunchyroll Anime Awards, also known simply as The Anime Awards, are awards given annually by the anime streaming service Crunchyroll to recognize the best anime of the previous year. Announced in December 2016, the awards were first presented in January 2017. Crunchyroll describes it as a \"global event that recognizes the anime shows, characters, and artists that fans around the world love most.\" The Anime Awards were originally held in California in the United States. In 2023, the Awards moved to the Grand Prince Hotel New Takanawa in Tokyo, Japan for the 7th ceremony and have been held there ever since. The most recent ceremony was the 10th ceremony, held on May 23, 2026, where the eighth and final season of My Hero Academia won the Anime of the Year award.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "7ae5eedb-cd20-4b1e-8e1d-eb0cf95286a5",
+   "tool_call_id": "call_DzKbTglFufwdWJa83dzcPujw",
+   "status": "success"
+  },
+  {
+   "content": "The eighth and final season of My Hero Academia won the Anime of the Year award at the 2026 Crunchyroll Anime Awards. \n\nFINAL: My Hero Academia (eighth and final season)",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 41,
+     "prompt_tokens": 789,
+     "total_tokens": 830,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00014295,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00014295,
+      "upstream_inference_prompt_cost": 0.00011835,
+      "upstream_inference_completions_cost": 2.46e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420640-eygac0ktsiaW3hKwzPih",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-76c8-7a82-bfe5-9d0f802a1bc4-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 789,
+    "output_tokens": 41,
+    "total_tokens": 830,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

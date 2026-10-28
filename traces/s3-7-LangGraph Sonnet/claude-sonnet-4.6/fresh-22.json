@@ -1,0 +1,375 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The indie animated series created by Matt Braly that was fully funded on March 17, 2026, is **Clara and the Below** — a gothic horror adaptation of *The Nutcracker*. It was launched on Kickstarter through his own animation studio, Fantasy Project, with a goal of $25,000 to fund a single episode. It was so successful that it earned over $231,000 in less than a week!\n\nFINAL: Clara and the Below",
+ "calls": [
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-22",
+   "model": "claude-sonnet-4.6",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 1466,
+   "completion": 71,
+   "cost": 0.005463
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-22",
+   "model": "claude-sonnet-4.6",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1626,
+   "completion": 103,
+   "cost": 0.006423
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-22",
+   "model": "claude-sonnet-4.6",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1815,
+   "completion": 107,
+   "cost": 0.00705
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-22",
+   "model": "claude-sonnet-4.6",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 2254,
+   "completion": 106,
+   "cost": 0.008352
+  }
+ ],
+ "messages": [
+  {
+   "content": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "6f779f9b-0c33-45fb-8f16-a4456b168deb"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 71,
+     "prompt_tokens": 1466,
+     "total_tokens": 1537,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.005463,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.005463,
+      "upstream_inference_prompt_cost": 0.004398,
+      "upstream_inference_completions_cost": 0.001065
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115709-JF37yYL4Hw2LRuB1ekID",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-605e-7e72-b603-0f901effa1a6-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Matt Braly indie animated series Kickstarter funded March 17 2026"
+     },
+     "id": "toolu_01THqMUZraonX5eJW7UTNYCC",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1466,
+    "output_tokens": 71,
+    "total_tokens": 1537,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "3f3c3653-be7d-484e-b1bb-7b3d51e7d919",
+   "tool_call_id": "toolu_01THqMUZraonX5eJW7UTNYCC",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 103,
+     "prompt_tokens": 1626,
+     "total_tokens": 1729,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.006423,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.006423,
+      "upstream_inference_prompt_cost": 0.004878,
+      "upstream_inference_completions_cost": 0.001545
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115717-3HP3UrrLUJh1GYSC1Fbm",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-7f1d-7d00-b224-d0986d7e8152-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Matt Braly",
+      "keywords": "indie animated series Kickstarter 2026 funded",
+      "site": "en_wiki"
+     },
+     "id": "toolu_01L6C97i4ocyDBy1cgwhBkKn",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1626,
+    "output_tokens": 103,
+    "total_tokens": 1729,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "Error invoking tool 'page_find' with kwargs {'title': 'Matt Braly', 'keywords': 'indie animated series Kickstarter 2026 funded', 'site': 'en_wiki'} with error:\n keywords: Input should be a valid list\n Please fix the error and try again.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "0cc4ef76-3c71-4757-8dc5-82c2aa71eb43",
+   "tool_call_id": "toolu_01L6C97i4ocyDBy1cgwhBkKn",
+   "status": "error"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 107,
+     "prompt_tokens": 1815,
+     "total_tokens": 1922,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00705,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00705,
+      "upstream_inference_prompt_cost": 0.005445,
+      "upstream_inference_completions_cost": 0.001605
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115719-NZvrLkN7ZrwE3K03BUuJ",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-8672-7dc2-915c-cbf7306fc3c8-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Matt Braly",
+      "keywords": [
+       "indie",
+       "Kickstarter",
+       "2026",
+       "funded"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "toolu_01JV8c8eJabMzEszfc3YdrRJ",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1815,
+    "output_tokens": 107,
+    "total_tokens": 1922,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "In February 2026, Braly announced on social media that the film, about a teenage boy traveling to a world filled with Thai spirits before he undergoes an important life-altering medical operation, and inspired by his own life story and background, was scrapped at Sony Pictures Animation in early 2025, with the studio determining that the film was not \"commercial enough\" to produce.\nIn May 2026, Braly announced that a Thai animation studio, THE MONK Studios, had acquired rights to the film, under the name \"Afterworld: กลับบ้าน\", but that it was not funded, in production, or greenlit, but that the studio would be at Annecy trying to get \"potential partners and investors\".\nOn February 11, 2026, Braly announced that he founded his own animation studio, Fantasy Project.\nIts first project would be Clara and the Below, a gothic horror adaptation of The Nutcracker, with a crowdfunding campaign on Kickstarter.\nOn March 17, 2026, Braly launched a Kickstarter for the series, with a goal of funding a single episode which was 6-10 minutes for a cost of $25,000.\nAfter less than a week, it earned \"more than ten times\" that target amount, at over $231,000 by March 23, 2026.\nThe first episode is slated to release on December 25, 2026.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "2dc5ce00-b74c-429a-b86b-e031aa9f1fa5",
+   "tool_call_id": "toolu_01JV8c8eJabMzEszfc3YdrRJ",
+   "status": "success"
+  },
+  {
+   "content": "The indie animated series created by Matt Braly that was fully funded on March 17, 2026, is **Clara and the Below** — a gothic horror adaptation of *The Nutcracker*. It was launched on Kickstarter through his own animation studio, Fantasy Project, with a goal of $25,000 to fund a single episode. It was so successful that it earned over $231,000 in less than a week!\n\nFINAL: Clara and the Below",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 106,
+     "prompt_tokens": 2254,
+     "total_tokens": 2360,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.008352,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.008352,
+      "upstream_inference_prompt_cost": 0.006762,
+      "upstream_inference_completions_cost": 0.00159
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115721-yUSNraK5PQmyUO0UOoYA",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e06-8f8e-7722-9c76-1ab4606bc476-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2254,
+    "output_tokens": 106,
+    "total_tokens": 2360,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

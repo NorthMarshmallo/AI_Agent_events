@@ -1,0 +1,570 @@
+{
+ "task": {
+  "id": "fresh-139",
+  "source": "fresh",
+  "question": "What is the name of DeepSeek's math-focused AI model, released on 30 April 2025?",
+  "answer": "DeepSeek-Prover-V2-671B",
+  "evidence": "On 30 April 2025, Deepseek released its math-focused Artificial Intelligence Model named \"DeepSeek-Prover-V2-671B\".",
+  "page": "DeepSeek (chatbot)",
+  "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)"
+ },
+ "answer": "I couldn't find the specific name of DeepSeek's math-focused AI model released on April 30, 2025. The available information primarily discusses the company's background and previous models, such as DeepSeek-R1 and DeepSeek-V2, but does not mention a model specifically focused on mathematics released on that date.\n\nFINAL: Information not found.",
+ "calls": [
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 136,
+   "completion": 197,
+   "cost": 0.0001386
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 782,
+   "completion": 26,
+   "cost": 0.0001329
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 883,
+   "completion": 23,
+   "cost": 0.00014625
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 916,
+   "completion": 21,
+   "cost": 0.00015
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1539,
+   "completion": 35,
+   "cost": 0.00025185
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 2155,
+   "completion": 39,
+   "cost": 0.00023145
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-139",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2775,
+   "completion": 70,
+   "cost": 0.00029505
+  }
+ ],
+ "messages": [
+  {
+   "role": "plan",
+   "content": "1. **Web Search**: Использовать инструмент web_search для поиска информации о модели AI от DeepSeek, выпущенной 30 апреля 2025 года.\n   - Запрос: \"DeepSeek math-focused AI model release April 30 2025\"\n   \n2. **Gen Search**: Если информация не найдена, использовать gen_search для поиска новостей о биотехнологиях, связанных с DeepSeek.\n   - Запрос: \"DeepSeek AI model April 30 2025\"\n\n3. **Page Find**: Если найдены статьи, использовать page_find для поиска ключевых слов, связанных с моделью AI.\n   - Ключевые слова: \"DeepSeek\", \"math-focused AI model\", \"release date\"\n\n4. **Ru Wiki Search**: В качестве дополнительного шага, использовать ru_wiki_search для поиска информации на русском языке о DeepSeek и их AI модели.\n   - Запрос: \"DeepSeek математическая модель AI\""
+  },
+  {
+   "content": "What is the name of DeepSeek's math-focused AI model, released on 30 April 2025?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "ff017f46-eabe-4a6b-a3ad-3b38ae0c4ad1"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 26,
+     "prompt_tokens": 782,
+     "total_tokens": 808,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001329,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001329,
+      "upstream_inference_prompt_cost": 0.0001173,
+      "upstream_inference_completions_cost": 1.56e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_f2655bfe4b",
+    "id": "gen-1793116179-dRc5m4UdV4CXaaolC4eJ",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-8e4a-7570-9f9d-d64366d3e481-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "DeepSeek math-focused AI model release April 30 2025"
+     },
+     "id": "call_KqAFUCdxe2HlifEmJWbQjTiW",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 782,
+    "output_tokens": 26,
+    "total_tokens": 808,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[DeepSeek] Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd., doing business as DeepSeek, is a Chinese artificial intelligence (AI) company that develops open weights large language models (LLMs). Based in Hangzhou, Zhejiang, DeepSeek is owned and funded by High-Flyer, a Chinese hedge fund.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "b7ca635b-c9b1-467a-a1e7-efb0d6ee78bf",
+   "tool_call_id": "call_KqAFUCdxe2HlifEmJWbQjTiW",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 23,
+     "prompt_tokens": 883,
+     "total_tokens": 906,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00014625,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00014625,
+      "upstream_inference_prompt_cost": 0.00013245,
+      "upstream_inference_completions_cost": 1.38e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_f2655bfe4b",
+    "id": "gen-1793116315-1gg9PvBVzbTAIUA5umsc",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-985a-7b11-9428-053c06d061f4-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "DeepSeek AI model April 30 2025"
+     },
+     "id": "call_RYentglXZSN3jFUdd6RpMcoJ",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 883,
+    "output_tokens": 23,
+    "total_tokens": 906,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "c671c92f-7ffc-44e4-b2d0-38cea2c9718b",
+   "tool_call_id": "call_RYentglXZSN3jFUdd6RpMcoJ",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 21,
+     "prompt_tokens": 916,
+     "total_tokens": 937,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00015,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00015,
+      "upstream_inference_prompt_cost": 0.0001374,
+      "upstream_inference_completions_cost": 1.26e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_f2655bfe4b",
+    "id": "gen-1793116319-fOrK5scfmb0BKkQI5SsQ",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0f-b0d0-77b3-b5bc-55b85584685d-0",
+   "tool_calls": [
+    {
+     "name": "ru_wiki_search",
+     "args": {
+      "query": "DeepSeek математическая модель AI"
+     },
+     "id": "call_B572g8k18nh0UWEarkSvO7Sx",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 916,
+    "output_tokens": 21,
+    "total_tokens": 937,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[DeepSeek] DeepSeek кит. упр. 杭州深度求索人工智能基础技术研究有限公司 англ. Hangzhou DeepSeek Artificial Intelligence Co., Ltd. Тип стартап и технологическая компания Дата основания 17 июля 2023 ; 3 года назад ( 2023-07-17 ) [ 1 ] Расположение Китай : Ханчжоу , Чжэцзян Ключевые фигуры Лян Вэньфэн Отрасль информационные технологии Продукция DeepSeek Материнская компания High-Flyer [вд] Сайт deepseek.com (англ.) (кит.) Медиафайлы на Викискладе DeepSeek ( кит. упр. 深度求索 , пиньинь Shēndù Qiúsuǒ ) — китайская компания, специализирующаяся на разработке семейства одноимённых больших языковых моделей . Компания базируется в Ханчжоу , основана и поддерживается китайским хедж-фондом High-Flyer [англ.] . DeepSeek выпустила свои модели с открытым исходным кодом . Версия DeepSeek-V3 считается сравнимой с другими языковыми моделями в 2024 году, такими как Qwen и ChatGPT . Выход модели DeepSeek-R1 в январе 2025 года вызвал кратковременное, но резкое снижение курсов акций мировых технологических компаний и дискуссии о переоценке инвестиций в ИИ ➤ . История  В 2015 году три инженера из Чжэцзянского университета основали компанию High-Flyer. Она использовала машинное обучение для торговли акциями [ 2 ] . В 2019 году создана компания High-Flyer AI, которая занималась исследованиями алгоритмов искусственного интеллекта [ 3 ] . К 2021 году все стратегии High-Flyer использовали ИИ, её сравнивали с Renaissance Technologies [ 4 ] . В апреле 2023 года High-Flyer объявила о новом проекте для исследования общего искусственного интеллекта . Он не будет использоваться для торговли акциями и отделится от финансового бизнеса High-Flyer [ 5 ] [ 6 ] . В мае 2023 года компания была запущена под названием DeepSeek, её возглавил один из сооснователей хедж-фонда High-Flyer Лян Вэньфэн [ 3 ] [ 6 ] . Разработка DeepSeek финансируется High-Flyer [ 4 ] [ 6 ] . Выпуск DeepSeek-V2 в мае 2024 года спровоцировал ценовую войну моделей искусственного интеллекта в Китае, так как предлагалась высокая производительность по низкой цен",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "ru_wiki_search",
+   "id": "5abc8b3a-2b2a-497b-8131-d8d8c29d4826",
+   "tool_call_id": "call_B572g8k18nh0UWEarkSvO7Sx",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 35,
+     "prompt_tokens": 1539,
+     "total_tokens": 1574,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00025185,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00025185,
+      "upstream_inference_prompt_cost": 0.00023085,
+      "upstream_inference_completions_cost": 2.1e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_f2655bfe4b",
+    "id": "gen-1793116322-qzaxOiyXffmNZGdpBj2b",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0f-bbb2-7e03-84a6-2a4d53b203e4-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "DeepSeek",
+      "keywords": [
+       "DeepSeek",
+       "math-focused AI model",
+       "release date"
+      ],
+      "site": "ru_wiki"
+     },
+     "id": "call_3feOp3IKrBv8kdzTFrgMcSLS",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1539,
+    "output_tokens": 35,
+    "total_tokens": 1574,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "DeepSeek кит.\nHangzhou DeepSeek Artificial Intelligence Co., Ltd.\nТип стартап и технологическая компания Дата основания 17 июля 2023 ; 3 года назад ( 2023-07-17 ) [ 1 ] Расположение Китай : Ханчжоу , Чжэцзян Ключевые фигуры Лян Вэньфэн Отрасль информационные технологии Продукция DeepSeek Материнская компания High-Flyer [вд] Сайт deepseek.com (англ.) (кит.) Медиафайлы на Викискладе DeepSeek ( кит.\nDeepSeek выпустила свои модели с открытым исходным кодом .\nВерсия DeepSeek-V3 считается сравнимой с другими языковыми моделями в 2024 году, такими как Qwen и ChatGPT .\nВыход модели DeepSeek-R1 в январе 2025 года вызвал кратковременное, но резкое снижение курсов акций мировых технологических компаний и дискуссии о переоценке инвестиций в ИИ ➤ .\nВ мае 2023 года компания была запущена под названием DeepSeek, её возглавил один из сооснователей хедж-фонда High-Flyer Лян Вэньфэн [ 3 ] [ 6 ] .\nРазработка DeepSeek финансируется High-Flyer [ 4 ] [ 6 ] .\nВыпуск DeepSeek-V2 в мае 2024 года спровоцировал ценовую войну моделей искусственного интеллекта в Китае, так как предлагалась высокая производительность по низкой цене.\nНесмотря на низкую цену DeepSeek, компания отчиталась о прибыли по сравнению с конкурентами, которые, по-видимому, несли убытки [ 7 ] .\nНа конец 2024 года DeepSeek занимается исследованиями и не заявляет подробных планов коммерциализации [ 7 ] .\nКитайская газета South China Morning Post пишет, что при найме новых сотрудников компания DeepSeek отдавала предпочтение способностям, а не опыту, поэтому большинство разработчиков — это либо недавние выпускники, либо находящиеся на ранней стадии своей карьеры в сфере ИИ [ 6 ] .\nК 2025 году DeepSeek смогла создать ИИ с возможностями как у ведущих технологических компаний США, но, как заявлено, на менее мощных чипах и за малую часть стоимости.\nСотрудники DeepSeek пишут, что обучали модель V3 ➤ на чипах Nvidia H800, а они значительно менее мощны, чем новые Nvidia Blackwell [ 8 ] [ 9 ] .\nНезависимые наблюдатели отмечают, что Dee",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "e89d53e2-b891-4ff3-acb6-6bec4b193ffe",
+   "tool_call_id": "call_3feOp3IKrBv8kdzTFrgMcSLS",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 39,
+     "prompt_tokens": 2155,
+     "total_tokens": 2194,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1536,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00023145,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00023145,
+      "upstream_inference_prompt_cost": 0.00020805,
+      "upstream_inference_completions_cost": 2.34e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_f2655bfe4b",
+    "id": "gen-1793116324-Z4F6DXV9cE3J8G1lsv09",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0f-c419-7553-b871-6df4dab6bdee-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "DeepSeek",
+      "keywords": [
+       "DeepSeek",
+       "math-focused AI model",
+       "April 30 2025"
+      ],
+      "site": "ru_wiki"
+     },
+     "id": "call_wss2cva29UPoIUwE7OpS4wOS",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2155,
+    "output_tokens": 39,
+    "total_tokens": 2194,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1536,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "DeepSeek кит.\nHangzhou DeepSeek Artificial Intelligence Co., Ltd.\nТип стартап и технологическая компания Дата основания 17 июля 2023 ; 3 года назад ( 2023-07-17 ) [ 1 ] Расположение Китай : Ханчжоу , Чжэцзян Ключевые фигуры Лян Вэньфэн Отрасль информационные технологии Продукция DeepSeek Материнская компания High-Flyer [вд] Сайт deepseek.com (англ.) (кит.) Медиафайлы на Викискладе DeepSeek ( кит.\nDeepSeek выпустила свои модели с открытым исходным кодом .\nВерсия DeepSeek-V3 считается сравнимой с другими языковыми моделями в 2024 году, такими как Qwen и ChatGPT .\nВыход модели DeepSeek-R1 в январе 2025 года вызвал кратковременное, но резкое снижение курсов акций мировых технологических компаний и дискуссии о переоценке инвестиций в ИИ ➤ .\nВ мае 2023 года компания была запущена под названием DeepSeek, её возглавил один из сооснователей хедж-фонда High-Flyer Лян Вэньфэн [ 3 ] [ 6 ] .\nРазработка DeepSeek финансируется High-Flyer [ 4 ] [ 6 ] .\nВыпуск DeepSeek-V2 в мае 2024 года спровоцировал ценовую войну моделей искусственного интеллекта в Китае, так как предлагалась высокая производительность по низкой цене.\nНесмотря на низкую цену DeepSeek, компания отчиталась о прибыли по сравнению с конкурентами, которые, по-видимому, несли убытки [ 7 ] .\nНа конец 2024 года DeepSeek занимается исследованиями и не заявляет подробных планов коммерциализации [ 7 ] .\nКитайская газета South China Morning Post пишет, что при найме новых сотрудников компания DeepSeek отдавала предпочтение способностям, а не опыту, поэтому большинство разработчиков — это либо недавние выпускники, либо находящиеся на ранней стадии своей карьеры в сфере ИИ [ 6 ] .\nК 2025 году DeepSeek смогла создать ИИ с возможностями как у ведущих технологических компаний США, но, как заявлено, на менее мощных чипах и за малую часть стоимости.\nСотрудники DeepSeek пишут, что обучали модель V3 ➤ на чипах Nvidia H800, а они значительно менее мощны, чем новые Nvidia Blackwell [ 8 ] [ 9 ] .\nНезависимые наблюдатели отмечают, что Dee",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "d1315518-2953-46d1-b3aa-812edbdf262f",
+   "tool_call_id": "call_wss2cva29UPoIUwE7OpS4wOS",
+   "status": "success"
+  },
+  {
+   "content": "I couldn't find the specific name of DeepSeek's math-focused AI model released on April 30, 2025. The available information primarily discusses the company's background and previous models, such as DeepSeek-R1 and DeepSeek-V2, but does not mention a model specifically focused on mathematics released on that date.\n\nFINAL: Information not found.",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 70,
+     "prompt_tokens": 2775,
+     "total_tokens": 2845,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 2176,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00029505,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00029505,
+      "upstream_inference_prompt_cost": 0.00025305,
+      "upstream_inference_completions_cost": 4.2e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_f2655bfe4b",
+    "id": "gen-1793116326-OwyuE4E7rFONAmVqyshE",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0f-cc7e-7910-a106-491b46db964c-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2775,
+    "output_tokens": 70,
+    "total_tokens": 2845,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 2176,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

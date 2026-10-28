@@ -1,0 +1,384 @@
+{
+ "task": {
+  "id": "fresh-128",
+  "source": "fresh",
+  "question": "What is the name of the RFdiffusion2-designed metallohydrolase reported to have catalytic efficiency several orders of magnitude higher than earlier designed metallohydrolases?",
+  "answer": "ZETA_1",
+  "evidence": "One design, named ZETA_1, demonstrated high catalytic efficiency several orders of magnitude higher compared to previously designed metallohydrolases.",
+  "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/"
+ },
+ "answer": "The RFdiffusion2-designed metallohydrolase reported to have catalytic efficiency several orders of magnitude higher than earlier designed metallohydrolases is named ZETA_1. \n\nFINAL: ZETA_1",
+ "calls": [
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-128",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 149,
+   "completion": 227,
+   "cost": 0.00015855
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-128",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 825,
+   "completion": 24,
+   "cost": 0.00013815
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-128",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 859,
+   "completion": 22,
+   "cost": 0.00014205
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-128",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1284,
+   "completion": 54,
+   "cost": 0.000225
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-128",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1672,
+   "completion": 44,
+   "cost": 0.0001812
+  }
+ ],
+ "messages": [
+  {
+   "role": "plan",
+   "content": "1. **Web Search**: Использовать инструмент `web_search` для поиска информации о \"RFdiffusion2 metallohydrolase\" и \"catalytic efficiency\". \n   - Запрос: \"RFdiffusion2 metallohydrolase catalytic efficiency\"\n   \n2. **Gen Search**: Применить инструмент `gen_search` для поиска новостей о биотехнологиях, связанных с RFdiffusion2 и его разработками.\n   - Запрос: \"RFdiffusion2 metallohydrolase\"\n\n3. **Page Find**: Использовать инструмент `page_find` для нахождения конкретной информации о названии метало-гидролазы в найденных статьях.\n   - Ключевые слова: \"metallohydrolase\", \"catalytic efficiency\", \"RFdiffusion2\"\n\n4. **Ru Wiki Search**: Если предыдущие шаги не дали результатов, использовать `ru_wiki_search` для поиска информации на русском языке о RFdiffusion2 и его разработках.\n   - Запрос: \"RFdiffusion2 метало-гидролаза\""
+  },
+  {
+   "content": "What is the name of the RFdiffusion2-designed metallohydrolase reported to have catalytic efficiency several orders of magnitude higher than earlier designed metallohydrolases?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "9f1033c3-d057-47b1-9fce-d75ccffed123"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 24,
+     "prompt_tokens": 825,
+     "total_tokens": 849,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00013815,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00013815,
+      "upstream_inference_prompt_cost": 0.00012375,
+      "upstream_inference_completions_cost": 1.44e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_6438626634",
+    "id": "gen-1793116137-cqn7Vd36eNCfMcHQzZnq",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-ea6a-7090-83ea-544cc2d0642a-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "RFdiffusion2 metallohydrolase catalytic efficiency"
+     },
+     "id": "call_NI60cuzf6L9lTDJx23OROTt3",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 825,
+    "output_tokens": 24,
+    "total_tokens": 849,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "bca96116-290a-4c89-a107-86081a122e3b",
+   "tool_call_id": "call_NI60cuzf6L9lTDJx23OROTt3",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 22,
+     "prompt_tokens": 859,
+     "total_tokens": 881,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00014205,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00014205,
+      "upstream_inference_prompt_cost": 0.00012885,
+      "upstream_inference_completions_cost": 1.32e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_6438626634",
+    "id": "gen-1793116139-PzhPMg1PBQvKWt7aMEAa",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-f0d1-76f3-ad77-846618362ade-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "RFdiffusion2 metallohydrolase"
+     },
+     "id": "call_02LTZjoaw2lq2uZsWOXMbm3N",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 859,
+    "output_tokens": 22,
+    "total_tokens": 881,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes] Researchers from the lab of Nobel laureate, David Baker, PhD, have now released RFdiffusion3 open source. The latest version of the de novo protein design model generates proteins that interact with any type of molecule, including DNA and small molecules with broad applications across sustainability and therapeutics. “We built this as a general model and are sharing it freely so the scientific community can create things we haven’t even imagined yet,” said Rohith Krishna, PhD, postdoctoral researcher in the Baker lab and co-lead author of the RFdiffusion3 bioRxiv preprint that has not been peer reviewed. The work shows experimental proof of concept for the design of proteins that recognize specific sequences of DNA, which serves as a foundation for synthetic transcription factors for gene therapy, and complex enzyme catalysis, which offers industry applications. Baker, who is the director of the Institute for Protein Design at the University of Washington (UW) and a Howard Hughes Medical Institute (HHMI) investigator, won the 2024 Nobel Prize in Chemistry for the design of novel proteins. RFdiffusion3 is one step closer to designing and understanding biological complexity, a challenge Baker recently described to GEN as one of the main obstacles to overcome for de novo design to transform medicine. RFdiffusion3 enters a growing ecosystem of protein design models that cover multiple modalities, such as BoltzGen , which was released in October. BoltzGen demonstrated generalizable therapeutic design in any format, including nanobodies, mini-binders, and disulfide-bonded peptides, and against any target across nucleic acids, small molecules, and both ordered and disordered proteins. Notably, BoltzGen designs binders only and does not generate catalytic enzymes as demonstrated by RFdiffusion 3. To achieve intricate chemical interactions with new precision, RFdiffusion3 treats individual atoms as the ",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "14df47ba-d9b8-4647-b0d7-ef79461ed51e",
+   "tool_call_id": "call_02LTZjoaw2lq2uZsWOXMbm3N",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 54,
+     "prompt_tokens": 1284,
+     "total_tokens": 1338,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.000225,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.000225,
+      "upstream_inference_prompt_cost": 0.0001926,
+      "upstream_inference_completions_cost": 3.24e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_6438626634",
+    "id": "gen-1793116144-9tfZOJmLqrNtBbiUz3SX",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-0569-7cb2-87bf-f4d57e8bdbf4-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+      "keywords": [
+       "metallohydrolase",
+       "catalytic efficiency",
+       "RFdiffusion2"
+      ],
+      "site": "gen"
+     },
+     "id": "call_TojZloAL74u7Rrl2LR6LVdhM",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1284,
+    "output_tokens": 54,
+    "total_tokens": 1338,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "To achieve intricate chemical interactions with new precision, RFdiffusion3 treats individual atoms as the fundamental units being designed, a methodological advance from its predecessor, RFdiffusion2 , concurrently published in Nature Methods , which implements a hybrid atom and amino acid residue approach.\nIn computational time, RFdiffusion3 exhibits ten-fold faster performance over RFdiffusion2, despite taking a more computationally intensive all-atom method.\nIn a concurrently published Nature paper, the UW researchers applied RFdiffusion2 to demonstrate the successful design of metallohydrolases , enzymes that cleave some of the most difficult bonds in biology, such as protein peptide bonds, by leveraging the reactivity of a metal.\nMetallohydrolases have been of particular interest for degrading difficult pollutants.\nAs successful de novo enzyme design builds protein structures that contain an ideal active site of catalytic residues that stabilize the transition states of a reaction, RFdiffusion2 made the advance of eliminating the need to specify sequence position and backbone coordinates for each catalytic residue to expand the sampled space.\nOut of thousands of computational metallohydrolases designs, the authors experimentally screened 96 enzymes for the hydrolysis of the target molecule.\nOne design, named ZETA_1, demonstrated high catalytic efficiency several orders of magnitude higher compared to previously designed metallohydrolases.\nDonghyo Kim, PhD, postdoctoral researcher in the Baker lab and another co-lead author of the metallohydrolases study, adds that one interesting feature of de novo designed enzymes is their improved thermostability, which is valuable for catalytic reactions that can occur more efficiently at higher temperatures.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "fb202290-e6e5-4ff6-9808-96e6949ced42",
+   "tool_call_id": "call_TojZloAL74u7Rrl2LR6LVdhM",
+   "status": "success"
+  },
+  {
+   "content": "The RFdiffusion2-designed metallohydrolase reported to have catalytic efficiency several orders of magnitude higher than earlier designed metallohydrolases is named ZETA_1. \n\nFINAL: ZETA_1",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 44,
+     "prompt_tokens": 1672,
+     "total_tokens": 1716,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001812,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001812,
+      "upstream_inference_prompt_cost": 0.0001548,
+      "upstream_inference_completions_cost": 2.64e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_6438626634",
+    "id": "gen-1793116146-qxSdNncNLlyWtkTAITKW",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0d-0b2a-74c1-8392-4cb07c627b67-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1672,
+    "output_tokens": 44,
+    "total_tokens": 1716,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1280,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

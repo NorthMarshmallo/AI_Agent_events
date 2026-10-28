@@ -1,0 +1,158 @@
+{
+ "task": {
+  "id": "fresh-145",
+  "source": "fresh",
+  "question": "On what date did Tatsuya Nagamine, director of One Piece Film: Z and Dragon Ball Super: Broly, die after a year-long illness?",
+  "answer": "August 20, 2025",
+  "evidence": "Tatsuya Nagamine (長峯 達也, Nagamine Tatsuya; October 6, 1971 – August 20, 2025) was a Japanese anime director who worked for Toei Animation.",
+  "page": "Tatsuya Nagamine",
+  "url": "https://en.wikipedia.org/wiki/Tatsuya_Nagamine"
+ },
+ "answer": "Tatsuya Nagamine died on August 20, 2025. \n\nFINAL: August 20, 2025",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 591,
+   "completion": 20,
+   "cost": 0.00010065
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 591,
+   "completion": 20,
+   "cost": 0.00010065
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 591,
+   "completion": 20,
+   "cost": 0.00010065
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 713,
+   "completion": 19,
+   "cost": 0.00011835
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 713,
+   "completion": 19,
+   "cost": 0.00011835
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 923,
+   "completion": 21,
+   "cost": 0.00015105
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 713,
+   "completion": 19,
+   "cost": 0.00011835
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 923,
+   "completion": 20,
+   "cost": 0.00015045
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1005,
+   "completion": 32,
+   "cost": 0.00016995
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1004,
+   "completion": 33,
+   "cost": 0.0001704
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1095,
+   "completion": 46,
+   "cost": 0.00019185
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 923,
+   "completion": 20,
+   "cost": 0.00015045
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-145",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1004,
+   "completion": 26,
+   "cost": 0.0001662
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "Tatsuya Nagamine died on August 20, 2025. \n\nFINAL: August 20, 2025"
+  },
+  {
+   "role": "vote",
+   "content": "Tatsuya Nagamine died on August 20, 2025, after a year-long illness. His death was publicly disclosed on November 13, 2025. \n\nFINAL: August 20, 2025"
+  },
+  {
+   "role": "vote",
+   "content": "Tatsuya Nagamine died on August 20, 2025, after a year-long illness. \n\nFINAL: August 20, 2025"
+  }
+ ]
+}

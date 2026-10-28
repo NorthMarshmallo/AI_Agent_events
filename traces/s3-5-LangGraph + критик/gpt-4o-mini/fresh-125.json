@@ -1,0 +1,264 @@
+{
+ "task": {
+  "id": "fresh-125",
+  "source": "fresh",
+  "question": "By what factor is RFdiffusion3 faster than RFdiffusion2 in computational time, according to a December 2025 GEN article?",
+  "answer": "ten-fold",
+  "evidence": "RFdiffusion3 exhibits ten-fold faster performance over RFdiffusion2, despite taking a more computationally intensive all-atom method.",
+  "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/"
+ },
+ "answer": "Нет данных о сравнении скорости RFdiffusion3 и RFdiffusion2. FINAL: Нет данных.",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 587,
+   "completion": 27,
+   "cost": 0.00010425
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 624,
+   "completion": 27,
+   "cost": 0.0001098
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 661,
+   "completion": 29,
+   "cost": 0.00011655
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1113,
+   "completion": 26,
+   "cost": 0.00018255
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1149,
+   "completion": 27,
+   "cost": 0.00011175
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1186,
+   "completion": 27,
+   "cost": 0.0001941
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1223,
+   "completion": 34,
+   "cost": 0.00011745
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 621,
+   "completion": 24,
+   "cost": 0.00010755
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 628,
+   "completion": 27,
+   "cost": 0.0001104
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 665,
+   "completion": 21,
+   "cost": 0.00011235
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1089,
+   "completion": 51,
+   "cost": 0.00019395
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1533,
+   "completion": 24,
+   "cost": 0.00016755
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 772,
+   "completion": 24,
+   "cost": 0.0001302
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 627,
+   "completion": 24,
+   "cost": 0.00010845
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 661,
+   "completion": 28,
+   "cost": 0.00011595
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 699,
+   "completion": 30,
+   "cost": 0.00012285
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1183,
+   "completion": 23,
+   "cost": 0.00019125
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1216,
+   "completion": 27,
+   "cost": 0.0001122
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1253,
+   "completion": 29,
+   "cost": 0.00011895
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1707,
+   "completion": 27,
+   "cost": 0.00018585
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 1744,
+   "completion": 27,
+   "cost": 0.000153
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 1323,
+   "completion": 21,
+   "cost": 0.00021105
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 804,
+   "completion": 30,
+   "cost": 0.0001386
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "No data",
+   "supported": false,
+   "issue": "Нет данных о скорости RFdiffusion3 по сравнению с RFdiffusion2."
+  },
+  {
+   "round": 2,
+   "answer": "10",
+   "supported": false,
+   "issue": "Нет данных о сравнении скорости RFdiffusion3 и RFdiffusion2."
+  },
+  {
+   "round": 3,
+   "answer": "Нет данных.",
+   "supported": false,
+   "issue": "Нет данных о том, на сколько RFdiffusion3 быстрее RFdiffusion2 в вычислительном времени."
+  }
+ ]
+}

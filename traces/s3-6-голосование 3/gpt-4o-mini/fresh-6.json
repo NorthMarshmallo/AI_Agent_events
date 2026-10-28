@@ -1,0 +1,90 @@
+{
+ "task": {
+  "id": "fresh-6",
+  "source": "fresh",
+  "question": "How many people are reported missing in Tibet after the floods in August 2026?",
+  "answer": "4,500",
+  "evidence": "August 26 – 2026 Nepal–Tibet floods: At least 1,130 people are killed and nearly 4,500 reported missing in Tibet Autonomous Region after a flash flood strikes between Tibet and Nepal.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "In Tibet, after the floods in August 2026, there were 519 reported missing persons. \n\nFINAL: 519",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-6",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 576,
+   "completion": 22,
+   "cost": 9.96e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-6",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 576,
+   "completion": 22,
+   "cost": 9.96e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-6",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 576,
+   "completion": 22,
+   "cost": 9.96e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-6",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 869,
+   "completion": 30,
+   "cost": 0.00014835
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-6",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 869,
+   "completion": 26,
+   "cost": 0.00014595
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-6",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 869,
+   "completion": 25,
+   "cost": 0.00014535
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "In Tibet, after the floods in August 2026, there were 519 reported missing persons. \n\nFINAL: 519"
+  },
+  {
+   "role": "vote",
+   "content": "In the Tibet Autonomous Region of China, there were 519 reported missing persons after the floods in August 2026. \n\nFINAL: 519"
+  },
+  {
+   "role": "vote",
+   "content": "In Tibet, there were 519 reported missing people after the floods in August 2026. \n\nFINAL: 519"
+  }
+ ]
+}

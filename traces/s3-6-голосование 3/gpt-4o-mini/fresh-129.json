@@ -1,0 +1,300 @@
+{
+ "task": {
+  "id": "fresh-129",
+  "source": "fresh",
+  "question": "Which two investors co-led Chai Discovery's $130 million Series B round in December 2025, per GEN?",
+  "answer": "Oak HC/FT and General Catalyst",
+  "evidence": "Oak HC/FT and General Catalyst co-led the Series B.",
+  "page": "Chai's the Limit for AI Antibody Designer After $130M Series B Funding",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/chais-the-limit-for-ai-antibody-designer-after-130m-series-b-funding/",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "Извините, но у меня нет информации о том, какие именно два инвестора возглавили раунд финансирования Chai Discovery в размере $130 миллионов в декабре 2025 года. \n\nFINAL: Информация недоступна.",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 583,
+   "completion": 23,
+   "cost": 0.00010125
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 583,
+   "completion": 26,
+   "cost": 0.00010305
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 583,
+   "completion": 26,
+   "cost": 0.00010305
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1008,
+   "completion": 50,
+   "cost": 0.0001812
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1008,
+   "completion": 50,
+   "cost": 0.0001812
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1005,
+   "completion": 47,
+   "cost": 0.00017895
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1110,
+   "completion": 44,
+   "cost": 0.0001161
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1259,
+   "completion": 24,
+   "cost": 0.00012645
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1259,
+   "completion": 21,
+   "cost": 0.00011505
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1212,
+   "completion": 43,
+   "cost": 0.0001308
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1313,
+   "completion": 23,
+   "cost": 0.00012435
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1698,
+   "completion": 47,
+   "cost": 0.0002829
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1697,
+   "completion": 47,
+   "cost": 0.00028275
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1746,
+   "completion": 50,
+   "cost": 0.0002919
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1769,
+   "completion": 24,
+   "cost": 0.00019335
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2207,
+   "completion": 47,
+   "cost": 0.00023445
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1884,
+   "completion": 21,
+   "cost": 0.0002088
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2394,
+   "completion": 23,
+   "cost": 0.0002961
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2001,
+   "completion": 22,
+   "cost": 0.00031335
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2315,
+   "completion": 49,
+   "cost": 0.00024225
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2827,
+   "completion": 49,
+   "cost": 0.00029025
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2374,
+   "completion": 24,
+   "cost": 0.0003705
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2406,
+   "completion": 49,
+   "cost": 0.0003903
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2812,
+   "completion": 23,
+   "cost": 0.0002628
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2391,
+   "completion": 47,
+   "cost": 0.00038685
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2427,
+   "completion": 48,
+   "cost": 0.00029685
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-129",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2006,
+   "completion": 52,
+   "cost": 0.0003321
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "Извините, но у меня нет информации о том, какие два инвестора совместно возглавили раунд финансирования Series B компании Chai Discovery на сумму 130 миллионов долларов в декабре 2025 года. FINAL: Неизвестно."
+  },
+  {
+   "role": "vote",
+   "content": "Извините, но у меня нет информации о том, какие именно два инвестора возглавили раунд финансирования Chai Discovery в размере $130 миллионов в декабре 2025 года. \n\nFINAL: Информация недоступна."
+  },
+  {
+   "role": "vote",
+   "content": "К сожалению, у меня нет информации о том, какие два инвестора возглавили раунд финансирования Series B Chai Discovery на 130 миллионов долларов в декабре 2025 года. FINAL: Информация недоступна."
+  }
+ ]
+}

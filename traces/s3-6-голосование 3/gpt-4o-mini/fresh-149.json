@@ -1,0 +1,270 @@
+{
+ "task": {
+  "id": "fresh-149",
+  "source": "fresh",
+  "question": "How many years after retiring following the 2022 Beijing Games did Alysa Liu launch her comeback, per ESPN?",
+  "answer": "two",
+  "evidence": "Liu retired after the 2022 Beijing Games only to launch a triumphant comeback two years later.",
+  "page": "Olympic champ Alysa Liu withdraws from figure skating worlds",
+  "url": "https://www.espn.com/olympics/figureskating/story/_/id/48133340/olympic-champ-alysa-liu-withdraws-figure-skating-worlds",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "Алыса Лю вернулась к соревнованиям через один год после завершения карьеры после Олимпийских игр в Пекине 2022 года. FINAL: 1",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 582,
+   "completion": 26,
+   "cost": 0.0001029
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 582,
+   "completion": 26,
+   "cost": 0.0001029
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 582,
+   "completion": 25,
+   "cost": 0.0001023
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1052,
+   "completion": 20,
+   "cost": 0.0001698
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1052,
+   "completion": 25,
+   "cost": 9.6e-05
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1553,
+   "completion": 50,
+   "cost": 0.00026295
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1753,
+   "completion": 43,
+   "cost": 0.00017355
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1904,
+   "completion": 41,
+   "cost": 0.0001854
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2053,
+   "completion": 41,
+   "cost": 0.00018855
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1048,
+   "completion": 47,
+   "cost": 0.0001854
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1518,
+   "completion": 47,
+   "cost": 0.0001791
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1296,
+   "completion": 45,
+   "cost": 0.0002214
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1599,
+   "completion": 43,
+   "cost": 0.00018885
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1843,
+   "completion": 47,
+   "cost": 0.00018945
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1791,
+   "completion": 45,
+   "cost": 0.00018045
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2091,
+   "completion": 23,
+   "cost": 0.00032745
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 2094,
+   "completion": 48,
+   "cost": 0.0002085
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2555,
+   "completion": 45,
+   "cost": 0.00025665
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2343,
+   "completion": 48,
+   "cost": 0.00022665
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2801,
+   "completion": 49,
+   "cost": 0.00025755
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2649,
+   "completion": 47,
+   "cost": 0.00025275
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2380,
+   "completion": 38,
+   "cost": 0.0003798
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2897,
+   "completion": 48,
+   "cost": 0.00027135
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-149",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2476,
+   "completion": 64,
+   "cost": 0.0004098
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "Алыса Лю вернулась к соревнованиям через один год после завершения карьеры после Олимпийских игр в Пекине 2022 года. FINAL: 1"
+  },
+  {
+   "role": "vote",
+   "content": "Alysa Liu announced her comeback early in 2023, after retiring following the 2022 Winter Olympics. Therefore, she launched her comeback approximately 1 year after retiring.\n\nFINAL: 1"
+  },
+  {
+   "role": "vote",
+   "content": "Алыса Лю объявила о своем возвращении в спорт в 2023 году, что произошло через год после ее ухода на пенсию после Олимпийских игр в Пекине в 2022 году. Таким образом, она вернулась через один год после выхода на пенсию. \n\nFINAL: 1"
+  }
+ ]
+}

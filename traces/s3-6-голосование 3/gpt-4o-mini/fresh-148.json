@@ -1,0 +1,88 @@
+{
+ "task": {
+  "id": "fresh-148",
+  "source": "fresh",
+  "question": "At which arena in Milan was the women's singles figure skating event held at the 2026 Winter Olympics?",
+  "answer": "Milano Ice Skating Arena",
+  "evidence": "The women's singles figure skating competition at the 2026 Winter Olympics was held on 17 and 19 February 2026 at the Milano Ice Skating Arena in Milan, Italy",
+  "page": "Figure skating at the 2026 Winter Olympics – Women's singles",
+  "url": "https://en.wikipedia.org/wiki/Figure_skating_at_the_2026_Winter_Olympics_%E2%80%93_Women's_singles"
+ },
+ "answer": "The women's singles figure skating event at the 2026 Winter Olympics was held at the Milano Ice Skating Arena in Milan, Italy. \n\nFINAL: Milano Ice Skating Arena",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-148",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 580,
+   "completion": 24,
+   "cost": 0.0001014
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-148",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 580,
+   "completion": 24,
+   "cost": 0.0001014
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-148",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 580,
+   "completion": 23,
+   "cost": 0.0001008
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-148",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 898,
+   "completion": 36,
+   "cost": 0.0001563
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-148",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 898,
+   "completion": 36,
+   "cost": 0.0001563
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-148",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 818,
+   "completion": 36,
+   "cost": 0.0001443
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "The women's singles figure skating event at the 2026 Winter Olympics was held at the Milano Ice Skating Arena in Milan, Italy. \n\nFINAL: Milano Ice Skating Arena"
+  },
+  {
+   "role": "vote",
+   "content": "The women's singles figure skating event at the 2026 Winter Olympics was held at the Milano Ice Skating Arena in Milan, Italy. \n\nFINAL: Milano Ice Skating Arena"
+  },
+  {
+   "role": "vote",
+   "content": "The women's singles figure skating event at the 2026 Winter Olympics was held at the Milano Ice Skating Arena in Milan, Italy. \n\nFINAL: Milano Ice Skating Arena"
+  }
+ ]
+}

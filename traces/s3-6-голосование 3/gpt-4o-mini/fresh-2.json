@@ -1,0 +1,150 @@
+{
+ "task": {
+  "id": "fresh-2",
+  "source": "fresh",
+  "question": "Who entered negotiations with the Trump administration on March 13, 2026?",
+  "answer": "Miguel Díaz-Canel",
+  "evidence": "March 13 - First Secretary of the Communist Party of Cuba Miguel Díaz-Canel entered negotiations with the Trump administration in an effort to end the United States embargo against Cuba.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "On March 13, 2026, the Trump administration was involved in ongoing negotiations regarding Iran's nuclear program. Iran was using its enrichment program and uranium stockpiles for leverage in these international negotiations. \n\nFINAL: Iran",
+ "calls": [
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-2",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 575,
+   "completion": 28,
+   "cost": 0.00010305
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-2",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 575,
+   "completion": 24,
+   "cost": 0.00010065
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-2",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 575,
+   "completion": 24,
+   "cost": 0.00010065
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-2",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1029,
+   "completion": 40,
+   "cost": 0.00017835
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-2",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 993,
+   "completion": 41,
+   "cost": 0.00017355
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-2",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 978,
+   "completion": 39,
+   "cost": 0.0001701
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-2",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1471,
+   "completion": 42,
+   "cost": 0.00016905
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-2",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1404,
+   "completion": 36,
+   "cost": 0.0002322
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-2",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1237,
+   "completion": 39,
+   "cost": 0.00020895
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-2",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1496,
+   "completion": 25,
+   "cost": 0.0002394
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-2",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1911,
+   "completion": 41,
+   "cost": 0.00022485
+  },
+  {
+   "tag": "s3-6-голосование 3 | gpt-4o-mini",
+   "qid": "fresh-2",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2322,
+   "completion": 46,
+   "cost": 0.0002319
+  }
+ ],
+ "messages": [
+  {
+   "role": "vote",
+   "content": "On March 13, 2026, the Trump administration was involved in ongoing negotiations regarding Iran's nuclear program. Iran was using its enrichment program and uranium stockpiles for leverage in these international negotiations. \n\nFINAL: Iran"
+  },
+  {
+   "role": "vote",
+   "content": "On March 13, 2026, the Trump administration accepted an Iranian proposal for negotiations regarding Iran's nuclear program. \n\nFINAL: Iranian proposal for negotiations on nuclear program."
+  },
+  {
+   "role": "vote",
+   "content": "On March 13, 2026, the negotiations involved Iran and the United States, with key participants including US special envoy Steve Witkoff and Iranian officials. \n\nFINAL: Iran and the United States"
+  }
+ ]
+}

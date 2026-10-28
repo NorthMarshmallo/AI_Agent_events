@@ -1,0 +1,186 @@
+{
+ "task": {
+  "id": "fresh-1",
+  "source": "fresh",
+  "question": "What date was Progress MS-33 launched to the ISS?",
+  "answer": "22 March",
+  "evidence": "On 22 March, Roscosmos launched Progress MS-33 to ISS, the first space station uncrewed cargo flight of the year and the first launch from the Baikonur Cosmodrome Site 31 after substantial repairs necessitated by the damage caused by the November 2025 launch of Soyuz MS-28. Further resupply missions to ISS were: Cygnus NG-24 on 11 April, Progress MS-34 on 25 April, and SpaceX CRS-34 on 15 May.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "February 27, 2025",
+  "agent_ok": true
+ },
+ "answer": "Прогресс МС-33 был запущен 22 марта 2026 года в 14:59 по московскому времени.\n\nFINAL: 22 марта 2026",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-1",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 571,
+   "completion": 22,
+   "cost": 9.885e-05
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-1",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1298,
+   "completion": 37,
+   "cost": 0.0002169
+  }
+ ],
+ "messages": [
+  {
+   "content": "What date was Progress MS-33 launched to the ISS?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "49e43ddd-2e22-4a4d-9fef-f804c330f4c7"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 22,
+     "prompt_tokens": 571,
+     "total_tokens": 593,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 9.885e-05,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 9.885e-05,
+      "upstream_inference_prompt_cost": 8.565e-05,
+      "upstream_inference_completions_cost": 1.32e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420478-tSY2GXr1lTIN4DFHlUSq",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15495-fdd8-7b91-a0e0-086e313731a8-0",
+   "tool_calls": [
+    {
+     "name": "ru_wiki_search",
+     "args": {
+      "query": "Прогресс МС-33"
+     },
+     "id": "call_K93my9MTMSgJr3JqxPtxZWsz",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 571,
+    "output_tokens": 22,
+    "total_tokens": 593,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Прогресс МС-33] Прогресс МС-33 Общие сведения Страна Россия Организация РКК «Энергия» Заказчик Роскосмос Задачи доставка грузов на МКС Статус полёт завершён Полётные данные корабля Название корабля Прогресс МС-33 Ракета-носитель Союз-2.1а Стартовая площадка Байконур , ПУ № 31/6 Запуск 22 марта 2026, 14:59 мск Стыковка 24 марта 2026, 16:35 мск Место стыковки « Поиск » Расстыковка 7 сентября 2026 18:18 мск Посадка корабля 7 сентября 2026 в 21:27 мск Место посадки тихий океан Длительность полёта 167 суток NSSDC ID 2026-058A SCN 68319 Полезная нагрузка Доставлено на МКС 2500 кг (план) Прогресс МС-32 Прогресс МС-34 Медиафайлы на Викискладе «Прогресс МС-33» (№ 463) — космический транспортный грузовой корабль серии «Прогресс», запуск которого состоялся 22 марта 2026 года в 14:59 к МСК с помощью ракеты-носителя « Союз-2.1а » со стартового комплекса «Восток» ( Площадка 31 ) космодрома Байконур по программе 94-й миссии снабжения Международной космической станции. Это 186-й полёт космического корабля серии «Прогресс» (из них 97 — к МКС). Полёт  Внешние видеофайлы Трансляция запуска ТГК «Прогресс МС-33» . 22 марта 2026 года в 14:59:51 мск, впервые с восстановленной площадки 31 космодрома Байконур, состоялся успешный пуск ракеты-носителя « Союз-2.1а » с транспортным грузовым кораблём «Прогресс МС-33» [ 1 ] . В преддверии первой российской «Недели космоса», при содействии « Роскосмос Медиа », платформа « Кинопоиск » провела трансляцию в телевизионном эфире данного пуска и добавила в сетку вещания все последующие телевизионные включения с космодромов России [ 2 ] . Полёт корабля к МКС продлился 49 часов 35 минут (34 витка). По информации Главной оперативной группы управления полётом российского сегмента МКС после выведения транспортного грузового корабля ''Прогресс МС-33'' на орбиту одна из антенн системы 'Курс' которая служит служит для обеспечения автоматической стыковки корабля к МКС осталось в нераскрытом положении. Стыковку корабля ''Прогресс МС-33'' с МКС выполнил с борта М",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "ru_wiki_search",
+   "id": "497ff363-392d-4a6c-896e-555a96316745",
+   "tool_call_id": "call_K93my9MTMSgJr3JqxPtxZWsz",
+   "status": "success"
+  },
+  {
+   "content": "Прогресс МС-33 был запущен 22 марта 2026 года в 14:59 по московскому времени.\n\nFINAL: 22 марта 2026",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 37,
+     "prompt_tokens": 1298,
+     "total_tokens": 1335,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0002169,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0002169,
+      "upstream_inference_prompt_cost": 0.0001947,
+      "upstream_inference_completions_cost": 2.22e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420481-sOdzf0gJdYucSvPCQdHk",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-0a20-7e63-a9d9-17601507beb7-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1298,
+    "output_tokens": 37,
+    "total_tokens": 1335,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

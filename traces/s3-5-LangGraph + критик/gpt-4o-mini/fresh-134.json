@@ -1,0 +1,336 @@
+{
+ "task": {
+  "id": "fresh-134",
+  "source": "fresh",
+  "question": "How many teams participated in the 2025 ICPC World Finals, where an OpenAI model and Google's Gemini both reached gold-medal level?",
+  "answer": "139",
+  "evidence": "139 teams competed to be World Champion.",
+  "page": "International Collegiate Programming Contest",
+  "url": "https://en.wikipedia.org/wiki/International_Collegiate_Programming_Contest",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "Неизвестно, сколько команд участвовало в финале ICPC 2025. FINAL: Неизвестно.",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 588,
+   "completion": 21,
+   "cost": 0.0001008
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 773,
+   "completion": 37,
+   "cost": 0.00013815
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1206,
+   "completion": 22,
+   "cost": 0.0001941
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1392,
+   "completion": 37,
+   "cost": 0.0001446
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1882,
+   "completion": 21,
+   "cost": 0.0002949
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2067,
+   "completion": 45,
+   "cost": 0.00023145
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2565,
+   "completion": 23,
+   "cost": 0.00024495
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2752,
+   "completion": 45,
+   "cost": 0.0002478
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2331,
+   "completion": 59,
+   "cost": 0.00038505
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 1257,
+   "completion": 26,
+   "cost": 0.00020415
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 634,
+   "completion": 21,
+   "cost": 0.0001077
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 819,
+   "completion": 35,
+   "cost": 0.00014385
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1251,
+   "completion": 22,
+   "cost": 0.00020085
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1437,
+   "completion": 37,
+   "cost": 0.00023775
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1927,
+   "completion": 23,
+   "cost": 0.00021645
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2114,
+   "completion": 38,
+   "cost": 0.0001959
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2558,
+   "completion": 23,
+   "cost": 0.0002439
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2745,
+   "completion": 37,
+   "cost": 0.00043395
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2324,
+   "completion": 25,
+   "cost": 0.0003636
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 1256,
+   "completion": 37,
+   "cost": 0.0002106
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 645,
+   "completion": 21,
+   "cost": 0.00010935
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 830,
+   "completion": 35,
+   "cost": 0.0001455
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1262,
+   "completion": 22,
+   "cost": 0.0002025
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1448,
+   "completion": 37,
+   "cost": 0.000153
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1938,
+   "completion": 22,
+   "cost": 0.0001983
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 2124,
+   "completion": 38,
+   "cost": 0.0003414
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2568,
+   "completion": 23,
+   "cost": 0.000255
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2755,
+   "completion": 40,
+   "cost": 0.00024525
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2334,
+   "completion": 25,
+   "cost": 0.0003651
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-134",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 1256,
+   "completion": 37,
+   "cost": 0.0002106
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "Неизвестно.",
+   "supported": false,
+   "issue": "Нет информации о количестве команд, участвовавших в финале ICPC 2025."
+  },
+  {
+   "round": 2,
+   "answer": "Неизвестно.",
+   "supported": false,
+   "issue": "Ответ не подтверждён, так как в находках нет информации о количестве команд, участвовавших в финале ICPC 2025."
+  },
+  {
+   "round": 3,
+   "answer": "Неизвестно.",
+   "supported": false,
+   "issue": "Ответ не подтверждён, так как в находках нет информации о количестве команд, участвовавших в финале ICPC 2025."
+  }
+ ]
+}

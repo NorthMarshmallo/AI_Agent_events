@@ -1,0 +1,742 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The indie animated series created by Matt Braly that was fully funded on March 17, 2026, is titled \"Clara and the Below.\" \n\nFINAL: Clara and the Below",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 589,
+   "completion": 30,
+   "cost": 0.00010635
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 695,
+   "completion": 40,
+   "cost": 0.00012825
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 745,
+   "completion": 19,
+   "cost": 0.00012315
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 774,
+   "completion": 21,
+   "cost": 0.0001287
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1271,
+   "completion": 22,
+   "cost": 0.00020385
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1369,
+   "completion": 36,
+   "cost": 0.00014055
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 1474,
+   "completion": 33,
+   "cost": 0.0001449
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-22",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 1920,
+   "completion": 39,
+   "cost": 0.0002058
+  }
+ ],
+ "messages": [
+  {
+   "content": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "0643c558-a17b-4441-a307-0eaa65f36196"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 30,
+     "prompt_tokens": 589,
+     "total_tokens": 619,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00010635,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00010635,
+      "upstream_inference_prompt_cost": 8.835e-05,
+      "upstream_inference_completions_cost": 1.8e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420527-Xg4sLLdk27YkBtRdxsIT",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-bbf6-7862-82be-43e868061c55-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "indie animated series created by Matt Braly funded March 17, 2026"
+     },
+     "id": "call_iMkDJ8IqN6y3F7psptRQTPrm",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 589,
+    "output_tokens": 30,
+    "total_tokens": 619,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "b698a0f3-077b-41fc-ba4a-41b4cd216cca",
+   "tool_call_id": "call_iMkDJ8IqN6y3F7psptRQTPrm",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 40,
+     "prompt_tokens": 695,
+     "total_tokens": 735,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00012825,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00012825,
+      "upstream_inference_prompt_cost": 0.00010425,
+      "upstream_inference_completions_cost": 2.4e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420529-kns84nOC7RfYDx2EC6h6",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-c3de-7352-8d01-c86e11ff1a15-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Matt Braly",
+      "keywords": [
+       "indie animated series",
+       "funded March 17, 2026"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_t6u7GlwMQL303PaWd38CrUbt",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 695,
+    "output_tokens": 40,
+    "total_tokens": 735,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "25b5c399-09b1-429f-bb09-1798b8dab1c2",
+   "tool_call_id": "call_t6u7GlwMQL303PaWd38CrUbt",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 19,
+     "prompt_tokens": 745,
+     "total_tokens": 764,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00012315,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00012315,
+      "upstream_inference_prompt_cost": 0.00011175,
+      "upstream_inference_completions_cost": 1.14e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420535-WNSfsWJtMN9gvs1tjUH6",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-de80-78e1-a17a-e009927d8a01-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "Matt Braly indie animated series"
+     },
+     "id": "call_WvwY1cNMglZPqYM5pj20N7k0",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 745,
+    "output_tokens": 19,
+    "total_tokens": 764,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "168e24f1-a1c0-4818-ac80-8b83fc5942c9",
+   "tool_call_id": "call_WvwY1cNMglZPqYM5pj20N7k0",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 21,
+     "prompt_tokens": 774,
+     "total_tokens": 795,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001287,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001287,
+      "upstream_inference_prompt_cost": 0.0001161,
+      "upstream_inference_completions_cost": 1.26e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420540-Rdxwh1rJlz3CveCWSBy4",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-f07c-76b1-9cb4-f6848804e735-0",
+   "tool_calls": [
+    {
+     "name": "espn_search",
+     "args": {
+      "query": "Matt Braly indie animated series"
+     },
+     "id": "call_RVU7PGcsJepb16DoVSt6eByk",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 774,
+    "output_tokens": 21,
+    "total_tokens": 795,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Brathwaite fifty, Claxton three-for seal series win for West Indies] West Indies 108 for 2 (Brathwaite 57, Grimmond 23*) beat Zimbabwe 106 for 7 (Biza 35, Clatxon 3-14) by eight wickets Jahzara Claxton 's three-for, followed by Eboni Brathwaite 's rapid half-century, sealed a dominant eight-wicket win for West Indies in Harare, which gave them an unassailable 2-0 lead in their T20I series against Zimbabwe . After being put in to bat, the Zimbabwe openers Kelis Ndhlovu and Beloved Biza started slow but steady, stringing together a 46-run partnership which was broken in the ninth over by Afy Fletcher. No. 3 Chipo Mugeri-Tiripano built on Zimbabwe's start, in the company of Biza until she was pinned lbw by Claxton in the 13th over. However, if Zimbabwe's top three had all crossed 20, none of the rest of their five batters could cross into double digits themselves. The delivery after Biza's dismissal, Christine Mutasa was out lbw as well. Mugeri-Tiripano fought for her 28-ball 25 till the final over bowled by Claxton, when she was run out. Claxton would pick out one last dismissal - off the final delivery of the innings - to finish with 3 for 14. Once West Indies came out to bat in their modest chase of 107, the game was good as over by the end of the powerplay. They had already scored 69 for 2, way past the halfway mark to their target. Most of these runs came courtesy Brathwaite, who fell on the penultimate delivery of the powerplay. She made 57 runs off 23 balls, hitting six sixes and three fours at a strike-rate of 247.82. Thereafter, West Indies lost no more wickets. The third-wicket partnership between Realeanna Grimmond and Stefanie Taylor razed off the 38 remaining runs off in just 3.2 overs. West Indies sealed a dominant series win with eight wickets and 65 deliveries to spare.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "espn_search",
+   "id": "295409c3-ba77-465b-b4b7-c064fec02564",
+   "tool_call_id": "call_RVU7PGcsJepb16DoVSt6eByk",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 22,
+     "prompt_tokens": 1271,
+     "total_tokens": 1293,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00020385,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00020385,
+      "upstream_inference_prompt_cost": 0.00019065,
+      "upstream_inference_completions_cost": 1.32e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420543-iUu5r8MBPjn1DGZv7FUt",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-fbfa-7061-9740-3f8c35eb87a4-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Matt Braly new animated series 2026"
+     },
+     "id": "call_hk3jHJOJ4VN76scqjSmhvivS",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1271,
+    "output_tokens": 22,
+    "total_tokens": 1293,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "351f37db-6607-465b-9d56-dad2cb84bc97",
+   "tool_call_id": "call_hk3jHJOJ4VN76scqjSmhvivS",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 36,
+     "prompt_tokens": 1369,
+     "total_tokens": 1405,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00014055,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00014055,
+      "upstream_inference_prompt_cost": 0.00011895,
+      "upstream_inference_completions_cost": 2.16e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420561-9mEDxJZ2cHl9YRdo7KLH",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15497-4261-7ae3-922d-581b4a68fa42-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Matt Braly",
+      "keywords": [
+       "animated series",
+       "March 17, 2026"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_tt8AJf7lmrs7UTPAgaFwrn4N",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1369,
+    "output_tokens": 36,
+    "total_tokens": 1405,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1152,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "He is best known as the creator and executive producer of the Disney Channel animated series Amphibia.\nOn March 17, 2026, Braly launched a Kickstarter for the series, with a goal of funding a single episode which was 6-10 minutes for a cost of $25,000.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "b213c56e-f2e6-4f2a-9c1e-6617dffe45f8",
+   "tool_call_id": "call_tt8AJf7lmrs7UTPAgaFwrn4N",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 33,
+     "prompt_tokens": 1474,
+     "total_tokens": 1507,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001449,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001449,
+      "upstream_inference_prompt_cost": 0.0001251,
+      "upstream_inference_completions_cost": 1.98e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420563-y9LLgVnkCiTnXG3uA1g4",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15497-492d-7272-930d-eed4dc081e95-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Matt Braly",
+      "keywords": [
+       "Kickstarter",
+       "series",
+       "funding"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_TvlefgZ6xUxDBE60ZEjAWNDr",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1474,
+    "output_tokens": 33,
+    "total_tokens": 1507,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1280,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "He is best known as the creator and executive producer of the Disney Channel animated series Amphibia.\nFascinated by the concept and how Hirsch wanted it to be a serialized program, Braly did a test to work on the show, after which he was hired, serving as a storyboard artist and director for the series.\nThe series premiered on June 15, 2012, and ended on February 15, 2016.\nAfter directing on Big City Greens, Braly developed a series titled Amphibia for Disney Channel.\nThe series centers on the adventures of a Thai-American girl named Anne Boonchuy in the titular amphibian-populated world.\nThe series was inspired by Braly's childhood trips to Bangkok, Thailand, where he felt like an outsider but ultimately ended up not wanting to leave.\nBraly, who is Thai-American himself, made the choice of making the lead character Thai-American due to a wish to creating a Thai character, as there were few Thai lead characters in television series when he was a kid.\nThe series aired for three seasons consisting of 58 episodes from June 17, 2019, to May 14, 2022.\nHe considers the series finale \"The Hardest Thing\" to be his favorite episode.\nBraly is also supervising development on a series of shorts exploring social issues.\nIts first project would be Clara and the Below, a gothic horror adaptation of The Nutcracker, with a crowdfunding campaign on Kickstarter.\nOn March 17, 2026, Braly launched a Kickstarter for the series, with a goal of funding a single episode which was 6-10 minutes for a cost of $25,000.\nHe described that Samurai Jack as a major inspiration since he is a fan of Genndy Tartakovsky, while ensuring his crew is \"fairly compensated\" through crowdfunding.\nHe is also a fan of the Disney series Gargoyles and the film The Princess and the Frog; cast members from both productions have appeared through Amphibia.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "55316a13-aa8e-4c26-ad52-ff5fc28dc3e7",
+   "tool_call_id": "call_TvlefgZ6xUxDBE60ZEjAWNDr",
+   "status": "success"
+  },
+  {
+   "content": "The indie animated series created by Matt Braly that was fully funded on March 17, 2026, is titled \"Clara and the Below.\" \n\nFINAL: Clara and the Below",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 39,
+     "prompt_tokens": 1920,
+     "total_tokens": 1959,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1408,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0002058,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0002058,
+      "upstream_inference_prompt_cost": 0.0001824,
+      "upstream_inference_completions_cost": 2.34e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420564-pnJR1doW4Bwqejsi6ncz",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15497-4ec5-77b1-8273-adbf46215916-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1920,
+    "output_tokens": 39,
+    "total_tokens": 1959,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1408,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

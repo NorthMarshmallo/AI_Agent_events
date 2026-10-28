@@ -1,0 +1,74 @@
+{
+ "task": {
+  "id": "fresh-26",
+  "source": "fresh",
+  "question": "In Japan, how many people were injured in the leisure boat collision near Haneda Airport on August 24, 2026?",
+  "answer": "nine",
+  "evidence": "August 24 – A leisure boat collides with a seawall near Haneda Airport, injuring nine people.",
+  "page": "2026 in Japan",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "On August 24, 2026, a leisure boat collided with a seawall near Haneda Airport, injuring nine people. \n\nFINAL: 9",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-26",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 585,
+   "completion": 29,
+   "cost": 0.00010515
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-26",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1064,
+   "completion": 27,
+   "cost": 0.0001758
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-26",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1115,
+   "completion": 40,
+   "cost": 0.00011445
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-26",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1247,
+   "completion": 33,
+   "cost": 0.00013005
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-26",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 695,
+   "completion": 9,
+   "cost": 0.00010965
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "9",
+   "supported": true,
+   "issue": ""
+  }
+ ]
+}

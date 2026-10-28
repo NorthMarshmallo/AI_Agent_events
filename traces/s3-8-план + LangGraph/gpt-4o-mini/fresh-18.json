@@ -1,0 +1,750 @@
+{
+ "task": {
+  "id": "fresh-18",
+  "source": "fresh",
+  "question": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?",
+  "answer": "13 July",
+  "evidence": "13 July – A Munich court imprisons an Iraqi couple who were members of Islamic State for enslaving and raping Yazidi girls.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "November 25, 2021",
+  "agent_ok": false
+ },
+ "answer": "Мюнхенский суд приговорил иракскую пару за порабощение и изнасилование езидок в 2021 году. FINAL: 2021 год.",
+ "calls": [
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-18",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 139,
+   "completion": 294,
+   "cost": 0.00019725
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-18",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 881,
+   "completion": 25,
+   "cost": 0.00014715
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-18",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 1321,
+   "completion": 22,
+   "cost": 0.00021135
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-18",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1353,
+   "completion": 36,
+   "cost": 0.00012855
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-18",
+   "model": "gpt-4o-mini",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 1411,
+   "completion": 36,
+   "cost": 0.00013725
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-18",
+   "model": "gpt-4o-mini",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 1469,
+   "completion": 23,
+   "cost": 0.00012855
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-18",
+   "model": "gpt-4o-mini",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 1907,
+   "completion": 25,
+   "cost": 0.00019545
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-18",
+   "model": "gpt-4o-mini",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 2347,
+   "completion": 27,
+   "cost": 0.00023385
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-18",
+   "model": "gpt-4o-mini",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 2789,
+   "completion": 26,
+   "cost": 0.00026115
+  },
+  {
+   "tag": "s3-8-план + LangGraph | gpt-4o-mini",
+   "qid": "fresh-18",
+   "model": "gpt-4o-mini",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2368,
+   "completion": 39,
+   "cost": 0.0003786
+  }
+ ],
+ "messages": [
+  {
+   "role": "plan",
+   "content": "1. **Web Search**: Использовать инструмент web_search для поиска информации на английской Википедии.\n   - Запрос: \"Munich court Iraqi couple enslaving raping Yazidi girls\"\n   - Ключевые слова: \"Munich court\", \"Iraqi couple\", \"enslaving\", \"Yazidi girls\"\n\n2. **Ru Wiki Search**: Использовать инструмент ru_wiki_search для поиска информации на русской Википедии.\n   - Запрос: \"Мюнхенский суд иракская пара порабощение изнасилование езидок\"\n   - Ключевые слова: \"Мюнхенский суд\", \"иракская пара\", \"порабощение\", \"езидки\"\n\n3. **Gen Search**: Использовать инструмент gen_search для поиска новостей в области биотехнологий, если это может быть связано с контекстом.\n   - Запрос: \"Iraqi couple enslaving Yazidi girls\"\n   - Ключевые слова: \"Iraqi couple\", \"Yazidi girls\", \"enslavement\"\n\n4. **Page Find**: Использовать инструмент page_find для поиска конкретной информации в найденных статьях.\n   - Запрос: \"date imprisoned Iraqi couple Yazidi girls\"\n   - Ключевые слова: \"date\", \"imprisoned\", \"Iraqi couple\", \"Yazidi girls\""
+  },
+  {
+   "content": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "04ce65e6-8c87-44f6-9637-f28a8f2cfd27"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 25,
+     "prompt_tokens": 881,
+     "total_tokens": 906,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00014715,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00014715,
+      "upstream_inference_prompt_cost": 0.00013215,
+      "upstream_inference_completions_cost": 1.5e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e52ea7ff4a",
+    "id": "gen-1793116079-1c85ti4cg27PMeaJmdxM",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-0487-7d02-a1dc-b0e61670f980-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Munich court Iraqi couple enslaving raping Yazidi girls"
+     },
+     "id": "call_ra3TyjqJUgbxmQJltL2vMix2",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 881,
+    "output_tokens": 25,
+    "total_tokens": 906,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking ethnoreligious group who practice Yazidism and who are indigenous to Kurdistan. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population had been displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of August 2014. During the Sinjar massacre, in which the Islamic State killed and abducted thousands of trapped Yazidis, the United States and the United Kingdom began carrying out airstrikes on the advancing Islamic State militants, while the People's Defense Units and the Kurdistan Workers' Party jointly formed a humanitarian corridor to evacuate the rest of the Yazidi refugees from the Sinjar Mountains. The United Nations and several other organizations, including the Council of Europe and the European Union, have designated the ant",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "5764ea5d-bc06-4221-9f69-1504d2e00983",
+   "tool_call_id": "call_ra3TyjqJUgbxmQJltL2vMix2",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 22,
+     "prompt_tokens": 1321,
+     "total_tokens": 1343,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00021135,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00021135,
+      "upstream_inference_prompt_cost": 0.00019815,
+      "upstream_inference_completions_cost": 1.32e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e52ea7ff4a",
+    "id": "gen-1793116081-bA3q5NEHvwLjoFWLW5xW",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-0d87-7e23-9ef4-bcc542418b0b-0",
+   "tool_calls": [
+    {
+     "name": "gen_search",
+     "args": {
+      "query": "Iraqi couple enslaving Yazidi girls"
+     },
+     "id": "call_IMbozclHBuqvtkp5tWw2NDbi",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1321,
+    "output_tokens": 22,
+    "total_tokens": 1343,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "gen_search",
+   "id": "bf1186dc-f26d-47f6-96f0-557c527a1b27",
+   "tool_call_id": "call_IMbozclHBuqvtkp5tWw2NDbi",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 36,
+     "prompt_tokens": 1353,
+     "total_tokens": 1389,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00012855,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00012855,
+      "upstream_inference_prompt_cost": 0.00010695,
+      "upstream_inference_completions_cost": 2.16e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e52ea7ff4a",
+    "id": "gen-1793116086-Ky7xTQuUhKo7e6MRgt82",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-2263-7623-9b0f-dd1d415425b7-0",
+   "tool_calls": [
+    {
+     "name": "ru_wiki_search",
+     "args": {
+      "query": "Мюнхенский суд иракская пара порабощение изнасилование езидок"
+     },
+     "id": "call_amMwkGwIwXYkWshA3Y9t0AP7",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1353,
+    "output_tokens": 36,
+    "total_tokens": 1389,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1280,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "НЕ удалось вызвать инструмент ru_wiki_search: 'query'",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "ru_wiki_search",
+   "id": "446e9b36-77ff-4c04-afe0-669cd2e9f9e2",
+   "tool_call_id": "call_amMwkGwIwXYkWshA3Y9t0AP7",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 36,
+     "prompt_tokens": 1411,
+     "total_tokens": 1447,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00013725,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00013725,
+      "upstream_inference_prompt_cost": 0.00011565,
+      "upstream_inference_completions_cost": 2.16e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e52ea7ff4a",
+    "id": "gen-1793116088-lCo5ahgyQPUtKkfhjswE",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-2994-79a3-b093-5e7055280b04-0",
+   "tool_calls": [
+    {
+     "name": "ru_wiki_search",
+     "args": {
+      "query": "Мюнхенский суд иракская пара порабощение изнасилования езидок"
+     },
+     "id": "call_BJwLCLKTo0nh4biZzCuwJoUa",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1411,
+    "output_tokens": 36,
+    "total_tokens": 1447,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1280,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "НЕ удалось вызвать инструмент ru_wiki_search: 'query'",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "ru_wiki_search",
+   "id": "4c2dad04-2678-4444-961e-14a31cff958a",
+   "tool_call_id": "call_BJwLCLKTo0nh4biZzCuwJoUa",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 23,
+     "prompt_tokens": 1469,
+     "total_tokens": 1492,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1408,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00012855,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00012855,
+      "upstream_inference_prompt_cost": 0.00011475,
+      "upstream_inference_completions_cost": 1.38e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e52ea7ff4a",
+    "id": "gen-1793116090-n09ktu8CAK4SYBGFpCS2",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-2faa-75c3-99d7-eb42894464a3-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Iraqi couple sentenced Munich court Yazidi girls"
+     },
+     "id": "call_1cTFFQxb7EonadmcOoPdbxrY",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1469,
+    "output_tokens": 23,
+    "total_tokens": 1492,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1408,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking ethnoreligious group who practice Yazidism and who are indigenous to Kurdistan. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population had been displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of August 2014. During the Sinjar massacre, in which the Islamic State killed and abducted thousands of trapped Yazidis, the United States and the United Kingdom began carrying out airstrikes on the advancing Islamic State militants, while the People's Defense Units and the Kurdistan Workers' Party jointly formed a humanitarian corridor to evacuate the rest of the Yazidi refugees from the Sinjar Mountains. The United Nations and several other organizations, including the Council of Europe and the European Union, have designated the ant",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "0414ed56-ff02-41dc-9c37-cbfcc2388601",
+   "tool_call_id": "call_1cTFFQxb7EonadmcOoPdbxrY",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 25,
+     "prompt_tokens": 1907,
+     "total_tokens": 1932,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1408,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00019545,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00019545,
+      "upstream_inference_prompt_cost": 0.00018045,
+      "upstream_inference_completions_cost": 1.5e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e52ea7ff4a",
+    "id": "gen-1793116092-6H2sfUsxw1NotXQfaPDZ",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-3994-7bd3-a1f7-6eaecc86b319-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Munich court Iraqi couple enslaving Yazidi girls date imprisoned"
+     },
+     "id": "call_iCPm3aw82pRQ2VRrZRa65m5z",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1907,
+    "output_tokens": 25,
+    "total_tokens": 1932,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1408,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking ethnoreligious group who practice Yazidism and who are indigenous to Kurdistan. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population had been displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of August 2014. During the Sinjar massacre, in which the Islamic State killed and abducted thousands of trapped Yazidis, the United States and the United Kingdom began carrying out airstrikes on the advancing Islamic State militants, while the People's Defense Units and the Kurdistan Workers' Party jointly formed a humanitarian corridor to evacuate the rest of the Yazidi refugees from the Sinjar Mountains. The United Nations and several other organizations, including the Council of Europe and the European Union, have designated the ant",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "7045a696-0dee-4913-a293-2a87bcb947a6",
+   "tool_call_id": "call_iCPm3aw82pRQ2VRrZRa65m5z",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 27,
+     "prompt_tokens": 2347,
+     "total_tokens": 2374,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1792,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00023385,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00023385,
+      "upstream_inference_prompt_cost": 0.00021765,
+      "upstream_inference_completions_cost": 1.62e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e52ea7ff4a",
+    "id": "gen-1793116095-2hXqql15HjStU7SZtXNK",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-4268-7471-9154-009b15303752-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Iraqi couple sentenced for enslaving Yazidi girls Munich court date"
+     },
+     "id": "call_0ne0Ri21HVoLPz3MMnlEGrG7",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2347,
+    "output_tokens": 27,
+    "total_tokens": 2374,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 1792,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking ethnoreligious group who practice Yazidism and who are indigenous to Kurdistan. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population had been displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of August 2014. During the Sinjar massacre, in which the Islamic State killed and abducted thousands of trapped Yazidis, the United States and the United Kingdom began carrying out airstrikes on the advancing Islamic State militants, while the People's Defense Units and the Kurdistan Workers' Party jointly formed a humanitarian corridor to evacuate the rest of the Yazidi refugees from the Sinjar Mountains. The United Nations and several other organizations, including the Council of Europe and the European Union, have designated the ant",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "bcc49ba3-f5ac-49c5-a551-86a1cd18a69c",
+   "tool_call_id": "call_0ne0Ri21HVoLPz3MMnlEGrG7",
+   "status": "success"
+  },
+  {
+   "content": "Мюнхенский суд приговорил иракскую пару за порабощение и изнасилование езидок в 2021 году. FINAL: 2021 год.",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 39,
+     "prompt_tokens": 2368,
+     "total_tokens": 2407,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0003786,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0003786,
+      "upstream_inference_prompt_cost": 0.0003552,
+      "upstream_inference_completions_cost": 2.34e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_e52ea7ff4a",
+    "id": "gen-1793116098-EUB4YJfSdJBkBsrDMbUp",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e0c-50bf-7312-9c95-ccd8b7f1fea7-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2368,
+    "output_tokens": 39,
+    "total_tokens": 2407,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

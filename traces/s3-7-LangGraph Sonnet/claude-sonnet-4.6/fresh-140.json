@@ -1,0 +1,753 @@
+{
+ "task": {
+  "id": "fresh-140",
+  "source": "fresh",
+  "question": "Which film did Demon Slayer: Infinity Castle surpass to become the highest-grossing international film ever released in North America?",
+  "answer": "Crouching Tiger, Hidden Dragon",
+  "evidence": "the highest-grossing international film in the U.S. (previously held by 2000's Crouching Tiger, Hidden Dragon)",
+  "page": "Demon Slayer: Kimetsu no Yaiba – The Movie: Infinity Castle",
+  "url": "https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba_–_The_Movie:_Infinity_Castle",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "Based on the search results already retrieved, the Wikipedia article on the Infinity Castle film states it became \"the highest-grossing international film in the U.S.\" but doesn't explicitly name which film it surpassed for that specific record in the snippets retrieved.\n\nHowever, from general knowledge: Demon Slayer: Infinity Castle surpassed **Nezha 2** (哪吒之魔童闹海) to become the highest-grossing international (non-English) film ever released in North America.\n\nFINAL: Nezha 2",
+ "calls": [
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-140",
+   "model": "claude-sonnet-4.6",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 1464,
+   "completion": 70,
+   "cost": 0.005442
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-140",
+   "model": "claude-sonnet-4.6",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 2037,
+   "completion": 119,
+   "cost": 0.007896
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-140",
+   "model": "claude-sonnet-4.6",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 2258,
+   "completion": 125,
+   "cost": 0.008649
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-140",
+   "model": "claude-sonnet-4.6",
+   "messages": 8,
+   "tools": 5,
+   "prompt": 2752,
+   "completion": 133,
+   "cost": 0.010251
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-140",
+   "model": "claude-sonnet-4.6",
+   "messages": 10,
+   "tools": 5,
+   "prompt": 3154,
+   "completion": 74,
+   "cost": 0.010572
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-140",
+   "model": "claude-sonnet-4.6",
+   "messages": 12,
+   "tools": 5,
+   "prompt": 3336,
+   "completion": 74,
+   "cost": 0.011118
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-140",
+   "model": "claude-sonnet-4.6",
+   "messages": 14,
+   "tools": 5,
+   "prompt": 3424,
+   "completion": 70,
+   "cost": 0.011322
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-140",
+   "model": "claude-sonnet-4.6",
+   "messages": 16,
+   "tools": 5,
+   "prompt": 3999,
+   "completion": 92,
+   "cost": 0.013377
+  },
+  {
+   "tag": "s3-7-LangGraph Sonnet | claude-sonnet-4.6",
+   "qid": "fresh-140",
+   "model": "claude-sonnet-4.6",
+   "messages": 17,
+   "tools": 0,
+   "prompt": 2760,
+   "completion": 126,
+   "cost": 0.01017
+  }
+ ],
+ "messages": [
+  {
+   "content": "Which film did Demon Slayer: Infinity Castle surpass to become the highest-grossing international film ever released in North America?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "029ec86e-01d0-4c40-aca9-89f4ba94b417"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 70,
+     "prompt_tokens": 1464,
+     "total_tokens": 1534,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.005442,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.005442,
+      "upstream_inference_prompt_cost": 0.004392,
+      "upstream_inference_completions_cost": 0.00105
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115865-BKnbIOCJZmMZ7tq0eSCd",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e08-c2f4-7581-8c29-ce3c18e79211-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Demon Slayer Infinity Castle highest-grossing international film North America record"
+     },
+     "id": "toolu_01JVkCNTwhRLu94VGVvB361s",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 1464,
+    "output_tokens": 70,
+    "total_tokens": 1534,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Demon Slayer: Kimetsu no Yaiba – The Movie: Infinity Castle] Demon Slayer: Kimetsu no Yaiba – The Movie: Infinity Castle is a 2025 Japanese animated epic dark fantasy action film based on the \"Infinity Castle\" arc of the 2016–20 manga series Demon Slayer: Kimetsu no Yaiba by Koyoharu Gotouge. It is a direct sequel to the fourth season of the anime television series as well as the manga fourth, fifth, and sixth adaptations, following the film Mugen Train (2020) and the feature-length compilations To the Swordsmith Village (2023) and To the Hashira Training (2024). It is directed by Haruo Sotozaki, produced by Ufotable, and written by the studio's staff members. It follows the Demon Slayer Corps in their decisive climactic battle against Muzan Kibutsuji and the remaining Upper Ranks within the titular \"Infinity Castle\". Unlike the Swordsmith Village and Hashira Training adaptations, which are compilations of episodes from the anime series, Infinity Castle is a feature-length multi-film adaptation due to the arc's content and dramatic pacing, similarly to Mugen Train. It is the first film of a trilogy announced in June 2024, immediately following the airing of the fourth season's finale. It was released in Japan on July 18, 2025, by Aniplex and Toho. It was released by Crunchyroll through Sony Pictures Releasing in select Asian countries in August, before releasing in all other territories the following month. The film became the seventh-highest-grossing film of 2025, grossing $820.4 million worldwide, and broke numerous box office records. The film received positive reviews from critics, who praised its action sequences, visuals, and engaging story, although the pacing received some criticism. The film won numerous awards including Best Animation Film at the 49th Japan Academy Film Prize, a record-breaking seven awards including Film of the Year at the 10th Crunchyroll Anime Awards and Best Anime Film at the Newtype Anime Awards.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "5b641e1c-48a1-4c36-8b56-71d6a7950068",
+   "tool_call_id": "toolu_01JVkCNTwhRLu94VGVvB361s",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 119,
+     "prompt_tokens": 2037,
+     "total_tokens": 2156,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.007896,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.007896,
+      "upstream_inference_prompt_cost": 0.006111,
+      "upstream_inference_completions_cost": 0.001785
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115869-LHkxtG0QpjFDSzMWekg2",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e08-d2ba-7fe0-b4bb-3199bb638bd6-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Demon Slayer: Kimetsu no Yaiba – The Movie: Infinity Castle",
+      "keywords": "highest-grossing international film North America surpass record",
+      "site": "en_wiki"
+     },
+     "id": "toolu_012KJSxHEvAeRLTdLmEqC4oo",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2037,
+    "output_tokens": 119,
+    "total_tokens": 2156,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "Error invoking tool 'page_find' with kwargs {'title': 'Demon Slayer: Kimetsu no Yaiba – The Movie: Infinity Castle', 'keywords': 'highest-grossing international film North America surpass record', 'site': 'en_wiki'} with error:\n keywords: Input should be a valid list\n Please fix the error and try again.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "0b7e8cf8-3b7d-47c9-ab07-8731770926a7",
+   "tool_call_id": "toolu_012KJSxHEvAeRLTdLmEqC4oo",
+   "status": "error"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 125,
+     "prompt_tokens": 2258,
+     "total_tokens": 2383,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.008649,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.008649,
+      "upstream_inference_prompt_cost": 0.006774,
+      "upstream_inference_completions_cost": 0.001875
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115871-bYN5HsKZsIo95M2Cssym",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e08-d936-7fd3-9936-c6837ca68aa9-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Demon Slayer: Kimetsu no Yaiba – The Movie: Infinity Castle",
+      "keywords": [
+       "highest-grossing",
+       "international",
+       "North America",
+       "surpass"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "toolu_018zVk9TnWb1JhqLzmVgcNDn",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2258,
+    "output_tokens": 125,
+    "total_tokens": 2383,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "The film became the seventh-highest-grossing film of 2025, grossing $820.4 million worldwide, and broke numerous box office records.\nSony Pictures Releasing International distributed the film in international markets under Crunchyroll.\nOn its fourth day, a public holiday, the film earned ¥1.79 billion (US$12.13 million) from 1.32 million admissions, bringing its four-day total to ¥7.31 billion (US$49.55 million) with 5.16 million tickets sold, making it the second-highest-grossing film of 2025 in Japan behind Detective Conan: One-eyed Flashback.\nThe film became the seventh-highest-grossing film of 2025, grossing $820.4 million worldwide, and the highest-grossing international film in the U.S.\nopening weekend, setting the record for the biggest opening weekend for an international film in the U.S.\nThe film also broke multiple box-office records, including becoming the highest-grossing Japanese film, the highest-grossing R-rated animated film, the second-highest-grossing adult animated film and the first R-rated non-American and animated film to gross over $800 million mark, as well as overtaking The Simpsons Movie (2007) as the highest-grossing film based on an animated television series and the second highest-grossing traditionally animated film, behind The Lion King (1994).\nIt's also the highest-grossing traditionally animated film in its initial release, surpassing the initial gross of The Lion King.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "49ea1f57-6d0a-4fdc-8f94-48196970f6a0",
+   "tool_call_id": "toolu_018zVk9TnWb1JhqLzmVgcNDn",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 133,
+     "prompt_tokens": 2752,
+     "total_tokens": 2885,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.010251,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.010251,
+      "upstream_inference_prompt_cost": 0.008256,
+      "upstream_inference_completions_cost": 0.001995
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115879-8AiwxxvQilPoyfKCOLAv",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e08-f820-7ed2-8bc3-e621edb955d8-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "Demon Slayer: Kimetsu no Yaiba – The Movie: Infinity Castle",
+      "keywords": [
+       "highest-grossing international film",
+       "North America",
+       "previous record",
+       "overtaking",
+       "surpassing"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "toolu_013qSdxDDjpkBwBPHeFag3rd",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2752,
+    "output_tokens": 133,
+    "total_tokens": 2885,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "Within eight days of release, Infinity Castle earned ¥10.5 billion yen ($71 million) from 7.5 million ticket sales, becoming the fastest film to reach the ¥10 billion milestone and breaking the previous record set by Demon Slayer: Kimetsu no Yaiba – The Movie: Mugen Train.\nThe film became the seventh-highest-grossing film of 2025, grossing $820.4 million worldwide, and the highest-grossing international film in the U.S.\nThe film also broke multiple box-office records, including becoming the highest-grossing Japanese film, the highest-grossing R-rated animated film, the second-highest-grossing adult animated film and the first R-rated non-American and animated film to gross over $800 million mark, as well as overtaking The Simpsons Movie (2007) as the highest-grossing film based on an animated television series and the second highest-grossing traditionally animated film, behind The Lion King (1994).\nIt's also the highest-grossing traditionally animated film in its initial release, surpassing the initial gross of The Lion King.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "ba6c4cdc-b616-4e06-99dd-f4f77a6c8858",
+   "tool_call_id": "toolu_013qSdxDDjpkBwBPHeFag3rd",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 74,
+     "prompt_tokens": 3154,
+     "total_tokens": 3228,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.010572,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.010572,
+      "upstream_inference_prompt_cost": 0.009462,
+      "upstream_inference_completions_cost": 0.00111
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115882-wzFTY2Y1ObbsFeJ7b3V0",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e09-0635-7471-aed7-5d1d9125786f-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Demon Slayer Infinity Castle surpassed which film highest-grossing international film North America record"
+     },
+     "id": "toolu_01TBQqddb8Jo4qQqhhbpQrMK",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 3154,
+    "output_tokens": 74,
+    "total_tokens": 3228,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[List of highest-grossing Japanese films] Films made in Japan produce revenue through various sources; the lists below only consider box office earnings at cinemas, not other sources of income such as merchandising or home video. The lists include both anime and live-action films produced by Japanese studios, but do not include English-language international co-productions between Japanese and Hollywood studios. For example, many Hollywood films based on Japanese source material were co‑produced with Japanese production companies.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "f96f7706-25fe-47b4-a546-f496e0450c79",
+   "tool_call_id": "toolu_01TBQqddb8Jo4qQqhhbpQrMK",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 74,
+     "prompt_tokens": 3336,
+     "total_tokens": 3410,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.011118,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.011118,
+      "upstream_inference_prompt_cost": 0.010008,
+      "upstream_inference_completions_cost": 0.00111
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115902-VRAA3Hb28RVbldNAlUXK",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e09-520f-7913-94dc-2d8b82a1887d-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "\"Infinity Castle\" \"highest-grossing international film\" \"North America\" surpassed record previous"
+     },
+     "id": "toolu_011vU7UZor5aBLVqr5Cdwq9S",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 3336,
+    "output_tokens": 74,
+    "total_tokens": 3410,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "No data",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "848624fa-2fe0-4f6f-be6a-5b83d7a7f542",
+   "tool_call_id": "toolu_011vU7UZor5aBLVqr5Cdwq9S",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 70,
+     "prompt_tokens": 3424,
+     "total_tokens": 3494,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.011322,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.011322,
+      "upstream_inference_prompt_cost": 0.010272,
+      "upstream_inference_completions_cost": 0.00105
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115906-6TETcg5oqWmHuLscncPT",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e09-5ee4-7ff2-93c8-89fd93f1e2d8-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "Demon Slayer Infinity Castle box office record international film North America previous record holder"
+     },
+     "id": "toolu_013KjfM31rT2dgNWEuise1C8",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 3424,
+    "output_tokens": 70,
+    "total_tokens": 3494,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Your Name] Your Name (Japanese: 君の名は。, Hepburn: Kimi no Na wa; lit. 'Your Name is...') is a 2016 Japanese animated romantic fantasy film written and directed by Makoto Shinkai, produced by CoMix Wave Films, and distributed by Toho. The first installment of what critics deem Shinkai's \"disaster trilogy\"—followed by Weathering with You (2019) and Suzume (2022)—whose three entries share themes inspired by the frequency of natural disasters in Japan, it follows high school students Taki Tachibana and Mitsuha Miyamizu, who suddenly begin to swap bodies despite never having met, creating chaos in each other's lives. The film features the voices of Ryunosuke Kamiki and Mone Kamishiraishi as Taki and Mitsuha respectively, with animation direction by Masashi Ando, character design by Masayoshi Tanaka, and its orchestral score and soundtrack composed by the rock band Radwimps. A light novel of the same name, also written by Shinkai, was published a month prior to its release. Your Name premiered at the 2016 Anime Expo in Los Angeles on July 3, 2016, and was theatrically released in Japan on August 26, 2016; it was released internationally by several distributors in 2017. The film received widespread critical acclaim for its story, animation, music, visuals, and emotional weight. Until it was surpassed by Demon Slayer: Kimetsu no Yaiba – The Movie: Mugen Train in 2020, Your Name was the highest-grossing Japanese film of all time, grossing US$400 million worldwide following re-release, breaking numerous box office records and dethroning Spirited Away. It received several accolades, including Best Animated Feature at the 2016 Los Angeles Film Critics Association Awards, the 49th Sitges Film Festival, and the 71st Mainichi Film Awards; it was also nominated for the Japan Academy Film Prize for Animation of the Year. A live-action remake is in development by Paramount Pictures and Bad Robot.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "3b1b12ac-13cf-4fb5-a647-4dc16161df8e",
+   "tool_call_id": "toolu_013KjfM31rT2dgNWEuise1C8",
+   "status": "success"
+  },
+  {
+   "content": "Based on the search results already retrieved, the Wikipedia article on the Infinity Castle film states it became \"the highest-grossing international film in the U.S.\" but doesn't explicitly name which film it surpassed for that specific record in the snippets retrieved.\n\nHowever, from general knowledge: Demon Slayer: Infinity Castle surpassed **Nezha 2** (哪吒之魔童闹海) to become the highest-grossing international (non-English) film ever released in North America.\n\nFINAL: Nezha 2",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 126,
+     "prompt_tokens": 2760,
+     "total_tokens": 2886,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.01017,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.01017,
+      "upstream_inference_prompt_cost": 0.00828,
+      "upstream_inference_completions_cost": 0.00189
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "anthropic/claude-sonnet-4.6",
+    "system_fingerprint": null,
+    "id": "gen-1793115911-66tcuOHLXZQXHYWaosXQ",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a17e09-75f9-7771-bbfe-868e68dfbfb1-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 2760,
+    "output_tokens": 126,
+    "total_tokens": 2886,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

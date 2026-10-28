@@ -1,0 +1,64 @@
+{
+ "task": {
+  "id": "fresh-146",
+  "source": "fresh",
+  "question": "On what date does the live-action One Piece Season 2 premiere on Netflix?",
+  "answer": "March 10, 2026",
+  "evidence": "The second season was released on March 10, 2026. Like the first season, it consists of eight episodes.",
+  "page": "One Piece (2023 TV series)",
+  "url": "https://en.wikipedia.org/wiki/One_Piece_(2023_TV_series)",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "FINAL: March 10, 2026",
+ "calls": [
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-146",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 575,
+   "completion": 23,
+   "cost": 0.00010005
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-146",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 995,
+   "completion": 21,
+   "cost": 0.00016185
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-146",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 1186,
+   "completion": 10,
+   "cost": 0.0001839
+  },
+  {
+   "tag": "s3-5-LangGraph + критик | gpt-4o-mini",
+   "qid": "fresh-146",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 0,
+   "prompt": 743,
+   "completion": 9,
+   "cost": 0.00011685
+  }
+ ],
+ "messages": [
+  {
+   "round": 1,
+   "answer": "March 10, 2026",
+   "supported": true,
+   "issue": ""
+  }
+ ]
+}

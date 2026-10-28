@@ -1,0 +1,186 @@
+{
+ "task": {
+  "id": "fresh-147",
+  "source": "fresh",
+  "question": "Which animation studio was granted the 2026 Princess of Asturias Award for Communication and Humanities?",
+  "answer": "Studio Ghibli",
+  "evidence": "In 2026 the Studio Ghibli was awarded the Princess of Asturias Award in the category of 'Communication and Humanities'.",
+  "page": "Studio Ghibli",
+  "url": "https://en.wikipedia.org/wiki/Studio_Ghibli",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "The animation studio granted the 2026 Princess of Asturias Award for Communication and Humanities is Studio Ghibli. \n\nFINAL: Studio Ghibli",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-147",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 577,
+   "completion": 25,
+   "cost": 0.00010155
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-147",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 960,
+   "completion": 30,
+   "cost": 0.000162
+  }
+ ],
+ "messages": [
+  {
+   "content": "Which animation studio was granted the 2026 Princess of Asturias Award for Communication and Humanities?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "d313e967-1bc0-4ac2-8fbd-9e56eba3ebae"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 25,
+     "prompt_tokens": 577,
+     "total_tokens": 602,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00010155,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00010155,
+      "upstream_inference_prompt_cost": 8.655e-05,
+      "upstream_inference_completions_cost": 1.5e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_7b4718ccca",
+    "id": "gen-1792420655-2hcSaWRrr0aCXQIrZq8F",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-b26b-7202-9a01-bec40232cab4-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "2026 Princess of Asturias Award for Communication and Humanities animation studio"
+     },
+     "id": "call_BcDth0POMuVw4vjSnzrkkcUg",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 577,
+    "output_tokens": 25,
+    "total_tokens": 602,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[Studio Ghibli] Studio Ghibli Inc. (Japanese: 株式会社スタジオジブリ, Hepburn: Kabushiki-gaisha Sutajio Jiburi) is a Japanese animation studio based in Koganei, Tokyo. It was founded on June 15, 1985, by directors Hayao Miyazaki and Isao Takahata and producer Toshio Suzuki, after acquiring Topcraft's assets. It has a strong presence in the animation industry and has expanded its portfolio to include various media such as short subjects, television commercials and two television films. The studio's work is highly acclaimed by both critics and audiences and has been recognized with numerous awards. Their mascot and most recognizable character is Totoro from the 1988 film My Neighbor Totoro, a giant spirit inspired by raccoon dogs (tanuki) and cats (neko). Among the studio's highest-grossing films are Princess Mononoke (1997), Spirited Away (2001), Howl's Moving Castle (2004), Ponyo (2008), and The Boy and the Heron (2023). Studio Ghibli's major awards across organizations include two Academy Awards for Best Animated Feature, one Golden Globe Award for Best Animated Feature Film, one BAFTA Award for Best Animated Film, one Golden Bear, three Animage Grand Prix awards and six Japan Academy Prizes. Four of the studio's films are among the ten highest-grossing Japanese feature films; Spirited Away is fourth, grossing ¥31.68 billion in Japan and over US$380 million worldwide. In 2026 the Studio Ghibli was awarded the Princess of Asturias Award in the category of \"Communication and Humanities\".",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "0c96dee7-48c2-4d8f-8826-a96e539d5cd0",
+   "tool_call_id": "call_BcDth0POMuVw4vjSnzrkkcUg",
+   "status": "success"
+  },
+  {
+   "content": "The animation studio granted the 2026 Princess of Asturias Award for Communication and Humanities is Studio Ghibli. \n\nFINAL: Studio Ghibli",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 30,
+     "prompt_tokens": 960,
+     "total_tokens": 990,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.000162,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.000162,
+      "upstream_inference_prompt_cost": 0.000144,
+      "upstream_inference_completions_cost": 1.8e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420657-W8yL7jUP2j8unL6a46YY",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15498-bb03-7422-80da-34de30577490-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 960,
+    "output_tokens": 30,
+    "total_tokens": 990,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}

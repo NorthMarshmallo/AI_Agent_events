@@ -1,0 +1,281 @@
+{
+ "task": {
+  "id": "fresh-9",
+  "source": "fresh",
+  "question": "What city hosted the 2026 BWF World Championships in sports in August?",
+  "answer": "New Delhi",
+  "evidence": "August 17 – 23 : 2026 BWF World Championships in New Delhi, India",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Zhengzhou",
+  "agent_ok": true
+ },
+ "answer": "The city that hosted the 2026 BWF World Championships in August is New Delhi, India. \n\nFINAL: New Delhi, India",
+ "calls": [
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-9",
+   "model": "gpt-4o-mini",
+   "messages": 2,
+   "tools": 5,
+   "prompt": 575,
+   "completion": 22,
+   "cost": 9.945e-05
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-9",
+   "model": "gpt-4o-mini",
+   "messages": 4,
+   "tools": 5,
+   "prompt": 660,
+   "completion": 33,
+   "cost": 0.0001188
+  },
+  {
+   "tag": "LangGraph + счётчик HTTP | gpt-4o-mini",
+   "qid": "fresh-9",
+   "model": "gpt-4o-mini",
+   "messages": 6,
+   "tools": 5,
+   "prompt": 735,
+   "completion": 28,
+   "cost": 0.00012705
+  }
+ ],
+ "messages": [
+  {
+   "content": "What city hosted the 2026 BWF World Championships in sports in August?",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "id": "c55897fe-6ec2-4e25-ac44-a855be5ce6f0"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 22,
+     "prompt_tokens": 575,
+     "total_tokens": 597,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 9.945e-05,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 9.945e-05,
+      "upstream_inference_prompt_cost": 8.625e-05,
+      "upstream_inference_completions_cost": 1.32e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420487-HomucQZLgrrawP9AqnEa",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-218d-7f53-bb33-a45c9d0dd22f-0",
+   "tool_calls": [
+    {
+     "name": "web_search",
+     "args": {
+      "query": "2026 BWF World Championships host city August"
+     },
+     "id": "call_2GGbySzvzhRs55wmD0Mz5NbD",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 575,
+    "output_tokens": 22,
+    "total_tokens": 597,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "[2026 BWF World Championships] The 2026 BWF World Championships is the 30th edition of the world badminton championships. It took place in New Delhi, India in 2026. India hosted the World Championships for the first time since 2009.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "web_search",
+   "id": "7e0481aa-2778-4f06-b52d-47cae9f99121",
+   "tool_call_id": "call_2GGbySzvzhRs55wmD0Mz5NbD",
+   "status": "success"
+  },
+  {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 33,
+     "prompt_tokens": 660,
+     "total_tokens": 693,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0001188,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0001188,
+      "upstream_inference_prompt_cost": 9.9e-05,
+      "upstream_inference_completions_cost": 1.98e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420489-JtmaAPaQEQowp6TsdZ2Y",
+    "service_tier": "default",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-2918-7c52-a97a-974d7456c8e3-0",
+   "tool_calls": [
+    {
+     "name": "page_find",
+     "args": {
+      "title": "2026 BWF World Championships",
+      "keywords": [
+       "New Delhi",
+       "August"
+      ],
+      "site": "en_wiki"
+     },
+     "id": "call_SGyljXdjDDGEfPLUFNWsik70",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 660,
+    "output_tokens": 33,
+    "total_tokens": 693,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  },
+  {
+   "content": "It took place in New Delhi, India in 2026.\nNew Delhi was announced to be the host city after the 2025 BWF World Championships at Paris.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "page_find",
+   "id": "25d91042-5840-4576-b707-965a65b3c3a9",
+   "tool_call_id": "call_SGyljXdjDDGEfPLUFNWsik70",
+   "status": "success"
+  },
+  {
+   "content": "The city that hosted the 2026 BWF World Championships in August is New Delhi, India. \n\nFINAL: New Delhi, India",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 28,
+     "prompt_tokens": 735,
+     "total_tokens": 763,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00012705,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00012705,
+      "upstream_inference_prompt_cost": 0.00011025,
+      "upstream_inference_completions_cost": 1.68e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_2851888338",
+    "id": "gen-1792420491-qAqGiS50uTWmB5poUTer",
+    "service_tier": "default",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "id": "lc_run--01a15496-2f5c-7ce2-92cc-96e0a3e8c9a7-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 735,
+    "output_tokens": 28,
+    "total_tokens": 763,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ ]
+}
