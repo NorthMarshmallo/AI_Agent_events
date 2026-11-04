@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Свежие вопросы для домашки: факты 2026 года из Википедии, на которых Sonnet без инструментов ошибается.
+"""Свежие вопросы: факты 2026 года из Википедии, на которых Sonnet без инструментов ошибается.
 
 Запуск: python scripts/fetch_fresh.py [--limit 120]
 Результат: data/fresh_2026.jsonl и сводка в консоли.
@@ -25,10 +25,10 @@ for env in [HERE / ".env", HERE.parent.parent / "demo" / ".env"]:
 assert os.getenv("OPENROUTER_API_KEY"), "нужен OPENROUTER_API_KEY"
 
 CHAT_URL = "https://openrouter.ai/api/v1/chat/completions"
-HEADERS = {"Authorization": f"Bearer {os.environ['OPENROUTER_API_KEY']}", "X-Title": "agents-course-fresh-dataset"}
+HEADERS = {"Authorization": f"Bearer {os.environ['OPENROUTER_API_KEY']}", "X-Title": "ai-agent-events"}
 CHEAP, STRONG = "openai/gpt-4o-mini", "anthropic/claude-sonnet-4.6"
 WIKI = "https://en.wikipedia.org/w/api.php"
-WIKI_HEADERS = {"User-Agent": "agents-course-seminar01/1.0 (https://postypashki.ru; educational project)"}
+WIKI_HEADERS = {"User-Agent": "ai-agent-events/0.1 (https://github.com/NorthMarshmallo)"}
 PAGES = ["2026", "2026 in science", "2026 in sports", "2026 in film", "2026 in spaceflight", "2026 in video games",
          "2026 in music", "2026 in television", "2026 in literature", "2026 Winter Olympics", "2026 FIFA World Cup",
          "2026 in aviation", "2026 in politics", "2026 in the United States", "2026 in the United Kingdom",

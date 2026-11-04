@@ -17,12 +17,56 @@ services:
     ports:
       - "19530:19530"
       - "9091:9091"
+    mem_limit: 4g
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:9091/healthz"]
       interval: 15s
       start_period: 60s
       timeout: 10s
       retries: 5
+
+  mcp:
+    build: .
+    image: events-agent-mcp:0.4
+    container_name: events-mcp
+    environment:
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY}   # только для векторов поисковых запросов к базе
+      MILVUS_URI: http://milvus:19530
+    ports:
+      - "127.0.0.1:8090:8090"
+    depends_on:
+      milvus:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/venv/bin/python -c \"import os, socket; s=socket.create_connection(('127.0.0.1', int(os.environ['PORT'])), 2); s.close()\""]
+      interval: 15s
+      start_period: 240s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
+
+  mcp-eval:
+    build: .
+    image: events-agent-mcp:0.4
+    container_name: events-mcp-eval
+    environment:
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY}
+      MILVUS_URI: http://milvus:19530
+      HOST: 0.0.0.0
+      PORT: 8091
+      KB_BASE: eval
+    ports:
+      - "127.0.0.1:8091:8091"
+    depends_on:
+      milvus:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/venv/bin/python -c \"import socket; s=socket.create_connection(('127.0.0.1', 8091), 2); s.close()\""]
+      interval: 15s
+      start_period: 240s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
 
   attu:
     image: zilliz/attu:v2.6.5

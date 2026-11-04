@@ -1,0 +1,150 @@
+{
+ "task": {
+  "id": "fresh-128",
+  "source": "fresh",
+  "question": "What is the name of the RFdiffusion2-designed metallohydrolase reported to have catalytic efficiency several orders of magnitude higher than earlier designed metallohydrolases?",
+  "answer": "ZETA_1",
+  "evidence": "One design, named ZETA_1, demonstrated high catalytic efficiency several orders of magnitude higher compared to previously designed metallohydrolases.",
+  "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/",
+  "group": "ответ только в интернете"
+ },
+ "answer": "The RFdiffusion2-designed metallohydrolase reported to have catalytic efficiency several orders of magnitude higher than earlier designed metallohydrolases is named ZETA_1. \n\nFINAL: ZETA_1",
+ "seconds": 16.3,
+ "calls": [
+  {
+   "time": "2026-11-05T01:35:39",
+   "kind": "model",
+   "tag": "s4-1-база и поиск",
+   "qid": "fresh-128",
+   "model": "gpt-4o-mini",
+   "prompt": 752,
+   "completion": 24,
+   "cached": 0,
+   "cost": 0.0001272,
+   "seconds": 0.9,
+   "tools_offered": 6,
+   "tool_tax_tokens": 873,
+   "tool_calls": [
+    "gen_search"
+   ]
+  },
+  {
+   "time": "2026-11-05T01:35:49",
+   "kind": "model",
+   "tag": "s4-1-база и поиск",
+   "qid": "fresh-128",
+   "model": "gpt-4o-mini",
+   "prompt": 1370,
+   "completion": 49,
+   "cached": 0,
+   "cost": 0.0002349,
+   "seconds": 1.18,
+   "tools_offered": 6,
+   "tool_tax_tokens": 873,
+   "tool_calls": [
+    "page_find"
+   ]
+  },
+  {
+   "time": "2026-11-05T01:35:54",
+   "kind": "model",
+   "tag": "s4-1-база и поиск",
+   "qid": "fresh-128",
+   "model": "gpt-4o-mini",
+   "prompt": 1615,
+   "completion": 44,
+   "cached": 0,
+   "cost": 0.00026865,
+   "seconds": 1.0,
+   "tools_offered": 6,
+   "tool_tax_tokens": 873,
+   "tool_calls": []
+  }
+ ],
+ "embeds": [],
+ "tools": [
+  {
+   "time": "2026-11-05T01:35:48",
+   "kind": "tool",
+   "tag": "s4-1-база и поиск",
+   "qid": "fresh-128",
+   "tool": "gen_search",
+   "arguments": "{\"query\":\"RFdiffusion2 metallohydrolase catalytic efficiency\"}",
+   "ok": true,
+   "chars": 3000,
+   "seconds": 9.18
+  },
+  {
+   "time": "2026-11-05T01:35:53",
+   "kind": "tool",
+   "tag": "s4-1-база и поиск",
+   "qid": "fresh-128",
+   "tool": "page_find",
+   "arguments": "{\"title\":\"RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes\",\"keywords\":[\"metallohydrolase\",\"catalytic efficiency\"],\"site\":\"gen\"}",
+   "ok": true,
+   "chars": 980,
+   "seconds": 4.0
+  }
+ ],
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events. Never answer from memory: look facts up with the tools, do not repeat the same call. Answer in the language of the question, write names as in the source. The last line must be FINAL: <short answer>, or FINAL: NOT_FOUND if the sources have no answer."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the RFdiffusion2-designed metallohydrolase reported to have catalytic efficiency several orders of magnitude higher than earlier designed metallohydrolases?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_4k8vqCUEsmfUqgEm9VnRm9MZ",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\":\"RFdiffusion2 metallohydrolase catalytic efficiency\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_4k8vqCUEsmfUqgEm9VnRm9MZ",
+   "content": "[RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes] Researchers from the lab of Nobel laureate, David Baker, PhD, have now released RFdiffusion3 open source. The latest version of the de novo protein design model generates proteins that interact with any type of molecule, including DNA and small molecules with broad applications across sustainability and therapeutics. “We built this as a general model and are sharing it freely so the scientific community can create things we haven’t even imagined yet,” said Rohith Krishna, PhD, postdoctoral researcher in the Baker lab and co-lead author of the RFdiffusion3 bioRxiv preprint that has not been peer reviewed. The work shows experimental proof of concept for the design of proteins that recognize specific sequences of DNA, which serves as a foundation for synthetic transcription factors for gene therapy, and complex enzyme catalysis, which offers industry applications. Baker, who is the director of the Institute for Protein Design at the University of Washington (UW) and a Howard Hughes Medical Institute (HHMI) investigator, won the 2024 Nobel Prize in Chemistry for the design of novel proteins. RFdiffusion3 is one step closer to designing and understanding biological complexity, a challenge Baker recently described to GEN as one of the main obstacles to overcome for de novo design to transform medicine. RFdiffusion3 enters a growing ecosystem of protein design models that cover multiple modalities, such as BoltzGen , which was released in October. BoltzGen demonstrated generalizable therapeutic design in any format, including nanobodies, mini-binders, and disulfide-bonded peptides, and against any target across nucleic acids, small molecules, and both ordered and disordered proteins. Notably, BoltzGen designs binders only and does not generate catalytic enzymes as demonstrated by RFdiffusion 3. To achieve intricate chemical interactions with new precision, RFdiffusion3 treats individual atoms as the fundamental units being designed, a methodological advance from its predecessor, RFdiffusion2 , concurrently published in Nature Methods , which implements a hybrid atom and amino acid residue approach. In computational time, RFdiffusion3 exhibits ten-fold faster performance over RFdiffusion2, despite taking a more computationally intensive all-atom method. Krishna told GEN that the underlying intuition for RFdiffusion 3 was to give “more knobs for generality and controllability.” As an example, the model’s all-atom approach can allow the specification of a hydrogen bond to a particular atom, a level of precision that can greatly facilitate the construction complex reactions, such as enzyme catalysis. He also notes that RFdiffusion3 has limitations when designing against biomolecules not seen in the training set, such as non-canonical amino acids. Straight from the computer While RFdiffusion3’s open-source launch opens the door for a new wave of enzyme innovation across the community, "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_3DxFZLB0giNvoAPPWgkyLfTU",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes\",\"keywords\":[\"metallohydrolase\",\"catalytic efficiency\"],\"site\":\"gen\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_3DxFZLB0giNvoAPPWgkyLfTU",
+   "content": "In a concurrently published Nature paper, the UW researchers applied RFdiffusion2 to demonstrate the successful design of metallohydrolases , enzymes that cleave some of the most difficult bonds in biology, such as protein peptide bonds, by leveraging the reactivity of a metal.\nMetallohydrolases have been of particular interest for degrading difficult pollutants.\nOut of thousands of computational metallohydrolases designs, the authors experimentally screened 96 enzymes for the hydrolysis of the target molecule.\nOne design, named ZETA_1, demonstrated high catalytic efficiency several orders of magnitude higher compared to previously designed metallohydrolases.\nDonghyo Kim, PhD, postdoctoral researcher in the Baker lab and another co-lead author of the metallohydrolases study, adds that one interesting feature of de novo designed enzymes is their improved thermostability, which is valuable for catalytic reactions that can occur more efficiently at higher temperatures."
+  },
+  {
+   "role": "assistant",
+   "content": "The RFdiffusion2-designed metallohydrolase reported to have catalytic efficiency several orders of magnitude higher than earlier designed metallohydrolases is named ZETA_1. \n\nFINAL: ZETA_1",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

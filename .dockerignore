@@ -1,0 +1,17 @@
+.venv
+.git
+.env
+.env.*
+!.env.example
+traces
+logs
+results
+img
+notebooks
+docs
+tests
+*.zip
+*.pdf
+*.ipynb
+__pycache__
+*.db
