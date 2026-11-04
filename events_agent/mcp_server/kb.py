@@ -35,8 +35,10 @@ class Vectors:
             z = np.load(path)
             self.vectors = {str(k): v.astype(np.float32) for k, v in zip(z["keys"], z["vectors"])}
 
-    def get(self, texts):
+    def get(self, texts, allow_remote=True):
         missing = list(dict.fromkeys(t for t in texts if key_of(t) not in self.vectors))
+        if missing and not allow_remote:
+            raise RuntimeError(f"в кэше нет {len(missing)} embedding-векторов; загрузка базы не вызывает API автоматически")
         for i in range(0, len(missing), 64):
             batch = missing[i:i + 64]
             for text, vector in zip(batch, llm.embed(batch)):
@@ -68,7 +70,7 @@ class KnowledgeBase:
                 client.drop_collection(old)
 
     def _load(self, chunks):
-        vectors = self.vectors.get([emb_text(c) for c in chunks])
+        vectors = self.vectors.get([emb_text(c) for c in chunks], allow_remote=False)
         self.client.create_collection(self.name, dimension=vectors.shape[1], metric_type="COSINE")
         rows = [{"id": i, "vector": v.tolist(), **c} for i, (c, v) in enumerate(zip(chunks, vectors))]
         for i in range(0, len(rows), 1000):

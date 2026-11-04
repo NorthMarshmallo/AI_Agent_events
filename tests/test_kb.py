@@ -1,3 +1,5 @@
+import pytest
+
 from events_agent import kb
 
 
@@ -43,3 +45,10 @@ def test_all_corpus_vectors_are_cached():
     chunks = kb.corpus_chunks()
     vectors = kb.Vectors()
     assert all(kb.key_of(kb.emb_text(c)) in vectors.vectors for c in chunks)
+
+
+def test_base_loading_does_not_request_missing_embeddings():
+    vectors = object.__new__(kb.Vectors)
+    vectors.vectors = {}
+    with pytest.raises(RuntimeError, match="не вызывает API автоматически"):
+        vectors.get(["uncached text"], allow_remote=False)
