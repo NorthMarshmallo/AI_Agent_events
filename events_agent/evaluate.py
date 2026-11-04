@@ -9,10 +9,9 @@ from concurrent.futures import ThreadPoolExecutor
 from . import agent, config, golden
 from .grading import final_answer, score
 from .llm import JOURNAL, QID, TAG
-from .web import WEB_TOOLS
 
-CONFIGS = {"s4-1-база и поиск": ["knowledge_base", *WEB_TOOLS],
-           "s4-2-только поиск": WEB_TOOLS}
+CONFIGS = {"s4-1-база и поиск": "агент",                       # вариант таблицы: роль с её белым списком инструментов
+           "s4-2-только поиск": "агент без базы"}
 REFERENCE = {"fresh": "s1-1-без инструментов", "unanswerable": "s2-3-без инструментов"}   # Sonnet без инструментов
 
 
@@ -24,7 +23,7 @@ def pending(variant, model, tasks):
     return [t for t in tasks if not (folder(variant, model) / f"{t['id']}.json").exists()]
 
 
-def solve(variant, model, task):
+def solve(variant, model, task, toolbox):
     path = folder(variant, model) / f"{task['id']}.json"
     if path.exists():
         return json.loads(path.read_text(encoding="utf-8"))
@@ -32,7 +31,7 @@ def solve(variant, model, task):
     QID.set(task["id"])
     started = time.perf_counter()
     try:
-        answer, messages = agent.run(task["question"], CONFIGS[variant], model)
+        answer, messages = agent.run(task["question"], toolbox, model)
     except Exception as e:                                      # сбой сети или API: не сохраняем, в следующий раз задача пройдёт заново
         return {"task": task, "answer": f"ошибка: {type(e).__name__}: {e}"[:300], "calls": [], "tools": [], "seconds": None}
     trace = {"task": task, "answer": answer, "seconds": round(time.perf_counter() - started, 1),
@@ -43,10 +42,10 @@ def solve(variant, model, task):
     return trace
 
 
-def run(variant, model=config.CHEAP, tasks=None, workers=6):
+def run(variant, model=config.CHEAP, tasks=None, toolbox=None, workers=6):
     tasks = tasks or golden.tasks()
     with ThreadPoolExecutor(workers) as ex:                     # copy_context: у каждого потока свои метка и номер задачи
-        futures = [ex.submit(contextvars.copy_context().run, solve, variant, model, t) for t in tasks]
+        futures = [ex.submit(contextvars.copy_context().run, solve, variant, model, t, toolbox) for t in tasks]
         return [f.result() for f in futures]
 
 
