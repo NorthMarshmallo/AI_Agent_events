@@ -5,18 +5,20 @@
     events-agent eval --ids fresh-0 fresh-125 none-0                     то же для отдельных задач
     events-agent eval --config "s4-1-база и поиск" --limit 3 --yes       прогнать недостающие задачи: это тратит деньги
 """
-import argparse, sys
+import argparse, os, sys
 import pandas as pd
-from . import agent, config, evaluate, golden, kb
+from . import agent, config, evaluate, golden, tools
 from .grading import final_answer
 from .llm import JOURNAL
-from .web import WEB_TOOLS
 
 
 def ask(args):
-    kb.connect()
-    path = JOURNAL.start("ask")
-    answer, _ = agent.run(args.question, ["knowledge_base", *WEB_TOOLS], args.model)
+    mcp = tools.connect()
+    try:
+        path = JOURNAL.start("ask")
+        answer, _ = agent.run(args.question, tools.Toolbox(mcp, "агент"), args.model)
+    finally:
+        mcp.close()
     calls, embeds = JOURNAL.of(None), JOURNAL.of(None, "embed")
     print(final_answer(answer))
     print(f"\nвызовов модели: {len(calls)}, цена: {sum(c['cost'] for c in calls + embeds) * 100:.4f} цента, журнал: {path}")
@@ -31,11 +33,13 @@ def run_eval(args):
         if todo and not args.yes:
             print(f"{variant}: без трейса {len(todo)} задач из {len(tasks)}; чтобы прогнать их моделью, добавьте --yes")
             continue
+        mcp = tools.connect(os.getenv("MCP_EVAL_URL", "http://127.0.0.1:8091/mcp")) if todo else None
         if todo:
-            if "knowledge_base" in evaluate.CONFIGS[variant]:
-                kb.connect(golden.held_out_pages(), "eval")
             print(f"{variant}: прогон {len(todo)} задач, журнал {JOURNAL.start(variant.split('-')[1])}")
-        rows.append(evaluate.row(variant, args.model, evaluate.run(variant, args.model, tasks)))
+        toolbox = tools.Toolbox(mcp, evaluate.CONFIGS[variant]) if mcp else None
+        rows.append(evaluate.row(variant, args.model, evaluate.run(variant, args.model, tasks, toolbox)))
+        if mcp:
+            mcp.close()
     pd.set_option("display.width", 250)
     print(pd.DataFrame(rows).to_string(index=False))
 
