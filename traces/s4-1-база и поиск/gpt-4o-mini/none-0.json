@@ -1,0 +1,454 @@
+{
+ "task": {
+  "id": "none-0",
+  "source": "unanswerable",
+  "kind": "not_in_corpus",
+  "question": "How much money did Chai Discovery raise in its Series C funding round?",
+  "answer": "$400 million",
+  "evidence": "",
+  "page": "",
+  "url": "https://www.fiercebiotech.com/biotech/chai-brews-400m-series-c-fuel-ai-used-lilly-novartis-and-pfizer",
+  "note": "в статье GEN только раунд Series B на $130M",
+  "group": "ответа нет в базе"
+ },
+ "answer": "FINAL: NOT_FOUND",
+ "seconds": 23.4,
+ "calls": [
+  {
+   "time": "2026-10-28T18:26:11",
+   "kind": "model",
+   "tag": "s4-1-база и поиск",
+   "qid": "none-0",
+   "model": "gpt-4o-mini",
+   "prompt": 723,
+   "completion": 21,
+   "cached": 0,
+   "cost": 0.00012105,
+   "seconds": 2.45,
+   "tools_offered": 6,
+   "tool_calls": [
+    "web_search"
+   ]
+  },
+  {
+   "time": "2026-10-28T18:26:15",
+   "kind": "model",
+   "tag": "s4-1-база и поиск",
+   "qid": "none-0",
+   "model": "gpt-4o-mini",
+   "prompt": 768,
+   "completion": 21,
+   "cached": 0,
+   "cost": 0.0001278,
+   "seconds": 2.3,
+   "tools_offered": 6,
+   "tool_calls": [
+    "knowledge_base"
+   ]
+  },
+  {
+   "time": "2026-10-28T18:26:17",
+   "kind": "model",
+   "tag": "s4-1-база и поиск",
+   "qid": "none-0",
+   "model": "gpt-4o-mini",
+   "prompt": 1040,
+   "completion": 21,
+   "cached": 0,
+   "cost": 0.0001686,
+   "seconds": 1.18,
+   "tools_offered": 6,
+   "tool_calls": [
+    "web_search"
+   ]
+  },
+  {
+   "time": "2026-10-28T18:26:22",
+   "kind": "model",
+   "tag": "s4-1-база и поиск",
+   "qid": "none-0",
+   "model": "gpt-4o-mini",
+   "prompt": 1085,
+   "completion": 19,
+   "cached": 1024,
+   "cost": 9.735e-05,
+   "seconds": 2.3,
+   "tools_offered": 6,
+   "tool_calls": [
+    "knowledge_base"
+   ]
+  },
+  {
+   "time": "2026-10-28T18:26:24",
+   "kind": "model",
+   "tag": "s4-1-база и поиск",
+   "qid": "none-0",
+   "model": "gpt-4o-mini",
+   "prompt": 1310,
+   "completion": 23,
+   "cached": 1024,
+   "cost": 0.0001335,
+   "seconds": 1.04,
+   "tools_offered": 6,
+   "tool_calls": [
+    "web_search"
+   ]
+  },
+  {
+   "time": "2026-10-28T18:26:27",
+   "kind": "model",
+   "tag": "s4-1-база и поиск",
+   "qid": "none-0",
+   "model": "gpt-4o-mini",
+   "prompt": 1357,
+   "completion": 19,
+   "cached": 1280,
+   "cost": 0.00011895,
+   "seconds": 1.23,
+   "tools_offered": 6,
+   "tool_calls": [
+    "knowledge_base"
+   ]
+  },
+  {
+   "time": "2026-10-28T18:26:28",
+   "kind": "model",
+   "tag": "s4-1-база и поиск",
+   "qid": "none-0",
+   "model": "gpt-4o-mini",
+   "prompt": 1627,
+   "completion": 21,
+   "cached": 1280,
+   "cost": 0.00016065,
+   "seconds": 0.99,
+   "tools_offered": 6,
+   "tool_calls": [
+    "web_search"
+   ]
+  },
+  {
+   "time": "2026-10-28T18:26:31",
+   "kind": "model",
+   "tag": "s4-1-база и поиск",
+   "qid": "none-0",
+   "model": "gpt-4o-mini",
+   "prompt": 1796,
+   "completion": 24,
+   "cached": 1536,
+   "cost": 0.0001686,
+   "seconds": 1.05,
+   "tools_offered": 6,
+   "tool_calls": [
+    "web_search"
+   ]
+  },
+  {
+   "time": "2026-10-28T18:26:32",
+   "kind": "model",
+   "tag": "s4-1-база и поиск",
+   "qid": "none-0",
+   "model": "gpt-4o-mini",
+   "prompt": 1204,
+   "completion": 4,
+   "cached": 0,
+   "cost": 0.000183,
+   "seconds": 1.16,
+   "tools_offered": 0,
+   "tool_calls": []
+  }
+ ],
+ "tools": [
+  {
+   "time": "2026-10-28T18:26:13",
+   "kind": "tool",
+   "tag": "s4-1-база и поиск",
+   "qid": "none-0",
+   "tool": "web_search",
+   "arguments": "{\"query\":\"Chai Discovery Series C funding round amount\"}",
+   "ok": true,
+   "chars": 67,
+   "seconds": 1.85
+  },
+  {
+   "time": "2026-10-28T18:26:16",
+   "kind": "tool",
+   "tag": "s4-1-база и поиск",
+   "qid": "none-0",
+   "tool": "knowledge_base",
+   "arguments": "{\"query\":\"Chai Discovery Series C funding round\"}",
+   "ok": true,
+   "chars": 1120,
+   "seconds": 0.57
+  },
+  {
+   "time": "2026-10-28T18:26:20",
+   "kind": "tool",
+   "tag": "s4-1-база и поиск",
+   "qid": "none-0",
+   "tool": "web_search",
+   "arguments": "{\"query\":\"Chai Discovery funding news 2024\"}",
+   "ok": true,
+   "chars": 67,
+   "seconds": 2.81
+  },
+  {
+   "time": "2026-10-28T18:26:23",
+   "kind": "tool",
+   "tag": "s4-1-база и поиск",
+   "qid": "none-0",
+   "tool": "knowledge_base",
+   "arguments": "{\"query\":\"Chai Discovery funding news\"}",
+   "ok": true,
+   "chars": 928,
+   "seconds": 0.57
+  },
+  {
+   "time": "2026-10-28T18:26:25",
+   "kind": "tool",
+   "tag": "s4-1-база и поиск",
+   "qid": "none-0",
+   "tool": "web_search",
+   "arguments": "{\"query\":\"Chai Discovery Series C funding amount 2024\"}",
+   "ok": true,
+   "chars": 67,
+   "seconds": 1.82
+  },
+  {
+   "time": "2026-10-28T18:26:27",
+   "kind": "tool",
+   "tag": "s4-1-база и поиск",
+   "qid": "none-0",
+   "tool": "knowledge_base",
+   "arguments": "{\"query\":\"Chai Discovery funding round\"}",
+   "ok": true,
+   "chars": 1179,
+   "seconds": 0.52
+  },
+  {
+   "time": "2026-10-28T18:26:30",
+   "kind": "tool",
+   "tag": "s4-1-база и поиск",
+   "qid": "none-0",
+   "tool": "web_search",
+   "arguments": "{\"query\":\"Chai Discovery funding news 2023\"}",
+   "ok": true,
+   "chars": 635,
+   "seconds": 1.56
+  }
+ ],
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events. Never answer from memory: look facts up with the tools, do not repeat the same call. Answer in the language of the question, write names as in the source. The last line must be FINAL: <short answer>, or FINAL: NOT_FOUND if the sources have no answer."
+  },
+  {
+   "role": "user",
+   "content": "How much money did Chai Discovery raise in its Series C funding round?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_sNgpJtWliM01uknFKyHNUWXU",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Chai Discovery Series C funding round amount\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_sNgpJtWliM01uknFKyHNUWXU",
+   "content": "[2024 in science] The following scientific events occurred in 2024."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_XbjtCB90kxjQImY8K2I2etmP",
+     "function": {
+      "name": "knowledge_base",
+      "arguments": "{\"query\":\"Chai Discovery Series C funding round\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_XbjtCB90kxjQImY8K2I2etmP",
+   "content": "[2026 in the United Kingdom / March] It is announced that billionaire hedge fund owner Chris Rokos will donate £190m to the University of Cambridge.\n[2026 in India / June] An investigation by The Indian Express reveals that Union minister Bhagirath Choudhary received ₹99 lakh (US$100,000) as subsidy under his ministry for his commercial cucumber farm. Choudhary rejects the allegations and says that there was nothing irregular about availing the subsidy as he had engaged in farming long before entering politics.\n[2026 in the United States / June] June 16 – SpaceX announces a US$60 billion all-stock deal to acquire Cursor, the developer of the AI coding assistant Cursor, with the transaction expected to close in the third quarter of 2026.\n[2026 in the United States / April] Warner Bros. Discovery shareholders approve Paramount Skydance's proposed acquisition of the company in a deal valued at $111 billion including debt, moving the merger a step closer to completion pending regulatory approval.\n[2026 in sports / 2026 UCI Women's World Tour] Young Rider Classification(): Cédrine Kerbaol(EF Education–Oatly)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_b4J4BLEoVPj5LMPglfB29vYV",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Chai Discovery funding news 2024\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_b4J4BLEoVPj5LMPglfB29vYV",
+   "content": "[2024 in science] The following scientific events occurred in 2024."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_mhMdpAhEbXLBi1Mn38ynr4eM",
+     "function": {
+      "name": "knowledge_base",
+      "arguments": "{\"query\":\"Chai Discovery funding news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_mhMdpAhEbXLBi1Mn38ynr4eM",
+   "content": "[2026 in the United Kingdom / March] It is announced that billionaire hedge fund owner Chris Rokos will donate £190m to the University of Cambridge.\n[2026 in the United States / April] Warner Bros. Discovery shareholders approve Paramount Skydance's proposed acquisition of the company in a deal valued at $111 billion including debt, moving the merger a step closer to completion pending regulatory approval.\n[2026 in the United States / June] June 16 – SpaceX announces a US$60 billion all-stock deal to acquire Cursor, the developer of the AI coding assistant Cursor, with the transaction expected to close in the third quarter of 2026.\n[2026 in the United States / September] Chipmaker Nvidia agrees to buy the Hugging Face AI platform in a deal worth $12.9 billion.\n[2026 in China / June] 17 June — The State Administration for Market Regulation approves Paramount Skydance's proposed acquisition of Warner Bros. Discovery."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Nj1Igkme92cXxudbcApqyMdf",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Chai Discovery Series C funding amount 2024\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Nj1Igkme92cXxudbcApqyMdf",
+   "content": "[2024 in science] The following scientific events occurred in 2024."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_KWRtmn3eFrsjkK8TgjTlDW7Y",
+     "function": {
+      "name": "knowledge_base",
+      "arguments": "{\"query\":\"Chai Discovery funding round\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_KWRtmn3eFrsjkK8TgjTlDW7Y",
+   "content": "[2026 in the United Kingdom / March] It is announced that billionaire hedge fund owner Chris Rokos will donate £190m to the University of Cambridge.\n[2026 in the United Kingdom / September] 12 September – Reform UK receives two £36 million donations from cryptocurrency billionaires Ben Delo and Christopher Harborne, jointly the largest individual donations ever made to a UK political party and totalling £72 million.\n[2026 in the United States / April] Warner Bros. Discovery shareholders approve Paramount Skydance's proposed acquisition of the company in a deal valued at $111 billion including debt, moving the merger a step closer to completion pending regulatory approval.\n[2026 in India / June] An investigation by The Indian Express reveals that Union minister Bhagirath Choudhary received ₹99 lakh (US$100,000) as subsidy under his ministry for his commercial cucumber farm. Choudhary rejects the allegations and says that there was nothing irregular about availing the subsidy as he had engaged in farming long before entering politics.\n[2026 in the United States / September] Chipmaker Nvidia agrees to buy the Hugging Face AI platform in a deal worth $12.9 billion."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_cZly3D4zSnnOdcdOs7h5GQBQ",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Chai Discovery funding news 2023\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_cZly3D4zSnnOdcdOs7h5GQBQ",
+   "content": "[The Newsreader] The Newsreader is an Australian television drama series created by Michael Lucas and broadcast on ABC television, starring Anna Torv and Sam Reid. The show explored the personal and professional lives of the journalists and crew in a 1980s Australian newsroom. The first season premiered on 15 August 2021 and became ABCTV's most-viewed drama program of that year. The second season premiered in September 2023. Each season was met with critical acclaim and received the most nominations of any show or film at the AACTA Awards in 2021 and 2023. The third and final season was released on 2 February 2025 on ABC iView."
+  },
+  {
+   "role": "user",
+   "content": "Tools are no longer available. Answer from what you already found. The last line must be FINAL: <short answer> in the language of the question, or FINAL: NOT_FOUND."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: NOT_FOUND",
+   "refusal": null,
+   "reasoning": null
+  }
+ ],
+ "embeds": [
+  {
+   "time": "2026-10-28T18:26:16",
+   "kind": "embed",
+   "tag": "s4-1-база и поиск",
+   "qid": "none-0",
+   "model": "text-embedding-3-small",
+   "prompt": 7,
+   "completion": 0,
+   "cached": 0,
+   "cost": 1.4e-07,
+   "seconds": 0.57,
+   "texts": 1
+  },
+  {
+   "time": "2026-10-28T18:26:23",
+   "kind": "embed",
+   "tag": "s4-1-база и поиск",
+   "qid": "none-0",
+   "model": "text-embedding-3-small",
+   "prompt": 5,
+   "completion": 0,
+   "cached": 0,
+   "cost": 1e-07,
+   "seconds": 0.56,
+   "texts": 1
+  },
+  {
+   "time": "2026-10-28T18:26:27",
+   "kind": "embed",
+   "tag": "s4-1-база и поиск",
+   "qid": "none-0",
+   "model": "text-embedding-3-small",
+   "prompt": 5,
+   "completion": 0,
+   "cached": 0,
+   "cost": 1e-07,
+   "seconds": 0.51,
+   "texts": 1
+  }
+ ]
+}

@@ -1,0 +1,423 @@
+{
+ "task": {
+  "id": "none-0",
+  "source": "unanswerable",
+  "kind": "not_in_corpus",
+  "question": "How much money did Chai Discovery raise in its Series C funding round?",
+  "answer": "$400 million",
+  "evidence": "",
+  "page": "",
+  "url": "https://www.fiercebiotech.com/biotech/chai-brews-400m-series-c-fuel-ai-used-lilly-novartis-and-pfizer",
+  "note": "в статье GEN только раунд Series B на $130M",
+  "group": "ответа нет в базе"
+ },
+ "answer": "FINAL: NOT_FOUND",
+ "seconds": 187.5,
+ "calls": [
+  {
+   "time": "2026-11-05T01:45:42",
+   "kind": "model",
+   "tag": "s4-2-только поиск",
+   "qid": "none-0",
+   "model": "gpt-4o-mini",
+   "prompt": 607,
+   "completion": 21,
+   "cached": 0,
+   "cost": 0.00010365,
+   "seconds": 0.93,
+   "tools_offered": 5,
+   "tool_tax_tokens": 689,
+   "tool_calls": [
+    "web_search"
+   ]
+  },
+  {
+   "time": "2026-11-05T01:45:44",
+   "kind": "model",
+   "tag": "s4-2-только поиск",
+   "qid": "none-0",
+   "model": "gpt-4o-mini",
+   "prompt": 652,
+   "completion": 21,
+   "cached": 0,
+   "cost": 0.0001104,
+   "seconds": 0.91,
+   "tools_offered": 5,
+   "tool_tax_tokens": 689,
+   "tool_calls": [
+    "web_search"
+   ]
+  },
+  {
+   "time": "2026-11-05T01:46:08",
+   "kind": "model",
+   "tag": "s4-2-только поиск",
+   "qid": "none-0",
+   "model": "gpt-4o-mini",
+   "prompt": 697,
+   "completion": 22,
+   "cached": 0,
+   "cost": 0.00011775,
+   "seconds": 0.95,
+   "tools_offered": 5,
+   "tool_tax_tokens": 689,
+   "tool_calls": [
+    "web_search"
+   ]
+  },
+  {
+   "time": "2026-11-05T01:46:10",
+   "kind": "model",
+   "tag": "s4-2-только поиск",
+   "qid": "none-0",
+   "model": "gpt-4o-mini",
+   "prompt": 1066,
+   "completion": 21,
+   "cached": 0,
+   "cost": 0.0001725,
+   "seconds": 1.19,
+   "tools_offered": 5,
+   "tool_tax_tokens": 689,
+   "tool_calls": [
+    "web_search"
+   ]
+  },
+  {
+   "time": "2026-11-05T01:46:12",
+   "kind": "model",
+   "tag": "s4-2-только поиск",
+   "qid": "none-0",
+   "model": "gpt-4o-mini",
+   "prompt": 1304,
+   "completion": 23,
+   "cached": 0,
+   "cost": 0.0002094,
+   "seconds": 1.15,
+   "tools_offered": 5,
+   "tool_tax_tokens": 689,
+   "tool_calls": [
+    "web_search"
+   ]
+  },
+  {
+   "time": "2026-11-05T01:48:27",
+   "kind": "model",
+   "tag": "s4-2-только поиск",
+   "qid": "none-0",
+   "model": "gpt-4o-mini",
+   "prompt": 1351,
+   "completion": 18,
+   "cached": 1280,
+   "cost": 0.00011745,
+   "seconds": 133.96,
+   "tools_offered": 5,
+   "tool_tax_tokens": 689,
+   "tool_calls": [
+    "web_search"
+   ]
+  },
+  {
+   "time": "2026-11-05T01:48:29",
+   "kind": "model",
+   "tag": "s4-2-только поиск",
+   "qid": "none-0",
+   "model": "gpt-4o-mini",
+   "prompt": 1443,
+   "completion": 23,
+   "cached": 1280,
+   "cost": 0.00013425,
+   "seconds": 0.83,
+   "tools_offered": 5,
+   "tool_tax_tokens": 689,
+   "tool_calls": [
+    "web_search"
+   ]
+  },
+  {
+   "time": "2026-11-05T01:48:48",
+   "kind": "model",
+   "tag": "s4-2-только поиск",
+   "qid": "none-0",
+   "model": "gpt-4o-mini",
+   "prompt": 1490,
+   "completion": 23,
+   "cached": 1408,
+   "cost": 0.0001317,
+   "seconds": 1.36,
+   "tools_offered": 5,
+   "tool_tax_tokens": 689,
+   "tool_calls": [
+    "web_search"
+   ]
+  },
+  {
+   "time": "2026-11-05T01:48:49",
+   "kind": "model",
+   "tag": "s4-2-только поиск",
+   "qid": "none-0",
+   "model": "gpt-4o-mini",
+   "prompt": 1014,
+   "completion": 4,
+   "cached": 0,
+   "cost": 0.0001545,
+   "seconds": 0.96,
+   "tools_offered": 0,
+   "tool_tax_tokens": 0,
+   "tool_calls": []
+  }
+ ],
+ "embeds": [],
+ "tools": [
+  {
+   "time": "2026-11-05T01:45:43",
+   "kind": "tool",
+   "tag": "s4-2-только поиск",
+   "qid": "none-0",
+   "tool": "web_search",
+   "arguments": "{\"query\":\"Chai Discovery Series C funding round amount\"}",
+   "ok": true,
+   "chars": 67,
+   "seconds": 1.07
+  },
+  {
+   "time": "2026-11-05T01:46:07",
+   "kind": "tool",
+   "tag": "s4-2-только поиск",
+   "qid": "none-0",
+   "tool": "web_search",
+   "arguments": "{\"query\":\"Chai Discovery funding news 2024\"}",
+   "ok": true,
+   "chars": 67,
+   "seconds": 22.49
+  },
+  {
+   "time": "2026-11-05T01:46:09",
+   "kind": "tool",
+   "tag": "s4-2-только поиск",
+   "qid": "none-0",
+   "tool": "web_search",
+   "arguments": "{\"query\":\"Chai Discovery Series C funding 2024\"}",
+   "ok": true,
+   "chars": 1230,
+   "seconds": 1.09
+  },
+  {
+   "time": "2026-11-05T01:46:11",
+   "kind": "tool",
+   "tag": "s4-2-только поиск",
+   "qid": "none-0",
+   "tool": "web_search",
+   "arguments": "{\"query\":\"Chai Discovery funding round 2024\"}",
+   "ok": true,
+   "chars": 984,
+   "seconds": 1.08
+  },
+  {
+   "time": "2026-11-05T01:46:13",
+   "kind": "tool",
+   "tag": "s4-2-только поиск",
+   "qid": "none-0",
+   "tool": "web_search",
+   "arguments": "{\"query\":\"Chai Discovery Series C funding amount 2024\"}",
+   "ok": true,
+   "chars": 67,
+   "seconds": 1.11
+  },
+  {
+   "time": "2026-11-05T01:48:28",
+   "kind": "tool",
+   "tag": "s4-2-только поиск",
+   "qid": "none-0",
+   "tool": "web_search",
+   "arguments": "{\"query\":\"Chai Discovery funding news\"}",
+   "ok": true,
+   "chars": 260,
+   "seconds": 1.16
+  },
+  {
+   "time": "2026-11-05T01:48:47",
+   "kind": "tool",
+   "tag": "s4-2-только поиск",
+   "qid": "none-0",
+   "tool": "web_search",
+   "arguments": "{\"query\":\"Chai Discovery Series C funding news 2024\"}",
+   "ok": true,
+   "chars": 67,
+   "seconds": 17.18
+  }
+ ],
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events. Never answer from memory: look facts up with the tools, do not repeat the same call. Answer in the language of the question, write names as in the source. The last line must be FINAL: <short answer>, or FINAL: NOT_FOUND if the sources have no answer."
+  },
+  {
+   "role": "user",
+   "content": "How much money did Chai Discovery raise in its Series C funding round?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_PCntEViE6y9oWEsuk4mPABO2",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Chai Discovery Series C funding round amount\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_PCntEViE6y9oWEsuk4mPABO2",
+   "content": "[2024 in science] The following scientific events occurred in 2024."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_4hsNREebo3uaY28sDCmHES5o",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Chai Discovery funding news 2024\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_4hsNREebo3uaY28sDCmHES5o",
+   "content": "[2024 in science] The following scientific events occurred in 2024."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_aanTrSgpfzwDRogCgxVVyqZR",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Chai Discovery Series C funding 2024\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_aanTrSgpfzwDRogCgxVVyqZR",
+   "content": "[Richard Kind] Richard Bruce Kind (; born November 22, 1956) is an American actor and comedian. His television roles include Dr. Mark Devanow in Mad About You (1992–1999, 2019), Paul Lassiter in Spin City (1996–2002), Cousin Andy in Curb Your Enthusiasm (2002–2021), Sam Meyers in Red Oaks (2014–2017), and Vince Fish in Only Murders in the Building (2024–present). He appeared in the films Clifford (1994), Stargate (1994), The Station Agent (2003), The Visitor (2007), A Serious Man (2009), Hereafter (2010), Argo (2012), Bombshell (2019), Tick, Tick... Boom! (2021), Beau is Afraid (2023), and The Out-Laws (2023). Kind is currently the announcer and sidekick on the Netflix live talk show Everybody's Live with John Mulaney. Kind's voice performances in various Pixar films include Molt in A Bug's Life (1998), Van in the first two films of the Cars franchise (2006–2011), Bookworm in Toy Story 3 (2010), and Bing Bong in Inside Out (2015). He also voices Al Tuttle in the series American Dad! (2005–present) and Marty Glouberman in the Netflix series Big Mouth (2017–2025). Kind was nominated for a Tony Award for Best Featured Actor in a Play for his performance as Marcus Hoff in the 2013 Broadway revival of The Big Knife."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_rgwHZlwzQ2llUbrnA7pb0k2y",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Chai Discovery funding round 2024\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_rgwHZlwzQ2llUbrnA7pb0k2y",
+   "content": "[Wan Chai] Wan Chai (Chinese: 灣仔; Jyutping: waan1 zai2) is an area of the western part of Wan Chai District on the northern shore of Hong Kong Island, Hong Kong. It is bounded by Canal Road to the east, Arsenal Street to the west, and Bowen Road to the south. The area north of Gloucester Road is often called Wan Chai North. Wan Chai is one of the busiest commercial areas in Hong Kong with offices of many small and medium-sized companies. Wan Chai North features office towers, parks, hotels and an international conference and exhibition centre. Wan Chai is also well known for its famous night life which has evolved over decades. As one of the first areas developed in Hong Kong, the locale is densely populated but facing urban decay. The government has undertaken several urban renewal projects in recent years. There are various landmarks and skyscrapers within the area, most notably the Hong Kong Convention and Exhibition Centre (HKCEC), Central Plaza and Hopewell Centre."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_5Fh8ZF04beuhE2yysrZ5O9hh",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Chai Discovery Series C funding amount 2024\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_5Fh8ZF04beuhE2yysrZ5O9hh",
+   "content": "[2024 in science] The following scientific events occurred in 2024."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_EvrS5Z2S2Kuj0kycbIgAUHNw",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Chai Discovery funding news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_EvrS5Z2S2Kuj0kycbIgAUHNw",
+   "content": "[Siu Sai Wan] Siu Sai Wan (Chinese: 小西灣) is a residential area in the northeastern part of Hong Kong Island in Hong Kong. It is located in the eastern part of Chai Wan, and is administratively under the Eastern District. The population was 59,729 in June 2011."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_zYfyrnI6fFL7TNyKYgogaNOi",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Chai Discovery Series C funding news 2024\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_zYfyrnI6fFL7TNyKYgogaNOi",
+   "content": "[2024 in science] The following scientific events occurred in 2024."
+  },
+  {
+   "role": "user",
+   "content": "Tools are no longer available. Answer from what you already found. The last line must be FINAL: <short answer> in the language of the question, or FINAL: NOT_FOUND."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: NOT_FOUND",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

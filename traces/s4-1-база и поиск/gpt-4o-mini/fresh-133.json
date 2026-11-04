@@ -1,0 +1,250 @@
+{
+ "task": {
+  "id": "fresh-133",
+  "source": "fresh",
+  "question": "On what date did DeepSeek release its open-weight reasoning model DeepSeek-R1?",
+  "answer": "20 January 2025",
+  "evidence": "Released on 20 January 2025, DeepSeek-R1 surpassed ChatGPT as the most downloaded freeware app",
+  "page": "DeepSeek (chatbot)",
+  "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+  "group": "ответ только в интернете"
+ },
+ "answer": "DeepSeek announced the release of its open-weight reasoning model DeepSeek-R1 in late January 2026. \n\nFINAL: January 2026",
+ "seconds": 29.7,
+ "calls": [
+  {
+   "time": "2026-11-05T01:35:55",
+   "kind": "model",
+   "tag": "s4-1-база и поиск",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "prompt": 734,
+   "completion": 19,
+   "cached": 0,
+   "cost": 0.0001215,
+   "seconds": 0.8,
+   "tools_offered": 6,
+   "tool_tax_tokens": 873,
+   "tool_calls": [
+    "web_search"
+   ]
+  },
+  {
+   "time": "2026-11-05T01:36:13",
+   "kind": "model",
+   "tag": "s4-1-база и поиск",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "prompt": 828,
+   "completion": 20,
+   "cached": 0,
+   "cost": 0.0001362,
+   "seconds": 1.0,
+   "tools_offered": 6,
+   "tool_tax_tokens": 873,
+   "tool_calls": [
+    "knowledge_base"
+   ]
+  },
+  {
+   "time": "2026-11-05T01:36:15",
+   "kind": "model",
+   "tag": "s4-1-база и поиск",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "prompt": 1148,
+   "completion": 19,
+   "cached": 0,
+   "cost": 0.0001836,
+   "seconds": 0.91,
+   "tools_offered": 6,
+   "tool_tax_tokens": 873,
+   "tool_calls": [
+    "gen_search"
+   ]
+  },
+  {
+   "time": "2026-11-05T01:36:19",
+   "kind": "model",
+   "tag": "s4-1-база и поиск",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "prompt": 1789,
+   "completion": 47,
+   "cached": 1024,
+   "cost": 0.00021975,
+   "seconds": 1.27,
+   "tools_offered": 6,
+   "tool_tax_tokens": 873,
+   "tool_calls": [
+    "page_find"
+   ]
+  },
+  {
+   "time": "2026-11-05T01:36:24",
+   "kind": "model",
+   "tag": "s4-1-база и поиск",
+   "qid": "fresh-133",
+   "model": "gpt-4o-mini",
+   "prompt": 2117,
+   "completion": 30,
+   "cached": 1792,
+   "cost": 0.00020115,
+   "seconds": 0.98,
+   "tools_offered": 6,
+   "tool_tax_tokens": 873,
+   "tool_calls": []
+  }
+ ],
+ "embeds": [],
+ "tools": [
+  {
+   "time": "2026-11-05T01:36:12",
+   "kind": "tool",
+   "tag": "s4-1-база и поиск",
+   "qid": "fresh-133",
+   "tool": "web_search",
+   "arguments": "{\"query\":\"DeepSeek-R1 release date\"}",
+   "ok": true,
+   "chars": 319,
+   "seconds": 17.18
+  },
+  {
+   "time": "2026-11-05T01:36:14",
+   "kind": "tool",
+   "tag": "s4-1-база и поиск",
+   "qid": "fresh-133",
+   "tool": "knowledge_base",
+   "arguments": "{\"query\":\"DeepSeek-R1 release date\"}",
+   "ok": true,
+   "chars": 1285,
+   "seconds": 0.64
+  },
+  {
+   "time": "2026-11-05T01:36:18",
+   "kind": "tool",
+   "tag": "s4-1-база и поиск",
+   "qid": "fresh-133",
+   "tool": "gen_search",
+   "arguments": "{\"query\":\"DeepSeek-R1 release date\"}",
+   "ok": true,
+   "chars": 3000,
+   "seconds": 3.28
+  },
+  {
+   "time": "2026-11-05T01:36:23",
+   "kind": "tool",
+   "tag": "s4-1-база и поиск",
+   "qid": "fresh-133",
+   "tool": "page_find",
+   "arguments": "{\"title\":\"StockWatch: Whirlwind Week for Nvidia as Investors Weigh DeepSeek’s Impact\",\"keywords\":[\"DeepSeek-R1\",\"release\",\"open source\"],\"site\":\"gen\"}",
+   "ok": true,
+   "chars": 1269,
+   "seconds": 3.66
+  }
+ ],
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events. Never answer from memory: look facts up with the tools, do not repeat the same call. Answer in the language of the question, write names as in the source. The last line must be FINAL: <short answer>, or FINAL: NOT_FOUND if the sources have no answer."
+  },
+  {
+   "role": "user",
+   "content": "On what date did DeepSeek release its open-weight reasoning model DeepSeek-R1?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_InHV0s99G3tS6t5cIy8tL0ff",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"DeepSeek-R1 release date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_InHV0s99G3tS6t5cIy8tL0ff",
+   "content": "[DeepSeek] Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd., doing business as DeepSeek, is a Chinese artificial intelligence (AI) company that develops open weights large language models (LLMs). Based in Hangzhou, Zhejiang, DeepSeek is owned and funded by High-Flyer, a Chinese hedge fund."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_nU2fEc26C49BqOwzKPSVSkxn",
+     "function": {
+      "name": "knowledge_base",
+      "arguments": "{\"query\":\"DeepSeek-R1 release date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_nU2fEc26C49BqOwzKPSVSkxn",
+   "content": "[2026 in science / May] 31 May – A Phase 3 trial published in the New England Journal of Medicine reports that daraxonrasib, an investigational oral RAS(ON) inhibitor, nearly doubles median overall survival in patients with previously treated metastatic pancreatic cancer, from 6.6 months with standard chemotherapy to 13.2 months.\n[2026 in Japan / February] February 2 – Japan announces the retrieval of sediment containing rare earth minerals at a depth of 6,000 m (20,000 ft) below sea level off the coast of Minamitorishima.\n[2026 in science / September] 2 September – A study published in the New England Journal of Medicine reports that the RAS inhibitor drug daraxonrasib, which was approved by the U.S. Food and Drug Administration as a treatment for metastatic pancreatic cancer, also shows promise against lung cancer.\n[2026 in science / May] 6 May – A study in npj Space Exploration, using radar data from India's Chandrayaan-2 orbiter, reports strong evidence for subsurface water ice in four doubly-shadowed craters near the lunar south pole.\n[2026 in the United States / June] June 16 – SpaceX announces a US$60 billion all-stock deal to acquire Cursor, the developer of the AI coding assistant Cursor, with the transaction expected to close in the third quarter of 2026."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_y5lLfisSSZQ6Q3KecAQS3A2d",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\":\"DeepSeek-R1 release date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_y5lLfisSSZQ6Q3KecAQS3A2d",
+   "content": "[StockWatch: Whirlwind Week for Nvidia as Investors Weigh DeepSeek’s Impact] Nvidia (NASDAQ: NVDA) CEO Jensen Huang’s meeting with President Donald Trump on Friday capped a whirlwind week for the increasingly life sciences-focused Silicon Valley microprocessing giant, in which its stock slid 16% as investors assessed how much of a competitive threat the company faces from the Chinese-owned artificial intelligence (AI) startup DeepSeek. “We appreciated the opportunity to meet with President Trump and discuss semiconductors and AI policy,” an Nvidia spokesperson said in a statement to Japan’s NHK and other news outlets. “Jensen and the President discussed the importance of strengthening U.S. technology and AI leadership.” Trump offered few specifics about his meeting with Huang, but said Friday : “He’s the biggest in the world in terms of chips. I can’t say what’s going to happen [except] we had a meeting. It was a good meeting.” “Eventually, we’re going to put tariffs on chips” as well as oil and gas, he continued: “That’ll happen fairly soon, I think around the 18th of February.” DeepSeek rattled Wall Street late last month by announcing it had gone live with its open source R1 model, one that it said rivaled the Model o1 of privately held OpenAI, the developer of ChatGPT. What especially shook investors was the prospect that China may have closed the tech gap with the United States in AI and especially DeepSeek’s claim that it developed an earlier model it launched in December, V3, for just $5.58 million—a far cry from the tens of billions and hundreds of billions of dollars that U.S. AI tech giants have committed toward expanding the technology. However, Palmer Luckey, co-founder of defense tech company Anduril Industries and co-founder of virtual reality company Oculus (acquired by Meta predecessor Facebook in 2017), dismissed that cost estimate as CCP [Chinese Communist Party] propaganda , telling Fox Business that much of DeepSeek’s infrastructure costs remain unknown because the company’s widely-quoted cost figure did not include full costs of V3 and R1, whose costs have not been disclosed. Analyst: DeepSeek lowballing expenses At least one analyst agreed that DeepSeek was publicly lowballing its expenses: “Did DeepSeek really ‘build OpenAI for $5M?’ Of course not,” Bernstein analyst Stacy Rasgon wrote in a research note as reported by Dow Jones , contending that the $5.58 million figure “does not include all the other costs associated with prior research and experiments on architectures, algorithms, or data,” though he added that the model was designed “to significantly reduce the cost to train and run, given that only a portion of the parameter set is active at any one time.” V3 is a 671-billion parameter, reinforcement learning-based general-purpose large language model with an emphasis on scale and efficiency, with key strengths that include excelling in problem-solving, mathematics, and logical reasoning, according to the Indian tech e"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_3pbM8BzxOuOr8evDGUGbBWUk",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"StockWatch: Whirlwind Week for Nvidia as Investors Weigh DeepSeek’s Impact\",\"keywords\":[\"DeepSeek-R1\",\"release\",\"open source\"],\"site\":\"gen\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_3pbM8BzxOuOr8evDGUGbBWUk",
+   "content": "It was a good meeting.” “Eventually, we’re going to put tariffs on chips” as well as oil and gas, he continued: “That’ll happen fairly soon, I think around the 18th of February.” DeepSeek rattled Wall Street late last month by announcing it had gone live with its open source R1 model, one that it said rivaled the Model o1 of privately held OpenAI, the developer of ChatGPT.\n“The release of DeepSeek AI from a Chinese company should be a wake-up call for our industries that we should be laser-focused on competing to win because we have the best scientists in the world.\nIf they’re true, it magnifies the already-known risk of an AI spending slowdown.” “Excellent AI advancement” Whatever the number and type, DeepSeek’s use of Nvidia GPUs may explain why Nvidia has rejected arguments that its dominance of AI hardware is threatened by the competitive challenge posed by DeepSeek-R1.\nConstraints compelled DeepSeek to find creative ways to deliver a “world-class solution in every respect at 10–50X lower costs.” Open source wins every time it is given a proper shot: “AI is much too important for our future to allow a closed ecosystem to ever emerge as the one and only in this space.” “The market reaction is wrong, lowering the cost of AI will expand the market."
+  },
+  {
+   "role": "assistant",
+   "content": "DeepSeek announced the release of its open-weight reasoning model DeepSeek-R1 in late January 2026. \n\nFINAL: January 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

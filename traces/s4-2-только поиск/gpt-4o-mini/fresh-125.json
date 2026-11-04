@@ -1,0 +1,200 @@
+{
+ "task": {
+  "id": "fresh-125",
+  "source": "fresh",
+  "question": "By what factor is RFdiffusion3 faster than RFdiffusion2 in computational time, according to a December 2025 GEN article?",
+  "answer": "ten-fold",
+  "evidence": "RFdiffusion3 exhibits ten-fold faster performance over RFdiffusion2, despite taking a more computationally intensive all-atom method.",
+  "page": "RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes",
+  "url": "https://www.genengnews.com/topics/artificial-intelligence/rfdiffusion3-now-open-source-designs-dna-binders-and-advanced-enzymes/",
+  "group": "ответ только в интернете"
+ },
+ "answer": "According to the article titled \"RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes,\" RFdiffusion3 exhibits a ten-fold faster performance over RFdiffusion2 in computational time. \n\nFINAL: 10-fold",
+ "seconds": 15.2,
+ "calls": [
+  {
+   "time": "2026-11-05T01:43:53",
+   "kind": "model",
+   "tag": "s4-2-только поиск",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "prompt": 620,
+   "completion": 27,
+   "cached": 0,
+   "cost": 0.0001092,
+   "seconds": 1.03,
+   "tools_offered": 5,
+   "tool_tax_tokens": 689,
+   "tool_calls": [
+    "gen_search"
+   ]
+  },
+  {
+   "time": "2026-11-05T01:43:58",
+   "kind": "model",
+   "tag": "s4-2-только поиск",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "prompt": 657,
+   "completion": 25,
+   "cached": 0,
+   "cost": 0.00011355,
+   "seconds": 0.93,
+   "tools_offered": 5,
+   "tool_tax_tokens": 689,
+   "tool_calls": [
+    "gen_search"
+   ]
+  },
+  {
+   "time": "2026-11-05T01:44:02",
+   "kind": "model",
+   "tag": "s4-2-только поиск",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "prompt": 692,
+   "completion": 21,
+   "cached": 0,
+   "cost": 0.0001164,
+   "seconds": 0.87,
+   "tools_offered": 5,
+   "tool_tax_tokens": 689,
+   "tool_calls": [
+    "gen_search"
+   ]
+  },
+  {
+   "time": "2026-11-05T01:44:07",
+   "kind": "model",
+   "tag": "s4-2-только поиск",
+   "qid": "fresh-125",
+   "model": "gpt-4o-mini",
+   "prompt": 1307,
+   "completion": 50,
+   "cached": 0,
+   "cost": 0.00022605,
+   "seconds": 1.25,
+   "tools_offered": 5,
+   "tool_tax_tokens": 689,
+   "tool_calls": []
+  }
+ ],
+ "embeds": [],
+ "tools": [
+  {
+   "time": "2026-11-05T01:43:57",
+   "kind": "tool",
+   "tag": "s4-2-только поиск",
+   "qid": "fresh-125",
+   "tool": "gen_search",
+   "arguments": "{\"query\":\"RFdiffusion3 faster than RFdiffusion2 December 2025\"}",
+   "ok": true,
+   "chars": 7,
+   "seconds": 3.51
+  },
+  {
+   "time": "2026-11-05T01:44:02",
+   "kind": "tool",
+   "tag": "s4-2-только поиск",
+   "qid": "fresh-125",
+   "tool": "gen_search",
+   "arguments": "{\"query\":\"RFdiffusion3 RFdiffusion2 December 2025\"}",
+   "ok": true,
+   "chars": 7,
+   "seconds": 3.82
+  },
+  {
+   "time": "2026-11-05T01:44:06",
+   "kind": "tool",
+   "tag": "s4-2-только поиск",
+   "qid": "fresh-125",
+   "tool": "gen_search",
+   "arguments": "{\"query\":\"RFdiffusion3 RFdiffusion2\"}",
+   "ok": true,
+   "chars": 3000,
+   "seconds": 3.7
+  }
+ ],
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events. Never answer from memory: look facts up with the tools, do not repeat the same call. Answer in the language of the question, write names as in the source. The last line must be FINAL: <short answer>, or FINAL: NOT_FOUND if the sources have no answer."
+  },
+  {
+   "role": "user",
+   "content": "By what factor is RFdiffusion3 faster than RFdiffusion2 in computational time, according to a December 2025 GEN article?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_kLxi2YpNyeXe12Yk7h2A97Be",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\":\"RFdiffusion3 faster than RFdiffusion2 December 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_kLxi2YpNyeXe12Yk7h2A97Be",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_zOspjVqLeXsgTvMIxpk2NN5a",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\":\"RFdiffusion3 RFdiffusion2 December 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_zOspjVqLeXsgTvMIxpk2NN5a",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_YNP1YeCNKlMRRpNP5TFPd9LQ",
+     "function": {
+      "name": "gen_search",
+      "arguments": "{\"query\":\"RFdiffusion3 RFdiffusion2\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_YNP1YeCNKlMRRpNP5TFPd9LQ",
+   "content": "[RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes] Researchers from the lab of Nobel laureate, David Baker, PhD, have now released RFdiffusion3 open source. The latest version of the de novo protein design model generates proteins that interact with any type of molecule, including DNA and small molecules with broad applications across sustainability and therapeutics. “We built this as a general model and are sharing it freely so the scientific community can create things we haven’t even imagined yet,” said Rohith Krishna, PhD, postdoctoral researcher in the Baker lab and co-lead author of the RFdiffusion3 bioRxiv preprint that has not been peer reviewed. The work shows experimental proof of concept for the design of proteins that recognize specific sequences of DNA, which serves as a foundation for synthetic transcription factors for gene therapy, and complex enzyme catalysis, which offers industry applications. Baker, who is the director of the Institute for Protein Design at the University of Washington (UW) and a Howard Hughes Medical Institute (HHMI) investigator, won the 2024 Nobel Prize in Chemistry for the design of novel proteins. RFdiffusion3 is one step closer to designing and understanding biological complexity, a challenge Baker recently described to GEN as one of the main obstacles to overcome for de novo design to transform medicine. RFdiffusion3 enters a growing ecosystem of protein design models that cover multiple modalities, such as BoltzGen , which was released in October. BoltzGen demonstrated generalizable therapeutic design in any format, including nanobodies, mini-binders, and disulfide-bonded peptides, and against any target across nucleic acids, small molecules, and both ordered and disordered proteins. Notably, BoltzGen designs binders only and does not generate catalytic enzymes as demonstrated by RFdiffusion 3. To achieve intricate chemical interactions with new precision, RFdiffusion3 treats individual atoms as the fundamental units being designed, a methodological advance from its predecessor, RFdiffusion2 , concurrently published in Nature Methods , which implements a hybrid atom and amino acid residue approach. In computational time, RFdiffusion3 exhibits ten-fold faster performance over RFdiffusion2, despite taking a more computationally intensive all-atom method. Krishna told GEN that the underlying intuition for RFdiffusion 3 was to give “more knobs for generality and controllability.” As an example, the model’s all-atom approach can allow the specification of a hydrogen bond to a particular atom, a level of precision that can greatly facilitate the construction complex reactions, such as enzyme catalysis. He also notes that RFdiffusion3 has limitations when designing against biomolecules not seen in the training set, such as non-canonical amino acids. Straight from the computer While RFdiffusion3’s open-source launch opens the door for a new wave of enzyme innovation across the community, "
+  },
+  {
+   "role": "assistant",
+   "content": "According to the article titled \"RFdiffusion3 Now Open Source, Designs DNA Binders and Advanced Enzymes,\" RFdiffusion3 exhibits a ten-fold faster performance over RFdiffusion2 in computational time. \n\nFINAL: 10-fold",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
