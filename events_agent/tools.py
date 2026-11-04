@@ -6,6 +6,7 @@
 import asyncio, concurrent.futures, hashlib, json, os, threading, time
 from mcp import Client
 from . import config
+from . import hooks
 from .llm import JOURNAL
 
 PINS = config.ROOT / "mcp_pins.json"
@@ -89,16 +90,23 @@ class Toolbox:
         check_pins(mcp.tools, "fresh-knowledge")
         self.mcp, self.allowed, self.limit = mcp, ROLES[role], limit
         self.schemas = as_openai_tools(mcp.tools, self.allowed)
+        self.before_hook, self.after_hook = hooks.before_tool, hooks.after_tool
+        self.tax_tokens = max(1, len(json.dumps(self.schemas, ensure_ascii=False)) // 4)
 
     def run(self, call):
         name, started = call["function"]["name"], time.perf_counter()
         try:
             if name not in self.allowed:                        # модель может назвать инструмент, которого ей не давали
                 raise KeyError("инструмент не разрешён")
-            result, ok = self.mcp.call(name, json.loads(call["function"]["arguments"] or "{}"))
+            args = json.loads(call["function"]["arguments"] or "{}")
+            before = getattr(self, "before_hook", hooks.before_tool)
+            after = getattr(self, "after_hook", hooks.after_tool)
+            args = before(name, args)
+            result, ok = self.mcp.call(name, args)
+            result = after(name, result, self.limit)
         except Exception as e:
             result, ok = str(e), False
-        content = (result if ok else f"НЕ удалось вызвать инструмент {name}: {result}")[:self.limit]
+        content = result if ok else f"НЕ удалось вызвать инструмент {name}: {result}"
         JOURNAL.add("tool", tool=name, arguments=call["function"]["arguments"], ok=ok, chars=len(content),
                     seconds=round(time.perf_counter() - started, 2))
         return {"role": "tool", "tool_call_id": call["id"], "content": content}

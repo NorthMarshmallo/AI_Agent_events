@@ -70,5 +70,5 @@ def test_rejects_tool_not_in_allowlist(echo):
 
 def test_tool_error_reaches_the_model(echo):
     out = echo.run(call("web_search", {"query": ""}))
-    assert out["content"].startswith("НЕ удалось вызвать инструмент web_search") and "empty query" in out["content"]
+    assert out["content"].startswith("НЕ удалось вызвать инструмент web_search") and "пустым" in out["content"]
     assert not JOURNAL.calls[-1]["ok"]

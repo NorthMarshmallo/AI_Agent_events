@@ -21,7 +21,8 @@ def ask(args):
         mcp.close()
     calls, embeds = JOURNAL.of(None), JOURNAL.of(None, "embed")
     print(final_answer(answer))
-    print(f"\nвызовов модели: {len(calls)}, цена: {sum(c['cost'] for c in calls + embeds) * 100:.4f} цента, журнал: {path}")
+    spent = sum(c["cost"] for c in calls + embeds) * 100
+    print(f"\nвызовов модели: {len(calls)}, цена: {spent:.4f} цента, за день: {JOURNAL.spent_today():.4f} цента, журнал: {path}")
 
 
 def run_eval(args):

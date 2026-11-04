@@ -68,11 +68,13 @@ def row(variant, model, traces):
     embeds = [c for t in traces for c in t.get("embeds", [])]
     cost = sum(t["cost"] for t in traces) if not known else sum(c["cost"] for c in calls + embeds)
     prompt = sum(c["prompt"] for c in calls)
+    tool_tax = sum(c.get("tool_tax_tokens", 0) for c in calls)
     seconds = [t["seconds"] for t in traces if t["seconds"] is not None]
     return {"вариант": variant, "модель": model.split("/")[-1], "верно": f"{sum(ok)}/{n}", "доля верных": round(sum(ok) / n, 3), **by_group,
             "вызовов на задачу": round(len(calls) / n, 1) if known else 1.0,
             "токенов на задачу": round((prompt + sum(c["completion"] for c in calls)) / n) if known else None,
             "доля входа из кэша": round(sum(c.get("cached", 0) for c in calls) / prompt, 3) if known and prompt else None,
+            "налог инструментов, токенов": round(tool_tax / n) if known else None,
             "центов на задачу": round(cost / n * 100, 4), "центов за верный": round(cost / sum(ok) * 100, 4) if sum(ok) else None,
             "задержка, с": round(statistics.mean(seconds), 1) if len(seconds) == n else None}
 
